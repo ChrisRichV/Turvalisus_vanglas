@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="et">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seaduste register – Õppeleht</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Source+Serif+4:opsz,wght@8..60,300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/stiil.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23f2c230'/%3E%3Ctext x='16' y='24' font-size='22' text-anchor='middle' font-family='Georgia' fill='%231c2733'%3E§%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<header class="ylariba" id="ylariba"></header>
+
+<main>
+  <header class="aine-pais">
+    <div class="murupuru"><a href="index.html">Avaleht</a> / seaduste register</div>
+    <h1>Seaduste register</h1>
+    <p>Kõik sätted, millele lehel viidatakse – ja millises aines ning teemas neid kasutatakse. Nii näed, kus ained kattuvad, aga õpid iga ainet eraldi. Klikk sättel avab selle teksti.</p>
+  </header>
+
+  <div class="reg-filtrid">
+    <input id="otsi" type="search" placeholder="Otsi akti või sätet, nt VangS, § 29, EIÕK art 8" aria-label="Otsi akti või sätet" autocomplete="off">
+    <div id="ainefilter" role="group" aria-label="Aine"></div>
+  </div>
+
+  <div class="register" id="register"><p class="tyhi">Laen registrit…</p></div>
+</main>
+
+<footer class="jalus">
+  <p>Seaduste ja lepingute tekstid: Riigi Teataja, EUR-Lex, ÜRO – muutmata kujul.</p>
+</footer>
+
+<script src="assets/seadistus.js"></script>
+<script src="assets/app.js"></script>
+<script src="assets/skeemid.js"></script>
+<script>
+(function () {
+  const A = window.APP;
+  A.kaivita({ leht: "seadused" });
+  const $ = (id) => document.getElementById(id);
+  const REF = /\[\[([^\]|]+)(?:\|[^\]]+)?\]\]/g;
+  let aktiivneAine = "koik";
+
+  // kogu teemast kõik viited (tekstis ja viite-väljadel)
+  function viited(o, out) {
+    if (Array.isArray(o)) o.forEach((x) => viited(x, out));
+    else if (o && typeof o === "object") {
+      for (const [k, v] of Object.entries(o)) {
+        if (k.startsWith("_")) continue;
+        if (k === "viide" && typeof v === "string") out.add(v);
+        else if ((k === "viited" || k === "seos") && Array.isArray(v)) v.forEach((x) => out.add(x));
+        else if (k === "tsitaat") continue;
+        else viited(v, out);
+      }
+    } else if (typeof o === "string") { let m; while ((m = REF.exec(o))) out.add(m[1]); REF.lastIndex = 0; }
+    return out;
+  }
+
+  const sorteeri = (a, b) => {
+    const n = (s) => s.split("^").map(Number);
+    const [x1, x2 = 0] = n(a), [y1, y2 = 0] = n(b);
+    return x1 - y1 || x2 - y2;
+  };
+
+  A.andmed().then(({ tunnid, seadused }) => A.koikTeemadT().then((teemad) => {
+    const aineNimi = {}; tunnid.ained.forEach((a) => (aineNimi[a.id] = a.lyhend));
+    // säte -> [teemad]
+    const reg = {};
+    teemad.forEach((t) => {
+      viited(t, new Set()).forEach((r) => {
+        const x = A.parseRef(r); if (!x) return;
+        (reg[x.voti] = reg[x.voti] || new Map()).set(t.id, t);
+      });
+    });
+    // akt -> sätted
+    const aktid = {};
+    Object.keys(reg).forEach((voti) => {
+      const s = seadused.satted[voti]; if (!s) return;
+      (aktid[s.akt] = aktid[s.akt] || []).push({ voti, nr: s.nr });
+    });
+    const jarjekord = Object.keys(aktid).sort((a, b) => aktid[b].length - aktid[a].length || a.localeCompare(b, "et"));
+
+    const kasutatudAined = tunnid.ained.filter((a) => teemad.some((t) => t._aine === a.id));
+    $("ainefilter").innerHTML = `<button type="button" data-aine="koik" aria-pressed="true">Kõik ained</button>` +
+      kasutatudAined.map((a) => `<button type="button" data-aine="${a.id}" aria-pressed="false">${A.esc(a.lyhend)}</button>`).join("");
+
+    function joonista() {
+      const q = $("otsi").value.trim().toLowerCase();
+      const html = jarjekord.map((akt) => {
+        const m = seadused.aktid[akt] || {};
+        const read = aktid[akt].sort((a, b) => sorteeri(a.nr, b.nr)).map(({ voti }) => {
+          let tt = [...reg[voti].values()];
+          if (aktiivneAine !== "koik") tt = tt.filter((t) => t._aine === aktiivneAine);
+          if (!tt.length) return "";
+          const otsitav = (voti + " " + (m.pealkiri || "") + " " + (seadused.satted[voti].read[0] || "")).toLowerCase();
+          if (q && !otsitav.includes(q)) return "";
+          return `<div class="reg-rida"><div>${A.refNupp(voti)}</div><div class="reg-teemad">${tt.map((t) =>
+            `<a href="teema.html?id=${t.id}"><span class="ainesilt">${A.esc(aineNimi[t._aine] || "")}</span>${A.esc(t.pealkiri)}</a>`).join("")}</div></div>`;
+        }).join("");
+        if (!read) return "";
+        const n = (read.match(/class="reg-rida"/g) || []).length;
+        return `<details class="reg-akt"${q ? " open" : ""}><summary>${A.esc(akt)} <small>${A.esc(m.pealkiri || "")} · ${n} sätet</small></summary>${read}</details>`;
+      }).join("");
+      $("register").innerHTML = html || `<p class="tyhi">Selle valikuga sätteid ei leitud.</p>`;
+    }
+    $("otsi").addEventListener("input", joonista);
+    $("ainefilter").addEventListener("click", (e) => {
+      const b = e.target.closest("button[data-aine]"); if (!b) return;
+      aktiivneAine = b.dataset.aine;
+      $("ainefilter").querySelectorAll("button").forEach((x) => x.setAttribute("aria-pressed", x === b));
+      joonista();
+    });
+    joonista();
+  })).catch((e) => A.viga($("register"), e));
+})();
+</script>
+</body>
+</html>

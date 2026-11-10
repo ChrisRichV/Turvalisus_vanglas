@@ -1,6 +1,6 @@
 # CLAUDE.md – Turvalisus vanglas õppeleht
 
-Staatiline õppeleht (GitHub Pages) tundide kaupa. Sisu on JSON-is, seaduste tekst genereeritakse
+Staatiline õppeleht (GitHub Pages): **aine → tund → teema** (ained: `inimoigused`, `psuhholoogia`, `oigus`). Sisu on JSON-is, seaduste tekst genereeritakse
 ametlikest tekstifailidest. **Täielik arendusjuhend: [`README-projekt.md`](README-projekt.md) – loe enne muudatusi.**
 
 ## Kõvad reeglid
@@ -23,5 +23,5 @@ python3 -m http.server 8000                                               # eelv
 Materjal on kasutaja arvutis `Desktop\Ruth tunnid` (sisukord `00_SISUKORD.md`); too failid tööalale enne ehitust.
 
 ## Uus tund (lühidalt)
-teemade nimekiri → kasutaja kinnitus → `data/tunnid.json` → `teemad/tNN-MM-*.json` → (uus akt: `tools/seadused.py` `ACTS`)
+õige aine kaust (`Ruth_opetaja_tunni_failid/<Aine>/`) → teemade nimekiri → kasutaja kinnitus → `data/tunnid.json` (õige `aine`, id-d `ps-t01…`, `o-t01…`) → `teemad/tNN-MM-*.json` → (uus akt: `tools/seadused.py` `ACTS`)
 → `ehita.py` OK → brauseris 390 px ja 1280 px → haru + PR. Uuenda ka `Ruth tunnid/00_SISUKORD.md`.

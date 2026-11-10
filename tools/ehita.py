@@ -61,6 +61,19 @@ def walk(o, path, refs, terms, quotes):
 tunnid = json.load(open(os.path.join(REPO, "data/tunnid.json"), encoding="utf-8"))
 terminid = json.load(open(os.path.join(REPO, "data/terminid.json"), encoding="utf-8"))
 refs, terms, quotes = [], [], []
+# --- ained ja id-de unikaalsus
+aine_idd = {a["id"] for a in tunnid.get("ained", [])}
+naha_tund, naha_teema = set(), set()
+for t in tunnid["tunnid"]:
+    if t.get("aine") not in aine_idd:
+        vead.append(f"tund {t['id']}: tundmatu aine '{t.get('aine')}'")
+    if t["id"] in naha_tund:
+        vead.append(f"tunni id kordub: {t['id']}")
+    naha_tund.add(t["id"])
+    for tm in t["teemad"]:
+        if tm["id"] in naha_teema:
+            vead.append(f"teema id kordub: {tm['id']}")
+        naha_teema.add(tm["id"])
 teema_failid = []
 for t in tunnid["tunnid"]:
     for tm in t["teemad"]:

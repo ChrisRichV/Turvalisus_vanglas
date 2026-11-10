@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Teema – Turvalisus vanglas</title>
+<title>Teema – Õppeleht</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Source+Serif+4:opsz,wght@8..60,300..700&display=swap" rel="stylesheet">
@@ -11,14 +11,7 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23f2c230'/%3E%3Ctext x='16' y='24' font-size='22' text-anchor='middle' font-family='Georgia' fill='%231c2733'%3E§%3C/text%3E%3C/svg%3E">
 </head>
 <body>
-<header class="ylariba">
-  <a class="logo" href="index.html"><b>§</b> Turvalisus vanglas</a>
-  <nav>
-    <a href="index.html">Tunnid</a>
-    <a href="kordamine.html">Kordamine</a>
-    <button type="button" class="teemanupp">Tume</button>
-  </nav>
-</header>
+<header class="ylariba" id="ylariba"></header>
 
 <main id="leht"><p class="vahe tyhi" style="margin-top:2rem">Laen teemat…</p></main>
 
@@ -32,7 +25,6 @@
 <script>
 (function () {
   const A = window.APP;
-  A.kaivita();
   const leht = document.getElementById("leht");
   const id = new URLSearchParams(location.search).get("id");
   const li = (x) => `<li>${A.md(x)}</li>`;
@@ -41,14 +33,17 @@
   A.andmed().then(({ tunnid }) => {
     let tund = null, kirje = null, jrj = [];
     tunnid.tunnid.forEach((t) => t.teemad.forEach((tm) => { jrj.push(tm); if (tm.id === id) { tund = t; kirje = tm; } }));
+    A.kaivita({ leht: "teema", aine: tund && tund.aine, tund: tund && tund.id, teema: id });
     if (!kirje) { leht.innerHTML = `<div class="vahe" style="padding-top:2rem"><h1>Teemat ei leitud</h1><p><a href="index.html">Tagasi tundide juurde</a></p></div>`; return; }
     const i = jrj.indexOf(kirje);
     return Promise.all([A.lae(kirje.fail), jrj[i - 1] ? A.lae(jrj[i - 1].fail) : null, jrj[i + 1] ? A.lae(jrj[i + 1].fail) : null])
       .then(([t, eel, jar]) => joonista(t, tund, eel, jar));
-  }).catch((e) => A.viga(leht, e));
+  }).catch((e) => { A.kaivita({ leht: "teema" }); A.viga(leht, e); });
 
   function joonista(t, tund, eel, jar) {
-    document.title = `${t.pealkiri} – Turvalisus vanglas`;
+    document.title = `${t.pealkiri} – Õppeleht`;
+    const aine = (A.tunnid.ained || []).find((a) => a.id === tund.aine) || { id: "", nimi: "", lyhend: "" };
+    A.salvestaViimati({ id: t.id, pealkiri: t.pealkiri, aine: aine.lyhend });
     const o = t.osad;
     const osad = [
       { id: "pohimote", nimi: o.pohimote.pealkiri || "Mis see on", html: () =>
@@ -90,7 +85,7 @@
 
     leht.innerHTML = `
       <header class="teema-pais">
-        <div class="murupuru"><a href="index.html">Tund ${tund.nr}: ${A.esc(tund.pealkiri)}</a> / teema ${t.jrk}</div>
+        <div class="murupuru"><a href="index.html">Avaleht</a> / <a href="aine.html?id=${aine.id}">${A.esc(aine.nimi)}</a> / tund ${tund.nr}: ${A.esc(tund.pealkiri)} / teema ${t.jrk}</div>
         <h1>${A.esc(t.pealkiri)}</h1>
         <p class="lyhidalt">${A.md(t.lyhidalt)}</p>
         <div class="nupurida">${naiteNupp(t, "Päris näide")}

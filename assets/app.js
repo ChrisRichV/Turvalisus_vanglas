@@ -168,13 +168,95 @@
     if (!lipik.hidden && !lipik.contains(e.target)) A.sulge();
   }
 
-  A.kaivita = function () {
+  /* ---------- ühine päis + sisukorra sahtel ---------- */
+  // leht: "avaleht" | "aine" | "teema" | "kordamine" | "seadused"; aine: aktiivse aine id
+  function ehitaPais(o) {
+    const h = document.getElementById("ylariba");
+    if (!h) return;
+    h.innerHTML = `<button type="button" class="sisukorranupp" aria-controls="sahtel" aria-expanded="false"><span aria-hidden="true">☰</span> Sisukord</button>
+      <a class="logo" href="index.html"><b>§</b> Õppeleht</a>
+      <nav class="peamenyy" aria-label="Peamenüü"></nav>
+      <button type="button" class="teemanupp">Tume</button>`;
+    A.lae("data/tunnid.json").then((d) => {
+      const lingid = d.ained.map((a) => `<a href="aine.html?id=${a.id}"${o.aine === a.id ? ' aria-current="page"' : ""}>${esc(a.lyhend)}</a>`);
+      lingid.push(`<a href="kordamine.html"${o.leht === "kordamine" ? ' aria-current="page"' : ""}>Kordamine</a>`);
+      lingid.push(`<a href="seadused.html"${o.leht === "seadused" ? ' aria-current="page"' : ""}>Seadused</a>`);
+      h.querySelector(".peamenyy").innerHTML = lingid.join("");
+    }).catch(() => {});
+    h.querySelector(".sisukorranupp").addEventListener("click", () => A.avaSahtel(o));
+  }
+
+  let sahtel = null, sahtliAvaja = null;
+  A.avaSahtel = function (o) {
+    sahtliAvaja = document.querySelector(".sisukorranupp");
+    if (!sahtel) {
+      sahtel = document.createElement("div");
+      sahtel.className = "sahtli-taust"; sahtel.hidden = true;
+      sahtel.innerHTML = `<aside class="sahtel" id="sahtel" role="dialog" aria-modal="true" aria-label="Sisukord" tabindex="-1">
+        <div class="s-pais"><strong>Sisukord</strong><button type="button" class="sulge" aria-label="Sulge sisukord">×</button></div>
+        <input type="search" class="s-otsi" placeholder="Otsi teemat kõigist ainetest" aria-label="Otsi teemat kõigist ainetest">
+        <div class="s-sisu"><p class="tyhi">Laen…</p></div></aside>`;
+      document.body.appendChild(sahtel);
+      sahtel.addEventListener("click", (e) => { if (e.target === sahtel || e.target.closest(".sulge")) A.sulgeSahtel(); });
+      sahtel.querySelector(".s-otsi").addEventListener("input", (e) => {
+        const q = e.target.value.trim().toLowerCase();
+        sahtel.querySelectorAll(".s-teema").forEach((li) => li.classList.toggle("peidetud", !!q && !li.textContent.toLowerCase().includes(q)));
+        sahtel.querySelectorAll("details.s-aine, details.s-tund").forEach((d) => { if (q) d.open = true; });
+      });
+      Promise.all([A.lae("data/tunnid.json"), A.koikTeemadT()]).then(([d, teemad]) => {
+        const kaart = {}; teemad.forEach((t) => (kaart[t.id] = t));
+        const html = d.ained.map((a) => {
+          const tunnid = d.tunnid.filter((t) => t.aine === a.id);
+          const tHtml = tunnid.map((t) => {
+            if (t.olek !== "valmis") return `<li class="s-tulemas">${t.nr}. ${esc(t.pealkiri)} – tulemas</li>`;
+            return `<li><details class="s-tund" ${o.tund === t.id ? "open" : ""}><summary>${t.nr}. ${esc(t.pealkiri)}</summary><ol>${
+              t.teemad.map((tm) => { const x = kaart[tm.id]; return x ? `<li class="s-teema"><a href="teema.html?id=${x.id}"${o.teema === x.id ? ' aria-current="page"' : ""}>${esc(x.pealkiri)}</a></li>` : ""; }).join("")}</ol></details></li>`;
+          }).join("");
+          return `<details class="s-aine" ${!o.aine || o.aine === a.id ? "open" : ""}><summary>${esc(a.nimi)}</summary>
+            <p class="s-ainelink"><a href="aine.html?id=${a.id}">Aine avaleht</a>${tunnid.some((t) => t.olek === "valmis") ? ` · <a href="kordamine.html?aine=${a.id}">Korda ainet</a>` : ""}</p><ul>${tHtml}</ul></details>`;
+        }).join("");
+        sahtel.querySelector(".s-sisu").innerHTML = html + `<div class="s-yld"><a href="index.html">Avaleht</a><a href="kordamine.html">Kordamine</a><a href="seadused.html">Seaduste register</a><a href="index.html#sonastik">Sõnastik</a></div>`;
+      }).catch(() => { sahtel.querySelector(".s-sisu").innerHTML = `<p class="teade viga">Sisukorda ei õnnestunud laadida.</p>`; });
+    }
+    sahtel.hidden = false; document.body.style.overflow = "hidden";
+    if (sahtliAvaja) sahtliAvaja.setAttribute("aria-expanded", "true");
+    sahtel.querySelector(".sahtel").focus();
+  };
+  A.sulgeSahtel = function () {
+    if (!sahtel || sahtel.hidden) return false;
+    sahtel.hidden = true; document.body.style.overflow = "";
+    if (sahtliAvaja) { sahtliAvaja.setAttribute("aria-expanded", "false"); sahtliAvaja.focus(); }
+    return true;
+  };
+
+  // kõik teemad koos tunni ja aine infoga
+  A.koikTeemadT = function () {
+    return A.lae("data/tunnid.json").then((d) => {
+      const kirjed = [];
+      d.tunnid.forEach((t) => t.teemad.forEach((tm) => kirjed.push({ t, tm })));
+      return Promise.all(kirjed.map((k) => A.lae(k.tm.fail).then((x) => Object.assign({}, x, { _tund: k.t, _aine: k.t.aine }))));
+    });
+  };
+
+  /* viimati vaadatud (ainult selles brauseris) */
+  A.salvestaViimati = function (kirje) {
+    try {
+      let l = JSON.parse(localStorage.getItem("viimati") || "[]").filter((x) => x.id !== kirje.id);
+      l.unshift(kirje); localStorage.setItem("viimati", JSON.stringify(l.slice(0, 5)));
+    } catch (_) { /* pole oluline */ }
+  };
+  A.viimati = function () { try { return JSON.parse(localStorage.getItem("viimati") || "[]"); } catch (_) { return []; } };
+
+  A.kaivita = function (o) {
+    o = o || {};
+    ehitaPais(o);
     looLipik();
     document.addEventListener("click", klikk);
     document.addEventListener("keydown", (e) => {
       if (e.key !== "Escape") return;
       if (lipik && !lipik.hidden) return A.sulge();
-      A.sulgeNaide();
+      if (A.sulgeNaide()) return;
+      A.sulgeSahtel();
     });
     window.addEventListener("resize", () => { if (avaja && !lipik.hidden) paiguta(avaja); });
     const nupp = document.querySelector(".teemanupp");

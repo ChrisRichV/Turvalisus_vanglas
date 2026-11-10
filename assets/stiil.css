@@ -535,3 +535,98 @@ main { padding: 0 1rem 4rem; }
 @media (prefers-reduced-motion: no-preference) {
   .naite-taust:not([hidden]) .naite-aken { animation: lipik-sisse .16s ease-out; }
 }
+
+/* =========================================================
+   Päis, peamenüü ja sisukorra sahtel
+   ========================================================= */
+.ylariba { position: sticky; top: 0; z-index: 40; background: var(--paber); }
+.ylariba .logo { margin-right: auto; }
+.peamenyy { display: flex; gap: .2rem; align-items: center; flex-wrap: nowrap; }
+.peamenyy a { text-decoration: none; color: var(--mahe); padding: .35rem .6rem; border-radius: var(--raadius); white-space: nowrap; }
+.peamenyy a:hover { color: var(--tint); background: var(--pind); }
+.peamenyy a[aria-current="page"] { color: var(--marker); box-shadow: inset 0 -2px 0 var(--marker); }
+.sisukorranupp {
+  display: inline-flex; align-items: center; gap: .4rem; cursor: pointer;
+  border: 1px solid var(--joon); background: var(--pind); color: var(--tint);
+  border-radius: var(--raadius); padding: .35rem .7rem; font-family: var(--kiri-pealkiri); font-weight: 600; font-size: .9rem;
+}
+.sisukorranupp:hover { border-color: var(--marker); }
+@media (max-width: 860px) { .ylariba .peamenyy { display: none; } }
+@media (max-width: 420px) { .ylariba .logo { font-size: .85rem; } }
+
+.sahtli-taust { position: fixed; inset: 0; z-index: 80; background: rgba(5, 8, 12, .6); }
+.sahtli-taust[hidden] { display: none; }
+.sahtel {
+  position: absolute; top: 0; left: 0; bottom: 0; width: min(24rem, 92vw); overflow: auto;
+  background: var(--pind); border-right: 1px solid var(--joon); padding: 1rem 1rem 2rem;
+  font-family: var(--kiri-pealkiri);
+}
+:root:not([data-theme="light"]) .sahtel { box-shadow: 0 0 40px -10px rgba(255, 225, 74, .35); }
+.sahtel .s-pais { display: flex; justify-content: space-between; align-items: center; margin-bottom: .6rem; font-size: 1.1rem; }
+.sahtel .sulge { border: 0; background: transparent; font-size: 1.6rem; line-height: 1; cursor: pointer; color: var(--mahe); }
+.sahtel .s-otsi { width: 100%; font: inherit; padding: .5rem .65rem; border: 1px solid var(--joon); border-radius: var(--raadius); background: var(--paber); color: var(--tint); margin-bottom: .8rem; }
+.sahtel details.s-aine { border-top: 1px solid var(--joon); padding: .55rem 0; }
+.sahtel details.s-aine > summary { cursor: pointer; font-weight: 750; font-size: 1.02rem; }
+.sahtel details[open].s-aine > summary { color: var(--marker); }
+.sahtel .s-ainelink { margin: .35rem 0 .2rem; font-size: .85rem; color: var(--mahe); }
+.sahtel .s-ainelink a { color: var(--mahe); }
+.sahtel ul, .sahtel ol { list-style: none; margin: 0; padding: 0 0 0 .6rem; }
+.sahtel details.s-tund > summary { cursor: pointer; padding: .3rem 0; font-weight: 600; font-size: .95rem; }
+.sahtel .s-teema a { display: block; padding: .28rem .5rem; text-decoration: none; color: var(--mahe); border-left: 2px solid var(--joon); font-size: .92rem; }
+.sahtel .s-teema a:hover { color: var(--tint); border-left-color: var(--marker); }
+.sahtel .s-teema a[aria-current="page"] { color: var(--marker); border-left-color: var(--marker); }
+.sahtel .s-tulemas { color: var(--mahe); font-size: .9rem; padding: .3rem 0; font-style: italic; }
+.sahtel .s-yld { display: grid; gap: .1rem; margin-top: .8rem; padding-top: .8rem; border-top: 1px solid var(--joon); }
+.sahtel .s-yld a { text-decoration: none; padding: .35rem .2rem; color: var(--tint); }
+
+/* ---------- töölaud (avaleht) ---------- */
+.ained { max-width: 72rem; margin: 2rem auto 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr)); gap: 1rem; }
+.ainekaart {
+  display: grid; grid-template-rows: auto auto 1fr auto; gap: .4rem;
+  border: 1px solid var(--joon); border-radius: 10px; background: var(--pind); padding: 1.1rem 1.15rem;
+  text-decoration: none; color: inherit;
+}
+.ainekaart:hover { border-color: var(--marker); }
+:root:not([data-theme="light"]) .ainekaart:hover { box-shadow: 0 0 26px -10px rgba(255, 225, 74, .55); }
+.ainekaart .a-kood { font-family: var(--kiri-pealkiri); font-size: .8rem; color: var(--mahe); }
+.ainekaart h2 { font-family: var(--kiri-pealkiri); font-stretch: 110%; font-size: 1.35rem; line-height: 1.15; margin: 0; }
+.ainekaart p { margin: 0; color: var(--mahe); font-size: .95rem; }
+.ainekaart .a-seis { font-family: var(--kiri-pealkiri); font-size: .88rem; display: flex; gap: .9rem; flex-wrap: wrap; margin-top: .4rem; }
+.ainekaart .a-seis b { color: var(--marker); }
+.ainekaart.tyhi-aine .a-seis b { color: var(--mahe); }
+.kiirlingid { max-width: 72rem; margin: 1.5rem auto 0; display: flex; flex-wrap: wrap; gap: .6rem; }
+.kiirlingid a { text-decoration: none; font-family: var(--kiri-pealkiri); font-weight: 600; border: 1px solid var(--joon); border-radius: 999px; padding: .4rem .9rem; }
+.kiirlingid a:hover { border-color: var(--marker); color: var(--marker); }
+.viimati { max-width: 72rem; margin: 2rem auto 0; }
+.viimati h2, .koik-otsing h2 { font-family: var(--kiri-pealkiri); font-size: 1.1rem; margin: 0 0 .5rem; }
+.viimati ul { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: .5rem; }
+.viimati a { display: inline-block; text-decoration: none; padding: .45rem .8rem; border-radius: var(--raadius); background: var(--pind); border: 1px solid var(--joon); font-family: var(--kiri-pealkiri); font-size: .92rem; }
+.viimati a small { color: var(--mahe); display: block; font-size: .78rem; }
+.koik-otsing { max-width: 72rem; margin: 2.5rem auto 0; }
+.otsingutulemused { list-style: none; padding: 0; margin: .5rem 0 0; }
+.otsingutulemused a { display: grid; grid-template-columns: auto 1fr; gap: .2rem .8rem; text-decoration: none; padding: .6rem .25rem; border-bottom: 1px solid var(--joon); }
+.ainesilt { font-family: var(--kiri-pealkiri); font-size: .75rem; font-weight: 700; padding: .1rem .45rem; border: 1px solid var(--joon); border-radius: 999px; color: var(--mahe); align-self: start; white-space: nowrap; }
+.aine-pais { max-width: 72rem; margin: 0 auto; padding: 2rem 0 1rem; border-bottom: 1px solid var(--joon); }
+.aine-pais h1 { font-family: var(--kiri-pealkiri); font-stretch: 115%; font-weight: 800; font-size: clamp(2rem, 5.5vw, 3.4rem); line-height: 1; margin: .4rem 0 .6rem; }
+.aine-pais p { margin: 0; color: var(--mahe); max-width: var(--veerg); }
+.ainetabs { display: flex; gap: .4rem; flex-wrap: wrap; margin-top: 1rem; }
+.ainetabs a { text-decoration: none; font-family: var(--kiri-pealkiri); font-weight: 600; font-size: .9rem; border: 1px solid var(--joon); border-radius: var(--raadius); padding: .35rem .75rem; color: var(--mahe); }
+.ainetabs a[aria-current="page"] { border-color: var(--marker); color: var(--marker); }
+.tyhi-paneel { max-width: 72rem; margin: 2rem auto 0; border: 1px dashed var(--joon); border-radius: 10px; padding: 1.5rem; color: var(--mahe); }
+
+/* ---------- seaduste register ---------- */
+.reg-filtrid { max-width: 72rem; margin: 1.25rem auto 0; display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; }
+.reg-filtrid input { flex: 1 1 16rem; min-width: 0; font: inherit; padding: .55rem .75rem; border: 1px solid var(--joon); border-radius: var(--raadius); background: var(--pind); color: var(--tint); }
+.reg-filtrid button { font-family: var(--kiri-pealkiri); font-weight: 600; font-size: .88rem; border: 1px solid var(--joon); background: transparent; color: var(--mahe); border-radius: 999px; padding: .35rem .8rem; cursor: pointer; }
+.reg-filtrid button[aria-pressed="true"] { border-color: var(--marker); color: var(--marker); }
+.register { max-width: 72rem; margin: 1.5rem auto 0; }
+.reg-akt { border-top: 1px solid var(--joon); padding: .6rem 0; }
+.reg-akt > summary { cursor: pointer; font-family: var(--kiri-pealkiri); font-weight: 700; font-size: 1.05rem; display: flex; gap: .7rem; align-items: baseline; flex-wrap: wrap; }
+.reg-akt > summary small { color: var(--mahe); font-weight: 500; }
+.reg-rida { display: grid; grid-template-columns: 9rem 1fr; gap: .3rem 1rem; padding: .5rem 0 .5rem .5rem; border-bottom: 1px dashed var(--joon); }
+.reg-rida:last-child { border-bottom: 0; }
+.reg-teemad { display: flex; flex-wrap: wrap; gap: .35rem .9rem; font-size: .92rem; }
+.reg-teemad a { text-decoration: none; }
+.reg-teemad a:hover { color: var(--marker); }
+.reg-teemad .ainesilt { margin-right: .3rem; }
+@media (max-width: 640px) { .reg-rida { grid-template-columns: 1fr; } }

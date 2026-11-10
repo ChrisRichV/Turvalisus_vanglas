@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="et">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aine – Õppeleht</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Source+Serif+4:opsz,wght@8..60,300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/stiil.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23f2c230'/%3E%3Ctext x='16' y='24' font-size='22' text-anchor='middle' font-family='Georgia' fill='%231c2733'%3E§%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<header class="ylariba" id="ylariba"></header>
+
+<main id="leht"><p class="vahe tyhi" style="margin-top:2rem">Laen ainet…</p></main>
+
+<footer class="jalus">
+  <p>Seaduste ja lepingute tekstid: Riigi Teataja, EUR-Lex, ÜRO – muutmata kujul. Selgitused on õppimiseks ega asenda ametlikku teksti.</p>
+  <p>Leidsid vea? Ava teema ja kasuta lõpus olevat „Teata veast” vormi.</p>
+</footer>
+
+<script src="assets/seadistus.js"></script>
+<script src="assets/app.js"></script>
+<script src="assets/skeemid.js"></script>
+<script>
+(function () {
+  const A = window.APP;
+  const aineId = new URLSearchParams(location.search).get("id") || "inimoigused";
+  A.kaivita({ leht: "aine", aine: aineId });
+  const leht = document.getElementById("leht");
+  const kuup = (s) => s ? new Date(s + "T12:00:00").toLocaleDateString("et-EE", { day: "numeric", month: "long", year: "numeric" }) : "";
+
+  A.andmed().then(({ tunnid }) => {
+    const aine = tunnid.ained.find((a) => a.id === aineId);
+    if (!aine) { leht.innerHTML = `<div class="vahe" style="padding-top:2rem"><h1>Ainet ei leitud</h1><p><a href="index.html">Tagasi avalehele</a></p></div>`; return; }
+    document.title = `${aine.nimi} – Õppeleht`;
+    const aineTunnid = tunnid.tunnid.filter((t) => t.aine === aineId);
+    const valmis = aineTunnid.filter((t) => t.olek === "valmis");
+    const tabs = tunnid.ained.map((a) => `<a href="aine.html?id=${a.id}"${a.id === aineId ? ' aria-current="page"' : ""}>${A.esc(a.lyhend)}</a>`).join("");
+
+    return A.koikTeemadT().then((teemad) => {
+      const kaart = {}; teemad.forEach((t) => (kaart[t.id] = t));
+      const tunnidHtml = aineTunnid.map((t) => {
+        if (t.olek !== "valmis") {
+          return `<section class="tund tulemas" aria-label="Tund ${t.nr}"><div class="tund-info"><div class="nr">${t.nr}</div><h2>${A.esc(t.pealkiri)}</h2></div>
+            <div class="tund-sisu">${A.esc(t.kirjeldus)}</div></section>`;
+        }
+        const plokid = t.plokid.map((p) => `<div class="plokk"><h3>${A.esc(p.pealkiri)}</h3><ul class="teemad">${
+          p.teemad.map((id) => {
+            const tm = kaart[id]; if (!tm) return "";
+            const otsitav = [tm.pealkiri, tm.lyhidalt, JSON.stringify(tm.osad)].join(" ").toLowerCase();
+            const k = tm.kysimused.length > 1 ? `küsimused ${tm.kysimused[0]}–${tm.kysimused[tm.kysimused.length - 1]}` : `küsimus ${tm.kysimused[0]}`;
+            return `<li data-otsi="${A.esc(otsitav)}"><a href="teema.html?id=${tm.id}">
+              <span class="t-nr">${tm.jrk}</span><span class="t-pealkiri">${A.esc(tm.pealkiri)}</span><span class="t-k">${k}</span>
+              <span class="t-lyhidalt">${A.esc(tm.lyhidalt)}</span></a></li>`;
+          }).join("")}</ul></div>`).join("");
+        return `<section class="tund" aria-labelledby="tund-${t.id}">
+          <div class="tund-info"><div class="nr">${t.nr}</div><h2 id="tund-${t.id}">${A.esc(t.pealkiri)}</h2>
+            <div class="kp">${kuup(t.kuupaev)}</div><p>${A.esc(t.kirjeldus)}</p>
+            <div class="nupud"><a class="nupp" href="kordamine.html?tund=${t.id}">Korda seda tundi</a>
+            <a class="nupp teine" href="teema.html?id=${t.teemad[0].id}">Alusta esimesest teemast</a></div>
+            ${t.materjal && t.materjal.length ? `<div class="materjal"><h3>Tunni materjal</h3><ul>${t.materjal.map((m) => `<li>${A.esc(m)}</li>`).join("")}</ul></div>` : ""}</div>
+          <div class="tund-sisu">${plokid}<p class="tyhi peidetud" data-tyhi>Selle otsinguga teemasid ei leitud.</p></div></section>`;
+      }).join("");
+
+      const teemadeArv = valmis.reduce((n, t) => n + t.teemad.length, 0);
+      leht.innerHTML = `
+        <header class="aine-pais">
+          <div class="murupuru"><a href="index.html">Avaleht</a> / aine</div>
+          <h1>${A.esc(aine.nimi)}</h1>
+          <p>${A.esc(aine.kirjeldus)}${aine.kood ? ` (${A.esc(aine.kood)})` : ""}</p>
+          <p class="seis">${valmis.length} ${valmis.length === 1 ? "tund" : "tundi"} valmis, ${teemadeArv} teemat.
+            ${valmis.length ? `<a href="kordamine.html?aine=${aine.id}">Korda kogu ainet</a>` : ""}</p>
+          <nav class="ainetabs" aria-label="Ained">${tabs}</nav>
+        </header>
+        ${valmis.length ? `<div class="otsing"><label for="otsi">Otsi selles aines</label>
+          <input id="otsi" type="search" placeholder="nt usuvabadus, EIK, VangS § 29" autocomplete="off"></div>` : ""}
+        <div id="tunnid">${tunnidHtml}</div>
+        ${!valmis.length ? `<div class="tyhi-paneel">Selle aine tunde veel ei ole. Need lisatakse pärast tundi koos materjali ja kordamisküsimustega.</div>` : ""}
+        ${aine.kiirotsing ? `<section class="kiirotsing" aria-labelledby="kiir-pealk"><h2 id="kiir-pealk">Põhiõigus → vangla õigusakt</h2>
+          <p id="kiir-kirjeldus"></p><div id="kiirotsing"></div></section>` : ""}`;
+
+      const otsi = document.getElementById("otsi");
+      if (otsi) otsi.addEventListener("input", (e) => {
+        const q = e.target.value.trim().toLowerCase().replace(/\s+/g, " ");
+        document.querySelectorAll(".tund:not(.tulemas)").forEach((tund) => {
+          let n = 0;
+          tund.querySelectorAll("li[data-otsi]").forEach((li) => { const ok = !q || li.dataset.otsi.includes(q); li.classList.toggle("peidetud", !ok); if (ok) n++; });
+          tund.querySelectorAll(".plokk").forEach((p) => p.classList.toggle("peidetud", !p.querySelector("li:not(.peidetud)")));
+          const tyhi = tund.querySelector("[data-tyhi]"); if (tyhi) tyhi.classList.toggle("peidetud", n > 0);
+        });
+      });
+
+      if (aine.kiirotsing) return A.lae("data/kiirotsing.json").then((k) => {
+        document.getElementById("kiir-kirjeldus").textContent = k.kirjeldus;
+        const rida = (r) => `<tr><th scope="row">${r.teema_id ? `<a href="teema.html?id=${r.teema_id}">${A.esc(r.teema)}</a>` : A.esc(r.teema)}</th>
+          <td data-veerg="Põhiseadus ja rahvusvaheline õigus">${r.pohiseadus.map((x) => A.refNupp(x)).join(" ")}</td>
+          <td data-veerg="Vangla">${r.vangla.map((x) => A.refNupp(x)).join(" ")}<span class="kiir-selg">${A.esc(r.vangla_tekst)}</span></td></tr>`;
+        document.getElementById("kiirotsing").innerHTML = `<table class="s-vordlus kiir-tabel"><thead><tr><th scope="col">Põhiõigus</th><th scope="col">Põhiseadus ja rahvusvaheline õigus</th><th scope="col">Vangla</th></tr></thead><tbody>${k.read.map(rida).join("")}</tbody></table>
+          <p class="kiir-allikas">${A.esc(k.allikas)}</p>`;
+      });
+    });
+  }).catch((e) => A.viga(leht, e));
+})();
+</script>
+</body>
+</html>
