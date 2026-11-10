@@ -3,7 +3,9 @@
   "tund": "t01",
   "jrk": 8,
   "pealkiri": "Inimväärikus ja piinamise keeld",
-  "kysimused": [10],
+  "kysimused": [
+    10
+  ],
   "lyhidalt": "Inimväärikus on puutumatu. Piinamise, julma ja alandava kohtlemise keeld on absoluutne, seda ei õigusta ükski eesmärk ega erakorraline olukord.",
   "osad": {
     "pohimote": {
@@ -17,12 +19,57 @@
     },
     "alus": {
       "read": [
-        { "tase": "Eesti", "viited": ["PS § 10", "PS § 18"], "tekst": "Inimväärikuse põhimõte; piinamise ja alandava kohtlemise keeld." },
-        { "tase": "Vangla", "viited": ["VangS § 4^1"], "tekst": "Kinnipeetavat koheldakse inimväärikust austavalt; vangistus ei tohi põhjustada rohkem kannatusi, kui paratamatult kaasneb." },
-        { "tase": "Euroopa Nõukogu", "viited": ["EIÕK art 3", "EIÕK art 15 lg 2", "CPT art 1"], "tekst": "Absoluutne keeld – ei saa peatada ka hädaolukorras; CPT külastused." },
-        { "tase": "Euroopa Liit", "viited": ["harta art 1", "harta art 4"], "tekst": "Inimväärikus on puutumatu; piinamise keeld." },
-        { "tase": "ÜRO", "viited": ["ÜDIÕ art 5", "KPÕRP art 7", "KPÕRP art 10", "CAT art 1", "CAT art 2", "OPCAT art 1"], "tekst": "Piinamise määratlus; erandlikud asjaolud ei õigusta; ennetavad külastused." },
-        { "tase": "Standard", "viited": ["Mandela rule 1"], "tekst": "Kinnipeetavaid koheldakse austusega nende väärikuse vastu (ingliskeelne, soovituslik)." }
+        {
+          "tase": "Eesti",
+          "viited": [
+            "PS § 10",
+            "PS § 18"
+          ],
+          "tekst": "Inimväärikuse põhimõte; piinamise ja alandava kohtlemise keeld."
+        },
+        {
+          "tase": "Vangla",
+          "viited": [
+            "VangS § 4^1"
+          ],
+          "tekst": "Kinnipeetavat koheldakse inimväärikust austavalt; vangistus ei tohi põhjustada rohkem kannatusi, kui paratamatult kaasneb."
+        },
+        {
+          "tase": "Euroopa Nõukogu",
+          "viited": [
+            "EIÕK art 3",
+            "EIÕK art 15 lg 2",
+            "CPT art 1"
+          ],
+          "tekst": "Absoluutne keeld – ei saa peatada ka hädaolukorras; CPT külastused."
+        },
+        {
+          "tase": "Euroopa Liit",
+          "viited": [
+            "harta art 1",
+            "harta art 4"
+          ],
+          "tekst": "Inimväärikus on puutumatu; piinamise keeld."
+        },
+        {
+          "tase": "ÜRO",
+          "viited": [
+            "ÜDIÕ art 5",
+            "KPÕRP art 7",
+            "KPÕRP art 10",
+            "CAT art 1",
+            "CAT art 2",
+            "OPCAT art 1"
+          ],
+          "tekst": "Piinamise määratlus; erandlikud asjaolud ei õigusta; ennetavad külastused."
+        },
+        {
+          "tase": "Standard",
+          "viited": [
+            "Mandela rule 1"
+          ],
+          "tekst": "Kinnipeetavaid koheldakse austusega nende väärikuse vastu (ingliskeelne, soovituslik)."
+        }
       ]
     },
     "piiramine": {
@@ -54,12 +101,39 @@
   "skeem": {
     "tyyp": "vordlus",
     "pealkiri": "Absoluutne vs piiratav õigus",
-    "veerud": ["Absoluutne (nt piinamise keeld)", "Piiratav (nt eraelu, usu väljendamine)"],
+    "veerud": [
+      "Absoluutne (nt piinamise keeld)",
+      "Piiratav (nt eraelu, usu väljendamine)"
+    ],
     "read": [
-      { "silt": "Näide", "lahtrid": ["[[PS § 18]], [[EIÕK art 3]]", "[[PS § 26]], [[EIÕK art 8]]"] },
-      { "silt": "Kas tohib piirata?", "lahtrid": ["Ei, mitte kunagi", "Jah – seadusega ja proportsionaalselt"] },
-      { "silt": "Hädaolukord", "lahtrid": ["ei saa peatada ([[EIÕK art 15 lg 2]])", "võib peatada vajalikus ulatuses ([[EIÕK art 15 lg 1]])"] },
-      { "silt": "Analüüs", "lahtrid": ["kas kohtlemine jõuab keelatud tasemeni?", "kaitseala → riive → alus → proportsionaalsus"] }
+      {
+        "silt": "Näide",
+        "lahtrid": [
+          "[[PS § 18]], [[EIÕK art 3]]",
+          "[[PS § 26]], [[EIÕK art 8]]"
+        ]
+      },
+      {
+        "silt": "Kas tohib piirata?",
+        "lahtrid": [
+          "Ei, mitte kunagi",
+          "Jah – seadusega ja proportsionaalselt"
+        ]
+      },
+      {
+        "silt": "Hädaolukord",
+        "lahtrid": [
+          "ei saa peatada ([[EIÕK art 15 lg 2]])",
+          "võib peatada vajalikus ulatuses ([[EIÕK art 15 lg 1]])"
+        ]
+      },
+      {
+        "silt": "Analüüs",
+        "lahtrid": [
+          "kas kohtlemine jõuab keelatud tasemeni?",
+          "kaitseala → riive → alus → proportsionaalsus"
+        ]
+      }
     ]
   },
   "vastus": [
@@ -77,21 +151,33 @@
     {
       "tyyp": "fakt",
       "kysimus": "Kas piinamist võib õigustada riigi julgeolekut ohustav erakorraline olukord?",
-      "valikud": ["Jah, kui see on proportsionaalne", "Ei, mitte mingisugused erandlikud asjaolud"],
+      "valikud": [
+        "Jah, kui see on proportsionaalne",
+        "Ei, mitte mingisugused erandlikud asjaolud"
+      ],
       "oige": 1,
       "selgitus": "[[CAT art 2 lg 2]]; [[EIÕK art 15 lg 2]]."
     },
     {
       "tyyp": "fakt",
       "kysimus": "Milline VangS-i säte nõuab, et kinnipidamine ei põhjustaks rohkem kannatusi, kui paratamatult kaasneb?",
-      "valikud": ["VangS § 6", "VangS § 4^1 lg 1", "VangS § 68", "VangS § 12"],
+      "valikud": [
+        "VangS § 6",
+        "VangS § 4^1 lg 1",
+        "VangS § 68",
+        "VangS § 12"
+      ],
       "oige": 1,
       "selgitus": "[[VangS § 4^1 lg 1]]."
     },
     {
       "tyyp": "fakt",
       "kysimus": "Mis kehtiva harta artikkel sätestab „Inimväärikus on puutumatu”?",
-      "valikud": ["art II-61", "art 1", "art 4"],
+      "valikud": [
+        "art II-61",
+        "art 1",
+        "art 4"
+      ],
       "oige": 1,
       "selgitus": "[[harta art 1]]. II-61 on konspektis kasutatud jõustumata Euroopa põhiseaduse lepingu numeratsioon."
     },
@@ -121,5 +207,40 @@
       "viide": "CAT art 3"
     }
   ],
-  "valjast": []
+  "valjast": [],
+  "naited": [
+    {
+      "pealkiri": "Tali vs Eesti",
+      "kohus": "Euroopa Inimõiguste Kohus",
+      "aeg": "13. veebruar 2014",
+      "lugu": "Eluaegset vangistust kandev kinnipeetav keeldus täitmast ametnike korraldusi. Tema vastu kasutati füüsilist jõudu, käeraudu ja piprasprei ning ta fikseeriti ohjeldusvoodile 3 tunniks ja 40 minutiks; tal tekkisid vigastused. Eesti kohtud pidasid jõukasutust õiguspäraseks.",
+      "tulemus": "EIK tuvastas art 3 rikkumise: piprasprei poleks tohtinud neis oludes kasutada ja ohjeldusvoodi ei olnud põhjendatud, sest mees oli juba üksikkambris ega kujutanud ohtu. Koos moodustasid need ebainimliku ja alandava kohtlemise.",
+      "oppetund": "Iga meede peab olema **just sel hetkel** vajalik ja see lõpetatakse, kui oht kaob ([[VangS § 69 lg 3]]). „Meede oli seaduses olemas” ei piisa.",
+      "seos": [
+        "EIÕK art 3",
+        "VangS § 69 lg 3",
+        "VangS § 4^1"
+      ],
+      "allikas": {
+        "nimi": "Inimõiguste teejuht – Tali vs Eesti",
+        "url": "https://www.inimoigustegiid.ee/ee/kaasused/tali-vs-eesti-1"
+      }
+    },
+    {
+      "pealkiri": "Muršić vs Horvaatia",
+      "kohus": "Euroopa Inimõiguste Kohus (suurkoda)",
+      "aeg": "oktoober 2016",
+      "lugu": "Kinnipeetav viibis osa ajast kambris, kus tal oli isiklikku ruumi alla 3 m².",
+      "tulemus": "Suurkoda: alla 3 m² isiklikku ruumi loob **tugeva eelduse** art 3 rikkumisest. Eeldust võivad kummutada nt lühiajalisus, kambrivälised tegevused, värskes õhus viibimine ja asutuse üldine sobivus. Kohus tuvastas rikkumise.",
+      "oppetund": "Ülerahvastatus ei ole „ainult mugavuse küsimus” – piisavalt kaua kestes jõuab see keelatud kohtlemiseni ([[EIÕK art 3]]).",
+      "seos": [
+        "EIÕK art 3",
+        "VangS § 4^1 lg 1"
+      ],
+      "allikas": {
+        "nimi": "ELTE blog – ECtHR standard minimum space for prisoners",
+        "url": "https://jog.tk.elte.hu/blog/2017/02/ecthr-standard-minimum-space-for-prisoners"
+      }
+    }
+  ]
 }

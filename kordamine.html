@@ -23,7 +23,7 @@
 <main>
   <header class="kord-pais">
     <h1>Kordamine</h1>
-    <p>Tunni kordamisküsimused koos vastustega ja segatud harjutused: faktid ja kaasused. Kaasuse lahendad kõigepealt ise, siis võrdled lahendusega.</p>
+    <p>Segatud harjutus: tunni kordamisküsimused, faktid ja kaasused. Vasta kõigepealt ise, siis ava vastus ja võrdle.</p>
     <div class="sakid" role="tablist" aria-label="Kordamise viis">
       <button type="button" class="sakk" role="tab" id="sakk-harjutus" aria-controls="paneel-harjutus" aria-selected="true">Segatud harjutus</button>
       <button type="button" class="sakk" role="tab" id="sakk-kysimused" aria-controls="paneel-kysimused" aria-selected="false">Tunni küsimused</button>
@@ -35,7 +35,7 @@
       <div class="seaded">
         <label>Tund <select id="v-tund"></select></label>
         <label>Teema <select id="v-teema"></select></label>
-        <label>Liik <select id="v-liik"><option value="koik">Segamini</option><option value="fakt">Ainult faktid</option><option value="kaasus">Ainult kaasused</option></select></label>
+        <label>Liik <select id="v-liik"><option value="koik">Segamini</option><option value="fakt">Ainult faktid</option><option value="kaasus">Ainult kaasused</option><option value="tunnikys">Ainult tunni küsimused</option></select></label>
         <label>Arv <select id="v-arv"><option>5</option><option selected>8</option><option>10</option></select></label>
         <button type="button" class="nupp" id="uus">Uus komplekt</button>
       </div>
@@ -63,7 +63,7 @@
   A.kaivita();
   const prm = new URLSearchParams(location.search);
   const $ = (id) => document.getElementById(id);
-  let TEEMAD = [], tulemus = { oiged: 0, vastatud: 0, fakte: 0 };
+  let TEEMAD = [], TUNNID = [], tulemus = { oiged: 0, vastatud: 0, fakte: 0 };
 
   // sakid
   const sakid = [...document.querySelectorAll(".sakk")];
@@ -76,7 +76,7 @@
   }
 
   A.andmed().then(({ tunnid }) => A.koikTeemad().then((teemad) => {
-    TEEMAD = teemad;
+    TEEMAD = teemad; TUNNID = tunnid.tunnid;
     const valmis = tunnid.tunnid.filter((t) => t.olek === "valmis");
     const tunniValik = valmis.map((t) => `<option value="${t.id}">${t.nr}. ${A.esc(t.pealkiri)}</option>`).join("");
     $("v-tund").innerHTML = `<option value="koik">Kõik tunnid</option>` + tunniValik;
@@ -107,10 +107,17 @@
       if (tund !== "koik" && t.tund !== tund) return;
       if (teema !== "koik" && t.id !== teema) return;
       t.harjutused.forEach((h) => { if (liik === "koik" || h.tyyp === liik) kogum.push({ h, t }); });
+      if (liik === "koik" || liik === "tunnikys") {
+        const tk = TUNNID.find((x) => x.id === t.tund);
+        (t.vastus || []).forEach((v) => kogum.push({ t, h: { tyyp: "tunnikys", nr: v.nr, kysimus: tk ? tk.kysimused[v.nr - 1] : "", punktid: v.punktid } }));
+      }
     });
     sega(kogum);
     // segamini: vähemalt üks kaasus, kui olemas
     let valik = kogum.slice(0, arv);
+    if (liik === "koik" && !valik.some((x) => x.h.tyyp === "tunnikys")) {
+      const k = kogum.find((x) => x.h.tyyp === "tunnikys"); if (k) valik[0] = k;
+    }
     if (liik === "koik" && !valik.some((x) => x.h.tyyp === "kaasus")) {
       const k = kogum.find((x) => x.h.tyyp === "kaasus"); if (k) valik[valik.length - 1] = k;
     }

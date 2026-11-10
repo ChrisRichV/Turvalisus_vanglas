@@ -44,7 +44,7 @@ def walk(o, path, refs, terms, quotes):
         for k, v in o.items():
             if k == "viide" and isinstance(v, str):
                 refs.append((v, path))
-            elif k == "viited" and isinstance(v, list):
+            elif k in ("viited", "seos") and isinstance(v, list):
                 refs.extend((x, path) for x in v)
             if k == "tsitaat" and isinstance(v, dict):
                 quotes.append((v, path))

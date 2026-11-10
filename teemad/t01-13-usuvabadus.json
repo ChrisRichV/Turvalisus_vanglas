@@ -161,5 +161,24 @@
       "tekst": "Mõisted „sisemine” ja „välimine” külg (forum internum / forum externum) on õigusteaduse ja EIK praktika üldistused; seaduse tekst toetab neid (KPÕRP art 18 lg 2 vs EIÕK art 9 lg 2).",
       "allikas": "üldine õigusteadus – ei pärine tunnimaterjalist"
     }
+  ],
+  "naited": [
+    {
+      "pealkiri": "Jakóbski vs Poola",
+      "kohus": "Euroopa Inimõiguste Kohus",
+      "aeg": "7. detsember 2010",
+      "lugu": "Budistist kinnipeetav palus korduvalt lihavaba toitu. Vangla andis talle ainult sealihata dieedi. Valitsus väitis, et budism vaid soovitab taimetoitu ning eritoit tekitaks köögile tehnilisi ja rahalisi raskusi.",
+      "tulemus": "EIK: valik oli usust inspireeritud ega olnud ebamõistlik – kuulub art 9 alla. Lihavaba toit ei vajanud eriettevalmistust ega häirinud vangla juhtimist. Rikkumine (ühehäälselt), hüvitis 3000 eurot.",
+      "oppetund": "Vangla ei pea hindama, kas usk „nõuab” midagi – piisab, et soov on usuliselt motiveeritud ja mõistlik. Eestis: [[VangS § 47 lg 3]] ja [[VangS § 62]].",
+      "seos": [
+        "EIÕK art 9",
+        "VangS § 47 lg 3",
+        "VangS § 62"
+      ],
+      "allikas": {
+        "nimi": "ECHR Case-Law Information Note, december 2010; Strasbourg Observers",
+        "url": "https://strasbourgobservers.com/2010/12/08/jakόbski-v-poland-is-the-court-opening-the-door-to-reasonable-accommodation/"
+      }
+    }
   ]
 }

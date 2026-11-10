@@ -167,5 +167,24 @@
       "tekst": "Rooma statuudi ingliskeelses originaalis viitab art 12(2) art 13 punktidele (a) ja (c).",
       "allikas": "Rome Statute of the International Criminal Court, art 12(2) (ingliskeelne tekst) – ei pärine tunnimaterjalist"
     }
+  ],
+  "naited": [
+    {
+      "pealkiri": "Prokurör vs Thomas Lubanga",
+      "kohus": "Rahvusvaheline Kriminaalkohus",
+      "aeg": "süüdimõistmine märts 2012, karistus 10. juuli 2012",
+      "lugu": "Kongo DV relvarühmituse juht kasutas Ituri piirkonnas 2002–2003 oma relvastatud tiivas lapssõdureid.",
+      "tulemus": "ICC mõistis ta süüdi sõjakuriteos ja määras 14 aastat vangistust – ICC esimene karistus. Alates 2006. aastast vahi all oldud aeg arvati maha.",
+      "oppetund": "ICC mõistab kohut **isiku**, mitte riigi üle ([[Rooma art 25]]); sõjakuritegu on art 5 loetelus; karistus on tähtajaline vangistus ([[Rooma art 77]]).",
+      "seos": [
+        "Rooma art 5",
+        "Rooma art 25",
+        "Rooma art 77"
+      ],
+      "allikas": {
+        "nimi": "Al Jazeera, 10.07.2012 – ICC jails DRC warlord over child soldiers",
+        "url": "https://www.aljazeera.com/news/2012/7/10/icc-jails-drc-warlord-over-child-soldiers"
+      }
+    }
   ]
 }

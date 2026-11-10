@@ -11,7 +11,8 @@ ametlikest tekstifailidest. **Täielik arendusjuhend: [`README-projekt.md`](READ
 - AK-materjal (märge „ASUTUSESISESEKS KASUTAMISEKS”) ei tohi jõuda reposse, ka ümbersõnastatuna.
 - Varasemate kursuste kordamisküsimusi (`vangla_materjalid/01_kordamiskusimused`) lehele ei lisata; taktikalised detailid välja.
 - Supabase: ainult publishable võti (`assets/seadistus.js`), RLS alati sees, `service_role` mitte kunagi.
-- Keel: eesti. Kujundusvärvidel on üks tähendus (marker = viide, vask = termin, rooste = viga).
+- Keel: eesti. Vaikimisi tume neoonteema; igal neoonvärvil üks tähendus (kollane = seaduseviide, tsüaan = termin/õige, roosa = viga, lilla = päris näide).
+- Päris näited (`naited`) on väljaspool tunnimaterjali: iga fakt kontrollitud allikast, link väljal `allikas`.
 
 ## Käsud
 ```bash

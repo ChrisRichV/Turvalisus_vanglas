@@ -3,7 +3,9 @@
   "tund": "t01",
   "jrk": 6,
   "pealkiri": "Riigisisene kohtusüsteem ja seos rahvusvahelisega",
-  "kysimused": [8],
+  "kysimused": [
+    8
+  ],
   "lyhidalt": "Põhiõiguste esmane kaitsja on Eesti kohus. Rahvusvahelised mehhanismid on täiendavad: EIK-sse ja ÜRO komiteesse saab alles pärast riigisiseseid vahendeid, ICC sekkub siis, kui riik ei taha või ei suuda menetleda, ja EL-i Kohtuga suhtleb Eesti kohus eelotsuse kaudu.",
   "osad": {
     "pohimote": {
@@ -17,10 +19,46 @@
     },
     "alus": {
       "read": [
-        { "tase": "Eesti", "viited": ["PS § 3", "PS § 14", "PS § 15", "PS § 123", "PS § 146", "PS § 149", "PS § 152"], "tekst": "Põhiseaduslikud alused." },
-        { "tase": "Eesti", "viited": ["HKMS § 2", "PSJKS § 2", "KS § 2"], "tekst": "Halduskohtumenetlus, põhiseaduslikkuse järelevalve, kohtu sõltumatus." },
-        { "tase": "Eesti", "viited": ["OKS § 1", "OKS § 19"], "tekst": "Õiguskantsler – kohtuväline järelevalve ja pöördumisõigus." },
-        { "tase": "Seosed", "viited": ["EIÕK art 35", "KPÕRP FP art 2", "Rooma art 17", "ELTL art 267"], "tekst": "Rahvusvahelised mehhanismid eeldavad või täiendavad riigisisest menetlust." }
+        {
+          "tase": "Eesti",
+          "viited": [
+            "PS § 3",
+            "PS § 14",
+            "PS § 15",
+            "PS § 123",
+            "PS § 146",
+            "PS § 149",
+            "PS § 152"
+          ],
+          "tekst": "Põhiseaduslikud alused."
+        },
+        {
+          "tase": "Eesti",
+          "viited": [
+            "HKMS § 2",
+            "PSJKS § 2",
+            "KS § 2"
+          ],
+          "tekst": "Halduskohtumenetlus, põhiseaduslikkuse järelevalve, kohtu sõltumatus."
+        },
+        {
+          "tase": "Eesti",
+          "viited": [
+            "OKS § 1",
+            "OKS § 19"
+          ],
+          "tekst": "Õiguskantsler – kohtuväline järelevalve ja pöördumisõigus."
+        },
+        {
+          "tase": "Seosed",
+          "viited": [
+            "EIÕK art 35",
+            "KPÕRP FP art 2",
+            "Rooma art 17",
+            "ELTL art 267"
+          ],
+          "tekst": "Rahvusvahelised mehhanismid eeldavad või täiendavad riigisisest menetlust."
+        }
       ]
     },
     "piiramine": {
@@ -53,17 +91,53 @@
     "tyyp": "tasandid",
     "pealkiri": "Kõigepealt riik, siis rahvusvaheline tasand",
     "tasandid": [
-      { "pealkiri": "Eesti", "toon": "a", "kastid": [
-        { "pealkiri": "Vaie", "tekst": "täitevvõimu sees", "viide": "VangS § 1^1 lg 4^1" },
-        { "pealkiri": "Halduskohus → ringkonnakohus → Riigikohus", "tekst": "sh põhiseaduslikkuse järelevalve", "viide": "PS § 149" },
-        { "pealkiri": "Õiguskantsler", "tekst": "kohtuväline järelevalve", "viide": "OKS § 19" }
-      ]},
-      { "pealkiri": "Seosed", "toon": "c", "kastid": [
-        { "pealkiri": "→ ÜRO komitee", "tekst": "pärast ammendamist; seisukoht", "viide": "KPÕRP FP art 2" },
-        { "pealkiri": "→ EIK", "tekst": "pärast ammendamist; 4 kuud; siduv", "viide": "EIÕK art 35" },
-        { "pealkiri": "⇄ EL-i Kohus", "tekst": "eelotsus menetluse ajal", "viide": "ELTL art 267" },
-        { "pealkiri": "→ ICC", "tekst": "kui riik ei taha/ei suuda", "viide": "Rooma art 17" }
-      ]}
+      {
+        "pealkiri": "Eesti",
+        "toon": "a",
+        "kastid": [
+          {
+            "pealkiri": "Vaie",
+            "tekst": "täitevvõimu sees",
+            "viide": "VangS § 1^1 lg 4^1"
+          },
+          {
+            "pealkiri": "Halduskohus → ringkonnakohus → Riigikohus",
+            "tekst": "sh põhiseaduslikkuse järelevalve",
+            "viide": "PS § 149"
+          },
+          {
+            "pealkiri": "Õiguskantsler",
+            "tekst": "kohtuväline järelevalve",
+            "viide": "OKS § 19"
+          }
+        ]
+      },
+      {
+        "pealkiri": "Seosed",
+        "toon": "c",
+        "kastid": [
+          {
+            "pealkiri": "→ ÜRO komitee",
+            "tekst": "pärast ammendamist; seisukoht",
+            "viide": "KPÕRP FP art 2"
+          },
+          {
+            "pealkiri": "→ EIK",
+            "tekst": "pärast ammendamist; 4 kuud; siduv",
+            "viide": "EIÕK art 35"
+          },
+          {
+            "pealkiri": "⇄ EL-i Kohus",
+            "tekst": "eelotsus menetluse ajal",
+            "viide": "ELTL art 267"
+          },
+          {
+            "pealkiri": "→ ICC",
+            "tekst": "kui riik ei taha/ei suuda",
+            "viide": "Rooma art 17"
+          }
+        ]
+      }
     ]
   },
   "vastus": [
@@ -82,25 +156,55 @@
     {
       "tyyp": "fakt",
       "kysimus": "Mida peab kinnipeetav tegema enne halduskohtusse kaebuse esitamist vangla toimingu peale?",
-      "valikud": ["Pöörduma õiguskantsleri poole", "Esitama vaide", "Midagi – võib otse kohtusse"],
+      "valikud": [
+        "Pöörduma õiguskantsleri poole",
+        "Esitama vaide",
+        "Midagi – võib otse kohtusse"
+      ],
       "oige": 1,
       "selgitus": "[[VangS § 1^1 lg 5]]."
     },
     {
       "tyyp": "fakt",
       "kysimus": "Mis tähtaja jooksul lahendatakse kinnipeetava vaie?",
-      "valikud": ["15 päeva", "30 päeva", "2 kuud"],
+      "valikud": [
+        "15 päeva",
+        "30 päeva",
+        "2 kuud"
+      ],
       "oige": 1,
       "selgitus": "[[VangS § 1^1 lg 7]]."
     },
     {
       "tyyp": "fakt",
       "kysimus": "Mis juhtub, kui Eesti seadus on vastuolus Riigikogu ratifitseeritud välislepinguga?",
-      "valikud": ["Kohaldatakse seadust", "Kohaldatakse välislepingut", "Asja otsustab EIK"],
+      "valikud": [
+        "Kohaldatakse seadust",
+        "Kohaldatakse välislepingut",
+        "Asja otsustab EIK"
+      ],
       "oige": 1,
       "selgitus": "[[PS § 123]] teine lõige."
     }
   ],
   "erinevused": [],
-  "valjast": []
+  "valjast": [],
+  "naited": [
+    {
+      "pealkiri": "Golder vs Ühendkuningriik",
+      "kohus": "Euroopa Inimõiguste Kohus",
+      "aeg": "21. veebruar 1975",
+      "lugu": "Vangi süüdistati vangla rahutuses ametniku ründamises; süüdistus jäeti hiljem kõrvale. Ta tahtis konsulteerida advokaadiga, et ametniku vastu laimuhagi esitada – siseminister ei lubanud.",
+      "tulemus": "EIK: õigus pöörduda kohtusse sisaldub art 6 lg 1-s, kuigi seda pole sõnaselgelt kirjas. Advokaadi keelamine takistas tal kohtusse minekut – rikkumine.",
+      "oppetund": "Kohtusse pöördumise õigus ([[PS § 15]]) kehtib ka vanglas. Kirjad kaitsjale ja kohtule on tänapäeval kaitstud ([[VangS § 29 lg 4]]).",
+      "seos": [
+        "PS § 15",
+        "VangS § 29 lg 4"
+      ],
+      "allikas": {
+        "nimi": "Inimõiguste teejuht – Golder vs Ühendkuningriik",
+        "url": "https://www.inimoigustegiid.ee/ee/kaasused/golder-vs-uehendkuningriik"
+      }
+    }
+  ]
 }

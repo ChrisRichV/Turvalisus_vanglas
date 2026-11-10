@@ -101,9 +101,19 @@ kontrollib sisu.
     { "tyyp": "kaasus", "kysimus": "…", "vastus": ["**Kaitseala:** …", "**Riive:** …", "…", "**Järeldus:** …"] }
   ],
   "erinevused": [ { "teema": "…", "konspekt": "…", "ametlik": "…", "viide": "…", "markus?": "…" } ],
-  "valjast":    [ { "tekst": "…", "allikas": "… – ei pärine tunnimaterjalist" } ]
+  "valjast":    [ { "tekst": "…", "allikas": "… – ei pärine tunnimaterjalist" } ],
+  "naited?": [ {                                   // päris juhtum, nupp „Päris näide”
+      "pealkiri": "Tali vs Eesti", "kohus": "Euroopa Inimõiguste Kohus", "aeg": "13. veebruar 2014",
+      "lugu": "mis juhtus", "tulemus": "mida kohus otsustas", "oppetund": "mida meelde jätta + [[viide]]",
+      "seos": ["EIÕK art 3"], "allikas": { "nimi": "…", "url": "https://…" } } ]
 }
 ```
+**Päris näited** on alati väljaspool tunnimaterjali: iga fakt (kuupäev, otsus, hüvitis) peab olema
+kontrollitud allikast, mille link on väljal `allikas`. Kui detaili ei õnnestu kinnitada, jäta see välja.
+Ilma näiteta teemal nuppu ei kuvata.
+
+Tunni kordamisküsimused (`vastus[]` + `tunnid.json` küsimused) ilmuvad kordamise lehel ka segatud
+harjutuses tüübina `tunnikys` („Ainult tunni küsimused” filter).
 Viis osa vastavad õppimise skeemile: 1) mis õigus/põhimõte, 2) õiguslik alus, 3) piiramise alused
 ja proportsionaalsus, 4) näide vanglast, 5) tüüpviga eksamil.
 
@@ -224,17 +234,21 @@ Uus tabel: uus migratsioonifail `supabase/00N_….sql`, RLS sees, käivita `get_
 
 ## 9. Kujundus
 
-| Token | Hele | Tähendus |
-|---|---|---|
-| `--paber` | `#ecEEea` | taust (betoonhall) |
-| `--tint` | `#1c2733` | tekst, jooned |
-| `--marker` | `#f2c230` | **ainult** seaduseviited (markeriga paragrahv) |
-| `--vask` | `#2f6f6a` | **ainult** terminid, õige vastus |
-| `--rooste` | `#a8432c` | **ainult** tüüpvead, vale vastus, erinevused |
+Vaikimisi **tume teema neoonaktsentidega**; hele teema lülitiga (`data-theme="light"`, valik
+salvestatakse brauserisse). Sära (`text-shadow`/`box-shadow`) ainult tähtsal – mitte kõigel.
+
+| Token | Tume (vaikimisi) | Hele | Tähendus |
+|---|---|---|---|
+| `--paber` | `#0d1117` | `#ecEEea` | taust |
+| `--tint` | `#e6eaee` | `#1c2733` | tekst |
+| `--marker` | `#ffe14a` neoonkollane | `#f2c230` | **ainult** seaduseviited, võtmelause, peamine nupp |
+| `--vask` | `#2ef5d6` neoontsüaan | `#2f6f6a` | **ainult** terminid, õige vastus, tunni küsimuse vastus |
+| `--rooste` | `#ff4fa0` neoonroosa | `#a8432c` | **ainult** tüüpvead, vale vastus, erinevused |
+| `--lilla` | `#b388ff` neoonlilla | `#6b3fd1` | **ainult** päris näited (nupp ja aken) |
 
 Kirjad: Archivo (pealkirjad, liides; laius 110–125 %) ja Source Serif 4 (sisu, seadusetekst).
 Vasakule joondatud, tekstiveerg ≤ 42rem. Nummerdus (1–5, voo sammud) ainult päris järjestuse puhul.
-Tume režiim: `prefers-color-scheme` + `data-theme` lüliti; viited tumedas režiimis täistaustaga.
+Neooni reeglid on `stiil.css` lõpus plokis „NEOON”; uus tähtis element saab sära ainult siis, kui see kannab ühte neist neljast tähendusest.
 
 ---
 
