@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="et">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Turvalisus vanglas – õppeleht</title>
+<meta name="description" content="Õppeleht tundide kaupa: inim- ja põhiõigused vanglas, seaduse tekstid ühe klikiga, kordamine.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Source+Serif+4:opsz,wght@8..60,300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/stiil.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23f2c230'/%3E%3Ctext x='16' y='24' font-size='22' text-anchor='middle' font-family='Georgia' fill='%231c2733'%3E§%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<header class="ylariba">
+  <a class="logo" href="index.html"><b>§</b> Turvalisus vanglas</a>
+  <nav>
+    <a href="index.html" aria-current="page">Tunnid</a>
+    <a href="kordamine.html">Kordamine</a>
+    <button type="button" class="teemanupp">Tume</button>
+  </nav>
+</header>
+
+<main>
+  <section class="kangelane" aria-labelledby="pealkiri">
+    <div class="para" aria-hidden="true">§</div>
+    <div>
+      <h1 id="pealkiri">Turvalisus vanglas</h1>
+      <p>Tundide teemad koos õigusliku aluse, vangla näite ja eksamil tehtavate vigadega. Iga paragrahv on klikitav ja näitab seaduse täpset teksti.</p>
+      <p class="seis" id="seis"></p>
+    </div>
+  </section>
+
+  <div class="otsing">
+    <label for="otsi">Otsi teemat</label>
+    <input id="otsi" type="search" placeholder="nt usuvabadus, EIK, VangS § 29, proportsionaalsus" autocomplete="off">
+  </div>
+
+  <div id="tunnid"><p class="vahe tyhi" style="margin-top:2rem">Laen tunde…</p></div>
+
+  <section class="meetod" aria-labelledby="meetod-pealk">
+    <h2 id="meetod-pealk">Kuidas kaasust lahendada</h2>
+    <p>Sama skeem kehtib iga piiratava põhiõiguse kohta. Absoluutsete õiguste puhul (nt piinamise keeld) proportsionaalsust ei kaaluta.</p>
+    <div id="meetod"></div>
+  </section>
+
+  <section class="sonastik" aria-labelledby="sonastik-pealk">
+    <h2 id="sonastik-pealk">Sõnastik</h2>
+    <p>Mõisted, mis korduvad mitmes teemas. Tekstis on need punktiirjoonega alla joonitud.</p>
+    <dl id="sonastik"></dl>
+  </section>
+</main>
+
+<footer class="jalus">
+  <p>Seaduste ja lepingute tekstid: Riigi Teataja, EUR-Lex, ÜRO – muutmata kujul. Selgitused on õppimiseks ega asenda ametlikku teksti.</p>
+  <p>Leidsid vea? Ava teema ja kasuta lõpus olevat „Teata veast” vormi.</p>
+</footer>
+
+<script src="assets/seadistus.js"></script>
+<script src="assets/app.js"></script>
+<script src="assets/skeemid.js"></script>
+<script>
+(function () {
+  const A = window.APP;
+  A.kaivita();
+  const MEETOD = {
+    tyyp: "voog",
+    pealkiri: "Neli sammu",
+    sammud: [
+      { pealkiri: "Kaitseala", tekst: "Milline põhiõigus on mängus? Nimeta säte PS-ist ja EIÕK-st." },
+      { pealkiri: "Riive", tekst: "Mis täpselt seda õigust kitsendab (otsus, toiming, tegevusetus)?" },
+      { pealkiri: "Formaalne põhiseaduspärasus", tekst: "Kas on seaduslik alus, pädev asutus, õige menetlus ja vorm?", viide: "PS § 11" },
+      { pealkiri: "Materiaalne: proportsionaalsus", tekst: "Legitiimne eesmärk → sobivus → vajalikkus → mõõdukus.", viide: "HMS § 3 lg 2" },
+      { pealkiri: "Järeldus", tekst: "Kas riive on põhiseaduspärane? Mida kinnipeetav saab teha (vaie, kohus)?", viide: "VangS § 1^1 lg 5" }
+    ]
+  };
+  const kuup = (s) => s ? new Date(s + "T12:00:00").toLocaleDateString("et-EE", { day: "numeric", month: "long", year: "numeric" }) : "";
+
+  A.andmed().then(({ tunnid, terminid }) => {
+    document.getElementById("seis").textContent = tunnid.seis;
+    document.getElementById("meetod").innerHTML = A.skeem(MEETOD);
+    document.getElementById("sonastik").innerHTML = Object.entries(terminid)
+      .sort((a, b) => a[1].termin.localeCompare(b[1].termin, "et"))
+      .map(([id, t]) => `<div><dt>${A.md("{{" + id + "}}")}</dt><dd>${A.md(t.selgitus.split(". ")[0] + ".")}</dd></div>`).join("");
+    return A.koikTeemad().then((teemad) => {
+      const kaart = {}; teemad.forEach((t) => (kaart[t.id] = t));
+      const html = tunnid.tunnid.map((t) => {
+        if (t.olek !== "valmis") {
+          return `<section class="tund tulemas" aria-label="Tund ${t.nr}"><div class="tund-info"><div class="nr">${t.nr}</div><h2>${A.esc(t.pealkiri)}</h2></div>
+            <div class="tund-sisu">${A.esc(t.kirjeldus)}</div></section>`;
+        }
+        const plokid = t.plokid.map((p) => `<div class="plokk"><h3>${A.esc(p.pealkiri)}</h3><ul class="teemad">${
+          p.teemad.map((id) => {
+            const tm = kaart[id]; if (!tm) return "";
+            const otsitav = [tm.pealkiri, tm.lyhidalt, JSON.stringify(tm.osad)].join(" ").toLowerCase();
+            const k = tm.kysimused.length > 1 ? `küsimused ${tm.kysimused[0]}–${tm.kysimused[tm.kysimused.length - 1]}` : `küsimus ${tm.kysimused[0]}`;
+            return `<li data-otsi="${A.esc(otsitav)}"><a href="teema.html?id=${tm.id}">
+              <span class="t-nr">${tm.jrk}</span><span class="t-pealkiri">${A.esc(tm.pealkiri)}</span><span class="t-k">${k}</span>
+              <span class="t-lyhidalt">${A.esc(tm.lyhidalt)}</span></a></li>`;
+          }).join("")}</ul></div>`).join("");
+        return `<section class="tund" aria-labelledby="tund-${t.id}">
+          <div class="tund-info"><div class="nr">${t.nr}</div><h2 id="tund-${t.id}">${A.esc(t.pealkiri)}</h2>
+            <div class="kp">${kuup(t.kuupaev)}</div><p>${A.esc(t.kirjeldus)}</p>
+            <div class="nupud"><a class="nupp" href="kordamine.html?tund=${t.id}">Korda seda tundi</a>
+            <a class="nupp teine" href="teema.html?id=${t.teemad[0].id}">Alusta esimesest teemast</a></div></div>
+          <div class="tund-sisu">${plokid}<p class="tyhi peidetud" data-tyhi>Selle otsinguga teemasid ei leitud.</p></div></section>`;
+      }).join("");
+      document.getElementById("tunnid").innerHTML = html;
+    });
+  }).catch((e) => A.viga(document.getElementById("tunnid"), e));
+
+  document.getElementById("otsi").addEventListener("input", (e) => {
+    const q = e.target.value.trim().toLowerCase().replace(/\s+/g, " ");
+    document.querySelectorAll(".tund:not(.tulemas)").forEach((tund) => {
+      let n = 0;
+      tund.querySelectorAll("li[data-otsi]").forEach((li) => {
+        const ok = !q || li.dataset.otsi.includes(q);
+        li.classList.toggle("peidetud", !ok); if (ok) n++;
+      });
+      tund.querySelectorAll(".plokk").forEach((p) => p.classList.toggle("peidetud", !p.querySelector("li:not(.peidetud)")));
+      const tyhi = tund.querySelector("[data-tyhi]"); if (tyhi) tyhi.classList.toggle("peidetud", n > 0);
+    });
+  });
+})();
+</script>
+</body>
+</html>

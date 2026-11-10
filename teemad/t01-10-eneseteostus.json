@@ -1,0 +1,91 @@
+{
+  "id": "t01-10",
+  "tund": "t01",
+  "jrk": 10,
+  "pealkiri": "Vaba enesemääratlemine ja eneseteostus",
+  "kysimused": [12],
+  "lyhidalt": "Igaüks võib ise otsustada, kuidas elada, kui ta austab teiste õigusi ja järgib seadust (PS § 19). Rahvaste tasandil tähendab enesemääramine, et rahvas otsustab ise oma poliitilise staatuse.",
+  "osad": {
+    "pohimote": {
+      "tekst": "Küsimuse sõnastus „vaba enesemääratlemine” võib tähendada **kahte asja** – eksamil tasub mõlemat mainida:",
+      "punktid": [
+        "**1. Isiku vaba eneseteostus** (üldine vabadusõigus): **„Igaühel on õigus vabale eneseteostusele.”** ([[PS § 19]] esimene lõige). Kõik, mida eriõigused ei hõlma, kaitseb see üldine vabadus – isik määrab ise oma elu, välimuse, harrastused, suhted jne.",
+        "**2. Rahvaste enesemääramisõigus:** **„Kõigil rahvastel on enesemääramise õigus.”** Rahvas kehtestab vabalt oma poliitilise staatuse ja arengu ([[KPÕRP art 1 lg 1]]); ÜRO eesmärk on suhted rahvaste {{enesemaaramisoigus|enesemääramise}} põhimõttel ([[ÜRO PK art 1]] p 2). Eesti riik on loodud „Eesti rahva riikliku enesemääramise kustumatul õigusel” (PS preambul).",
+        "Vanglakontekstis on olulisem esimene tähendus. EIÕK-s puudub eraldi eneseteostuse artikkel – lähim on era- ja perekonnaelu austamine ([[EIÕK art 8]]); LOEMIND seob küsimuse just PS § 19 ja EIÕK art 8-ga."
+      ]
+    },
+    "alus": {
+      "read": [
+        { "tase": "Eesti", "viited": ["PS § 19"], "tekst": "Vaba eneseteostus + kohustus austada teiste õigusi ja järgida seadust." },
+        { "tase": "Euroopa Nõukogu", "viited": ["EIÕK art 8"], "tekst": "Eraelu austamine (sisaldab isiku autonoomiat)." },
+        { "tase": "ÜRO", "viited": ["KPÕRP art 1", "ÜRO PK art 1"], "tekst": "Rahvaste enesemääramisõigus." },
+        { "tase": "Vangla", "viited": ["VangS § 4^1 lg 2"], "tekst": "Kinnipeetava vabadus allutatakse seaduses toodud piirangutele." }
+      ]
+    },
+    "piiramine": {
+      "pealkiri": "Piiramine",
+      "tekst": "Eneseteostuse õigus on **lihtsa seadusreservatsiooniga** – piiri annab juba [[PS § 19]] teine lõige: tuleb austada teiste õigusi ja **järgida seadust**. Igasugune piirang peab olema kooskõlas põhiseadusega ja demokraatlikus ühiskonnas vajalik ega tohi moonutada õiguse olemust ([[PS § 11]]).",
+      "punktid": [
+        "Piiramise analüüs: legitiimne eesmärk → sobivus → vajalikkus → mõõdukus (vt teema „Õiguse üldpõhimõtted”).",
+        "Vanglas: kui seadus konkreetset piirangut ei sätesta, võib vangla kohaldada vaid **julgeoleku kaalutlustel vajalikke** piiranguid, mis vastavad täideviimise eesmärgile ja inimväärikusele ([[VangS § 4^1 lg 2]])."
+      ]
+    },
+    "vangla": {
+      "tekst": "Vangistus piirab eneseteostust juba olemuselt, kuid **mitte rohkem, kui seadus ja julgeolek nõuavad**. Näiteks: isiklike riiete kandmise või esemete kasutamise keelamine on **täiendav julgeolekuabinõu**, mida võib kohaldada vaid seaduses toodud asjaoludel ([[VangS § 69 lg 1]], [[VangS § 69 lg 2]] p 2).",
+      "naide": {
+        "olukord": "Vangla keelab kõigil kinnipeetavatel kanda habet, sest „nii on korralikum”.",
+        "analyys": "**Kaitseala:** välimuse valik on vaba eneseteostus ([[PS § 19]]); võib puudutada ka eraelu ([[EIÕK art 8]]) ja usuvabadust ([[PS § 40]]), kui habe on usuline. **Riive:** üldine keeld. **Alus:** seaduses sellist keeldu ei ole; vangla võib ise kehtestada ainult julgeoleku kaalutlustel **vajalikke** piiranguid ([[VangS § 4^1 lg 2]]). „Korralikkus” ei ole julgeoleku eesmärk. **Järeldus:** põhiseadusvastane riive."
+      }
+    },
+    "tyypviga": {
+      "punktid": [
+        "Kirjeldatakse ainult rahvaste enesemääramist ja unustatakse PS § 19 (või vastupidi).",
+        "Viidatakse PS § 19-le kui piiramatule õigusele – teine lõige seab piirid.",
+        "Unustatakse, et vanglas peab ka „väike” piirang tuginema seadusele või julgeoleku vajadusele ([[VangS § 4^1 lg 2]])."
+      ]
+    }
+  },
+  "skeem": {
+    "tyyp": "vordlus",
+    "pealkiri": "Kaks tähendust",
+    "veerud": ["Isiku vaba eneseteostus", "Rahvaste enesemääramine"],
+    "read": [
+      { "silt": "Kelle õigus", "lahtrid": ["igaüks", "rahvas"] },
+      { "silt": "Sisu", "lahtrid": ["otsustada oma elu üle", "otsustada poliitilise staatuse ja arengu üle"] },
+      { "silt": "Säte", "lahtrid": ["[[PS § 19]], [[EIÕK art 8]]", "[[KPÕRP art 1]], [[ÜRO PK art 1]]"] },
+      { "silt": "Piir", "lahtrid": ["teiste õigused, seadus", "rahvusvaheline õigus"] }
+    ]
+  },
+  "vastus": [
+    {
+      "nr": 12,
+      "punktid": [
+        "**Isiku tasand:** igaühel on õigus vabale eneseteostusele, kuid ta peab austama teiste õigusi ja järgima seadust ([[PS § 19]]); seotud eraelu austamisega ([[EIÕK art 8]]).",
+        "**Rahvaste tasand:** kõigil rahvastel on enesemääramisõigus – nad kehtestavad vabalt oma poliitilise staatuse ([[KPÕRP art 1 lg 1]], [[ÜRO PK art 1]]).",
+        "Piiramine: seaduse alusel, demokraatlikus ühiskonnas vajalik, olemust moonutamata ([[PS § 11]]); vanglas [[VangS § 4^1 lg 2]]."
+      ]
+    }
+  ],
+  "harjutused": [
+    {
+      "tyyp": "fakt",
+      "kysimus": "Milline PS paragrahv sätestab õiguse vabale eneseteostusele?",
+      "valikud": ["§ 16", "§ 19", "§ 26", "§ 40"],
+      "oige": 1,
+      "selgitus": "[[PS § 19]]."
+    },
+    {
+      "tyyp": "fakt",
+      "kysimus": "Kus on sätestatud rahvaste enesemääramisõigus?",
+      "valikud": ["KPÕRP art 1", "EIÕK art 1", "harta art 1"],
+      "oige": 0,
+      "selgitus": "[[KPÕRP art 1 lg 1]]."
+    }
+  ],
+  "erinevused": [
+    { "teema": "Konspekt", "konspekt": "Konspekt seda õigust eraldi ei käsitle.", "ametlik": "Vastus põhineb PS § 19, KPÕRP art 1 ja ÜRO põhikirja tekstidel; seos EIÕK art 8-ga on LOEMIND-i allikatabelist.", "viide": "PS § 19" }
+  ],
+  "valjast": [
+    { "tekst": "Termin „lihtne seadusreservatsioon” ja arusaam PS § 19-st kui üldisest vabadusõigusest on põhiseadusõiguse üldine doktriin.", "allikas": "üldine õigusteadus – ei pärine tunnimaterjalist" }
+  ]
+}

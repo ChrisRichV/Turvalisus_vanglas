@@ -1,0 +1,122 @@
+{
+  "kaitseala": {
+    "termin": "Kaitseala",
+    "selgitus": "See, mida põhiõigus kaitseb: milline elu valdkond, tegevus või hüve kuulub õiguse alla (nt kirjavahetus kuulub sõnumisaladuse kaitsealasse). Kaasuse lahendamise esimene samm.",
+    "viited": ["PS § 43"],
+    "allikas": "õigusteaduse mõiste (kaasuse skeem projekti juhistest)"
+  },
+  "riive": {
+    "termin": "Riive",
+    "selgitus": "Riigi tegevus või tegevusetus, mis kitsendab põhiõiguse kaitseala (nt kirja lugemine, kokkusaamise keelamine). Riive ei ole automaatselt rikkumine – see võib olla põhiseaduspärane.",
+    "viited": ["PS § 11"],
+    "allikas": "õigusteaduse mõiste"
+  },
+  "proportsionaalsus": {
+    "termin": "Proportsionaalsus",
+    "selgitus": "Konspekt: valida tuleb meede, mis on isikut võimalikult vähe koormav, kuid mis veel aitab kaasa eesmärgi saavutamisele. HMS: akt ja toiming peab olema kohane, vajalik ning proportsionaalne.",
+    "viited": ["HMS § 3 lg 2", "PS § 11", "KorS § 7"],
+    "allikas": "konspekt + seadus"
+  },
+  "oiguskindlus": {
+    "termin": "Õiguskindlus",
+    "selgitus": "Konspekt: isik saab mõistlikult eeldada, et menetluse alustamise või sündmuse toimumise ajal kehtinud õigust ei muudeta talle halvemas suunas.",
+    "viited": ["PS § 10", "PS § 23", "HMS § 5 lg 5"],
+    "allikas": "konspekt + seadus"
+  },
+  "oigusparane-ootus": {
+    "termin": "Õiguspärane ootus",
+    "selgitus": "Konspekt: isikul on õigus kasutada talle riigi otsusega antud õigusi mõistlikus ootuses, et otsuses toodu ka kehtima jääb.",
+    "viited": ["HMS § 67"],
+    "allikas": "konspekt + seadus"
+  },
+  "enesemaaramisoigus": {
+    "termin": "Rahvaste enesemääramisõigus",
+    "selgitus": "Rahvaste õigus kehtestada vabalt oma poliitiline staatus ning kindlustada oma majanduslik, sotsiaalne ja kultuuriline areng.",
+    "viited": ["KPÕRP art 1 lg 1", "ÜRO PK art 1"],
+    "allikas": "pakt / ÜRO põhikiri"
+  },
+  "uldeklaratsioon": {
+    "termin": "Inimõiguste ülddeklaratsioon",
+    "selgitus": "ÜRO Peaassamblee resolutsioon 217 A (III), 10.12.1948. Ei ole õiguslikult siduv leping, kuid on ÜRO inimõiguste süsteemi alus.",
+    "viited": ["ÜDIÕ art 1"],
+    "allikas": "faili allikamärkus (OHCHR)"
+  },
+  "eiok": {
+    "termin": "EIÕK",
+    "selgitus": "Inimõiguste ja põhivabaduste kaitse konventsioon – Euroopa Nõukogu peamine inimõiguste leping; järelevalvet teeb Euroopa Inimõiguste Kohus.",
+    "viited": ["EIÕK art 1", "EIÕK art 19"],
+    "allikas": "EIÕK tekst"
+  },
+  "harta": {
+    "termin": "Põhiõiguste harta",
+    "selgitus": "Euroopa Liidu põhiõiguste akt. Kohaldub liidu institutsioonidele ja liikmesriikidele üksnes liidu õiguse kohaldamise korral. Konspektis kasutatud numbrid II-61 jne pärinevad jõustumata Euroopa põhiseaduse lepingust.",
+    "viited": ["harta art 51"],
+    "allikas": "harta tekst; põhiseaduse lepingu jõustumata jäämine on üldteadmine"
+  },
+  "sotsiaalharta": {
+    "termin": "Euroopa sotsiaalharta",
+    "selgitus": "Euroopa Nõukogu leping sotsiaalsete õiguste kohta (töö, tervis, sotsiaalkaitse). Parandatud harta tekst on kaustas 03_Euroopa_Noukogu.",
+    "viited": [],
+    "allikas": "LOEMIND"
+  },
+  "genotsiid": {
+    "termin": "Genotsiid",
+    "selgitus": "Üks neljast ICC jurisdiktsiooni alla kuuluvast kuriteost (täpne määratlus Rooma statuudi art 6).",
+    "viited": ["Rooma art 5"],
+    "allikas": "Rooma statuut"
+  },
+  "inimsusevastane-kuritegu": {
+    "termin": "Inimsusevastane kuritegu",
+    "selgitus": "ICC jurisdiktsiooni alla kuuluv kuritegu (määratlus Rooma statuudi art 7).",
+    "viited": ["Rooma art 5"],
+    "allikas": "Rooma statuut"
+  },
+  "sojakuritegu": {
+    "termin": "Sõjakuritegu",
+    "selgitus": "Humanitaarõiguse raske rikkumine, mille eest saab isiklikult vastutada (määratlus Rooma statuudi art 8).",
+    "viited": ["Rooma art 5"],
+    "allikas": "Rooma statuut"
+  },
+  "agressioon": {
+    "termin": "Agressioon",
+    "selgitus": "ICC jurisdiktsiooni alla kuuluv kuritegu; jurisdiktsiooni tingimused on statuudis eraldi määratud.",
+    "viited": ["Rooma art 5"],
+    "allikas": "Rooma statuut"
+  },
+  "komplementaarsus": {
+    "termin": "Komplementaarsus",
+    "selgitus": "ICC täiendab riiklikke kohtuid: asi on ICC-s vastuvõetamatu, kui riik ise uurib või on uurinud, välja arvatud riigi tahtmatuse või võimetuse korral.",
+    "viited": ["Rooma art 1", "Rooma art 17"],
+    "allikas": "Rooma statuut"
+  },
+  "piinamine": {
+    "termin": "Piinamine",
+    "selgitus": "Tahtlik tugeva füüsilise või vaimse valu või piina tekitamine kindlal eesmärgil (ülestunnistus, karistamine, hirmutamine, diskrimineerimine), kui seda teeb või lubab ametiisik. Ei hõlma üksnes seaduslike sanktsioonidega paratamatult kaasnevat valu.",
+    "viited": ["CAT art 1", "PS § 18", "EIÕK art 3"],
+    "allikas": "CAT (mitteametlik tõlge)"
+  },
+  "non-refoulement": {
+    "termin": "Non-refoulement",
+    "selgitus": "Välja- ja tagasisaatmise keeld: isikut ei tohi saata riiki, kus tema elu või vabadus on ohus või kus teda ähvardab piinamine, surmanuhtlus või ebainimlik kohtlemine.",
+    "viited": ["PagK art 33", "CAT art 3", "harta art 19 lg 2", "VRKS § 52"],
+    "allikas": "pagulasseisundi konventsioon, CAT, harta"
+  },
+  "ammendamine": {
+    "termin": "Riigisiseste õiguskaitsevahendite ammendamine",
+    "selgitus": "Enne rahvusvahelisse kaebusmenetlusse (EIK, ÜRO komitee) pöördumist tuleb läbida riigisisesed võimalused – vanglas vaie ja kohtuastmed.",
+    "viited": ["EIÕK art 35 lg 1", "KPÕRP FP art 2", "VangS § 1^1 lg 5"],
+    "allikas": "EIÕK, fakultatiivprotokoll; konspekt"
+  },
+  "vaie": {
+    "termin": "Vaie",
+    "selgitus": "Haldusmenetluse siseselt esitatav nõue otsuse või toimingu ülevaatamiseks. Vanglas on vaie kohustuslik enne halduskohtusse pöördumist ja see lahendatakse 30 päeva jooksul.",
+    "viited": ["HMS § 71", "VangS § 1^1 lg 5", "VangS § 1^1 lg 7"],
+    "allikas": "konspekt + seadus"
+  },
+  "absoluutne-oigus": {
+    "termin": "Absoluutne õigus",
+    "selgitus": "Õigus, mida ei tohi piirata ühelgi põhjusel ega peatada ka hädaolukorras (nt piinamise keeld). Proportsionaalsust ei kaaluta.",
+    "viited": ["EIÕK art 15 lg 2", "CAT art 2 lg 2"],
+    "allikas": "EIÕK, CAT; mõiste on õigusteaduse üldistus"
+  }
+}

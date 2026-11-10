@@ -1,0 +1,95 @@
+{
+  "id": "t01-11",
+  "tund": "t01",
+  "jrk": 11,
+  "pealkiri": "Õigus varjupaika taotleda ja saada",
+  "kysimused": [13],
+  "lyhidalt": "Tagakiusamise eest põgenev inimene võib otsida kaitset teises riigis. Pagulast ei tohi saata riiki, kus tema elu või vabadus on ohus (non-refoulement), ja piinamise ohu korral ei tohi välja saata mitte kedagi.",
+  "osad": {
+    "pohimote": {
+      "tekst": "**Igal inimesel on õigus tagakiusu ees varjupaika otsida teistes maades ja seda varjupaika kasutada** ([[ÜDIÕ art 14]]). Siduvalt määratleb **pagulase** pagulasseisundi konventsioon: isik, kes **põhjendatult kardab tagakiusamist** rassi, usu, rahvuse, sotsiaalsesse gruppi kuulumise või poliitiliste veendumuste pärast, viibib väljaspool kodakondsusjärgset riiki ega saa või kartuse tõttu ei taha selle riigi kaitset ([[PagK art 1]] A lg 2). EL-is tagatakse varjupaigaõigus Genfi konventsiooni ja protokolli kohaselt ([[harta art 18]]).",
+      "punktid": [
+        "**Tagakiusamise viis alust:** rass, usk, rahvus, sotsiaalne grupp, poliitilised veendumused.",
+        "{{non-refoulement|Välja- ja tagasisaatmise keeld (non-refoulement)}}: pagulast ei saadeta piirile, kus tema elu või vabadus on ohus ([[PagK art 33 lg 1]]); kedagi ei tohi saata riiki, kus teda ohustab surmanuhtlus, piinamine või ebainimlik kohtlemine ([[harta art 19 lg 2]], [[CAT art 3]]).",
+        "**Kollektiivne väljasaatmine on keelatud** ([[harta art 19 lg 1]]).",
+        "Eestis: rahvusvahelise kaitse andmist reguleerib VRKS ([[VRKS § 1]]); välja- ja tagasisaatmise lubamatuse põhimõtet järgib PPA ([[VRKS § 52]])."
+      ]
+    },
+    "alus": {
+      "read": [
+        { "tase": "ÜRO", "viited": ["ÜDIÕ art 14", "PagK art 1", "PagK art 33", "CAT art 3"], "tekst": "Varjupaiga otsimine; pagulase määratlus; non-refoulement." },
+        { "tase": "Euroopa Liit", "viited": ["harta art 18", "harta art 19"], "tekst": "Varjupaigaõigus; kaitse välja- ja tagasisaatmise korral." },
+        { "tase": "Euroopa Nõukogu", "viited": ["EIÕK art 3", "EIÕK art 5"], "tekst": "Piinamise keeld (ka väljasaatmisel); kinnipidamine väljasaatmise eesmärgil (art 5 lg 1 p f)." },
+        { "tase": "Eesti", "viited": ["VRKS § 1", "VRKS § 4", "VRKS § 52", "PS § 20"], "tekst": "Rahvusvaheline kaitse; keelduva otsuse vaidlustamine halduskohtus; vabaduse võtmine väljasaatmiseks (PS § 20 p 6)." }
+      ]
+    },
+    "piiramine": {
+      "pealkiri": "Erandid ja piirid",
+      "punktid": [
+        "**Ülddeklaratsioon:** õigust ei saa kasutada, kui jälitamine tuleneb **mittepoliitilisest kuriteost** või ÜRO eesmärkidega vastuolus olevast teost ([[ÜDIÕ art 14]]).",
+        "**Välistusklauslid:** konventsioon ei kohaldu isikule, kelle kohta on kaalukaid põhjusi arvata, et ta pani toime rahuvastase, sõja- või inimsusevastase kuriteo, raske mittepoliitilise kuriteo või ÜRO-vastase teo ([[PagK art 1]] F).",
+        "**Lõppemine:** nt vabatahtlik naasmine või asjaolude äralangemine ([[PagK art 1]] C).",
+        "**Non-refoulement'i erand pagulasele:** oht riigi julgeolekule või süüdimõistmine eriti raskes kuriteos ([[PagK art 33 lg 2]]). NB! Piinamisohu korral erandit ei ole ([[CAT art 3]], [[EIÕK art 3]], [[harta art 19 lg 2]])."
+      ]
+    },
+    "vangla": {
+      "tekst": "Vanglas puudutab teema **välismaalasest kinnipeetavaid**. Vangistust kandev välismaalane võib võtta kohustuse Eestist lahkuda; vangla küsib PPA hinnangut, kas tal on võimalik vastuvõtvasse riiki tagasi pöörduda ([[VangS § 74^1 lg 2]], [[VangS § 74^1 lg 3]]). Väljasaatmine ei tohi rikkuda non-refoulement'i: kui riigis ähvardab piinamine, ei saa teda sinna saata ka siis, kui ta on raske kuriteo toime pannud.",
+      "naide": {
+        "olukord": "Välismaalasest kinnipeetav on süüdi mõistetud raskes kuriteos. Pärast vabanemist kavatsetakse ta välja saata riiki, kus tema sõnul teda piinataks.",
+        "analyys": "**Kaitseala:** [[EIÕK art 3]], [[CAT art 3]], [[harta art 19 lg 2]]. Pagulasseisundi konventsiooni erand ([[PagK art 33 lg 2]]) võib lubada **pagulase** väljasaatmist, kuid piinamise keeld on **absoluutne** – kui on tõsine alus arvata, et ähvardab piinamine, ei tohi teda välja saata. Otsuse saab vaidlustada halduskohtus."
+      }
+    },
+    "tyypviga": {
+      "punktid": [
+        "Arvatakse, et raske kuriteo toime pannud isiku võib alati välja saata – piinamisohu korral mitte.",
+        "Pagulase määratlusest jäetakse välja „põhjendatud kartus” või viis tagakiusamise alust.",
+        "Varjupaiga **taotlemise** õigus (otsida) ja **saamise** eeldused aetakse segi – küsimus nõuab mõlemat.",
+        "Harta art 18 asemel viidatakse konspekti vanale numeratsioonile."
+      ]
+    }
+  },
+  "skeem": {
+    "tyyp": "voog",
+    "pealkiri": "Kas isik on pagulane?",
+    "sammud": [
+      { "pealkiri": "Väljaspool kodakondsusjärgset riiki?", "tekst": "jah →", "viide": "PagK art 1" },
+      { "pealkiri": "Põhjendatud kartus tagakiusamise ees?", "tekst": "rass · usk · rahvus · sotsiaalne grupp · poliitilised veendumused", "viide": "PagK art 1" },
+      { "pealkiri": "Ei saa / ei taha oma riigi kaitset?", "tekst": "jah →", "viide": "PagK art 1" },
+      { "pealkiri": "Välistusklausel (F)?", "tekst": "sõja-, inimsusevastane, raske mittepoliitiline kuritegu → ei", "viide": "PagK art 1" },
+      { "pealkiri": "Kaitse", "tekst": "non-refoulement; piinamisohu korral alati", "viide": "PagK art 33" }
+    ]
+  },
+  "vastus": [
+    {
+      "nr": 13,
+      "punktid": [
+        "**Taotleda:** igaühel on õigus tagakiusu eest varjupaika otsida ([[ÜDIÕ art 14]]); EL-is tagatud Genfi konventsiooni järgi ([[harta art 18]]).",
+        "**Saada:** pagulane on isik, kes põhjendatult kardab tagakiusamist viiel alusel ja ei saa oma riigi kaitset ([[PagK art 1]] A); välistused ([[PagK art 1]] F).",
+        "**Kaitse:** non-refoulement ([[PagK art 33]]); keeld saata riiki, kus ähvardab surmanuhtlus, piinamine või ebainimlik kohtlemine ([[harta art 19]], [[CAT art 3]]); kollektiivse väljasaatmise keeld.",
+        "**Eesti:** VRKS ([[VRKS § 1]]); keelduva otsuse peale kaebus halduskohtusse ([[VRKS § 4 lg 3]])."
+      ]
+    }
+  ],
+  "harjutused": [
+    {
+      "tyyp": "fakt",
+      "kysimus": "Milline neist EI ole pagulasseisundi konventsiooni tagakiusamise alus?",
+      "valikud": ["Usk", "Poliitilised veendumused", "Majanduslik vaesus", "Sotsiaalsesse gruppi kuulumine"],
+      "oige": 2,
+      "selgitus": "[[PagK art 1]] A lg 2: rass, usk, rahvus, sotsiaalne grupp, poliitilised veendumused."
+    },
+    {
+      "tyyp": "fakt",
+      "kysimus": "Kas piinamise ohu korral võib isiku välja saata, kui ta on ohtlik riigi julgeolekule?",
+      "valikud": ["Jah, PagK art 33 lg 2 alusel", "Ei – piinamise keeld on absoluutne"],
+      "oige": 1,
+      "selgitus": "[[CAT art 3]], [[EIÕK art 3]], [[harta art 19 lg 2]]; PagK erand ei kõrvalda piinamise keeldu."
+    }
+  ],
+  "erinevused": [
+    { "teema": "Konspekti viited protokollidele 4 ja 7", "konspekt": "Konspekt tsiteerib EIÕK protokolli nr 4 art 4 (kollektiivne väljasaatmine) ja protokolli nr 7 art 1.", "ametlik": "Nende protokollide tekste kaustas ei ole; sama põhimõte on [[harta art 19 lg 1]].", "viide": "harta art 19" },
+    { "teema": "Konspekt 3.2 – vale paragrahv", "konspekt": "Peatükis „Õigus vabadusele ja isikupuutumatusele” on tsiteeritud PS § 18 (piinamise keeld).", "ametlik": "Isikuvabadus on [[PS § 20]]; vabaduse võtmine väljasaatmiseks – § 20 teine lõige p 6.", "viide": "PS § 20" },
+    { "teema": "Pagulase määratlus Eesti seaduses", "konspekt": "—", "ametlik": "VRKS kasutab EL-i rahvusvahelise kaitse määruste termineid ([[VRKS § 2]]), seaduses endas eraldi pagulase definitsiooni ei ole.", "viide": "VRKS § 2" }
+  ],
+  "valjast": []
+}
