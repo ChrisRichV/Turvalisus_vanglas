@@ -1,6 +1,6 @@
 {
-  "aine": "Turvalisus vanglas",
-  "kirjeldus": "Õppeleht tundide kaupa: teemad, õiguslikud alused, vangla näited ja kordamine. Seaduse tekstid on ametlikest allikatest muutmata kujul.",
+  "aine": "Kooli õppeleht",
+  "kirjeldus": "Kõik ained, tunnid ja kordamine ühes kohas. Seaduse tekstid on ametlikest allikatest muutmata kujul.",
   "seis": "Seadused seisuga 10.11.2026. Mitme seaduse (VangS, HMS, KarS, KrMS, HKMS) sõnastus muutub 2027 – kontrolli Riigi Teatajast.",
   "tunnid": [
     {
@@ -133,17 +133,18 @@
       ],
       "allikafailid": {
         "opetaja": [
-          "Ruth_opetaja_tunni_failid/Inim- ja põhiõigused SKA-s tervik KS240 19.11.2024 (1).doc"
+          "Ruth_opetaja_tunni_failid/Inim_ja_pohioigused/2026-11-10_inim_ja_pohioigused_konspekt.doc"
         ],
         "kysimused": [
-          "Ruth_kordamiskusimused/Kordamisküsimused inim- ja põhiõiguste kohta 10.11.2026.docx"
+          "Ruth_kordamiskusimused/Inim_ja_pohioigused/2026-11-10_inim_ja_pohioigused_kordamiskusimused.docx"
         ],
         "tekstiversioonid": [
-          "inimoigused_materjalid/01_kursus/Inim_ja_pohioigused_SKA_tervik_KS240_2024-11-19.txt",
-          "inimoigused_materjalid/01_kursus/Kordamiskusimused_inim_ja_pohioigused_2026-11-10.md"
+          "Ruth_opetaja_tunni_failid/Inim_ja_pohioigused/2026-11-10_inim_ja_pohioigused_konspekt.txt",
+          "Ruth_kordamiskusimused/Inim_ja_pohioigused/2026-11-10_inim_ja_pohioigused_kordamiskusimused.md"
         ],
         "markus": "Failid on kohalikus kaustas „Ruth tunnid”, mitte repos. Tekstiversioonid on originaalidega sisult identsed (MD5 kontrollitud 10.11.2026)."
-      }
+      },
+      "aine": "inimoigused"
     },
     {
       "id": "t02",
@@ -160,8 +161,73 @@
         "opetaja": [],
         "kysimused": [],
         "tekstiversioonid": [],
-        "markus": "Lisa pärast tundi: õppejõu failid kausta Ruth_opetaja_tunni_failid/, kordamisküsimused kausta Ruth_kordamiskusimused/."
+        "markus": "Lisa pärast tundi: Ruth_opetaja_tunni_failid/Inim_ja_pohioigused/ ja Ruth_kordamiskusimused/Inim_ja_pohioigused/."
+      },
+      "aine": "inimoigused"
+    },
+    {
+      "id": "ps-t01",
+      "aine": "psuhholoogia",
+      "nr": 1,
+      "pealkiri": "Esimene tund",
+      "kuupaev": null,
+      "olek": "tulemas",
+      "kirjeldus": "Lisatakse pärast tundi koos materjali ja kordamisküsimustega.",
+      "materjal": [],
+      "kysimused": [],
+      "plokid": [],
+      "teemad": [],
+      "allikafailid": {
+        "opetaja": [],
+        "kysimused": [],
+        "tekstiversioonid": [],
+        "markus": "Lisa failid kaustadesse Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/ ja Ruth_kordamiskusimused/Vangla_psuhholoogia/."
       }
+    },
+    {
+      "id": "o-t01",
+      "aine": "oigus",
+      "nr": 1,
+      "pealkiri": "Esimene tund",
+      "kuupaev": null,
+      "olek": "tulemas",
+      "kirjeldus": "Lisatakse pärast tundi koos materjali ja kordamisküsimustega.",
+      "materjal": [],
+      "kysimused": [],
+      "plokid": [],
+      "teemad": [],
+      "allikafailid": {
+        "opetaja": [],
+        "kysimused": [],
+        "tekstiversioonid": [],
+        "markus": "Lisa failid kaustadesse Ruth_opetaja_tunni_failid/Oigus/ ja Ruth_kordamiskusimused/Oigus/."
+      }
+    }
+  ],
+  "ained": [
+    {
+      "id": "inimoigused",
+      "nimi": "Inim- ja põhiõigused vanglas",
+      "lyhend": "Inimõigused",
+      "kood": "KS240",
+      "kirjeldus": "Rahvusvaheline ja Euroopa inimõiguste süsteem, põhiõigused ja õiguse üldpõhimõtted vangla vaates.",
+      "kiirotsing": true
+    },
+    {
+      "id": "psuhholoogia",
+      "nimi": "Vangla psühholoogia",
+      "lyhend": "Psühholoogia",
+      "kood": "",
+      "kirjeldus": "Kinnipeetava ja vanglateenistuja psühholoogia. Tunnid lisatakse pärast tunde.",
+      "kiirotsing": false
+    },
+    {
+      "id": "oigus",
+      "nimi": "Õigus",
+      "lyhend": "Õigus",
+      "kood": "",
+      "kirjeldus": "Õiguse õpetus: normiõpetus, tõlgendamine ja õiguse rakendamine. Tunnid lisatakse pärast tunde.",
+      "kiirotsing": false
     }
   ]
 }

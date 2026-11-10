@@ -28,7 +28,12 @@ iga muudatust. Lühike reeglite kokkuvõte on failis [`CLAUDE.md`](CLAUDE.md).
 
 ## 2. Arhitektuur
 
-Staatiline leht, ilma raamistiku ja ehitussammuta brauseri jaoks. Kõik sisu on JSON-is, HTML-failid
+Staatiline leht, ilma raamistiku ja ehitussammuta brauseri jaoks.
+
+**Hierarhia: aine → tund → teema.** Ained on eraldi (eraldi leht, kordamine, sisukorra haru), kuid
+seaduste tekstid on ühised (`data/seadused.json`) ja **seaduste register** näitab, millistes ainetes
+ja teemades iga säte esineb. Ained praegu: `inimoigused` (KS240), `psuhholoogia` (vangla psühholoogia),
+`oigus` (õiguse õpetus). Uus aine = uus kirje `data/tunnid.json` → `ained` + kaust `Ruth tunnid`-is. Kõik sisu on JSON-is, HTML-failid
 ainult renderdavad. Ainus „ehitus” on Pythoni skript, mis genereerib seaduste andmefaili ja
 kontrollib sisu.
 
@@ -49,10 +54,12 @@ kontrollib sisu.
 
 | Fail | Roll | Muuda käsitsi? |
 |---|---|---|
-| `index.html` | Avaleht: tunnid → plokid → teemad, otsing, kiirotsing, kaasuse skeem, sõnastik | harva |
+| `index.html` | Töölaud: ainekaardid, „jätka” (viimati vaadatud), otsing kõigist ainetest, kaasuse skeem, sõnastik | harva |
+| `aine.html?id=inimoigused` | Aine leht: tunnid → plokid → teemad, otsing aines, kiirotsing (kui `aine.kiirotsing`) | harva |
+| `seadused.html` | Seaduste register: akt → säte → teemad (ainefiltriga); arvutatakse brauseris teemafailidest | harva |
 | `teema.html?id=t01-08` | Teema: 5 osa + skeem + tunni küsimus + harjutused + allikamärkused + tagasiside | harva |
-| `kordamine.html?tund=t01&teema=…` | Segatud harjutused (5/8/10) ja tunni küsimused vastustega | harva |
-| `assets/app.js` | Andmete laadimine, märgistus (`md`), hüpikaknad, harjutuste loogika, tagasiside | harva |
+| `kordamine.html?aine=…&tund=…&teema=…` | Segatud harjutused (5/8/10) aine/tunni/teema kaupa ja tunni küsimused vastustega | harva |
+| `assets/app.js` | Andmed, märgistus (`md`), **ühine päis + sisukorra sahtel** (`A.kaivita({leht, aine, tund, teema})`), hüpikaknad, näiteaken, harjutused, tagasiside | harva |
 | `assets/skeemid.js` | Skeemitüübid: `voog`, `puu`, `tasandid`, `vordlus`, `kaalud` | uue tüübi korral |
 | `assets/stiil.css` | Kujundus, hele/tume teema | harva |
 | `assets/seadistus.js` | Supabase URL + **publishable** võti | ei |
@@ -72,8 +79,9 @@ kontrollib sisu.
 
 ### `data/tunnid.json`
 ```json
-{ "tunnid": [ {
-    "id": "t01", "nr": 1, "pealkiri": "…", "kuupaev": "2026-11-10", "olek": "valmis | tulemas",
+{ "ained": [ { "id": "inimoigused", "nimi": "…", "lyhend": "Inimõigused", "kood": "KS240", "kirjeldus": "…", "kiirotsing": true } ],
+  "tunnid": [ {
+    "id": "t01", "aine": "inimoigused", "nr": 1, "pealkiri": "…", "kuupaev": "2026-11-10", "olek": "valmis | tulemas",
     "kirjeldus": "…", "materjal": ["avalik materjali kirjeldus"],
     "kysimused": ["õppejõu küsimus 1", "…"],          // järjekord = number
     "plokid": [ { "pealkiri": "…", "teemad": ["t01-01", "…"] } ],
@@ -81,6 +89,9 @@ kontrollib sisu.
     "allikafailid": { "opetaja": [], "kysimused": [], "tekstiversioonid": [], "markus": "" }
 } ] }
 ```
+
+**Id-de kuju:** inimõigused `t01`, `t01-01`; psühholoogia `ps-t01`, `ps-t01-01`; õigus `o-t01`, `o-t01-01`.
+Teemafail: `teemad/<teema-id>-<nimi>.json`. Id-d peavad olema unikaalsed (ehitus kontrollib).
 
 ### `teemad/*.json`
 ```json
@@ -164,13 +175,16 @@ viide ja termin; tume režiim.
 
 ## 5. Uue tunni lisamine (töövoog)
 
-1. **Materjal kausta** (kasutaja): õppejõu failid → `Ruth tunnid/Ruth_opetaja_tunni_failid/`,
-   kordamisküsimused → `Ruth tunnid/Ruth_kordamiskusimused/`. Failinimes kuupäev.
+1. **Materjal kausta** (kasutaja): õppejõu failid → `Ruth tunnid/Ruth_opetaja_tunni_failid/<Aine>/`,
+   kordamisküsimused → `Ruth tunnid/Ruth_kordamiskusimused/<Aine>/` (`Inim_ja_pohioigused`,
+   `Vangla_psuhholoogia`, `Oigus`). Failinimi `AAAA-KK-PP_tunni_teema.<laiend>`.
 2. **Tekstiversioon** iga originaali kõrvale (`.txt`/`.md`, sama nimi, päis `ALLIKAS / TÜÜP / TEISENDUS`).
 3. **Uuenda `Ruth tunnid/00_SISUKORD.md`** (uued failid, märgised, AK).
 4. **Teemade nimekiri** (≤ ~15) → näita kasutajale ja oota kinnitust.
-5. **`data/tunnid.json`**: muuda tund `olek: "valmis"`, lisa küsimused, plokid, teemad, `allikafailid`;
-   lisa uus `tulemas`-kirje järgmise tunni jaoks.
+5. **`data/tunnid.json`**: õiges aines muuda tund `olek: "valmis"`, lisa küsimused, plokid, teemad,
+   `allikafailid`; lisa sama aine alla uus `tulemas`-kirje järgmise tunni jaoks.
+   Psühholoogias ei ole alati seadusesätteid – siis võib `alus.read[].viited` olla tühi ja väited
+   viitavad õppejõu materjalile (`valjast` ei ole vaja, kui allikas on tunnimaterjal).
 6. **`teemad/tNN-MM-nimi.json`** iga teema kohta. Enne kirjutamist **loe sätted algtekstist**
    (`python3 tools/seadused.py "VangS 29" "PS 43"`). Vangla näide → kaasuse skeem.
 7. **Uus akt?** Lisa `tools/seadused.py` → `ACTS` (lühend, fail, ühiku regex, pealkiri, vorm).
