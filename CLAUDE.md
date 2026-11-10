@@ -24,4 +24,4 @@ Materjal on kasutaja arvutis `Desktop\Ruth tunnid` (sisukord `00_SISUKORD.md`); 
 
 ## Uus tund (lühidalt)
 õige aine kaust (`Ruth_opetaja_tunni_failid/<Aine>/`) → teemade nimekiri → kasutaja kinnitus → `data/tunnid.json` (õige `aine`, id-d `ps-t01…`, `o-t01…`) → `teemad/tNN-MM-*.json` → (uus akt: `tools/seadused.py` `ACTS`)
-→ `ehita.py` OK → brauseris 390 px ja 1280 px → haru + PR. Uuenda ka `Ruth tunnid/00_SISUKORD.md`.
+→ `ehita.py` OK → (CSS/JS muutus: tõsta `?v=` kõigis HTML-ides) → brauseris 390 px ja 1280 px → haru + PR. Uuenda ka `Ruth tunnid/00_SISUKORD.md`.
