@@ -63,6 +63,9 @@ kontrollib sisu.
 | `assets/skeemid.js` | Skeemitüübid: `voog`, `puu`, `tasandid`, `vordlus`, `kaalud` | uue tüübi korral |
 | `assets/stiil.css` | Kujundus, hele/tume teema | harva |
 | `assets/seadistus.js` | Supabase URL + **publishable** võti | ei |
+
+> **Vahemälu:** HTML-failid laadivad `assets/*` kujul `?v=AAAAKKPPx`. Kui muudad CSS-i või JS-i, tõsta versiooni **kõigis** HTML-failides
+> (`sed -i -E 's#\?v=[0-9a-z]+"#?v=UUS"#g' *.html`), muidu näeb kasutaja uut HTML-i vana stiili/skriptiga ja leht on „katki”.
 | `data/tunnid.json` | Tundide nimekiri, kordamisküsimused, plokid, teemafailid, allikafailid | **iga uus tund** |
 | `teemad/tNN-MM-nimi.json` | Üks teema | **iga uus teema** |
 | `data/terminid.json` | Sõnastik | uue termini korral |
