@@ -38,6 +38,12 @@
 
   <div id="tunnid"><p class="vahe tyhi" style="margin-top:2rem">Laen tunde…</p></div>
 
+  <section class="kiirotsing" aria-labelledby="kiir-pealk">
+    <h2 id="kiir-pealk">Põhiõigus → vangla õigusakt</h2>
+    <p id="kiir-kirjeldus"></p>
+    <div id="kiirotsing"></div>
+  </section>
+
   <section class="meetod" aria-labelledby="meetod-pealk">
     <h2 id="meetod-pealk">Kuidas kaasust lahendada</h2>
     <p>Sama skeem kehtib iga piiratava põhiõiguse kohta. Absoluutsete õiguste puhul (nt piinamise keeld) proportsionaalsust ei kaaluta.</p>
@@ -76,6 +82,17 @@
   };
   const kuup = (s) => s ? new Date(s + "T12:00:00").toLocaleDateString("et-EE", { day: "numeric", month: "long", year: "numeric" }) : "";
 
+  A.lae("data/kiirotsing.json").then((k) => {
+    document.getElementById("kiir-kirjeldus").textContent = k.kirjeldus;
+    const rida = (r) => `<tr><th scope="row">${r.teema_id ? `<a href="teema.html?id=${r.teema_id}">${A.esc(r.teema)}</a>` : A.esc(r.teema)}</th>
+      <td data-veerg="Põhiseadus ja rahvusvaheline õigus">${r.pohiseadus.map((x) => A.refNupp(x)).join(" ")}</td>
+      <td data-veerg="Vangla">${r.vangla.map((x) => A.refNupp(x)).join(" ")}<span class="kiir-selg">${A.esc(r.vangla_tekst)}</span></td></tr>`;
+    return A.andmed().then(() => {
+      document.getElementById("kiirotsing").innerHTML = `<table class="s-vordlus kiir-tabel"><thead><tr><th scope="col">Põhiõigus</th><th scope="col">Põhiseadus ja rahvusvaheline õigus</th><th scope="col">Vangla</th></tr></thead><tbody>${k.read.map(rida).join("")}</tbody></table>
+        <p class="kiir-allikas">${A.esc(k.allikas)}</p>`;
+    });
+  }).catch((e) => console.error(e));
+
   A.andmed().then(({ tunnid, terminid }) => {
     document.getElementById("seis").textContent = tunnid.seis;
     document.getElementById("meetod").innerHTML = A.skeem(MEETOD);
@@ -102,7 +119,8 @@
           <div class="tund-info"><div class="nr">${t.nr}</div><h2 id="tund-${t.id}">${A.esc(t.pealkiri)}</h2>
             <div class="kp">${kuup(t.kuupaev)}</div><p>${A.esc(t.kirjeldus)}</p>
             <div class="nupud"><a class="nupp" href="kordamine.html?tund=${t.id}">Korda seda tundi</a>
-            <a class="nupp teine" href="teema.html?id=${t.teemad[0].id}">Alusta esimesest teemast</a></div></div>
+            <a class="nupp teine" href="teema.html?id=${t.teemad[0].id}">Alusta esimesest teemast</a></div>
+            ${t.materjal && t.materjal.length ? `<div class="materjal"><h3>Tunni materjal</h3><ul>${t.materjal.map((m) => `<li>${A.esc(m)}</li>`).join("")}</ul></div>` : ""}</div>
           <div class="tund-sisu">${plokid}<p class="tyhi peidetud" data-tyhi>Selle otsinguga teemasid ei leitud.</p></div></section>`;
       }).join("");
       document.getElementById("tunnid").innerHTML = html;

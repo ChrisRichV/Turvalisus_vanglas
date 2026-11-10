@@ -11,8 +11,8 @@
       "olek": "valmis",
       "kirjeldus": "Rahvusvaheline ja Euroopa inimõiguste süsteem, olulisemad põhiõigused ja õiguse üldpõhimõtted vangla vaates.",
       "materjal": [
-        "Kursuse konspekt „Inim- ja põhiõigused SKA-s tervik KS240” (19.11.2024)",
-        "Kordamisküsimused inim- ja põhiõiguste kohta (10.11.2026)",
+        "Õppejõu konspekt „Inim- ja põhiõigused SKA-s tervik KS240” (19.11.2024)",
+        "Õppejõu kordamisküsimused (10.11.2026)",
         "Seaduste ja lepingute ametlikud tekstid (Riigi Teataja, EUR-Lex, ÜRO)"
       ],
       "kysimused": [
@@ -38,27 +38,112 @@
         "Milles seisneb õiguspärase ootuse põhimõte?"
       ],
       "plokid": [
-        { "pealkiri": "Rahvusvaheline süsteem", "teemad": ["t01-01", "t01-02", "t01-03", "t01-04", "t01-05", "t01-06", "t01-07"] },
-        { "pealkiri": "Põhiõigused", "teemad": ["t01-08", "t01-09", "t01-10", "t01-11", "t01-12", "t01-13"] },
-        { "pealkiri": "Hea haldus ja üldpõhimõtted", "teemad": ["t01-14", "t01-15"] }
+        {
+          "pealkiri": "Rahvusvaheline süsteem",
+          "teemad": [
+            "t01-01",
+            "t01-02",
+            "t01-03",
+            "t01-04",
+            "t01-05",
+            "t01-06",
+            "t01-07"
+          ]
+        },
+        {
+          "pealkiri": "Põhiõigused",
+          "teemad": [
+            "t01-08",
+            "t01-09",
+            "t01-10",
+            "t01-11",
+            "t01-12",
+            "t01-13"
+          ]
+        },
+        {
+          "pealkiri": "Hea haldus ja üldpõhimõtted",
+          "teemad": [
+            "t01-14",
+            "t01-15"
+          ]
+        }
       ],
       "teemad": [
-        { "id": "t01-01", "fail": "teemad/t01-01-uro.json" },
-        { "id": "t01-02", "fail": "teemad/t01-02-regionaalsed-en.json" },
-        { "id": "t01-03", "fail": "teemad/t01-03-eiok-eik.json" },
-        { "id": "t01-04", "fail": "teemad/t01-04-icc.json" },
-        { "id": "t01-05", "fail": "teemad/t01-05-el-kohus.json" },
-        { "id": "t01-06", "fail": "teemad/t01-06-riigisisene-kohus.json" },
-        { "id": "t01-07", "fail": "teemad/t01-07-humanitaaroigus.json" },
-        { "id": "t01-08", "fail": "teemad/t01-08-inimvaarikus.json" },
-        { "id": "t01-09", "fail": "teemad/t01-09-oigus-elule.json" },
-        { "id": "t01-10", "fail": "teemad/t01-10-eneseteostus.json" },
-        { "id": "t01-11", "fail": "teemad/t01-11-varjupaik.json" },
-        { "id": "t01-12", "fail": "teemad/t01-12-eraelu-sonumisaladus.json" },
-        { "id": "t01-13", "fail": "teemad/t01-13-usuvabadus.json" },
-        { "id": "t01-14", "fail": "teemad/t01-14-hea-haldus.json" },
-        { "id": "t01-15", "fail": "teemad/t01-15-uldpohimotted.json" }
-      ]
+        {
+          "id": "t01-01",
+          "fail": "teemad/t01-01-uro.json"
+        },
+        {
+          "id": "t01-02",
+          "fail": "teemad/t01-02-regionaalsed-en.json"
+        },
+        {
+          "id": "t01-03",
+          "fail": "teemad/t01-03-eiok-eik.json"
+        },
+        {
+          "id": "t01-04",
+          "fail": "teemad/t01-04-icc.json"
+        },
+        {
+          "id": "t01-05",
+          "fail": "teemad/t01-05-el-kohus.json"
+        },
+        {
+          "id": "t01-06",
+          "fail": "teemad/t01-06-riigisisene-kohus.json"
+        },
+        {
+          "id": "t01-07",
+          "fail": "teemad/t01-07-humanitaaroigus.json"
+        },
+        {
+          "id": "t01-08",
+          "fail": "teemad/t01-08-inimvaarikus.json"
+        },
+        {
+          "id": "t01-09",
+          "fail": "teemad/t01-09-oigus-elule.json"
+        },
+        {
+          "id": "t01-10",
+          "fail": "teemad/t01-10-eneseteostus.json"
+        },
+        {
+          "id": "t01-11",
+          "fail": "teemad/t01-11-varjupaik.json"
+        },
+        {
+          "id": "t01-12",
+          "fail": "teemad/t01-12-eraelu-sonumisaladus.json"
+        },
+        {
+          "id": "t01-13",
+          "fail": "teemad/t01-13-usuvabadus.json"
+        },
+        {
+          "id": "t01-14",
+          "fail": "teemad/t01-14-hea-haldus.json"
+        },
+        {
+          "id": "t01-15",
+          "fail": "teemad/t01-15-uldpohimotted.json"
+        }
+      ],
+      "allikafailid": {
+        "opetaja": [
+          "Ruth_opetaja_tunni_failid/Inim- ja põhiõigused SKA-s tervik KS240 19.11.2024 (1).doc"
+        ],
+        "kysimused": [
+          "Ruth_kordamiskusimused/Kordamisküsimused inim- ja põhiõiguste kohta 10.11.2026.docx"
+        ],
+        "tekstiversioonid": [
+          "inimoigused_materjalid/01_kursus/Inim_ja_pohioigused_SKA_tervik_KS240_2024-11-19.txt",
+          "inimoigused_materjalid/01_kursus/Kordamiskusimused_inim_ja_pohioigused_2026-11-10.md"
+        ],
+        "markus": "Failid on kohalikus kaustas „Ruth tunnid”, mitte repos. Tekstiversioonid on originaalidega sisult identsed (MD5 kontrollitud 10.11.2026)."
+      }
     },
     {
       "id": "t02",
@@ -70,7 +155,13 @@
       "materjal": [],
       "kysimused": [],
       "plokid": [],
-      "teemad": []
+      "teemad": [],
+      "allikafailid": {
+        "opetaja": [],
+        "kysimused": [],
+        "tekstiversioonid": [],
+        "markus": "Lisa pärast tundi: õppejõu failid kausta Ruth_opetaja_tunni_failid/, kordamisküsimused kausta Ruth_kordamiskusimused/."
+      }
     }
   ]
 }

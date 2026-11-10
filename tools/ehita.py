@@ -76,6 +76,14 @@ for t in tunnid["tunnid"]:
                 vead.append(f"{tm['fail']}: harjutus {i} – vale 'oige' indeks")
         walk(d, tm["fail"], refs, terms, quotes)
 walk(terminid, "data/terminid.json", refs, terms, quotes)
+kiir_p = os.path.join(REPO, "data/kiirotsing.json")
+if os.path.exists(kiir_p):
+    kiir = json.load(open(kiir_p, encoding="utf-8"))
+    teema_idd = {tm["id"] for t in tunnid["tunnid"] for tm in t["teemad"]}
+    for i, r in enumerate(kiir["read"]):
+        refs.extend((x, f"data/kiirotsing.json[{i}]") for x in r["pohiseadus"] + r["vangla"])
+        if r.get("teema_id") and r["teema_id"] not in teema_idd:
+            vead.append(f"data/kiirotsing.json[{i}]: tundmatu teema_id {r['teema_id']}")
 
 # --- terminid
 for t, where in terms:
@@ -165,21 +173,44 @@ for p in glob.glob(os.path.join(REPO, "**/*"), recursive=True):
         t = open(p, encoding="utf-8", errors="ignore").read()
         if "data/seadused.json" not in p:
             repo_tekst += "\n" + t
-        if re.search(r"ASUTUSESISESEKS KASUTAMISEKS", t) and not p.endswith(("README-projekt.md", "ehita.py")):
+        if re.search(r"ASUTUSESISESEKS KASUTAMISEKS", t) and not p.endswith(("README-projekt.md", "CLAUDE.md", "ehita.py")):
             vead.append(f"AK-märge failis {os.path.relpath(p, REPO)}")
 
 def grams(t, n=8):
     w = re.findall(r"\w+", t.lower()); return {" ".join(w[i:i+n]) for i in range(len(w)-n)}
-ak_failid = glob.glob(os.path.join(args.materjal, "vangla_materjalid/06_standardid_ja_kodukord/*standard*.txt"))
-if ak_failid:
-    rg = grams(repo_tekst)
-    for f in ak_failid:
-        body = open(f, encoding="utf-8").read().split("========================================", 1)[-1]
-        k = rg & grams(body)
-        if k:
-            vead.append(f"AK-standardiga kattuv tekst ({os.path.basename(f)}): {sorted(k)[:3]}")
+rg = grams(repo_tekst)
+
+# 1) Sõrmejäljed (tools/ak_sormejaljed.txt): AK-tekstide 8-sõnaliste lõikude räsid.
+#    Töötab ka siis, kui AK-failid on materjalikaustast kustutatud.
+import hashlib
+fp_fail = os.path.join(REPO, "tools/ak_sormejaljed.txt")
+if os.path.exists(fp_fail):
+    fp = {l.strip() for l in open(fp_fail, encoding="utf-8") if l.strip() and not l.startswith("#")}
+    kattuv = [g for g in rg if hashlib.sha256(g.encode()).hexdigest()[:16] in fp]
+    if kattuv:
+        vead.append(f"AK-sõrmejäljega kattuv tekst ({len(kattuv)} lõiku), nt: {sorted(kattuv)[:3]}")
 else:
-    hoiatused.append("AK-standardeid ei leitud – kattuvuse kontroll jäi tegemata")
+    hoiatused.append("tools/ak_sormejaljed.txt puudub – sõrmejälje kontroll jäi tegemata")
+
+# 2) Materjalikaustas praegu olevad AK-märgisega tekstid (uued failid või lehed).
+ak_leitud = 0
+for f in glob.glob(os.path.join(args.materjal, "**/*.txt"), recursive=True) + glob.glob(os.path.join(args.materjal, "**/*.md"), recursive=True):
+    if "/vastused/" in f.replace("\\", "/") or os.path.basename(f) in ("00_SISUKORD.md", "00_LOEMIND.md"):
+        continue
+    t = open(f, encoding="utf-8", errors="ignore").read()
+    if "ASUTUSESISESEKS KASUTAMISEKS" not in t or t.startswith("ALLIKAS: Riigi Teataja"):
+        continue  # seadused (nt AvTS) mainivad märget, kuid ei ole ise AK
+    body = t.split("========================================", 1)[-1]
+    lehed = re.split(r"--- (?:Lk|Slaid) \d+ ---", body)
+    pais = "\n".join(body.splitlines()[:12])
+    osad = [body] if "ASUTUSESISESEKS KASUTAMISEKS" in pais else [x for x in lehed if "ASUTUSESISESEKS KASUTAMISEKS" in x]
+    for osa in osad:
+        ak_leitud += 1
+        k = rg & grams(osa)
+        if k:
+            vead.append(f"AK-märgisega tekstiga kattuv sisu ({os.path.relpath(f, args.materjal)}): {sorted(k)[:3]}")
+if ak_leitud:
+    hoiatused.append(f"Materjalis on {ak_leitud} AK-märgisega osa – kontrollitud, kattuvust repoga ei tohi olla")
 
 # --- kirjuta
 out = {

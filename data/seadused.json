@@ -493,6 +493,14 @@
     "Konventsiooniosalised tagavad igaühele, kes on nende jurisdiktsiooni all, konventsiooni I osas määratletud õigused ja vabadused."
    ]
   },
+  "EIÕK art 13": {
+   "akt": "EIÕK",
+   "nr": "13",
+   "read": [
+    "Artikkel 13. Õigus tõhusale õiguskaitsevahendile",
+    "Igaühel, kelle konventsioonis sätestatud õigusi ja vabadusi on rikutud, on õigus tõhusale õiguskaitsevahendile riigivõimude ees ka siis, kui rikkumise pani toime ametiisik."
+   ]
+  },
   "EIÕK art 14": {
    "akt": "EIÕK",
    "nr": "14",
@@ -651,6 +659,21 @@
     "3. Iga lõike 1 punkti c kohaselt vahistatu või kinnipeetu toimetatakse viivitamata kohtuniku või muu seadusjärgse õigusemõistmise pädevusega ametiisiku ette ning tal on õigus kohtumenetlusele mõistliku aja jooksul või vabastamisele kuni asja arutamiseni. Vabastamise tingimuseks võib olla tagatiste kohaldamine asja arutamisele ilmumiseks.",
     "4. Igaühel, kellelt on võetud vabadus vahistamise või kinnipidamisega, on õigus taotleda menetlust, milles kohus otsustaks kiires korras tema kinnipidamise õiguspärasuse ning korraldaks tema vabastamise, kui kinnipidamine on õigusvastane.",
     "5. Igaühel, kes on vahistatud või kinni peetud vastuolus käesoleva artikliga, on õigus nõuda hüvitist."
+   ]
+  },
+  "EIÕK art 6": {
+   "akt": "EIÕK",
+   "nr": "6",
+   "read": [
+    "Artikkel 6. Õigus õiglasele kohtumenetlusele",
+    "1. Igaühel on oma tsiviilõiguste ja -kohustuste või temale esitatud kriminaalsüüdistuse üle otsustamisel õigus õiglasele ja avalikule kohtumenetlusele mõistliku aja jooksul sõltumatus ja erapooletus, seaduse alusel moodustatud kohtus. Kohtuotsus kuulutatakse avalikult, kuid istungi võib ajakirjanikele ja üldsusele täielikult või osaliselt kinniseks kuulutada demokraatliku ühiskonna kõlbluse, avaliku korra või riigi julgeoleku huvides, alaealise huvides või poolte eraelu kaitseks või kohtu määratud ulatuses erijuhtudel, kui avalikkus kahjustaks õigusemõistmist.",
+    "2. Igaüht, keda süüdistatakse kuriteos, peetakse süütuks seni, kuni tema süü ei ole seaduse kohaselt tõendatud.",
+    "3. Igal kuriteos süüdistataval on vähemalt järgmised õigused:",
+    "a) saada viivitamata talle arusaadavas keeles üksikasjalikku teavet tema vastu esitatud süüdistuse iseloomust ja alustest;",
+    "b) saada piisavalt aega ja võimalusi enda kaitse ettevalmistamiseks;",
+    "c) kaitsta end ise või enda valitud kaitsja abil või saada tasuta õigusabi juhul, kui see on õigusemõistmise huvides vajalik ja süüdistataval pole piisavalt vahendeid õigusabi eest tasumiseks;",
+    "d) küsitleda ise või lasta küsitleda tema vastu ütlusi andma kutsutud tunnistajaid, lasta omalt poolt kohale kutsuda tunnistajaid ja neid küsitleda tema vastu ütlusi andvate tunnistajatega võrdsetel tingimustel;",
+    "e) kasutada tasuta tõlgi abi, kui ta ei mõista või ei räägi kohtus kasutatavat keelt."
    ]
   },
   "EIÕK art 8": {
@@ -1445,6 +1468,28 @@
     "Perekond on kohustatud hoolitsema oma abivajavate liikmete eest."
    ]
   },
+  "PS § 28": {
+   "akt": "PS",
+   "nr": "28",
+   "read": [
+    "§ 28. Igaühel on õigus tervise kaitsele.",
+    "Eesti kodanikul on õigus riigi abile vanaduse, töövõimetuse, toitjakaotuse ja puuduse korral. Abi liigid, ulatuse ning saamise tingimused ja korra sätestab seadus. Kui seadus ei sätesta teisiti, siis on see õigus võrdselt Eesti kodanikuga ka Eestis viibival välisriigi kodanikul ja kodakondsuseta isikul.",
+    "Riik soodustab vabatahtlikku ja omavalitsuse hoolekannet.",
+    "Lasterikkad pered ja puuetega inimesed on riigi ja kohalike omavalitsuste erilise hoole all."
+   ]
+  },
+  "PS § 29": {
+   "akt": "PS",
+   "nr": "29",
+   "read": [
+    "§ 29. Eesti kodanikul on õigus vabalt valida tegevusala, elukutset ja töökohta. Seadus võib sätestada selle õiguse kasutamise tingimused ja korra. Kui seadus ei sätesta teisiti, siis on see õigus võrdselt Eesti kodanikuga ka Eestis viibival välisriigi kodanikul ja kodakondsuseta isikul.",
+    "Kedagi ei tohi sundida tema vaba tahte vastaselt tööle ega teenistusse, välja arvatud kaitseväeteenistus või selle asendusteenistus, tööd nakkushaiguse leviku tõkestamisel, loodusõnnetuse ja katastroofi korral ning töö, mida seaduse alusel ja korras peab tegema süüdimõistetu.",
+    "Riik korraldab kutseõpet ja abistab tööotsijaid töö leidmisel.",
+    "Töötingimused on riigi kontrolli all.",
+    "Töötajate ja tööandjate ühingutesse ja liitudesse kuulumine on vaba. Töötajate ja tööandjate ühingud ja liidud võivad oma õiguste ja seaduslike huvide eest seista vahenditega, mida seadus ei keela. Streigiõiguse kasutamise tingimused ja korra sätestab seadus.",
+    "Töövaidluste lahendamise korra sätestab seadus."
+   ]
+  },
   "PS § 3": {
    "akt": "PS",
    "nr": "3",
@@ -1458,6 +1503,17 @@
    "nr": "33",
    "read": [
     "§ 33. Kodu on puutumatu. Ei tohi tungida kellegi eluruumi, valdusse ega töökohta ega neid ka läbi otsida, välja arvatud seadusega sätestatud juhtudel ja korras avaliku korra, tervise või teiste inimeste õiguste ja vabaduste kaitseks, kuriteo tõkestamiseks, kurjategija tabamiseks või tõe väljaselgitamiseks kriminaalmenetluses."
+   ]
+  },
+  "PS § 37": {
+   "akt": "PS",
+   "nr": "37",
+   "read": [
+    "§ 37. Igaühel on õigus haridusele. Õppimine on kooliealistel lastel seadusega määratud ulatuses kohustuslik ning riigi ja kohalike omavalitsuste üldhariduskoolides õppemaksuta.",
+    "Et teha haridus kättesaadavaks, peavad riik ja kohalikud omavalitsused ülal vajalikul arvul õppeasutusi. Seaduse alusel võib avada ja pidada ka muid õppeasutusi, sealhulgas erakoole.",
+    "Laste hariduse valikul on otsustav sõna vanematel.",
+    "Igaühel on õigus saada eestikeelset õpetust. Õppekeele vähemusrahvuse õppeasutuses valib õppeasutus.",
+    "Hariduse andmine on riigi järelevalve all."
    ]
   },
   "PS § 40": {
@@ -1819,6 +1875,29 @@
     "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]"
    ]
   },
+  "VangS § 25": {
+   "akt": "VangS",
+   "nr": "25",
+   "read": [
+    "§ 25. Kinnipeetava pikaajalised kokkusaamised",
+    "(1) Kinnipeetavale võimaldatakse pikaajalisi kokkusaamisi abikaasa, registreeritud elukaaslase, isa, ema, vanaisa, vanaema, lapse, lapselapse, lapsendaja, lapsendatu, võõras- või kasuvanema, võõras- või kasulapse, venna või õega. Pikaajalisi kokkusaamisi faktilise abikaasaga lubatakse tingimusel, et neil on ühised lapsed või vähemalt kaks aastat väldanud kooselu enne karistuse kandmise algust.",
+    "[RT I, 06.07.2023, 6 - jõust. 01.01.2024]",
+    "(1^1) Pikaajalise kokkusaamise loa andmisest keeldutakse, kui:",
+    "1) kokkusaamine ei ole kooskõlas vangistuse täideviimise eesmärkidega;",
+    "2) kokkusaamine võib ohustada vangla julgeolekut või korda;",
+    "3) kokkusaaja maines on alust kahelda või",
+    "4) kokkusaamine võib ohustada kokkusaaja või kinnipeetava tervist ja heaolu.",
+    "[RT I, 20.12.2012, 3 - jõust. 01.01.2013]",
+    "(2) Pikaajaline kokkusaamine on üks ööpäev kestev kooselamine vangla selleks ettenähtud ruumides ilma pideva järelevalveta. Põhjendatud juhtudel võib vanglateenistuse ametnik kinnipeetava pikaajalise kokkusaamise taotluse lahendamisel pikendada pikaajalist kokkusaamist kuni kolme ööpäevani, kui see on kooskõlas vangistuse täideviimise eesmärkidega ning kinnipeetava käitumine on karistuse kandmise ajal olnud hea. Pikaajaliste kokkusaamiste kord, sagedus ja kokkusaajatele lubatud asjade loetelu sätestatakse vangla sisekorraeeskirjas.",
+    "[RT I 2009, 39, 261 - jõust. 24.07.2009]",
+    "(3) Pikaajalisi kokkusaamisi ei võimaldata avavanglas viibivale kinnipeetavale.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]",
+    "(4) Pikaajaliste kokkusaamiste kulud kannab kinnipeetav või kokkusaamisele tulnud isik. Kuludeks loetakse ruumide kasutamisele, kokkusaaja toitlustamisele ja hügieenivahenditele tehtud kulutused.",
+    "[RT I 2008, 17, 118 - jõust. 01.06.2008]",
+    "(5) Pikaajaliste kokkusaamiste kulude määrad, nende arvestamise ja hüvitamise korra kehtestab valdkonna eest vastutav minister määrusega.",
+    "[RT I 2008, 17, 118 - jõust. 01.06.2008]"
+   ]
+  },
   "VangS § 26": {
    "akt": "VangS",
    "nr": "26",
@@ -1886,6 +1965,53 @@
     "[RT I, 20.12.2012, 3 - jõust. 01.01.2013]"
    ]
   },
+  "VangS § 34": {
+   "akt": "VangS",
+   "nr": "34",
+   "read": [
+    "§ 34. Hariduse omandamise võimaldamine",
+    "(1) Hariduse omandamise võimaldamise eesmärk on kindlustada kinnipeetav piisavate teadmiste, oskuste ja eetiliste tõekspidamistega, mis võimaldab tal jätkata vabaduses hariduse omandamist ja töötamist.",
+    "(2) Hariduse andmist vanglas korraldatakse Eesti Vabariigi haridusseaduse, põhikooli- ja gümnaasiumiseaduse ja kutseõppeasutuse seaduse ning nende alusel väljaantud õigusaktide kohaselt.",
+    "(3) Vanglateenistus kindlustab üldhariduse ja kutsehariduse omandamiseks ja tööalase enesetäiendamise eesmärgiga täienduskoolituse läbiviimiseks vajalike üldotstarbeliste ruumide ning õppeklasside ja -töökodade olemasolu, samuti tööpraktika võimaluse vanglas õpetatavatel erialadel.",
+    "[RT I, 23.03.2015, 5 - jõust. 01.07.2015]",
+    "(4) Kinnipeetavale, kes ei valda eesti keelt, antakse võimalus eesti keele õppimiseks. Kui eesti keele õpe ei toimu käesoleva seaduse §-des 35 ja 36 sätestatu raames, korraldab ja finantseerib eesti keele õpet vanglateenistus.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]",
+    "(5) Hariduse omandamine toimub töö ajal.",
+    "(6) Vanglateenistus suunab ja soodustab kinnipeetavaid hariduse omandamisel.",
+    "[RT I 2009, 39, 261 - jõust. 24.07.2009]"
+   ]
+  },
+  "VangS § 37": {
+   "akt": "VangS",
+   "nr": "37",
+   "read": [
+    "§ 37. Töökohustus",
+    "(1) Kui käesolev seadus ei sätesta teisiti, on kinnipeetav kohustatud töötama.",
+    "(2) Töötama ei ole kohustatud:",
+    "1) üle kuuekümne kolme aasta vanune kinnipeetav;",
+    "2) üldharidust või kutseharidust omandav või tööalase enesetäiendamise eesmärgiga täienduskoolitusel osalev kinnipeetav;",
+    "[RT I, 23.03.2015, 5 - jõust. 01.07.2015]",
+    "3) kinnipeetav, kes ei ole tervislikel põhjustel võimeline töötama;",
+    "4) kuni kolmeaastast last kasvatav kinnipeetav.",
+    "(3) Kinnipeetava võimelisuse tööd teha teeb kindlaks tervishoiutöötaja.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]",
+    "(4) Töö korraldamise viisid ning sisu peavad võimalikult vastama töökorraldusele vabaduses.",
+    "(5) Kinnipeetava rakendamine tööle käesoleva seaduse § 38 lõikes 3 nimetatud käitistes võib toimuda üksnes kinnipeetava nõusolekul."
+   ]
+  },
+  "VangS § 43": {
+   "akt": "VangS",
+   "nr": "43",
+   "read": [
+    "§ 43. Kinnipeetava töö tasustamine",
+    "(1) Kinnipeetava töötamisel makstakse talle töötasu. Töötasu makstakse ka kinnipeetavatele, keda rakendatakse vangla majandustöödel.",
+    "(2) Kinnipeetava töötasu peab olema vähemalt 10 protsenti töölepingu seaduse § 29 lõike 5 alusel kehtestatud töötasu alammäärast. Töö tasustamisel lähtutakse töö eripärast ja töötatud ajast. Kinnipeetava töötasu määrad, arvutamise ja maksmise korra kehtestab Vabariigi Valitsus.",
+    "[RT I 2009, 35, 232 - jõust. 27.06.2009]",
+    "(3) Vanglateenistus võib kinnipeetava süül põhjustatud ebarahuldavate töötulemuste eest vähendada vanglas töötava kinnipeetava töötasu kuni 60 protsenti. Töötasu vähendatakse tööd korraldava isiku ettepanekul.",
+    "[RT I 2009, 39, 261 - jõust. 24.07.2009]",
+    "(4) Töötasu suurus tehakse kinnipeetavale teatavaks kirjalikult."
+   ]
+  },
   "VangS § 47": {
    "akt": "VangS",
    "nr": "47",
@@ -1899,6 +2025,24 @@
     "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]"
    ]
   },
+  "VangS § 49": {
+   "akt": "VangS",
+   "nr": "49",
+   "read": [
+    "§ 49. Tervishoiu korraldamine vanglas",
+    "(1) Tervishoid vanglas on riigi tervishoiusüsteemi osa. Tervishoidu vanglas rahastatakse riigieelarveliste võimaluste piires tervishoiuteenuste korraldamise seaduse alusel, arvestades käesolevas seaduses sätestatud erisustega.",
+    "[RT I, 07.03.2023, 4 - jõust. 01.07.2024]",
+    "(2) [Kehtetu - RT I, 07.03.2023, 4 - jõust. 01.07.2024]",
+    "(3) Tervishoiuteenuste osutamise kinnipeetavale, arestialusele või vahistatule (edaspidi vanglas kinni peetav isik) korraldab Tervisekassa.",
+    "[RT I, 07.03.2023, 4 - jõust. 01.07.2024, osaliselt muudetud [RT I, 21.06.2024, 2]]",
+    "(4) Tervishoiuteenuste osutamise korraldamise tingimused ja korra kehtestab Vabariigi Valitsus määrusega.",
+    "[RT I, 07.03.2023, 4 - jõust. 01.07.2024]",
+    "(5) Vanglateenistus tagab tervishoiuteenuse osutamiseks tervishoiuteenuste korraldamise seaduses sätestatud nõuete kohaste vajalike ruumide olemasolu vangla territooriumil.",
+    "[RT I, 07.03.2023, 4 - jõust. 01.07.2024]",
+    "(6) Vanglas kinni peetava isiku pöördumisele seoses talle tervishoiuteenuste ja käesoleva seaduse § 52 lõike 1^1 alusel kehtestatud teenuste osutamise korraldamisega vastab vanglateenistus, kaasates tervishoiuteenuse osutaja ja vajaduse korral Tervisekassa.",
+    "[RT I, 07.03.2023, 4 - jõust. 01.07.2024, osaliselt muudetud [RT I, 21.06.2024, 2]]"
+   ]
+  },
   "VangS § 4^1": {
    "akt": "VangS",
    "nr": "4^1",
@@ -1909,6 +2053,19 @@
     "[RT I, 05.07.2013, 2 - jõust. 15.07.2013]",
     "(2) Kinnipeetava, arestialuse või vahistatu vabadus allutatakse seaduses toodud piirangutele. Kui seadus ei sätesta konkreetset piirangut, võib vangla, Justiits- ja Digiministeerium või arestimaja kohaldada vaid selliseid piiranguid, mis on vajalikud vangla või arestimaja julgeoleku kaalutlustel. Piirangud peavad vastama täideviimise eesmärgile ja inimväärikuse põhimõttele ega tohi moonutada seaduses sätestatud teiste õiguste ja vabaduste olemust.",
     "[RT I, 05.07.2013, 2 - jõust. 15.07.2013]"
+   ]
+  },
+  "VangS § 52": {
+   "akt": "VangS",
+   "nr": "52",
+   "read": [
+    "§ 52. Tervishoiuteenuse osutamine vanglas",
+    "(1) Tervishoiuteenuseid osutab vanglas tervishoiuteenuse osutaja vastavalt tervishoiuteenuste korraldamise seaduse eriarstiabi osutamist reguleerivatele sätetele.",
+    "[RT I, 07.03.2023, 4 - jõust. 01.07.2024]",
+    "(1^1) Vanglas kinni peetavale isikule riigieelarveliste võimaluste piires rahastatavate tervishoiuteenuste osutamise tingimused ja korra, samuti tervishoiuteenuste hulka kuuluvad tegevused, kehtestab Vabariigi Valitsus määrusega.",
+    "[RT I, 07.03.2023, 4 - jõust. 01.07.2024]",
+    "(2) Tervishoiutöötaja on kohustatud pidevalt jälgima kinnipeetavate terviseseisundit, ravima neid vanglas olevate võimaluste piires ja vajaduse korral suunama ravile asjakohase eriarstiabi osutaja juurde, samuti täitma teisi talle pandud ülesandeid.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]"
    ]
   },
   "VangS § 62": {
@@ -1956,6 +2113,38 @@
     "(5) [Kehtetu - RT I, 22.03.2024, 1 - jõust. 01.04.2024]"
    ]
   },
+  "VangS § 65": {
+   "akt": "VangS",
+   "nr": "65",
+   "read": [
+    "§ 65. Distsiplinaarkaristuse täideviimine",
+    "(1) Üldjuhul pööratakse distsiplinaarkaristus täitmisele kohe. Distsiplinaarkaristusena määratud kartserikaristuse järjestikuse täitmise korral peab maksimaalse järjestikuse lubatud karistuspäevade arvu täitumisel karistuse täitmise jätkamise vahele jääma mõistlik aeg, mis ei tohi olla väiksem kui 48 tundi.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]",
+    "(2) Vanglateenistuse ametnik võib distsiplinaarkaristuse või selle osa täitmisele pööramise edasi lükata tingimusel, et kinnipeetav ei pane katseajal toime uut distsipliinirikkumist. Katseaeg määratakse ühest kuni kuue kuuni.",
+    "[RT I 2009, 39, 261 - jõust. 24.07.2009]",
+    "(3) Kui kinnipeetav paneb katseajal toime uue distsipliinirikkumise, pööratakse mõlemad distsiplinaarkaristused kohe täitmisele.",
+    "(4) Kui kinnipeetav ei pane katseajal toime uut distsipliinirikkumist, jäetakse distsiplinaarkaristus täitmisele pööramata.",
+    "(5) Distsiplinaarkaristus kustub ühe aasta jooksul distsiplinaarkaristuse määramisest arvates.",
+    "[RT I, 10.03.2015, 4 - jõust. 01.06.2015]",
+    "(6) Distsiplinaarkaristust ei täideta, kui seda ei ole pööratud täitmisele kaheksa kuu jooksul arvates distsiplinaarkaristuse määramisest."
+   ]
+  },
+  "VangS § 65^1": {
+   "akt": "VangS",
+   "nr": "65^1",
+   "read": [
+    "§ 65^1. Distsiplinaarkaristuse täideviimine kartserisse paigutamise korral",
+    "[RT I 2006, 63, 466 - jõust. 01.02.2007]",
+    "(1) Kartser peab vastama käesoleva seaduse § 45 lõikes 1 sätestatud tingimustele ja tagama kinnipeetava pideva visuaalse või elektroonilise jälgimise.",
+    "[RT I 2006, 63, 466 - jõust. 01.02.2007]",
+    "(2) Kartserisse vastuvõtmisel otsitakse kinnipeetav läbi ning talle antakse kartseri arvel olev riietus. Kinnipeetava juures kambris olnud isiklikud asjad antakse hoiule ning tagastatakse kinnipeetavale pärast kartserist vabastamist.",
+    "[RT I 2006, 63, 466 - jõust. 01.02.2007]",
+    "(3) Kartserisse paigutatud kinnipeetaval ei ole õigust liikuda vangla territooriumil käesoleva seaduse §-des 8 ja 10 sätestatud korras. Kinnipeetava soovil võimaldatakse tal vähemalt üks tund päevas viibida vabas õhus.",
+    "[RT I 2006, 63, 466 - jõust. 01.02.2007]",
+    "(4) Kartserisse paigutatud kinnipeetava suhtes võib vanglateenistus osaliselt või täielikult piirata käesoleva seaduse §-de 22, 24, 25, 30–32, 34–38, 41, 43, 46 ja 48 kohaldamist.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]"
+   ]
+  },
   "VangS § 68": {
    "akt": "VangS",
    "nr": "68",
@@ -1987,6 +2176,36 @@
     "(3) Käesoleva paragrahvi lõikes 1 nimetatud asjaolude äralangemisel täiendavate julgeolekuabinõude kohaldamine lõpetatakse.",
     "(4) Täiendavaid julgeolekuabinõusid kohaldab vanglateenistus. Edasilükkamatul juhul kohaldab täiendavaid julgeolekuabinõusid kõrgem kohalviibiv vanglateenistuse ametnik.",
     "[RT I 2009, 39, 261 - jõust. 24.07.2009]"
+   ]
+  },
+  "VangS § 70^1": {
+   "akt": "VangS",
+   "nr": "70^1",
+   "read": [
+    "§ 70^1. Vanglateenistuse erivahendid ja teenistusrelvad",
+    "[RT I, 09.03.2018, 1 - jõust. 19.03.2018]",
+    "(1) Vanglateenistuse erivahendid on:",
+    "[RT I, 09.03.2018, 1 - jõust. 19.03.2018]",
+    "1) ohjeldusmeetmena kasutatavad käe- ja jalarauad, sidumisvahendid, rahustussärk, -tool ja -voodi;",
+    "2) teenistusloom;",
+    "3) sõiduki sundpeatamise vahend;",
+    "4) veekahur;",
+    "5) pisaravoolust, suitsu-, heli-, valgus- või muud efekti või valuaistingut esilekutsuvad granaadid;",
+    "6) eriotstarbeline lõhkamisseadeldis, mida ei kasutata inimese vastu;",
+    "7) eriotstarbeline valgus- ja heliseadeldis;",
+    "8) eriotstarbeline värvimis- ja märgistusvahend.",
+    "(2) Vanglateenistuse teenistusrelvad on:",
+    "[RT I, 09.03.2018, 1 - jõust. 19.03.2018]",
+    "1) tulirelv;",
+    "2) gaasirelv;",
+    "3) pneumorelv;",
+    "4) külmrelv;",
+    "5) elektrišokirelv;",
+    "[RT I, 20.12.2012, 3 - jõust. 01.01.2013]",
+    "6) harjutusrelv.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]",
+    "(3) Vanglateenistuse teenistusrelvadele ja nende laskemoonale kohaldatakse relvaseaduse sätteid, arvestades käesolevas seaduses või selle alusel sätestatud erisusi.",
+    "[RT I, 09.03.2018, 1 - jõust. 19.03.2018]"
    ]
   },
   "VangS § 71": {
@@ -2039,6 +2258,39 @@
     "(2) Kui vangistust kandev välismaalane, kes on süüdi mõistetud teise astme kuriteo eest, soovib võtta kohustuse Eesti Vabariigist lahkumiseks kriminaalmenetluse seadustiku § 424^1 lõike 1 alusel ning tal on Politsei- ja Piirivalveameti hinnangul võimalik vastuvõtvasse riiki tagasi pöörduda, taotleb vangla karistuse kandmise asukoha järgse maakohtu täitmiskohtunikult välismaalasest kinnipeetava edasisest karistuse kandmisest vabastamist.",
     "(3) Käesoleva paragrahvi lõikes 2 nimetatud taotluse esitamiseks taotleb vangla välismaalase vastuvõtvasse riiki tagasipöördumise võimalikkuse kohta hinnangut Politsei- ja Piirivalveametilt, kes edastab selle vanglale 30 päeva jooksul taotluse saamisest arvates.",
     "[RT I, 19.03.2019, 3 - jõust. 01.07.2019]"
+   ]
+  },
+  "VangS § 80": {
+   "akt": "VangS",
+   "nr": "80",
+   "read": [
+    "§ 80. Noore kinnipeetava vangistuse täideviimise üldtingimused",
+    "Noore kinnipeetava vangistuse täideviimisele kohaldatakse käesoleva seaduse 1, 2, ja 6 peatüki sätteid käesolevas peatükis sätestatud erisustega."
+   ]
+  },
+  "VangS § 81": {
+   "akt": "VangS",
+   "nr": "81",
+   "read": [
+    "§ 81. Noore kinnipeetava eraldi kinnipidamine",
+    "(1) Noortevanglas või noorteosakonnas hoitakse eraldi:",
+    "1) nooremaid kui 15-aastasi;",
+    "2) 15- kuni 16-aastasi;",
+    "3) 16- kuni 18-aastasi;",
+    "4) 18- kuni 21-aastasi.",
+    "(2) Käesoleva paragrahvi lõikes 1 nimetatud eraldihoidmise printsiibist võib teha erandeid, kui kinnipeetava eraldihoidmine teise vanusegruppi kuuluvatest kinnipeetavatest on vastuolus tema normaalse arengu või muude õigustatud huvidega.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]"
+   ]
+  },
+  "VangS § 84": {
+   "akt": "VangS",
+   "nr": "84",
+   "read": [
+    "§ 84. Noorele kinnipeetavale hariduse andmise erisused",
+    "(1) Alla 18-aastasele noorele kinnipeetavale on põhihariduse omandamine seadusega ettenähtud ulatuses kohustuslik. Vastavalt noore kinnipeetava soovile ja sobivusele antakse talle võimalus kutsehariduse omandamiseks.",
+    "[RT I 2008, 17, 118 - jõust. 01.06.2008]",
+    "(2) Noore kinnipeetava vangistuse täideviimise eesmärkide saavutamise huvides võib suurendada käesoleva seaduse §-des 24 ja 25 sätestatud kokkusaamiste ja käesoleva seaduse §-s 32 sätestatud lühiajaliste väljasõitude arvu ja kestvust.",
+    "[RT I 2006, 63, 466 - jõust. 01.01.2009]"
    ]
   },
   "VõrdKS § 3": {
