@@ -3,7 +3,9 @@
   "tund": "t01",
   "jrk": 12,
   "pealkiri": "Era- ja perekonnaelu ning sõnumi saladus",
-  "kysimused": [14],
+  "kysimused": [
+    14
+  ],
   "lyhidalt": "Riik ei tohi sekkuda inimese eraellu, perekonda ega kirjavahetusse, välja arvatud seaduses lubatud eesmärkidel ja proportsionaalselt. Vanglas on see õigus enim reguleeritud: kokkusaamised, kirjad ja telefon.",
   "osad": {
     "pohimote": {
@@ -16,11 +18,52 @@
     },
     "alus": {
       "read": [
-        { "tase": "Eesti", "viited": ["PS § 26", "PS § 27", "PS § 33", "PS § 43"], "tekst": "Era- ja perekonnaelu; perekonna kaitse; kodu; sõnumisaladus." },
-        { "tase": "Vangla", "viited": ["VangS § 23", "VangS § 24", "VangS § 26", "VangS § 27", "VangS § 28", "VangS § 29"], "tekst": "Suhtlemise eesmärk, kokkusaamised, kirjad ja telefon, nende jälgimine." },
-        { "tase": "Euroopa Nõukogu", "viited": ["EIÕK art 8"], "tekst": "Lg 1 kaitseala, lg 2 piiramise tingimused." },
-        { "tase": "Euroopa Liit", "viited": ["harta art 7", "harta art 8"], "tekst": "Eraelu; isikuandmed." },
-        { "tase": "ÜRO / standard", "viited": ["KPÕRP art 17", "ÜDIÕ art 12", "Mandela rule 58"], "tekst": "Kinnipeetaval on õigus suhelda perekonna ja sõpradega (soovituslik standard)." }
+        {
+          "tase": "Eesti",
+          "viited": [
+            "PS § 26",
+            "PS § 27",
+            "PS § 33",
+            "PS § 43"
+          ],
+          "tekst": "Era- ja perekonnaelu; perekonna kaitse; kodu; sõnumisaladus."
+        },
+        {
+          "tase": "Vangla",
+          "viited": [
+            "VangS § 23",
+            "VangS § 24",
+            "VangS § 26",
+            "VangS § 27",
+            "VangS § 28",
+            "VangS § 29"
+          ],
+          "tekst": "Suhtlemise eesmärk, kokkusaamised, kirjad ja telefon, nende jälgimine."
+        },
+        {
+          "tase": "Euroopa Nõukogu",
+          "viited": [
+            "EIÕK art 8"
+          ],
+          "tekst": "Lg 1 kaitseala, lg 2 piiramise tingimused."
+        },
+        {
+          "tase": "Euroopa Liit",
+          "viited": [
+            "harta art 7",
+            "harta art 8"
+          ],
+          "tekst": "Eraelu; isikuandmed."
+        },
+        {
+          "tase": "ÜRO / standard",
+          "viited": [
+            "KPÕRP art 17",
+            "ÜDIÕ art 12",
+            "Mandela rule 58"
+          ],
+          "tekst": "Kinnipeetaval on õigus suhelda perekonna ja sõpradega (soovituslik standard)."
+        }
       ]
     },
     "piiramine": {
@@ -52,12 +95,39 @@
   "skeem": {
     "tyyp": "vordlus",
     "pealkiri": "Kirjad ja kõned vanglas – mida tohib?",
-    "veerud": ["Tavaline kiri / kõne", "Kaitsja, advokaat, prokuratuur, kohus, õiguskantsler, ministeerium"],
+    "veerud": [
+      "Tavaline kiri / kõne",
+      "Kaitsja, advokaat, prokuratuur, kohus, õiguskantsler, ministeerium"
+    ],
     "read": [
-      { "silt": "Avada esemete leidmiseks", "lahtrid": ["jah, kinnipeetava juuresolekul ([[VangS § 29 lg 1]])", "ei ([[VangS § 29 lg 1]] erand)"] },
-      { "silt": "Sisu kontroll", "lahtrid": ["ainult jälitusalustel ([[VangS § 29 lg 2]])", "keelatud ([[VangS § 29 lg 4]])"] },
-      { "silt": "Jätta ära saatmata", "lahtrid": ["lg 3 alustel", "riigiasutustele, kaitsjale, konsulile – ei tohi ([[VangS § 29 lg 5]])"] },
-      { "silt": "Kulud", "lahtrid": ["kinnipeetav", "õiguskantsler, kohus jt – vangla ([[VangS § 28 lg 2]])"] }
+      {
+        "silt": "Avada esemete leidmiseks",
+        "lahtrid": [
+          "jah, kinnipeetava juuresolekul ([[VangS § 29 lg 1]])",
+          "ei ([[VangS § 29 lg 1]] erand)"
+        ]
+      },
+      {
+        "silt": "Sisu kontroll",
+        "lahtrid": [
+          "ainult jälitusalustel ([[VangS § 29 lg 2]])",
+          "keelatud ([[VangS § 29 lg 4]])"
+        ]
+      },
+      {
+        "silt": "Jätta ära saatmata",
+        "lahtrid": [
+          "lg 3 alustel",
+          "riigiasutustele, kaitsjale, konsulile – ei tohi ([[VangS § 29 lg 5]])"
+        ]
+      },
+      {
+        "silt": "Kulud",
+        "lahtrid": [
+          "kinnipeetav",
+          "õiguskantsler, kohus jt – vangla ([[VangS § 28 lg 2]])"
+        ]
+      }
     ]
   },
   "vastus": [
@@ -75,21 +145,34 @@
     {
       "tyyp": "fakt",
       "kysimus": "Kui sageli on kinnipeetaval vähemalt õigus lühiajalisele kokkusaamisele?",
-      "valikud": ["Kord nädalas", "Kord kuus", "Kord kvartalis"],
+      "valikud": [
+        "Kord nädalas",
+        "Kord kuus",
+        "Kord kvartalis"
+      ],
       "oige": 1,
       "selgitus": "[[VangS § 24 lg 1]]."
     },
     {
       "tyyp": "fakt",
       "kysimus": "Kellele saadetud kinnipeetava kirju on keelatud kontrollida?",
-      "valikud": ["Ema", "Õiguskantsler", "Sõber", "Ajalehe toimetus"],
+      "valikud": [
+        "Ema",
+        "Õiguskantsler",
+        "Sõber",
+        "Ajalehe toimetus"
+      ],
       "oige": 1,
       "selgitus": "[[VangS § 29 lg 4]]."
     },
     {
       "tyyp": "fakt",
       "kysimus": "Millise PS paragrahvi järgi on sõnumisaladuse erandiks vaja kohtu luba?",
-      "valikud": ["PS § 26", "PS § 33", "PS § 43"],
+      "valikud": [
+        "PS § 26",
+        "PS § 33",
+        "PS § 43"
+      ],
       "oige": 2,
       "selgitus": "[[PS § 43]]."
     },
@@ -107,6 +190,27 @@
   ],
   "erinevused": [],
   "valjast": [
-    { "tekst": "Termin „kvalifitseeritud seadusreservatsioon” (seadus + kindlad eesmärgid) on põhiseadusõiguse doktriin.", "allikas": "üldine õigusteadus – ei pärine tunnimaterjalist" }
+    {
+      "tekst": "Termin „kvalifitseeritud seadusreservatsioon” (seadus + kindlad eesmärgid) on põhiseadusõiguse doktriin.",
+      "allikas": "üldine õigusteadus – ei pärine tunnimaterjalist"
+    }
+  ],
+  "naited": [
+    {
+      "pealkiri": "Dickson vs Ühendkuningriik",
+      "kohus": "Euroopa Inimõiguste Kohus",
+      "aeg": "2007",
+      "lugu": "Mõrva eest karistust kandev mees ja tema naine (kohtusid kirjasõprade programmi kaudu, mõlemad vangis) palusid luba kunstlikuks viljastamiseks – naise vanuse tõttu poleks nad pärast mehe vabanemist tõenäoliselt last saanud. Minister keeldus, viidates avalikkuse muretsemisele karistuse eesmärgi pärast.",
+      "tulemus": "EIK tuvastas art 8 rikkumise: avaliku ja erahuvi vahel ei leitud õiglast tasakaalu – avalikule arvamusele anti liiga suur kaal. Hüvitis 5000 eurot.",
+      "oppetund": "Perekonnaelu õigus ei kao vangistusega; piirang vajab kaalumist, mitte üldist keeldu ([[EIÕK art 8 lg 2]], [[VangS § 23]]).",
+      "seos": [
+        "EIÕK art 8",
+        "VangS § 23"
+      ],
+      "allikas": {
+        "nimi": "Global Health & Human Rights – Dickson v. UK",
+        "url": "https://www.globalhealthrights.org/case-of-dickson-v-the-united-kingdom/"
+      }
+    }
   ]
 }

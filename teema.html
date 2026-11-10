@@ -63,13 +63,14 @@
       { id: "vangla", nimi: "Vanglas", html: () =>
           `<p>${A.md(o.vangla.tekst)}</p>` + (o.vangla.naide ? `<div class="naide">
             <div class="olukord"><h3>Olukord</h3><p>${A.md(o.vangla.naide.olukord)}</p></div>
-            <div><h3>Analüüs</h3><p>${A.md(o.vangla.naide.analyys)}</p></div></div>` : "") },
+            <div><h3>Analüüs</h3><p>${A.md(o.vangla.naide.analyys)}</p></div></div>` : "") +
+          (t.naited && t.naited.length ? `<p class="naide-rida">${naiteNupp(t, t.naited.length > 1 ? "Vaata päris juhtumeid" : "Vaata päris juhtumit")}</p>` : "") },
       { id: "tyypviga", nimi: "Tüüpviga eksamil", html: () => `<div class="tyypviga">${ul(o.tyypviga.punktid)}</div>` }
     ];
     const lisad = [
       { id: "skeem", nimi: "Skeem", html: () => A.skeem(t.skeem) },
       { id: "vastus", nimi: "Tunni küsimus", html: () => t.vastus.map((v) =>
-          `<div class="vastus-kast"><h3>Kordamisküsimus ${v.nr}</h3><div class="kysimus">${A.esc(tund.kysimused[v.nr - 1] || "")}</div>${ul(v.punktid)}</div>`).join("") },
+          `<div class="vastus-kast"><h3>Kordamisküsimus ${v.nr}</h3><div class="kysimus">${A.esc(tund.kysimused[v.nr - 1] || "")}</div><h3 style="margin-top:.8rem">Vastus</h3>${ul(v.punktid)}</div>`).join("") },
       { id: "harjutused", nimi: "Harjuta", html: () => t.harjutused.map((h, k) => A.harjutusHtml(h, `h${k}`)).join("") }
     ];
     if ((t.erinevused && t.erinevused.length) || (t.valjast && t.valjast.length)) {
@@ -92,7 +93,8 @@
         <div class="murupuru"><a href="index.html">Tund ${tund.nr}: ${A.esc(tund.pealkiri)}</a> / teema ${t.jrk}</div>
         <h1>${A.esc(t.pealkiri)}</h1>
         <p class="lyhidalt">${A.md(t.lyhidalt)}</p>
-        <p class="kys">${kys}. <a href="kordamine.html?tund=${tund.id}&teema=${t.id}">Harjuta ainult seda teemat</a></p>
+        <div class="nupurida">${naiteNupp(t, "Päris näide")}
+          <p class="kys">${kys}. <a href="kordamine.html?tund=${tund.id}&teema=${t.id}">Harjuta ainult seda teemat</a></p></div>
       </header>
       <div class="teema-keha">
         <nav class="osad-menyy" aria-label="Teema osad"><ol>${menyy}</ol></nav>
@@ -115,9 +117,15 @@
       </div>`;
 
     A.seoHarjutused(leht);
+    leht.addEventListener("click", (e) => { const b = e.target.closest(".naite-nupp"); if (b) A.avaNaide(t.naited, 0, b); });
     seoTagasiside(t.id);
     seoMenyy();
     if (location.hash) { const el = document.querySelector(location.hash); if (el) el.scrollIntoView(); }
+  }
+
+  function naiteNupp(t, silt) {
+    if (!t.naited || !t.naited.length) return "";
+    return `<button type="button" class="naite-nupp" aria-haspopup="dialog">${A.esc(silt)}${t.naited.length > 1 ? ` (${t.naited.length})` : ""}</button>`;
   }
 
   function seoTagasiside(teema) {

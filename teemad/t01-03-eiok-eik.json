@@ -3,7 +3,10 @@
   "tund": "t01",
   "jrk": 3,
   "pealkiri": "EIÕK mehhanism ja Euroopa Inimõiguste Kohus",
-  "kysimused": [4, 5],
+  "kysimused": [
+    4,
+    5
+  ],
   "lyhidalt": "EIÕK õigusi kaitseb alaline kohus (EIK). Kaebus on võimalik pärast riigisiseste vahendite ammendamist 4 kuu jooksul, otsus on riigile siduv ja täitmist jälgib ministrite komitee.",
   "osad": {
     "pohimote": {
@@ -18,10 +21,36 @@
     },
     "alus": {
       "read": [
-        { "tase": "Euroopa Nõukogu", "viited": ["EIÕK art 19", "EIÕK art 32"], "tekst": "Kohtu loomine ja pädevus: kõik konventsiooni tõlgendamise ja kohaldamise küsimused artiklite 33, 34, 46 ja 47 kohaselt." },
-        { "tase": "Euroopa Nõukogu", "viited": ["EIÕK art 35"], "tekst": "Vastuvõetavus: ammendamine + tähtaeg; mitte anonüümne; mitte selgelt põhjendamatu; märkimisväärne kahju." },
-        { "tase": "Euroopa Nõukogu", "viited": ["EIÕK art 26", "EIÕK art 44"], "tekst": "Koosseisud (ainuisikuline kohtunik, komitee, koda, suurkoda); otsuse jõustumine." },
-        { "tase": "Eesti", "viited": ["PS § 123"], "tekst": "Ratifitseeritud välisleping (sh EIÕK) on vastuolu korral seadusest ülimuslik." }
+        {
+          "tase": "Euroopa Nõukogu",
+          "viited": [
+            "EIÕK art 19",
+            "EIÕK art 32"
+          ],
+          "tekst": "Kohtu loomine ja pädevus: kõik konventsiooni tõlgendamise ja kohaldamise küsimused artiklite 33, 34, 46 ja 47 kohaselt."
+        },
+        {
+          "tase": "Euroopa Nõukogu",
+          "viited": [
+            "EIÕK art 35"
+          ],
+          "tekst": "Vastuvõetavus: ammendamine + tähtaeg; mitte anonüümne; mitte selgelt põhjendamatu; märkimisväärne kahju."
+        },
+        {
+          "tase": "Euroopa Nõukogu",
+          "viited": [
+            "EIÕK art 26",
+            "EIÕK art 44"
+          ],
+          "tekst": "Koosseisud (ainuisikuline kohtunik, komitee, koda, suurkoda); otsuse jõustumine."
+        },
+        {
+          "tase": "Eesti",
+          "viited": [
+            "PS § 123"
+          ],
+          "tekst": "Ratifitseeritud välisleping (sh EIÕK) on vastuolu korral seadusest ülimuslik."
+        }
       ]
     },
     "piiramine": {
@@ -54,12 +83,36 @@
     "tyyp": "voog",
     "pealkiri": "Kaebuse teekond vanglast Strasbourgi",
     "sammud": [
-      { "pealkiri": "Vaie", "tekst": "vanglateenistus või ministeerium, 30 päeva", "viide": "VangS § 1^1 lg 7" },
-      { "pealkiri": "Halduskohus", "tekst": "pärast vaiet", "viide": "VangS § 1^1 lg 5" },
-      { "pealkiri": "Ringkonnakohus → Riigikohus", "tekst": "apellatsioon, kassatsioon", "viide": "PS § 149" },
-      { "pealkiri": "EIK kaebus", "tekst": "4 kuu jooksul lõplikust otsusest", "viide": "EIÕK art 35 lg 1" },
-      { "pealkiri": "Otsus", "tekst": "siduv; õiglane hüvitus", "viide": "EIÕK art 46" },
-      { "pealkiri": "Ministrite komitee", "tekst": "jälgib täitmist", "viide": "EIÕK art 46 lg 2" }
+      {
+        "pealkiri": "Vaie",
+        "tekst": "vanglateenistus või ministeerium, 30 päeva",
+        "viide": "VangS § 1^1 lg 7"
+      },
+      {
+        "pealkiri": "Halduskohus",
+        "tekst": "pärast vaiet",
+        "viide": "VangS § 1^1 lg 5"
+      },
+      {
+        "pealkiri": "Ringkonnakohus → Riigikohus",
+        "tekst": "apellatsioon, kassatsioon",
+        "viide": "PS § 149"
+      },
+      {
+        "pealkiri": "EIK kaebus",
+        "tekst": "4 kuu jooksul lõplikust otsusest",
+        "viide": "EIÕK art 35 lg 1"
+      },
+      {
+        "pealkiri": "Otsus",
+        "tekst": "siduv; õiglane hüvitus",
+        "viide": "EIÕK art 46"
+      },
+      {
+        "pealkiri": "Ministrite komitee",
+        "tekst": "jälgib täitmist",
+        "viide": "EIÕK art 46 lg 2"
+      }
     ]
   },
   "vastus": [
@@ -85,21 +138,34 @@
     {
       "tyyp": "fakt",
       "kysimus": "Mis on EIK individuaalkaebuse tähtaeg praegu kehtiva sõnastuse järgi?",
-      "valikud": ["2 kuud", "4 kuud", "6 kuud", "1 aasta"],
+      "valikud": [
+        "2 kuud",
+        "4 kuud",
+        "6 kuud",
+        "1 aasta"
+      ],
       "oige": 1,
       "selgitus": "[[EIÕK art 35 lg 1]] – failis märge: sõnastus kehtib alates 1. veebruarist 2022."
     },
     {
       "tyyp": "fakt",
       "kysimus": "Kes kontrollib EIK otsuse täitmist?",
-      "valikud": ["EIK suurkoda", "Ministrite komitee", "Euroopa Parlament", "ÜRO Inimõiguste Komitee"],
+      "valikud": [
+        "EIK suurkoda",
+        "Ministrite komitee",
+        "Euroopa Parlament",
+        "ÜRO Inimõiguste Komitee"
+      ],
       "oige": 1,
       "selgitus": "[[EIÕK art 46 lg 2]]."
     },
     {
       "tyyp": "fakt",
       "kysimus": "Kas protokolli nr 16 alusel antud nõuandev arvamus on siduv?",
-      "valikud": ["Jah", "Ei"],
+      "valikud": [
+        "Jah",
+        "Ei"
+      ],
       "oige": 1,
       "selgitus": "[[EIÕK P16 art 5]]."
     },
@@ -116,6 +182,27 @@
   ],
   "erinevused": [],
   "valjast": [
-    { "tekst": "Väljend „EIK ei ole neljas kohtuaste” (subsidiaarsus) on õigusteaduses levinud kokkuvõte, mitte konventsiooni tekst.", "allikas": "üldine õigusteadus; ei pärine tunnimaterjalist" }
+    {
+      "tekst": "Väljend „EIK ei ole neljas kohtuaste” (subsidiaarsus) on õigusteaduses levinud kokkuvõte, mitte konventsiooni tekst.",
+      "allikas": "üldine õigusteadus; ei pärine tunnimaterjalist"
+    }
+  ],
+  "naited": [
+    {
+      "pealkiri": "Kalda vs Eesti",
+      "kohus": "Euroopa Inimõiguste Kohus",
+      "aeg": "19. jaanuar 2016",
+      "lugu": "Eesti kinnipeetav tahtis vanglas teha õiguslikku uurimistööd, kuid talle ei lubatud ligipääsu mõnele veebilehele – sh Euroopa Nõukogu teabebüroo lehele ning riiklikele õigusaktide ja kohtulahendite andmebaasidele.",
+      "tulemus": "EIK tuvastas EIÕK art 10 (õigus saada teavet) rikkumise. Kuna Eesti õigus juba andis kinnipeetavatele piiratud internetiligipääsu, oli nende lehtede keelamine riive; julgeoleku- ja kulupõhjendused ei olnud piisavad.",
+      "oppetund": "Individuaalkaebus ([[EIÕK art 34]]) toimib ka Eesti vangla vastu. EIK ei nõudnud üldist internetti – ta hindas, kas just see piirang oli põhjendatud.",
+      "seos": [
+        "EIÕK art 34",
+        "EIÕK art 46"
+      ],
+      "allikas": {
+        "nimi": "Inimõiguste teejuht – Kalda vs Eesti",
+        "url": "https://www.inimoigustegiid.ee/kaasused/kalda-vs-eesti"
+      }
+    }
   ]
 }

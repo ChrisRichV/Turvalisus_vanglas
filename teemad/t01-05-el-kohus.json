@@ -3,7 +3,9 @@
   "tund": "t01",
   "jrk": 5,
   "pealkiri": "Euroopa Liidu Kohus",
-  "kysimused": [7],
+  "kysimused": [
+    7
+  ],
   "lyhidalt": "EL-i Kohus tagab, et EL-i õigust tõlgendatakse ja kohaldatakse õigesti. Põhiõiguste seisukohalt on peamine eelotsusmenetlus, mille kaudu liikmesriigi kohus küsib EL-i õiguse tõlgendust.",
   "osad": {
     "pohimote": {
@@ -17,10 +19,37 @@
     },
     "alus": {
       "read": [
-        { "tase": "Euroopa Liit", "viited": ["ELL art 19"], "tekst": "Kohtu koosseis ja pädevus." },
-        { "tase": "Euroopa Liit", "viited": ["ELTL art 258", "ELTL art 263", "ELTL art 267"], "tekst": "Peamised menetlusliigid." },
-        { "tase": "Euroopa Liit", "viited": ["harta art 47", "harta art 51"], "tekst": "Õigus tõhusale õiguskaitsevahendile; harta kohaldamisala." },
-        { "tase": "Eesti", "viited": ["PSJKS § 2"], "tekst": "Riigikohus võib anda seisukoha põhiseaduse tõlgendamise kohta koostoimes EL-i õigusega (p 2^1)." }
+        {
+          "tase": "Euroopa Liit",
+          "viited": [
+            "ELL art 19"
+          ],
+          "tekst": "Kohtu koosseis ja pädevus."
+        },
+        {
+          "tase": "Euroopa Liit",
+          "viited": [
+            "ELTL art 258",
+            "ELTL art 263",
+            "ELTL art 267"
+          ],
+          "tekst": "Peamised menetlusliigid."
+        },
+        {
+          "tase": "Euroopa Liit",
+          "viited": [
+            "harta art 47",
+            "harta art 51"
+          ],
+          "tekst": "Õigus tõhusale õiguskaitsevahendile; harta kohaldamisala."
+        },
+        {
+          "tase": "Eesti",
+          "viited": [
+            "PSJKS § 2"
+          ],
+          "tekst": "Riigikohus võib anda seisukoha põhiseaduse tõlgendamise kohta koostoimes EL-i õigusega (p 2^1)."
+        }
       ]
     },
     "piiramine": {
@@ -50,11 +79,36 @@
   "skeem": {
     "tyyp": "vordlus",
     "pealkiri": "EL-i Kohtu menetlused",
-    "veerud": ["Kes pöördub", "Mida kontrollitakse", "Säte"],
+    "veerud": [
+      "Kes pöördub",
+      "Mida kontrollitakse",
+      "Säte"
+    ],
     "read": [
-      { "silt": "Eelotsus", "lahtrid": ["liikmesriigi kohus", "EL-i õiguse tõlgendus / akti kehtivus", "[[ELTL art 267]]"] },
-      { "silt": "Rikkumismenetlus", "lahtrid": ["komisjon", "kas liikmesriik täitis kohustused", "[[ELTL art 258]]"] },
-      { "silt": "Tühistamishagi", "lahtrid": ["riik, institutsioon, (otse puudutatud) isik", "EL-i akti seaduslikkus", "[[ELTL art 263]]"] }
+      {
+        "silt": "Eelotsus",
+        "lahtrid": [
+          "liikmesriigi kohus",
+          "EL-i õiguse tõlgendus / akti kehtivus",
+          "[[ELTL art 267]]"
+        ]
+      },
+      {
+        "silt": "Rikkumismenetlus",
+        "lahtrid": [
+          "komisjon",
+          "kas liikmesriik täitis kohustused",
+          "[[ELTL art 258]]"
+        ]
+      },
+      {
+        "silt": "Tühistamishagi",
+        "lahtrid": [
+          "riik, institutsioon, (otse puudutatud) isik",
+          "EL-i akti seaduslikkus",
+          "[[ELTL art 263]]"
+        ]
+      }
     ]
   },
   "vastus": [
@@ -72,20 +126,48 @@
     {
       "tyyp": "fakt",
       "kysimus": "Millal peab liikmesriigi kohus EL-i Kohtult eelotsust küsima?",
-      "valikud": ["Alati, kui pool seda nõuab", "Kui tema otsuse peale ei saa siseriiklikult edasi kaevata", "Ainult kriminaalasjades"],
+      "valikud": [
+        "Alati, kui pool seda nõuab",
+        "Kui tema otsuse peale ei saa siseriiklikult edasi kaevata",
+        "Ainult kriminaalasjades"
+      ],
       "oige": 1,
       "selgitus": "[[ELTL art 267]] kolmas lõik."
     },
     {
       "tyyp": "fakt",
       "kysimus": "Kas EL-i põhiõiguste harta kohaldub Eesti vanglale igas asjas?",
-      "valikud": ["Jah", "Ei – ainult liidu õiguse kohaldamise korral"],
+      "valikud": [
+        "Jah",
+        "Ei – ainult liidu õiguse kohaldamise korral"
+      ],
       "oige": 1,
       "selgitus": "[[harta art 51 lg 1]]."
     }
   ],
   "erinevused": [],
   "valjast": [
-    { "tekst": "Asukohad Luxembourg (EL-i Kohus) ja Strasbourg (EIK) on üldteadmine meeldejätmiseks, mitte õigusaktide tekstist.", "allikas": "üldteadmine; ei pärine tunnimaterjalist" }
+    {
+      "tekst": "Asukohad Luxembourg (EL-i Kohus) ja Strasbourg (EIK) on üldteadmine meeldejätmiseks, mitte õigusaktide tekstist.",
+      "allikas": "üldteadmine; ei pärine tunnimaterjalist"
+    }
+  ],
+  "naited": [
+    {
+      "pealkiri": "Aranyosi ja Căldăraru",
+      "kohus": "Euroopa Liidu Kohus (suurkoda)",
+      "aeg": "5. aprill 2016",
+      "lugu": "Saksamaa (Bremen) pidi Euroopa vahistamismääruse alusel üle andma kaks isikut teistele liikmesriikidele, kus vanglate tingimuste kohta oli tõsiseid etteheiteid. Küsimus jõudis EL-i Kohtusse eelotsusena.",
+      "tulemus": "Kohus: harta art 4 keeld on absoluutne. Kui on usaldusväärseid tõendeid vanglatingimuste puudujääkide kohta, peab üleandev riik hindama, kas **just sellel isikul** on reaalne ebainimliku kohtlemise oht, küsima lisateavet ja vajadusel üleandmise edasi lükkama.",
+      "oppetund": "Eelotsus ([[ELTL art 267]]) seob liikmesriigi kohtu EL-i Kohtuga; vanglatingimused võivad peatada ka EL-sisese koostöö ([[harta art 4]]).",
+      "seos": [
+        "ELTL art 267",
+        "harta art 4"
+      ],
+      "allikas": {
+        "nimi": "FRA – CJEU Joined Cases C-404/15 and C-659/15 PPU",
+        "url": "https://fra.europa.eu/en/node/25056"
+      }
+    }
   ]
 }

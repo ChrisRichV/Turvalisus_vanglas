@@ -3,7 +3,9 @@
   "tund": "t01",
   "jrk": 9,
   "pealkiri": "Õigus elule",
-  "kysimused": [11],
+  "kysimused": [
+    11
+  ],
   "lyhidalt": "Riik ei tohi kelleltki meelevaldselt elu võtta ja peab elu seadusega kaitsma. Surmanuhtlus on kaotatud. Jõu kasutamine on õigustatud ainult siis, kui see on absoluutselt vajalik.",
   "osad": {
     "pohimote": {
@@ -17,11 +19,46 @@
     },
     "alus": {
       "read": [
-        { "tase": "Eesti", "viited": ["PS § 16"], "tekst": "Õigus elule; meelevaldne elu võtmine keelatud." },
-        { "tase": "Euroopa Nõukogu", "viited": ["EIÕK art 2", "EIÕK P6 art 1", "EIÕK P13 art 1", "EIÕK art 15 lg 2"], "tekst": "Erandid lg 2; surmanuhtluse kaotamine; hädaolukorras ei saa peatada (v.a õiguspärane sõjategevus)." },
-        { "tase": "Euroopa Liit", "viited": ["harta art 2"], "tekst": "Õigus elule; surmanuhtluse keeld." },
-        { "tase": "ÜRO", "viited": ["ÜDIÕ art 3", "KPÕRP art 6"], "tekst": "Võõrandamatu õigus elule." },
-        { "tase": "Vangla", "viited": ["VangS § 69", "VangS § 71"], "tekst": "Suitsiidikalduvusega kinnipeetav (julgeolekuabinõud); relva kasutamine ainult äärmuslikel juhtudel." }
+        {
+          "tase": "Eesti",
+          "viited": [
+            "PS § 16"
+          ],
+          "tekst": "Õigus elule; meelevaldne elu võtmine keelatud."
+        },
+        {
+          "tase": "Euroopa Nõukogu",
+          "viited": [
+            "EIÕK art 2",
+            "EIÕK P6 art 1",
+            "EIÕK P13 art 1",
+            "EIÕK art 15 lg 2"
+          ],
+          "tekst": "Erandid lg 2; surmanuhtluse kaotamine; hädaolukorras ei saa peatada (v.a õiguspärane sõjategevus)."
+        },
+        {
+          "tase": "Euroopa Liit",
+          "viited": [
+            "harta art 2"
+          ],
+          "tekst": "Õigus elule; surmanuhtluse keeld."
+        },
+        {
+          "tase": "ÜRO",
+          "viited": [
+            "ÜDIÕ art 3",
+            "KPÕRP art 6"
+          ],
+          "tekst": "Võõrandamatu õigus elule."
+        },
+        {
+          "tase": "Vangla",
+          "viited": [
+            "VangS § 69",
+            "VangS § 71"
+          ],
+          "tekst": "Suitsiidikalduvusega kinnipeetav (julgeolekuabinõud); relva kasutamine ainult äärmuslikel juhtudel."
+        }
       ]
     },
     "piiramine": {
@@ -54,11 +91,31 @@
     "tyyp": "voog",
     "pealkiri": "Teenistusrelv vanglas – kontroll-loend",
     "sammud": [
-      { "pealkiri": "Äärmuslik juht?", "tekst": "põgenemine, relvastatud kinnipeetav, kallaletung, sissetung", "viide": "VangS § 71 lg 1" },
-      { "pealkiri": "Muud meetmed ammendatud?", "tekst": "ei → relva ei kasuta", "viide": "VangS § 71 lg 1" },
-      { "pealkiri": "Hoiatus / hoiatuslask", "tekst": "v.a vahetu ja otsene oht elule", "viide": "VangS § 71 lg 6" },
-      { "pealkiri": "Absoluutne vajadus", "tekst": "vähim võimalik kahju", "viide": "EIÕK art 2 lg 2" },
-      { "pealkiri": "Pärast", "tekst": "tervisekontroll + protokoll", "viide": "VangS § 71 lg 7^1" }
+      {
+        "pealkiri": "Äärmuslik juht?",
+        "tekst": "põgenemine, relvastatud kinnipeetav, kallaletung, sissetung",
+        "viide": "VangS § 71 lg 1"
+      },
+      {
+        "pealkiri": "Muud meetmed ammendatud?",
+        "tekst": "ei → relva ei kasuta",
+        "viide": "VangS § 71 lg 1"
+      },
+      {
+        "pealkiri": "Hoiatus / hoiatuslask",
+        "tekst": "v.a vahetu ja otsene oht elule",
+        "viide": "VangS § 71 lg 6"
+      },
+      {
+        "pealkiri": "Absoluutne vajadus",
+        "tekst": "vähim võimalik kahju",
+        "viide": "EIÕK art 2 lg 2"
+      },
+      {
+        "pealkiri": "Pärast",
+        "tekst": "tervisekontroll + protokoll",
+        "viide": "VangS § 71 lg 7^1"
+      }
     ]
   },
   "vastus": [
@@ -77,14 +134,22 @@
     {
       "tyyp": "fakt",
       "kysimus": "Milline EIÕK protokoll kaotab surmanuhtluse kõikidel asjaoludel, ka sõja ajal?",
-      "valikud": ["Protokoll nr 6", "Protokoll nr 13", "Protokoll nr 16"],
+      "valikud": [
+        "Protokoll nr 6",
+        "Protokoll nr 13",
+        "Protokoll nr 16"
+      ],
       "oige": 1,
       "selgitus": "[[EIÕK P13 art 1]]; protokoll nr 6 lubas erandit sõja ajal ([[EIÕK P6 art 2]])."
     },
     {
       "tyyp": "fakt",
       "kysimus": "Mis peab vanglas eelnema tulirelva kasutamisele?",
-      "valikud": ["Direktori luba", "Hoiatus relva kasutada või hoiatuslask", "Politsei teavitamine"],
+      "valikud": [
+        "Direktori luba",
+        "Hoiatus relva kasutada või hoiatuslask",
+        "Politsei teavitamine"
+      ],
       "oige": 1,
       "selgitus": "[[VangS § 71 lg 6]]; erand – edasilükkamatu vahetu oht elule ja tervisele."
     },
@@ -100,9 +165,35 @@
     }
   ],
   "erinevused": [
-    { "teema": "Konspekt", "konspekt": "Konspekt õigust elule eraldi peatükina ei käsitle.", "ametlik": "Vastus põhineb PS, EIÕK, protokollide 6 ja 13, harta ja KPÕRP tekstidel.", "viide": "PS § 16" }
+    {
+      "teema": "Konspekt",
+      "konspekt": "Konspekt õigust elule eraldi peatükina ei käsitle.",
+      "ametlik": "Vastus põhineb PS, EIÕK, protokollide 6 ja 13, harta ja KPÕRP tekstidel.",
+      "viide": "PS § 16"
+    }
   ],
   "valjast": [
-    { "tekst": "Mõisted „negatiivne kohustus” ja „positiivne kaitsekohustus” on EIK praktikast ja õigusteadusest pärit üldistused; seadusetekstis väljendab kaitsekohustust lause „Seda õigust kaitseb seadus”.", "allikas": "üldine õigusteadus / EIK praktika – ei pärine tunnimaterjalist" }
+    {
+      "tekst": "Mõisted „negatiivne kohustus” ja „positiivne kaitsekohustus” on EIK praktikast ja õigusteadusest pärit üldistused; seadusetekstis väljendab kaitsekohustust lause „Seda õigust kaitseb seadus”.",
+      "allikas": "üldine õigusteadus / EIK praktika – ei pärine tunnimaterjalist"
+    }
+  ],
+  "naited": [
+    {
+      "pealkiri": "McCann jt vs Ühendkuningriik",
+      "kohus": "Euroopa Inimõiguste Kohus (suurkoda)",
+      "aeg": "27. september 1995",
+      "lugu": "Gibraltaril lasid eriüksuslased maha kolm IRA liiget, keda kahtlustati autopommi plahvatuse ettevalmistamises. Sõdurid uskusid, et kahtlustatavad ulatuvad detonaatori järele. Keegi neist ei olnud relvastatud ning nende juurest pommi ega detonaatorit ei leitud.",
+      "tulemus": "EIK: sõdurid ise ei rikkunud art 2, sest tegutsesid käsu ja siira (kuigi ekslikult) usu alusel. **Rikkumine oli operatsiooni planeerimises ja juhtimises** – kahtlustatavaid ei peetud kinni piiril ega arvestatud, et luureinfo võib olla vale.",
+      "oppetund": "Õigus elule nõuab ka head **planeerimist**: juhid peavad surmava jõu vajaduse minimeerima. Vanglas: relv ainult äärmuslikul juhul, kui muud meetmed on ammendatud ([[VangS § 71 lg 1]]).",
+      "seos": [
+        "EIÕK art 2 lg 2",
+        "VangS § 71 lg 1"
+      ],
+      "allikas": {
+        "nimi": "EDAL – McCann and others v United Kingdom",
+        "url": "https://asylumlawdatabase.eu/summaries/case/10447"
+      }
+    }
   ]
 }

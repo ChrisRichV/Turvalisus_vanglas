@@ -3,7 +3,9 @@
   "tund": "t01",
   "jrk": 1,
   "pealkiri": "ÜRO – globaalne organisatsioon",
-  "kysimused": [1],
+  "kysimused": [
+    1
+  ],
   "lyhidalt": "ÜRO on ainus globaalne rahvusvaheline katusorganisatsioon. Riike kontrollitakse aruannete ja riikidevaheliste teadete kaudu, üksikisik saab pärast riigisiseste vahendite ammendamist pöörduda komitee poole.",
   "osad": {
     "pohimote": {
@@ -15,12 +17,58 @@
     },
     "alus": {
       "read": [
-        { "tase": "ÜRO", "viited": ["ÜRO PK art 1", "ÜRO PK art 55", "ÜRO PK art 56"], "tekst": "Põhikiri: eesmärgid ja liikmete kohustus teha koostööd inimõiguste austamiseks." },
-        { "tase": "ÜRO", "viited": ["ÜDIÕ art 1"], "tekst": "Ülddeklaratsioon (1948) – Peaassamblee resolutsioon, **ei ole õiguslikult siduv leping** (vt failimärkust)." },
-        { "tase": "ÜRO", "viited": ["KPÕRP art 2", "KPÕRP art 28", "KPÕRP art 40", "KPÕRP art 41"], "tekst": "Pakt: riigi kohustus tagada õigused ja tõhus õiguskaitse; Inimõiguste Komitee; riikide aruanded; riikidevahelised teated." },
-        { "tase": "ÜRO", "viited": ["KPÕRP FP art 1", "KPÕRP FP art 2", "KPÕRP FP art 5"], "tekst": "Fakultatiivprotokoll: üksikisiku teade komiteele." },
-        { "tase": "ÜRO", "viited": ["CAT art 17", "CAT art 22", "OPCAT art 1", "OPCAT art 3"], "tekst": "Piinamisvastane komitee; ennetav külastussüsteem (OPCAT)." },
-        { "tase": "Eesti", "viited": ["OKS § 1 lg 7"], "tekst": "Õiguskantsler on OPCAT-i mõttes **riigi ennetusasutus** – külastab ka vanglaid." }
+        {
+          "tase": "ÜRO",
+          "viited": [
+            "ÜRO PK art 1",
+            "ÜRO PK art 55",
+            "ÜRO PK art 56"
+          ],
+          "tekst": "Põhikiri: eesmärgid ja liikmete kohustus teha koostööd inimõiguste austamiseks."
+        },
+        {
+          "tase": "ÜRO",
+          "viited": [
+            "ÜDIÕ art 1"
+          ],
+          "tekst": "Ülddeklaratsioon (1948) – Peaassamblee resolutsioon, **ei ole õiguslikult siduv leping** (vt failimärkust)."
+        },
+        {
+          "tase": "ÜRO",
+          "viited": [
+            "KPÕRP art 2",
+            "KPÕRP art 28",
+            "KPÕRP art 40",
+            "KPÕRP art 41"
+          ],
+          "tekst": "Pakt: riigi kohustus tagada õigused ja tõhus õiguskaitse; Inimõiguste Komitee; riikide aruanded; riikidevahelised teated."
+        },
+        {
+          "tase": "ÜRO",
+          "viited": [
+            "KPÕRP FP art 1",
+            "KPÕRP FP art 2",
+            "KPÕRP FP art 5"
+          ],
+          "tekst": "Fakultatiivprotokoll: üksikisiku teade komiteele."
+        },
+        {
+          "tase": "ÜRO",
+          "viited": [
+            "CAT art 17",
+            "CAT art 22",
+            "OPCAT art 1",
+            "OPCAT art 3"
+          ],
+          "tekst": "Piinamisvastane komitee; ennetav külastussüsteem (OPCAT)."
+        },
+        {
+          "tase": "Eesti",
+          "viited": [
+            "OKS § 1 lg 7"
+          ],
+          "tekst": "Õiguskantsler on OPCAT-i mõttes **riigi ennetusasutus** – külastab ka vanglaid."
+        }
       ]
     },
     "piiramine": {
@@ -53,19 +101,59 @@
   "skeem": {
     "tyyp": "puu",
     "pealkiri": "ÜRO õiguskaitse kaks tasandit",
-    "juur": { "pealkiri": "ÜRO", "tekst": "rahu ja julgeolek · inimõigused · koostöö", "viide": "ÜRO PK art 1" },
+    "juur": {
+      "pealkiri": "ÜRO",
+      "tekst": "rahu ja julgeolek · inimõigused · koostöö",
+      "viide": "ÜRO PK art 1"
+    },
     "harud": [
-      { "pealkiri": "Riigi tasand", "toon": "a", "lapsed": [
-        { "pealkiri": "Riikide aruanded", "tekst": "komitee märkused", "viide": "KPÕRP art 40" },
-        { "pealkiri": "Riikidevahelised teated", "tekst": "eeldab avaldust", "viide": "KPÕRP art 41" },
-        { "pealkiri": "Julgeolekunõukogu", "tekst": "rahu ohustamine → meetmed", "viide": "ÜRO PK art 39" },
-        { "pealkiri": "Rahvusvaheline Kohus", "tekst": "riikidevahelised vaidlused", "viide": "ÜRO PK art 92" }
-      ]},
-      { "pealkiri": "Üksikisiku tasand", "toon": "b", "lapsed": [
-        { "pealkiri": "1. Riigisisesed vahendid", "tekst": "vaie → kohus (ammendada!)", "viide": "KPÕRP FP art 2" },
-        { "pealkiri": "2. Teade komiteele", "tekst": "kirjalik, mitte anonüümne", "viide": "KPÕRP FP art 3" },
-        { "pealkiri": "3. Komitee seisukoht", "tekst": "edastatakse riigile ja isikule", "viide": "KPÕRP FP art 5" }
-      ]}
+      {
+        "pealkiri": "Riigi tasand",
+        "toon": "a",
+        "lapsed": [
+          {
+            "pealkiri": "Riikide aruanded",
+            "tekst": "komitee märkused",
+            "viide": "KPÕRP art 40"
+          },
+          {
+            "pealkiri": "Riikidevahelised teated",
+            "tekst": "eeldab avaldust",
+            "viide": "KPÕRP art 41"
+          },
+          {
+            "pealkiri": "Julgeolekunõukogu",
+            "tekst": "rahu ohustamine → meetmed",
+            "viide": "ÜRO PK art 39"
+          },
+          {
+            "pealkiri": "Rahvusvaheline Kohus",
+            "tekst": "riikidevahelised vaidlused",
+            "viide": "ÜRO PK art 92"
+          }
+        ]
+      },
+      {
+        "pealkiri": "Üksikisiku tasand",
+        "toon": "b",
+        "lapsed": [
+          {
+            "pealkiri": "1. Riigisisesed vahendid",
+            "tekst": "vaie → kohus (ammendada!)",
+            "viide": "KPÕRP FP art 2"
+          },
+          {
+            "pealkiri": "2. Teade komiteele",
+            "tekst": "kirjalik, mitte anonüümne",
+            "viide": "KPÕRP FP art 3"
+          },
+          {
+            "pealkiri": "3. Komitee seisukoht",
+            "tekst": "edastatakse riigile ja isikule",
+            "viide": "KPÕRP FP art 5"
+          }
+        ]
+      }
     ]
   },
   "vastus": [
@@ -83,21 +171,34 @@
     {
       "tyyp": "fakt",
       "kysimus": "Mis on üksikisiku teate eeltingimus ÜRO Inimõiguste Komitees?",
-      "valikud": ["Riik peab olema teinud aruande", "Isik on ammendanud riigisisesed õiguskaitsevahendid", "Julgeolekunõukogu luba", "Teade võib olla anonüümne"],
+      "valikud": [
+        "Riik peab olema teinud aruande",
+        "Isik on ammendanud riigisisesed õiguskaitsevahendid",
+        "Julgeolekunõukogu luba",
+        "Teade võib olla anonüümne"
+      ],
       "oige": 1,
       "selgitus": "[[KPÕRP FP art 2]] ja [[KPÕRP FP art 5 lg 2]]: kõigepealt tuleb ammendada riigisisesed vahendid."
     },
     {
       "tyyp": "fakt",
       "kysimus": "Kes on Eestis piinamisvastase konventsiooni fakultatiivprotokolli mõttes riigi ennetusasutus?",
-      "valikud": ["Riigikohus", "Justiits- ja Digiministeerium", "Õiguskantsler", "Vanglateenistus"],
+      "valikud": [
+        "Riigikohus",
+        "Justiits- ja Digiministeerium",
+        "Õiguskantsler",
+        "Vanglateenistus"
+      ],
       "oige": 2,
       "selgitus": "[[OKS § 1 lg 7]]."
     },
     {
       "tyyp": "fakt",
       "kysimus": "Kas inimõiguste ülddeklaratsioon on õiguslikult siduv leping?",
-      "valikud": ["Jah, nagu pakt", "Ei – see on ÜRO Peaassamblee resolutsioon"],
+      "valikud": [
+        "Jah, nagu pakt",
+        "Ei – see on ÜRO Peaassamblee resolutsioon"
+      ],
       "oige": 1,
       "selgitus": "Ülddeklaratsiooni faili allikamärkus: Peaassamblee resolutsioon 217 A (III), ei ole õiguslikult siduv leping."
     },
@@ -113,5 +214,23 @@
     }
   ],
   "erinevused": [],
-  "valjast": []
+  "valjast": [],
+  "naited": [
+    {
+      "pealkiri": "Toonen vs Austraalia",
+      "kohus": "ÜRO Inimõiguste Komitee",
+      "aeg": "4. aprill 1994",
+      "lugu": "Tasmaania aktivist Nicholas Toonen esitas komiteele üksikisiku teate: osariigi kriminaalkoodeks karistas meestevahelist vabatahtlikku suhet ka eraelus, kuigi sätteid ei olnud umbes kümme aastat rakendatud.",
+      "tulemus": "Komitee leidis, et sätted riivasid eraelu meelevaldselt (pakt art 17 lg 1) ega olnud proportsionaalsed.",
+      "oppetund": "Nii töötab üksikisiku tasand: isik → komitee teade ([[KPÕRP FP art 2]]) → komitee seisukoht riigile. Juba seaduse olemasolu võib olla riive, isegi kui seda ei rakendata.",
+      "seos": [
+        "KPÕRP art 17",
+        "KPÕRP FP art 1"
+      ],
+      "allikas": {
+        "nimi": "ICJ – Toonen v. Australia, Communication No. 488/1992",
+        "url": "https://www.icj.org/sogiunjurisprudence/communication-no-4881992-australia-ccprc50d4881992-nicholas-toonen-v-australia-april-4-1994/"
+      }
+    }
+  ]
 }

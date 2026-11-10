@@ -3,7 +3,12 @@
   "tund": "t01",
   "jrk": 15,
   "pealkiri": "Õiguse üldpõhimõtted",
-  "kysimused": [17, 18, 19, 20],
+  "kysimused": [
+    17,
+    18,
+    19,
+    20
+  ],
   "lyhidalt": "Neli põhimõtet, mis kehtivad iga otsuse kohta: proportsionaalsus (vähim koormav meede), õiguskindlus (reeglid ei muutu tagantjärele halvemaks), võrdne kohtlemine (sarnaseid koheldakse sarnaselt) ja õiguspärane ootus (riigi otsus jääb kehtima).",
   "osad": {
     "pohimote": {
@@ -17,11 +22,56 @@
     },
     "alus": {
       "read": [
-        { "tase": "Proportsionaalsus", "viited": ["PS § 11", "HMS § 3 lg 2", "KorS § 7", "harta art 52 lg 1"], "tekst": "Piirang demokraatlikus ühiskonnas vajalik; akt kohane, vajalik ja proportsionaalne; vähim kahjustav meede." },
-        { "tase": "Õiguskindlus", "viited": ["PS § 10", "PS § 13", "PS § 23", "HMS § 5 lg 5"], "tekst": "Õigusriik; kaitse omavoli eest; karistusseaduse tagasiulatuva jõu keeld; menetluse alguses kehtinud normid." },
-        { "tase": "Võrdne kohtlemine", "viited": ["PS § 12", "EIÕK art 14", "harta art 20", "harta art 21", "VõrdKS § 3", "KPÕRP art 26"], "tekst": "Võrdsus seaduse ees; diskrimineerimiskeeld; otsene ja kaudne diskrimineerimine." },
-        { "tase": "Õiguspärane ootus", "viited": ["PS § 10", "HMS § 64", "HMS § 67"], "tekst": "Õigusriigi põhimõte; soodustava haldusakti kehtetuks tunnistamisel usalduse arvestamine." },
-        { "tase": "Vangla", "viited": ["VangS § 4^1 lg 2", "VangS § 63 lg 3", "VangS § 12"], "tekst": "Piirangud vastavad eesmärgile; kollektiivsed karistused keelatud; eraldihoidmine." }
+        {
+          "tase": "Proportsionaalsus",
+          "viited": [
+            "PS § 11",
+            "HMS § 3 lg 2",
+            "KorS § 7",
+            "harta art 52 lg 1"
+          ],
+          "tekst": "Piirang demokraatlikus ühiskonnas vajalik; akt kohane, vajalik ja proportsionaalne; vähim kahjustav meede."
+        },
+        {
+          "tase": "Õiguskindlus",
+          "viited": [
+            "PS § 10",
+            "PS § 13",
+            "PS § 23",
+            "HMS § 5 lg 5"
+          ],
+          "tekst": "Õigusriik; kaitse omavoli eest; karistusseaduse tagasiulatuva jõu keeld; menetluse alguses kehtinud normid."
+        },
+        {
+          "tase": "Võrdne kohtlemine",
+          "viited": [
+            "PS § 12",
+            "EIÕK art 14",
+            "harta art 20",
+            "harta art 21",
+            "VõrdKS § 3",
+            "KPÕRP art 26"
+          ],
+          "tekst": "Võrdsus seaduse ees; diskrimineerimiskeeld; otsene ja kaudne diskrimineerimine."
+        },
+        {
+          "tase": "Õiguspärane ootus",
+          "viited": [
+            "PS § 10",
+            "HMS § 64",
+            "HMS § 67"
+          ],
+          "tekst": "Õigusriigi põhimõte; soodustava haldusakti kehtetuks tunnistamisel usalduse arvestamine."
+        },
+        {
+          "tase": "Vangla",
+          "viited": [
+            "VangS § 4^1 lg 2",
+            "VangS § 63 lg 3",
+            "VangS § 12"
+          ],
+          "tekst": "Piirangud vastavad eesmärgile; kollektiivsed karistused keelatud; eraldihoidmine."
+        }
       ]
     },
     "piiramine": {
@@ -54,22 +104,74 @@
       "tyyp": "voog",
       "pealkiri": "Proportsionaalsuse test (3 astet + eesmärk)",
       "sammud": [
-        { "pealkiri": "0. Legitiimne eesmärk", "tekst": "nt julgeolek, kord, teiste õigused", "viide": "PS § 11" },
-        { "pealkiri": "1. Sobivus", "tekst": "kas meede aitab eesmärgile kaasa?", "viide": "HMS § 3 lg 2" },
-        { "pealkiri": "2. Vajalikkus", "tekst": "kas on leebem, sama tõhus meede?", "viide": "KorS § 7" },
-        { "pealkiri": "3. Mõõdukus", "tekst": "kahju isikule vs kasu eesmärgile", "viide": "HMS § 3 lg 2" },
-        { "pealkiri": "Kestus", "tekst": "ainult nii kaua, kui vaja", "viide": "VangS § 69 lg 3" }
+        {
+          "pealkiri": "0. Legitiimne eesmärk",
+          "tekst": "nt julgeolek, kord, teiste õigused",
+          "viide": "PS § 11"
+        },
+        {
+          "pealkiri": "1. Sobivus",
+          "tekst": "kas meede aitab eesmärgile kaasa?",
+          "viide": "HMS § 3 lg 2"
+        },
+        {
+          "pealkiri": "2. Vajalikkus",
+          "tekst": "kas on leebem, sama tõhus meede?",
+          "viide": "KorS § 7"
+        },
+        {
+          "pealkiri": "3. Mõõdukus",
+          "tekst": "kahju isikule vs kasu eesmärgile",
+          "viide": "HMS § 3 lg 2"
+        },
+        {
+          "pealkiri": "Kestus",
+          "tekst": "ainult nii kaua, kui vaja",
+          "viide": "VangS § 69 lg 3"
+        }
       ]
     },
     {
       "tyyp": "vordlus",
       "pealkiri": "Neli põhimõtet ühe pilguga",
-      "veerud": ["Küsimus", "Põhisäte", "Vangla näide"],
+      "veerud": [
+        "Küsimus",
+        "Põhisäte",
+        "Vangla näide"
+      ],
       "read": [
-        { "silt": "Proportsionaalsus", "lahtrid": ["kas vähim koormav meede?", "[[HMS § 3 lg 2]]", "julgeolekuabinõu lõpetamine ([[VangS § 69 lg 3]])"] },
-        { "silt": "Õiguskindlus", "lahtrid": ["kas reeglid muutusid tagantjärele halvemaks?", "[[PS § 23]], [[HMS § 5 lg 5]]", "menetluse alguses kehtinud kord"] },
-        { "silt": "Võrdne kohtlemine", "lahtrid": ["kas sarnaseid koheldi sarnaselt?", "[[PS § 12]], [[VõrdKS § 3]]", "kollektiivse karistuse keeld ([[VangS § 63 lg 3]])"] },
-        { "silt": "Õiguspärane ootus", "lahtrid": ["kas antud otsusele sai loota?", "[[HMS § 67]]", "antud loa tagasivõtmine"] }
+        {
+          "silt": "Proportsionaalsus",
+          "lahtrid": [
+            "kas vähim koormav meede?",
+            "[[HMS § 3 lg 2]]",
+            "julgeolekuabinõu lõpetamine ([[VangS § 69 lg 3]])"
+          ]
+        },
+        {
+          "silt": "Õiguskindlus",
+          "lahtrid": [
+            "kas reeglid muutusid tagantjärele halvemaks?",
+            "[[PS § 23]], [[HMS § 5 lg 5]]",
+            "menetluse alguses kehtinud kord"
+          ]
+        },
+        {
+          "silt": "Võrdne kohtlemine",
+          "lahtrid": [
+            "kas sarnaseid koheldi sarnaselt?",
+            "[[PS § 12]], [[VõrdKS § 3]]",
+            "kollektiivse karistuse keeld ([[VangS § 63 lg 3]])"
+          ]
+        },
+        {
+          "silt": "Õiguspärane ootus",
+          "lahtrid": [
+            "kas antud otsusele sai loota?",
+            "[[HMS § 67]]",
+            "antud loa tagasivõtmine"
+          ]
+        }
       ]
     }
   ],
@@ -109,28 +211,43 @@
     {
       "tyyp": "fakt",
       "kysimus": "Millised kolm nõuet esitab HMS § 3 lg 2 halduse õigusaktile ja toimingule?",
-      "valikud": ["seaduslik, avalik, kiire", "kohane, vajalik ning proportsionaalne", "põhjendatud, kirjalik, vaidlustatav"],
+      "valikud": [
+        "seaduslik, avalik, kiire",
+        "kohane, vajalik ning proportsionaalne",
+        "põhjendatud, kirjalik, vaidlustatav"
+      ],
       "oige": 1,
       "selgitus": "[[HMS § 3 lg 2]]."
     },
     {
       "tyyp": "fakt",
       "kysimus": "Kas vangla võib kohaldada kollektiivset distsiplinaarkaristust?",
-      "valikud": ["Jah, kui süüdlast ei leita", "Ei, see on keelatud"],
+      "valikud": [
+        "Jah, kui süüdlast ei leita",
+        "Ei, see on keelatud"
+      ],
       "oige": 1,
       "selgitus": "[[VangS § 63 lg 3]]."
     },
     {
       "tyyp": "fakt",
       "kysimus": "Mis põhimõtet riivab soodustava haldusakti ootamatu kehtetuks tunnistamine isiku kahjuks?",
-      "valikud": ["Õiguspärast ootust", "Võrdset kohtlemist", "Sõnumisaladust"],
+      "valikud": [
+        "Õiguspärast ootust",
+        "Võrdset kohtlemist",
+        "Sõnumisaladust"
+      ],
       "oige": 0,
       "selgitus": "[[HMS § 67]] – usalduse arvestamine."
     },
     {
       "tyyp": "fakt",
       "kysimus": "Mis on kaudne diskrimineerimine?",
-      "valikud": ["Ühte isikut koheldakse tunnuse tõttu otse halvemini", "Näiliselt neutraalne reegel seab grupi ebasoodsasse olukorda", "Ahistamine"],
+      "valikud": [
+        "Ühte isikut koheldakse tunnuse tõttu otse halvemini",
+        "Näiliselt neutraalne reegel seab grupi ebasoodsasse olukorda",
+        "Ahistamine"
+      ],
       "oige": 1,
       "selgitus": "[[VõrdKS § 3 lg 4]]."
     },
@@ -148,6 +265,28 @@
   ],
   "erinevused": [],
   "valjast": [
-    { "tekst": "Proportsionaalsuse kolmeastmeline test (sobivus, vajalikkus, mõõdukus) on Riigikohtu praktikas ja õigusteaduses välja kujunenud; seaduse sõnastus on HMS § 3 lg 2 ja KorS § 7.", "allikas": "üldine õigusteadus / kohtupraktika – ei pärine tunnimaterjalist" }
+    {
+      "tekst": "Proportsionaalsuse kolmeastmeline test (sobivus, vajalikkus, mõõdukus) on Riigikohtu praktikas ja õigusteaduses välja kujunenud; seaduse sõnastus on HMS § 3 lg 2 ja KorS § 7.",
+      "allikas": "üldine õigusteadus / kohtupraktika – ei pärine tunnimaterjalist"
+    }
+  ],
+  "naited": [
+    {
+      "pealkiri": "Hirst vs Ühendkuningriik (nr 2)",
+      "kohus": "Euroopa Inimõiguste Kohus (suurkoda)",
+      "aeg": "6. oktoober 2005",
+      "lugu": "Tapmise eest karistust kandev John Hirst vaidlustas seaduse, mis keelas **kõigil** süüdimõistetud vangidel valida.",
+      "tulemus": "Suurkoda (12:5): üldine, automaatne keeld rikkus EIÕK 1. protokolli art 3. Kohus ei öelnud, et kõik vangid peavad saama valida – riik peab piirangut põhjendama. Ühendkuningriik ei muutnud seadust pikka aega.",
+      "oppetund": "Proportsionaalsus = **üksikjuhtumi kaalumine**, mitte üks reegel kõigile. Vanglas sama mõte: kollektiivsed karistused on keelatud ([[VangS § 63 lg 3]]).",
+      "seos": [
+        "HMS § 3 lg 2",
+        "VangS § 63 lg 3",
+        "EIÕK art 46"
+      ],
+      "allikas": {
+        "nimi": "Wikipedia – Hirst v United Kingdom (No 2)",
+        "url": "https://en.wikipedia.org/wiki/Hirst_v_United_Kingdom_(No_2)"
+      }
+    }
   ]
 }

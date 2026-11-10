@@ -3,7 +3,9 @@
   "tund": "t01",
   "jrk": 11,
   "pealkiri": "Õigus varjupaika taotleda ja saada",
-  "kysimused": [13],
+  "kysimused": [
+    13
+  ],
   "lyhidalt": "Tagakiusamise eest põgenev inimene võib otsida kaitset teises riigis. Pagulast ei tohi saata riiki, kus tema elu või vabadus on ohus (non-refoulement), ja piinamise ohu korral ei tohi välja saata mitte kedagi.",
   "osad": {
     "pohimote": {
@@ -17,10 +19,42 @@
     },
     "alus": {
       "read": [
-        { "tase": "ÜRO", "viited": ["ÜDIÕ art 14", "PagK art 1", "PagK art 33", "CAT art 3"], "tekst": "Varjupaiga otsimine; pagulase määratlus; non-refoulement." },
-        { "tase": "Euroopa Liit", "viited": ["harta art 18", "harta art 19"], "tekst": "Varjupaigaõigus; kaitse välja- ja tagasisaatmise korral." },
-        { "tase": "Euroopa Nõukogu", "viited": ["EIÕK art 3", "EIÕK art 5"], "tekst": "Piinamise keeld (ka väljasaatmisel); kinnipidamine väljasaatmise eesmärgil (art 5 lg 1 p f)." },
-        { "tase": "Eesti", "viited": ["VRKS § 1", "VRKS § 4", "VRKS § 52", "PS § 20"], "tekst": "Rahvusvaheline kaitse; keelduva otsuse vaidlustamine halduskohtus; vabaduse võtmine väljasaatmiseks (PS § 20 p 6)." }
+        {
+          "tase": "ÜRO",
+          "viited": [
+            "ÜDIÕ art 14",
+            "PagK art 1",
+            "PagK art 33",
+            "CAT art 3"
+          ],
+          "tekst": "Varjupaiga otsimine; pagulase määratlus; non-refoulement."
+        },
+        {
+          "tase": "Euroopa Liit",
+          "viited": [
+            "harta art 18",
+            "harta art 19"
+          ],
+          "tekst": "Varjupaigaõigus; kaitse välja- ja tagasisaatmise korral."
+        },
+        {
+          "tase": "Euroopa Nõukogu",
+          "viited": [
+            "EIÕK art 3",
+            "EIÕK art 5"
+          ],
+          "tekst": "Piinamise keeld (ka väljasaatmisel); kinnipidamine väljasaatmise eesmärgil (art 5 lg 1 p f)."
+        },
+        {
+          "tase": "Eesti",
+          "viited": [
+            "VRKS § 1",
+            "VRKS § 4",
+            "VRKS § 52",
+            "PS § 20"
+          ],
+          "tekst": "Rahvusvaheline kaitse; keelduva otsuse vaidlustamine halduskohtus; vabaduse võtmine väljasaatmiseks (PS § 20 p 6)."
+        }
       ]
     },
     "piiramine": {
@@ -52,11 +86,31 @@
     "tyyp": "voog",
     "pealkiri": "Kas isik on pagulane?",
     "sammud": [
-      { "pealkiri": "Väljaspool kodakondsusjärgset riiki?", "tekst": "jah →", "viide": "PagK art 1" },
-      { "pealkiri": "Põhjendatud kartus tagakiusamise ees?", "tekst": "rass · usk · rahvus · sotsiaalne grupp · poliitilised veendumused", "viide": "PagK art 1" },
-      { "pealkiri": "Ei saa / ei taha oma riigi kaitset?", "tekst": "jah →", "viide": "PagK art 1" },
-      { "pealkiri": "Välistusklausel (F)?", "tekst": "sõja-, inimsusevastane, raske mittepoliitiline kuritegu → ei", "viide": "PagK art 1" },
-      { "pealkiri": "Kaitse", "tekst": "non-refoulement; piinamisohu korral alati", "viide": "PagK art 33" }
+      {
+        "pealkiri": "Väljaspool kodakondsusjärgset riiki?",
+        "tekst": "jah →",
+        "viide": "PagK art 1"
+      },
+      {
+        "pealkiri": "Põhjendatud kartus tagakiusamise ees?",
+        "tekst": "rass · usk · rahvus · sotsiaalne grupp · poliitilised veendumused",
+        "viide": "PagK art 1"
+      },
+      {
+        "pealkiri": "Ei saa / ei taha oma riigi kaitset?",
+        "tekst": "jah →",
+        "viide": "PagK art 1"
+      },
+      {
+        "pealkiri": "Välistusklausel (F)?",
+        "tekst": "sõja-, inimsusevastane, raske mittepoliitiline kuritegu → ei",
+        "viide": "PagK art 1"
+      },
+      {
+        "pealkiri": "Kaitse",
+        "tekst": "non-refoulement; piinamisohu korral alati",
+        "viide": "PagK art 33"
+      }
     ]
   },
   "vastus": [
@@ -74,22 +128,64 @@
     {
       "tyyp": "fakt",
       "kysimus": "Milline neist EI ole pagulasseisundi konventsiooni tagakiusamise alus?",
-      "valikud": ["Usk", "Poliitilised veendumused", "Majanduslik vaesus", "Sotsiaalsesse gruppi kuulumine"],
+      "valikud": [
+        "Usk",
+        "Poliitilised veendumused",
+        "Majanduslik vaesus",
+        "Sotsiaalsesse gruppi kuulumine"
+      ],
       "oige": 2,
       "selgitus": "[[PagK art 1]] A lg 2: rass, usk, rahvus, sotsiaalne grupp, poliitilised veendumused."
     },
     {
       "tyyp": "fakt",
       "kysimus": "Kas piinamise ohu korral võib isiku välja saata, kui ta on ohtlik riigi julgeolekule?",
-      "valikud": ["Jah, PagK art 33 lg 2 alusel", "Ei – piinamise keeld on absoluutne"],
+      "valikud": [
+        "Jah, PagK art 33 lg 2 alusel",
+        "Ei – piinamise keeld on absoluutne"
+      ],
       "oige": 1,
       "selgitus": "[[CAT art 3]], [[EIÕK art 3]], [[harta art 19 lg 2]]; PagK erand ei kõrvalda piinamise keeldu."
     }
   ],
   "erinevused": [
-    { "teema": "Konspekti viited protokollidele 4 ja 7", "konspekt": "Konspekt tsiteerib EIÕK protokolli nr 4 art 4 (kollektiivne väljasaatmine) ja protokolli nr 7 art 1.", "ametlik": "Nende protokollide tekste kaustas ei ole; sama põhimõte on [[harta art 19 lg 1]].", "viide": "harta art 19" },
-    { "teema": "Konspekt 3.2 – vale paragrahv", "konspekt": "Peatükis „Õigus vabadusele ja isikupuutumatusele” on tsiteeritud PS § 18 (piinamise keeld).", "ametlik": "Isikuvabadus on [[PS § 20]]; vabaduse võtmine väljasaatmiseks – § 20 teine lõige p 6.", "viide": "PS § 20" },
-    { "teema": "Pagulase määratlus Eesti seaduses", "konspekt": "—", "ametlik": "VRKS kasutab EL-i rahvusvahelise kaitse määruste termineid ([[VRKS § 2]]), seaduses endas eraldi pagulase definitsiooni ei ole.", "viide": "VRKS § 2" }
+    {
+      "teema": "Konspekti viited protokollidele 4 ja 7",
+      "konspekt": "Konspekt tsiteerib EIÕK protokolli nr 4 art 4 (kollektiivne väljasaatmine) ja protokolli nr 7 art 1.",
+      "ametlik": "Nende protokollide tekste kaustas ei ole; sama põhimõte on [[harta art 19 lg 1]].",
+      "viide": "harta art 19"
+    },
+    {
+      "teema": "Konspekt 3.2 – vale paragrahv",
+      "konspekt": "Peatükis „Õigus vabadusele ja isikupuutumatusele” on tsiteeritud PS § 18 (piinamise keeld).",
+      "ametlik": "Isikuvabadus on [[PS § 20]]; vabaduse võtmine väljasaatmiseks – § 20 teine lõige p 6.",
+      "viide": "PS § 20"
+    },
+    {
+      "teema": "Pagulase määratlus Eesti seaduses",
+      "konspekt": "—",
+      "ametlik": "VRKS kasutab EL-i rahvusvahelise kaitse määruste termineid ([[VRKS § 2]]), seaduses endas eraldi pagulase definitsiooni ei ole.",
+      "viide": "VRKS § 2"
+    }
   ],
-  "valjast": []
+  "valjast": [],
+  "naited": [
+    {
+      "pealkiri": "Chahal vs Ühendkuningriik",
+      "kohus": "Euroopa Inimõiguste Kohus",
+      "aeg": "15. november 1996",
+      "lugu": "Ühendkuningriik tahtis riigi julgeoleku huvides välja saata sikhi aktivisti Indiasse (Punjab). Ta oli taotlenud varjupaika, väites, et teda ootab seal piinamine. Ta oli väljasaatmise ootel ligi 17 kuud kinni.",
+      "tulemus": "EIK: art 3 keeld on **absoluutne** – piinamise ohtu ei saa kaaluda riigi julgeoleku vastu. Väljasaatmine rikuks art 3. Lisaks rikkumised art 5 lg 4 ja art 13 osas (puudus tõhus kohtulik kontroll).",
+      "oppetund": "Ka ohtlikku isikut ei tohi saata riiki, kus teda ähvardab piinamine ([[CAT art 3]], [[harta art 19 lg 2]]) – pagulasseisundi konventsiooni erand ([[PagK art 33 lg 2]]) seda ei muuda.",
+      "seos": [
+        "EIÕK art 3",
+        "CAT art 3",
+        "PagK art 33"
+      ],
+      "allikas": {
+        "nimi": "EDAL – Chahal v. the United Kingdom, no. 22414/93",
+        "url": "https://asylumlawdatabase.eu/summaries/case/ecthr-chahal-v-the-united-kingdom-application-no-2241493-15-november-1996"
+      }
+    }
+  ]
 }

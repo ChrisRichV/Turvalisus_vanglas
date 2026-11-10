@@ -2,7 +2,32 @@
    Värvid: igal toonil üks tähendus.
    marker = seaduseviide, vask = termin, rooste = tüüpviga. */
 
+/* Vaikimisi TUME teema neoonaktsentidega; hele teema lülitiga (data-theme="light"). */
 :root {
+  --paber: #0d1117;
+  --pind: #151c25;
+  --tint: #e6eaee;
+  --mahe: #8f9bab;
+  --joon: #253141;
+  --marker: #ffe14a;              /* neoonkollane – AINULT seaduseviited, võtmelaused */
+  --marker-hele: rgba(255, 225, 74, .12);
+  --vask: #2ef5d6;                /* neoontsüaan – AINULT terminid, õige vastus, vastused */
+  --vask-hele: rgba(46, 245, 214, .10);
+  --rooste: #ff4fa0;              /* neoonroosa – AINULT tüüpvead, vale vastus, erinevused */
+  --rooste-hele: rgba(255, 79, 160, .10);
+  --lilla: #b388ff;               /* neoonlilla – AINULT päris näited */
+  --lilla-hele: rgba(179, 136, 255, .12);
+  --fookus: #7fb0ff;
+  --hoog: 1;                      /* sära tugevus (0 = väljas) */
+
+  --kiri-pealkiri: "Archivo", "Arial Narrow", system-ui, sans-serif;
+  --kiri-tekst: "Source Serif 4", Georgia, "Times New Roman", serif;
+
+  --veerg: 42rem;
+  --raadius: 6px;
+  color-scheme: dark;
+}
+:root[data-theme="light"] {
   --paber: #ecEEea;
   --pind: #f7f8f5;
   --tint: #1c2733;
@@ -14,47 +39,11 @@
   --vask-hele: #d7e7e4;
   --rooste: #a8432c;
   --rooste-hele: #f3ded7;
+  --lilla: #6b3fd1;
+  --lilla-hele: #ebe3fb;
   --fookus: #1f5fbf;
-
-  --kiri-pealkiri: "Archivo", "Arial Narrow", system-ui, sans-serif;
-  --kiri-tekst: "Source Serif 4", Georgia, "Times New Roman", serif;
-
-  --veerg: 42rem;
-  --raadius: 6px;
+  --hoog: 0;
   color-scheme: light;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --paber: #141a21;
-    --pind: #1b232c;
-    --tint: #e3e7e2;
-    --mahe: #9aa5b1;
-    --joon: #2e3a46;
-    --marker: #e3b62a;
-    --marker-hele: #4a3f17;
-    --vask: #6cb7ae;
-    --vask-hele: #1f3936;
-    --rooste: #e08a72;
-    --rooste-hele: #3d2620;
-    --fookus: #7fb0ff;
-    color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --paber: #141a21;
-  --pind: #1b232c;
-  --tint: #e3e7e2;
-  --mahe: #9aa5b1;
-  --joon: #2e3a46;
-  --marker: #e3b62a;
-  --marker-hele: #4a3f17;
-  --vask: #6cb7ae;
-  --vask-hele: #1f3936;
-  --rooste: #e08a72;
-  --rooste-hele: #3d2620;
-  --fookus: #7fb0ff;
-  color-scheme: dark;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -185,7 +174,7 @@ main { padding: 0 1rem 4rem; }
 
 /* ---------- hüpikaken (sätte lipik) ---------- */
 .lipik {
-  position: fixed; z-index: 50; width: min(34rem, calc(100vw - 2rem));
+  position: fixed; z-index: 70; width: min(34rem, calc(100vw - 2rem));
   max-height: min(70vh, 34rem); overflow: auto;
   background: var(--pind); color: var(--tint);
   border: 1px solid var(--joon); border-top: 6px solid var(--marker);
@@ -427,14 +416,6 @@ main { padding: 0 1rem 4rem; }
   .teema-keha { grid-template-columns: 1fr; }
 }
 
-/* tume režiim: marker on täistoon taustal, et tekst jääks loetavaks */
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .ref { background: var(--marker-hele); color: #f7e9b8; box-shadow: inset 0 -2px 0 var(--marker); }
-  :root:not([data-theme="light"]) .ref:hover, :root:not([data-theme="light"]) .ref[aria-expanded="true"] { background: var(--marker); color: #141a21; }
-}
-:root[data-theme="dark"] .ref { background: var(--marker-hele); color: #f7e9b8; box-shadow: inset 0 -2px 0 var(--marker); }
-:root[data-theme="dark"] .ref:hover, :root[data-theme="dark"] .ref[aria-expanded="true"] { background: var(--marker); color: #141a21; }
-
 /* kiirotsing ja tunni materjal */
 .kiirotsing { max-width: 72rem; margin: 4rem auto 0; }
 .kiirotsing > h2 { font-family: var(--kiri-pealkiri); font-stretch: 112%; font-size: 1.6rem; margin: 0 0 .5rem; }
@@ -447,3 +428,110 @@ main { padding: 0 1rem 4rem; }
 .tund-info .materjal h3 { font-family: var(--kiri-pealkiri); font-size: .9rem; margin: 0 0 .3rem; }
 .tund-info .materjal ul { margin: 0; padding-left: 1rem; font-size: .88rem; color: var(--mahe); }
 .tund-info .materjal li { margin-bottom: .25rem; }
+
+
+/* =========================================================
+   NEOON (ainult tumedas teemas). Sära ainult tähtsal:
+   viited, terminid, võtmelause, vastus, tüüpviga, näide.
+   ========================================================= */
+:root:not([data-theme="light"]) .ref {
+  background: var(--marker-hele); color: var(--marker);
+  box-shadow: inset 0 -2px 0 var(--marker);
+  text-shadow: 0 0 10px rgba(255, 225, 74, .45);
+}
+:root:not([data-theme="light"]) .ref:hover,
+:root:not([data-theme="light"]) .ref[aria-expanded="true"] {
+  background: var(--marker); color: #0d1117; text-shadow: none;
+  box-shadow: 0 0 16px rgba(255, 225, 74, .55);
+}
+:root:not([data-theme="light"]) .term { color: var(--vask); text-decoration-color: var(--vask); text-shadow: 0 0 8px rgba(46, 245, 214, .35); }
+:root:not([data-theme="light"]) .term:hover,
+:root:not([data-theme="light"]) .term[aria-expanded="true"] { background: var(--vask-hele); }
+:root:not([data-theme="light"]) strong { color: #fff; }
+
+:root:not([data-theme="light"]) .kangelane { border-bottom-color: var(--joon); }
+:root:not([data-theme="light"]) .kangelane .para {
+  background: none; color: transparent; -webkit-text-stroke: 2px var(--marker);
+  text-shadow: 0 0 28px rgba(255, 225, 74, .45);
+}
+:root:not([data-theme="light"]) .teema-pais,
+:root:not([data-theme="light"]) .kord-pais,
+:root:not([data-theme="light"]) .lehitse { border-color: var(--joon); }
+:root:not([data-theme="light"]) .ylariba nav a[aria-current="page"] { color: var(--marker); box-shadow: inset 0 -2px 0 var(--marker); }
+
+:root:not([data-theme="light"]) .nupp { background: var(--marker); border-color: var(--marker); color: #0d1117; box-shadow: 0 0 18px -6px rgba(255, 225, 74, .7); }
+:root:not([data-theme="light"]) .nupp.teine { background: transparent; color: var(--tint); border-color: var(--joon); box-shadow: none; }
+:root:not([data-theme="light"]) .sakk { border-color: var(--joon); }
+:root:not([data-theme="light"]) .sakk[aria-selected="true"] { background: var(--marker); border-color: var(--marker); color: #0d1117; }
+
+:root:not([data-theme="light"]) .osa > h2 .onr { color: var(--marker); text-shadow: 0 0 12px rgba(255, 225, 74, .5); }
+:root:not([data-theme="light"]) .osad-menyy a.aktiivne { color: var(--marker); border-color: var(--marker); }
+:root:not([data-theme="light"]) .tund-info .nr { color: var(--marker); text-shadow: 0 0 18px rgba(255, 225, 74, .4); }
+:root:not([data-theme="light"]) .tund.tulemas .nr { color: var(--mahe); text-shadow: none; }
+
+:root:not([data-theme="light"]) .vastus-kast { border: 1.5px solid var(--vask); box-shadow: 0 0 26px -10px rgba(46, 245, 214, .6); }
+:root:not([data-theme="light"]) .vastus-kast h3 { color: var(--vask); }
+:root:not([data-theme="light"]) .tyypviga li { background: var(--rooste-hele); border-left: 3px solid var(--rooste); }
+:root:not([data-theme="light"]) .tyypviga li::before { color: var(--rooste); text-shadow: 0 0 10px rgba(255, 79, 160, .7); }
+:root:not([data-theme="light"]) .erinevus { border-left-color: var(--rooste); }
+:root:not([data-theme="light"]) .valik.oige { border-color: var(--vask); box-shadow: 0 0 14px -4px rgba(46, 245, 214, .6); }
+:root:not([data-theme="light"]) .valik.vale { border-color: var(--rooste); box-shadow: 0 0 14px -4px rgba(255, 79, 160, .6); }
+
+:root:not([data-theme="light"]) .s-voog li::before { background: var(--marker); color: #0d1117; box-shadow: 0 0 14px rgba(255, 225, 74, .45); }
+:root:not([data-theme="light"]) .s-voog li:not(:last-child)::after { background: var(--joon); }
+:root:not([data-theme="light"]) .skeem-kast { border-color: var(--joon); }
+:root:not([data-theme="light"]) .s-puu .haru[data-toon="b"] .skeem-kast { border-color: var(--vask); }
+:root:not([data-theme="light"]) .s-puu .haru, :root:not([data-theme="light"]) .s-puu .harud::before,
+:root:not([data-theme="light"]) .s-kaalud::before, :root:not([data-theme="light"]) .s-kaalud::after,
+:root:not([data-theme="light"]) .s-kaalud .vaagen::before { border-color: var(--mahe); background-color: var(--mahe); }
+:root:not([data-theme="light"]) .s-puu .haru { background: none; }
+:root:not([data-theme="light"]) .s-vordlus thead th { border-bottom-color: var(--marker); }
+:root:not([data-theme="light"]) .lipik { box-shadow: 0 0 0 1px var(--joon), 0 20px 50px -10px rgba(0, 0, 0, .8), 0 -2px 24px -8px rgba(255, 225, 74, .5); }
+
+/* ---------- võtmelause (lühidalt) ---------- */
+.teema-pais .lyhidalt { border-left: 4px solid var(--marker); padding: .2rem 0 .2rem 1rem; }
+:root:not([data-theme="light"]) .teema-pais .lyhidalt { box-shadow: -10px 0 22px -14px rgba(255, 225, 74, .9); }
+
+/* ---------- päris näide ---------- */
+.naite-nupp {
+  display: inline-flex; align-items: center; gap: .45rem; cursor: pointer;
+  font-family: var(--kiri-pealkiri); font-weight: 650; font-size: .95rem;
+  border: 1.5px solid var(--lilla); color: var(--lilla); background: var(--lilla-hele);
+  border-radius: 999px; padding: .4rem .95rem;
+}
+.naite-nupp::before { content: "◆"; font-size: .75em; }
+:root:not([data-theme="light"]) .naite-nupp { text-shadow: 0 0 10px rgba(179, 136, 255, .6); box-shadow: 0 0 18px -6px rgba(179, 136, 255, .8); }
+.naite-nupp:hover { background: var(--lilla); color: var(--paber); text-shadow: none; }
+.teema-pais .nupurida { display: flex; flex-wrap: wrap; gap: .6rem 1rem; align-items: center; margin-top: 1rem; }
+.teema-pais .nupurida .kys { margin: 0; }
+
+.naite-taust { position: fixed; inset: 0; z-index: 60; background: rgba(5, 8, 12, .7); display: grid; place-items: center; padding: 1rem; }
+.naite-taust[hidden] { display: none; }
+.naite-aken {
+  width: min(40rem, 100%); max-height: 88vh; overflow: auto;
+  background: var(--pind); border: 1px solid var(--joon); border-top: 6px solid var(--lilla); border-radius: 10px;
+  padding: 1.2rem 1.3rem 1.3rem;
+}
+:root:not([data-theme="light"]) .naite-aken { box-shadow: 0 0 40px -10px rgba(179, 136, 255, .55); }
+.naite-aken .n-pais { display: flex; justify-content: space-between; gap: 1rem; align-items: start; }
+.naite-aken .n-silt { font-family: var(--kiri-pealkiri); font-size: .82rem; color: var(--lilla); }
+.naite-aken h2 { font-family: var(--kiri-pealkiri); font-stretch: 112%; font-size: 1.6rem; line-height: 1.1; margin: .2rem 0 .3rem; }
+.naite-aken .n-meta { font-family: var(--kiri-pealkiri); font-size: .88rem; color: var(--mahe); }
+.naite-aken h3 { font-family: var(--kiri-pealkiri); font-size: .95rem; margin: 1rem 0 .25rem; }
+.naite-aken p { margin: 0; }
+.naite-aken .n-oppetund { margin-top: 1rem; padding: .7rem .9rem; border-radius: var(--raadius); background: var(--marker-hele); border-left: 3px solid var(--marker); }
+.naite-aken .n-allikas { margin-top: 1rem; font-family: var(--kiri-pealkiri); font-size: .8rem; color: var(--mahe); }
+.naite-aken .n-navi { display: flex; justify-content: space-between; gap: .5rem; margin-top: 1rem; }
+.naite-aken .sulge { border: 0; background: transparent; font-size: 1.6rem; line-height: 1; cursor: pointer; color: var(--mahe); }
+.naide-rida { margin-top: 1rem; }
+
+/* ---------- kordamisküsimus harjutuses ---------- */
+.harjutus.tunnikys { border-color: var(--vask); }
+.harjutus.tunnikys .h-liik { color: var(--vask); }
+.tunnikys-vastus { margin-top: .7rem; }
+.tunnikys-vastus ul { padding-left: 1.1rem; margin: 0; }
+.vastus-kast .kysimus { font-style: normal; font-weight: 600; color: var(--tint); font-size: 1.05rem; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .naite-taust:not([hidden]) .naite-aken { animation: lipik-sisse .16s ease-out; }
+}
