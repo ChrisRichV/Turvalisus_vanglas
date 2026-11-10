@@ -1,0 +1,121 @@
+{
+  "id": "t01-03",
+  "tund": "t01",
+  "jrk": 3,
+  "pealkiri": "EIÕK mehhanism ja Euroopa Inimõiguste Kohus",
+  "kysimused": [4, 5],
+  "lyhidalt": "EIÕK õigusi kaitseb alaline kohus (EIK). Kaebus on võimalik pärast riigisiseste vahendite ammendamist 4 kuu jooksul, otsus on riigile siduv ja täitmist jälgib ministrite komitee.",
+  "osad": {
+    "pohimote": {
+      "tekst": "EIÕK mehhanism on **kahetasandiline**: esmalt peab õigusi tagama riik ise ([[EIÕK art 1]]), alles siis tuleb mängu **Euroopa Inimõiguste Kohus** (EIK), mis luuakse kohustuste täitmise tagamiseks ja töötab alaliselt ([[EIÕK art 19]]). Konspekt: Euroopa Nõukogu mehhanism toimib EIK kaudu ja nõutav on kõigepealt läbida riigisisene kohtumenetlus.",
+      "punktid": [
+        "**Riikidevaheline kaebus** – riik riigi vastu ([[EIÕK art 33]]).",
+        "**Individuaalkaebus** – üksikisik, vabaühendus või isikurühm, kes väidab end olevat rikkumise ohver ([[EIÕK art 34]]).",
+        "**Õiglane hüvitus**, kui riigisisene õigus võimaldab vaid osalist hüvitust ([[EIÕK art 41]]).",
+        "**Täitmine:** otsus on riigile siduv; täitmist kontrollib **ministrite komitee** ([[EIÕK art 46]]).",
+        "**Nõuandvad arvamused:** ministrite komitee taotlusel ([[EIÕK art 47]]) ja – protokolli nr 16 alusel – riigi kõrgeima kohtu taotlusel; need **ei ole siduvad** ([[EIÕK P16 art 1]], [[EIÕK P16 art 5]])."
+      ]
+    },
+    "alus": {
+      "read": [
+        { "tase": "Euroopa Nõukogu", "viited": ["EIÕK art 19", "EIÕK art 32"], "tekst": "Kohtu loomine ja pädevus: kõik konventsiooni tõlgendamise ja kohaldamise küsimused artiklite 33, 34, 46 ja 47 kohaselt." },
+        { "tase": "Euroopa Nõukogu", "viited": ["EIÕK art 35"], "tekst": "Vastuvõetavus: ammendamine + tähtaeg; mitte anonüümne; mitte selgelt põhjendamatu; märkimisväärne kahju." },
+        { "tase": "Euroopa Nõukogu", "viited": ["EIÕK art 26", "EIÕK art 44"], "tekst": "Koosseisud (ainuisikuline kohtunik, komitee, koda, suurkoda); otsuse jõustumine." },
+        { "tase": "Eesti", "viited": ["PS § 123"], "tekst": "Ratifitseeritud välisleping (sh EIÕK) on vastuolu korral seadusest ülimuslik." }
+      ]
+    },
+    "piiramine": {
+      "pealkiri": "Kaebuse tingimused (vastuvõetavus)",
+      "tekst": "EIK on **subsidiaarne** – ta ei ole „neljas kohtuaste”, vaid kontrollib, kas riik täitis konventsiooni. Seepärast on vastuvõetavuse kriteeriumid ranged ([[EIÕK art 35]]):",
+      "punktid": [
+        "kõik **riigisisesed õiguskaitsevahendid ammendatud**;",
+        "tähtaeg: failis on kaks sõnastust – **kuus kuud** (kehtis kuni 1.02.2022) ja **neli kuud** lõplikust otsusest (kehtib alates 1.02.2022);",
+        "kaebus ei ole **anonüümne** ega sisuliselt sama juba arutatuga;",
+        "ei ole **selgelt põhjendamatu** ega kaebeõiguse kuritarvitamine; kaebaja on kandnud **märkimisväärset kahju** (erandiga)."
+      ]
+    },
+    "vangla": {
+      "tekst": "Paljud EIK kaebused vanglast puudutavad kinnipidamistingimusi ([[EIÕK art 3]]) ning kirjavahetust ja kokkusaamisi ([[EIÕK art 8]]). Enne EIK-d peab kinnipeetav läbima Eesti tee: **vaie → halduskohus → ringkonnakohus → Riigikohus** ([[VangS § 1^1 lg 5]], [[PS § 149]]).",
+      "naide": {
+        "olukord": "Kinnipeetav esitab EIK-le kaebuse kambri olmetingimuste pärast, kuid ei ole vanglale vaiet esitanud.",
+        "analyys": "Kaebus jääb tõenäoliselt vastuvõetamatuks, sest riigisisesed vahendid ei ole ammendatud ([[EIÕK art 35 lg 1]]). Õige tee: vaie ([[VangS § 1^1 lg 4^1]]), seejärel halduskohus ([[VangS § 1^1 lg 5]])."
+      }
+    },
+    "tyypviga": {
+      "punktid": [
+        "Kirjutatakse vana **6 kuu** tähtaeg, kuigi alates 1.02.2022 on see **4 kuud** – mõlemad sõnastused on failis märkustega.",
+        "Arvatakse, et EIK saab tühistada Eesti kohtuotsuse – EIK tuvastab rikkumise ja võib määrata õiglase hüvituse ([[EIÕK art 41]]); täitmist jälgib ministrite komitee ([[EIÕK art 46 lg 2]]).",
+        "Ministrite komitee ja EIK rollid aetakse segi.",
+        "Unustatakse riikidevaheline kaebus ([[EIÕK art 33]])."
+      ]
+    }
+  },
+  "skeem": {
+    "tyyp": "voog",
+    "pealkiri": "Kaebuse teekond vanglast Strasbourgi",
+    "sammud": [
+      { "pealkiri": "Vaie", "tekst": "vanglateenistus või ministeerium, 30 päeva", "viide": "VangS § 1^1 lg 7" },
+      { "pealkiri": "Halduskohus", "tekst": "pärast vaiet", "viide": "VangS § 1^1 lg 5" },
+      { "pealkiri": "Ringkonnakohus → Riigikohus", "tekst": "apellatsioon, kassatsioon", "viide": "PS § 149" },
+      { "pealkiri": "EIK kaebus", "tekst": "4 kuu jooksul lõplikust otsusest", "viide": "EIÕK art 35 lg 1" },
+      { "pealkiri": "Otsus", "tekst": "siduv; õiglane hüvitus", "viide": "EIÕK art 46" },
+      { "pealkiri": "Ministrite komitee", "tekst": "jälgib täitmist", "viide": "EIÕK art 46 lg 2" }
+    ]
+  },
+  "vastus": [
+    {
+      "nr": 4,
+      "punktid": [
+        "Riik tagab õigused igaühele oma jurisdiktsiooni all ([[EIÕK art 1]]).",
+        "Järelevalveks on loodud alaline Euroopa Inimõiguste Kohus ([[EIÕK art 19]]).",
+        "Kohtusse pöördumine: riikidevaheline kaebus ([[EIÕK art 33]]) ja individuaalkaebus ([[EIÕK art 34]]) – pärast riigisiseste vahendite ammendamist ([[EIÕK art 35]]).",
+        "Otsus on siduv, täitmist kontrollib ministrite komitee ([[EIÕK art 46]]); õiglane hüvitus ([[EIÕK art 41]])."
+      ]
+    },
+    {
+      "nr": 5,
+      "punktid": [
+        "Kohtu pädevusse kuuluvad **kõik konventsiooni ja protokollide tõlgendamise ja kohaldamise küsimused**, mis on esitatud artiklite 33, 34, 46 ja 47 kohaselt; pädevuse üle otsustab kohus ise ([[EIÕK art 32]]).",
+        "Riikidevahelised ja individuaalkaebused ([[EIÕK art 33]], [[EIÕK art 34]]); otsuse tõlgendamine ja täitmata jätmise küsimus ministrite komitee pöördumisel ([[EIÕK art 46 lg 3]], [[EIÕK art 46 lg 4]]).",
+        "Nõuandvad arvamused ([[EIÕK art 47]]; [[EIÕK P16 art 1]] – mittesiduvad)."
+      ]
+    }
+  ],
+  "harjutused": [
+    {
+      "tyyp": "fakt",
+      "kysimus": "Mis on EIK individuaalkaebuse tähtaeg praegu kehtiva sõnastuse järgi?",
+      "valikud": ["2 kuud", "4 kuud", "6 kuud", "1 aasta"],
+      "oige": 1,
+      "selgitus": "[[EIÕK art 35 lg 1]] – failis märge: sõnastus kehtib alates 1. veebruarist 2022."
+    },
+    {
+      "tyyp": "fakt",
+      "kysimus": "Kes kontrollib EIK otsuse täitmist?",
+      "valikud": ["EIK suurkoda", "Ministrite komitee", "Euroopa Parlament", "ÜRO Inimõiguste Komitee"],
+      "oige": 1,
+      "selgitus": "[[EIÕK art 46 lg 2]]."
+    },
+    {
+      "tyyp": "fakt",
+      "kysimus": "Kas protokolli nr 16 alusel antud nõuandev arvamus on siduv?",
+      "valikud": ["Jah", "Ei"],
+      "oige": 1,
+      "selgitus": "[[EIÕK P16 art 5]]."
+    },
+    {
+      "tyyp": "kaasus",
+      "kysimus": "Riigikohus jättis kinnipeetava kassatsiooni menetlusse võtmata 5 kuud tagasi. Ta küsib, kas saab veel EIK-sse pöörduda.",
+      "vastus": [
+        "Riigisisesed vahendid on ammendatud (viimane aste lahendas).",
+        "Tähtaeg on alates 1.02.2022 **neli kuud** lõplikust otsusest ([[EIÕK art 35 lg 1]]).",
+        "5 kuud on möödas → kaebus oleks hilinenud ja vastuvõetamatu.",
+        "Märkus: täpne arvestus algab lõpliku otsuse tegemisest – kontrolli kuupäeva."
+      ]
+    }
+  ],
+  "erinevused": [],
+  "valjast": [
+    { "tekst": "Väljend „EIK ei ole neljas kohtuaste” (subsidiaarsus) on õigusteaduses levinud kokkuvõte, mitte konventsiooni tekst.", "allikas": "üldine õigusteadus; ei pärine tunnimaterjalist" }
+  ]
+}

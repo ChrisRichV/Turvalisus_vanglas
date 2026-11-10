@@ -1,0 +1,2595 @@
+{
+ "loodud": "2026-11-10",
+ "markus": "Sätete tekstid on masinaga võetud ametlikest tekstifailidest; muudetud on ainult tühikuid ja reavahetusi.",
+ "aktid": {
+  "CAT": {
+   "lyhend": "CAT",
+   "pealkiri": "Piinamise ning muu julma, ebainimliku või inimväärikust alandava kohtlemise ja karistamise vastane konventsioon",
+   "url": "https://www.riigiteataja.ee/akt/23989",
+   "kehtivus": "20.11.1991 – hetkel kehtiv",
+   "avaldamismarge": "RT II 1994, 14, 44",
+   "allikas": "Riigi Teataja – ametlik elektrooniline tekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": true,
+   "fail": "inimoigused_materjalid/04_YRO/Piinamisvastane_konventsioon_CAT.txt",
+   "vorm": "art"
+  },
+  "CPT": {
+   "lyhend": "CPT",
+   "pealkiri": "Piinamise ja ebainimliku või alandava kohtlemise või karistamise tõkestamise Euroopa konventsioon",
+   "url": "https://www.riigiteataja.ee/akt/13088648",
+   "kehtivus": "1.3.1997 – hetkel kehtiv",
+   "avaldamismarge": "RT II 1996, 36, 132",
+   "allikas": "Riigi Teataja – ametlik elektrooniline tekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": true,
+   "fail": "inimoigused_materjalid/03_Euroopa_Noukogu/Piinamise_tokestamise_Euroopa_konventsioon_CPT.txt",
+   "vorm": "art"
+  },
+  "EIÕK": {
+   "lyhend": "EIÕK",
+   "pealkiri": "Inimõiguste ja põhivabaduste kaitse konventsioon",
+   "url": "https://www.riigiteataja.ee/akt/222062021004",
+   "kehtivus": "1.8.2021 – hetkel kehtiv",
+   "avaldamismarge": "RT II, 22.06.2021, 4",
+   "allikas": "Riigi Teataja – ametlik elektrooniline tekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/03_Euroopa_Noukogu/Inimoiguste_ja_pohivabaduste_kaitse_konventsioon_EIOK_2021.txt",
+   "vorm": "art"
+  },
+  "EIÕK P13": {
+   "lyhend": "EIÕK P13",
+   "pealkiri": "EIÕK protokoll nr 13 surmanuhtluse kaotamise kohta kõikidel asjaoludel",
+   "url": "https://www.riigiteataja.ee/akt/682660",
+   "kehtivus": "1.6.2004 – hetkel kehtiv",
+   "avaldamismarge": "RT II 2003, 31, 156",
+   "allikas": "Riigi Teataja – ametlik elektrooniline tekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/03_Euroopa_Noukogu/EIOK_protokoll_nr13_surmanuhtlus.txt",
+   "vorm": "art"
+  },
+  "EIÕK P16": {
+   "lyhend": "EIÕK P16",
+   "pealkiri": "EIÕK protokoll nr 16 (nõuandvad arvamused)",
+   "url": "https://www.riigiteataja.ee/akt/216062017004",
+   "kehtivus": "1.8.2018 – hetkel kehtiv",
+   "avaldamismarge": "RT II, 16.06.2017, 4",
+   "allikas": "Riigi Teataja – ametlik elektrooniline tekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/03_Euroopa_Noukogu/EIOK_protokoll_nr16_nouandev_arvamus.txt",
+   "vorm": "art"
+  },
+  "EIÕK P6": {
+   "lyhend": "EIÕK P6",
+   "pealkiri": "EIÕK protokoll nr 6 surmanuhtluse kaotamise kohta",
+   "url": "https://www.riigiteataja.ee/akt/78843",
+   "kehtivus": "1.5.1998 – hetkel kehtiv",
+   "avaldamismarge": "RT II 1998, 14, 22",
+   "allikas": "Riigi Teataja – ametlik elektrooniline tekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/03_Euroopa_Noukogu/EIOK_lisaprotokoll_nr6_surmanuhtlus.txt",
+   "vorm": "art"
+  },
+  "ELL": {
+   "lyhend": "ELL",
+   "pealkiri": "Euroopa Liidu leping",
+   "url": "https://eur-lex.europa.eu/legal-content/ET/TXT/HTML/?uri=CELEX:12016M/TXT",
+   "kehtivus": "",
+   "avaldamismarge": "",
+   "allikas": "EUR-Lex – Euroopa Liidu Teataja ametlik eestikeelne tekst, kopeeritud muutmata kujul",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/05_Euroopa_Liit/Euroopa_Liidu_leping_ELL_2016.txt",
+   "vorm": "art"
+  },
+  "ELTL": {
+   "lyhend": "ELTL",
+   "pealkiri": "Euroopa Liidu toimimise leping",
+   "url": "https://eur-lex.europa.eu/legal-content/ET/TXT/HTML/?uri=CELEX:12016E/TXT",
+   "kehtivus": "",
+   "avaldamismarge": "",
+   "allikas": "EUR-Lex – Euroopa Liidu Teataja ametlik eestikeelne tekst, kopeeritud muutmata kujul",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/05_Euroopa_Liit/Euroopa_Liidu_toimimise_leping_ELTL_2016.txt",
+   "vorm": "art"
+  },
+  "Genf III": {
+   "lyhend": "Genf III",
+   "pealkiri": "Genfi III konventsioon sõjavangide kohtlemise kohta",
+   "url": "https://www.riigiteataja.ee/akt/79251",
+   "kehtivus": "18.7.1993 – hetkel kehtiv",
+   "avaldamismarge": "RT II 1999, 19, 117",
+   "allikas": "Riigi Teataja – ametlik elektrooniline tekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/06_kriminaal_ja_humanitaaroigus/Genfi_III_konventsioon_sojavangid.txt",
+   "vorm": "art"
+  },
+  "Genf IV": {
+   "lyhend": "Genf IV",
+   "pealkiri": "Genfi IV konventsioon tsiviilisikute kaitse kohta sõja ajal",
+   "url": "https://www.riigiteataja.ee/akt/79260",
+   "kehtivus": "18.7.1993 – hetkel kehtiv",
+   "avaldamismarge": "RT II 1999, 20, 120",
+   "allikas": "Riigi Teataja – ametlik elektrooniline tekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/06_kriminaal_ja_humanitaaroigus/Genfi_IV_konventsioon_tsiviilisikud.txt",
+   "vorm": "art"
+  },
+  "HKMS": {
+   "lyhend": "HKMS",
+   "pealkiri": "Halduskohtumenetluse seadustik",
+   "url": "https://www.riigiteataja.ee/akt/103062026067",
+   "kehtivus": "12.6.2026 – 31.12.2026",
+   "avaldamismarge": "RT I, 03.06.2026, 67",
+   "allikas": "Riigi Teataja – ametlik elektrooniline tekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/02_Eesti_seadused/Halduskohtumenetluse_seadustik_HKMS.txt",
+   "vorm": "§"
+  },
+  "HMS": {
+   "lyhend": "HMS",
+   "pealkiri": "Haldusmenetluse seadus",
+   "url": "https://www.riigiteataja.ee/akt/106072023031",
+   "kehtivus": "1.1.2024 – 31.12.2026",
+   "avaldamismarge": "RT I, 06.07.2023, 31",
+   "allikas": "Riigi Teataja – ametlik elektrooniline tekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/02_Eesti_seadused/Haldusmenetluse_seadus_HMS.txt",
+   "vorm": "§"
+  },
+  "IKS": {
+   "lyhend": "IKS",
+   "pealkiri": "Isikuandmete kaitse seadus",
+   "url": "https://www.riigiteataja.ee/akt/130062026052",
+   "kehtivus": "1.10.2026 – hetkel kehtiv",
+   "avaldamismarge": "RT I, 30.06.2026, 52",
+   "allikas": "Riigi Teataja – ametlik elektrooniline tekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/02_Eesti_seadused/Isikuandmete_kaitse_seadus_IKS.txt",
+   "vorm": "§"
+  },
+  "KPÕRP": {
+   "lyhend": "KPÕRP",
+   "pealkiri": "Kodaniku- ja poliitiliste õiguste rahvusvaheline pakt",
+   "url": "https://www.riigiteataja.ee/akt/23982",
+   "kehtivus": "21.1.1992 – hetkel kehtiv",
+   "avaldamismarge": "RT II 1993, 10, 11",
+   "allikas": "Riigi Teataja – ametlik elektrooniline tekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": true,
+   "fail": "inimoigused_materjalid/04_YRO/Kodaniku_ja_poliitiliste_oiguste_pakt.txt",
+   "vorm": "art"
+  },
+  "KPÕRP FP": {
+   "lyhend": "KPÕRP FP",
+   "pealkiri": "Kodaniku- ja poliitiliste õiguste rahvusvahelise pakti fakultatiivprotokoll",
+   "url": "https://www.riigiteataja.ee/akt/23983",
+   "kehtivus": "21.1.1992 – hetkel kehtiv",
+   "avaldamismarge": "RT II 1993, 10, 12",
+   "allikas": "Riigi Teataja – ametlik elektrooniline tekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": true,
+   "fail": "inimoigused_materjalid/04_YRO/Kodaniku_ja_poliitiliste_oiguste_pakti_fakultatiivprotokoll.txt",
+   "vorm": "art"
+  },
+  "KS": {
+   "lyhend": "KS",
+   "pealkiri": "Kohtute seadus",
+   "url": "https://www.riigiteataja.ee/akt/111072026050",
+   "kehtivus": "1.10.2026 – 31.12.2026",
+   "avaldamismarge": "RT I, 11.07.2026, 50",
+   "allikas": "Riigi Teataja – ametlik elektrooniline tekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/02_Eesti_seadused/Kohtute_seadus_KS.txt",
+   "vorm": "§"
+  },
+  "KiKoS": {
+   "lyhend": "KiKoS",
+   "pealkiri": "Kirikute ja koguduste seadus",
+   "url": "https://www.riigiteataja.ee/akt/117062026002",
+   "kehtivus": "27.6.2026 – hetkel kehtiv",
+   "avaldamismarge": "RT I, 17.06.2026, 2",
+   "allikas": "Riigi Teataja – ametlik elektrooniline tekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/02_Eesti_seadused/Kirikute_ja_koguduste_seadus_KiKoS.txt",
+   "vorm": "§"
+  },
+  "KorS": {
+   "lyhend": "KorS",
+   "pealkiri": "Korrakaitseseadus",
+   "url": "https://www.riigiteataja.ee/akt/109072026055",
+   "kehtivus": "1.10.2026 – hetkel kehtiv",
+   "avaldamismarge": "RT I, 09.07.2026, 55",
+   "allikas": "Riigi Teataja – ametlik elektrooniline tekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/02_Eesti_seadused/Korrakaitseseadus_KorS.txt",
+   "vorm": "§"
+  },
+  "MSVS": {
+   "lyhend": "MSVS",
+   "pealkiri": "Märgukirjale ja selgitustaotlusele vastamise ning kollektiivse pöördumise esitamise seadus",
+   "url": "https://www.riigiteataja.ee/akt/118122024006",
+   "kehtivus": "28.12.2024 – hetkel kehtiv",
+   "avaldamismarge": "RT I, 18.12.2024, 6",
+   "allikas": "Riigi Teataja – ametlik elektrooniline tekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/02_Eesti_seadused/Margukirjale_ja_selgitustaotlusele_vastamise_seadus_MSVS.txt",
+   "vorm": "§"
+  },
+  "Mandela": {
+   "lyhend": "Mandela",
+   "pealkiri": "ÜRO kinnipeetavate kohtlemise miinimumreeglid (Nelson Mandela reeglid), A/RES/70/175 – ingliskeelne",
+   "url": "",
+   "kehtivus": "",
+   "avaldamismarge": "",
+   "allikas": "Mandela_reeglid_A_RES_70_175_EN.pdf (ametlik ingliskeelne originaal)",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/07_vanglastandardid_ingliskeelsed/Mandela_reeglid_A_RES_70_175_EN.txt",
+   "vorm": "rule",
+   "markus": "Tekst on võetud originaal-PDF-ist (paigutust säilitav väljavõte): lehekülje päised/jalused on eemaldatud ja reamurrud liidetud. Sõnu ei ole muudetud. Ametlikku eestikeelset tõlget ei ole."
+  },
+  "OKS": {
+   "lyhend": "OKS",
+   "pealkiri": "Õiguskantsleri seadus",
+   "url": "https://www.riigiteataja.ee/akt/130062026112",
+   "kehtivus": "1.10.2026 – hetkel kehtiv",
+   "avaldamismarge": "RT I, 30.06.2026, 112",
+   "allikas": "Riigi Teataja – ametlik elektrooniline tekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/02_Eesti_seadused/Oiguskantsleri_seadus_OKS.txt",
+   "vorm": "§"
+  },
+  "OPCAT": {
+   "lyhend": "OPCAT",
+   "pealkiri": "Piinamisvastase konventsiooni fakultatiivprotokoll",
+   "url": "https://www.riigiteataja.ee/akt/12748631",
+   "kehtivus": "17.1.2007 – hetkel kehtiv",
+   "avaldamismarge": "RT II 2006, 24, 63",
+   "allikas": "Riigi Teataja – ametlik elektrooniline tekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/04_YRO/Piinamisvastase_konventsiooni_fakultatiivprotokoll_OPCAT.txt",
+   "vorm": "art"
+  },
+  "PS": {
+   "lyhend": "PS",
+   "pealkiri": "Eesti Vabariigi põhiseadus",
+   "url": "https://www.riigiteataja.ee/akt/111042025003",
+   "kehtivus": "1.3.2026 – hetkel kehtiv",
+   "avaldamismarge": "RT I, 11.04.2025, 3",
+   "allikas": "Riigi Teataja – ametlik elektrooniline tekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/02_Eesti_seadused/Pohiseadus_PS.txt",
+   "vorm": "§"
+  },
+  "PSJKS": {
+   "lyhend": "PSJKS",
+   "pealkiri": "Põhiseaduslikkuse järelevalve kohtumenetluse seadus",
+   "url": "https://www.riigiteataja.ee/akt/130062026022",
+   "kehtivus": "1.10.2026 – hetkel kehtiv",
+   "avaldamismarge": "RT I, 30.06.2026, 22",
+   "allikas": "Riigi Teataja – ametlik elektrooniline tekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/02_Eesti_seadused/Pohiseaduslikkuse_jarelevalve_kohtumenetluse_seadus_PSJKS.txt",
+   "vorm": "§"
+  },
+  "PagK": {
+   "lyhend": "PagK",
+   "pealkiri": "Pagulasseisundi konventsioon (1951)",
+   "url": "https://www.riigiteataja.ee/akt/78623",
+   "kehtivus": "9.7.1997 – hetkel kehtiv",
+   "avaldamismarge": "RT II 1997, 6, 26",
+   "allikas": "Riigi Teataja – ametlik elektrooniline tekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/04_YRO/Pagulasseisundi_konventsioon_1951.txt",
+   "vorm": "art"
+  },
+  "RVastS": {
+   "lyhend": "RVastS",
+   "pealkiri": "Riigivastutuse seadus",
+   "url": "https://www.riigiteataja.ee/akt/108042025012",
+   "kehtivus": "1.10.2026 – 31.12.2026",
+   "avaldamismarge": "RT I, 08.04.2025, 12",
+   "allikas": "Riigi Teataja – ametlik elektrooniline tekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/02_Eesti_seadused/Riigivastutuse_seadus_RVastS.txt",
+   "vorm": "§"
+  },
+  "Rooma": {
+   "lyhend": "Rooma",
+   "pealkiri": "Rahvusvahelise Kriminaalkohtu Rooma statuut",
+   "url": "https://www.riigiteataja.ee/akt/78574",
+   "kehtivus": "1.7.2002 – hetkel kehtiv",
+   "avaldamismarge": "RT II 2002, 2, 5",
+   "allikas": "Riigi Teataja – ametlik elektrooniline tekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/06_kriminaal_ja_humanitaaroigus/Rahvusvahelise_Kriminaalkohtu_Rooma_statuut.txt",
+   "vorm": "art"
+  },
+  "VRKS": {
+   "lyhend": "VRKS",
+   "pealkiri": "Välismaalasele rahvusvahelise kaitse andmise seadus",
+   "url": "https://www.riigiteataja.ee/akt/130062026102",
+   "kehtivus": "1.10.2026 – 31.12.2026",
+   "avaldamismarge": "RT I, 30.06.2026, 102",
+   "allikas": "Riigi Teataja – ametlik elektrooniline tekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/02_Eesti_seadused/Valismaalasele_rahvusvahelise_kaitse_andmise_seadus_VRKS.txt",
+   "vorm": "§"
+  },
+  "VangS": {
+   "lyhend": "VangS",
+   "pealkiri": "Vangistusseadus",
+   "url": "https://www.riigiteataja.ee/akt/111072026066?leiaKehtiv",
+   "kehtivus": "",
+   "avaldamismarge": "RT I, 11.07.2026, 66",
+   "allikas": "Riigi Teataja – ametlik terviktekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": false,
+   "fail": "vangla_materjalid/02_seadused_ja_maarused/Vangistusseadus.txt",
+   "vorm": "§"
+  },
+  "VõrdKS": {
+   "lyhend": "VõrdKS",
+   "pealkiri": "Võrdse kohtlemise seadus",
+   "url": "https://www.riigiteataja.ee/akt/117032026014",
+   "kehtivus": "1.4.2026 – 30.12.2038",
+   "avaldamismarge": "RT I, 17.03.2026, 14",
+   "allikas": "Riigi Teataja – ametlik elektrooniline tekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/02_Eesti_seadused/Vordse_kohtlemise_seadus_VordKS.txt",
+   "vorm": "§"
+  },
+  "harta": {
+   "lyhend": "harta",
+   "pealkiri": "Euroopa Liidu põhiõiguste harta",
+   "url": "https://eur-lex.europa.eu/legal-content/ET/TXT/HTML/?uri=CELEX:12016P/TXT",
+   "kehtivus": "",
+   "avaldamismarge": "",
+   "allikas": "EUR-Lex – Euroopa Liidu Teataja ametlik eestikeelne tekst, kopeeritud muutmata kujul",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/05_Euroopa_Liit/Pohioiguste_harta_2016.txt",
+   "vorm": "art"
+  },
+  "ÜDIÕ": {
+   "lyhend": "ÜDIÕ",
+   "pealkiri": "Inimõiguste ülddeklaratsioon",
+   "url": "https://www.ohchr.org/en/human-rights/universal-declaration/translations/estonian-eesti",
+   "kehtivus": "",
+   "avaldamismarge": "",
+   "allikas": "ÜRO Inimõiguste Ülemvoliniku Büroo (OHCHR) – inimõiguste ülddeklaratsiooni eestikeelne tõlge (tõlke allikas: Eesti Inimõiguste Instituut)",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/04_YRO/Inimoiguste_ulddeklaratsioon.txt",
+   "vorm": "art"
+  },
+  "ÜRO PK": {
+   "lyhend": "ÜRO PK",
+   "pealkiri": "Ühinenud Rahvaste Organisatsiooni põhikiri",
+   "url": "https://www.riigiteataja.ee/akt/555597",
+   "kehtivus": "17.9.1991 – hetkel kehtiv",
+   "avaldamismarge": "RT II 1996, 24, 95",
+   "allikas": "Riigi Teataja – ametlik elektrooniline tekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/04_YRO/Uhinenud_Rahvaste_Organisatsiooni_pohikiri.txt",
+   "vorm": "art"
+  }
+ },
+ "satted": {
+  "CAT art 1": {
+   "akt": "CAT",
+   "nr": "1",
+   "read": [
+    "1. artikkel",
+    "1. Käesolevas konventsioonis tähendab mõiste «piinamine» mis tahes tegevust, millega inimesele tahtlikult tekitatakse tugevat füüsilist või vaimset laadi valu või piinu, et saada sellelt isikult või kolmandatelt isikutelt andmeid või ülestunnistusi; et karistada teda teo eest, mille on toime pannud tema ise või kolmas isik või mille toimepanemises teda kahtlustatakse; või et hirmutada teda või kolmandat isikut, või et neid millekski sundida, või mis tahes muul diskrimineerimisel rajaneval põhjusel, kui sellise valu või piina tekitajaks on riigi ametiisik või muu isik, kes täidab ametiisiku ülesandeid, või kui seda tehakse nende õhutusel, nende kaasteadmisel või vaikival nõusolekul. Selle mõiste all ei mõelda valu või piina, mis tekib üksnes seaduslike sanktsioonide rakendamise tagajärjel või on nendest sanktsioonidest lahutamatu või kutsutakse nende poolt juhuslikult esile.",
+    "2. See artikkel ei kahjusta ühtegi rahvusvahelist dokumenti ega mingisugust siseriiklikku seadusandlust, mis sisaldab või võib sisaldada laiema ulatusega sätteid."
+   ]
+  },
+  "CAT art 17": {
+   "akt": "CAT",
+   "nr": "17",
+   "read": [
+    "17. artikkel",
+    "1. Luuakse Piinamisvastane Komitee (edaspidi komitee), kes täidab allpool toodud funktsioone. Komitee koosneb kümnest eksperdist, kellel on kõrged moraalsed omadused ja kellel on tunnustatud kompetentsus inimõiguste alal ning kes esinevad eraisikutena. Eksperdid valitakse osavõtvate riikide poolt, kusjuures tähelepanu pööratakse õiglasele geograafilisele jaotusele ja arvestatakse, et otstarbekas on mitmete juriidiliste kogemustega isiku osavõtt.",
+    "2. Komitee liikmed valitakse salajasel hääletamisel osavõtvate riikide poolt nimekirja kantud isikute hulgast. Iga osavõttev riik võib esitada ühe oma kodaniku kandidatuuri. Osavõtvad riigid arvestavad, et on otstarbekas esitada neid isikuid, kes on liikmed Inimõiguste Komitees, mis on moodustatud vastavalt kodaniku- ja poliitiliste õiguste rahvusvahelisele paktile ja kes avaldavad soovi töötada Piinamisvastases Komitees.",
+    "3. Komitee liikmed valitakse osavõtvate riikide nõupidamistel, mis kutsutakse kokku Ühinenud Rahvaste Organisatsiooni peasekretäri poolt üks kord kahe aasta jooksul. Kvoorumi moodustab nendel nõupidamistel kaks kolmandikku osavõtvatest riikidest ning komiteesse valituks loetakse need kandidaadid, kes on saanud suurima arvu hääli ning absoluutse enamuse kohalviibinud osavõtvate ja hääletamisest osavõtnud riikide häältest.",
+    "4. Esimesed valimised korraldatakse hiljemalt kuue kuu möödumisel käesoleva konventsiooni jõustumisest. Vähemalt neli kuud enne järjekordsete valimiste päeva saadab Ühinenud Rahvaste Organisatsiooni peasekretär osavõtvatele riikidele kirja ettepanekuga esitada kandidatuurid kolme kuu jooksul. Peasekretär valmistab ette nimekirja, kuhu kantakse tähestikulises järjekorras kõik sel viisil esitatud isikud, näidates ära neid esitanud osavõtvad riigid, ning edastab selle nimekirja osavõtvatele riikidele.",
+    "5. Komitee liikmed valitakse neljaks aastaks. Korduva ülesseadmise korral on neil õigus ümbervalimisele. Kuid esimestel valimistel valitud viie liikme volituste tähtaeg lõpeb kahe aasta möödumisel: nende viie liikme nimed määratakse kohe pärast esimesi valimisi loosimisel, mille korraldab käesoleva artikli 3. lõikes nimetatud nõupidamise esimees.",
+    "6. Juhul kui komitee liige sureb, läheb erru või ei saa muul põhjusel oma ülesandeid täita, nimetab tema kandidatuuri esitanud osavõttev riik ülejäänud tähtajaks teise eksperdi, kes on selle riigi kodanik ja kelle osavõtvate riikide enamus peab heaks kiitma. Kandidatuur loetakse heakskiidetuks, kui vähemalt pool või enam osavõtvatest riikidest pole vastanud eitavalt kuue nädala jooksul pärast seda, kui nad on saanud Ühinenud Rahvaste Organisatsiooni peasekretärilt informatsiooni nimetamisettepaneku kohta.",
+    "7. Osavõtvad riigid võtavad enda kanda komitee liikmete kulud sel ajal, mil nad komitees oma kohustusi täidavad."
+   ]
+  },
+  "CAT art 2": {
+   "akt": "CAT",
+   "nr": "2",
+   "read": [
+    "2. artikkel",
+    "1. Iga osavõttev riik rakendab efektiivseid seadusandlikke, administratiivseid, kohtulikke ja muid meetmeid, et ära hoida piinamisi tema jurisdiktsiooni all oleval mis tahes territooriumil.",
+    "2. Piinamist ei saa õigustada mitte mingisugused erandlikud asjaolud, mis need ka poleks: ei sõda ega sõjaoht, ei seesmine poliitiline ebastabiilsus ega mis tahes erakorraline olukord.",
+    "3. Kõrgemalseisva ülemuse või riigivõimu käsk ei saa õigustada piinamist."
+   ]
+  },
+  "CAT art 22": {
+   "akt": "CAT",
+   "nr": "22",
+   "read": [
+    "22. artikkel",
+    "1. Käesoleva artikli kohaselt võib käesolevast konventsioonist osavõttev riik mis tahes ajal deklareerida, et ta tunnustab komitee kompetentsust saada ja läbi vaadata teateid tema jurisdiktsiooni all olevatelt isikutelt või nende esindajatelt, kes väidavad, et nad on osavõtva riigi poolt konventsiooni sätete rikkumise ohvriks langenud. Komitee ei võta vastu mingisuguseid teateid, kui need puudutavad osavõtvat riiki, kes pole sellist avaldust teinud.",
+    "2. Komitee loeb vastuvõetamatuks mis tahes käesoleva artikli kohaselt tehtud teate, kui see on anonüümne või kujutab endast selliste teadete esitamise õiguse kuritarvitamist, või kui see on käesoleva konventsiooni sätetega kokkusobimatu.",
+    "3. Komitee arvestab 2. lõike sätteid ning teatab talle käesoleva artikli kohaselt esitatud mis tahes teatest käesolevast konventsioonist osavõtvale riigile, kes on teinud 1. lõike kohaselt avalduse ja on väidetavalt rikkunud mingeid konventsiooni sätteid. Teate saanud riik esitab komiteele kirjalikud seletused või avaldused, mis täpsustavad asja ja mis tahes abinõusid, mida see riik võiks rakendada.",
+    "4. Komitee vaatab käesoleva artikli kohaselt saadud teated läbi ja lähtub kogu informatsioonist, mis on talle esitatud antud isiku poolt või tema nimel, samuti mida on esitanud vastav osavõttev riik.",
+    "5. Komitee ei vaata käesoleva artikli kohaselt läbi mitte ühegi isiku mitte mingisuguseid teateid, kui ta ei ole veendunud, et:",
+    "a) seda asja pole arutatud ega arutata mõne teise rahvusvahelise uurimis- või lepitamisprotseduuri järgi;",
+    "b) isik on ammendanud kõik siseriikliku kaitse abinõud; see reegel ei kehti neil juhtudel, kui nende abinõude rakendamine on õigustamatult veninud või saab vaevalt aidata isikut, kes on käesoleva konventsiooni rikkumise ohvriks langenud.",
+    "6. Käesolevas artiklis nimetatud teated vaatab komitee läbi kinnistel istungitel.",
+    "7. Komitee esitab oma arvamused vastavale osavõtvale riigile ja asjaomasele isikule.",
+    "8. Käesoleva artikli sätted jõustuvad siis, kui viis käesolevast konventsioonist osavõtvat riiki on teinud käesoleva artikli 1. lõike kohased avaldused. Osavõtvad riigid annavad sellised avaldused hoiule Ühinenud Rahvaste Organisatsiooni peasekretärile, kes saadab nende koopiad ülejäänud osavõtvatele riikidele. Avalduse võib mis tahes ajal tagasi võtta, teatades sellest peasekretärile. Selline avalduse tagasivõtmine ei tohi kahjustada mis tahes asja läbivaatamist, mille kohta on käesoleva artikli kohane teade juba edastatud; pärast seda, kui peasekretär on saanud teate avalduse tagasivõtmisest, ei võeta käesoleva artikli kohaselt vastu mitte mingisuguseid järgnevaid teateid üheltki isikult ega ühegi isiku nimel, kui vastav osavõttev riik pole teinud uut avaldust."
+   ]
+  },
+  "CAT art 3": {
+   "akt": "CAT",
+   "nr": "3",
+   "read": [
+    "3. artikkel",
+    "1. Mitte ükski osavõttev riik ei tohi mitte ühtki isikut teise riiki välja või tagasi saata («refouler») ega teda teisele riigile välja anda, kui on tõsine alus arvata, et seal võib teda ähvardada piinamine.",
+    "2. Sellise võimaluse kindlakstegemisel arvestavad pädevad võimuorganid kõiki asjasse puutuvaid asjaolusid, kaasa arvatud sellised juhud, kui nimetatud teises riigis praktiseeritakse pidevalt inimõiguste jõhkrat ja massilist rikkumist ning kitsendamist."
+   ]
+  },
+  "CPT art 1": {
+   "akt": "CPT",
+   "nr": "1",
+   "read": [
+    "Artikkel 1",
+    "Tuleb asutada Piinamise ja Ebainimliku või Alandava Kohtlemise või Karistamise Tõkestamise Euroopa Komitee (edaspidi komitee). Komitee peab külastusi tehes uurima vabaduse kaotanud isikute kohtlemist, et vajaduse korral tugevdada selliste inimeste kaitset piinamise ja ebainimliku või alandava kohtlemise või karistamise vastu."
+   ]
+  },
+  "CPT art 2": {
+   "akt": "CPT",
+   "nr": "2",
+   "read": [
+    "Artikkel 2",
+    "Vastavalt käesolevas konventsioonis sätestatule peavad osalisriigid lubama oma jurisdiktsiooni piires külastada kõiki kohti, kus võimude korraldusel peetakse kinni vabaduse kaotanud isikuid."
+   ]
+  },
+  "EIÕK P13 art 1": {
+   "akt": "EIÕK P13",
+   "nr": "1",
+   "read": [
+    "Artikkel 1. Surmanuhtluse kaotamine",
+    "Surmanuhtlus kaotatakse. Kedagi ei või surma mõista ega surmamõistva kohtuotsuse alusel hukata."
+   ]
+  },
+  "EIÕK P16 art 1": {
+   "akt": "EIÕK P16",
+   "nr": "1",
+   "read": [
+    "Artikkel 1",
+    "1. Konventsiooniosalise artikli 10 kohaselt määratud kõrgeimad kohtud võivad taotleda kohtult nõuandvat arvamust konventsioonis või selle protokollides määratletud õiguste ja vabaduste tõlgendamise või kohaldamisega seotud põhimõttelistes küsimustes.",
+    "2. Taotlust esitav kohus võib küsida nõuandvat arvamust üksnes oma menetluses oleva kohtuasja raames.",
+    "3. Taotluse esitanud kohus peab taotlust põhjendama ning kirjeldama menetluses oleva kohtuasja asjakohaseid õiguslikke ja faktilisi asjaolusid."
+   ]
+  },
+  "EIÕK P16 art 5": {
+   "akt": "EIÕK P16",
+   "nr": "5",
+   "read": [
+    "Artikkel 5",
+    "Nõuandvad arvamused ei ole siduvad."
+   ]
+  },
+  "EIÕK P6 art 1": {
+   "akt": "EIÕK P6",
+   "nr": "1",
+   "read": [
+    "Artikkel 1",
+    "Surmanuhtlus tuleb kaotada. Kedagi ei või sellega karistada ega surmamõistva kohtuotsuse alusel hukata."
+   ]
+  },
+  "EIÕK P6 art 2": {
+   "akt": "EIÕK P6",
+   "nr": "2",
+   "read": [
+    "Artikkel 2",
+    "Riik võib surmanuhtluse seadustada sõja ajal või vahetu sõjaohu korral toimepandud tegude eest; surmanuhtluse võib mõista üksnes seaduses ettenähtud juhtudel ning kooskõlas selle seaduse sätetega. Riik teeb Euroopa Nõukogu peasekretärile selle seaduse vastavad sätted teatavaks."
+   ]
+  },
+  "EIÕK art 1": {
+   "akt": "EIÕK",
+   "nr": "1",
+   "read": [
+    "Artikkel 1. Kohustus austada inimõigusi",
+    "Konventsiooniosalised tagavad igaühele, kes on nende jurisdiktsiooni all, konventsiooni I osas määratletud õigused ja vabadused."
+   ]
+  },
+  "EIÕK art 13": {
+   "akt": "EIÕK",
+   "nr": "13",
+   "read": [
+    "Artikkel 13. Õigus tõhusale õiguskaitsevahendile",
+    "Igaühel, kelle konventsioonis sätestatud õigusi ja vabadusi on rikutud, on õigus tõhusale õiguskaitsevahendile riigivõimude ees ka siis, kui rikkumise pani toime ametiisik."
+   ]
+  },
+  "EIÕK art 14": {
+   "akt": "EIÕK",
+   "nr": "14",
+   "read": [
+    "Artikkel 14. Diskrimineerimise keelamine",
+    "Konventsioonis sätestatud õiguste ja vabaduste kasutamine tagatakse ilma mingi diskrimineerimiseta selliste tunnuste alusel nagu sugu, rass, nahavärvus, keel, usutunnistus, poliitilised või muud veendumused, rahvuslik või sotsiaalne päritolu, rahvusvähemusse kuuluvus, varanduslik, sünni- või muu seisund."
+   ]
+  },
+  "EIÕK art 15": {
+   "akt": "EIÕK",
+   "nr": "15",
+   "read": [
+    "Artikkel 15. Kohustuste täitmise peatamine hädaolukorras",
+    "1. Sõja ajal või muus hädaolukorras, mis ohustab rahva eluvõimet, võib konventsiooniosaline võtta meetmeid, millega ta peatab konventsiooniga võetud kohustuste täitmise ulatuses, mis on olukorra tõsiduse tõttu vältimatult vajalik, tingimusel et meetmed ei ole vastuolus tema teiste rahvusvahelise õiguse järgsete kohustustega.",
+    "2. Selle artikli alusel ei või peatada artiklist 2, välja arvatud inimeste hukkumine õiguspärase sõjategevuse tagajärjel, ega artiklitest 3, 4 (lõige 1) ja 7 tulenevaid kohustusi.",
+    "3. Peatamisõigust kasutav konventsiooniosaline teavitab Euroopa Nõukogu peasekretäri täielikult võetud meetmetest ja nende põhjustest. Samuti teavitab ta Euroopa Nõukogu peasekretäri, kui meetmete võtmine on lõppenud ning konventsiooni täidetakse jälle täiel määral."
+   ]
+  },
+  "EIÕK art 19": {
+   "akt": "EIÕK",
+   "nr": "19",
+   "read": [
+    "Artikkel 19. Kohtu moodustamine",
+    "Konventsiooni ja selle protokollidega konventsiooniosaliste poolt endile võetud kohustuste täitmise tagamiseks luuakse Euroopa Inimõiguste Kohus (edaspidi kohus). See töötab alaliselt."
+   ]
+  },
+  "EIÕK art 2": {
+   "akt": "EIÕK",
+   "nr": "2",
+   "read": [
+    "Artikkel 2. Õigus elule",
+    "1. Igaühe õigust elule kaitstakse seadusega. Kelleltki ei või tahtlikult võtta elu, välja arvatud kohtuotsuse täideviimisega, mis järgneb süüdimõistmisele kuriteos, mille eest seadus näeb ette sellise karistuse.",
+    "2. Elu võtmist ei käsitata käesoleva artikli rikkumisena, kui see tuleneb absoluutsest vajadusest kasutada jõudu:",
+    "a) inimese kaitsmisel õigusvastase vägivalla eest;",
+    "b) seaduslikul vahistamisel või seaduslikult kinni peetud isiku põgenemise vältimiseks;",
+    "c) seaduslikel toimingutel rahutuste või mässu mahasurumiseks."
+   ]
+  },
+  "EIÕK art 26": {
+   "akt": "EIÕK",
+   "nr": "26",
+   "read": [
+    "Artikkel 26. Ainuisikuliselt asju läbivaatav kohtunik, komiteed, kojad ja suurkoda",
+    "1. Kohtuasjad vaadatakse läbi ainuisikuliselt, kolmeliikmelistes komiteedes, seitsmeliikmelistes kodades ja seitsmeteistkümneliikmelises suurkojas. Kohtu kojad moodustavad komiteed kindlaksmääratud ajaks.",
+    "2. Ministrite komitee võib kohtu täiskogu taotlusel vähendada ühehäälse otsuse alusel ja kindlaksmääratud ajaks kodade liikmete arvu viieni.",
+    "3. Asja ainuisikuliselt läbi vaadates ei vaata kohtunik läbi kaebusi, mis on esitatud selle konventsiooniosalise vastu, kust see kohtunik on valitud.",
+    "4. Ex officio liikmena osaleb koja ja suurkoja töös asjaomasestkonventsiooniosalisest valitud kohtunik. Kui kohtunik puudub või tal ei ole võimalik osaleda, täidab kohtuniku ülesandeid isik, kelle kohtu esimees valib asjaomase konventsiooniosalise varem esitatud nimekirjast.",
+    "5. Suurkoja koosseisu kuuluvad ka kohtu esimees, aseesimehed, kodade esimehed ja teised kohtunikud, kes on valitud kohtueeskirjade alusel. Kui asi saadetakse artikli 43 kohaselt edasi suurkotta, ei või suurkoja istungitel osaleda ükski otsuse teinud koja kohtunikest, välja arvatud koja esimees ja asjaomasest konventsiooniosalisest valitud kohtunik."
+   ]
+  },
+  "EIÕK art 3": {
+   "akt": "EIÕK",
+   "nr": "3",
+   "read": [
+    "Artikkel 3. Piinamise keelamine",
+    "Kedagi ei või piinata ega ebainimlikult või alandavalt kohelda ega karistada."
+   ]
+  },
+  "EIÕK art 32": {
+   "akt": "EIÕK",
+   "nr": "32",
+   "read": [
+    "Artikkel 32. Kohtu pädevus",
+    "1. Kohtu pädevusse kuuluvad kõik konventsiooni ja selle protokollide tõlgendamise ja kohaldamise küsimused, mis on talle esitatud artiklite 33, 34, 46 ja 47 kohaselt.",
+    "2. Vaidlused kohtu pädevuse üle lahendab kohus."
+   ]
+  },
+  "EIÕK art 33": {
+   "akt": "EIÕK",
+   "nr": "33",
+   "read": [
+    "Artikkel 33. Riikidevahelised kaebused",
+    "Konventsiooniosaline võib pöörduda kohtu poole väitega, et teine konventsiooniosaline on rikkunud konventsiooni ja selle protokolle."
+   ]
+  },
+  "EIÕK art 34": {
+   "akt": "EIÕK",
+   "nr": "34",
+   "read": [
+    "Artikkel 34. Individuaalkaebused",
+    "Kohus võib vastu võtta kaebusi igalt üksikisikult, vabaühenduselt ja isikurühmalt, kes väidavad, et nad on konventsioonis ja selle protokollides sätestatud õiguste konventsiooniosalise poolt toimepandud rikkumise ohvriks. Konventsiooniosalised ei või mitte mingil viisil takistada selle õiguse tõhusat kasutamist."
+   ]
+  },
+  "EIÕK art 35": {
+   "akt": "EIÕK",
+   "nr": "35",
+   "read": [
+    "Artikkel 35. Vastuvõetavuse kriteeriumid",
+    "1. Kohus võib kohtuasja arutada ainult pärast kõigi riigisiseste õiguskaitsevahendite ammendamist, kooskõlas rahvusvahelise õiguse üldtunnustatud normidega ning kuue kuu jooksul lõpliku otsuse tegemisest arvates. [Sätte sõnastus kehtib kuni 1. veebruarini 2022]",
+    "1. Kohus võib kohtuasja arutada ainult pärast kõigi riigisiseste õiguskaitsevahendite ammendamist, kooskõlas rahvusvahelise õiguse üldtunnustatud normidega ning nelja kuu jooksul lõpliku otsuse tegemisest arvates. [Sätte sõnastus kehtib alates 1. veebruarist 2022]",
+    "2. Kohus ei aruta ühtegi artikli 34 kohaselt esitatud kaebust, mis:",
+    "a) on anonüümne või",
+    "b) on sisuliselt sama juba kohtu poolt arutatuga või on juba esitatud arutamiseks muu rahvusvahelise uurimis- või lahendamismenetluse raames ega sisalda uut asjassepuutuvat teavet.",
+    "3. Kohus tunnistab vastuvõetamatuks artikli 34 alusel esitatud kaebuse, kui:",
+    "a) kaebus ei ole kooskõlas konventsiooni või selle protokollidega, on selgelt põhjendamatu või sellega kuritarvitatakse kaebeõigust või",
+    "b) kaebuse esitaja ei ole kandnud märkimisväärset kahju, välja arvatud juhul, kui konventsioonis ja selle protokollides määratletud inimõiguste austamine nõuab kaebuse sisulist läbivaatamist.",
+    "4. Kohus jätab läbi vaatamata kaebuse, mida ta peab käesoleva artikli järgi vastuvõetamatuks. Kohus võib seda teha igas menetlusjärgus."
+   ]
+  },
+  "EIÕK art 41": {
+   "akt": "EIÕK",
+   "nr": "41",
+   "read": [
+    "Artikkel 41. Õiglane hüvitus",
+    "Kui kohus leiab, et konventsiooni või selle protokolle on rikutud ja konventsiooniosalise õigus lubab ainult osalist hüvitust, võib kohus vajaduse korral määrata kahjustatud poolele õiglase hüvituse."
+   ]
+  },
+  "EIÕK art 44": {
+   "akt": "EIÕK",
+   "nr": "44",
+   "read": [
+    "Artikkel 44. Jõustunud otsused",
+    "1. Suurkoja otsus on lõplik.",
+    "2. Koja otsus jõustub, kui:",
+    "a) pooled deklareerivad, et nad ei taotle asja suurkojale edasisaatmist;",
+    "b) möödub kolm kuud otsuse tegemisest ja ei ole taotletud asja edasisaatmist suurkojale või",
+    "c) suurkoja kohtunike kolleegium lükkab tagasi taotluse asja edasisaatmiseks artikli 43 kohaselt.",
+    "3. Jõustunud otsus avaldatakse."
+   ]
+  },
+  "EIÕK art 46": {
+   "akt": "EIÕK",
+   "nr": "46",
+   "read": [
+    "Artikkel 46. Sisuliste otsuste siduvus ja nende täitmine",
+    "1. Konventsiooniosalised kohustuvad täitma jõustunud sisulisi otsuseid igas asjas, mille pooleks nad on.",
+    "2. Jõustunud sisuline otsus edastatakse ministrite komiteele, kes kontrollib selle täitmist.",
+    "3. Kui ministrite komitee peab jõustunud sisulise otsuse täitmise järelevalvet raskendatuks, kuna otsuse tõlgendamisega on probleeme, võib ta saata küsimuse kohtule otsuse tõlgendamise kohta juhiste saamiseks. Saatmisotsus tehakse komiteesse kuuluvate esindajate kahekolmandikulise häälteenamusega.",
+    "4. Kui ministrite komitee arvates ei täida konventsiooniosaline jõustunud sisulist otsust asjas, mille pool konventsiooniosaline on, võib ta pärast konventsiooniosalisele ametliku teate saatmist ning komiteesse kuuluvate esindajate kahekolmandikulise häälteenamusega otsuse tegemist esitada kohtule otsustamiseks küsimuse, kas nimetatud konventsiooniosaline on rikkunud lõikest 1 tulenevat kohustust.",
+    "5. Kui kohus tuvastab lõike 1 rikkumise, saadab ta asja ministrite komiteele meetmete üle otsustamiseks. Kui kohtu arvates lõiget 1 ei ole rikutud, saadab ta asja ministrite komiteele, kes lõpetab selle läbivaatamise."
+   ]
+  },
+  "EIÕK art 47": {
+   "akt": "EIÕK",
+   "nr": "47",
+   "read": [
+    "Artikkel 47. Nõuandvad arvamused",
+    "1. Kohus võib ministrite komitee taotlusel anda nõuandvaid arvamusi õigusküsimustes, mis puudutavad konventsiooni ja selle protokollide tõlgendamist.",
+    "2. Need arvamused ei või käsitleda konventsiooni I osas ja selle protokollides määratletud õiguste ja vabaduste sisu ega ulatust ega muud küsimust, mida kohus või ministrite komitee võib arutada seoses konventsiooni alusel menetletava asjaga.",
+    "3. Ministrite komitee otsustab kohtule nõuandva arvamuse saamiseks taotluse esitamise komiteesse kuuluvate esindajate häälteenamusega."
+   ]
+  },
+  "EIÕK art 5": {
+   "akt": "EIÕK",
+   "nr": "5",
+   "read": [
+    "Artikkel 5. Õigus isikuvabadusele ja -puutumatusele",
+    "1. Igaühel on õigus isikuvabadusele ja -puutumatusele. Kelleltki ei või võtta tema vabadust, välja arvatud seaduses kindlaksmääratud korras järgmistel juhtudel:",
+    "a) seaduslik kinnipidamine pädeva kohtu süüdimõistva otsuse alusel;",
+    "b) seaduslik vahistamine või kinnipidamine kohtu seadusliku korralduse täitmata jätmise eest või seaduses ettenähtud kohustuse täitmise tagamiseks;",
+    "c) seaduslik vahistamine või kinnipidamine, et tuua isik pädeva õigusasutuse ette põhjendatult kahtlustatuna õigusrikkumises või et põhjendatud vajaduse korral takistada õigusrikkumise toimepanekut või põgenemist pärast seda;",
+    "d) seadusliku korralduse alusel alaealise kinnipidamine hariduslikuks järelevalveks või tema seaduslik kinnipidamine pädeva õigusasutuse ette toomiseks;",
+    "e) seaduslik kinnipidamine, et takistada nakkushaiguste levikut, samuti vaimse häirega isikute, alkohoolikute, narkomaanide või hulkurite seaduslik kinnipidamine;",
+    "f) seaduslik vahistamine või kinnipidamine, et vältida isiku loata sissesõitu riiki või et võtta meetmeid isiku väljasaatmiseks või -andmiseks.",
+    "2. Igale vahistatule teatatakse talle arusaadavas keeles viivitamata tema vahistamise põhjused ja kõik tema vastu esitatud süüdistused.",
+    "3. Iga lõike 1 punkti c kohaselt vahistatu või kinnipeetu toimetatakse viivitamata kohtuniku või muu seadusjärgse õigusemõistmise pädevusega ametiisiku ette ning tal on õigus kohtumenetlusele mõistliku aja jooksul või vabastamisele kuni asja arutamiseni. Vabastamise tingimuseks võib olla tagatiste kohaldamine asja arutamisele ilmumiseks.",
+    "4. Igaühel, kellelt on võetud vabadus vahistamise või kinnipidamisega, on õigus taotleda menetlust, milles kohus otsustaks kiires korras tema kinnipidamise õiguspärasuse ning korraldaks tema vabastamise, kui kinnipidamine on õigusvastane.",
+    "5. Igaühel, kes on vahistatud või kinni peetud vastuolus käesoleva artikliga, on õigus nõuda hüvitist."
+   ]
+  },
+  "EIÕK art 6": {
+   "akt": "EIÕK",
+   "nr": "6",
+   "read": [
+    "Artikkel 6. Õigus õiglasele kohtumenetlusele",
+    "1. Igaühel on oma tsiviilõiguste ja -kohustuste või temale esitatud kriminaalsüüdistuse üle otsustamisel õigus õiglasele ja avalikule kohtumenetlusele mõistliku aja jooksul sõltumatus ja erapooletus, seaduse alusel moodustatud kohtus. Kohtuotsus kuulutatakse avalikult, kuid istungi võib ajakirjanikele ja üldsusele täielikult või osaliselt kinniseks kuulutada demokraatliku ühiskonna kõlbluse, avaliku korra või riigi julgeoleku huvides, alaealise huvides või poolte eraelu kaitseks või kohtu määratud ulatuses erijuhtudel, kui avalikkus kahjustaks õigusemõistmist.",
+    "2. Igaüht, keda süüdistatakse kuriteos, peetakse süütuks seni, kuni tema süü ei ole seaduse kohaselt tõendatud.",
+    "3. Igal kuriteos süüdistataval on vähemalt järgmised õigused:",
+    "a) saada viivitamata talle arusaadavas keeles üksikasjalikku teavet tema vastu esitatud süüdistuse iseloomust ja alustest;",
+    "b) saada piisavalt aega ja võimalusi enda kaitse ettevalmistamiseks;",
+    "c) kaitsta end ise või enda valitud kaitsja abil või saada tasuta õigusabi juhul, kui see on õigusemõistmise huvides vajalik ja süüdistataval pole piisavalt vahendeid õigusabi eest tasumiseks;",
+    "d) küsitleda ise või lasta küsitleda tema vastu ütlusi andma kutsutud tunnistajaid, lasta omalt poolt kohale kutsuda tunnistajaid ja neid küsitleda tema vastu ütlusi andvate tunnistajatega võrdsetel tingimustel;",
+    "e) kasutada tasuta tõlgi abi, kui ta ei mõista või ei räägi kohtus kasutatavat keelt."
+   ]
+  },
+  "EIÕK art 8": {
+   "akt": "EIÕK",
+   "nr": "8",
+   "read": [
+    "Artikkel 8. Õigus era- ja perekonnaelu austamisele",
+    "1. Igaühel on õigus sellele, et austataks tema era- ja perekonnaelu ja kodu ning sõnumite saladust.",
+    "2. Ametivõimud ei sekku selle õiguse kasutamisse muidu, kui kooskõlas seadusega ja kui see on demokraatlikus ühiskonnas vajalik riigi julgeoleku, ühiskondliku turvalisuse või riigi majandusliku heaolu huvides, korratuse või kuriteo ärahoidmiseks, tervise või kõlbluse või kaasinimeste õiguste ja vabaduste kaitseks."
+   ]
+  },
+  "EIÕK art 9": {
+   "akt": "EIÕK",
+   "nr": "9",
+   "read": [
+    "Artikkel 9. Mõtte-, südametunnistuse- ja usuvabadus",
+    "1. Igaühel on õigus mõtte-, südametunnistuse ja usuvabadusele; see õigus kätkeb vabadust muuta oma usku või veendumusi, samuti vabadust kuulutada usku või veendumusi nii üksi kui ka koos teistega, avalikult või eraviisiliselt kultuse, õpetamise, tava ja kombetalituse kaudu.",
+    "2. Vabadust kuulutada oma usku või veendumusi võib piirata üksnes seadusega ja juhul, kui see on demokraatlikus ühiskonnas vajalik ühiskondliku turvalisuse huvides, avaliku korra, tervise või kõlbluse või kaasinimeste õiguste ja vabaduste kaitseks."
+   ]
+  },
+  "ELL art 19": {
+   "akt": "ELL",
+   "nr": "19",
+   "read": [
+    "Artikkel 19",
+    "1. Euroopa Liidu Kohus koosneb Euroopa Kohtust, üldkohtust ja erikohtutest. Euroopa Liidu Kohus tagab, et aluslepingute tõlgendamisel ja kohaldamisel austatakse õigust.",
+    "Liikmesriigid näevad ette tulemusliku õiguskaitse tagamiseks vajaliku kaebeõiguse liidu õigusega hõlmatud valdkondades.",
+    "2. Euroopa Kohtusse kuulub üks kohtunik igast liikmesriigist. Kohut abistavad kohtujuristid.",
+    "Üldkohus koosneb vähemalt ühest kohtunikust liikmesriigi kohta.",
+    "Euroopa Kohtu kohtunikud ja kohtujuristid ning üldkohtu kohtunikud valitakse isikute hulgast, kelle sõltumatus on väljaspool kahtlust ja kes vastavad Euroopa Liidu toimimise lepingu artiklites 253 ja 254 sätestatud tingimustele. Nad nimetatakse ametisse liikmesriikide valitsuste ühisel kokkuleppel kuueks aastaks. Neid võib uueks ametiajaks tagasi nimetada.",
+    "3. Vastavalt aluslepingutele Euroopa Liidu Kohus:",
+    "a) teeb otsuseid liikmesriigi, institutsiooni või juriidilise või füüsilise isiku hagiasjades;",
+    "b) teeb liikmesriikide kohtute taotlusel eelotsuseid liidu õiguse tõlgendamise või institutsioonide vastu võetud õigusaktide kehtivuse kohta;",
+    "c) teeb otsuseid muudel aluslepingutes sätestatud juhtudel."
+   ]
+  },
+  "ELTL art 258": {
+   "akt": "ELTL",
+   "nr": "258",
+   "read": [
+    "Artikkel 258",
+    "(endine EÜ asutamislepingu artikkel 226)",
+    "Kui komisjon on arvamusel, et liikmesriik ei ole täitnud aluslepingutest tulenevat kohustust, esitab ta selle kohta oma põhjendatud arvamuse, olles andnud asjassepuutuvale riigile võimaluse esitada oma seisukoht.",
+    "Kui asjassepuutuv riik ei järgi esitatud arvamust komisjoni seatud tähtaja jooksul, võib komisjon anda asja Euroopa Liidu Kohtusse."
+   ]
+  },
+  "ELTL art 263": {
+   "akt": "ELTL",
+   "nr": "263",
+   "read": [
+    "Artikkel 263",
+    "(endine EÜ asutamislepingu artikkel 230)",
+    "Euroopa Liidu Kohus kontrollib seadusandlike aktide ning nõukogu, komisjoni ja Euroopa Keskpanga õigusaktide seaduslikkust, välja arvatud soovitused ja arvamused, ning nende Euroopa Parlamendi ja Euroopa Ülemkogu õigusaktide seaduslikkust, mille eesmärgiks on tekitada õiguslikke tagajärgi kolmandatele isikutele. Samuti kontrollib Euroopa Liidu Kohus liidu organite või asutuste õigusaktide seaduslikkust, mille eesmärgiks on tekitada õiguslikke tagajärgi kolmandatele isikutele.",
+    "Selleks on kohtu pädevuses lahendada liikmesriigi, Euroopa Parlamendi, nõukogu või komisjoni hagisid, mille aluseks on pädevuse puudumine, olulise menetlusnormi rikkumine, aluslepingute või selle rakendusnormi rikkumine või võimu kuritarvitamine.",
+    "Samadel tingimustel on kohtu pädevuses kontrollikoja ja Euroopa Keskpanga ja regioonide komitee poolt oma õiguste kaitseks esitatud hagid.",
+    "Iga füüsiline või juriidiline isik võib esimeses ja teises lõigus sätestatud tingimustel esitada hagi temale adresseeritud või teda otseselt ja isiklikult puudutava akti vastu ning halduse üldakti vastu, mis puudutab teda otseselt ja ei sisalda rakendusmeetmeid.",
+    "Õigusaktides, millega luuakse liidu organeid ja asutusi, võib ette näha eritingimused ja erikorra seoses füüsiliste või juriidiliste isikute hagide esitamisega nende organite ja asutuste õigusaktide vastu, mille eesmärgiks on tekitada nende suhtes õiguslikke tagajärgi.",
+    "Käesolevas artiklis sätestatud menetlus tuleb algatada kahe kuu jooksul vastavalt kas meetme avaldamisest või teatavakstegemisest hagejale või nende puudumisel kahe kuu jooksul pärast päeva, mil hageja sellest teada sai."
+   ]
+  },
+  "ELTL art 267": {
+   "akt": "ELTL",
+   "nr": "267",
+   "read": [
+    "Artikkel 267",
+    "(endine EÜ asutamislepingu artikkel 234)",
+    "Euroopa Liidu Kohus on pädev tegema eelotsuseid, mis käsitlevad:",
+    "a) aluslepingute tõlgendamist;",
+    "b) liidu institutsioonide, organite või asutuste õigusaktide kehtivust ja tõlgendamist.",
+    "Kui selline küsimus antakse liikmesriigi kohtusse, võib see kohus, kui ta leiab, et otsuse tegemiseks on vaja kõnealune küsimus lahendada, taotleda sellekohast eelotsust kohtult.",
+    "Kui mingi niisugune küsimus kerkib üles poolelioleva kohtuasja käigus liikmesriigi kohtus, mille otsuste peale ei saa siseriikliku õiguse järgi edasi kaevata, siis peab nimetatud kohus saatma asja kohtusse.",
+    "Kui niisugune küsimus tõusetub liikmesriigi kohtus poolelioleva kohtuasja käigus seoses kinnipeetava isikuga, teeb kohus otsuse võimalikult kiiresti."
+   ]
+  },
+  "Genf III art 13": {
+   "akt": "Genf III",
+   "nr": "13",
+   "read": [
+    "Artikkel 13",
+    "Sõjavange tuleb alati kohelda inimlikult. Vangis hoidva riigi mis tahes õigusvastane tegevus või tegevusetus, millega põhjustatakse sõjavangi surm või ohustatakse tõsiselt tema tervist ajal, mil ta on nimetatud riigi hoole all, on keelatud ja seda loetakse käesoleva konventsiooni raskeks rikkumiseks. Esmajoones ei tohi ühtegi sõjavangi füüsiliselt vigastada või teha nendega mis tahes meditsiinilisi või teaduslikke katseid, mis ei ole õigustatud selle vangi meditsiinilise ravi, hambaravi või haiglaraviga.",
+    "Niisamuti tuleb sõjavange igal ajal kaitsta, eriti vägivallaaktide või ähvarduste eest, samuti solvangute ja avaliku uudishimu eest.",
+    "Surveabinõud sõjavangide suhtes on keelatud."
+   ]
+  },
+  "Genf III art 2": {
+   "akt": "Genf III",
+   "nr": "2",
+   "read": [
+    "Artikkel 2",
+    "Lisaks sätetele, mida kohaldatakse rahuajal, rakendatakse käesolevat konventsiooni ka kõigi kuulutatud sõdade või muude relvakonfliktide korral, mis võivad puhkeda kahe või enama lepingupoole vahel, ka juhul, kui üks nendest sõjaseisukorda ei tunnusta.",
+    "Konventsiooni rakendatakse ka lepingupoole territooriumi osalise või täieliku okupeerimise korral, ka juhul, kui okupatsioonile ei osutata relvastatud vastupanu.",
+    "Konventsiooni poolteks olevad riigid järgivad oma vastastikustes suhetes konventsiooni ka juhul, kui mõni konfliktis osalev riik ei ole käesoleva konventsiooni pool. Nad järgivad konventsiooni ka suhetes nimetatud riigiga, kui too selles sätestatut tunnustab ja rakendab."
+   ]
+  },
+  "Genf III art 3": {
+   "akt": "Genf III",
+   "nr": "3",
+   "read": [
+    "Artikkel 3",
+    "Kui lepingupoole territooriumil tekib relvakonflikt, mis ei ole rahvusvaheline, peab konfliktiosaline kohaldama vähemalt järgmisi sätteid:",
+    "(1) Sõjategevusest aktiivselt mitte osavõtvaid isikuid, sealhulgas relvajõudude liikmeid, kes on alistunud, ja neid, kes on jäänud võitlusvõimetuks (hors de combat) haiguse, haavata saamise või kinnipidamise tagajärjel või muul põhjusel, tuleb igas olukorras kohelda humaanselt, ilma mis tahes vaenuliku vahetegemiseta rassi, nahavärvi, religiooni või veendumuste, soo, sünnipära või varalise seisundi või muu sellise kriteeriumi alusel.",
+    "Seetõttu on eelpool nimetatud isikute suhtes alati ja kõikjal keelatud järgmised toimingud:",
+    "(a) vägivald elu ja isiku vastu, eriti tapmine, vigastamine, julm kohtlemine ja piinamine;",
+    "(b) pantvangide võtmine;",
+    "(c) isikliku au haavamine, eriti alandav ja alavääristav kohtlemine;",
+    "(d) karistuste mõistmine ja täideviimine ilma eelneva otsuseta, mille on teinud tavapäraselt moodustatud kohus, mis võimaldab kõiki tsiviliseeritud rahvaste tunnustatud asendamatuid õiguslikke tagatisi.",
+    "(2) Haavatud ja haiged tuleb kokku koguda ja nende eest hoolitseda.",
+    "Erapooletu humanitaarorganisatsioon, nagu Rahvusvahelise Punase Risti Komitee, võib pakkuda konfliktiosalistele oma teeneid.",
+    "Konfliktiosalised peaksid püüdma erikokkulepetega jõustada ka kõik käesoleva konventsiooni ülejäänud sätted või osa nendest.",
+    "Eelnevate sätete kohaldamine ei muuda konfliktiosaliste õiguslikku staatust."
+   ]
+  },
+  "Genf III art 4": {
+   "akt": "Genf III",
+   "nr": "4",
+   "read": [
+    "Artikkel 4",
+    "A. Sõjavangideks käesoleva konventsiooni tähenduses on järgmiste kategooriate isikud, kes on langenud vaenlase kätte:",
+    "(1) Konfliktiosalise relvajõudude liikmed, samuti nende relvajõudude koosseisu kuuluvate maakaitsevägede või vabatahtlike väeüksuste liikmed.",
+    "(2) Muude maakaitsevägede ja vabatahtlike väeüksuste liikmed, sealhulgas organiseeritud vastupanuliikumistest osavõtjad, kes tegutsevad oma territooriumil või väljaspool seda, ka juhul, kui see territoorium on okupeeritud. Sellised maakaitseväed või vabatahtlike väeüksused, sealhulgas organiseeritud vastupanuliikumised, peavad vastama järgmistele nõuetele:",
+    "(a) neid juhib isik, kes vastutab oma alluvate eest;",
+    "(b) nad kannavad kindlaid kaugelt eristatavaid eraldusmärke;",
+    "(c) nad kannavad relvi avalikult;",
+    "(d) nad järgivad sõjapidamise seadusi ja tavasid.",
+    "(3) Regulaarväe liikmed, kes on truudust vandunud valitsusele või võimule, keda neid vangis hoidev pool ei tunnusta.",
+    "(4) Relvajõudusid saatvad isikud, kes ei ole relvajõudude liikmed, nagu sõjalennukite meeskondade tsiviilliikmed, sõjakorrespondendid, varustajad, töö- või teenindusbrigaadide liikmed, kes vastutavad relvajõudude olme eest, eeldusel et neid on selleks volitanud relvajõud, keda nad saadavad.",
+    "(5) Konfliktiosalise kaubalaevastiku meeskondade liikmed, sealhulgas kaptenid, lootsid ja jungad, ning tsiviillennukite meeskonnad, juhul kui neil ei ole õigust veelgi paremale kohtlemisele vastavalt muudele rahvusvahelise õiguse normidele.",
+    "(6) Okupeerimata territooriumide elanikud, kes on vaenlase lähenemisel omal algatusel relvastunud, et osutada sissetungijale vastupanu ning kes ei ole jõudnud formeeruda regulaarväe üksusteks, eeldusel et nad kannavad relvi avalikult ning austavad sõjapidamise seadusi ja tavasid.",
+    "B. Käesoleva konventsiooni alusel koheldakse sõjavangidena ka järgmisi isikuid:",
+    "(1) Isikud, kes kuuluvad või on kuulunud okupeeritud riigi relvajõududesse, kui okupeeriv riik peab niisuguse kuuluvuse tõttu vajalikuks nad interneerida, kuigi ta on nad algselt vabastanud ajal, mil sõjategevus toimus väljaspool okupeeritavat territooriumi, eriti kui sellised isikud on teinud ebaõnnestunud katse taasliituda relvajõududega, millesse nad kuuluvad ja mis osalevad lahingutegevuses või kui nad ei täida neile esitatud kutset interneerimise kohta.",
+    "(2) Isikud, kes kuuluvad ühte käesolevas artiklis loetletud kategooriasse ja kes on vastu võetud neutraalse või mittesõdiva riigi territooriumile ja kelle need riigid peavad vastavalt rahvusvahelisele õigusele interneerima, mis sealjuures ei taksita neil riikidel kohelda nimetatud isikuid soodsamalt. Erandiks on artiklites 8, 10, 15, 30 lg 5, 58–67, 92 ja 126 sisalduvad juhendid ning kui konfliktiosaliste ja asjaomaseomase neutraalse või mittesõdiva riigi vahel on diplomaatilised suhted, ka artiklid kaitsvate riikide kohta. Kui sellised diplomaatilised suhted on olemas, lubatakse konfliktiosalistel, kellest need isikud sõltuvad, nende suhtes täita käesolevas konventsioonis ette nähtud kaitsva riigi ülesandeid, takistamata sealjuures nende konfliktiosaliste ülesannete täitmist vastavalt diplomaatilist ja konsulaartööd reguleerivatele tavadele ja lepingutele.",
+    "C. Käesolev artikkel ei muuda mingil viisil meditsiinipersonali ja vaimulike staatust, mis on sätestatud käesoleva konventsiooni artiklis 33."
+   ]
+  },
+  "Genf IV art 27": {
+   "akt": "Genf IV",
+   "nr": "27",
+   "read": [
+    "Artikkel 27",
+    "Kaitstud isikutel on alati õigus lugupidamisele oma isiku vastu, aule, perekondlikele õigustele, usulistele veendumustele ja kultusele ning oma harjumustele ja tavadele. Neid tuleb alati kohelda inimlikult ning kaitsta esmajoones vägivallaaktide või nendega ähvardamise eest ning solvangute ja avaliku uudishimu eest.",
+    "Eriti tuleb kaitsta naisi nende au vastu suunatud rünnakute eest, eriti vägistamise, sundprostitutsiooni ning kõigi muude kõlblusvastaste kallaletungide eest.",
+    "Arvestades kaitstud isikute tervisliku seisundi, vanuse ja soo kohta sätestatut, peab konfliktiosaline, kelle võimu all on kaitstud isikuid, kõiki neid kohtlema võrdse tähelepanelikkusega, ilma mis tahes vaenuliku vahetegemiseta eriti rassi, religiooni või poliitiliste vaadete tõttu.",
+    "Konfliktiosalised võivad siiski kaitstud isikute suhtes kasutada sõja tõttu vajalikke kontrolli- ja julgeolekumeetmeid."
+   ]
+  },
+  "Genf IV art 32": {
+   "akt": "Genf IV",
+   "nr": "32",
+   "read": [
+    "Artikkel 32",
+    "Lepingupooled lepivad ennekõike kokku, et mitte keegi neist ei või võtta mis tahes laadi meetmeid, mis põhjustaksid nende võimu all olevate inimeste füüsilisi kannatusi või massilist hukkumist. Keelatud on mitte ainult tapmine, piinamine, kehaline karistamine, vigastamine ja meditsiinilised või teaduslikud katsed, mille vajadust ei tingi kaitstud isiku ravi, vaid ka kõiki muud julmad võtted, olenemata sellest, kas neid kasutavad tsiviilisikud või sõjaväelased."
+   ]
+  },
+  "Genf IV art 4": {
+   "akt": "Genf IV",
+   "nr": "4",
+   "read": [
+    "Artikkel 4",
+    "Konventsiooniga kaitstakse isikuid, kes osutuvad konflikti või okupatsiooni korral olevat mingil ajal ja viisil selle konfliktiosalise või okupeeriva riigi võimu all, kelle kodanikud nad ei ole.",
+    "Konventsiooniga mitteseotud riigi kodanikke käesoleva konventsiooniga ei kaitsta. Neutraalse riigi kodanikke, kes viibivad sõdiva riigi territooriumil, samuti muu sõdiva riigi kodanikke ei loeta kaitstud isikuteks seni, kuni nende kodakondsuse riigil on tavapärane diplomaatiline esindatus riigis, kelle võimu all nad on.",
+    "II osa sätteid kohaldatakse siiski laiemalt, nagu on määratud artiklis 13.",
+    "Kaitstud isikuteks käesoleva konventsiooni tähenduses ei loeta isikuid, keda kaitstakse 12. augusti 1949 Genfi (I) konventsiooniga haavatud ja haigete sõjaväelaste olukorra parandamise kohta maismaal või 12. augusti 1949 Genfi (II) konventsiooniga haavatud, haigete ja merehädas sõjaväelaste olukorra parandamise kohta merel või sõjavangide kohtlemise 12. augusti 1949 Genfi (III) konventsiooniga."
+   ]
+  },
+  "HKMS § 2": {
+   "akt": "HKMS",
+   "nr": "2",
+   "read": [
+    "§ 2. Halduskohtumenetluse ülesanne ja üldpõhimõtted",
+    "(1) Halduskohtumenetluse ülesanne on eelkõige isikute õiguste kaitse õigusvastase tegevuse eest täidesaatva võimu teostamisel.",
+    "(2) Haldusasja (edaspidi ka asi) peab lahendama sõltumatu ja erapooletu kohus õigesti, ausalt, mõistliku aja jooksul ja võimalikult väikeste kuludega.",
+    "(3) Kohus lahendab asja üksnes kaebuses või seaduses sätestatud muus avalduses nõutud ulatuses. Avalduse esitamise otsustab menetlusosaline omal äranägemisel.",
+    "(4) Kohus tagab omal algatusel asja lahendamiseks oluliste asjaolude väljaselgitamise, kogudes vajaduse korral tõendeid ise või tehes nende esitamise kohustuseks menetlusosalistele. Kohus tõlgendab menetlusosaliste avaldusi ja lähtub nende lahendamisel esitaja tegelikust tahtest.",
+    "(5) Kohus tagab igas menetlusstaadiumis oma selgitustega, et menetlusosalise huvide kaitseks vajalik avaldus ega tõend ei jääks esitamata õigusliku kogenematuse tõttu ning avalduse läbivaatamist takistavad vormivead kõrvaldatakse.",
+    "(6) Kohus tagab kõigis asja lahendamiseks olulistes küsimustes menetlusosalistele tõhusa ja võrdse võimaluse esitada ja põhjendada oma seisukohti ning vaielda vastu teiste menetlusosaliste seisukohtadele või toetada neid.",
+    "(7) Halduskohtumenetlus on avalik, kui seadus ei sätesta teisiti."
+   ]
+  },
+  "HMS § 10": {
+   "akt": "HMS",
+   "nr": "10",
+   "read": [
+    "§ 10. Taandamine",
+    "(1) Haldusorgani nimel tegutsev isik ei või haldusmenetlusest osa võtta, kui:",
+    "1) ta on asjas menetlusosaline või menetlusosalise esindaja;",
+    "2) ta on asjas menetlusosalise või menetlusosalise esindaja sugulane (vanem, laps, lapsendaja, lapsendatu, vend, õde, vanavanem, lapselaps), abikaasa, registreeritud elukaaslane, hõimlane (abikaasa või registreeritud elukaaslase vanem, laps, lapsendaja, lapsendatu, vend, õde, vanavanem, lapselaps) või perekonnaliige;",
+    "[RT I, 06.07.2023, 6 - jõust. 01.01.2024]",
+    "3) ta on menetlusosalisest või selle esindajast tööalases, teenistuslikus või muus sõltuvuses;",
+    "4) ta on muul viisil isiklikult huvitatud asja lahendist või kui muud asjaolud tekitavad kahtlust tema erapooletuses.",
+    "(2) Perekonnaliige käesoleva seaduse tähenduses on isik, kes elab menetlusosalisega koos ja neil on ühine majapidamine.",
+    "(3) Käesoleva paragrahvi lõike 1 punktides 1–3 nimetatud menetlusosalisena ei käsitata haldusorganit, kes peab esitama menetlevale haldusorganile arvamuse või kooskõlastuse haldusakti andmiseks, halduslepingu sõlmimiseks või toimingu sooritamiseks.",
+    "(4) Kui ilmnevad käesoleva paragrahvi lõikes 1 nimetatud asjaolud või kui menetlusosaline on käesoleva paragrahvi lõikes 1 loetletud alustel esitanud ametiisiku taandamise taotluse, on ametiisik kohustatud sellest teatama tema ametisse nimetamise või valimise õigusega ametiisikule. Nimetatud isik peab otsustama taanduse esitamisest kolme tööpäeva jooksul taandamise vajalikkuse.",
+    "(5) Isikut ei taandata, kui teda ei ole võimalik asendada.",
+    "(6) Käesolevat paragrahvi ei rakendata Vabariigi Valitsuse ning kohaliku omavalitsuse volikogu ja valitsuse liikmete suhtes."
+   ]
+  },
+  "HMS § 3": {
+   "akt": "HMS",
+   "nr": "3",
+   "read": [
+    "§ 3. Õiguste kaitse",
+    "(1) Haldusmenetluses võib piirata isiku põhiõigusi ja -vabadusi ning tema muid subjektiivseid õigusi ainult seaduse alusel.",
+    "(2) Halduse õigusakt ja toiming peab olema kohane, vajalik ning proportsionaalne seatud eesmärgi suhtes."
+   ]
+  },
+  "HMS § 37": {
+   "akt": "HMS",
+   "nr": "37",
+   "read": [
+    "§ 37. Dokumentidega tutvumine",
+    "(1) Igaühel on õigus igas menetlusstaadiumis tutvuda haldusorganis säilitatavate asjas tähtsust omavate dokumentide ja toimikuga, kui see on olemas.",
+    "(2) Haldusorgan keelab toimiku, dokumendi või selle osaga tutvumise, kui selles sisalduvate andmete avaldamine on seadusega või selle alusel keelatud.",
+    "(3) Toimikuga ja dokumentidega tutvumine toimub üldjuhul haldusorgani tööruumides ametiisiku juuresolekul. Haldusorgan võib teha sellest korrast erandeid.",
+    "(4) Dokumentidest väljavõtete või koopiate tegemine ning kulude hüvitamine toimub avaliku teabe seaduses sätestatud korras."
+   ]
+  },
+  "HMS § 40": {
+   "akt": "HMS",
+   "nr": "40",
+   "read": [
+    "§ 40. Menetlusosalise arvamuse ja vastuväidete ärakuulamine",
+    "(1) Enne haldusakti andmist peab haldusorgan andma menetlusosalisele võimaluse esitada kirjalikus, suulises või muus sobivas vormis asja kohta oma arvamus ja vastuväited.",
+    "(2) Enne menetlusosalise suhtes sellise toimingu sooritamist, mis võib kahjustada tema õigusi, peab haldusorgan andma talle võimaluse arvamuse ja vastuväidete esitamiseks.",
+    "(3) Haldusmenetluse võib läbi viia menetlusosalise arvamust ja vastuväiteid ära kuulamata, kui:",
+    "1) viivitusest tuleneva kahju ärahoidmiseks või avalike huvide kaitseks on vaja viivitamatult tegutseda;",
+    "2) menetlusosalise poolt taotluses või seletuses esitatud andmetest ei kalduta kõrvale ning puudub vajadus lisaandmete saamiseks;",
+    "3) asja ei otsustata selle menetlusosalise kahjuks;",
+    "4) arvamuse või vastuväidete esitamise võimaldamisega kaasnev haldusaktist või toimingust teavitamine ei võimalda saavutada haldusakti või toimingu eesmärki;",
+    "5) menetlusosaline ei ole teada või kui sooritatav toiming puudutab määratlemata hulka isikuid ja nende kindlakstegemine ei ole mõistliku aja jooksul võimalik;",
+    "6) haldusakt antakse üldkorraldusena või menetlusosaliste arv on suurem kui 50;",
+    "7) muudel seaduses sätestatud juhtudel."
+   ]
+  },
+  "HMS § 41": {
+   "akt": "HMS",
+   "nr": "41",
+   "read": [
+    "§ 41. Haldusmenetluse läbiviimise tähtaeg",
+    "Kui haldusakti või toimingut ei ole võimalik anda või sooritada ettenähtud tähtaja jooksul, peab haldusorgan viivituseta tegema teatavaks haldusakti andmise või toimingu sooritamise tõenäolise aja ning näitama ettenähtud tähtajast mittekinnipidamise põhjuse."
+   ]
+  },
+  "HMS § 5": {
+   "akt": "HMS",
+   "nr": "5",
+   "read": [
+    "§ 5. Vormivabadus ja eesmärgipärasus",
+    "(1) Menetlustoimingu vormi ja muud haldusmenetluse üksikasjad määrab haldusorgan kaalutlusõiguse alusel, kui seaduse või määrusega ei ole sätestatud teisiti.",
+    "(2) Haldusmenetlus viiakse läbi eesmärgipäraselt ja efektiivselt, samuti võimalikult lihtsalt ja kiirelt, vältides üleliigseid kulutusi ja ebameeldivusi isikutele.",
+    "(3) Menetlustoimingute sooritamise eest võib haldusorgan tasu võtta üksnes seaduses sätestatud juhtudel ja suuruses.",
+    "[RT I 2002, 61, 375 - jõust. 01.08.2002]",
+    "(4) Menetlustoimingud viiakse läbi viivituseta, kuid mitte hiljem kui seaduses või määruses sätestatud tähtaja jooksul.",
+    "[RT I 2002, 61, 375 - jõust. 01.08.2002]",
+    "(5) Kui haldusmenetlust reguleerivad õigusnormid muutuvad menetluse ajal, kohaldatakse menetluse alguses kehtinud õigusnorme.",
+    "(6) Elektrooniline asjaajamine on haldusmenetluses võrdsustatud kirjaliku asjaajamisega, võttes arvesse elektroonilisest asjaajamisest tulenevaid erisusi. Digitaalallkirja ja e-templit kasutatakse haldusmenetluses e-identimise ja e-tehingute usaldusteenuste seaduses ning teistes õigusaktides sätestatud korras.",
+    "[RT I, 28.12.2017, 2 - jõust. 01.02.2018]"
+   ]
+  },
+  "HMS § 56": {
+   "akt": "HMS",
+   "nr": "56",
+   "read": [
+    "§ 56. Haldusakti põhjendamine",
+    "(1) Kirjalik haldusakt ja soodustava haldusakti andmisest keeldumine peab olema kirjalikult põhjendatud. Haldusakti põhjendus esitatakse haldusaktis või menetlusosalisele kättesaadavas dokumendis, millele on haldusaktis viidatud.",
+    "(2) Haldusakti põhjenduses tuleb märkida haldusakti andmise faktiline ja õiguslik alus.",
+    "(3) Kaalutlusõiguse alusel antud haldusakti põhjenduses tuleb märkida kaalutlused, millest haldusorgan on haldusakti andmisel lähtunud.",
+    "(4) Haldusakti andmise faktilist alust ei pea põhjenduses näitama, kui haldusakti adressaadi taotlus rahuldati ja kolmanda isiku õigusi ega vabadusi ei piirata."
+   ]
+  },
+  "HMS § 57": {
+   "akt": "HMS",
+   "nr": "57",
+   "read": [
+    "§ 57. Vaidlustamisviide",
+    "(1) Haldusaktis peab olema viide haldusakti vaidlustamise võimaluste, koha, tähtaja ja korra kohta.",
+    "(2) Vaidlustamisviite puudumine ei mõjuta haldusakti kehtivust, vaidlustamise tähtaega ega too kaasa muid õiguslikke tagajärgi.",
+    "(3) Vaidlustamisviite puudumist võib pidada haldusakti vaidlustamise tähtaja möödalaskmise mõjuvaks põhjuseks, kui tähtaja möödalaskmine on tingitud vaidlustamisviite puudumisest."
+   ]
+  },
+  "HMS § 6": {
+   "akt": "HMS",
+   "nr": "6",
+   "read": [
+    "§ 6. Uurimispõhimõte",
+    "Haldusorgan on kohustatud välja selgitama menetletavas asjas olulise tähendusega asjaolud ja vajaduse korral koguma selleks tõendeid oma algatusel."
+   ]
+  },
+  "HMS § 64": {
+   "akt": "HMS",
+   "nr": "64",
+   "read": [
+    "§ 64. Kehtetuks tunnistamise lubatavus",
+    "(1) Käesoleva jao sätteid kohaldatakse haldusakti kehtetuks tunnistamisele haldusorgani poolt. Kehtetuks tunnistamise kohta sätestatut kohaldatakse ka haldusorgani poolt haldusakti muutmise ja haldusakti kehtivuse peatamise suhtes.",
+    "(2) Haldusorgan otsustab haldusakti kehtetuks tunnistamise kaalutlusõiguse kohaselt, kui seadus ei keela haldusakti kehtetuks tunnistada või ei kohusta haldusakti kehtetuks tunnistama.",
+    "(3) Kaalutlusõiguse teostamisel tuleb arvestada haldusakti andmise ja haldusakti kehtetuks tunnistamise tagajärgi isikule, haldusakti andmise menetluse põhjalikkust, haldusakti kehtetuks tunnistamise põhjuste olulisust ning nende seost isiku osalemisega haldusakti andmise menetluses ja isiku muu tegevusega, haldusakti andmisest möödunud aega ning muid tähtsust omavaid asjaolusid.",
+    "(4) Kui kehtetuks tunnistamine toimub ühe isiku kasuks ja teise isiku kahjuks, lähtutakse sätetest, mis reguleerivad haldusakti kehtetuks tunnistamist isiku kahjuks."
+   ]
+  },
+  "HMS § 67": {
+   "akt": "HMS",
+   "nr": "67",
+   "read": [
+    "§ 67. Usalduse arvestamine",
+    "(1) Isiku kahjuks haldusakti kehtetuks tunnistamist otsustades arvestab haldusorgan peale käesoleva seaduse § 64 lõikes 3 sätestatu ka isiku usaldust, et haldusakt jääb kehtima, avalikku huvi ja haldusaktiga koormatud isiku huvi, et haldusakt tunnistataks kehtetuks.",
+    "(2) Haldusakti ei tohi tunnistada kehtetuks isiku kahjuks, kui isik on haldusakti kehtima jäämist usaldades kasutanud ära haldusakti alusel saadud vara, teinud tehingu oma vara käsutamiseks või on muul viisil muutnud oma elukorraldust ja tema huvi haldusakti kehtima jäämiseks kaalub üles avaliku huvi haldusakti kehtetuks tunnistamiseks.",
+    "(3) Kui ülekaalukast avalikust huvist tulenevalt tunnistatakse haldusakt isiku kahjuks kehtetuks, hüvitatakse isikule varaline kahju, mis tal haldusakti kehtima jäämise usaldamise tõttu on tekkinud või kindlasti tekib.",
+    "(4) Isik ei saa haldusakti kehtetuks tunnistamisel tugineda usaldusele, kui:",
+    "1) halduskohtule haldusakti kehtetuks tunnistamiseks kaebuse esitamise tähtaeg ei ole veel möödunud, samuti haldusakti kehtetuks tunnistamise kaebuse läbivaatamise ajal;",
+    "2) kehtetuks tunnistamise võimalus on ette nähtud seaduses või selleks on jäetud võimalus haldusaktis;",
+    "3) isik ei ole täitnud haldusaktiga seotud lisakohustust;",
+    "4) isik ei ole kasutanud haldusakti alusel üle antud raha või asja eesmärgipäraselt;",
+    "5) isik oli haldusakti õigusvastasusest teadlik või ei olnud sellest oma süü tõttu teadlik;",
+    "6) haldusakt on antud isiku esitatud ebaõigete või mittetäielike andmete alusel või pettuse või ähvardusega või muul viisil haldusorgani õigusvastase mõjutamise tulemusena.",
+    "(5) Ebaõigete andmete esitamine ei välista usalduse arvestamist, kui ebaõigete või mittetäielike andmete esitamise on põhjustanud haldusorgan ja isik ei olnud ega pidanud olema haldusakti õigusvastasusest teadlik."
+   ]
+  },
+  "HMS § 71": {
+   "akt": "HMS",
+   "nr": "71",
+   "read": [
+    "§ 71. Vaidemenetluse algatamise õigus",
+    "(1) Isik, kes leiab, et haldusaktiga või haldusmenetluse käigus on rikutud tema õigusi või piiratud tema vabadusi, võib esitada vaide.",
+    "(2) Vaiet ei saa esitada haldusorgani, kelle üle teostab teenistuslikku järelevalvet Vabariigi Valitsus, akti või toimingu peale.",
+    "[RT I 2002, 61, 375 - jõust. 01.08.2002]"
+   ]
+  },
+  "IKS § 1": {
+   "akt": "IKS",
+   "nr": "1",
+   "read": [
+    "§ 1. Seaduse reguleerimisala",
+    "(1) Käesolev seadus reguleerib:",
+    "1) füüsiliste isikute kaitset isikuandmete töötlemisel ulatuses, milles see täpsustab ja täiendab sätteid, mis sisalduvad Euroopa Parlamendi ja nõukogu määruses (EL) 2016/679 füüsiliste isikute kaitse kohta isikuandmete töötlemisel ja selliste andmete vaba liikumise ning direktiivi 95/46/EÜ kehtetuks tunnistamise kohta (isikuandmete kaitse üldmäärus) (ELT L 119, 04.05.2016, lk 1–88);",
+    "2) füüsiliste isikute kaitset isikuandmete töötlemisel õiguskaitseasutuste poolt süütegude tõkestamisel, avastamisel ja menetlemisel ning karistuste täideviimisel.",
+    "(2) Käesolev seadus sätestab:",
+    "1) normid, et rakendada Euroopa Parlamendi ja nõukogu määrust (EL) 2016/679;",
+    "2) normid, et üle võtta Euroopa Parlamendi ja nõukogu direktiiv (EL) 2016/680, mis käsitleb füüsiliste isikute kaitset seoses pädevates asutustes isikuandmete töötlemisega süütegude tõkestamise, uurimise, avastamise ja nende eest vastutusele võtmise või kriminaalkaristuste täitmisele pööramise eesmärgil ning selliste andmete vaba liikumist ning millega tunnistatakse kehtetuks nõukogu raamotsus 2008/977/JSK (ELT L 119, 04.05.2016, lk 89–131);",
+    "3) isikuandmete töötlemise nõuete täitmise üle riikliku ja haldusjärelevalve teostamise korra;",
+    "4) vastutuse isikuandmete töötlemise nõuete rikkumise eest."
+   ]
+  },
+  "KPÕRP FP art 1": {
+   "akt": "KPÕRP FP",
+   "nr": "1",
+   "read": [
+    "Artikkel 1",
+    "Paktist osavõttev riik, saades käesoleva protokolli osaliseks, tunnistab komitee kompetentsust vastu võtta ja läbi vaadata teateid tema jurisdiktsiooni all olevatelt üksikisikutelt, kes väidavad, et osavõttev riik on rikkunud mõnda paktis käsitletud õigust ja nemad on selle ohvriks langenud. Komitee ei võta vastu ühtegi teadet, kui see puudutab paktist osavõtvaid riike, kes pole käesoleva protokolli osalised."
+   ]
+  },
+  "KPÕRP FP art 2": {
+   "akt": "KPÕRP FP",
+   "nr": "2",
+   "read": [
+    "Artikkel 2",
+    "Kui on täidetud artiklis 1 toodud tingimused, võivad isikud, kes väidavad, et mingit paktis käsitletud õigust on rikutud ja nad on ammendanud kõik riigisisese õiguskaitse vahendid, esitada komiteele läbivaatamiseks kirjaliku teate."
+   ]
+  },
+  "KPÕRP FP art 3": {
+   "akt": "KPÕRP FP",
+   "nr": "3",
+   "read": [
+    "Artikkel 3",
+    "Komitee tunnistab vastuvõetamatuks iga käesoleva protokolli kohaselt esitatud avalduse, kui see on anonüümne, kui see tema arvates kujutab endast selliste teadete esitamise õiguse kuritarvitamist või on kokkusobimatu pakti sätetega."
+   ]
+  },
+  "KPÕRP FP art 5": {
+   "akt": "KPÕRP FP",
+   "nr": "5",
+   "read": [
+    "Artikkel 5",
+    "1. Komitee vaatab käesoleva protokolli kohaselt saadud teated läbi kogu kirjaliku informatsiooni alusel, mille on esitanud üksikisik ja asjaomane osavõttev riik.",
+    "2. Komitee ei vaata läbi ühtegi üksikisiku teadet enne, kuni ta pole veendunud selles, et",
+    "a) sama küsimus ei ole mõne teise rahvusvahelise uurimis- või lahendamisprotseduuri menetluses;",
+    "b) üksikisik on ammendanud kõik siseriikliku õiguskaitse vahendid. See reegel ei kehti neil juhtudel, kui nende vahendite rakendamine on põhjendamatult veninud.",
+    "3. Käesolevas protokollis käsitletud teated vaatab komitee läbi kinnistel istungitel.",
+    "4. Komitee edastab oma seisukohad asjaomasele osavõtvale riigile ja üksikisikule."
+   ]
+  },
+  "KPÕRP art 1": {
+   "akt": "KPÕRP",
+   "nr": "1",
+   "read": [
+    "Artikkel 1",
+    "1. Kõigil rahvastel on enesemääramise õigus. Seetõttu kehtestavad nad vabalt oma poliitilise staatuse ning kindlustavad vabalt oma majandusliku, sotsiaalse ja kultuurilise arengu.",
+    "2. Endale seatud eesmärkide nimel võivad kõik rahvad vabalt käsutada oma loodusvarasid ja ressursse, kahjustamata sealjuures mingisuguseid kohustusi, mis tulenevad rahvusvahelisest vastastikuse kasu printsiibil põhinevast majanduslikust koostööst ja rahvusvahelisest õigusest. Ükski rahvas ei või olla ilma jäetud talle kuuluvatest elatusvahenditest.",
+    "3. Kõik käesolevast paktist osavõtvad riigid, sealhulgas need, kellel lasub vastutus omavalitsuseta ja hooldusaluste territooriumide valitsemise eest, peavad vastavalt Ühinenud Rahvaste Organisatsiooni põhikirjale edendama enesemääramisõiguse teostamist ja austama seda õigust."
+   ]
+  },
+  "KPÕRP art 10": {
+   "akt": "KPÕRP",
+   "nr": "10",
+   "read": [
+    "Artikkel 10",
+    "1. Kõikidel isikutel, kellelt on võetud vabadus, on õigus humaansele kohtlemisele ja inimväärikuse austamisele.",
+    "2. a) Erandlike asjaolude puudumisel paigutatakse kaebealused süüdimõistetuist eraldi ja neile määratakse režiim, mis vastab nende kui süüdi mõistmata isikute staatusele;",
+    "b) alaealised kaebealused eraldatakse täisealistest ja toimetatakse lühima aja jooksul kohtusse otsuse tegamiseks.",
+    "3. Pönitentsiaarsüsteem näeb vangidele ette sellist režiimi, mille oluliseks eesmärgiks on nende parandamine ja sotsiaalne ümberkasvatamine. Alaealised seaduserikkujad eraldatakse täisealistest ja neile määratakse režiim, mis vastab nende eale ja õiguslikule staatusele."
+   ]
+  },
+  "KPÕRP art 17": {
+   "akt": "KPÕRP",
+   "nr": "17",
+   "read": [
+    "Artikkel 17",
+    "1. Kellegi isiklikku või perekonnaellu ei tohi meelevaldselt või ebaseaduslikult vahele segada, kellegi korteripuutumatusele, kirjavahetuse saladusele, aule ja reputatsioonile ei tohi meelevaldselt või ebaseaduslikult kallale kippuda.",
+    "2. Igal inimesel on õigus seaduse kaitsele selliste vahelesegamiste ja kallalekippumiste eest."
+   ]
+  },
+  "KPÕRP art 18": {
+   "akt": "KPÕRP",
+   "nr": "18",
+   "read": [
+    "Artikkel 18",
+    "1. Igal inimesel on õigus mõtte, südametunnistuse ja usuvabadusele. See õigus kätkeb vabadust omada või vastu võtta usku või veendumusi omal valikul ja vabadust tunnistada oma usku või veendumusi nii üksikult kui ka koos teistega avalikult või eraviisiliselt kultuse teenimise, religioossete ja rituaalsete tavade ja õpetuste täitmise näol.",
+    "2. Kedagi ei tohi allutada sundusele, mis piirab tema vabadust omada või vastu võtta usku või veendumusi omal valikul.",
+    "3. Usu ja veendumuste tunnistamise vabadus allub ainult seaduse poolt kehtestatud ja ühiskondliku julgeoleku, korra, tervise ja moraali, samuti teiste isikute põhiõiguste ja vabaduste kaitsmiseks vajalikele piiramistele.",
+    "4. Käesolevast paktist osavõtvad riigid kohustuvad austama vanemate ja vastavatel juhtudel seaduslike hooldajate vabadust tagada oma laste usuline ja kõlbeline kasvatus vastavalt oma veendumustele."
+   ]
+  },
+  "KPÕRP art 2": {
+   "akt": "KPÕRP",
+   "nr": "2",
+   "read": [
+    "Artikkel 2",
+    "1. Iga käesolevast paktist osavõttev riik kohustub austama ja tagama kõikidele tema territooriumil asuvatele ja tema jurisdiktsioonile alluvatele isikutele õigused, mida tunnustab käesolev pakt, tegemata mingit vahet rassi, nahavärvuse, soo, keele, usutunnistuse, poliitiliste või muude tõekspidamiste, rahvusliku või sotsiaalse päritolu, varandusliku seisundi, sünni või mõne muu asjaolu põhjal.",
+    "2. Kui seda ei näe ette juba olemasolevad seadusandlikud või muud vahendid, kohustub iga käesolevast paktist osavõttev riik vastavalt oma konstitutsioonilistele protseduuridele ja käesoleva pakti sätetele võtma kasutusele abinõud selliste seadusandlike või muude vahendite rakendamiseks, mis võivad osutuda vajalikeks käesolevas paktis tunnustatud õiguste teostamisel.",
+    "3. Iga käesolevast paktist osavõttev riik kohustub:",
+    "a) tagama igale isikule, kelle käesoleva paktiga tunnustatud õigusi ja vabadusi on rikutud, efektiivse õigusliku kaitse isegi siis, kui selle seaduserikkumise panid toime ametiisikud;",
+    "b) tagama, et iga kaitset vajava isiku õiguse õiguslikule kaitsele määraksid kindlaks kompetentsed kohtu-, administratiiv- või seadusandlikud võimud või mis tahes teine kompetentne organ, kes on selleks ette nähtud riigi õigusliku süsteemiga, ja laiendama kohtuliku kaitse võimalusi;",
+    "c) kindlustama õigusliku kaitse kohaldamist kompetentsete võimude poolt, mil iganes see on võimalik."
+   ]
+  },
+  "KPÕRP art 26": {
+   "akt": "KPÕRP",
+   "nr": "26",
+   "read": [
+    "Artikkel 26",
+    "Kõik inimesed on seaduse ees võrdsed ja neil on ilma igasuguse diskrimineerimiseta õigus seaduse võrdsele kaitsele. Selles suhtes tuleb igasugune diskrimineerimine keelata seadusega ja seadus peab kõikidele isikutele garanteerima võrdse ja efektiivse kaitse igasuguse diskrimineerimise vastu, olgu see siis rassi, nahavärvuse, soo, keele, usutunnistuse, poliitiliste või muude tõekspidamiste, rahvusliku või sotsiaalse päritolu, varandusliku seisundi, sünni või muu asjaolu põhjal."
+   ]
+  },
+  "KPÕRP art 28": {
+   "akt": "KPÕRP",
+   "nr": "28",
+   "read": [
+    "Artikkel 28",
+    "1. Moodustatakse Inimõiguste Komitee (käesolevas paktis edaspidi «komitee»). See koosneb kaheksateistkümnest liikmest ja täidab allpool äratoodud funktsioone.",
+    "2. Komitee koosseisu kuuluvad isikud, kes on käesolevast paktist osavõtvate riikide kodanikud, kellel on kõrged kõlbelised omadused ja tunnustatud kompetentsus inimõiguste valdkonnas. Ühtlasi peetakse silmas mõnede juriidiliste kogemustega isikute osavõtu kasulikkust.",
+    "3. Komitee liikmed valitakse isikuliselt ja nad täidavad oma kohustusi vahetult ise."
+   ]
+  },
+  "KPÕRP art 40": {
+   "akt": "KPÕRP",
+   "nr": "40",
+   "read": [
+    "Artikkel 40",
+    "1. Käesolevast paktist osavõtvad riigid kohustuvad esinema aruannetega käesolevas paktis tunnustatud õiguste elluviimiseks rakendatud abinõude ja nende õiguste kasutamisel saavutatud progressi kohta:",
+    "a) ühe aasta jooksul pärast käesoleva pakti jõustumist vastava osavõtva riigi suhtes;",
+    "b) pärast seda kõikidel juhtudel, kui seda nõuab komitee.",
+    "2. Kõik aruanded esitatakse Ühinenud Rahvaste Organisatsiooni peasekretärile, kes saadab need komiteesse läbivaatamiseks. Aruannetes näidatakse ära käesoleva pakti elluviimist mõjutavad faktorid ja raskused, kui neid esineb.",
+    "3. Pärast konsulteerimist komiteega võib Ühinenud Rahvaste Organisatsiooni peasekretär saata huvitatud spetsialiseeritud asutustele aruannete nende osade eksemplarid, mis võivad kuuluda nende kompetentsi.",
+    "4. Komitee tutvub käesolevast paktist osavõtvate riikide aruannetega. Ta saadab osavõtvatele riikidele oma ettekandeid ja selliseid üldist laadi märkusi, mida peab tarvilikuks. Komitee võib need märkused koos käesolevast paktist osavõtvatelt riikidelt saadud aruannetega saata edasi ka Majandus- ja Sotsiaalnõukogule.",
+    "5. Käesolevast paktist osavõtvad riigid võivad esitada komiteele oma kaalutlusi ükskõik milliste märkuste suhtes, mida võidakse teha vastavalt käesoleva artikli 4. punktile."
+   ]
+  },
+  "KPÕRP art 41": {
+   "akt": "KPÕRP",
+   "nr": "41",
+   "read": [
+    "Artikkel 41",
+    "1. Vastavalt antud artiklile võib käesolevast paktist osavõttev riik igal ajal teha avalduse, et ta tunnustab komitee kompetentsust saada ja läbi vaadata teateid, kus üks paktist osavõttev riik väidab, et teine osavõttev riik ei täida oma käesolevast paktist tulenevaid kohustusi. Käesolevas artiklis tähendatud teateid võib vastu võtta ja läbi vaadata ainult sel juhul, kui need esitab osavõttev riik, kes on komitee kompetentsust oma avaldusega tunnustanud. Komitee ei võta vastu mingeid teateid, kui need puudutavad osavõtvaid riike, kes pole sellist avaldust teinud. Teated, mis on saadud kooskõlas käesoleva artikliga, vaadatakse läbi järgmise protseduuri kohaselt:",
+    "a) kui mingi käesolevast paktist osavõttev riik leiab, et teine osavõttev riik ei vii ellu käesoleva pakti sätteid, võib ta selle küsimuse nimetatud osavõtvale riigile kirjalikult teatavaks teha. Kolme kuu jooksul pärast selle teate saamist esitab teate saanud riik teate saatnud riigile küsimuse selgitamiseks kirjaliku seletuse või mis tahes teise avalduse, mis peab sisaldama — nii kuidas see on võimalik ja vajalik — sisemisi protseduure ja abinõusid, mida on antud küsimuses rakendatud, rakendatakse või võidakse rakendada;",
+    "b) kui kuue kuu jooksul pärast esialgse teate saamist ei ole seda küsimust mõlema huvitatud osavõtva riigi jaoks rahuldavalt lahendatud, on ükskõik kummal neist riikidest õigus anda see küsimus edasi komiteele, informeerides sellest komiteed ja teist riiki;",
+    "c) komitee vaatab temale üleantud küsimuse läbi alles pärast seda, kui ta on veendunud, et antud juhul olid kõik võimalikud rahvusvahelise õiguse printsiipidega tunnustatud sisemised vahendid ära proovitud ja ammendatud. See reegel ei kehti sellistel juhtudel, kui nende vahendite rakendamine põhjendamatult venib;",
+    "d) käesolevas artiklis käsitletud teadete läbivaatamiseks korraldab komitee kinnisi istungeid;",
+    "e) alapunkti c järgimisega osutab komitee huvitatud osavõtvatele riikidele oma teeneid küsimuse sõbralikuks lahendamiseks käesolevas paktis tunnustatud inimõiguste ja põhivabaduste austamise alusel;",
+    "f) igas temale läbivaatamiseks üleantud küsimuses võib komitee pöörduda alapunktis b mainitud huvitatud osavõtvate riikide poole palvega anda talle ükskõik millist asjakohast informatsiooni;",
+    "g) alapunktis b mainitud huvitatud osavõtvatel riikidel on õigus olla küsimuse arutamisel komitees esindatud ja teha esildisi suuliselt või kirjalikult;",
+    "h) kaheteistkümne kuu jooksul pärast teate saamist esitab komitee vastavalt alapunktile b aruande:",
+    "i) kui kokkulepe saavutatakse alapunkti e sätete raames, piirdub komitee oma aruandes faktide ja saavutatud kokkuleppe lühida esitamisega;",
+    "ii) kui alapunkti e sätete raames kokkulepet ei saavutata, piirdub komitee oma aruandes faktide lühida esitamisega. Huvitatud osavõtvate riikide kirjalikud esildised ja suuliste esildiste üleskirjutused lisatakse aruandele.",
+    "Aruanded kõikides küsimustes saadetakse edasi huvitatud osavõtvatele riikidele.",
+    "2. Käesoleva artikli sätted jõustuvad, kui kümme käesolevast paktist osavõtvat riiki teevad avalduse vastavalt käesoleva artikli 1. punktile. Need avaldused deponeeritakse riikide poolt Ühinenud Rahvaste Organisatsiooni peasekretärile, kes saadab nende koopiad teistele paktist osavõtvatele riikidele. Avaldust võib igal ajal tagasi võtta, teatades sellest peasekretärile. Selline tegu ei takista ükskõik millise küsimuse arutamist, mis on juba käesoleva artikli kohaselt üleantud teate sisuks; mingeid järgnevaid teateid ükskõik milliselt osavõtvalt riigilt ei võeta vastu pärast seda, kui peasekretär on saanud teate avalduse tagasivõtmise kohta ja kui huvitatud osavõttev riik pole teinud uut avaldust."
+   ]
+  },
+  "KPÕRP art 6": {
+   "akt": "KPÕRP",
+   "nr": "6",
+   "read": [
+    "Artikkel 6",
+    "1. Igal inimesel on võõrandamatu õigus elule. Seda õigust kaitseb seadus. Meelevaldselt ei tohi kelleltki elu võtta.",
+    "2. Maades, kus pole kaotatud surmanuhtlust, võib surma mõista ainult kõige raskemate kuritegude eest vastavalt seadusele, mis kehtis kuriteo toimepanemise ajal ja mis ei ole vastuolus käesoleva pakti ning genotsiidi ärahoidmise ja selle eest karistamise konventsiooni sätetega. Seda karistust võib täide viia vaid kompetentse kohtu lõpliku otsuse põhjal.",
+    "3. Juhul kui tapmine kujutab endast genotsiidi, tuleb silmas pidada, et antud artiklis ei anna miski käesolevast paktist osavõtvatele riikidele õigust mis tahes viisil taganemiseks ükskõik millistest kohustustest, mis on vastu võetud vastavalt genotsiidi ärahoidmise ja selle eest karistamise konventsiooni sätetele.",
+    "4. Igal surmamõistetul on õigus paluda armu või kohtuotsuse pehmendamist. Amnesteerida, armu anda või surmanuhtlust asendada võib kõikidel juhtudel.",
+    "5. Surmanuhtlust ei mõisteta kuritegude eest, mille on toime pannud nooremad kui kaheksateistkümneaastased isikud, ega viida seda täide rasedate naiste suhtes.",
+    "6. Ühelegi paktist osavõtvale riigile ei või miski käesolevas artiklis olla aluseks surmanuhtluse muutmise edasilükkamiseks või sellest keeldumiseks."
+   ]
+  },
+  "KPÕRP art 7": {
+   "akt": "KPÕRP",
+   "nr": "7",
+   "read": [
+    "Artikkel 7",
+    "Kellegi suhtes ei või rakendada piinamist või julma, ebainimlikku, tema väärikust alandavat kohtlemist või karistust. Muu hulgas ei tohi ühtegi isikut tema vabatahtliku nõusolekuta allutada meditsiinilistele või teaduslikele katsetele."
+   ]
+  },
+  "KS § 2": {
+   "akt": "KS",
+   "nr": "2",
+   "read": [
+    "§ 2. Õigusemõistmine ja kohtu sõltumatus",
+    "(1) Õigust mõistab ainult kohus.",
+    "(2) Kellelgi ei ole õigust sekkuda õigusemõistmisesse.",
+    "(3) Kohtus ja selle lähikonnas on keelatud teod, mis on suunatud õigusemõistmise häirimisele."
+   ]
+  },
+  "KiKoS § 1": {
+   "akt": "KiKoS",
+   "nr": "1",
+   "read": [
+    "§ 1. Seaduse reguleerimisala",
+    "(1) Käesoleva seaduse ülesanne on põhiseadusega igaühele tagatud usuvabaduse teostamiseks sätestada kirikute, koguduste, koguduste liitude, kloostrite ja usuühingute liikmeks astumise kord ning nende tegevuse reguleerimine.",
+    "(2) Käesolevas seaduses ettenähtud haldusmenetlusele kohaldatakse haldusmenetluse seaduse sätteid, arvestades käesoleva seaduse erisusi.",
+    "[RT I 2002, 61, 375 - jõust. 01.08.2002]"
+   ]
+  },
+  "KorS § 7": {
+   "akt": "KorS",
+   "nr": "7",
+   "read": [
+    "§ 7. Proportsionaalsuse põhimõte",
+    "Korrakaitseorgan järgib riiklikku järelevalvet teostades järgmisi põhimõtteid:",
+    "1) kohaldab mitmest sobivast ja vajalikust riikliku järelevalve meetmest seda, mis nii isikut kui ka üldsust eeldatavalt kõige vähem kahjustab;",
+    "2) kohaldab ainult sellist riikliku järelevalve meedet, mis on proportsionaalne, arvestades meetmega taotletavat eesmärki ja kiireloomulist kohaldamist nõudvat olukorda, ja",
+    "3) kohaldab riikliku järelevalve meedet vaid nii kaua, kui selle eesmärk on saavutatud või seda ei ole enam võimalik saavutada."
+   ]
+  },
+  "MSVS § 6": {
+   "akt": "MSVS",
+   "nr": "6",
+   "read": [
+    "§ 6. Vastamise tähtaeg",
+    "Märgukirjale või selgitustaotlusele vastatakse viivitamata, kuid mitte hiljem kui 15 kalendripäeva jooksul selle registreerimisest. Erilise vajaduse korral lähtuvalt vastamise keerukusest võib vastamise tähtaega pikendada kuni kahe kuuni. Isikut teavitatakse vastamise tähtaja pikendamisest ja pikendamise põhjusest.",
+    "[RT I, 18.12.2024, 2 - jõust. 28.12.2024]"
+   ]
+  },
+  "Mandela rule 1": {
+   "akt": "Mandela",
+   "nr": "1",
+   "read": [
+    "Rule 1",
+    "All prisoners shall be treated with the respect due to their inherent dignity and value as human beings. No prisoner shall be subjected to, and all prisoners shall be protected from, torture and other cruel, inhuman or degrading treatment or punishment, for which no circumstances whatsoever may be invoked as a justification. The safety and security of prisoners, staff, service providers and visitors shall be ensured at all times."
+   ]
+  },
+  "Mandela rule 58": {
+   "akt": "Mandela",
+   "nr": "58",
+   "read": [
+    "Rule 58",
+    "1. Prisoners shall be allowed, under necessary supervision, to communicate with their family and friends at regular intervals:",
+    "(a) By corresponding in writing and using, where available, telecommunication, electronic, digital and other means; and",
+    "(b) By receiving visits.",
+    "2. Where conjugal visits are allowed, this right shall be applied without discrimination, and women prisoners shall be able to exercise this right on an equal basis with men. Procedures shall be in place and premises shall be made available to ensure fair and equal access with due regard to safety and dignity."
+   ]
+  },
+  "Mandela rule 65": {
+   "akt": "Mandela",
+   "nr": "65",
+   "read": [
+    "Rule 65",
+    "1. If the prison contains a sufficient number of prisoners of the same religion, a qualified representative of that religion shall be appointed or approved. If the number of prisoners justifies it and conditions permit, the arrangement should be on a full-time basis.",
+    "2. A qualified representative appointed or approved under paragraph 1 of this rule shall be allowed to hold regular services and to pay pastoral visits in private to prisoners of his or her religion at proper times.",
+    "3. Access to a qualified representative of any religion shall not be refused to any prisoner. On the other hand, if any prisoner should object to a visit of any religious representative, his or her attitude shall be fully respected."
+   ]
+  },
+  "Mandela rule 66": {
+   "akt": "Mandela",
+   "nr": "66",
+   "read": [
+    "Rule 66",
+    "So far as practicable, every prisoner shall be allowed to satisfy the needs of his or her religious life by attending the services provided in the prison and having in his or her possession the books of religious observance and instruction of his or her denomination."
+   ]
+  },
+  "OKS § 1": {
+   "akt": "OKS",
+   "nr": "1",
+   "read": [
+    "§ 1. Õiguskantsleri ülesanded",
+    "(1) Õiguskantsler on oma tegevuses sõltumatu ametiisik, kes teostab järelevalvet seadusandliku ja täidesaatva riigivõimu ning kohaliku omavalitsuse õigustloovate aktide Eesti Vabariigi põhiseadusele (edaspidi põhiseadus) ja seadustele vastavuse üle.",
+    "(2) Õiguskantsler analüüsib seaduste muutmise, uute seaduste vastuvõtmise ja riigiasutuste töö kohta talle tehtud ettepanekuid ning esitab vajaduse korral Riigikogule ettekande.",
+    "(3) Õiguskantsler teeb Riigikogule ettepaneku Riigikogu liikme, Vabariigi Presidendi, Vabariigi Valitsuse liikme, riigikontrolöri, Riigikohtu esimehe ja Riigikohtu liikme kriminaalvastutusele võtmiseks vastavalt seadusele.",
+    "(3^1) Õiguskantsler teeb Euroopa Parlamendi presidendile ettepaneku Eestist valitud Euroopa Parlamendi liikmelt Euroopa Ühenduste privileegide ja immuniteetide protokolliga ettenähtud immuniteedi võtmiseks.",
+    "(4) Õiguskantsler teeb Riigikohtu üldkogule taotluse tunnistada Vabariigi President kestvalt võimetuks oma ülesandeid täitma.",
+    "(5) Õiguskantsler lahendab eraõiguslike isikute vahel diskrimineerimise üle tekkinud vaidluse põhiseaduse ning teiste seaduste alusel.",
+    "(6) Õiguskantsler teostab järelevalvet õigusaktide välislepingutele vastavuse üle.",
+    "[RT I 2007, 11, 52 - jõust. 18.02.2007]",
+    "(7) Õiguskantsler on piinamise ning muu julma, ebainimliku või inimväärikust alandava kohtlemise ja karistamise vastase konventsiooni fakultatiivse protokolli artiklis 3 sätestatud riigi ennetusasutus.",
+    "[RT I 2007, 11, 52 - jõust. 18.02.2007]",
+    "(8) Õiguskantsler täidab tulenevalt lapse õiguste konventsiooni artiklist 4 lapse õiguste kaitse ja edendamise ülesandeid.",
+    "[RT I, 09.03.2011, 1 - jõust. 19.03.2011]",
+    "(9) Õiguskantsler teostab järelevalvet põhiõiguste ja -vabaduste järgimise üle täidesaatva riigivõimu asutuste poolt varjatult isikuandmete ja nendega seonduva teabe kogumise, töötlemise, kasutamise ja järelevalve korraldamisel.",
+    "[RT I, 22.12.2014, 2 - jõust. 01.01.2015]",
+    "(9^1) Käesoleva paragrahvi lõikes 9 sätestatud ülesande raames teostab õiguskantsler vähemalt iga kahe aasta tagant järelevalvet julgeolekuasutuste seaduse § 29 lõike 2 ja Kaitseväe korralduse seaduse § 40 lõike 2 alusel isiku toimingust teavitamata jätmise põhjendatuse üle.",
+    "[RT I, 26.05.2020, 1 - jõust. 05.06.2020]",
+    "(10) Õiguskantsler täidab inimõiguste kaitse ja edendamise ülesandeid, lähtudes ÜRO Peaassamblee 1993. aasta 20. detsembri resolutsioonist nr 48/134 „Inimõiguste kaitse ja edendamise riiklike asutuste staatuse ja toimimise põhimõtted”.",
+    "[RT I, 03.07.2018, 14 - jõust. 01.01.2019]",
+    "(11) Õiguskantsler täidab tulenevalt puuetega inimeste õiguste konventsiooni artikli 33 lõikest 2 konventsiooni rakendamise edendamise, kaitse ja seire ülesandeid.",
+    "[RT I, 03.07.2018, 14 - jõust. 01.01.2019]",
+    "(12) Õiguskantsler täidab sõltumatu järelevalveasutuse ülesandeid, mis on ette nähtud Euroopa Parlamendi ja nõukogu määruse (EL) 2024/1356, millega kehtestatakse kolmanda riigi kodanike taustakontroll välispiiridel ning muudetakse määrusi (EÜ) nr 767/2008, (EL) 2017/2226, (EL) 2018/1240 ja (EL) 2019/817 (ELT L, 2024/1356, 22.05.2024), artiklis 10 ning Euroopa Parlamendi ja nõukogu määruse (EL) 2024/1348, millega luuakse rahvusvahelise kaitse ühine menetlus liidus ja tunnistatakse kehtetuks direktiiv 2013/32/EL (ELT L, 2024/1348, 22.05.2024), artikli 43 lõikes 4.",
+    "[RT I, 03.06.2026, 1 - jõust. 12.06.2026]",
+    "(13) Õiguskantsler teostab järelevalvet kriisiolukorra kehtestamise ja selle lõpetamise otsuse, erakorralise seisukorra, sõjaseisukorra, mobilisatsiooni ja demobilisatsiooni väljakuulutamise ja lõpetamise otsuse ning Eesti Vabariigi territooriumil korraldataval rahvusvahelisel sõjalisel operatsioonil osalemiseks välisriigi relvajõududele riigis viibimise loa andmise otsuse põhiseadusele ja seadustele vastavuse üle kriisiolukorra ja riigikaitse seaduses sätestatud korras.",
+    "[RT I, 30.06.2026, 1 - jõust. 01.10.2026]"
+   ]
+  },
+  "OKS § 19": {
+   "akt": "OKS",
+   "nr": "19",
+   "read": [
+    "§ 19. Õigus pöörduda õiguskantsleri poole",
+    "(1) Igaühel on õigus pöörduda oma õiguste kaitseks õiguskantsleri poole taotlusega kontrollida, kas riigiasutus, kohaliku omavalitsuse asutus või organ, avalik-õiguslik juriidiline isik või avalikke ülesandeid täitev füüsiline või eraõiguslik juriidiline isik (edaspidi järelevalvealune asutus) järgib põhiõiguste ja -vabaduste tagamise põhimõtet ning hea halduse tava.",
+    "(2) Igaühel on õigus pöörduda õiguskantsleri poole lepitusmenetluse läbiviimiseks, kui ta leiab, et füüsiline või eraõiguslik juriidiline isik on teda diskrimineerinud:",
+    "1) soo,",
+    "2) rassi,",
+    "3) rahvuse (etnilise kuuluvuse),",
+    "4) nahavärvuse,",
+    "5) keele,",
+    "6) päritolu,",
+    "7) usutunnistuse või usulise veendumuse,",
+    "8) poliitilise või muu veendumuse,",
+    "9) varalise või sotsiaalse seisundi,",
+    "10) vanuse,",
+    "11) puude,",
+    "12) seksuaalse suundumuse või",
+    "13) muu seaduses nimetatud diskrimineerimistunnuse tõttu.",
+    "(3) [Kehtetu - RT I, 29.05.2012, 2 - jõust. 08.06.2012]"
+   ]
+  },
+  "OPCAT art 1": {
+   "akt": "OPCAT",
+   "nr": "1",
+   "read": [
+    "Artikkel 1",
+    "Protokolli eesmärk on näha ette sõltumatute rahvusvaheliste ja siseriiklike asutuste korrapärased külastused kinnipidamiskohtadesse, et ennetada piinamist ning muud julma, ebainimlikku või inimväärikust alandavat kohtlemist ja karistamist."
+   ]
+  },
+  "OPCAT art 3": {
+   "akt": "OPCAT",
+   "nr": "3",
+   "read": [
+    "Artikkel 3",
+    "Piinamise ning muu julma, ebainimliku või inimväärikust alandava kohtlemise ja karistamise ennetamiseks loob või nimetab iga osalisriik vähemalt ühe külastusi tegeva riigisisese institutsiooni (edaspidi riigi ennetusasutus) või tagab selle olemasolu."
+   ]
+  },
+  "PS § 10": {
+   "akt": "PS",
+   "nr": "10",
+   "read": [
+    "§ 10. Käesolevas peatükis loetletud õigused, vabadused ja kohustused ei välista muid õigusi, vabadusi ega kohustusi, mis tulenevad põhiseaduse mõttest või on sellega kooskõlas ja vastavad inimväärikuse ning sotsiaalse ja demokraatliku õigusriigi põhimõtetele."
+   ]
+  },
+  "PS § 11": {
+   "akt": "PS",
+   "nr": "11",
+   "read": [
+    "§ 11. Õigusi ja vabadusi tohib piirata ainult kooskõlas põhiseadusega. Need piirangud peavad olema demokraatlikus ühiskonnas vajalikud ega tohi moonutada piiratavate õiguste ja vabaduste olemust."
+   ]
+  },
+  "PS § 12": {
+   "akt": "PS",
+   "nr": "12",
+   "read": [
+    "§ 12. Kõik on seaduse ees võrdsed. Kedagi ei tohi diskrimineerida rahvuse, rassi, nahavärvuse, soo, keele, päritolu, usutunnistuse, poliitiliste või muude veendumuste, samuti varalise ja sotsiaalse seisundi või muude asjaolude tõttu.",
+    "Rahvusliku, rassilise, usulise või poliitilise vihkamise, vägivalla ja diskrimineerimise õhutamine on seadusega keelatud ja karistatav. Samuti on seadusega keelatud ja karistatav õhutada vihkamist, vägivalda ja diskrimineerimist ühiskonnakihtide vahel."
+   ]
+  },
+  "PS § 123": {
+   "akt": "PS",
+   "nr": "123",
+   "read": [
+    "§ 123. Eesti Vabariik ei sõlmi välislepinguid, mis on vastuolus põhiseadusega.",
+    "Kui Eesti seadused või muud aktid on vastuolus Riigikogu poolt ratifitseeritud välislepingutega, kohaldatakse välislepingu sätteid."
+   ]
+  },
+  "PS § 13": {
+   "akt": "PS",
+   "nr": "13",
+   "read": [
+    "§ 13. Igaühel on õigus riigi ja seaduse kaitsele. Eesti riik kaitseb oma kodanikku ka välisriikides.",
+    "Seadus kaitseb igaühte riigivõimu omavoli eest."
+   ]
+  },
+  "PS § 14": {
+   "akt": "PS",
+   "nr": "14",
+   "read": [
+    "§ 14. Õiguste ja vabaduste tagamine on seadusandliku, täidesaatva ja kohtuvõimu ning kohalike omavalitsuste kohustus."
+   ]
+  },
+  "PS § 146": {
+   "akt": "PS",
+   "nr": "146",
+   "read": [
+    "§ 146. Õigust mõistab ainult kohus. Kohus on oma tegevuses sõltumatu ja mõistab õigust kooskõlas põhiseaduse ja seadustega."
+   ]
+  },
+  "PS § 149": {
+   "akt": "PS",
+   "nr": "149",
+   "read": [
+    "§ 149. Maa- ja linnakohtud ning halduskohtud on esimese astme kohtud.",
+    "Ringkonnakohtud on teise astme kohtud ning nad vaatavad apellatsiooni korras läbi esimese astme kohtu lahendeid.",
+    "Riigikohus on riigi kõrgeim kohus, kes vaatab kohtulahendeid läbi kassatsiooni korras. Riigikohus on ühtlasi põhiseadusliku järelevalve kohus.",
+    "Kohtukorralduse ja kohtumenetluse korra sätestab seadus."
+   ]
+  },
+  "PS § 15": {
+   "akt": "PS",
+   "nr": "15",
+   "read": [
+    "§ 15. Igaühel on õigus pöörduda oma õiguste ja vabaduste rikkumise korral kohtusse. Igaüks võib oma kohtuasja läbivaatamisel nõuda mis tahes asjassepuutuva seaduse, muu õigusakti või toimingu põhiseadusevastaseks tunnistamist.",
+    "Kohus järgib põhiseadust ja tunnistab põhiseadusevastaseks mis tahes seaduse, muu õigusakti või toimingu, mis rikub põhiseaduses sätestatud õigusi ja vabadusi või on muul viisil põhiseadusega vastuolus."
+   ]
+  },
+  "PS § 152": {
+   "akt": "PS",
+   "nr": "152",
+   "read": [
+    "§ 152. Kohus jätab kohtuasja lahendamisel kohaldamata mis tahes seaduse või muu õigusakti, kui see on vastuolus põhiseadusega.",
+    "Riigikohus tunnistab kehtetuks mis tahes seaduse või muu õigusakti, kui see on vastuolus põhiseaduse sätte ja mõttega."
+   ]
+  },
+  "PS § 16": {
+   "akt": "PS",
+   "nr": "16",
+   "read": [
+    "§ 16. Igaühel on õigus elule. Seda õigust kaitseb seadus. Meelevaldselt ei tohi kelleltki elu võtta."
+   ]
+  },
+  "PS § 18": {
+   "akt": "PS",
+   "nr": "18",
+   "read": [
+    "§ 18. Kedagi ei tohi piinata, julmalt või väärikust alandavalt kohelda ega karistada.",
+    "Kedagi ei tohi tema vaba tahte vastaselt allutada meditsiini- ega teaduskatsetele."
+   ]
+  },
+  "PS § 19": {
+   "akt": "PS",
+   "nr": "19",
+   "read": [
+    "§ 19. Igaühel on õigus vabale eneseteostusele.",
+    "Igaüks peab oma õiguste ja vabaduste kasutamisel ning kohustuste täitmisel austama ja arvestama teiste inimeste õigusi ja vabadusi ning järgima seadust."
+   ]
+  },
+  "PS § 20": {
+   "akt": "PS",
+   "nr": "20",
+   "read": [
+    "§ 20. Igaühel on õigus vabadusele ja isikupuutumatusele.",
+    "Vabaduse võib võtta ainult seaduses sätestatud juhtudel ja korras:",
+    "1) süüdimõistva kohtuotsuse või kohtu poolt määratud aresti täitmiseks;",
+    "2) kohtu korralduse täitmata jätmise korral või seadusega sätestatud kohustuse täitmise tagamiseks;",
+    "3) kuriteo või haldusõiguserikkumise ärahoidmiseks, sellises õiguserikkumises põhjendatult kahtlustatava toimetamiseks pädeva riigiorgani ette või tema pakkumineku vältimiseks;",
+    "4) alaealise üle kasvatusliku järelevalve sisseseadmiseks või tema toimetamiseks pädeva riigiorgani ette, et otsustada sellise järelevalve sisseseadmine;",
+    "5) nakkushaige, vaimuhaige, alkohooliku või narkomaani kinnipidamiseks, kui ta on endale või teistele ohtlik;",
+    "6) ebaseadusliku Eestisse asumise tõkestamiseks ning Eestist väljasaatmiseks või välisriigile väljaandmiseks.",
+    "Kelleltki ei tohi võtta vabadust üksnes sel põhjusel, et ta ei ole suuteline täitma mingit lepingulist kohustust."
+   ]
+  },
+  "PS § 23": {
+   "akt": "PS",
+   "nr": "23",
+   "read": [
+    "§ 23. Kedagi ei tohi süüdi mõista teo eest, kui seda tegu ei tunnista kuriteoks seadus, mis oli jõus teo toimepanemise ajal.",
+    "Kellelegi ei tohi mõista raskemat karistust kui see, mida võinuks talle mõista õiguserikkumise toimepanemise ajal. Kui seadus sätestab pärast õiguserikkumise toimepanemist kergema karistuse, kohaldatakse kergemat karistust.",
+    "Kedagi ei tohi teist korda kohtu alla anda ega karistada teo eest, milles teda vastavalt seadusele on mõistetud lõplikult süüdi või õigeks."
+   ]
+  },
+  "PS § 26": {
+   "akt": "PS",
+   "nr": "26",
+   "read": [
+    "§ 26. Igaühel on õigus perekonna- ja eraelu puutumatusele. Riigiasutused, kohalikud omavalitsused ja nende ametiisikud ei tohi kellegi perekonna- ega eraellu sekkuda muidu, kui seaduses sätestatud juhtudel ja korras tervise, kõlbluse, avaliku korra või teiste inimeste õiguste ja vabaduste kaitseks, kuriteo tõkestamiseks või kurjategija tabamiseks."
+   ]
+  },
+  "PS § 27": {
+   "akt": "PS",
+   "nr": "27",
+   "read": [
+    "§ 27. Perekond rahva püsimise ja kasvamise ning ühiskonna alusena on riigi kaitse all.",
+    "Abikaasad on võrdõiguslikud.",
+    "Vanematel on õigus ja kohustus kasvatada oma lapsi ja hoolitseda nende eest.",
+    "Seadus sätestab vanemate ja laste kaitse.",
+    "Perekond on kohustatud hoolitsema oma abivajavate liikmete eest."
+   ]
+  },
+  "PS § 28": {
+   "akt": "PS",
+   "nr": "28",
+   "read": [
+    "§ 28. Igaühel on õigus tervise kaitsele.",
+    "Eesti kodanikul on õigus riigi abile vanaduse, töövõimetuse, toitjakaotuse ja puuduse korral. Abi liigid, ulatuse ning saamise tingimused ja korra sätestab seadus. Kui seadus ei sätesta teisiti, siis on see õigus võrdselt Eesti kodanikuga ka Eestis viibival välisriigi kodanikul ja kodakondsuseta isikul.",
+    "Riik soodustab vabatahtlikku ja omavalitsuse hoolekannet.",
+    "Lasterikkad pered ja puuetega inimesed on riigi ja kohalike omavalitsuste erilise hoole all."
+   ]
+  },
+  "PS § 29": {
+   "akt": "PS",
+   "nr": "29",
+   "read": [
+    "§ 29. Eesti kodanikul on õigus vabalt valida tegevusala, elukutset ja töökohta. Seadus võib sätestada selle õiguse kasutamise tingimused ja korra. Kui seadus ei sätesta teisiti, siis on see õigus võrdselt Eesti kodanikuga ka Eestis viibival välisriigi kodanikul ja kodakondsuseta isikul.",
+    "Kedagi ei tohi sundida tema vaba tahte vastaselt tööle ega teenistusse, välja arvatud kaitseväeteenistus või selle asendusteenistus, tööd nakkushaiguse leviku tõkestamisel, loodusõnnetuse ja katastroofi korral ning töö, mida seaduse alusel ja korras peab tegema süüdimõistetu.",
+    "Riik korraldab kutseõpet ja abistab tööotsijaid töö leidmisel.",
+    "Töötingimused on riigi kontrolli all.",
+    "Töötajate ja tööandjate ühingutesse ja liitudesse kuulumine on vaba. Töötajate ja tööandjate ühingud ja liidud võivad oma õiguste ja seaduslike huvide eest seista vahenditega, mida seadus ei keela. Streigiõiguse kasutamise tingimused ja korra sätestab seadus.",
+    "Töövaidluste lahendamise korra sätestab seadus."
+   ]
+  },
+  "PS § 3": {
+   "akt": "PS",
+   "nr": "3",
+   "read": [
+    "§ 3. Riigivõimu teostatakse üksnes põhiseaduse ja sellega kooskõlas olevate seaduste alusel. Rahvusvahelise õiguse üldtunnustatud põhimõtted ja normid on Eesti õigussüsteemi lahutamatu osa.",
+    "Seadused avaldatakse ettenähtud korras. Täitmiseks kohustuslikud saavad olla üksnes avaldatud seadused."
+   ]
+  },
+  "PS § 33": {
+   "akt": "PS",
+   "nr": "33",
+   "read": [
+    "§ 33. Kodu on puutumatu. Ei tohi tungida kellegi eluruumi, valdusse ega töökohta ega neid ka läbi otsida, välja arvatud seadusega sätestatud juhtudel ja korras avaliku korra, tervise või teiste inimeste õiguste ja vabaduste kaitseks, kuriteo tõkestamiseks, kurjategija tabamiseks või tõe väljaselgitamiseks kriminaalmenetluses."
+   ]
+  },
+  "PS § 37": {
+   "akt": "PS",
+   "nr": "37",
+   "read": [
+    "§ 37. Igaühel on õigus haridusele. Õppimine on kooliealistel lastel seadusega määratud ulatuses kohustuslik ning riigi ja kohalike omavalitsuste üldhariduskoolides õppemaksuta.",
+    "Et teha haridus kättesaadavaks, peavad riik ja kohalikud omavalitsused ülal vajalikul arvul õppeasutusi. Seaduse alusel võib avada ja pidada ka muid õppeasutusi, sealhulgas erakoole.",
+    "Laste hariduse valikul on otsustav sõna vanematel.",
+    "Igaühel on õigus saada eestikeelset õpetust. Õppekeele vähemusrahvuse õppeasutuses valib õppeasutus.",
+    "Hariduse andmine on riigi järelevalve all."
+   ]
+  },
+  "PS § 40": {
+   "akt": "PS",
+   "nr": "40",
+   "read": [
+    "§ 40. Igaühel on südametunnistuse-, usu- ja mõttevabadus.",
+    "Kuulumine kirikutesse ja usuühingutesse on vaba. Riigikirikut ei ole.",
+    "Igaühel on vabadus nii üksinda kui ka koos teistega, avalikult või eraviisiliselt täita usutalitusi, kui see ei kahjusta avalikku korda, tervist ega kõlblust."
+   ]
+  },
+  "PS § 41": {
+   "akt": "PS",
+   "nr": "41",
+   "read": [
+    "§ 41. Igaühel on õigus jääda truuks oma arvamustele ja veendumustele. Kedagi ei tohi sundida neid muutma.",
+    "Veendumustega ei saa vabandada õiguserikkumist.",
+    "Kedagi ei saa veendumuste pärast võtta õiguslikule vastutusele."
+   ]
+  },
+  "PS § 43": {
+   "akt": "PS",
+   "nr": "43",
+   "read": [
+    "§ 43. Igaühel on õigus tema poolt või temale posti, telegraafi, telefoni või muul üldkasutataval teel edastatavate sõnumite saladusele. Erandeid võib kohtu loal teha kuriteo tõkestamiseks või kriminaalmenetluses tõe väljaselgitamiseks seadusega sätestatud juhtudel ja korras."
+   ]
+  },
+  "PS § 44": {
+   "akt": "PS",
+   "nr": "44",
+   "read": [
+    "§ 44. Igaühel on õigus vabalt saada üldiseks kasutamiseks levitatavat informatsiooni.",
+    "Kõik riigiasutused, kohalikud omavalitsused ja nende ametiisikud on kohustatud seaduses sätestatud korras andma Eesti kodanikule tema nõudel informatsiooni oma tegevuse kohta, välja arvatud andmed, mille väljaandmine on seadusega keelatud, ja eranditult asutusesiseseks kasutamiseks mõeldud andmed.",
+    "Eesti kodanikul on õigus seaduses sätestatud korras tutvuda tema kohta riigiasutustes ja kohalikes omavalitsustes ning riigi ja kohalike omavalitsuste arhiivides hoitavate andmetega. Seaduse alusel võib seda õigust piirata teiste inimeste õiguste ja vabaduste ning lapse põlvnemise saladuse kaitseks, samuti kuriteo tõkestamise, kurjategija tabamise või kriminaalmenetluses tõe väljaselgitamise huvides.",
+    "Kui seadus ei sätesta teisiti, siis on käesoleva paragrahvi lõigetes kaks ja kolm nimetatud õigused võrdselt Eesti kodanikuga ka Eestis viibival välisriigi kodanikul ja kodakondsuseta isikul."
+   ]
+  },
+  "PSJKS § 2": {
+   "akt": "PSJKS",
+   "nr": "2",
+   "read": [
+    "§ 2. Riigikohtu pädevus",
+    "Käesoleva seaduse alusel Riigikohus:",
+    "1) lahendab taotlusi kontrollida õigustloova akti või selle andmata jätmise vastavust põhiseadusele;",
+    "2) lahendab taotlusi kontrollida välislepingu vastavust põhiseadusele;",
+    "2^1) lahendab taotlusi anda seisukoht, kuidas tõlgendada põhiseadust koostoimes Euroopa Liidu õigusega;",
+    "[RT I 2005, 68, 524 - jõust. 23.12.2005]",
+    "3) lahendab taotlusi ja kaebusi Riigikogu otsuste peale;",
+    "4) lahendab kaebusi Riigikogu juhatuse otsuste peale;",
+    "5) lahendab kaebusi Vabariigi Presidendi otsuste peale;",
+    "6) lahendab taotlusi tunnistada Riigikogu liige, Vabariigi President, õiguskantsler või riigikontrolör kestvalt võimetuks oma ülesandeid täitma;",
+    "7) lahendab taotlusi lõpetada Riigikogu liikme volitused;",
+    "8) otsustab nõusoleku andmise Riigikogu esimehele Vabariigi Presidendi ülesannetes kuulutada välja Riigikogu erakorralised valimised või keelduda seaduse väljakuulutamisest;",
+    "9) lahendab taotlusi peatada erakonna tegevus või töötajate ja tööandjate ühingu või selle liidu tegevus;",
+    "[RT I, 30.06.2026, 1 - jõust. 01.10.2026]",
+    "10) lahendab kaebusi ja proteste valimiste korraldaja toimingute või valimiskomisjoni otsuste või toimingute peale;",
+    "[RT I, 06.05.2016, 1 - jõust. 01.01.2017]",
+    "11) lahendab taotlusi kontrollida erakorralise või sõjaseisukorra, mobilisatsiooni ja demobilisatsiooni väljakuulutamise ja lõpetamise otsuse, riigikaitselise kriisiolukorra kehtestamise heakskiitmise ja heakskiitmise lõpetamise otsuse ning Eesti Vabariigi territooriumil korraldataval rahvusvahelisel sõjalisel operatsioonil osalemiseks välisriigi relvajõududele riigis viibimise loa andmise otsuse vastavust põhiseadusele, seadusele ja välislepingule või tunnistab need otsused kehtetuks.",
+    "[RT I, 30.06.2026, 1 - jõust. 01.10.2026]"
+   ]
+  },
+  "PagK art 1": {
+   "akt": "PagK",
+   "nr": "1",
+   "read": [
+    "Artikkel 1. Pagulase-mõiste määratlemine",
+    "A. Konventsioonis käsitatakse pagulasena isikut,",
+    "(1) kes on arvatud pagulaseks vastavalt 12. mai 1926. a. või 30. juuni 1928. a. kokkuleppele, 28. oktoobri 1933. a. või 10. veebruari 1938. a. konventsioonile või 14. septembri 1939. a. protokollile või Rahvusvahelise Pagulasorganisatsiooni põhikirjale.",
+    "Rahvusvahelise Pagulasorganisatsiooni otsus pagulaseks tunnistamata jätmise kohta ei keela pagulasseisundit anda isikule, kes vastab A jaotise lõike 2 nõuetele;",
+    "(2) kes enne 1. jaanuari 1951 toimunud sündmuste tagajärjel ning põhjendatult kartes tagakiusamist rassi, usu, rahvuse, sotsiaalsesse gruppi kuulumise või poliitiliste veendumuste pärast viibib väljaspool kodakondsusjärgset riiki ega suuda või kartuse tõttu ei taha saada sellelt riigilt kaitset või kes nimetatud sündmuste tagajärjel viibib kodakondsusetuna väljaspool oma endist asukohariiki ega suuda või kartuse tõttu ei taha sinna tagasi pöörduda.",
+    "Kui isikul on rohkem kui üks kodakondsus, tähendab tema kodakondsusjärgne riik iga riiki, mille kodanik ta on. Isikut ei või pidada kodakondsusjärgse riigi kaitseta jäetuks, kui ta põhjendatud kartusel rajaneva mõjusa põhjuseta ei ole kasutanud mõne oma kodakondsusjärgse riigi kaitset.",
+    "B. (1) Selles konventsioonis tuleb artikli 1 jaotise A sõnastust enne 1. jaanuari 1951 toimunud sündmused mõista kui",
+    "a) enne 1. jaanuari 1951 Euroopas toimunud sündmusi või kui",
+    "b) enne 1. jaanuari 1951 Euroopas või mujal toimunud sündmusi ,",
+    "ning osalisriik peab konventsioonile alla kirjutades, seda ratifitseerides või sellega ühinedes tehtavas deklaratsioonis täpsustama, kumba sätet ta konventsiooniga võetud kohustusi täites kohaldab.",
+    "(2) Esimese võimaluse valinud osalisriik võib oma kohustusi alati laiendada, valides punktis b ette nähtud võimaluse ja teatades sellest ÜRO peasekretärile.",
+    "C. Konventsiooni ei kohaldata jaotises A nimetatud isikule, kui ta",
+    "(1) on vabatahtlikult võtnud uuesti vastu oma kodakondsusjärgse riigi kaitse; või",
+    "(2) olles kaotanud kodakondsuse on selle vabatahtlikult uuesti omandanud; või",
+    "(3) on omandanud uue kodakondsuse ja on oma uue kodakondsuse järgse riigi kaitse all; või",
+    "(4) on vabatahtlikult naasnud riiki, kust ta oli lahkunud või millest väljapoole ta oli jäänud tagakiusamiskartuse tõttu; või",
+    "(5) ei saa oma kodakondsusjärgse riigi kaitsest enam keelduda, sest pagulaseks tunnistamise asjaolud on lakanud olemast;",
+    "Seda lõiget ei kohaldata käesoleva artikli jaotise A lõikes 1 käsitletud pagulasele, kel on mõjuva põhjusena kodakondsusjärgse riigi kaitsest keeldumiseks esitada eelnenud tagakiusamine;",
+    "(6) kodakondsusetuna võib naasta oma asukohariiki, sest pagulaseks tunnistamise asjaolud on lakanud olemast;",
+    "Seda lõiget ei kohaldata käesoleva artikli jaotise A lõikes 1 käsitletud pagulasele, kel on mõjuva põhjusena asukohariiki naasmisest keeldumiseks esitada eelnenud tagakiusamine.",
+    "D. Konventsiooni ei kohaldata isikule, keda kaitseb või abistab ÜRO asutus või allasutus, välja arvatud pagulaste ülemkomissar.",
+    "Kui kaitse või abi on mingil põhjusel lakanud ning isiku seisundit ei ole sellekohastele ÜRO Peaassamblee resolutsioonidele tuginedes määratletud, on tal ipso facto õigus saada selle konventsiooniga ette nähtud soodustusi.",
+    "E. Konventsiooni ei kohaldata isikule, kelle kohta on uue asukohariigi ametiisikud tunnistanud, et tal on selle kodanikega ühesugused õigused ja kohustused.",
+    "F. Konventsiooni ei kohaldata isikule, kelle osas on kaalukaid põhjusi arvata, et",
+    "a) ta on pannud toime rahvusvahelistes õigusaktides määratletud rahuvastase kuriteo, sõjakuriteo või inimsusevastase kuriteo;",
+    "b) ta on enne varjupaigamaale pagulasena sisselaskmist pannud toime raske mittepoliitilise kuriteo; või",
+    "c) ta on süüdi ÜRO eesmärkide ja põhimõtetega vastuolus olevate tegude toimepanemises."
+   ]
+  },
+  "PagK art 33": {
+   "akt": "PagK",
+   "nr": "33",
+   "read": [
+    "Artikkel 33. Välja- või tagasisaatmise lubamatus ( refoulement)",
+    "1. 1. Osalisriik ei saada pagulast oma territooriumilt välja ega tagasi (“refouler”) mis tahes viisil selle territooriumi piiridele, kus tema elu või vabadus on ohus mingisse rassi, rahvusesse või usku või sotsiaalsesse gruppi kuulumise või poliitiliste veendumuste tõttu.(õ)",
+    "2. Sätet ei kohaldata pagulasele, kelle suhtes on põhjendatud kartus, et ta võib asetada ohtu riigi julgeoleku või kes on kohtuotsuse alusel mõistetud süüdi eriti raskes kuriteos ja on seetõttu ühiskonnaohtlik."
+   ]
+  },
+  "RVastS § 1": {
+   "akt": "RVastS",
+   "nr": "1",
+   "read": [
+    "§ 1. Seaduse reguleerimisala",
+    "(1) Käesolev seadus sätestab avaliku võimu volituste rakendamisel ja muude avalike ülesannete täitmisel rikutud õiguste kaitse ja taastamise ning tekitatud kahju hüvitamise alused ja korra (riigivastutus).",
+    "(2) Käesolev seadus ei reguleeri õiguste taastamist ega kahju hüvitamist eraõiguslikus suhtes.",
+    "(3) Kahju tekitamisena eraõiguslikus suhtes käsitatakse kahju tekitamist avaliku võimu kandja poolt:",
+    "1) võlaõigussuhtest tuleneva kohustuse rikkumisel, sealhulgas eraõiguslikus vormis veo-, ravi- või muu teenuse osutamisel;",
+    "2) kinnisasja, tee, veekogu või muu asja omanikuna oma kohustusi, välja arvatud liiklusseaduse §-s 6 sätestatud kohustusi, rikkudes;",
+    "[RT I 2010, 44, 261 - jõust. 01.07.2011]",
+    "3) liikluses osalemisel või ohtliku seadme kasutamisel või aine valdamisel, kasutamata avaliku võimu kandja eriõigusi;",
+    "4) muul viisil eraõiguslikus vormis tegutsedes."
+   ]
+  },
+  "Rooma art 1": {
+   "akt": "Rooma",
+   "nr": "1",
+   "read": [
+    "Artikkel 1. Kohus",
+    "Statuudiga asutatakse Rahvusvaheline Kriminaalkohus (kohus). Kohus on alaline institutsioon, kellel on õigus statuudis viidatud üliraskete rahvusvaheliste kuritegude eest vastutavate isikute suhtes teostada oma jurisdiktsiooni, ning ta täiendab riiklikke kriminaaljurisdiktsioone. Kohtu jurisdiktsioon ja töökord määratakse kindlaks statuudiga."
+   ]
+  },
+  "Rooma art 12": {
+   "akt": "Rooma",
+   "nr": "12",
+   "read": [
+    "Artikkel 12. Jurisdiktsiooni teostamise eeltingimused",
+    "1. Statuudi osaliseks saanud riik tunnustab kohtu jurisdiktsiooni artiklis 5 nimetatud kuritegude suhtes.",
+    "2. Artikli 13 lõigetes a ja b nimetatud juhul võib kohus teostada oma jurisdiktsiooni, kui vähemalt üks allpool nimetatud riikidest on statuudi osaline või kui nad on tunnustanud kohtu jurisdiktsiooni vastavalt lõikele 3:",
+    "(a) riik, mille territooriumil vaidluse all olev tegevus on toimunud või, kui kuritegu on toime pandud vee- või õhusõiduki pardal, siis vee- või õhusõiduki registreerimise riik;",
+    "(b) riik, mille kodanik on kuriteos süüdistatav isik.",
+    "3. Kui lõike 2 kohaselt on vaja selle riigi nõusolekut, kes ei ole statuudi osaline, võib see riik registripidajale esitatud deklaratsiooniga tunnustada kohtu jurisdiktsiooni vaidluse all oleva kuriteo suhtes. Jurisdiktsiooni tunnustanud riik teeb 9. osa kohaselt kohtuga koostööd viivitamata ja ilma eranditeta."
+   ]
+  },
+  "Rooma art 13": {
+   "akt": "Rooma",
+   "nr": "13",
+   "read": [
+    "Artikkel 13. Jurisdiktsiooni teostamine",
+    "Kohus võib kooskõlas statuudiga teostada oma jurisdiktsiooni artiklis 5 nimetatud kuritegude suhtes, kui:",
+    "(a) osalisriik teatab prokurörile artikli 14 alusel olukorrast, kus väidetavasti on toime pandud üks või mitu sellist kuritegu;",
+    "(b) ÜRO põhikirja VII peatüki alusel tegutsev Julgeolekunõukogu teatab prokurörile olukorrast, kus väidetavasti on toime pandud üks või mitu sellist kuritegu;",
+    "(c) prokurör on algatanud sellise kuriteo suhtes eeluurimise kooskõlas artikliga 15."
+   ]
+  },
+  "Rooma art 17": {
+   "akt": "Rooma",
+   "nr": "17",
+   "read": [
+    "Artikkel 17. Asja vastuvõetavus",
+    "1. Silmas pidades preambuli 10. lõiku ja artiklit 1 teeb kohus kindlaks, et asi on vastuvõetamatu juhtudel, kus:",
+    "(a) asja uurib ja isiku võtab vastutusele riik, kellel on jurisdiktsioon selle asja suhtes, välja arvatud, kui riik ei taha asja uurida ega isikut vastutusele võtta või ei ole tõepoolest võimeline seda tegema;",
+    "(b) asja on uurinud riik, kellel on jurisdiktsioon selle asja suhtes, ning see riik on otsustanud jätta asjaomane isik vastutusele võtmata, välja arvatud, kui otsusele jõuti riigi tahtmatuse või võimetuse tõttu vastutuselevõtmist läbi viia;",
+    "(c) asjaomane isik on kaebuse aluseks oleva käitumise eest juba vastutusele võetud, ning kohtulik arutamine ei ole lubatud artikli 20 lõike 3 kohaselt;",
+    "(d) asi ei ole piisavalt tõsine, et õigustada kohtu edasist tegevust.",
+    "2. Konkreetses asjas tahtmatuse kindlakstegemiseks arutab kohus rahvusvahelises õiguses tunnustatud õiglase kohtupidamise põhimõtteid silmas pidades seda, kas eksisteerib mõni järgmistest asjaoludest:",
+    "(a) menetlus algatati või algatatakse või siseriiklik otsus tehti, et kaitsta asjaomast isikut kriminaalvastutuse eest artikli 5 kohaselt kohtu jurisdiktsiooni alla kuuluvate kuritegude toimepanemise eest;",
+    "(b) menetluses on olnud põhjendamatu viivitus, mis selles olukorras ei ole kooskõlas kavatsusega asjaomane isik vastutusele võtta;",
+    "(c) menetlust ei viidud või ei viida läbi sõltumatult ega erapooletult, ning menetlust viidi või viiakse läbi viisil, mis selles olukorras ei ole kooskõlas kavatsusega asjaomane isik vastutusele võtta.",
+    "3. Konkreetses asjas võimetuse kindlakstegemiseks arutab kohus, kas riik on siseriikliku kohtusüsteemi täieliku või osalise kokkukukkumise või kättesaadamatuse tõttu võimetu koguma vajalikke süütõendeid ja ütlusi või on muul põhjusel võimetu menetlust läbi viima."
+   ]
+  },
+  "Rooma art 25": {
+   "akt": "Rooma",
+   "nr": "25",
+   "read": [
+    "Artikkel 25. Individuaalne kriminaalvastutus",
+    "1. Statuudi kohaselt on kohtul jurisdiktsioon füüsiliste isikute suhtes.",
+    "2. Kohtu jurisdiktsiooni alla kuuluva kuriteo toimepannud isik vastutab isiklikult ning teda saab karistada kooskõlas statuudiga.",
+    "3. Statuudi kohaselt on isik kriminaalkorras vastutav ning teda saab karistada kohtu jurisdiktsiooni alla kuuluva kuriteo eest, kui ta:",
+    "(a) paneb toime sellise kuriteo kas üksi, koos kellegi teisega või teise isiku kaudu, sõltumata sellest, kas teine isik on kriminaalkorras vastutav;",
+    "(b) käsib või palub tegelikkuses toime pandava kuriteo või selle katse toime panna või mõjutab selle toimepanemist;",
+    "(c) eesmärgiga soodustada sellise kuriteo toimepanemist, aitab sellele kaasa, kihutab sellele või muul moel võtab osa kuriteo toimepanemisest või selle katsest, sealhulgas loob tingimused kuriteo toimepanekuks;",
+    "(d) muul moel toetab sellise kuriteo toimepanemist või toimepanemise katset ühisel eesmärgil tegutseva isikute grupi poolt. Toetus peab olema tahtlik ning:",
+    "(i) selle eesmärk peab olema soodustada grupi kriminaalset tegevust või kavatsusi, kui tegevus või kavatsus hõlmab kohtu jurisdiktsiooni alla kuuluva kuriteo toimepanemist;",
+    "(ii) tehtud teadlikuna grupi kavatsusest kuritegu toime panna;",
+    "(e) genotsiidi puhul õhutab otseselt ja avalikult teisi genotsiidi toime panema;",
+    "(f) teeb katse toime panna sellist kuritegu tegevuse kaudu, mille toimepanemist alustatakse olulise sammuga, kuid kuritegu ei suudeta lõpule viia asjaolude tõttu, mis ei sõltu isiku kavatsustest. Isikut, kes loobub kuriteo toimepanemisest või muul moel takistab kuriteo toimepanemist, ei karistata statuudi kohaselt kuriteokatse eest, kui ta täielikult ja vabatahtlikult loobus kriminaalsetest kavatsustest.",
+    "4. Individuaalset kriminaalvastutust reguleeriv ükski statuudi säte ei mõjuta riikide vastutust rahvusvahelise õiguse järgi."
+   ]
+  },
+  "Rooma art 26": {
+   "akt": "Rooma",
+   "nr": "26",
+   "read": [
+    "Artikkel 26. Jurisdiktsiooni puudumine alla 18-aastaste isikute suhtes",
+    "Kohtul ei ole jurisdiktsiooni isikute suhtes, kes kuriteo toimepanemise ajal olid alla 18-aastased."
+   ]
+  },
+  "Rooma art 5": {
+   "akt": "Rooma",
+   "nr": "5",
+   "read": [
+    "Artikkel 5. Kohtu jurisdiktsiooni alla kuuluvad kuriteod",
+    "1. Kohtu jurisdiktsiooni alla kuuluvad vaid rahvusvahelisele üldsusele enim muret tekitavad kuriteod. Statuudi kohaselt on kohtul jurisdiktsioon järgmiste kuritegude suhtes:",
+    "(a) genotsiid;",
+    "(b) inimsusevastased kuriteod;",
+    "(c) sõjakuriteod;",
+    "(d) agressioon.",
+    "2. Kohtul on jurisdiktsioon agressiooni suhtes, kui artiklite 121 ja 123 kohaselt on vastu võetud säte, millega defineeritakse kuritegu ja määratakse kindlaks tingimused, mille alusel võib kohus oma jurisdiktsiooni nimetatud kuriteo suhtes kasutada. Asjaomane säte peab olema kooskõlas ÜRO põhikirja asjaomaste sätetega."
+   ]
+  },
+  "Rooma art 77": {
+   "akt": "Rooma",
+   "nr": "77",
+   "read": [
+    "Artikkel 77. Kohaldatavad karistused",
+    "1. Artikli 110 kohaselt võib kohus artikli 5 alusel kuritöös süüdimõistetud isikule määrata ühe järgmistest karistustest:",
+    "(a) teatud aastate pikkune vangistus, kuid mitte rohkem kui 30 aastat; või",
+    "(b) eluaegne vangistus, kui süüdimõistetu isikuomadused ja kuriteo raskusaste seda karistust õigustavad.",
+    "2. Lisaks vangistusele võib kohus:",
+    "(a) määrata trahvi vastavalt protseduuri- ja tõendite esitamise reeglitele;",
+    "(b) konfiskeerida kuriteo toimepanemisega otseselt või kaudselt saadud tulu, vara ja vahendid, kahjustamata heausksete kolmandate isikute õigusi."
+   ]
+  },
+  "VRKS § 1": {
+   "akt": "VRKS",
+   "nr": "1",
+   "read": [
+    "§ 1. Seaduse reguleerimisala",
+    "(1) Käesoleva seadusega reguleeritakse välismaalasele rahvusvahelise kaitse andmise aluseid, rahvusvahelist kaitset taotleva välismaalase ja rahvusvahelise kaitse saanud välismaalase õiguslikku seisundit, rahvusvahelist kaitset taotlenud välismaalasele taustakontrolli tegemist, välismaalasele ajutise kaitse andmise aluseid, rahvusvahelise kaitse taotleja (edaspidi ka taotleja) ja saaja ning ajutise kaitse saaja Eestisse vastuvõtmist, välismaalase vastutavale Euroopa Liidu liikmesriigile üleandmist, Eesti osalemist Euroopa Liidu solidaarsusmehhanismis, rahvusvahelise kaitse saanud välismaalase Eestisse ümberasustamise aluseid ning Eestis ajutise viibimise, elamise ja töötamise õiguslikke aluseid ulatuses, mis ei ole reguleeritud järgmiste Euroopa Liidu õigusaktidega (edaspidi Euroopa ühise rahvusvahelise kaitse süsteemi õigusaktid):",
+    "1) Euroopa Parlamendi ja nõukogu määrus (EL) 2024/1347, mis käsitleb nõudeid, millele kolmandate riikide kodanikud ja kodakondsuseta isikud peavad vastama, et kvalifitseeruda rahvusvahelise kaitse saajaks, ning nõudeid pagulaste või täiendava kaitse saamise kriteeriumidele vastavate isikute ühetaolisele seisundile ja antava kaitse sisule, millega muudetakse nõukogu direktiivi 2003/109/EÜ ja tunnistatakse kehtetuks Euroopa Parlamendi ja nõukogu direktiiv 2011/95/EL (ELT L, 2024/1347, 22.05.2024);",
+    "2) Euroopa Parlamendi ja nõukogu määrus (EL) 2024/1348, millega luuakse rahvusvahelise kaitse ühine menetlus liidus ja tunnistatakse kehtetuks direktiiv 2013/32/EL (ELT L, 2024/1348, 22.05.2024);",
+    "3) Euroopa Parlamendi ja nõukogu määrus (EL) 2024/1350, millega luuakse liidu ümberasustamise ja humanitaarsetel põhjustel vastuvõtmise raamistik ning muudetakse määrust (EL) 2021/1147 (ELT L, 2024/1350, 22.05.2024);",
+    "4) Euroopa Parlamendi ja nõukogu määrus (EL) 2024/1351, mis käsitleb varjupaiga- ja rändehaldust ning millega muudetakse määruseid (EL) 2021/1147 ja (EL) 2021/1060 ning tunnistatakse kehtetuks määrus (EL) nr 604/2013 (ELT L, 2024/1351, 22.05.2024);",
+    "5) Euroopa Parlamendi ja nõukogu määrus (EL) 2024/1356, millega kehtestatakse kolmanda riigi kodanike taustakontroll välispiiridel ning muudetakse määrusi (EÜ) nr 767/2008, (EL) 2017/2226, (EL) 2018/1240 ja (EL) 2019/817 (ELT L, 2024/1356, 22.05.2024);",
+    "6) Euroopa Parlamendi ja nõukogu määrus (EL) 2024/1358, millega luuakse biomeetriliste andmete võrdlemise Eurodac-süsteem, et kohaldada tulemuslikult Euroopa Parlamendi ja nõukogu määruseid (EL) 2024/1351 ja (EL) 2024/1350 ja nõukogu direktiivi 2001/55/EÜ ning tuvastada ebaseaduslikult riigis viibivad kolmanda riigi kodanikud ja kodakondsuseta isikud, ning mis käsitleb liikmesriikide õiguskaitseasutuste ja Europoli päringuid andmete võrdlemiseks Eurodac-süsteemi andmetega õiguskaitse eesmärgil ning millega muudetakse Euroopa Parlamendi ja nõukogu määruseid (EL) 2018/1240 ja (EL) 2019/818 ja tunnistatakse kehtetuks Euroopa Parlamendi ja nõukogu määrus (EL) nr 603/2013 (ELT L, 2024/1358, 22.05.2024);",
+    "7) Euroopa Parlamendi ja nõukogu määrus (EL) 2024/1359, mis käsitleb kriisiolukordi ja vääramatu jõu olukordi rände- ja varjupaigaküsimuste valdkonnas ning millega muudetakse määrust (EL) 2021/1147 (ELT L, 2024/1359, 22.05.2024).",
+    "(2) Käesolevas seaduses ettenähtud haldusmenetlusele kohaldatakse haldusmenetluse seaduse sätteid, arvestades käesolevas seaduses sätestatud erisusi.",
+    "(3) Massilisest sisserändest põhjustatud hädaolukorda käsitatakse käesolevas seaduses väljasõidukohustuse ja sissesõidukeelu seaduse tähenduses.",
+    "[RT I, 30.06.2026, 1 - jõust. 01.10.2026]",
+    "(4) Käesolevas seaduses massilisest sisserändest põhjustatud hädaolukorra kohta sätestatut võib kohaldada ka kriisiolukorra ajal.",
+    "[RT I, 30.06.2026, 1 - jõust. 01.10.2026]"
+   ]
+  },
+  "VRKS § 2": {
+   "akt": "VRKS",
+   "nr": "2",
+   "read": [
+    "§ 2. Euroopa ühise rahvusvahelise kaitse süsteemi õigusaktide terminite kasutamine",
+    "Käesolevas seaduses kasutatakse käesoleva seaduse §-s 1 nimetatud Euroopa ühise rahvusvahelise kaitse süsteemi õigusaktides määratletud termineid."
+   ]
+  },
+  "VRKS § 4": {
+   "akt": "VRKS",
+   "nr": "4",
+   "read": [
+    "§ 4. Lõplik otsus ja selle vaidlustamine",
+    "(1) Lõplik otsus käesoleva seaduse tähenduses on:",
+    "1) rahvusvahelise kaitse taotluse (edaspidi ka taotlus) kohta tehtud keelduv otsus (edaspidi ka keelduv otsus) või rahvusvahelise kaitse äravõtmise otsus, mida ei ole kaebetähtajaks halduskohtus vaidlustatud;",
+    "2) taotluse kohta tehtud keelduv otsus või rahvusvahelise kaitse äravõtmise otsus, mille peale esitatud kaebuse on halduskohus jätnud rahuldamata;",
+    "3) otsus tunnustada taotlejat pagulase või täiendava kaitse saajana ja anda talle rahvusvaheline kaitse.",
+    "(2) Lõpliku otsuse tegemisel lõpeb rahvusvahelise kaitse menetlus.",
+    "(3) Taotluse kohta tehtud keelduva otsuse peale võib esitada kaebuse halduskohtule."
+   ]
+  },
+  "VRKS § 52": {
+   "akt": "VRKS",
+   "nr": "52",
+   "read": [
+    "§ 52. Välja- ja tagasisaatmise lubamatus",
+    "Politsei- ja Piirivalveamet järgib välja- ja tagasisaatmise lubamatuse põhimõtet kooskõlas Euroopa Liidu ja rahvusvahelise õigusega."
+   ]
+  },
+  "VangS § 12": {
+   "akt": "VangS",
+   "nr": "12",
+   "read": [
+    "§ 12. Eraldihoidmise printsiip",
+    "(1) Vanglas hoitakse eraldi:",
+    "1) mehi ja naisi;",
+    "2) alaealisi ja täiskasvanuid;",
+    "3) kinnipeetavaid ja vahistatuid;",
+    "4) isikuid, keda nende endise ametialase tegevuse tõttu ähvardab kättemaksuoht;",
+    "5) [kehtetu - RT I, 05.07.2013, 2 - jõust. 15.07.2013]",
+    "6) arestialuseid;",
+    "[RT I, 03.03.2021, 1 - jõust. 04.03.2021]",
+    "7) kainenema toimetatud joobeseisundis isikuid.",
+    "[RT I, 03.03.2021, 1 - jõust. 04.03.2021]",
+    "(2) Erandkorras võib vanglateenistus paigutada kinnipeetavaid eraldi ka käesoleva paragrahvi lõikes 1 nimetamata tunnuste alusel.",
+    "[RT I 2009, 39, 261 - jõust. 24.07.2009]",
+    "(3) Kinnises vanglas on eraldihoidmise printsiibi täitmiseks teineteisest eraldatud osakonnad ja kambrid.",
+    "(4) Avavanglas arvestatakse käesoleva paragrahvi lõikes 1 sätestatut kinnipeetavate jaotamisel kohtlemisgruppidesse.",
+    "(5) Käesoleva paragrahvi lõikes 1 nimetatud eraldihoidmise printsiipidest võib teha erandeid, kui see on vajalik seoses õppimise, töötamise või muu tegevusega või kui alaealise eraldamine täiskasvanutest on vastuolus alaealise huvidega.",
+    "[RT I, 20.12.2019, 1 - jõust. 30.12.2019]"
+   ]
+  },
+  "VangS § 1^1": {
+   "akt": "VangS",
+   "nr": "1^1",
+   "read": [
+    "§ 1^1. Haldusmenetluse seaduse kohaldamine",
+    "(1) Käesolevas seaduses ja selle alusel ettenähtud haldusmenetlusele kohaldatakse haldusmenetluse seaduse sätteid, arvestades käesoleva seaduse erisusi.",
+    "[RT I 2006, 63, 466 - jõust. 01.01.2008]",
+    "(2) Käesolevas seaduses ja selle alusel ettenähtud haldusmenetlusele ei kohaldata haldusmenetluse seaduse § 31 lõike 1 punkti 1, § 35 lõiget 2 ja § 62 lõike 3 punkti 1.",
+    "[RT I 2006, 63, 466 - jõust. 01.01.2008]",
+    "(3) Alaealine ja muu piiratud teovõimega isik võivad haldusmenetluses iseseisvalt menetlustoiminguid teha.",
+    "[RT I 2006, 63, 466 - jõust. 01.01.2008]",
+    "(4) Kõik vaided ja taotlused haldusmenetluse algatamiseks või haldusmenetluse käigus esitatakse kirjalikult, kui valdkonna eest vastutav minister ei ole määrusega lubanud ka suulise taotluse esitamist. Turvalise tehnilise võimekuse olemasolu korral võib vangla võimaldada vaiete, taotluste ja muude pöördumiste koostamist ning esitamist kirjaliku vormi asemel elektroonilises vormis. Elektroonilises vormis esitatud vaie, taotlus või muu pöördumine kinnitatakse elektrooniliselt.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]",
+    "(4^1) Justiits- ja Digiministeerium vaatab läbi vangla direktori haldusakti või toimingu peale esitatud vaideid. Vanglateenistus vaatab läbi muu vanglas töötava isiku haldusakti või toimingu peale esitatud vaideid.",
+    "[RT I, 20.12.2012, 3 - jõust. 01.01.2013]",
+    "(5) Kinnipeetaval, arestialusel või vahistatul on õigus esitada vangla haldusakti või toimingu peale kaebus halduskohtule halduskohtumenetluse seadustikus sätestatud alustel ja korras tingimusel, et kinnipeetav, arestialune või vahistatu on eelnevalt esitanud vaide vanglateenistusele või Justiits- ja Digiministeeriumile ning vanglateenistus või Justiits- ja Digiministeerium on vaide tagastanud, osaliselt rahuldanud, rahuldamata või tähtaegselt lahendamata jätnud.",
+    "[RT I, 03.03.2021, 1 - jõust. 04.03.2021]",
+    "(6) [Kehtetu - RT I 2009, 39, 261 - jõust. 24.07.2009]",
+    "(7) Vaie lahendatakse 30 päeva jooksul, arvates vaide edastamisest vaiet läbivaatavale haldusorganile.",
+    "[RT I 2006, 63, 466 - jõust. 01.01.2008]",
+    "(8) Vangla tekitatud kahju hüvitamiseks on kinnipeetaval, arestialusel või vahistatul õigus halduskohtu poole pöörduda tingimusel, et kinnipeetav, arestialune või vahistatu on eelnevalt esitanud riigivastutuse seaduses sätestatud korras kahju hüvitamise taotluse vanglale ning vangla on taotluse tagastanud või rahuldamata või tähtaegselt läbi vaatamata jätnud.",
+    "[RT I, 03.03.2021, 1 - jõust. 04.03.2021]",
+    "(8^1) Kui vaie või taotlus tagastatakse põhjusel, et vaide või taotluse esitaja ei ole määratud tähtajaks vaides või taotluses puudusi kõrvaldanud, ei ole kinnipeetaval, arestialusel või vahistatul õigust pöörduda kaebusega sama vaidemenetluse eseme või kahju hüvitamise taotluse osas halduskohtu poole.",
+    "[RT I, 03.03.2021, 1 - jõust. 04.03.2021]",
+    "(9) Arestimaja vaideid lahendatakse haldusmenetluse üldises korras.",
+    "[RT I 2006, 63, 466 - jõust. 01.01.2008]",
+    "(10) Kinnipeetav kinnitab käesolevas seaduses sätestatud juhtudel dokumentide kättesaamise või nendega tutvumise allkirjaga. Turvalise tehnilise võimekuse olemasolu korral võib vanglateenistus lubada kinnipeetaval haldusaktide ja muude dokumentide kättesaamist või nendega tutvumist kinnitada ka elektrooniliselt.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]"
+   ]
+  },
+  "VangS § 23": {
+   "akt": "VangS",
+   "nr": "23",
+   "read": [
+    "§ 23. Kinnipeetava vanglavälise suhtlemise eesmärk",
+    "(1) Kinnipeetava vanglavälise suhtlemise eesmärk on soodustada kinnipeetava kontakte perekonna, sugulaste ja teiste lähedaste inimestega, et vältida kinnipeetava sotsiaalsete sidemete katkemist.",
+    "(2) Vanglateenistus soodustab kinnipeetava vanglavälist suhtlemist.",
+    "[RT I 2009, 39, 261 - jõust. 24.07.2009]"
+   ]
+  },
+  "VangS § 24": {
+   "akt": "VangS",
+   "nr": "24",
+   "read": [
+    "§ 24. Kinnipeetava lühiajalised kokkusaamised",
+    "(1) Kinnipeetavale on lubatud vähemalt üks kord kuus järelevalve all kokku saada oma perekonnaliikmete ja teiste isikutega, kelle maine osas ei ole vanglateenistusel põhjendatud kahtlusi. Turvalise tehnilise võimekuse olemasolu korral võib vanglateenistus võimaldada lühiajalist kokkusaamist telesilla vahendusel.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]",
+    "(1^1) Lühiajalise kokkusaamise loa andmisest keeldutakse, kui:",
+    "1) kokkusaamine ei ole kooskõlas vangistuse täideviimise eesmärkidega;",
+    "2) kokkusaamine võib ohustada vangla julgeolekut või korda;",
+    "3) kokkusaaja maines on alust kahelda või",
+    "4) kokkusaamine võib ohustada kokkusaaja või kinnipeetava tervist ja heaolu.",
+    "[RT I, 20.12.2012, 3 - jõust. 01.01.2013]",
+    "(2) Lühiajalise kokkusaamise kestus on kuni neli tundi. Kokkusaamiste kord sätestatakse vangla sisekorraeeskirjades.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]",
+    "(3) [Kehtetu - RT I 2006, 63, 466 - jõust. 01.02.2007]",
+    "(4) Vanglateenistus võimaldab distsiplinaarkaristuse kandmiseks kartserisse paigutatud kinnipeetavale lühiajalisi kokkusaamisi perekonnaliikmetega.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]",
+    "(5) Kui käesoleva seaduse alusel võimaldatakse lühiajalist kokkusaamist telesilla vahendusel, on vanglateenistusel õigus kokkusaamise võimaldamiseks nõuda ja töödelda järgmisi andmeid:",
+    "1) kokkusaamiseks kasutatava seadme internetiaadress;",
+    "2) kokkusaaja või kokkusaajate ees- ja perekonnanimi, isikukood või sünniaeg, autenditud kasutaja identifikaator, autentimise aeg, mobiil-ID-ga autentimise korral mobiiltelefoni number;",
+    "3) kõne identifikaator;",
+    "4) ühenduse loomise katse aeg;",
+    "5) ühenduse algusaeg;",
+    "6) ühenduse lõppaeg;",
+    "7) ühenduse kestus;",
+    "8) ühenduse loomise ebaõnnestumise või ühenduse katkemise korral selle aeg ja põhjus.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]"
+   ]
+  },
+  "VangS § 25": {
+   "akt": "VangS",
+   "nr": "25",
+   "read": [
+    "§ 25. Kinnipeetava pikaajalised kokkusaamised",
+    "(1) Kinnipeetavale võimaldatakse pikaajalisi kokkusaamisi abikaasa, registreeritud elukaaslase, isa, ema, vanaisa, vanaema, lapse, lapselapse, lapsendaja, lapsendatu, võõras- või kasuvanema, võõras- või kasulapse, venna või õega. Pikaajalisi kokkusaamisi faktilise abikaasaga lubatakse tingimusel, et neil on ühised lapsed või vähemalt kaks aastat väldanud kooselu enne karistuse kandmise algust.",
+    "[RT I, 06.07.2023, 6 - jõust. 01.01.2024]",
+    "(1^1) Pikaajalise kokkusaamise loa andmisest keeldutakse, kui:",
+    "1) kokkusaamine ei ole kooskõlas vangistuse täideviimise eesmärkidega;",
+    "2) kokkusaamine võib ohustada vangla julgeolekut või korda;",
+    "3) kokkusaaja maines on alust kahelda või",
+    "4) kokkusaamine võib ohustada kokkusaaja või kinnipeetava tervist ja heaolu.",
+    "[RT I, 20.12.2012, 3 - jõust. 01.01.2013]",
+    "(2) Pikaajaline kokkusaamine on üks ööpäev kestev kooselamine vangla selleks ettenähtud ruumides ilma pideva järelevalveta. Põhjendatud juhtudel võib vanglateenistuse ametnik kinnipeetava pikaajalise kokkusaamise taotluse lahendamisel pikendada pikaajalist kokkusaamist kuni kolme ööpäevani, kui see on kooskõlas vangistuse täideviimise eesmärkidega ning kinnipeetava käitumine on karistuse kandmise ajal olnud hea. Pikaajaliste kokkusaamiste kord, sagedus ja kokkusaajatele lubatud asjade loetelu sätestatakse vangla sisekorraeeskirjas.",
+    "[RT I 2009, 39, 261 - jõust. 24.07.2009]",
+    "(3) Pikaajalisi kokkusaamisi ei võimaldata avavanglas viibivale kinnipeetavale.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]",
+    "(4) Pikaajaliste kokkusaamiste kulud kannab kinnipeetav või kokkusaamisele tulnud isik. Kuludeks loetakse ruumide kasutamisele, kokkusaaja toitlustamisele ja hügieenivahenditele tehtud kulutused.",
+    "[RT I 2008, 17, 118 - jõust. 01.06.2008]",
+    "(5) Pikaajaliste kokkusaamiste kulude määrad, nende arvestamise ja hüvitamise korra kehtestab valdkonna eest vastutav minister määrusega.",
+    "[RT I 2008, 17, 118 - jõust. 01.06.2008]"
+   ]
+  },
+  "VangS § 26": {
+   "akt": "VangS",
+   "nr": "26",
+   "read": [
+    "§ 26. Kinnipeetava kokkusaamised kaitsja, advokaadist esindaja, vaimuliku, notari ja oma riigi konsulaartöötajaga",
+    "(1) Kinnipeetaval on õigus piiramatult kohtuda oma kaitsja, advokaadist esindaja, vaimuliku ja oma riigi konsulaartöötajaga ning tõestamistoimingu tegemiseks notariga. Kokkusaamised toimuvad segamatult. Turvalise tehnilise võimekuse olemasolu korral võib vanglateenistus võimaldada kokkusaamist telesilla vahendusel.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]",
+    "(2) Kaitsjal, advokaadist esindajal või konsulaartöötajal on lubatud kinnipeetavale üle anda kaitse ettevalmistamiseks vajalikke materjale. Kaitsja, advokaadist esindaja või konsulaartöötaja poolt kaasa toodud kirjalike materjalide ning notari dokumentide sisuline läbivaatus on keelatud.",
+    "[RT I 2006, 63, 466 - jõust. 01.02.2007]"
+   ]
+  },
+  "VangS § 27": {
+   "akt": "VangS",
+   "nr": "27",
+   "read": [
+    "§ 27. Kinnipeetava kokkusaamise jälgimine",
+    "(1) Vanglateenistuse ametnikul on õigus kinnipeetavaga kokkusaamisele lubatud isik ja tema asjad läbi otsida. Käesoleva seaduse §-s 26 nimetatud isikute läbiotsimine on lubatud vaid põhjendatud kahtluse korral. Läbiotsimise viib läbi külastajaga samast soost vanglateenistuse ametnik. Asjad, mille omamine vanglas on keelatud, võtab vanglateenistus kokkusaamise ajaks ajutisele hoiule.",
+    "(1^1) Kui kokkusaaja toob kokkusaamisele kaasa ravimeid või meditsiiniseadmeid, on vanglateenistuse ametnikul õigus küsida nende tarvitamise vajadust tõendavat tervishoiuteenuse osutamise käigus koostatud dokumenti. Käsimüügiravimeid võib vajaduse korral kaasa võtta vanglateenistuse poolt lubatud mõistlikus koguses.",
+    "[RT I, 31.12.2024, 4 - jõust. 10.01.2025]",
+    "(2) Lühiajalisi kokkusaamisi kinnipeetavaga võimaldatakse vanglateenistuse ametniku järelevalve all. Lühiajalistel kokkusaamistel võib vangla juhtkonna teadmisel lisaks vanglateenistuse ametnikule viibida julgeolekuasutuse ametnik, kui kinnipeetav on toime pannud karistusseadustiku 15. peatükis sätestatud riigivastase süüteo. Kokkusaamisi kaitsja, advokaadist esindaja, vaimuliku, notari ja oma riigi konsulaartöötajaga on vanglateenistuse ametnikul lubatud jälgida, kuid mitte pealt kuulata.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]",
+    "(3) Vanglateenistuse ametnikul on õigus lühiajaline kokkusaamine kohe katkestada, kui see võib ohustada vangla julgeolekut või korda või kokkusaamine võib kahjustada karistuse eesmärki või soodustada uue kuriteo toimepanemist. Kinnipeetava kokkusaamise kaitsjaga võib katkestada vanglas keelatud eseme või aine üleandmise takistamiseks ning isiku elu ja tervise kaitseks.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]",
+    "(4) Julgeolekuasutuse ametnikul on õigus lühiajaline kokkusaamine kohe katkestada, kui sellest võib tuleneda oht riigi julgeolekule või see võib soodustada uue kuriteo toimepanemist. Katkestada ei ole lubatud kokkusaamist kaitsjaga.",
+    "(5) Kinnipeetaval on õigus esitada julgeolekuasutuse ametniku poolt kohtumise katkestamisega mittenõustumisel kirjalik vaie julgeolekuasutusele haldusmenetluse seaduses sätestatud korras või kaebus halduskohtule halduskohtumenetluse seadustikus sätestatud korras.",
+    "[RT I, 20.12.2012, 3 - jõust. 01.01.2013]"
+   ]
+  },
+  "VangS § 28": {
+   "akt": "VangS",
+   "nr": "28",
+   "read": [
+    "§ 28. Kirjavahetus ja telefonikõned",
+    "(1) Kinnipeetaval on õigus kirjavahetusele ja telefoni, välja arvatud mobiiltelefoni kasutamisele, kui selleks on turvalised tehnilised tingimused ning käesolev seadus ei sätesta teisiti. Kirjavahetuse ja telefoni kasutamise täpsemad nõuded kehtestab valdkonna eest vastutav minister määrusega.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]",
+    "(2) Kirjavahetus ja telefoni kasutamine toimub kinnipeetava kulul. Kinnipeetava õiguskantslerile, vanglale, Presidendi Kantseleile, prokuratuurile, uurimisasutusele, vanglakomisjonile ja kohtule adresseeritud kirjad saadetakse vangla kulul.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]",
+    "(3) Kinnipeetava käesoleva paragrahvi lõikes 1 sätestatud õigust võib vanglateenistuse ametnik piirata, kui see ohustab vangla julgeolekut või korda või kahjustab vangistuse täideviimise eesmärke. Keelatud on kirjavahetuse ja telefoni kasutamise piiramine suhtlemiseks riigiasutuste, kohalike omavalitsuste ja nende ametiisikutega, samuti kaitsjaga või advokaadist esindajaga.",
+    "[RT I, 20.12.2012, 3 - jõust. 01.01.2013]",
+    "(4) Vanglateenistus võib käesoleva seaduse § 15 lõikes 2 sätestatud alustel täiendavalt keelata saada kirjavahetuse teel asju.",
+    "[RT I, 20.12.2012, 3 - jõust. 01.01.2013]"
+   ]
+  },
+  "VangS § 29": {
+   "akt": "VangS",
+   "nr": "29",
+   "read": [
+    "§ 29. Kirjavahetuse ja telefonikõnede jälgimine",
+    "(1) Kinnipeetavale saadetud või tema poolt saadetavad kirjad, välja arvatud käesoleva paragrahvi lõigetes 4–5 sätestatud isikutele ja ametiasutustele adresseeritud kirjad, avatakse vanglateenistuse ametniku poolt kinnipeetava juuresolekul ning võetakse sealt ära esemed, mille omamine vanglas on vangla sisekorraeeskirjadega keelatud.",
+    "[RT I 2009, 39, 261 - jõust. 24.07.2009]",
+    "(2) Kinnipeetava kirjavahetuse ja telefoni teel edastatavate sõnumite sisu võib kontrollida kriminaalmenetluse seadustiku 3^1. peatükis ning käesoleva seaduse 2. peatüki 3^1. jaos sätestatud alustel ja korras.",
+    "[RT I, 29.06.2012, 2 - jõust. 01.01.2013]",
+    "(2^1) Vanglateenistus kontrollib, kellega kinnipeetav telefoni teel suhtleb või kirjavahetust peab. Telefonikõnede puhul on vanglateenistusel õigus registreerida selle isiku ees- ja perekonnanimi või asutuse nimi, kuhu kinnipeetav helistab, telefoninumber, helistamise aeg ja kõne kestus. Kirjavahetuse puhul on vanglateenistusel õigus registreerida adressaadi ees- ja perekonnanimi või asutuse nimi, kuhu kinnipeetav kirjutab, aadress ja kirja saatmise aeg.",
+    "[RT I, 20.12.2012, 3 - jõust. 01.01.2013]",
+    "(3) Kirjavahetuse kontrollimisel käesoleva paragrahvi lõikes 2 sätestatud korras võib vanglateenistuse ametnik jätta kirja ära saatmata, kui:",
+    "[RT I 2009, 39, 261 - jõust. 24.07.2009]",
+    "1) see ohustab vangistuse täideviimise eesmärke, vangla julgeolekut või korda;",
+    "[RT I, 20.12.2012, 3 - jõust. 01.01.2013]",
+    "2) selle edastamine võib kaasa tuua kuriteo toimepanemise;",
+    "3) see ohustab teise kinnipeetava vangistuse täideviimise eesmärke;",
+    "4) see on koostatud salakirjas või loetamatult.",
+    "(4) Keelatud on kontrollida kinnipeetava kirju ja telefonikõnesid kaitsjale, advokaadist esindajale, prokuratuurile, kohtule, õiguskantslerile ja Justiits- ja Digiministeeriumile.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]",
+    "(5) Ära saatmata ei või jätta kinnipeetava kirju riigiasutustele, kohalikele omavalitsustele ja nende ametiisikutele, samuti kaitsjale, advokaadist esindajale ning oma riigi konsulaartöötajale.",
+    "[RT I, 20.12.2012, 3 - jõust. 01.01.2013]"
+   ]
+  },
+  "VangS § 34": {
+   "akt": "VangS",
+   "nr": "34",
+   "read": [
+    "§ 34. Hariduse omandamise võimaldamine",
+    "(1) Hariduse omandamise võimaldamise eesmärk on kindlustada kinnipeetav piisavate teadmiste, oskuste ja eetiliste tõekspidamistega, mis võimaldab tal jätkata vabaduses hariduse omandamist ja töötamist.",
+    "(2) Hariduse andmist vanglas korraldatakse Eesti Vabariigi haridusseaduse, põhikooli- ja gümnaasiumiseaduse ja kutseõppeasutuse seaduse ning nende alusel väljaantud õigusaktide kohaselt.",
+    "(3) Vanglateenistus kindlustab üldhariduse ja kutsehariduse omandamiseks ja tööalase enesetäiendamise eesmärgiga täienduskoolituse läbiviimiseks vajalike üldotstarbeliste ruumide ning õppeklasside ja -töökodade olemasolu, samuti tööpraktika võimaluse vanglas õpetatavatel erialadel.",
+    "[RT I, 23.03.2015, 5 - jõust. 01.07.2015]",
+    "(4) Kinnipeetavale, kes ei valda eesti keelt, antakse võimalus eesti keele õppimiseks. Kui eesti keele õpe ei toimu käesoleva seaduse §-des 35 ja 36 sätestatu raames, korraldab ja finantseerib eesti keele õpet vanglateenistus.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]",
+    "(5) Hariduse omandamine toimub töö ajal.",
+    "(6) Vanglateenistus suunab ja soodustab kinnipeetavaid hariduse omandamisel.",
+    "[RT I 2009, 39, 261 - jõust. 24.07.2009]"
+   ]
+  },
+  "VangS § 37": {
+   "akt": "VangS",
+   "nr": "37",
+   "read": [
+    "§ 37. Töökohustus",
+    "(1) Kui käesolev seadus ei sätesta teisiti, on kinnipeetav kohustatud töötama.",
+    "(2) Töötama ei ole kohustatud:",
+    "1) üle kuuekümne kolme aasta vanune kinnipeetav;",
+    "2) üldharidust või kutseharidust omandav või tööalase enesetäiendamise eesmärgiga täienduskoolitusel osalev kinnipeetav;",
+    "[RT I, 23.03.2015, 5 - jõust. 01.07.2015]",
+    "3) kinnipeetav, kes ei ole tervislikel põhjustel võimeline töötama;",
+    "4) kuni kolmeaastast last kasvatav kinnipeetav.",
+    "(3) Kinnipeetava võimelisuse tööd teha teeb kindlaks tervishoiutöötaja.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]",
+    "(4) Töö korraldamise viisid ning sisu peavad võimalikult vastama töökorraldusele vabaduses.",
+    "(5) Kinnipeetava rakendamine tööle käesoleva seaduse § 38 lõikes 3 nimetatud käitistes võib toimuda üksnes kinnipeetava nõusolekul."
+   ]
+  },
+  "VangS § 43": {
+   "akt": "VangS",
+   "nr": "43",
+   "read": [
+    "§ 43. Kinnipeetava töö tasustamine",
+    "(1) Kinnipeetava töötamisel makstakse talle töötasu. Töötasu makstakse ka kinnipeetavatele, keda rakendatakse vangla majandustöödel.",
+    "(2) Kinnipeetava töötasu peab olema vähemalt 10 protsenti töölepingu seaduse § 29 lõike 5 alusel kehtestatud töötasu alammäärast. Töö tasustamisel lähtutakse töö eripärast ja töötatud ajast. Kinnipeetava töötasu määrad, arvutamise ja maksmise korra kehtestab Vabariigi Valitsus.",
+    "[RT I 2009, 35, 232 - jõust. 27.06.2009]",
+    "(3) Vanglateenistus võib kinnipeetava süül põhjustatud ebarahuldavate töötulemuste eest vähendada vanglas töötava kinnipeetava töötasu kuni 60 protsenti. Töötasu vähendatakse tööd korraldava isiku ettepanekul.",
+    "[RT I 2009, 39, 261 - jõust. 24.07.2009]",
+    "(4) Töötasu suurus tehakse kinnipeetavale teatavaks kirjalikult."
+   ]
+  },
+  "VangS § 47": {
+   "akt": "VangS",
+   "nr": "47",
+   "read": [
+    "§ 47. Kinnipeetava toitlustamine",
+    "(1) Kinnipeetava toitlustamine korraldatakse rahvatervishoiu seaduse §-s 22 sätestatud ja selle alusel kehtestatud nõuete kohaselt ning kooskõlas üldiste toitumistavadega.",
+    "[RT I, 02.01.2025, 3 - jõust. 01.09.2025]",
+    "(2) Vangla toidukava koostamist ja toitlustamist jälgib toitlustuse eest vastutav isik.",
+    "[RT I, 31.12.2024, 4 - jõust. 10.01.2025]",
+    "(3) Tervishoiutöötaja ettekirjutusel kindlustatakse kinnipeetavale dieettoitlustamine. Võimaluse korral lubatakse kinnipeetaval järgida oma religiooni toitumistavasid.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]"
+   ]
+  },
+  "VangS § 49": {
+   "akt": "VangS",
+   "nr": "49",
+   "read": [
+    "§ 49. Tervishoiu korraldamine vanglas",
+    "(1) Tervishoid vanglas on riigi tervishoiusüsteemi osa. Tervishoidu vanglas rahastatakse riigieelarveliste võimaluste piires tervishoiuteenuste korraldamise seaduse alusel, arvestades käesolevas seaduses sätestatud erisustega.",
+    "[RT I, 07.03.2023, 4 - jõust. 01.07.2024]",
+    "(2) [Kehtetu - RT I, 07.03.2023, 4 - jõust. 01.07.2024]",
+    "(3) Tervishoiuteenuste osutamise kinnipeetavale, arestialusele või vahistatule (edaspidi vanglas kinni peetav isik) korraldab Tervisekassa.",
+    "[RT I, 07.03.2023, 4 - jõust. 01.07.2024, osaliselt muudetud [RT I, 21.06.2024, 2]]",
+    "(4) Tervishoiuteenuste osutamise korraldamise tingimused ja korra kehtestab Vabariigi Valitsus määrusega.",
+    "[RT I, 07.03.2023, 4 - jõust. 01.07.2024]",
+    "(5) Vanglateenistus tagab tervishoiuteenuse osutamiseks tervishoiuteenuste korraldamise seaduses sätestatud nõuete kohaste vajalike ruumide olemasolu vangla territooriumil.",
+    "[RT I, 07.03.2023, 4 - jõust. 01.07.2024]",
+    "(6) Vanglas kinni peetava isiku pöördumisele seoses talle tervishoiuteenuste ja käesoleva seaduse § 52 lõike 1^1 alusel kehtestatud teenuste osutamise korraldamisega vastab vanglateenistus, kaasates tervishoiuteenuse osutaja ja vajaduse korral Tervisekassa.",
+    "[RT I, 07.03.2023, 4 - jõust. 01.07.2024, osaliselt muudetud [RT I, 21.06.2024, 2]]"
+   ]
+  },
+  "VangS § 4^1": {
+   "akt": "VangS",
+   "nr": "4^1",
+   "read": [
+    "§ 4^1. Inimväärikuse austamine ja õiguste järgimine",
+    "[RT I 2008, 17, 118 - jõust. 01.06.2008]",
+    "(1) Kinnipeetavat, arestialust või vahistatut koheldakse viisil, mis austab tema inimväärikust ning kindlustab, et karistuse kandmine või vahi all viibimine ei põhjusta talle rohkem kannatusi või ebameeldivusi kui need, mis paratamatult kaasnevad vanglas või arestimajas kinnipidamisega.",
+    "[RT I, 05.07.2013, 2 - jõust. 15.07.2013]",
+    "(2) Kinnipeetava, arestialuse või vahistatu vabadus allutatakse seaduses toodud piirangutele. Kui seadus ei sätesta konkreetset piirangut, võib vangla, Justiits- ja Digiministeerium või arestimaja kohaldada vaid selliseid piiranguid, mis on vajalikud vangla või arestimaja julgeoleku kaalutlustel. Piirangud peavad vastama täideviimise eesmärgile ja inimväärikuse põhimõttele ega tohi moonutada seaduses sätestatud teiste õiguste ja vabaduste olemust.",
+    "[RT I, 05.07.2013, 2 - jõust. 15.07.2013]"
+   ]
+  },
+  "VangS § 52": {
+   "akt": "VangS",
+   "nr": "52",
+   "read": [
+    "§ 52. Tervishoiuteenuse osutamine vanglas",
+    "(1) Tervishoiuteenuseid osutab vanglas tervishoiuteenuse osutaja vastavalt tervishoiuteenuste korraldamise seaduse eriarstiabi osutamist reguleerivatele sätetele.",
+    "[RT I, 07.03.2023, 4 - jõust. 01.07.2024]",
+    "(1^1) Vanglas kinni peetavale isikule riigieelarveliste võimaluste piires rahastatavate tervishoiuteenuste osutamise tingimused ja korra, samuti tervishoiuteenuste hulka kuuluvad tegevused, kehtestab Vabariigi Valitsus määrusega.",
+    "[RT I, 07.03.2023, 4 - jõust. 01.07.2024]",
+    "(2) Tervishoiutöötaja on kohustatud pidevalt jälgima kinnipeetavate terviseseisundit, ravima neid vanglas olevate võimaluste piires ja vajaduse korral suunama ravile asjakohase eriarstiabi osutaja juurde, samuti täitma teisi talle pandud ülesandeid.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]"
+   ]
+  },
+  "VangS § 62": {
+   "akt": "VangS",
+   "nr": "62",
+   "read": [
+    "§ 62. Religioonialane tegevus vanglas",
+    "Vanglateenistus tagab kinnipeetavale tema usuliste vajaduste rahuldamise.",
+    "[RT I 2009, 39, 261 - jõust. 24.07.2009]"
+   ]
+  },
+  "VangS § 63": {
+   "akt": "VangS",
+   "nr": "63",
+   "read": [
+    "§ 63. Distsiplinaarkaristused",
+    "(1) Käesoleva seaduse, vangla sisekorraeeskirjade või muude õigusaktide nõuete süülise rikkumise eest võib kinnipeetavale kohaldada distsiplinaarkaristusi. Need on:",
+    "1) noomitus;",
+    "1^1) isikliku raadio, televiisori või muu vajaliku elektriseadme kasutamise keelamine kuni 45 päevaks;",
+    "[RT I, 20.12.2012, 3 - jõust. 01.01.2013]",
+    "2) ühe lühi- või pikaajalise kokkusaamise keelamine;",
+    "3) töölt eemaldamine kuni üheks kuuks;",
+    "4) kartserisse paigutamine kuni 14 ööpäevaks.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]",
+    "(2) Noort kinnipeetavat võib kartserisse paigutada kuni 3 ööpäevaks.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]",
+    "(3) Distsiplinaarkaristuse valikul võetakse arvesse vangistuse täideviimise eesmärki. Ühe ja sama distsipliinirikkumise eest võib kohaldada ainult üht distsiplinaarkaristust. Kollektiivsed distsiplinaarkaristused on keelatud.",
+    "(4) Raske distsipliinirikkumise korral on vanglateenistusel õigus paigutada distsipliinirikkuja eraldi kambrisse enne distsiplinaarmenetluse lõpetamist.",
+    "[RT I 2009, 39, 261 - jõust. 24.07.2009]"
+   ]
+  },
+  "VangS § 64": {
+   "akt": "VangS",
+   "nr": "64",
+   "read": [
+    "§ 64. Distsiplinaarmenetlus",
+    "(1) Distsiplinaarmenetluse viib läbi ning distsipliinirikkumise asjaolud selgitab välja vanglateenistus.",
+    "[RT I 2009, 39, 261 - jõust. 24.07.2009]",
+    "(2) Kinnipeetavat informeeritakse kohe distsipliinirikkumisest, milles teda süüdistatakse. Kinnipeetaval on õigus anda selgitusi.",
+    "(3) Distsiplinaarmenetluse käik protokollitakse. Protokollile kirjutab alla distsiplinaarmenetluse läbi viinud vanglaametnik. Protokolli vorm ja selles esitatavad andmed sätestatakse vangla sisekorraeeskirjades.",
+    "(4) Distsiplinaarkaristuse määrab vanglateenistus distsiplinaarmenetluse läbi viinud ametniku ettepanekul. Distsiplinaarkaristuse määramine vormistatakse käskkirjana ja seda tuleb põhjendada. Distsiplinaarkaristuse määramise käskkiri antakse kinnipeetavale allkirja vastu.",
+    "[RT I 2009, 39, 261 - jõust. 24.07.2009]",
+    "(4^1) Distsiplinaarkaristuse võib määrata kuue kuu jooksul arvates rikkumise toimepanemise päevast, kuid mitte hiljem kui ühe kuu jooksul rikkumise teadasaamise päevast arvates. Tähtaja hulka ei arvata aega, kui kinnipeetav viibib arestimajas või haiglas.",
+    "[RT I 2006, 63, 466 - jõust. 01.02.2007]",
+    "(5) [Kehtetu - RT I, 22.03.2024, 1 - jõust. 01.04.2024]"
+   ]
+  },
+  "VangS § 65": {
+   "akt": "VangS",
+   "nr": "65",
+   "read": [
+    "§ 65. Distsiplinaarkaristuse täideviimine",
+    "(1) Üldjuhul pööratakse distsiplinaarkaristus täitmisele kohe. Distsiplinaarkaristusena määratud kartserikaristuse järjestikuse täitmise korral peab maksimaalse järjestikuse lubatud karistuspäevade arvu täitumisel karistuse täitmise jätkamise vahele jääma mõistlik aeg, mis ei tohi olla väiksem kui 48 tundi.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]",
+    "(2) Vanglateenistuse ametnik võib distsiplinaarkaristuse või selle osa täitmisele pööramise edasi lükata tingimusel, et kinnipeetav ei pane katseajal toime uut distsipliinirikkumist. Katseaeg määratakse ühest kuni kuue kuuni.",
+    "[RT I 2009, 39, 261 - jõust. 24.07.2009]",
+    "(3) Kui kinnipeetav paneb katseajal toime uue distsipliinirikkumise, pööratakse mõlemad distsiplinaarkaristused kohe täitmisele.",
+    "(4) Kui kinnipeetav ei pane katseajal toime uut distsipliinirikkumist, jäetakse distsiplinaarkaristus täitmisele pööramata.",
+    "(5) Distsiplinaarkaristus kustub ühe aasta jooksul distsiplinaarkaristuse määramisest arvates.",
+    "[RT I, 10.03.2015, 4 - jõust. 01.06.2015]",
+    "(6) Distsiplinaarkaristust ei täideta, kui seda ei ole pööratud täitmisele kaheksa kuu jooksul arvates distsiplinaarkaristuse määramisest."
+   ]
+  },
+  "VangS § 65^1": {
+   "akt": "VangS",
+   "nr": "65^1",
+   "read": [
+    "§ 65^1. Distsiplinaarkaristuse täideviimine kartserisse paigutamise korral",
+    "[RT I 2006, 63, 466 - jõust. 01.02.2007]",
+    "(1) Kartser peab vastama käesoleva seaduse § 45 lõikes 1 sätestatud tingimustele ja tagama kinnipeetava pideva visuaalse või elektroonilise jälgimise.",
+    "[RT I 2006, 63, 466 - jõust. 01.02.2007]",
+    "(2) Kartserisse vastuvõtmisel otsitakse kinnipeetav läbi ning talle antakse kartseri arvel olev riietus. Kinnipeetava juures kambris olnud isiklikud asjad antakse hoiule ning tagastatakse kinnipeetavale pärast kartserist vabastamist.",
+    "[RT I 2006, 63, 466 - jõust. 01.02.2007]",
+    "(3) Kartserisse paigutatud kinnipeetaval ei ole õigust liikuda vangla territooriumil käesoleva seaduse §-des 8 ja 10 sätestatud korras. Kinnipeetava soovil võimaldatakse tal vähemalt üks tund päevas viibida vabas õhus.",
+    "[RT I 2006, 63, 466 - jõust. 01.02.2007]",
+    "(4) Kartserisse paigutatud kinnipeetava suhtes võib vanglateenistus osaliselt või täielikult piirata käesoleva seaduse §-de 22, 24, 25, 30–32, 34–38, 41, 43, 46 ja 48 kohaldamist.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]"
+   ]
+  },
+  "VangS § 68": {
+   "akt": "VangS",
+   "nr": "68",
+   "read": [
+    "§ 68. Läbiotsimine",
+    "(1) Vanglateenistuse ametnikul on õigus teostada kinnipeetava läbiotsimist, tema isiklike asjade, elu- ja olmeruumide, samuti teiste ruumide ja territooriumi läbiotsimist keelatud esemete ja ainete avastamiseks. Kinnipeetava läbiotsimist teostavad temaga samast soost isikud.",
+    "[RT I 2009, 39, 261 - jõust. 24.07.2009]",
+    "(2) Vanglateenistuse ametniku poolt läbiotsimisel leitud keelatud esemed ja ained kuuluvad äravõtmisele ning realiseerimisele või hävitamisele. Realiseerimisel saadud summad kantakse riigieelarvesse. Leitud dokumendid võtab vanglateenistus hoiule ja tagastab kinnipeetavale vanglast vabanemisel.",
+    "[RT I 2009, 39, 261 - jõust. 24.07.2009]",
+    "(3) Vanglateenistuse ametnikul on õigus vanglasse saabuvad ja vanglast väljuvad isikud ning nende asjad läbi otsida. Läbiotsimist teostab isikuga samast soost vanglateenistuse ametnik.",
+    "[RT I 2009, 39, 261 - jõust. 24.07.2009]",
+    "(4) Läbiotsimise korra kehtestab valdkonna eest vastutav minister määrusega.",
+    "[RT I 2008, 17, 118 - jõust. 01.06.2008]"
+   ]
+  },
+  "VangS § 69": {
+   "akt": "VangS",
+   "nr": "69",
+   "read": [
+    "§ 69. Täiendavad julgeolekuabinõud",
+    "(1) Täiendavaid julgeolekuabinõusid kohaldatakse kinnipeetavale, kes süstemaatiliselt rikub käesoleva seaduse või vangla sisekorraeeskirja nõudeid, kahjustab oma tervist või on suitsiidi- või põgenemiskalduvustega, samuti kinnipeetavale, kes on ohtlik teistele isikutele või vangla julgeolekule. Täiendavaid julgeolekuabinõusid võib kohaldada ka raske õiguserikkumise ärahoidmiseks.",
+    "[RT I 2006, 63, 466 - jõust. 01.02.2007]",
+    "(2) Täiendavate julgeolekuabinõudena on lubatud:",
+    "1) kinnipeetava vanglasisese liikumis- ja suhtlemisvabaduse piiramine;",
+    "2) isiklike riiete kandmise või esemete kasutamise keelamine;",
+    "3) kehakultuuriga tegelemise keelamine;",
+    "4) eraldatud lukustatud kambrisse paigutamine;",
+    "5) ohjeldusmeetmete kasutamine.",
+    "(3) Käesoleva paragrahvi lõikes 1 nimetatud asjaolude äralangemisel täiendavate julgeolekuabinõude kohaldamine lõpetatakse.",
+    "(4) Täiendavaid julgeolekuabinõusid kohaldab vanglateenistus. Edasilükkamatul juhul kohaldab täiendavaid julgeolekuabinõusid kõrgem kohalviibiv vanglateenistuse ametnik.",
+    "[RT I 2009, 39, 261 - jõust. 24.07.2009]"
+   ]
+  },
+  "VangS § 70^1": {
+   "akt": "VangS",
+   "nr": "70^1",
+   "read": [
+    "§ 70^1. Vanglateenistuse erivahendid ja teenistusrelvad",
+    "[RT I, 09.03.2018, 1 - jõust. 19.03.2018]",
+    "(1) Vanglateenistuse erivahendid on:",
+    "[RT I, 09.03.2018, 1 - jõust. 19.03.2018]",
+    "1) ohjeldusmeetmena kasutatavad käe- ja jalarauad, sidumisvahendid, rahustussärk, -tool ja -voodi;",
+    "2) teenistusloom;",
+    "3) sõiduki sundpeatamise vahend;",
+    "4) veekahur;",
+    "5) pisaravoolust, suitsu-, heli-, valgus- või muud efekti või valuaistingut esilekutsuvad granaadid;",
+    "6) eriotstarbeline lõhkamisseadeldis, mida ei kasutata inimese vastu;",
+    "7) eriotstarbeline valgus- ja heliseadeldis;",
+    "8) eriotstarbeline värvimis- ja märgistusvahend.",
+    "(2) Vanglateenistuse teenistusrelvad on:",
+    "[RT I, 09.03.2018, 1 - jõust. 19.03.2018]",
+    "1) tulirelv;",
+    "2) gaasirelv;",
+    "3) pneumorelv;",
+    "4) külmrelv;",
+    "5) elektrišokirelv;",
+    "[RT I, 20.12.2012, 3 - jõust. 01.01.2013]",
+    "6) harjutusrelv.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]",
+    "(3) Vanglateenistuse teenistusrelvadele ja nende laskemoonale kohaldatakse relvaseaduse sätteid, arvestades käesolevas seaduses või selle alusel sätestatud erisusi.",
+    "[RT I, 09.03.2018, 1 - jõust. 19.03.2018]"
+   ]
+  },
+  "VangS § 71": {
+   "akt": "VangS",
+   "nr": "71",
+   "read": [
+    "§ 71. Vanglateenistuse erivahendite ja teenistusrelvade kasutamine ja käitlemine",
+    "[RT I, 09.03.2018, 1 - jõust. 19.03.2018]",
+    "(1) Käesoleva seaduse § 70^1 lõike 1 punktides 3–8 nimetatud erivahendite ja teenistusrelvade kasutamine vanglateenistuse ametniku poolt on lubatud ainult äärmuslikel juhtudel, kui kõik ülejäänud meetmed kinnipeetava põgenemise takistamiseks, põgenenud kinnipeetava tabamiseks, relvastatud või mõne muu ohtliku esemega varustatud kinnipeetava kahjutuks tegemiseks, kallaletungi kõrvaldamiseks või kõrvaliste isikute vanglasse sissetungimise takistamiseks on ammendatud. Erivahendi ning teenistusrelva kasutamise korral tuleb hoiduda inimeste tervise kahjustamisest suuremal määral, kui see on antud juhul vältimatu.",
+    "[RT I, 20.12.2012, 3 - jõust. 01.01.2013]",
+    "(2) Vanglateenistuse ametnik võib kasutada teenistusülesannete täitmisel ja enda ohutuse tagamiseks enesekaitsevahendeid ning füüsilist jõudu.",
+    "[RT I 2009, 39, 261 - jõust. 24.07.2009]",
+    "(3) Teenistusülesannete täitmisel võib vanglateenistuse ametnik ohutuse tagamiseks kehtestada enda, teiste isikute või objektide ümber ohutsooni, millesse ei tohi tema loata siseneda. Selle nõude rikkumisel võib vanglateenistuse ametnik kasutada füüsilist jõudu, erivahendeid ning külm- ja gaasirelvi.",
+    "[RT I 2009, 39, 261 - jõust. 24.07.2009]",
+    "(3^1) Vanglateenistuse ametnikul on teenistuskohustuste täitmisel, sealhulgas teenistuskohustuste täitmisel väljaspool vanglat, õigus kinni pidada isik, kes oma tegevusega vahetult ohustab karistuse täideviimist vanglas. Isiku kinnipidamine toimub korrakaitseseaduse §-s 46 sätestatud korras.",
+    "[RT I, 13.03.2014, 4 - jõust. 01.07.2014]",
+    "(3^2) Kui käesoleva paragrahvi lõikes 3^1 nimetatud isik viibib sõidukis, on vanglateenistuse ametnikul õigus sõiduk peatada. Sõiduki peatamine toimub korrakaitseseaduse §-s 45 sätestatud korras.",
+    "[RT I, 13.03.2014, 4 - jõust. 01.07.2014]",
+    "(3^3) Isikut kinni pidades kasutab vanglateenistuse ametnik vajaduse korral vahetut sundi, mis seisneb isiku mõjutamises füüsilise jõuga ning käesoleva paragrahvi lõikes 1 sätestatud äärmuslikel juhtudel erivahendi või teenistusrelvaga. Vahetu sunni kohaldamisel lähtutakse korrakaitseseaduse §-des 76–78 sätestatud korrast.",
+    "[RT I, 13.03.2014, 4 - jõust. 01.07.2014]",
+    "(3^4) Kinnipeetud isik antakse esimesel võimalusel üle politseiametnikule, välja arvatud vanglast põgenenud, põgenemiskatselt tabatud ja vanglast lahkuda lubatud isik, kes hoidub kõrvale karistuse kandmise jätkamisest. Selline isik toimetatakse vanglasse.",
+    "[RT I, 20.12.2012, 3 - jõust. 01.01.2013]",
+    "(4) Tulirelva kasutamine naiste ja alaealiste vastu on keelatud, välja arvatud põgenemisel, samuti kui nimetatud isikud kasutavad relva vastupanu avaldamisel või kallaletungil vanglateenistuse ametnikule või muudele isikutele.",
+    "[RT I 2009, 39, 261 - jõust. 24.07.2009]",
+    "(5) Teenistuskoera kasutamine on lubatud lisaks käesoleva paragrahvi lõigetes 1, 3 ja 4 toodud alustele ka narkootilise või psühhotroopse aine avastamiseks.",
+    "[RT I 2003, 26, 157 - jõust. 01.04.2003]",
+    "(6) Relva kasutamisele peab eelnema hoiatus. Tulirelva kasutamisele peab eelnema hoiatus relva kasutada või hoiatuslask. Eelneva hoiatuse või hoiatuslasuta on relva kasutamine lubatud edasilükkamatul juhul, et tõrjuda vahetut ja otsest ohtu elule ja tervisele.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]",
+    "(7) [Kehtetu - RT I, 27.02.2019, 12 - jõust. 01.08.2019]",
+    "(7^1) Pärast kinnipeetava suhtes vahetu sunni kasutamist kontrollib tervishoiutöötaja esimesel võimalusel kinnipeetava terviseseisundit. Vahetu sunni kasutamise asjaolud ja terviseseisundi kontrolli tulemused protokollitakse.",
+    "[RT I, 10.03.2015, 4 - jõust. 01.06.2015]",
+    "(7^2) Kinnipeetava suhtes ohjeldusmeetme kasutamisel on käesoleva paragrahvi lõikes 7^1 sätestatu kohustuslik vaid järgmistel juhtudel:",
+    "1) ohjeldusmeetme kasutamisel rakendati füüsilist jõudu;",
+    "2) ohjeldusmeedet kasutatakse kestvalt kauem kui viisteist minutit, välja arvatud, kui toiming sooritatakse eelnevalt väljaantud haldusakti alusel või käe- ja jalaraudade saatmisel kasutamise korral;",
+    "3) kinnipeetav esitab terviseseisundiga seonduvaid kaebusi;",
+    "4) muul juhul, kui ilmneb kinnipeetava terviseseisundi kontrollimise vajadus.",
+    "[RT I, 10.03.2015, 4 - jõust. 01.06.2015]",
+    "(7^3) Valdkonna eest vastutav minister kehtestab määrusega ohjeldusmeetmete ja terviseseisundi kontrollimise täpsema korra, sealhulgas kontrollimise sageduse ohjeldusmeetme kestva kasutamise korral, ja protokollile esitatavad nõuded.",
+    "[RT I, 10.03.2015, 4 - jõust. 01.06.2015]",
+    "(8) Vanglateenistuse erivahendite, teenistusrelvade ja nende laskemoona ning osade kasutamise, käitlemise ja üleandmise tingimused ja korra kehtestab valdkonna eest vastutav minister määrusega.",
+    "[RT I, 09.03.2018, 1 - jõust. 19.03.2018]"
+   ]
+  },
+  "VangS § 74^1": {
+   "akt": "VangS",
+   "nr": "74^1",
+   "read": [
+    "§ 74^1. Välismaalase vabastamine Eesti Vabariigist lahkumiseks",
+    "(1) Välismaalase poolt võetud Eesti Vabariigist lahkumise kohustuse täitmisele pööramiseks edastab vangla Politsei- ja Piirivalveametile välismaalase kehtiva reisidokumendi.",
+    "(2) Kui vangistust kandev välismaalane, kes on süüdi mõistetud teise astme kuriteo eest, soovib võtta kohustuse Eesti Vabariigist lahkumiseks kriminaalmenetluse seadustiku § 424^1 lõike 1 alusel ning tal on Politsei- ja Piirivalveameti hinnangul võimalik vastuvõtvasse riiki tagasi pöörduda, taotleb vangla karistuse kandmise asukoha järgse maakohtu täitmiskohtunikult välismaalasest kinnipeetava edasisest karistuse kandmisest vabastamist.",
+    "(3) Käesoleva paragrahvi lõikes 2 nimetatud taotluse esitamiseks taotleb vangla välismaalase vastuvõtvasse riiki tagasipöördumise võimalikkuse kohta hinnangut Politsei- ja Piirivalveametilt, kes edastab selle vanglale 30 päeva jooksul taotluse saamisest arvates.",
+    "[RT I, 19.03.2019, 3 - jõust. 01.07.2019]"
+   ]
+  },
+  "VangS § 80": {
+   "akt": "VangS",
+   "nr": "80",
+   "read": [
+    "§ 80. Noore kinnipeetava vangistuse täideviimise üldtingimused",
+    "Noore kinnipeetava vangistuse täideviimisele kohaldatakse käesoleva seaduse 1, 2, ja 6 peatüki sätteid käesolevas peatükis sätestatud erisustega."
+   ]
+  },
+  "VangS § 81": {
+   "akt": "VangS",
+   "nr": "81",
+   "read": [
+    "§ 81. Noore kinnipeetava eraldi kinnipidamine",
+    "(1) Noortevanglas või noorteosakonnas hoitakse eraldi:",
+    "1) nooremaid kui 15-aastasi;",
+    "2) 15- kuni 16-aastasi;",
+    "3) 16- kuni 18-aastasi;",
+    "4) 18- kuni 21-aastasi.",
+    "(2) Käesoleva paragrahvi lõikes 1 nimetatud eraldihoidmise printsiibist võib teha erandeid, kui kinnipeetava eraldihoidmine teise vanusegruppi kuuluvatest kinnipeetavatest on vastuolus tema normaalse arengu või muude õigustatud huvidega.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]"
+   ]
+  },
+  "VangS § 84": {
+   "akt": "VangS",
+   "nr": "84",
+   "read": [
+    "§ 84. Noorele kinnipeetavale hariduse andmise erisused",
+    "(1) Alla 18-aastasele noorele kinnipeetavale on põhihariduse omandamine seadusega ettenähtud ulatuses kohustuslik. Vastavalt noore kinnipeetava soovile ja sobivusele antakse talle võimalus kutsehariduse omandamiseks.",
+    "[RT I 2008, 17, 118 - jõust. 01.06.2008]",
+    "(2) Noore kinnipeetava vangistuse täideviimise eesmärkide saavutamise huvides võib suurendada käesoleva seaduse §-des 24 ja 25 sätestatud kokkusaamiste ja käesoleva seaduse §-s 32 sätestatud lühiajaliste väljasõitude arvu ja kestvust.",
+    "[RT I 2006, 63, 466 - jõust. 01.01.2009]"
+   ]
+  },
+  "VõrdKS § 3": {
+   "akt": "VõrdKS",
+   "nr": "3",
+   "read": [
+    "§ 3. Võrdse kohtlemise põhimõte ja diskrimineerimine",
+    "(1) Võrdse kohtlemise põhimõte tähendab, et ei esine diskrimineerimist käesoleva seaduse § 1 lõikes 1 nimetatud tunnuse alusel.",
+    "(2) Diskrimineerimine on otsene, kui käesoleva seaduse § 1 lõikes 1 nimetatud tunnuse alusel koheldakse ühte isikut halvemini kui on koheldud, koheldakse või võidakse kohelda teist isikut samalaadses olukorras.",
+    "(3) Otsene diskrimineerimine on ka ahistamine, mis on käesoleva seaduse § 1 lõikes 1 nimetatud tunnuse alusel isikule soovimatu käitumine, mille eesmärk või tegelik toime on isiku väärikuse alandamine ja ähvardava, vaenuliku, halvustava, alandava või solvava õhkkonna loomine.",
+    "(4) Diskrimineerimine on kaudne, kui näiliselt neutraalne säte, kriteerium või tava seab isikud käesoleva seaduse § 1 lõikes 1 nimetatud tunnuse alusel teistega võrreldes ebasoodsamasse olukorda, välja arvatud juhul, kui sättel, kriteeriumil või taval on objektiivne õiguspärane eesmärk ning selle eesmärgi saavutamise vahendid on asjakohased ja vajalikud.",
+    "(5) Korraldust diskrimineerida isikuid ükskõik millise käesoleva seaduse § 1 lõikes 1 nimetatud tunnuse alusel peetakse diskrimineerimiseks.",
+    "(6) Diskrimineerivaks peetakse ka sellist tegevust, kui isikut koheldakse teistest halvemini või talle kaasnevad negatiivsed tagajärjed seetõttu, et ta on esitanud kaebuse diskrimineerimise kohta või toetanud isikut, kes on esitanud sellise kaebuse."
+   ]
+  },
+  "harta art 1": {
+   "akt": "harta",
+   "nr": "1",
+   "read": [
+    "Artikkel 1",
+    "Inimväärikus",
+    "Inimväärikus on puutumatu. Seda tuleb austada ja kaitsta."
+   ]
+  },
+  "harta art 10": {
+   "akt": "harta",
+   "nr": "10",
+   "read": [
+    "Artikkel 10",
+    "Mõtte-, südametunnistuse- ja usuvabadus",
+    "1. Igaühel on õigus mõtte-, südametunnistuse- ja usuvabadusele. See õigus kätkeb vabadust muuta usku või veendumusi, samuti vabadust kuulutada usku või veendumusi nii üksi kui ka koos teistega, avalikult või eraviisiliselt kultuse, õpetamise, tava ja kombetalituse kaudu.",
+    "2. Õigust keelduda sõjaväeteenistusest oma veendumuste tõttu tunnustatakse selle õiguse kasutamist reguleerivate siseriiklike õigusaktide kohaselt."
+   ]
+  },
+  "harta art 18": {
+   "akt": "harta",
+   "nr": "18",
+   "read": [
+    "Artikkel 18",
+    "Varjupaigaõigus",
+    "Varjupaigaõigus tagatakse 28. juuli 1951. aasta Genfi konventsiooni ja 31. jaanuari 1967. aasta pagulasseisundi protokolli sätete ning Euroopa Liidu lepingu ja Euroopa Liidu toimimise lepingu (edaspidi „aluslepingud”) kohaselt."
+   ]
+  },
+  "harta art 19": {
+   "akt": "harta",
+   "nr": "19",
+   "read": [
+    "Artikkel 19",
+    "Kaitse tagasisaatmise, väljasaatmise või väljaandmise korral",
+    "1. Kollektiivne väljasaatmine on keelatud.",
+    "2. Kedagi ei tohi tagasi saata, välja saata või välja anda riiki, kus teda tõsiselt ohustab surmanuhtlus, piinamine või muu ebainimlik või alandav kohtlemine või karistus."
+   ]
+  },
+  "harta art 2": {
+   "akt": "harta",
+   "nr": "2",
+   "read": [
+    "Artikkel 2",
+    "Õigus elule",
+    "1. Igaühel on õigus elule.",
+    "2. Kedagi ei tohi surma mõista ega hukata."
+   ]
+  },
+  "harta art 20": {
+   "akt": "harta",
+   "nr": "20",
+   "read": [
+    "Artikkel 20",
+    "Võrdsus seaduse ees",
+    "Kõik on seaduse ees võrdsed."
+   ]
+  },
+  "harta art 21": {
+   "akt": "harta",
+   "nr": "21",
+   "read": [
+    "Artikkel 21",
+    "Diskrimineerimiskeeld",
+    "1. Keelatud on igasugune diskrimineerimine, sealhulgas diskrimineerimine soo, rassi, nahavärvuse, etnilise või sotsiaalse päritolu, geneetiliste omaduste, keele, usutunnistuse või veendumuste, poliitiliste või muude arvamuste, rahvusvähemusse kuulumise, varalise seisundi, sünnipära, puuete, vanuse või seksuaalse sättumuse tõttu.",
+    "2. Igasugune kodakondsuse alusel diskrimineerimine on aluslepingute reguleerimisalas keelatud, ilma et eelöeldu piiraks nende erisätete kohaldamist."
+   ]
+  },
+  "harta art 3": {
+   "akt": "harta",
+   "nr": "3",
+   "read": [
+    "Artikkel 3",
+    "Õigus isikupuutumatusele",
+    "1. Igaühel on õigus kehalisele ja vaimsele puutumatusele.",
+    "2. Meditsiini ja bioloogia valdkonnas tuleb eelkõige austada järgmisi nõudeid ja keelde:",
+    "a) asjaomase isiku vaba ja teadliku nõusoleku, mis on antud seaduses ettenähtud korra kohaselt, nõue,",
+    "b) eugeeniliste, eelkõige isikute valikuga seotud toimingute keeld,",
+    "c) inimkehast või selle osast kui sellisest rahalise tulu saamise keeld,",
+    "d) inimeste reproduktiivse kloonimise keeld."
+   ]
+  },
+  "harta art 4": {
+   "akt": "harta",
+   "nr": "4",
+   "read": [
+    "Artikkel 4",
+    "Piinamise ning ebainimliku või alandava kohtlemise või karistamise keeld",
+    "Kedagi ei tohi piinata ega ebainimlikult või alandavalt kohelda ega karistada."
+   ]
+  },
+  "harta art 41": {
+   "akt": "harta",
+   "nr": "41",
+   "read": [
+    "Artikkel 41",
+    "Õigus heale haldusele",
+    "1. Igaühel on õigus sellele, et liidu institutsioonid, organid ja asutused käsitleksid tema küsimusi erapooletult, õiglaselt ning mõistliku aja jooksul.",
+    "2. See õigus kätkeb:",
+    "a) igaühe õigust, et teda kuulatakse ära enne seda, kui tema suhtes kohaldatakse üksikmeedet, mis võib teda kahjustada;",
+    "b) igaühe õigust tutvuda teda puudutavate andmetega, võttes samal ajal arvesse konfidentsiaalsuse ning ameti- ja ärisaladusega seotud õigustatud huve;",
+    "c) asutuste kohustust põhjendada oma otsuseid.",
+    "3. Igaühel on õigus saada liikmesriikide õiguse ühiste üldprintsiipide kohaselt liidult hüvitist mis tahes kahju eest, mida selle institutsioonid või teenistujad on oma ülesannete täitmisel tekitanud.",
+    "4. Igal kodanikul on õigus pöörduda liidu institutsioonide poole ühes aluslepingute keeltest ning talle tuleb vastata samas keeles."
+   ]
+  },
+  "harta art 43": {
+   "akt": "harta",
+   "nr": "43",
+   "read": [
+    "Artikkel 43",
+    "Euroopa ombudsman",
+    "Igal liidu kodanikul ja igal füüsilisel või juriidilisel isikul, kes elab või kelle registrijärgne asukoht on liikmesriigis, on õigus pöörduda Euroopa ombudsmani poole seoses liidu institutsioonide, organite või asutuste tegevuses ilmnenud haldusomavoliga, välja arvatud Euroopa Liidu Kohtu tegevus õigusemõistjana."
+   ]
+  },
+  "harta art 47": {
+   "akt": "harta",
+   "nr": "47",
+   "read": [
+    "Artikkel 47",
+    "Õigus tõhusale õiguskaitsevahendile ja õiglasele kohtulikule arutamisele",
+    "Igaühel, kelle liidu õigusega tagatud õigusi või vabadusi rikutakse, on selles artiklis kehtestatud tingimuste kohaselt õigus tõhusale õiguskaitsevahendile kohtus.",
+    "Igaühel on õigus õiglasele ja avalikule asja arutamisele mõistliku aja jooksul sõltumatus ja erapooletus seaduse alusel moodustatud kohtus. Igaühel peab olema võimalus saada nõu ja kaitset ning olla esindatud.",
+    "Isikule, kellel puuduvad piisavad vahendid, antakse tasuta õigusabi sellises ulatuses, mis tagab talle võimaluse kohtusse pöörduda."
+   ]
+  },
+  "harta art 51": {
+   "akt": "harta",
+   "nr": "51",
+   "read": [
+    "Artikkel 51",
+    "Reguleerimisala",
+    "1. Harta sätted on subsidiaarsuse põhimõtet arvesse võttes ette nähtud liidu institutsioonidele, organitele ja asutustele ning liikmesriikidele üksnes liidu õiguse kohaldamise korral. Seepärast austavad nad õigusi, järgivad põhimõtteid ning edendavad nende kohaldamist oma asjaomase pädevuse kohaselt, võttes arvesse liidule aluslepingute muudes osades antud volituste piire.",
+    "2. Harta ei laienda liidu õiguse reguleerimisala kaugemale senisest pädevusest, ei lisa liidule uusi pädevusvaldkondi ja ülesandeid ega muuda aluslepingute teistes osades määratletud pädevust ja ülesandeid."
+   ]
+  },
+  "harta art 52": {
+   "akt": "harta",
+   "nr": "52",
+   "read": [
+    "Artikkel 52",
+    "Õiguste ja põhimõtete ulatus ja tõlgendamine",
+    "1. Hartaga tunnustatud õiguste ja vabaduste teostamist tohib piirata ainult seadusega ning arvestades nimetatud õiguste ja vabaduste olemust. Proportsionaalsuse põhimõtte kohaselt võib piiranguid seada üksnes juhul, kui need on vajalikud ning vastavad tegelikult liidu poolt tunnustatud üldist huvi pakkuvatele eesmärkidele või kui on vaja kaitsta teiste isikute õigusi ja vabadusi.",
+    "2. Hartaga tunnustatud õigusi, mis rajanevad aluslepingute teiste osade sätetel, teostatakse neis määratletud tingimustel ja piires.",
+    "3. Hartas sisalduvate selliste õiguste tähendus ja ulatus, mis vastavad Euroopa inimõiguste ja põhivabaduse kaitse konventsiooniga tagatud õigustele, on samad, mis neile nimetatud konventsiooniga ette on nähtud. See säte ei takista liidu õiguses ulatuslikuma kaitse kehtestamist.",
+    "4. Hartaga tunnustatud põhiõigusi, nii nagu need tulenevad liikmesriikide ühistest põhiseaduslikest tavadest, tõlgendatakse kooskõlas nimetatud tavadega.",
+    "5. Harta sätteid, mis sisaldavad põhimõtteid, võib rakendada liidu institutsioonide, organite ja asutuste õigustloovate- ja rakendusaktidega, samuti liikmesriikide õigusaktidega, mis on ette nähtud liidu õiguse kohaldamiseks nende volituste teostamisel. Neile sätetele võib õiguslikult tugineda ainult kõnealuste aktide tõlgendamisel ja otsuste tegemisel nende õiguspärasuse kohta.",
+    "6. Hartas nimetatud siseriiklikke õigusakte ja tavasid tuleb täielikult arvesse võtta.",
+    "7. Harta tõlgendamise juhendina koostatud selgitusi võetakse asjakohaselt arvesse liidu ja liikmesriikide kohtutes."
+   ]
+  },
+  "harta art 7": {
+   "akt": "harta",
+   "nr": "7",
+   "read": [
+    "Artikkel 7",
+    "Era- ja perekonnaelu austamine",
+    "Igaühel on õigus sellele, et austataks tema era- ja perekonnaelu, kodu ja edastatavate sõnumite saladust."
+   ]
+  },
+  "harta art 8": {
+   "akt": "harta",
+   "nr": "8",
+   "read": [
+    "Artikkel 8",
+    "Isikuandmete kaitse",
+    "1. Igaühel on õigus oma isikuandmete kaitsele.",
+    "2. Selliseid andmeid tuleb töödelda asjakohaselt ning kindlaksmääratud eesmärkidel ja asjaomase isiku nõusolekul või muul seaduses ettenähtud õiguslikul alusel. Igaühel on õigus tutvuda tema kohta kogutud andmetega ja nõuda nende parandamist.",
+    "3. Nende sätete täitmist kontrollib sõltumatu asutus."
+   ]
+  },
+  "ÜDIÕ art 1": {
+   "akt": "ÜDIÕ",
+   "nr": "1",
+   "read": [
+    "Artikkel 1.",
+    "Kõik inimesed sünnivad vabadena ja võrdsetena oma väärikuselt ja õigustelt. Neile on antud mõistus ja südametunnistus ja nende suhtumist üksteisesse peab kandma vendluse vaim."
+   ]
+  },
+  "ÜDIÕ art 12": {
+   "akt": "ÜDIÕ",
+   "nr": "12",
+   "read": [
+    "Artikkel 12.",
+    "Kellegi isiklikku ja perekonnaellu ei või meelevaldselt vahele segada, kellegi korteripuutumatust, kirjavahetuse saladust või au ja reputatsiooni ei tohi meelevaldselt määrida. Igal inimesel on õigus seaduse kaitsele selliste vahelesegamiste ja rikkumiste eest."
+   ]
+  },
+  "ÜDIÕ art 14": {
+   "akt": "ÜDIÕ",
+   "nr": "14",
+   "read": [
+    "Artikkel 14.",
+    "Igal inimesel on õigus tagakiusu ees varjupaika otsida teistes maades ja seda varjupaika kasutada.",
+    "Seda õigust ei saa kasutada jälitamise puhul, mis tegelikult tuleneb mittepoliitilisest kuriteost või teost, mis on vastuolus Ühinenud Rahavaste Organisatsiooni eesmärkide ja põhimõtetega."
+   ]
+  },
+  "ÜDIÕ art 18": {
+   "akt": "ÜDIÕ",
+   "nr": "18",
+   "read": [
+    "Artikkel 18.",
+    "Igal inimesel on õigus mõtte-, südametunnistuse ja usuvabadusele; see õigus kätkeb vabadust oma usku või veendumusi muuta, samuti vabadust vabalt kuulutuada oma usku või veendumusi nii üksikult kui ka koos teistega avalikult või eraviisiliselt õpetuse, jumalateenistuse ja religioossete ning rituaalsete kombetalituste kaudu."
+   ]
+  },
+  "ÜDIÕ art 3": {
+   "akt": "ÜDIÕ",
+   "nr": "3",
+   "read": [
+    "Artikkel 3.",
+    "Igal inimesel on õigus elule, vabadusele ja isikupuutumatusele."
+   ]
+  },
+  "ÜDIÕ art 5": {
+   "akt": "ÜDIÕ",
+   "nr": "5",
+   "read": [
+    "Artikkel 5.",
+    "Kellegi suhtes ei tohi rakendada piinamisi või julma, ebainimlikku, tema väärikust alandavat kohtlemist või karistust."
+   ]
+  },
+  "ÜRO PK art 1": {
+   "akt": "ÜRO PK",
+   "nr": "1",
+   "read": [
+    "Artikkel 1",
+    "ÜRO eesmärkideks on:",
+    "1. Säilitada rahvusvahelist rahu ja julgeolekut. Rahu ähvardava ohu vältimiseks ja kõrvaldamiseks ning agressiooniaktide või muude rahu rikkumiste mahasurumiseks rakendada tõhusaid kollektiivseid meetmeid. Rahvusvahelisi tülisid või olukordi, mis võivad viia rahu rikkumiseni, reguleerida või lahendada rahulike vahenditega vastavalt õigluse ja rahvusvahelise õiguse põhimõtetele.",
+    "2. Arendada rahvusvahelisi sõbralikke suhteid rahvaste võrdõiguslikkuse ja enesemääramise põhimõtte austamise alusel ja rakendada muid meetmeid üldise rahu kindlustamiseks.",
+    "3. Arendada rahvusvahelist koostööd majandusliku, sotsiaalse, kultuurilise ja humanitaarse iseloomuga rahvusvaheliste probleemide lahendamisel ning lugupidamise kasvatamisel ja süvendamisel inimõiguste ja kõigile mõeldud põhivabaduste vastu, tegemata vahet rassi, soo, keele ja usundi alusel.",
+    "4. Olla rahvaste tegevust kooskõlastavaks keskuseks nimetatud ühiste eesmärkide taotlemisel."
+   ]
+  },
+  "ÜRO PK art 24": {
+   "akt": "ÜRO PK",
+   "nr": "24",
+   "read": [
+    "Artikkel 24",
+    "1. ÜRO kiire ja efektiivse tegevuse kindlustamiseks panevad tema liikmed Julgeolekunõukogule peamise vastutuse rahvusvahelise rahu ja julgeoleku säilitamise eest ning lepivad kokku selles, et oma vastutusest tulenevate kohustuste täitmisel tegutseb Julgeolekunõukogu nende nimel.",
+    "2. Nende kohustuste täitmisel tegutseb Julgeolekunõukogu ÜRO eesmärkide ja põhimõtete kohaselt. Nende kohustuste täitmiseks Julgeolekunõukogule antud kindlaksmääratud volitused on toodud VI, VII, VIII ja XIIl peatükis.",
+    "3. Julgeolekunõukogu esitab Peaassambleele läbivaatamiseks iga-aastased aruanded ja vajaduse korral eriaruanded."
+   ]
+  },
+  "ÜRO PK art 39": {
+   "akt": "ÜRO PK",
+   "nr": "39",
+   "read": [
+    "Artikkel 39",
+    "Julgeolekunõukogu määrab kindlaks iga rahu ohustamise, iga rahu rikkumise või agressiooniakti olemasolu ja annab soovitusi või otsustab, milliseid meetmeid tuleb artiklite 41 ja 42 kohaselt võtta rahvusvahelise rahu ja julgeoleku säilitamiseks või taastamiseks."
+   ]
+  },
+  "ÜRO PK art 55": {
+   "akt": "ÜRO PK",
+   "nr": "55",
+   "read": [
+    "Artikkel 55",
+    "Et luua stabiilsuse ja heaolu tingimused, mis on vajalikud rahvaste võrdõiguslikkuse ja enesemääramise põhimõtte austamisele rajatud rahulikeks ja sõbralikeks suheteks rahvaste vahel, aitab ÜRO kaasa:",
+    "a) elanikkonna elatustaseme tõstmisele, täielikule tööhõivele ning majandusliku ja sotsiaalse progressi ning arenemise tingimustele;",
+    "b) rahvusvaheliste probleemide lahendamisele majanduslikul, sotsiaalsel, tervishoiu ja muudel taolistel aladel; rahvusvahelisele koostööle kultuuri ja hariduse alal;",
+    "c) kõigile kuuluvate inimõiguste ja põhivabaduste üldisele austamisele ja järgimisele, tegemata vahet rassi, soo, keele ja usundi alusel."
+   ]
+  },
+  "ÜRO PK art 56": {
+   "akt": "ÜRO PK",
+   "nr": "56",
+   "read": [
+    "Artikkel 56",
+    "Artiklis 55 tähendatud eesmärkide saavutamiseks kohustuvad kõik organisatsiooni liikmed koostöös organisatsiooniga tegutsema ühiselt ja iseseisvalt."
+   ]
+  },
+  "ÜRO PK art 92": {
+   "akt": "ÜRO PK",
+   "nr": "92",
+   "read": [
+    "Artikkel 92",
+    "Rahvusvaheline Kohus on ÜRO peamine kohtuorgan. Ta tegutseb vastavalt juurdelisatud statuudile, mis põhineb Alalise Rahvusvahelise Kohtu statuudil ja kujutab endast käesoleva põhikirja lahutamatut osa."
+   ]
+  },
+  "ÜRO PK art 94": {
+   "akt": "ÜRO PK",
+   "nr": "94",
+   "read": [
+    "Artikkel 94",
+    "1. Organisatsiooni iga liige kohustub täitma Rahvusvahelise Kohtu otsust asjas, milles ta on pooleks.",
+    "2. Kui ükskõik kumb pool ei täida temale kohtuotsusega pandud kohustusi, võib teine pool pöörduda Julgeolekunõukogu poole, kes võib, kui ta peab seda vajalikuks, anda soovitusi või otsustada võtta meetmeid otsuse täitmiseks."
+   ]
+  }
+ }
+}

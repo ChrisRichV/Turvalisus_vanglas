@@ -1,0 +1,171 @@
+{
+  "id": "t01-04",
+  "tund": "t01",
+  "jrk": 4,
+  "pealkiri": "Rahvusvaheline Kriminaalkohus",
+  "kysimused": [
+    6
+  ],
+  "lyhidalt": "ICC mõistab kohut üksikisikute üle nelja kõige raskema kuriteo eest ja ainult siis, kui riik ise ei taha või ei suuda seda teha (komplementaarsus).",
+  "osad": {
+    "pohimote": {
+      "tekst": "Rahvusvaheline Kriminaalkohus (ICC) on **alaline institutsioon**, mis teostab jurisdiktsiooni **üliraskete rahvusvaheliste kuritegude** eest vastutavate isikute üle ja **täiendab riiklikke kriminaaljurisdiktsioone** ([[Rooma art 1]]). Erinevalt EIK-st ei mõista ICC kohut **riigi**, vaid **füüsilise isiku** üle ([[Rooma art 25 lg 1]]).",
+      "punktid": [
+        "Kuriteod ([[Rooma art 5]]): {{genotsiid}}; {{inimsusevastane-kuritegu|inimsusevastased kuriteod}}; {{sojakuritegu|sõjakuriteod}}; {{agressioon}}.",
+        "Jurisdiktsiooni puudub alla 18-aastaste üle ([[Rooma art 26]]).",
+        "Karistused: kuni 30 aastat või eluaegne vangistus; lisaks trahv ja konfiskeerimine ([[Rooma art 77]])."
+      ]
+    },
+    "alus": {
+      "read": [
+        {
+          "tase": "Rahvusvaheline",
+          "viited": [
+            "Rooma art 1",
+            "Rooma art 5"
+          ],
+          "tekst": "Kohus ja tema jurisdiktsiooni alla kuuluvad kuriteod."
+        },
+        {
+          "tase": "Rahvusvaheline",
+          "viited": [
+            "Rooma art 12",
+            "Rooma art 13"
+          ],
+          "tekst": "Eeltingimused (territoorium või süüdistatava kodakondsus) ja kes saab asja algatada."
+        },
+        {
+          "tase": "Rahvusvaheline",
+          "viited": [
+            "Rooma art 17"
+          ],
+          "tekst": "Vastuvõetavus – komplementaarsus."
+        },
+        {
+          "tase": "ÜRO",
+          "viited": [
+            "ÜRO PK art 39"
+          ],
+          "tekst": "Julgeolekunõukogu VII peatüki alusel võib anda olukorra prokurörile ([[Rooma art 13]] p b)."
+        }
+      ]
+    },
+    "piiramine": {
+      "pealkiri": "Millal ICC asja võtab",
+      "punktid": [
+        "**Algataja:** osalisriik, ÜRO Julgeolekunõukogu või prokurör ise ([[Rooma art 13]]).",
+        "**Seos osalisriigiga:** tegu toimus osalisriigi territooriumil või süüdistatav on osalisriigi kodanik ([[Rooma art 12 lg 2]]). NB! Vaata allpool tõlkeerinevust – millistele algatamisviisidele see tingimus kehtib.",
+        "**{{komplementaarsus|Komplementaarsus}}:** asi on vastuvõetamatu, kui riik ise uurib või on uurinud – välja arvatud siis, kui riik **ei taha** või **ei suuda** seda tõepoolest teha ([[Rooma art 17 lg 1]]); kriteeriumid lõigetes 2–3.",
+        "Asi peab olema piisavalt tõsine ([[Rooma art 17 lg 1]] p d)."
+      ]
+    },
+    "vangla": {
+      "tekst": "Vanglateenistuja jaoks on oluline, et **piinamine ja ebainimlik kohtlemine** relvakonflikti või laiaulatusliku rünnaku kontekstis võivad olla rahvusvahelised kuriteod, mille eest vastutab isiklikult ka käsu täitja ([[Rooma art 25 lg 3]]). Ka siseriiklikult: ülemuse käsk ei õigusta piinamist ([[CAT art 2 lg 3]]).",
+      "naide": {
+        "olukord": "Teoreetiline juhtum: relvakonflikti ajal kinni peetud sõjavange koheldakse laagris julmalt ülemuse käsul.",
+        "analyys": "Sõjavange tuleb alati kohelda inimlikult ([[Genf III art 13]]). Isik vastutab isiklikult, sh käsu andja ([[Rooma art 25 lg 3]] p b). ICC võtab asja, kui riik ise ei taha või ei suuda menetleda ([[Rooma art 17]])."
+      }
+    },
+    "tyypviga": {
+      "punktid": [
+        "ICC ja EIK segiajamine: ICC mõistab kohut **isikute** üle, EIK lahendab kaebusi **riikide** vastu.",
+        "ICC ja ÜRO Rahvusvahelise Kohtu segiajamine (viimane lahendab riikidevahelisi vaidlusi – [[ÜRO PK art 92]]).",
+        "Arvatakse, et ICC on esmane kohus – ta on täiendav ([[Rooma art 1]], [[Rooma art 17]]).",
+        "Nelja kuriteo loetelust jäetakse välja agressioon."
+      ]
+    }
+  },
+  "skeem": {
+    "tyyp": "voog",
+    "pealkiri": "Kas ICC võtab asja?",
+    "sammud": [
+      {
+        "pealkiri": "Kas kuritegu on art 5 loetelus?",
+        "tekst": "genotsiid · inimsusevastane · sõjakuritegu · agressioon",
+        "viide": "Rooma art 5"
+      },
+      {
+        "pealkiri": "Kes algatab?",
+        "tekst": "osalisriik · Julgeolekunõukogu · prokurör",
+        "viide": "Rooma art 13"
+      },
+      {
+        "pealkiri": "Seos osalisriigiga?",
+        "tekst": "territoorium või kodakondsus",
+        "viide": "Rooma art 12"
+      },
+      {
+        "pealkiri": "Kas riik ise menetleb?",
+        "tekst": "jah → ICC ei võta (kui ei ole tahtmatus/võimetus)",
+        "viide": "Rooma art 17"
+      },
+      {
+        "pealkiri": "Isik ≥ 18 a?",
+        "tekst": "alla 18 → ei ole jurisdiktsiooni",
+        "viide": "Rooma art 26"
+      }
+    ]
+  },
+  "vastus": [
+    {
+      "nr": 6,
+      "punktid": [
+        "Alaline kohus, mis täiendab riiklikke kriminaaljurisdiktsioone ([[Rooma art 1]]).",
+        "Jurisdiktsioon **füüsiliste isikute** üle ([[Rooma art 25]]), kes olid kuriteo ajal vähemalt 18-aastased ([[Rooma art 26]]).",
+        "Kuriteod: genotsiid, inimsusevastased kuriteod, sõjakuriteod, agressioon ([[Rooma art 5]]).",
+        "Eeltingimused ja algatamine ([[Rooma art 12]], [[Rooma art 13]]); komplementaarsus ([[Rooma art 17]]); karistused ([[Rooma art 77]])."
+      ]
+    }
+  ],
+  "harjutused": [
+    {
+      "tyyp": "fakt",
+      "kysimus": "Kelle üle mõistab ICC kohut?",
+      "valikud": [
+        "Riikide üle",
+        "Füüsiliste isikute üle",
+        "Rahvusvaheliste organisatsioonide üle"
+      ],
+      "oige": 1,
+      "selgitus": "[[Rooma art 25 lg 1]]."
+    },
+    {
+      "tyyp": "fakt",
+      "kysimus": "Milline neist EI ole Rooma statuudi art 5 loetelus?",
+      "valikud": [
+        "Genotsiid",
+        "Agressioon",
+        "Terrorism",
+        "Sõjakuriteod"
+      ],
+      "oige": 2,
+      "selgitus": "[[Rooma art 5 lg 1]] – neli kuritegu; terrorismi seal ei ole."
+    },
+    {
+      "tyyp": "fakt",
+      "kysimus": "Mis on ICC maksimaalne tähtajaline vangistus?",
+      "valikud": [
+        "20 aastat",
+        "25 aastat",
+        "30 aastat"
+      ],
+      "oige": 2,
+      "selgitus": "[[Rooma art 77 lg 1]]; lisaks võimalik eluaegne vangistus."
+    }
+  ],
+  "erinevused": [
+    {
+      "teema": "Rooma statuut art 12 lg 2 – millistele algatamisviisidele eeltingimus kehtib",
+      "konspekt": "(konspektis ei käsitleta)",
+      "ametlik": "Riigi Teataja eestikeelne tekst: „Artikli 13 lõigetes a ja b nimetatud juhul …”",
+      "viide": "Rooma art 12 lg 2",
+      "markus": "Ingliskeelses originaalis on viide art 13 punktidele (a) või (c), st osalisriigi ja prokuröri algatusele; Julgeolekunõukogu pöördumisel (b) territooriumi/kodakondsuse tingimus ei kehti. See teadmine ei pärine tunnimaterjalist (allikas: Rooma statuudi ingliskeelne tekst, art 12(2)). Eksamil tasub viidata RT tekstile ja tõlkeerinevust mainida."
+    }
+  ],
+  "valjast": [
+    {
+      "tekst": "Rooma statuudi ingliskeelses originaalis viitab art 12(2) art 13 punktidele (a) ja (c).",
+      "allikas": "Rome Statute of the International Criminal Court, art 12(2) (ingliskeelne tekst) – ei pärine tunnimaterjalist"
+    }
+  ]
+}

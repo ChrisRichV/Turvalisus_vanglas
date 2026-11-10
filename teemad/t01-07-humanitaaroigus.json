@@ -1,0 +1,102 @@
+{
+  "id": "t01-07",
+  "tund": "t01",
+  "jrk": 7,
+  "pealkiri": "Rahvusvaheline humanitaarõigus",
+  "kysimused": [9],
+  "lyhidalt": "Relvakonflikti ajal kehtivad reeglid, mille eesmärk on kaitsta inimesi, kes sõjategevusest osa ei võta või enam ei saa võtta: haavatud, sõjavangid ja tsiviilisikud. Neid tuleb alati kohelda inimlikult.",
+  "osad": {
+    "pohimote": {
+      "tekst": "Rahvusvaheline humanitaarõigus on **relvakonflikti ajal kohaldatav õigus**. Selle **eesmärk** on piirata sõja kannatusi ja kaitsta isikuid, kes sõjategevusest **ei võta või enam ei saa osa võtta**. Põhiaktid on neli **Genfi konventsiooni** (1949) ja nende lisaprotokollid (kaustas `06_kriminaal_ja_humanitaaroigus`). Raskeid rikkumisi saab karistada ka **sõjakuriteona** ([[Rooma art 5]]).",
+      "punktid": [
+        "**Genf I** – haavatud ja haiged sõjaväelased maismaal; **Genf II** – merel; **Genf III** – sõjavangid; **Genf IV** – tsiviilisikud.",
+        "**Lisaprotokoll I** – rahvusvahelised konfliktid; **lisaprotokoll II** – siseriiklikud (mitterahvusvahelised) konfliktid.",
+        "Konventsiooni kohaldatakse kuulutatud sõja, muu relvakonflikti ja okupatsiooni korral ([[Genf III art 2]]).",
+        "**Ühine artikkel 3** kehtib ka mitterahvusvahelises konfliktis: humaanne kohtlemine; keelatud tapmine, piinamine, pantvangid, alandav kohtlemine, kohtuotsuseta karistamine ([[Genf III art 3]])."
+      ]
+    },
+    "alus": {
+      "read": [
+        { "tase": "Genfi õigus", "viited": ["Genf III art 2", "Genf III art 3"], "tekst": "Kohaldamisala; miinimumstandard ka siseriiklikus konfliktis." },
+        { "tase": "Genfi õigus", "viited": ["Genf III art 4", "Genf III art 13"], "tekst": "Kes on sõjavang; sõjavange tuleb alati kohelda inimlikult." },
+        { "tase": "Genfi õigus", "viited": ["Genf IV art 4", "Genf IV art 27", "Genf IV art 32"], "tekst": "Kaitstud isikud; austus isiku, au, perekonna ja usu vastu; füüsiliste kannatuste keeld." },
+        { "tase": "ICC", "viited": ["Rooma art 5"], "tekst": "Sõjakuriteod rahvusvahelise kriminaalvastutuse alusena." },
+        { "tase": "Inimõigused", "viited": ["EIÕK art 15 lg 2"], "tekst": "Ka sõja ajal ei või peatada piinamise keeldu (art 3)." }
+      ]
+    },
+    "piiramine": {
+      "pealkiri": "Mis on lubatud ja mis mitte",
+      "punktid": [
+        "Konfliktiosalised võivad kaitstud isikute suhtes kasutada **sõja tõttu vajalikke kontrolli- ja julgeolekumeetmeid** ([[Genf IV art 27]] viimane lõik) – kuid inimlik kohtlemine jääb alati kehtima.",
+        "**Absoluutsed keelud:** piinamine, julm kohtlemine, pantvangide võtmine, alandav kohtlemine ([[Genf III art 3]]); sõjavangide surveabinõud ([[Genf III art 13]]).",
+        "Inimõigused kehtivad ka sõja ajal, kuid osa neist võib **hädaolukorras peatada**; erand: art 3 jt ([[EIÕK art 15]])."
+      ]
+    },
+    "vangla": {
+      "tekst": "Sõjavangide kohtlemise reeglid meenutavad vanglanorme: inimlik kohtlemine, kaitse vägivalla, solvangute ja **avaliku uudishimu** eest ([[Genf III art 13]]). Rahuajal kehtib vanglas sama põhimõte inimväärikuse kohta ([[VangS § 4^1 lg 1]]).",
+      "naide": {
+        "olukord": "Arutelu: kas kinnipeetava pildistamine ja jagamine „hoiatuseks” võiks olla lubatud?",
+        "analyys": "Humanitaarõigus keelab sõjavangi eksponeerimise avalikule uudishimule ([[Genf III art 13]]). Rahuajal vanglas riivaks see eraelu ([[PS § 26]]) ja inimväärikust ([[VangS § 4^1 lg 1]]). Seaduslikku alust selleks ei ole → keelatud."
+      }
+    },
+    "tyypviga": {
+      "punktid": [
+        "Humanitaarõigus aetakse segi humanitaarabiga.",
+        "Arvatakse, et humanitaarõigus kehtib ainult riikidevahelises sõjas – ühine art 3 kehtib ka siseriiklikus konfliktis.",
+        "Arvatakse, et sõja ajal inimõigused ei kehti – [[EIÕK art 15 lg 2]] näitab, millest ei saa taganeda."
+      ]
+    }
+  },
+  "skeem": {
+    "tyyp": "puu",
+    "pealkiri": "Keda Genfi konventsioonid kaitsevad",
+    "juur": { "pealkiri": "Humanitaarõigus", "tekst": "kaitse isikutele, kes ei võta (enam) osa sõjategevusest", "viide": "Genf III art 3" },
+    "harud": [
+      { "pealkiri": "Sõjaväelased", "toon": "a", "lapsed": [
+        { "pealkiri": "Genf I", "tekst": "haavatud ja haiged maismaal" },
+        { "pealkiri": "Genf II", "tekst": "haavatud, haiged, merehädas" },
+        { "pealkiri": "Genf III", "tekst": "sõjavangid", "viide": "Genf III art 4" }
+      ]},
+      { "pealkiri": "Tsiviilisikud", "toon": "b", "lapsed": [
+        { "pealkiri": "Genf IV", "tekst": "kaitstud isikud vaenlase võimu all", "viide": "Genf IV art 4" }
+      ]},
+      { "pealkiri": "Konflikti liik", "toon": "c", "lapsed": [
+        { "pealkiri": "Lisaprotokoll I", "tekst": "rahvusvaheline" },
+        { "pealkiri": "Lisaprotokoll II + ühine art 3", "tekst": "mitterahvusvaheline", "viide": "Genf III art 3" }
+      ]}
+    ]
+  },
+  "vastus": [
+    {
+      "nr": 9,
+      "punktid": [
+        "**Eesmärk:** relvakonflikti ajal kaitsta isikuid, kes sõjategevusest ei võta või enam ei saa osa võtta, ning piirata sõja kannatusi.",
+        "**Sisu:** Genfi konventsioonid I–IV (haavatud maismaal ja merel, sõjavangid, tsiviilisikud) ja lisaprotokollid I–II; kohaldatakse sõja, relvakonflikti ja okupatsiooni korral ([[Genf III art 2]]).",
+        "**Miinimumreegel** igas konfliktis: humaanne kohtlemine, piinamise, pantvangide, alandava kohtlemise ja kohtuotsuseta karistamise keeld ([[Genf III art 3]]).",
+        "Rasked rikkumised võivad olla sõjakuriteod ([[Rooma art 5]])."
+      ]
+    }
+  ],
+  "harjutused": [
+    {
+      "tyyp": "fakt",
+      "kysimus": "Milline Genfi konventsioon käsitleb sõjavange?",
+      "valikud": ["I", "II", "III", "IV"],
+      "oige": 2,
+      "selgitus": "Genfi III konventsioon; inimliku kohtlemise nõue [[Genf III art 13]]."
+    },
+    {
+      "tyyp": "fakt",
+      "kysimus": "Kas Genfi konventsioonide ühine artikkel 3 kohaldub siseriiklikus relvakonfliktis?",
+      "valikud": ["Jah", "Ei"],
+      "oige": 0,
+      "selgitus": "[[Genf III art 3]]: „relvakonflikt, mis ei ole rahvusvaheline”."
+    }
+  ],
+  "erinevused": [
+    { "teema": "Konspekt", "konspekt": "Konspekt rahvusvahelist humanitaarõigust eraldi ei käsitle.", "ametlik": "Vastus on koostatud Genfi konventsioonide ja Rooma statuudi tekstide põhjal (kaust 06).", "viide": "Genf III art 3" }
+  ],
+  "valjast": [
+    { "tekst": "Humanitaarõiguse eesmärgi üldsõnastus („piirata sõja kannatusi, kaitsta neid, kes ei võta osa sõjategevusest”) on õigusteaduse üldine kokkuvõte; konventsioonide tekstid toetavad seda (nt ühine art 3).", "allikas": "üldine õigusteadus; ei pärine konspektist" }
+  ]
+}

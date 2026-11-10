@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="et">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kordamine – Turvalisus vanglas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Source+Serif+4:opsz,wght@8..60,300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/stiil.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23f2c230'/%3E%3Ctext x='16' y='24' font-size='22' text-anchor='middle' font-family='Georgia' fill='%231c2733'%3E§%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<header class="ylariba">
+  <a class="logo" href="index.html"><b>§</b> Turvalisus vanglas</a>
+  <nav>
+    <a href="index.html">Tunnid</a>
+    <a href="kordamine.html" aria-current="page">Kordamine</a>
+    <button type="button" class="teemanupp">Tume</button>
+  </nav>
+</header>
+
+<main>
+  <header class="kord-pais">
+    <h1>Kordamine</h1>
+    <p>Tunni kordamisküsimused koos vastustega ja segatud harjutused: faktid ja kaasused. Kaasuse lahendad kõigepealt ise, siis võrdled lahendusega.</p>
+    <div class="sakid" role="tablist" aria-label="Kordamise viis">
+      <button type="button" class="sakk" role="tab" id="sakk-harjutus" aria-controls="paneel-harjutus" aria-selected="true">Segatud harjutus</button>
+      <button type="button" class="sakk" role="tab" id="sakk-kysimused" aria-controls="paneel-kysimused" aria-selected="false">Tunni küsimused</button>
+    </div>
+  </header>
+
+  <div class="kord-keha">
+    <section id="paneel-harjutus" role="tabpanel" aria-labelledby="sakk-harjutus">
+      <div class="seaded">
+        <label>Tund <select id="v-tund"></select></label>
+        <label>Teema <select id="v-teema"></select></label>
+        <label>Liik <select id="v-liik"><option value="koik">Segamini</option><option value="fakt">Ainult faktid</option><option value="kaasus">Ainult kaasused</option></select></label>
+        <label>Arv <select id="v-arv"><option>5</option><option selected>8</option><option>10</option></select></label>
+        <button type="button" class="nupp" id="uus">Uus komplekt</button>
+      </div>
+      <p class="skoor" id="skoor" role="status" aria-live="polite"></p>
+      <div id="harjutused"><p class="tyhi">Laen…</p></div>
+    </section>
+
+    <section id="paneel-kysimused" role="tabpanel" aria-labelledby="sakk-kysimused" hidden>
+      <div class="seaded"><label>Tund <select id="k-tund"></select></label></div>
+      <div id="kysimused"></div>
+    </section>
+  </div>
+</main>
+
+<footer class="jalus">
+  <p>Seaduste ja lepingute tekstid: Riigi Teataja, EUR-Lex, ÜRO – muutmata kujul.</p>
+</footer>
+
+<script src="assets/seadistus.js"></script>
+<script src="assets/app.js"></script>
+<script src="assets/skeemid.js"></script>
+<script>
+(function () {
+  const A = window.APP;
+  A.kaivita();
+  const prm = new URLSearchParams(location.search);
+  const $ = (id) => document.getElementById(id);
+  let TEEMAD = [], tulemus = { oiged: 0, vastatud: 0, fakte: 0 };
+
+  // sakid
+  const sakid = [...document.querySelectorAll(".sakk")];
+  sakid.forEach((s) => s.addEventListener("click", () => vali(s)));
+  sakid.forEach((s, i) => s.addEventListener("keydown", (e) => {
+    if (e.key === "ArrowRight" || e.key === "ArrowLeft") { const j = (i + (e.key === "ArrowRight" ? 1 : -1) + sakid.length) % sakid.length; sakid[j].focus(); vali(sakid[j]); }
+  }));
+  function vali(s) {
+    sakid.forEach((x) => { x.setAttribute("aria-selected", x === s); $(x.getAttribute("aria-controls")).hidden = x !== s; });
+  }
+
+  A.andmed().then(({ tunnid }) => A.koikTeemad().then((teemad) => {
+    TEEMAD = teemad;
+    const valmis = tunnid.tunnid.filter((t) => t.olek === "valmis");
+    const tunniValik = valmis.map((t) => `<option value="${t.id}">${t.nr}. ${A.esc(t.pealkiri)}</option>`).join("");
+    $("v-tund").innerHTML = `<option value="koik">Kõik tunnid</option>` + tunniValik;
+    $("k-tund").innerHTML = tunniValik;
+    if (prm.get("tund")) { $("v-tund").value = prm.get("tund"); $("k-tund").value = prm.get("tund"); }
+    taidaTeemad();
+    if (prm.get("teema")) $("v-teema").value = prm.get("teema");
+    $("v-tund").addEventListener("change", () => { taidaTeemad(); uus(); });
+    ["v-teema", "v-liik", "v-arv"].forEach((id) => $(id).addEventListener("change", uus));
+    $("uus").addEventListener("click", uus);
+    $("k-tund").addEventListener("change", () => kysimused(tunnid));
+    uus();
+    kysimused(tunnid);
+  })).catch((e) => A.viga($("harjutused"), e));
+
+  function taidaTeemad() {
+    const t = $("v-tund").value;
+    const list = TEEMAD.filter((x) => t === "koik" || x.tund === t);
+    $("v-teema").innerHTML = `<option value="koik">Kõik teemad</option>` + list.map((x) => `<option value="${x.id}">${x.jrk}. ${A.esc(x.pealkiri)}</option>`).join("");
+  }
+
+  function sega(a) { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+
+  function uus() {
+    const tund = $("v-tund").value, teema = $("v-teema").value, liik = $("v-liik").value, arv = +$("v-arv").value;
+    let kogum = [];
+    TEEMAD.forEach((t) => {
+      if (tund !== "koik" && t.tund !== tund) return;
+      if (teema !== "koik" && t.id !== teema) return;
+      t.harjutused.forEach((h) => { if (liik === "koik" || h.tyyp === liik) kogum.push({ h, t }); });
+    });
+    sega(kogum);
+    // segamini: vähemalt üks kaasus, kui olemas
+    let valik = kogum.slice(0, arv);
+    if (liik === "koik" && !valik.some((x) => x.h.tyyp === "kaasus")) {
+      const k = kogum.find((x) => x.h.tyyp === "kaasus"); if (k) valik[valik.length - 1] = k;
+    }
+    tulemus = { oiged: 0, vastatud: 0, fakte: valik.filter((x) => x.h.tyyp === "fakt").length };
+    $("harjutused").innerHTML = valik.length
+      ? valik.map((x, i) => A.harjutusHtml(x.h, "x" + i, x.t.pealkiri)).join("")
+      : `<p class="tyhi">Selle valikuga harjutusi ei ole. Vali teine teema või liik.</p>`;
+    skoor();
+  }
+
+  function skoor() {
+    $("skoor").textContent = tulemus.fakte
+      ? `${tulemus.oiged} / ${tulemus.vastatud} õigesti (faktiküsimusi kokku ${tulemus.fakte})`
+      : "";
+  }
+
+  A.seoHarjutused($("harjutused"), (oige) => {
+    tulemus.vastatud++; if (oige) tulemus.oiged++;
+    skoor();
+    if (tulemus.vastatud === tulemus.fakte) {
+      try { localStorage.setItem("viimane-tulemus", JSON.stringify({ ...tulemus, aeg: Date.now() })); } catch (_) { /* pole oluline */ }
+    }
+  });
+
+  function kysimused(tunnid) {
+    const t = tunnid.tunnid.find((x) => x.id === $("k-tund").value);
+    if (!t) { $("kysimused").innerHTML = ""; return; }
+    const vastused = {};
+    TEEMAD.filter((x) => x.tund === t.id).forEach((tm) => tm.vastus.forEach((v) => (vastused[v.nr] = { v, tm })));
+    $("kysimused").innerHTML = t.kysimused.map((k, i) => {
+      const nr = i + 1, a = vastused[nr];
+      const sisu = a ? `<ul>${a.v.punktid.map((p) => `<li>${A.md(p)}</li>`).join("")}</ul>
+        <p><a href="teema.html?id=${a.tm.id}">Ava teema: ${A.esc(a.tm.pealkiri)}</a></p>` : `<p class="tyhi">Vastus lisamata.</p>`;
+      return `<div class="tk"><div class="tk-kys"><span class="tk-nr">${nr}.</span><span>${A.esc(k)}</span></div>
+        <details><summary>Näita vastust</summary><div class="tk-vastus">${sisu}</div></details></div>`;
+    }).join("");
+  }
+})();
+</script>
+</body>
+</html>

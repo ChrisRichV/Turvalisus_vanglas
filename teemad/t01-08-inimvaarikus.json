@@ -1,0 +1,125 @@
+{
+  "id": "t01-08",
+  "tund": "t01",
+  "jrk": 8,
+  "pealkiri": "Inimväärikus ja piinamise keeld",
+  "kysimused": [10],
+  "lyhidalt": "Inimväärikus on puutumatu. Piinamise, julma ja alandava kohtlemise keeld on absoluutne, seda ei õigusta ükski eesmärk ega erakorraline olukord.",
+  "osad": {
+    "pohimote": {
+      "tekst": "Inimväärikus on kõigi põhiõiguste alus: põhiseaduse õigused peavad vastama **inimväärikuse** põhimõttele ([[PS § 10]]), harta järgi on inimväärikus **puutumatu** ([[harta art 1]]). Selle kõige selgem väljendus on **piinamise, julma ja väärikust alandava kohtlemise keeld** ([[PS § 18]], [[EIÕK art 3]], [[harta art 4]], [[ÜDIÕ art 5]], [[KPÕRP art 7]]).",
+      "punktid": [
+        "Keelatud on ka meditsiini- ja teaduskatsed ilma vaba tahteta ([[PS § 18]] teine lause, [[KPÕRP art 7]]).",
+        "Vabaduse kaotanud isikul on õigus **humaansele kohtlemisele ja inimväärikuse austamisele** ([[KPÕRP art 10 lg 1]]).",
+        "{{piinamine|Piinamise}} mõiste: tahtlik tugeva füüsilise või vaimse valu tekitamine ametiisiku poolt või tema nõusolekul kindlal eesmärgil ([[CAT art 1]]).",
+        "Keeld hõlmab ka väljasaatmist riiki, kus isikut ähvardab piinamine ([[CAT art 3]], [[harta art 19 lg 2]])."
+      ]
+    },
+    "alus": {
+      "read": [
+        { "tase": "Eesti", "viited": ["PS § 10", "PS § 18"], "tekst": "Inimväärikuse põhimõte; piinamise ja alandava kohtlemise keeld." },
+        { "tase": "Vangla", "viited": ["VangS § 4^1"], "tekst": "Kinnipeetavat koheldakse inimväärikust austavalt; vangistus ei tohi põhjustada rohkem kannatusi, kui paratamatult kaasneb." },
+        { "tase": "Euroopa Nõukogu", "viited": ["EIÕK art 3", "EIÕK art 15 lg 2", "CPT art 1"], "tekst": "Absoluutne keeld – ei saa peatada ka hädaolukorras; CPT külastused." },
+        { "tase": "Euroopa Liit", "viited": ["harta art 1", "harta art 4"], "tekst": "Inimväärikus on puutumatu; piinamise keeld." },
+        { "tase": "ÜRO", "viited": ["ÜDIÕ art 5", "KPÕRP art 7", "KPÕRP art 10", "CAT art 1", "CAT art 2", "OPCAT art 1"], "tekst": "Piinamise määratlus; erandlikud asjaolud ei õigusta; ennetavad külastused." },
+        { "tase": "Standard", "viited": ["Mandela rule 1"], "tekst": "Kinnipeetavaid koheldakse austusega nende väärikuse vastu (ingliskeelne, soovituslik)." }
+      ]
+    },
+    "piiramine": {
+      "pealkiri": "Kas saab piirata? Ei.",
+      "tekst": "Piinamise ja ebainimliku/alandava kohtlemise keeld on **absoluutne**: proportsionaalsust ei kaaluta.",
+      "punktid": [
+        "Ei õigusta **sõda, sõjaoht, poliitiline ebastabiilsus ega erakorraline olukord** ([[CAT art 2 lg 2]]).",
+        "Ei õigusta **ülemuse käsk** ([[CAT art 2 lg 3]]).",
+        "EIÕK art 3-st ei saa **taganeda** ka hädaolukorras ([[EIÕK art 15 lg 2]]).",
+        "Küll aga ei ole piinamine valu, mis tuleneb **üksnes seaduslike sanktsioonide** rakendamisest ([[CAT art 1 lg 1]] viimane lause) – nt vangistus ise. Küsimus on, kas kohtlemine ületab paratamatult kaasneva määra ([[VangS § 4^1 lg 1]])."
+      ]
+    },
+    "vangla": {
+      "tekst": "Vanglas on inimväärikus igapäevane mõõdupuu: kambrid, läbiotsimine, ohjeldusmeetmed, kartser. Seadus nõuab, et piirangud vastaksid **inimväärikuse põhimõttele** ega moonutaks teiste õiguste olemust ([[VangS § 4^1 lg 2]]). Pärast vahetu sunni kasutamist kontrollib tervishoiutöötaja esimesel võimalusel kinnipeetava tervist ja see protokollitakse ([[VangS § 71 lg 7^1]]). Läbiotsimist teeb samast soost ametnik ([[VangS § 68 lg 1]]).",
+      "naide": {
+        "olukord": "Kinnipeetav on rahustusvoodile fikseeritud. Ametnik jätab ta ka siis ohjeldusmeetmesse, kui kinnipeetav on juba rahunenud, „et tal meelde jääks”.",
+        "analyys": "**Kaitseala:** [[PS § 18]], [[EIÕK art 3]]. **Riive:** ohjeldusmeetme jätkamine. **Alus:** täiendavad julgeolekuabinõud on lubatud ohu korral ja need **lõpetatakse, kui asjaolud langevad ära** ([[VangS § 69 lg 3]]). „Meelde jätmise” eesmärk on karistuslik, mitte julgeoleku oma. **Järeldus:** õiguslik alus puudub ja kohtlemine võib ületada alandava kohtlemise piiri – keeld on absoluutne."
+      }
+    },
+    "tyypviga": {
+      "punktid": [
+        "Inimväärikuse keelu juures tehakse **proportsionaalsuse analüüs** („eesmärk õigustab”) – absoluutse keelu puhul seda ei tehta.",
+        "Viidatakse konspekti kaudu hartale vana numbriga (II-61, II-64) – kehtiv on [[harta art 1]] ja [[harta art 4]].",
+        "Arvatakse, et keeld kehtib ainult tahtliku piinamise kohta – keelatud on ka ebainimlik ja alandav kohtlemine.",
+        "Unustatakse [[VangS § 4^1]] kui vanglaspetsiifiline alus."
+      ]
+    }
+  },
+  "skeem": {
+    "tyyp": "vordlus",
+    "pealkiri": "Absoluutne vs piiratav õigus",
+    "veerud": ["Absoluutne (nt piinamise keeld)", "Piiratav (nt eraelu, usu väljendamine)"],
+    "read": [
+      { "silt": "Näide", "lahtrid": ["[[PS § 18]], [[EIÕK art 3]]", "[[PS § 26]], [[EIÕK art 8]]"] },
+      { "silt": "Kas tohib piirata?", "lahtrid": ["Ei, mitte kunagi", "Jah – seadusega ja proportsionaalselt"] },
+      { "silt": "Hädaolukord", "lahtrid": ["ei saa peatada ([[EIÕK art 15 lg 2]])", "võib peatada vajalikus ulatuses ([[EIÕK art 15 lg 1]])"] },
+      { "silt": "Analüüs", "lahtrid": ["kas kohtlemine jõuab keelatud tasemeni?", "kaitseala → riive → alus → proportsionaalsus"] }
+    ]
+  },
+  "vastus": [
+    {
+      "nr": 10,
+      "punktid": [
+        "Inimväärikus on puutumatu ning seda tuleb austada ja kaitsta ([[harta art 1]]); kõik põhiõigused vastavad inimväärikuse põhimõttele ([[PS § 10]]).",
+        "Kedagi ei tohi piinata, julmalt või väärikust alandavalt kohelda ega karistada; keelatud on katsed vastu tahtmist ([[PS § 18]], [[EIÕK art 3]], [[KPÕRP art 7]], [[ÜDIÕ art 5]], [[harta art 4]]).",
+        "Keeld on **absoluutne** – ei õigusta sõda, erakorraline olukord ega ülemuse käsk ([[CAT art 2]], [[EIÕK art 15 lg 2]]); hõlmab ka väljasaatmist piinamisohu korral ([[CAT art 3]]).",
+        "Vanglas: kinnipeetavat koheldakse inimväärikust austavalt ja kinnipidamine ei tohi põhjustada rohkem kannatusi, kui paratamatult kaasneb ([[VangS § 4^1 lg 1]]; [[KPÕRP art 10 lg 1]])."
+      ]
+    }
+  ],
+  "harjutused": [
+    {
+      "tyyp": "fakt",
+      "kysimus": "Kas piinamist võib õigustada riigi julgeolekut ohustav erakorraline olukord?",
+      "valikud": ["Jah, kui see on proportsionaalne", "Ei, mitte mingisugused erandlikud asjaolud"],
+      "oige": 1,
+      "selgitus": "[[CAT art 2 lg 2]]; [[EIÕK art 15 lg 2]]."
+    },
+    {
+      "tyyp": "fakt",
+      "kysimus": "Milline VangS-i säte nõuab, et kinnipidamine ei põhjustaks rohkem kannatusi, kui paratamatult kaasneb?",
+      "valikud": ["VangS § 6", "VangS § 4^1 lg 1", "VangS § 68", "VangS § 12"],
+      "oige": 1,
+      "selgitus": "[[VangS § 4^1 lg 1]]."
+    },
+    {
+      "tyyp": "fakt",
+      "kysimus": "Mis kehtiva harta artikkel sätestab „Inimväärikus on puutumatu”?",
+      "valikud": ["art II-61", "art 1", "art 4"],
+      "oige": 1,
+      "selgitus": "[[harta art 1]]. II-61 on konspektis kasutatud jõustumata Euroopa põhiseaduse lepingu numeratsioon."
+    },
+    {
+      "tyyp": "kaasus",
+      "kysimus": "Vanglas on kahekohalises kambris pikalt neli inimest, öösiti magab üks põrandal. Analüüsi.",
+      "vastus": [
+        "**Kaitseala:** inimväärikus, alandava kohtlemise keeld ([[PS § 18]], [[EIÕK art 3]]); vanglas [[VangS § 4^1 lg 1]].",
+        "**Riive:** kinnipidamistingimused, mis võivad tekitada rohkem kannatusi, kui vangistusega paratamatult kaasneb.",
+        "**Õigustus:** absoluutse keelu korral eesmärgiga (nt kohtade puudus) õigustada ei saa; hinnatakse, kas kohtlemine jõuab keelatud tasemeni.",
+        "**Järeldus:** püsiv olukord, kus inimesel pole oma magamiskohta, on suure tõenäosusega alandav ja tuleb lahendada. Kinnipeetav: vaie → halduskohus ([[VangS § 1^1 lg 5]])."
+      ]
+    }
+  ],
+  "erinevused": [
+    {
+      "teema": "Harta artiklite numbrid",
+      "konspekt": "„Euroopa põhiseaduse leping – Liidu põhiõiguste harta, artikkel II-61 / II-63 / II-64”",
+      "ametlik": "Kehtiv põhiõiguste harta (ELT 2016): [[harta art 1]] inimväärikus, [[harta art 3]] isikupuutumatus, [[harta art 4]] piinamise keeld",
+      "viide": "harta art 1",
+      "markus": "Euroopa põhiseaduse leping ei jõustunud (allikas: üldteadmine, ei pärine tunnimaterjalist); tekst on sama, numbrid erinevad."
+    },
+    {
+      "teema": "CAT art 3 sõnastus",
+      "konspekt": "„Osalisriik ei tohi ühtki isikut … kui on põhjendatud alus arvata …”",
+      "ametlik": "„Mitte ükski osavõttev riik ei tohi mitte ühtki isikut … kui on **tõsine** alus arvata …” (RT, mitteametlik tõlge)",
+      "viide": "CAT art 3"
+    }
+  ],
+  "valjast": []
+}

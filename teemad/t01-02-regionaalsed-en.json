@@ -1,0 +1,96 @@
+{
+  "id": "t01-02",
+  "tund": "t01",
+  "jrk": 2,
+  "pealkiri": "Regionaalsed organisatsioonid ja Euroopa Nõukogu",
+  "kysimused": [2, 3],
+  "lyhidalt": "Regionaalsed organisatsioonid ühendavad ühe piirkonna riike. Euroopa Nõukogu eesmärk on liikmete suurem ühtsus, ja inimõiguste peamine akt on EIÕK.",
+  "osad": {
+    "pohimote": {
+      "tekst": "Konspekti järgi on **regionaalsed rahvusvahelised organisatsioonid** näiteks Euroopa Liit, Euroopa Nõukogu, Aafrika Liit, Araabia Liiga, Põhja-Ameerika Liit, Lõuna-Ameerika Riikide Liit jt. Erinevalt ÜRO-st ühendavad nad **ühe piirkonna** riike. **Euroopa Nõukogu** (EN) eesmärk on EIÕK preambuli järgi saavutada liikmete suurem ühtsus – ning üks vahend selleks on inimõiguste ja põhivabaduste järgimine ja elluviimine.",
+      "tsitaat": {
+        "viide": "EIÕK preambul",
+        "tekst": "arvestades, et Euroopa Nõukogu eesmärk on saavutada tema liikmete suurem ühtsus ning et üheks selle eesmärgi saavutamise vahendiks on inimõiguste ja põhivabaduste järgimine ning elluviimine;"
+      },
+      "punktid": [
+        "**Peamine akt:** {{eiok|Inimõiguste ja põhivabaduste kaitse konventsioon (EIÕK)}} – riigid tagavad õigused igaühele oma jurisdiktsiooni all ([[EIÕK art 1]]).",
+        "EN ja EL on **eri organisatsioonid**: EL-i põhiõiguste akt on {{harta|põhiõiguste harta}}, EN-i oma EIÕK."
+      ]
+    },
+    "alus": {
+      "read": [
+        { "tase": "Euroopa Nõukogu", "viited": ["EIÕK art 1", "EIÕK art 19"], "tekst": "EIÕK: riigi kohustus tagada õigused; Euroopa Inimõiguste Kohus." },
+        { "tase": "Euroopa Nõukogu", "viited": ["CPT art 1"], "tekst": "Piinamise tõkestamise komitee (CPT) – külastab kinnipidamiskohti." },
+        { "tase": "Euroopa Liit", "viited": ["harta art 51"], "tekst": "Harta kehtib liikmesriikidele **üksnes liidu õiguse kohaldamise korral**." },
+        { "tase": "Eesti", "viited": ["PS § 123"], "tekst": "Ratifitseeritud välisleping on ülimuslik vastuolus oleva seaduse ees." }
+      ]
+    },
+    "piiramine": {
+      "pealkiri": "Mida eristada",
+      "punktid": [
+        "**Euroopa Nõukogu ≠ Euroopa Liit ≠ Euroopa Ülemkogu.** EN-i kohus on EIK (Strasbourg), EL-i kohus on Euroopa Liidu Kohus ([[ELL art 19]]).",
+        "EIÕK kaitseb eelkõige kodaniku- ja poliitilisi õigusi; sotsiaalseid õigusi käsitleb EN-i {{sotsiaalharta|Euroopa sotsiaalharta}} (kaustas olemas).",
+        "Harta [[harta art 52 lg 3]]: EIÕK-ga vastavate õiguste tähendus ja ulatus on samad, mis konventsioonis."
+      ]
+    },
+    "vangla": {
+      "tekst": "Vanglale on EN-ist olulisimad **EIÕK** (eriti [[EIÕK art 3]], [[EIÕK art 8]]) ja **CPT** – komitee, kes külastab kinnipidamiskohti ja uurib vabaduse kaotanud isikute kohtlemist ([[CPT art 1]], [[CPT art 2]]). EN-i soovituslik standard on ka Euroopa vanglareeglid (kaustas ingliskeelne Rec(2006)2-rev).",
+      "naide": {
+        "olukord": "CPT delegatsioon saabub ette teatamata vanglasse ja soovib näha kartsereid.",
+        "analyys": "Osalisriik peab lubama külastada kõiki kohti, kus võimude korraldusel peetakse kinni vabaduse kaotanud isikuid ([[CPT art 2]])."
+      }
+    },
+    "tyypviga": {
+      "punktid": [
+        "Euroopa Nõukogu ja Euroopa Liidu segiajamine (ja nende kohtute segiajamine).",
+        "Vastatakse, et EN-i peamine akt on põhiõiguste harta – harta on EL-i akt.",
+        "Regionaalse organisatsiooni eesmärgi asemel kirjeldatakse ainult ÜRO-d."
+      ]
+    }
+  },
+  "skeem": {
+    "tyyp": "vordlus",
+    "pealkiri": "Globaalne vs regionaalne",
+    "veerud": ["ÜRO", "Euroopa Nõukogu", "Euroopa Liit"],
+    "read": [
+      { "silt": "Ulatus", "lahtrid": ["globaalne", "regionaalne (Euroopa)", "regionaalne (liikmesriigid)"] },
+      { "silt": "Inimõiguste akt", "lahtrid": ["ülddeklaratsioon, paktid, CAT", "EIÕK", "põhiõiguste harta"] },
+      { "silt": "Järelevalve", "lahtrid": ["komiteed (seisukohad)", "EIK (siduvad otsused), CPT", "Euroopa Liidu Kohus"] },
+      { "silt": "Võti", "lahtrid": ["[[ÜRO PK art 1]]", "[[EIÕK art 19]]", "[[ELL art 19]]"] }
+    ]
+  },
+  "vastus": [
+    {
+      "nr": 2,
+      "punktid": [
+        "Regionaalsed organisatsioonid (konspekt): Euroopa Liit, Euroopa Nõukogu, Aafrika Liit, Araabia Liiga, Põhja-Ameerika Liit, Lõuna-Ameerika Riikide Liit jt.",
+        "Eesmärk üldjuhul: ühe piirkonna riikide koostöö ja ühtsus – sh inimõiguste kaitse piirkondlikul tasandil (vt EN-i eesmärki EIÕK preambulis)."
+      ]
+    },
+    {
+      "nr": 3,
+      "punktid": [
+        "**EN-i eesmärk:** saavutada liikmete suurem ühtsus; vahend – inimõiguste ja põhivabaduste järgimine ja elluviimine (EIÕK preambul).",
+        "**Peamine akt:** Inimõiguste ja põhivabaduste kaitse konventsioon (EIÕK) – [[EIÕK art 1]]; järelevalve EIK kaudu ([[EIÕK art 19]])."
+      ]
+    }
+  ],
+  "harjutused": [
+    {
+      "tyyp": "fakt",
+      "kysimus": "Milline akt on Euroopa Nõukogu peamine inimõiguste akt?",
+      "valikud": ["Euroopa Liidu põhiõiguste harta", "Inimõiguste ja põhivabaduste kaitse konventsioon", "Inimõiguste ülddeklaratsioon", "Rooma statuut"],
+      "oige": 1,
+      "selgitus": "EIÕK; harta on EL-i akt ([[harta art 51]])."
+    },
+    {
+      "tyyp": "fakt",
+      "kysimus": "Mis on CPT ülesanne?",
+      "valikud": ["Lahendada üksikkaebusi", "Külastada kinnipidamiskohti ja uurida vabaduse kaotanud isikute kohtlemist", "Mõista kohut sõjakuritegude üle"],
+      "oige": 1,
+      "selgitus": "[[CPT art 1]]."
+    }
+  ],
+  "erinevused": [],
+  "valjast": []
+}

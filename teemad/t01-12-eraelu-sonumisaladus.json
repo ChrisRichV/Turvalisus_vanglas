@@ -1,0 +1,112 @@
+{
+  "id": "t01-12",
+  "tund": "t01",
+  "jrk": 12,
+  "pealkiri": "Era- ja perekonnaelu ning sõnumi saladus",
+  "kysimused": [14],
+  "lyhidalt": "Riik ei tohi sekkuda inimese eraellu, perekonda ega kirjavahetusse, välja arvatud seaduses lubatud eesmärkidel ja proportsionaalselt. Vanglas on see õigus enim reguleeritud: kokkusaamised, kirjad ja telefon.",
+  "osad": {
+    "pohimote": {
+      "tekst": "**Igaühel on õigus perekonna- ja eraelu puutumatusele** ([[PS § 26]]); perekond on riigi kaitse all ([[PS § 27]]); **kodu on puutumatu** ([[PS § 33]]); igaühel on õigus **posti, telefoni jm teel edastatavate sõnumite saladusele** ([[PS § 43]]). EIÕK ühendab need: era- ja perekonnaelu, kodu ja sõnumite saladus ([[EIÕK art 8 lg 1]]).",
+      "punktid": [
+        "Harta: era- ja perekonnaelu, kodu, sõnumite saladus ([[harta art 7]]) + eraldi **isikuandmete kaitse** ([[harta art 8]]).",
+        "ÜRO: meelevaldse või ebaseadusliku vahelesegamise keeld ([[KPÕRP art 17]], [[ÜDIÕ art 12]]).",
+        "Eraelu hõlmab ka **isikuandmeid** – Eestis IKS ([[IKS § 1]])."
+      ]
+    },
+    "alus": {
+      "read": [
+        { "tase": "Eesti", "viited": ["PS § 26", "PS § 27", "PS § 33", "PS § 43"], "tekst": "Era- ja perekonnaelu; perekonna kaitse; kodu; sõnumisaladus." },
+        { "tase": "Vangla", "viited": ["VangS § 23", "VangS § 24", "VangS § 26", "VangS § 27", "VangS § 28", "VangS § 29"], "tekst": "Suhtlemise eesmärk, kokkusaamised, kirjad ja telefon, nende jälgimine." },
+        { "tase": "Euroopa Nõukogu", "viited": ["EIÕK art 8"], "tekst": "Lg 1 kaitseala, lg 2 piiramise tingimused." },
+        { "tase": "Euroopa Liit", "viited": ["harta art 7", "harta art 8"], "tekst": "Eraelu; isikuandmed." },
+        { "tase": "ÜRO / standard", "viited": ["KPÕRP art 17", "ÜDIÕ art 12", "Mandela rule 58"], "tekst": "Kinnipeetaval on õigus suhelda perekonna ja sõpradega (soovituslik standard)." }
+      ]
+    },
+    "piiramine": {
+      "pealkiri": "Piiramise tingimused",
+      "tekst": "Need on **piiratavad** õigused, kuid ainult kindlatel alustel:",
+      "punktid": [
+        "**PS § 26:** seaduses sätestatud juhtudel ja korras – tervise, kõlbluse, avaliku korra, teiste õiguste kaitseks, kuriteo tõkestamiseks või kurjategija tabamiseks (**kvalifitseeritud seadusreservatsioon**).",
+        "**PS § 43:** erandid **kohtu loal** kuriteo tõkestamiseks või kriminaalmenetluses tõe väljaselgitamiseks.",
+        "**EIÕK art 8 lg 2:** kooskõlas seadusega **ja** demokraatlikus ühiskonnas vajalik julgeoleku, turvalisuse, majandusliku heaolu, korratuse/kuriteo ärahoidmise, tervise, kõlbluse või teiste õiguste kaitseks.",
+        "Lisaks üldine piir: vajalik demokraatlikus ühiskonnas, olemust moonutamata ([[PS § 11]])."
+      ]
+    },
+    "vangla": {
+      "tekst": "VangS-i järgi on vanglavälise suhtlemise **eesmärk vältida sotsiaalsete sidemete katkemist** ja vanglateenistus **soodustab** seda ([[VangS § 23]]). Lühiajaline kokkusaamine vähemalt kord kuus, kuni 4 tundi ([[VangS § 24]]); kaitsja, advokaadi, vaimuliku ja konsuliga **piiramatult ja segamatult** ([[VangS § 26 lg 1]]). Kirju avatakse kinnipeetava juuresolekul keelatud esemete leidmiseks ([[VangS § 29 lg 1]]); **sisu** kontrolliks on vaja KrMS/VangS jälitusaluseid ([[VangS § 29 lg 2]]). **Keelatud** on kontrollida kirju ja kõnesid kaitsjale, advokaadile, prokuratuurile, kohtule, õiguskantslerile ja ministeeriumile ([[VangS § 29 lg 4]]).",
+      "naide": {
+        "olukord": "Ametnik loeb kinnipeetava kirja tema advokaadile läbi, sest kinnipeetav on varem ähvardanud tunnistajat.",
+        "analyys": "**Kaitseala:** sõnumisaladus ([[PS § 43]]), [[EIÕK art 8]]. **Riive:** kirja sisu lugemine. **Formaalne põhiseaduspärasus:** seadus **keelab** kontrollida kirju advokaadile ([[VangS § 29 lg 4]]) – alus puudub. Varasem ähvardus ei anna ametnikule volitust. **Järeldus:** riive on õigusvastane juba formaalselt; proportsionaalsuseni ei jõuagi."
+      }
+    },
+    "tyypviga": {
+      "punktid": [
+        "Ei eristata kirja **avamist** keelatud esemete leidmiseks ([[VangS § 29 lg 1]]) ja kirja **sisu kontrollimist** ([[VangS § 29 lg 2]]).",
+        "Unustatakse privilegeeritud kirjavahetus (kaitsja, kohus, õiguskantsler jt – [[VangS § 29 lg 4]]).",
+        "PS § 26 ja § 43 piiramise alused aetakse segi – § 43 nõuab erandite tegemiseks **kohtu luba**.",
+        "Kokkusaamise keelamist käsitletakse karistusena ilma alust kontrollimata ([[VangS § 24 lg 1^1]] loetleb keeldumise alused)."
+      ]
+    }
+  },
+  "skeem": {
+    "tyyp": "vordlus",
+    "pealkiri": "Kirjad ja kõned vanglas – mida tohib?",
+    "veerud": ["Tavaline kiri / kõne", "Kaitsja, advokaat, prokuratuur, kohus, õiguskantsler, ministeerium"],
+    "read": [
+      { "silt": "Avada esemete leidmiseks", "lahtrid": ["jah, kinnipeetava juuresolekul ([[VangS § 29 lg 1]])", "ei ([[VangS § 29 lg 1]] erand)"] },
+      { "silt": "Sisu kontroll", "lahtrid": ["ainult jälitusalustel ([[VangS § 29 lg 2]])", "keelatud ([[VangS § 29 lg 4]])"] },
+      { "silt": "Jätta ära saatmata", "lahtrid": ["lg 3 alustel", "riigiasutustele, kaitsjale, konsulile – ei tohi ([[VangS § 29 lg 5]])"] },
+      { "silt": "Kulud", "lahtrid": ["kinnipeetav", "õiguskantsler, kohus jt – vangla ([[VangS § 28 lg 2]])"] }
+    ]
+  },
+  "vastus": [
+    {
+      "nr": 14,
+      "punktid": [
+        "Igaühel on õigus perekonna- ja eraelu puutumatusele; riik ei tohi sekkuda muidu kui seaduses sätestatud juhtudel ja korras loetletud eesmärkidel ([[PS § 26]]).",
+        "Sõnumite saladus: erandid ainult kohtu loal kuriteo tõkestamiseks või kriminaalmenetluses ([[PS § 43]]).",
+        "EIÕK: era- ja perekonnaelu, kodu, sõnumite saladus; piiramine seadusega ja demokraatlikus ühiskonnas vajalik ([[EIÕK art 8]]); harta [[harta art 7]], [[harta art 8]]; [[KPÕRP art 17]].",
+        "Vanglas: suhtlemise eesmärk – sidemete säilimine ([[VangS § 23]]); kokkusaamised ([[VangS § 24]], [[VangS § 26]]); kirjad ja kõned ning nende kontrolli piirid ([[VangS § 28]], [[VangS § 29]])."
+      ]
+    }
+  ],
+  "harjutused": [
+    {
+      "tyyp": "fakt",
+      "kysimus": "Kui sageli on kinnipeetaval vähemalt õigus lühiajalisele kokkusaamisele?",
+      "valikud": ["Kord nädalas", "Kord kuus", "Kord kvartalis"],
+      "oige": 1,
+      "selgitus": "[[VangS § 24 lg 1]]."
+    },
+    {
+      "tyyp": "fakt",
+      "kysimus": "Kellele saadetud kinnipeetava kirju on keelatud kontrollida?",
+      "valikud": ["Ema", "Õiguskantsler", "Sõber", "Ajalehe toimetus"],
+      "oige": 1,
+      "selgitus": "[[VangS § 29 lg 4]]."
+    },
+    {
+      "tyyp": "fakt",
+      "kysimus": "Millise PS paragrahvi järgi on sõnumisaladuse erandiks vaja kohtu luba?",
+      "valikud": ["PS § 26", "PS § 33", "PS § 43"],
+      "oige": 2,
+      "selgitus": "[[PS § 43]]."
+    },
+    {
+      "tyyp": "kaasus",
+      "kysimus": "Kinnipeetavale määratakse distsiplinaarkaristusena ühe lühiajalise kokkusaamise keeld. Kas see on lubatud?",
+      "vastus": [
+        "**Kaitseala:** perekonnaelu ([[PS § 26]], [[EIÕK art 8]]).",
+        "**Riive:** kokkusaamise keelamine.",
+        "**Formaalne:** seadus näeb ette distsiplinaarkaristusena „ühe lühi- või pikaajalise kokkusaamise keelamise” ([[VangS § 63 lg 1]] p 2) – alus olemas, menetlus [[VangS § 64]].",
+        "**Materiaalne:** karistuse valikul arvestatakse täideviimise eesmärki ([[VangS § 63 lg 3]]); kas leebem karistus (noomitus) oleks piisav? Arvesta ka [[VangS § 23]] eesmärki.",
+        "**Järeldus:** lubatud, kui menetlus on õige ja karistus rikkumisega proportsionaalne."
+      ]
+    }
+  ],
+  "erinevused": [],
+  "valjast": [
+    { "tekst": "Termin „kvalifitseeritud seadusreservatsioon” (seadus + kindlad eesmärgid) on põhiseadusõiguse doktriin.", "allikas": "üldine õigusteadus – ei pärine tunnimaterjalist" }
+  ]
+}

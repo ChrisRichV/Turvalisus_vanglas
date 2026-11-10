@@ -1,0 +1,106 @@
+{
+  "id": "t01-06",
+  "tund": "t01",
+  "jrk": 6,
+  "pealkiri": "Riigisisene kohtusüsteem ja seos rahvusvahelisega",
+  "kysimused": [8],
+  "lyhidalt": "Põhiõiguste esmane kaitsja on Eesti kohus. Rahvusvahelised mehhanismid on täiendavad: EIK-sse ja ÜRO komiteesse saab alles pärast riigisiseseid vahendeid, ICC sekkub siis, kui riik ei taha või ei suuda menetleda, ja EL-i Kohtuga suhtleb Eesti kohus eelotsuse kaudu.",
+  "osad": {
+    "pohimote": {
+      "tekst": "**Õigust mõistab ainult kohus**, mis on sõltumatu ([[PS § 146]]). Igaühel on õigus pöörduda oma õiguste rikkumise korral kohtusse ja nõuda põhiseadusvastase akti kohaldamata jätmist ([[PS § 15]]). Õiguste tagamine on kõigi võimude kohustus ([[PS § 14]]). Konspekti järgi on riigisisesed õiguskaitsevahendid **vaidemenetlus** (kontroll täitevvõimu sees) ja **kohtumenetlus** (kontrollib kohus).",
+      "punktid": [
+        "Kohtusüsteem: esimene aste – maa- ja halduskohtud; teine – ringkonnakohtud; Riigikohus – kassatsioon ja **põhiseaduslikkuse järelevalve** ([[PS § 149]]).",
+        "Kohus jätab põhiseadusvastase seaduse kohaldamata; Riigikohus tunnistab selle kehtetuks ([[PS § 152]]; menetlus [[PSJKS § 2]]).",
+        "Halduskohus kaitseb isikut täidesaatva võimu õigusvastase tegevuse eest ([[HKMS § 2 lg 1]]).",
+        "Rahvusvaheline õigus on Eesti õigussüsteemi osa ([[PS § 3]]); ratifitseeritud välisleping on seadusest ülimuslik ([[PS § 123]])."
+      ]
+    },
+    "alus": {
+      "read": [
+        { "tase": "Eesti", "viited": ["PS § 3", "PS § 14", "PS § 15", "PS § 123", "PS § 146", "PS § 149", "PS § 152"], "tekst": "Põhiseaduslikud alused." },
+        { "tase": "Eesti", "viited": ["HKMS § 2", "PSJKS § 2", "KS § 2"], "tekst": "Halduskohtumenetlus, põhiseaduslikkuse järelevalve, kohtu sõltumatus." },
+        { "tase": "Eesti", "viited": ["OKS § 1", "OKS § 19"], "tekst": "Õiguskantsler – kohtuväline järelevalve ja pöördumisõigus." },
+        { "tase": "Seosed", "viited": ["EIÕK art 35", "KPÕRP FP art 2", "Rooma art 17", "ELTL art 267"], "tekst": "Rahvusvahelised mehhanismid eeldavad või täiendavad riigisisest menetlust." }
+      ]
+    },
+    "piiramine": {
+      "pealkiri": "Kuidas süsteemid on omavahel seotud",
+      "punktid": [
+        "**ÜRO:** üksikisiku teade komiteele alles pärast riigisiseste vahendite ammendamist ([[KPÕRP FP art 2]]); komitee annab **seisukoha** ([[KPÕRP FP art 5 lg 4]]).",
+        "**Euroopa Nõukogu (EIK):** samuti ammendamise nõue + 4 kuud ([[EIÕK art 35 lg 1]]); otsus **siduv** riigile ([[EIÕK art 46 lg 1]]). Riigi määratud kõrgeim kohus võib küsida EIK-lt mittesiduvat nõuandvat arvamust ([[EIÕK P16 art 1]], [[EIÕK P16 art 5]]).",
+        "**Euroopa Liit:** Eesti kohus kohaldab EL-i õigust ja küsib vajadusel **eelotsust**; viimane aste peab küsima ([[ELTL art 267]]).",
+        "**ICC:** **komplementaarne** – asi on ICC-s vastuvõetamatu, kui riik ise menetleb, v.a tahtmatus/võimetus ([[Rooma art 17]]).",
+        "Kõiki ühendab põhimõte: **esmalt riik ise**, rahvusvaheline tasand on täiendav."
+      ]
+    },
+    "vangla": {
+      "tekst": "Kinnipeetava õiguskaitse tee on seaduses kindlaks määratud: **vaie** vanglateenistusele või ministeeriumile, **30 päeva** jooksul lahendamine, seejärel **halduskohus** ([[VangS § 1^1 lg 4^1]], [[VangS § 1^1 lg 5]], [[VangS § 1^1 lg 7]]). Kahju hüvitamiseks esmalt taotlus vanglale, siis halduskohus ([[VangS § 1^1 lg 8]]; riigivastutus [[RVastS § 1]]).",
+      "naide": {
+        "olukord": "Kinnipeetav vaidlustab otsuse, millega keelati talle pikaajaline kokkusaamine, ja ütleb, et läheb otse halduskohtusse.",
+        "analyys": "Halduskohtusse saab alles **pärast vaide esitamist** ([[VangS § 1^1 lg 5]]). Kui kõik Eesti astmed on läbitud ja ta leiab, et rikuti [[EIÕK art 8]], saab ta 4 kuu jooksul EIK-sse ([[EIÕK art 35 lg 1]])."
+      }
+    },
+    "tyypviga": {
+      "punktid": [
+        "Kirjeldatakse ainult rahvusvahelisi kohtuid, aga mitte Eesti kohtusüsteemi rolli – küsimuse esimene pool jääb vastamata.",
+        "Väidetakse, et EIK või EL-i Kohus on Riigikohtust „kõrgem aste” – need ei ole Eesti kohtusüsteemi astmed.",
+        "Unustatakse vanglaasjades **kohustuslik vaie** enne halduskohut.",
+        "ICC ja EIK seost riigisisese menetlusega kirjeldatakse ühtemoodi – EIK eeldab ammendamist, ICC on komplementaarne."
+      ]
+    }
+  },
+  "skeem": {
+    "tyyp": "tasandid",
+    "pealkiri": "Kõigepealt riik, siis rahvusvaheline tasand",
+    "tasandid": [
+      { "pealkiri": "Eesti", "toon": "a", "kastid": [
+        { "pealkiri": "Vaie", "tekst": "täitevvõimu sees", "viide": "VangS § 1^1 lg 4^1" },
+        { "pealkiri": "Halduskohus → ringkonnakohus → Riigikohus", "tekst": "sh põhiseaduslikkuse järelevalve", "viide": "PS § 149" },
+        { "pealkiri": "Õiguskantsler", "tekst": "kohtuväline järelevalve", "viide": "OKS § 19" }
+      ]},
+      { "pealkiri": "Seosed", "toon": "c", "kastid": [
+        { "pealkiri": "→ ÜRO komitee", "tekst": "pärast ammendamist; seisukoht", "viide": "KPÕRP FP art 2" },
+        { "pealkiri": "→ EIK", "tekst": "pärast ammendamist; 4 kuud; siduv", "viide": "EIÕK art 35" },
+        { "pealkiri": "⇄ EL-i Kohus", "tekst": "eelotsus menetluse ajal", "viide": "ELTL art 267" },
+        { "pealkiri": "→ ICC", "tekst": "kui riik ei taha/ei suuda", "viide": "Rooma art 17" }
+      ]}
+    ]
+  },
+  "vastus": [
+    {
+      "nr": 8,
+      "punktid": [
+        "**Liikmesriigi kohus** on põhiõiguste esmane kaitsja: igaühel on kohtusse pöördumise õigus ([[PS § 15]]); kohus jätab põhiseadusvastase akti kohaldamata, Riigikohus tunnistab kehtetuks ([[PS § 152]]); halduskohus kaitseb täidesaatva võimu eest ([[HKMS § 2 lg 1]]).",
+        "**ÜRO:** komitee poole alles pärast riigisiseseid vahendeid ([[KPÕRP FP art 2]]).",
+        "**ICC:** täiendab riiklikku jurisdiktsiooni; asi vastuvõetamatu, kui riik ise menetleb ([[Rooma art 1]], [[Rooma art 17]]).",
+        "**Euroopa Nõukogu:** EIK pärast ammendamist ([[EIÕK art 35]]); otsus riigile siduv ([[EIÕK art 46]]).",
+        "**Euroopa Liit:** Eesti kohus küsib EL-i Kohtult eelotsust ([[ELTL art 267]])."
+      ]
+    }
+  ],
+  "harjutused": [
+    {
+      "tyyp": "fakt",
+      "kysimus": "Mida peab kinnipeetav tegema enne halduskohtusse kaebuse esitamist vangla toimingu peale?",
+      "valikud": ["Pöörduma õiguskantsleri poole", "Esitama vaide", "Midagi – võib otse kohtusse"],
+      "oige": 1,
+      "selgitus": "[[VangS § 1^1 lg 5]]."
+    },
+    {
+      "tyyp": "fakt",
+      "kysimus": "Mis tähtaja jooksul lahendatakse kinnipeetava vaie?",
+      "valikud": ["15 päeva", "30 päeva", "2 kuud"],
+      "oige": 1,
+      "selgitus": "[[VangS § 1^1 lg 7]]."
+    },
+    {
+      "tyyp": "fakt",
+      "kysimus": "Mis juhtub, kui Eesti seadus on vastuolus Riigikogu ratifitseeritud välislepinguga?",
+      "valikud": ["Kohaldatakse seadust", "Kohaldatakse välislepingut", "Asja otsustab EIK"],
+      "oige": 1,
+      "selgitus": "[[PS § 123]] teine lõige."
+    }
+  ],
+  "erinevused": [],
+  "valjast": []
+}

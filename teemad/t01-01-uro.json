@@ -1,0 +1,117 @@
+{
+  "id": "t01-01",
+  "tund": "t01",
+  "jrk": 1,
+  "pealkiri": "ÜRO – globaalne organisatsioon",
+  "kysimused": [1],
+  "lyhidalt": "ÜRO on ainus globaalne rahvusvaheline katusorganisatsioon. Riike kontrollitakse aruannete ja riikidevaheliste teadete kaudu, üksikisik saab pärast riigisiseste vahendite ammendamist pöörduda komitee poole.",
+  "osad": {
+    "pohimote": {
+      "tekst": "Konspekti järgi on **ainus globaalne rahvusvaheline katusorganisatsioon** Ühinenud Rahvaste Organisatsioon (ÜRO), mille peamine missioon on säilitada rahvusvaheline rahu ja julgeolek. ÜRO eesmärgid on kirjas [[ÜRO PK art 1]]: rahu ja julgeolek, sõbralikud suhted {{enesemaaramisoigus|rahvaste enesemääramise}} põhimõttel, koostöö ja **inimõiguste austamine** ning olla rahvaste tegevust kooskõlastav keskus. Inimõiguste osas kohustuvad liikmed tegutsema [[ÜRO PK art 55]] eesmärkide nimel ([[ÜRO PK art 56]]).",
+      "punktid": [
+        "Konspekti järgi ÜRO peamised ülesanded: rahu ja julgeolek; inimõiguste kaitse; humanitaarabi; jätkusuutlik areng; rahvusvahelise õiguse hoidmine ja tugevdamine.",
+        "ÜRO olulisemad inimõiguste aktid (konspekt): {{uldeklaratsioon|inimõiguste ülddeklaratsioon}}, kodaniku- ja poliitiliste õiguste pakt (KPÕRP), majanduslike, sotsiaalsete ja kultuuriliste õiguste pakt."
+      ]
+    },
+    "alus": {
+      "read": [
+        { "tase": "ÜRO", "viited": ["ÜRO PK art 1", "ÜRO PK art 55", "ÜRO PK art 56"], "tekst": "Põhikiri: eesmärgid ja liikmete kohustus teha koostööd inimõiguste austamiseks." },
+        { "tase": "ÜRO", "viited": ["ÜDIÕ art 1"], "tekst": "Ülddeklaratsioon (1948) – Peaassamblee resolutsioon, **ei ole õiguslikult siduv leping** (vt failimärkust)." },
+        { "tase": "ÜRO", "viited": ["KPÕRP art 2", "KPÕRP art 28", "KPÕRP art 40", "KPÕRP art 41"], "tekst": "Pakt: riigi kohustus tagada õigused ja tõhus õiguskaitse; Inimõiguste Komitee; riikide aruanded; riikidevahelised teated." },
+        { "tase": "ÜRO", "viited": ["KPÕRP FP art 1", "KPÕRP FP art 2", "KPÕRP FP art 5"], "tekst": "Fakultatiivprotokoll: üksikisiku teade komiteele." },
+        { "tase": "ÜRO", "viited": ["CAT art 17", "CAT art 22", "OPCAT art 1", "OPCAT art 3"], "tekst": "Piinamisvastane komitee; ennetav külastussüsteem (OPCAT)." },
+        { "tase": "Eesti", "viited": ["OKS § 1 lg 7"], "tekst": "Õiguskantsler on OPCAT-i mõttes **riigi ennetusasutus** – külastab ka vanglaid." }
+      ]
+    },
+    "piiramine": {
+      "pealkiri": "Mehhanismid ja nende tingimused",
+      "tekst": "Küsimus 1 eristab **riigi tasandit** ja **üksikisiku tasandit**. Konspekt: rahvusvahelisel tasandil saab isik oma õigusi kaitsta ÜRO komiteede kaudu ning **nõutav on kõigepealt läbida riigisisene kohtumenetlus**.",
+      "punktid": [
+        "**Riigi tasand – aruandlus:** riik esitab komiteele aruande õiguste elluviimise kohta; komitee saadab riigile ettekanded ja üldist laadi märkused ([[KPÕRP art 40]]).",
+        "**Riigi tasand – riikidevahelised teated:** üks riik võib väita, et teine ei täida pakti; eeldab mõlema riigi avaldust ning ka siin peavad sisemised vahendid olema ammendatud ([[KPÕRP art 41 lg 1]]).",
+        "**Riigi tasand – rahu ja julgeolek:** Julgeolekunõukogul on peamine vastutus ([[ÜRO PK art 24 lg 1]]), ta tuvastab rahu ohustamise ja otsustab meetmed ([[ÜRO PK art 39]]). Riikidevahelisi vaidlusi lahendab Rahvusvaheline Kohus ([[ÜRO PK art 92]], [[ÜRO PK art 94]]).",
+        "**Üksikisiku tasand:** isik võib esitada komiteele kirjaliku teate, kui riik on protokolli osaline ([[KPÕRP FP art 1]]) ja ta on **ammendanud kõik riigisisesed õiguskaitsevahendid** ([[KPÕRP FP art 2]]); sama küsimus ei tohi olla teises rahvusvahelises menetluses ([[KPÕRP FP art 5 lg 2]]). Komitee edastab oma **seisukohad** riigile ja isikule ([[KPÕRP FP art 5 lg 4]]).",
+        "Piinamisasjades sarnane teade Piinamisvastasele Komiteele, kui riik on teinud [[CAT art 22]] lg 1 avalduse."
+      ]
+    },
+    "vangla": {
+      "tekst": "ÜRO süsteem jõuab vanglasse eelkõige **ennetava järelevalvena**: OPCAT näeb ette korrapärased külastused kinnipidamiskohtadesse ([[OPCAT art 1]]), Eestis on riigi ennetusasutus õiguskantsler ([[OKS § 1 lg 7]]). Kinnipeetava kirju õiguskantslerile ei tohi kontrollida ([[VangS § 29 lg 4]]) ja need saadetakse vangla kulul ([[VangS § 28 lg 2]]).",
+      "naide": {
+        "olukord": "Kinnipeetav leiab, et teda koheldi alandavalt, ja tahab kohe kirjutada ÜRO Inimõiguste Komiteele.",
+        "analyys": "Komitee ei vaata teadet läbi enne, kui riigisisesed vahendid on ammendatud ([[KPÕRP FP art 5 lg 2]]). Vanglas tähendab see kõigepealt vaiet ja seejärel halduskohut ([[VangS § 1^1 lg 5]]). Samal ajal võib ta pöörduda õiguskantsleri poole ([[OKS § 19 lg 1]]) – see ei ole kohtumenetlus, aga on õiguskaitse võimalus."
+      }
+    },
+    "tyypviga": {
+      "punktid": [
+        "Ülddeklaratsiooni nimetamine siduvaks lepinguks – see on Peaassamblee resolutsioon; siduvad on paktid ja konventsioonid.",
+        "Unustatakse riigisiseste vahendite ammendamise nõue üksikisiku teate puhul.",
+        "Aetakse segi ÜRO Inimõiguste **Komitee** (pakt) ja Euroopa Inimõiguste **Kohus** (EIÕK) – komitee annab seisukohti, EIK teeb siduvaid otsuseid ([[EIÕK art 46 lg 1]]).",
+        "Riigi tasandi ja üksikisiku tasandi meetmed esitatakse segamini – küsimus nõuab mõlemat eraldi."
+      ]
+    }
+  },
+  "skeem": {
+    "tyyp": "puu",
+    "pealkiri": "ÜRO õiguskaitse kaks tasandit",
+    "juur": { "pealkiri": "ÜRO", "tekst": "rahu ja julgeolek · inimõigused · koostöö", "viide": "ÜRO PK art 1" },
+    "harud": [
+      { "pealkiri": "Riigi tasand", "toon": "a", "lapsed": [
+        { "pealkiri": "Riikide aruanded", "tekst": "komitee märkused", "viide": "KPÕRP art 40" },
+        { "pealkiri": "Riikidevahelised teated", "tekst": "eeldab avaldust", "viide": "KPÕRP art 41" },
+        { "pealkiri": "Julgeolekunõukogu", "tekst": "rahu ohustamine → meetmed", "viide": "ÜRO PK art 39" },
+        { "pealkiri": "Rahvusvaheline Kohus", "tekst": "riikidevahelised vaidlused", "viide": "ÜRO PK art 92" }
+      ]},
+      { "pealkiri": "Üksikisiku tasand", "toon": "b", "lapsed": [
+        { "pealkiri": "1. Riigisisesed vahendid", "tekst": "vaie → kohus (ammendada!)", "viide": "KPÕRP FP art 2" },
+        { "pealkiri": "2. Teade komiteele", "tekst": "kirjalik, mitte anonüümne", "viide": "KPÕRP FP art 3" },
+        { "pealkiri": "3. Komitee seisukoht", "tekst": "edastatakse riigile ja isikule", "viide": "KPÕRP FP art 5" }
+      ]}
+    ]
+  },
+  "vastus": [
+    {
+      "nr": 1,
+      "punktid": [
+        "**Globaalne organisatsioon:** ÜRO – ainus globaalne rahvusvaheline katusorganisatsioon (konspekt).",
+        "**Eesmärgid:** rahu ja julgeolek; sõbralikud suhted võrdõiguslikkuse ja enesemääramise alusel; koostöö ja inimõiguste austamine; kooskõlastav keskus ([[ÜRO PK art 1]]).",
+        "**Riigi tasand:** riikide aruanded komiteele ([[KPÕRP art 40]]); riikidevahelised teated ([[KPÕRP art 41]]); Julgeolekunõukogu meetmed ([[ÜRO PK art 39]]); Rahvusvaheline Kohus ([[ÜRO PK art 92]]).",
+        "**Üksikisiku tasand:** kirjalik teade komiteele pärast riigisiseste vahendite ammendamist ([[KPÕRP FP art 2]], [[KPÕRP FP art 5 lg 2]]); piinamise korral [[CAT art 22]]. Ennetav külastussüsteem – [[OPCAT art 1]]."
+      ]
+    }
+  ],
+  "harjutused": [
+    {
+      "tyyp": "fakt",
+      "kysimus": "Mis on üksikisiku teate eeltingimus ÜRO Inimõiguste Komitees?",
+      "valikud": ["Riik peab olema teinud aruande", "Isik on ammendanud riigisisesed õiguskaitsevahendid", "Julgeolekunõukogu luba", "Teade võib olla anonüümne"],
+      "oige": 1,
+      "selgitus": "[[KPÕRP FP art 2]] ja [[KPÕRP FP art 5 lg 2]]: kõigepealt tuleb ammendada riigisisesed vahendid."
+    },
+    {
+      "tyyp": "fakt",
+      "kysimus": "Kes on Eestis piinamisvastase konventsiooni fakultatiivprotokolli mõttes riigi ennetusasutus?",
+      "valikud": ["Riigikohus", "Justiits- ja Digiministeerium", "Õiguskantsler", "Vanglateenistus"],
+      "oige": 2,
+      "selgitus": "[[OKS § 1 lg 7]]."
+    },
+    {
+      "tyyp": "fakt",
+      "kysimus": "Kas inimõiguste ülddeklaratsioon on õiguslikult siduv leping?",
+      "valikud": ["Jah, nagu pakt", "Ei – see on ÜRO Peaassamblee resolutsioon"],
+      "oige": 1,
+      "selgitus": "Ülddeklaratsiooni faili allikamärkus: Peaassamblee resolutsioon 217 A (III), ei ole õiguslikult siduv leping."
+    },
+    {
+      "tyyp": "kaasus",
+      "kysimus": "Kinnipeetava kiri õiguskantslerile avatakse ja loetakse vanglas läbi. Kas see on lubatud?",
+      "vastus": [
+        "**Kaitseala:** sõnumite saladus ([[PS § 43]]) ja era- ja perekonnaelu ([[EIÕK art 8]]).",
+        "**Riive:** kirja sisu kontrollimine.",
+        "**Õiguslik alus:** seadus keelab otse kontrollida kinnipeetava kirju õiguskantslerile ([[VangS § 29 lg 4]]).",
+        "**Järeldus:** riive ei ole lubatud – formaalselt õigusvastane."
+      ]
+    }
+  ],
+  "erinevused": [],
+  "valjast": []
+}

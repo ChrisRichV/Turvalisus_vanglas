@@ -1,0 +1,20 @@
+{
+  "pealkiri": "Põhiõigus → vangla õigusakt",
+  "kirjeldus": "Kust leida põhiõiguse vanglaspetsiifiline säte. Iga viide avab sätte teksti.",
+  "allikas": "Kausta „Ruth tunnid” sisukorra kiirotsingu tabel; VangS paragrahvid kontrollitud vangistusseaduse tekstist (seis 10.11.2026).",
+  "read": [
+    { "teema": "Inimväärikus, piinamise keeld", "pohiseadus": ["PS § 10", "PS § 18", "EIÕK art 3", "CAT art 1", "CPT art 1"], "vangla": ["VangS § 4^1"], "vangla_tekst": "inimväärikuse austamine ja õiguste järgimine", "teema_id": "t01-08" },
+    { "teema": "Vahetu sund, erivahendid, relv", "pohiseadus": ["PS § 16", "PS § 18", "PS § 20", "EIÕK art 2", "EIÕK art 3"], "vangla": ["VangS § 69", "VangS § 70^1", "VangS § 71"], "vangla_tekst": "julgeolekuabinõud; erivahendid ja teenistusrelvad (ainult õiguslik alus)", "teema_id": "t01-09" },
+    { "teema": "Perekonnaelu, kokkusaamised", "pohiseadus": ["PS § 26", "PS § 27", "EIÕK art 8"], "vangla": ["VangS § 23", "VangS § 24", "VangS § 25", "VangS § 26", "VangS § 27"], "vangla_tekst": "kokkusaamised ja nende jälgimine", "teema_id": "t01-12" },
+    { "teema": "Sõnumi saladus", "pohiseadus": ["PS § 43", "EIÕK art 8"], "vangla": ["VangS § 28", "VangS § 29"], "vangla_tekst": "kirjavahetus, telefonikõned, jälgimine", "teema_id": "t01-12" },
+    { "teema": "Eraelu, läbiotsimine", "pohiseadus": ["PS § 26", "PS § 33", "EIÕK art 8"], "vangla": ["VangS § 68", "VangS § 69"], "vangla_tekst": "läbiotsimine; täiendavad julgeolekuabinõud", "teema_id": "t01-12" },
+    { "teema": "Usuvabadus", "pohiseadus": ["PS § 40", "EIÕK art 9"], "vangla": ["VangS § 62", "VangS § 47 lg 3"], "vangla_tekst": "religioonialane tegevus; usu toitumistavad", "teema_id": "t01-13" },
+    { "teema": "Distsipliin, kartser", "pohiseadus": ["PS § 23", "EIÕK art 6"], "vangla": ["VangS § 63", "VangS § 64", "VangS § 65", "VangS § 65^1"], "vangla_tekst": "distsiplinaarkaristused ja -menetlus, kartser", "teema_id": "t01-15" },
+    { "teema": "Võrdne kohtlemine", "pohiseadus": ["PS § 12", "EIÕK art 14"], "vangla": ["VangS § 12", "VangS § 63 lg 3"], "vangla_tekst": "eraldihoidmine; kollektiivse karistuse keeld", "teema_id": "t01-15" },
+    { "teema": "Kaebeõigus, hea haldus", "pohiseadus": ["PS § 14", "PS § 15", "EIÕK art 13"], "vangla": ["VangS § 1^1"], "vangla_tekst": "haldusmenetlus vanglas, vaided", "teema_id": "t01-14" },
+    { "teema": "Välismaalasest kinnipeetav", "pohiseadus": ["PagK art 33", "harta art 19"], "vangla": ["VangS § 74^1"], "vangla_tekst": "vabastamine Eestist lahkumiseks", "teema_id": "t01-11" },
+    { "teema": "Tervis", "pohiseadus": ["PS § 28", "EIÕK art 3"], "vangla": ["VangS § 49", "VangS § 52"], "vangla_tekst": "tervishoiu korraldamine ja teenuse osutamine (vt ka §-d 49^1–51)", "teema_id": null },
+    { "teema": "Haridus, töö", "pohiseadus": ["PS § 37", "PS § 29"], "vangla": ["VangS § 34", "VangS § 37", "VangS § 43"], "vangla_tekst": "haridus ja töö (§-d 34–43)", "teema_id": null },
+    { "teema": "Noored kinnipeetavad", "pohiseadus": ["KPÕRP art 10"], "vangla": ["VangS § 80", "VangS § 81", "VangS § 84"], "vangla_tekst": "noore kinnipeetava erisused (§-d 80–84); lisaks lapse õiguste konventsioon ja lastekaitseseadus", "teema_id": null }
+  ]
+}

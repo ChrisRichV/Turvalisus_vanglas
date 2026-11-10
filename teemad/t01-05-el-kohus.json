@@ -1,0 +1,91 @@
+{
+  "id": "t01-05",
+  "tund": "t01",
+  "jrk": 5,
+  "pealkiri": "Euroopa Liidu Kohus",
+  "kysimused": [7],
+  "lyhidalt": "EL-i Kohus tagab, et EL-i õigust tõlgendatakse ja kohaldatakse õigesti. Põhiõiguste seisukohalt on peamine eelotsusmenetlus, mille kaudu liikmesriigi kohus küsib EL-i õiguse tõlgendust.",
+  "osad": {
+    "pohimote": {
+      "tekst": "Euroopa Liidu Kohus koosneb **Euroopa Kohtust, Üldkohtust ja erikohtutest** ning tagab, et aluslepingute tõlgendamisel ja kohaldamisel austatakse õigust ([[ELL art 19 lg 1]]). Liikmesriigid peavad nägema ette tulemusliku õiguskaitse liidu õigusega hõlmatud valdkondades (samas). Põhiõiguste allikas EL-is on **põhiõiguste harta**, kuid see kohaldub liikmesriigile **üksnes liidu õiguse kohaldamisel** ([[harta art 51 lg 1]]).",
+      "punktid": [
+        "**Hagid** liikmesriigi, institutsiooni või isiku poolt ([[ELL art 19 lg 3]] p a).",
+        "**Eelotsused** liikmesriigi kohtu taotlusel ([[ELTL art 267]]).",
+        "**Rikkumismenetlus** komisjon vs liikmesriik ([[ELTL art 258]]).",
+        "**Tühistamishagi** EL-i aktide seaduslikkuse kontrolliks ([[ELTL art 263]])."
+      ]
+    },
+    "alus": {
+      "read": [
+        { "tase": "Euroopa Liit", "viited": ["ELL art 19"], "tekst": "Kohtu koosseis ja pädevus." },
+        { "tase": "Euroopa Liit", "viited": ["ELTL art 258", "ELTL art 263", "ELTL art 267"], "tekst": "Peamised menetlusliigid." },
+        { "tase": "Euroopa Liit", "viited": ["harta art 47", "harta art 51"], "tekst": "Õigus tõhusale õiguskaitsevahendile; harta kohaldamisala." },
+        { "tase": "Eesti", "viited": ["PSJKS § 2"], "tekst": "Riigikohus võib anda seisukoha põhiseaduse tõlgendamise kohta koostoimes EL-i õigusega (p 2^1)." }
+      ]
+    },
+    "piiramine": {
+      "pealkiri": "Pädevuse piirid",
+      "punktid": [
+        "EL-i Kohus **ei ole** üldine inimõiguste kohus – harta laieneb liikmesriigile ainult liidu õiguse kohaldamisel ([[harta art 51 lg 1]]) ega laienda liidu pädevust ([[harta art 51 lg 2]]).",
+        "Füüsiline isik saab esitada tühistamishagi ainult talle adresseeritud või teda **otseselt ja isiklikult** puudutava akti vastu; tähtaeg **2 kuud** ([[ELTL art 263]]).",
+        "Viimase astme liikmesriigi kohus **peab** küsima eelotsust; teised **võivad** ([[ELTL art 267]]).",
+        "Kui asi puudutab **kinnipeetavat**, teeb kohus eelotsuse võimalikult kiiresti ([[ELTL art 267]] viimane lõik)."
+      ]
+    },
+    "vangla": {
+      "tekst": "Vanglas tuleb EL-i õigus mängu nt **isikuandmete** töötlemisel (IKS rakendab EL-i määrust ja direktiivi – [[IKS § 1]]) ja välismaalaste asjades. Kinnipeetava asjas kehtib eelotsuse kiirmenetluse nõue ([[ELTL art 267]]).",
+      "naide": {
+        "olukord": "Halduskohus lahendab kinnipeetava kaebust tema isikuandmete töötlemise kohta ja kahtleb, kuidas tõlgendada EL-i direktiivi sätet.",
+        "analyys": "Halduskohus **võib** küsida EL-i Kohtult eelotsust; kui Riigikohus oleks viimane aste, **peaks** ta küsima ([[ELTL art 267]]). Kuna asi puudutab kinnipeetavat, lahendatakse see võimalikult kiiresti."
+      }
+    },
+    "tyypviga": {
+      "punktid": [
+        "Euroopa Liidu Kohus (Luxembourg) ja Euroopa Inimõiguste Kohus (Strasbourg) aetakse segi.",
+        "Arvatakse, et üksikisik saab EL-i Kohtusse pöörduda iga põhiõiguste rikkumise pärast – tavaliselt jõuab asi sinna liikmesriigi kohtu eelotsusetaotluse kaudu.",
+        "Harta kohaldamist eeldatakse ka siis, kui EL-i õigust ei kohaldata ([[harta art 51]])."
+      ]
+    }
+  },
+  "skeem": {
+    "tyyp": "vordlus",
+    "pealkiri": "EL-i Kohtu menetlused",
+    "veerud": ["Kes pöördub", "Mida kontrollitakse", "Säte"],
+    "read": [
+      { "silt": "Eelotsus", "lahtrid": ["liikmesriigi kohus", "EL-i õiguse tõlgendus / akti kehtivus", "[[ELTL art 267]]"] },
+      { "silt": "Rikkumismenetlus", "lahtrid": ["komisjon", "kas liikmesriik täitis kohustused", "[[ELTL art 258]]"] },
+      { "silt": "Tühistamishagi", "lahtrid": ["riik, institutsioon, (otse puudutatud) isik", "EL-i akti seaduslikkus", "[[ELTL art 263]]"] }
+    ]
+  },
+  "vastus": [
+    {
+      "nr": 7,
+      "punktid": [
+        "Koosneb Euroopa Kohtust, Üldkohtust ja erikohtutest; tagab õiguse austamise aluslepingute tõlgendamisel ja kohaldamisel ([[ELL art 19 lg 1]]).",
+        "Teeb otsuseid hagiasjades, eelotsuseid liikmesriikide kohtute taotlusel ja muudel aluslepingutes sätestatud juhtudel ([[ELL art 19 lg 3]]).",
+        "Olulised menetlused: eelotsus ([[ELTL art 267]]), rikkumismenetlus ([[ELTL art 258]]), tühistamishagi ([[ELTL art 263]]).",
+        "Põhiõigused: harta, mis kohaldub liikmesriikidele liidu õiguse kohaldamisel ([[harta art 51]]); õigus tõhusale õiguskaitsevahendile ([[harta art 47]])."
+      ]
+    }
+  ],
+  "harjutused": [
+    {
+      "tyyp": "fakt",
+      "kysimus": "Millal peab liikmesriigi kohus EL-i Kohtult eelotsust küsima?",
+      "valikud": ["Alati, kui pool seda nõuab", "Kui tema otsuse peale ei saa siseriiklikult edasi kaevata", "Ainult kriminaalasjades"],
+      "oige": 1,
+      "selgitus": "[[ELTL art 267]] kolmas lõik."
+    },
+    {
+      "tyyp": "fakt",
+      "kysimus": "Kas EL-i põhiõiguste harta kohaldub Eesti vanglale igas asjas?",
+      "valikud": ["Jah", "Ei – ainult liidu õiguse kohaldamise korral"],
+      "oige": 1,
+      "selgitus": "[[harta art 51 lg 1]]."
+    }
+  ],
+  "erinevused": [],
+  "valjast": [
+    { "tekst": "Asukohad Luxembourg (EL-i Kohus) ja Strasbourg (EIK) on üldteadmine meeldejätmiseks, mitte õigusaktide tekstist.", "allikas": "üldteadmine; ei pärine tunnimaterjalist" }
+  ]
+}

@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="et">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Teema – Turvalisus vanglas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Source+Serif+4:opsz,wght@8..60,300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/stiil.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23f2c230'/%3E%3Ctext x='16' y='24' font-size='22' text-anchor='middle' font-family='Georgia' fill='%231c2733'%3E§%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<header class="ylariba">
+  <a class="logo" href="index.html"><b>§</b> Turvalisus vanglas</a>
+  <nav>
+    <a href="index.html">Tunnid</a>
+    <a href="kordamine.html">Kordamine</a>
+    <button type="button" class="teemanupp">Tume</button>
+  </nav>
+</header>
+
+<main id="leht"><p class="vahe tyhi" style="margin-top:2rem">Laen teemat…</p></main>
+
+<footer class="jalus">
+  <p>Seaduste ja lepingute tekstid: Riigi Teataja, EUR-Lex, ÜRO – muutmata kujul. Selgitused on õppimiseks ega asenda ametlikku teksti.</p>
+</footer>
+
+<script src="assets/seadistus.js"></script>
+<script src="assets/app.js"></script>
+<script src="assets/skeemid.js"></script>
+<script>
+(function () {
+  const A = window.APP;
+  A.kaivita();
+  const leht = document.getElementById("leht");
+  const id = new URLSearchParams(location.search).get("id");
+  const li = (x) => `<li>${A.md(x)}</li>`;
+  const ul = (a) => (a && a.length ? `<ul>${a.map(li).join("")}</ul>` : "");
+
+  A.andmed().then(({ tunnid }) => {
+    let tund = null, kirje = null, jrj = [];
+    tunnid.tunnid.forEach((t) => t.teemad.forEach((tm) => { jrj.push(tm); if (tm.id === id) { tund = t; kirje = tm; } }));
+    if (!kirje) { leht.innerHTML = `<div class="vahe" style="padding-top:2rem"><h1>Teemat ei leitud</h1><p><a href="index.html">Tagasi tundide juurde</a></p></div>`; return; }
+    const i = jrj.indexOf(kirje);
+    return Promise.all([A.lae(kirje.fail), jrj[i - 1] ? A.lae(jrj[i - 1].fail) : null, jrj[i + 1] ? A.lae(jrj[i + 1].fail) : null])
+      .then(([t, eel, jar]) => joonista(t, tund, eel, jar));
+  }).catch((e) => A.viga(leht, e));
+
+  function joonista(t, tund, eel, jar) {
+    document.title = `${t.pealkiri} – Turvalisus vanglas`;
+    const o = t.osad;
+    const osad = [
+      { id: "pohimote", nimi: o.pohimote.pealkiri || "Mis see on", html: () =>
+          `<p>${A.md(o.pohimote.tekst)}</p>` +
+          (o.pohimote.tsitaat ? `<blockquote class="tsitaat">${A.esc(o.pohimote.tsitaat.tekst)}<cite>${A.esc(o.pohimote.tsitaat.viide)} – sõna-sõnalt</cite></blockquote>` : "") +
+          ul(o.pohimote.punktid) },
+      { id: "alus", nimi: "Õiguslik alus", html: () =>
+          `<div class="alused">${o.alus.read.map((r) => `<div class="alus-rida"><div class="alus-tase">${A.esc(r.tase)}</div>
+            <div class="alus-viited">${r.viited.map((v) => A.refNupp(v)).join("")}</div><div class="alus-tekst">${A.md(r.tekst)}</div></div>`).join("")}</div>` },
+      { id: "piiramine", nimi: o.piiramine.pealkiri || "Piiramine ja proportsionaalsus", html: () =>
+          (o.piiramine.tekst ? `<p>${A.md(o.piiramine.tekst)}</p>` : "") + ul(o.piiramine.punktid) },
+      { id: "vangla", nimi: "Vanglas", html: () =>
+          `<p>${A.md(o.vangla.tekst)}</p>` + (o.vangla.naide ? `<div class="naide">
+            <div class="olukord"><h3>Olukord</h3><p>${A.md(o.vangla.naide.olukord)}</p></div>
+            <div><h3>Analüüs</h3><p>${A.md(o.vangla.naide.analyys)}</p></div></div>` : "") },
+      { id: "tyypviga", nimi: "Tüüpviga eksamil", html: () => `<div class="tyypviga">${ul(o.tyypviga.punktid)}</div>` }
+    ];
+    const lisad = [
+      { id: "skeem", nimi: "Skeem", html: () => A.skeem(t.skeem) },
+      { id: "vastus", nimi: "Tunni küsimus", html: () => t.vastus.map((v) =>
+          `<div class="vastus-kast"><h3>Kordamisküsimus ${v.nr}</h3><div class="kysimus">${A.esc(tund.kysimused[v.nr - 1] || "")}</div>${ul(v.punktid)}</div>`).join("") },
+      { id: "harjutused", nimi: "Harjuta", html: () => t.harjutused.map((h, k) => A.harjutusHtml(h, `h${k}`)).join("") }
+    ];
+    if ((t.erinevused && t.erinevused.length) || (t.valjast && t.valjast.length)) {
+      lisad.push({ id: "allikad", nimi: "Allikate märkused", html: () =>
+        (t.erinevused || []).map((e) => `<div class="erinevus"><h3>${A.md(e.teema)}</h3><dl>
+          <dt>Konspekt</dt><dd>${A.md(e.konspekt)}</dd><dt>Ametlik tekst</dt><dd>${A.md(e.ametlik)}</dd>
+          ${e.markus ? `<dt>Märkus</dt><dd>${A.md(e.markus)}</dd>` : ""}</dl></div>`).join("") +
+        ((t.valjast || []).length ? `<div class="valjast"><p><strong>Väljastpoolt tunnimaterjali:</strong></p>${t.valjast.map((v) =>
+          `<p>${A.md(v.tekst)} <em>(${A.esc(v.allikas)})</em></p>`).join("")}</div>` : "") });
+    }
+    const koik = osad.map((x, k) => ({ ...x, nr: k + 1 })).concat(lisad);
+    const menyy = koik.map((x) => `<li><a href="#${x.id}">${x.nr ? x.nr + ". " : ""}${A.esc(x.nimi)}</a></li>`).join("");
+    const sisu = koik.map((x) => `<section class="osa" id="${x.id}" aria-labelledby="${x.id}-p">
+      <h2 id="${x.id}-p">${x.nr ? `<span class="onr">${x.nr}</span>` : ""}${A.esc(x.nimi)}</h2>${x.html()}</section>`).join("");
+    const kys = t.kysimused.length > 1 ? `Kordamisküsimused ${t.kysimused.join(", ")}` : `Kordamisküsimus ${t.kysimused[0]}`;
+    const link = (x, klass, silt) => x ? `<a class="${klass}" href="teema.html?id=${x.id}"><small>${silt}</small>${A.esc(x.pealkiri)}</a>` : "";
+
+    leht.innerHTML = `
+      <header class="teema-pais">
+        <div class="murupuru"><a href="index.html">Tund ${tund.nr}: ${A.esc(tund.pealkiri)}</a> / teema ${t.jrk}</div>
+        <h1>${A.esc(t.pealkiri)}</h1>
+        <p class="lyhidalt">${A.md(t.lyhidalt)}</p>
+        <p class="kys">${kys}. <a href="kordamine.html?tund=${tund.id}&teema=${t.id}">Harjuta ainult seda teemat</a></p>
+      </header>
+      <div class="teema-keha">
+        <nav class="osad-menyy" aria-label="Teema osad"><ol>${menyy}</ol></nav>
+        <div class="sisu">${sisu}
+          <details class="tagasiside">
+            <summary>Teata veast või paku parandust</summary>
+            <form id="tagasiside" novalidate>
+              <label>Mis osas viga on?
+                <select name="osa">${koik.map((x) => `<option value="${x.id}">${A.esc(x.nimi)}</option>`).join("")}<option value="muu">Muu</option></select></label>
+              <label>Mis on valesti ja kuidas peaks olema? Lisa võimalusel sätte viide.
+                <textarea name="tekst" required minlength="5" maxlength="2000"></textarea></label>
+              <label>Nimi (valikuline)
+                <input name="nimi" maxlength="80" autocomplete="name"></label>
+              <div><button class="nupp" type="submit">Saada ettepanek</button></div>
+              <p class="teade" role="status" aria-live="polite"></p>
+            </form>
+          </details>
+          <nav class="lehitse" aria-label="Teemade vahel">${link(eel, "eelmine", "Eelmine teema")}${link(jar, "jargmine", "Järgmine teema")}</nav>
+        </div>
+      </div>`;
+
+    A.seoHarjutused(leht);
+    seoTagasiside(t.id);
+    seoMenyy();
+    if (location.hash) { const el = document.querySelector(location.hash); if (el) el.scrollIntoView(); }
+  }
+
+  function seoTagasiside(teema) {
+    const f = document.getElementById("tagasiside");
+    const teade = f.querySelector(".teade");
+    f.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const tekst = f.tekst.value.trim();
+      if (tekst.length < 5) { teade.className = "teade viga"; teade.textContent = "Kirjuta vähemalt paar sõna: mis on valesti ja kuidas peaks olema."; f.tekst.focus(); return; }
+      const nupp = f.querySelector("button"); nupp.disabled = true;
+      teade.className = "teade"; teade.textContent = "Saadan…";
+      A.saadaTagasiside({ teema, osa: f.osa.value, tekst, nimi: f.nimi.value.trim() || null })
+        .then(() => { teade.className = "teade ok"; teade.textContent = "Ettepanek saadetud. Aitäh – see vaadatakse üle."; f.reset(); })
+        .catch(() => { teade.className = "teade viga"; teade.textContent = "Saatmine ebaõnnestus. Kontrolli internetiühendust ja proovi uuesti."; })
+        .finally(() => { nupp.disabled = false; });
+    });
+  }
+
+  function seoMenyy() {
+    const lingid = [...document.querySelectorAll(".osad-menyy a")];
+    const kaart = new Map(lingid.map((a) => [a.getAttribute("href").slice(1), a]));
+    if (!("IntersectionObserver" in window)) return;
+    const io = new IntersectionObserver((kirjed) => {
+      kirjed.forEach((k) => {
+        if (k.isIntersecting) {
+          lingid.forEach((a) => a.classList.remove("aktiivne"));
+          const a = kaart.get(k.target.id);
+          if (a) { a.classList.add("aktiivne"); const ol = a.closest("ol"); if (ol.scrollWidth > ol.clientWidth) ol.scrollLeft = a.offsetLeft - 16; }
+        }
+      });
+    }, { rootMargin: "-20% 0px -70% 0px" });
+    document.querySelectorAll(".osa").forEach((s) => io.observe(s));
+  }
+})();
+</script>
+</body>
+</html>

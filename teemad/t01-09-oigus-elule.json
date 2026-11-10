@@ -1,0 +1,108 @@
+{
+  "id": "t01-09",
+  "tund": "t01",
+  "jrk": 9,
+  "pealkiri": "Õigus elule",
+  "kysimused": [11],
+  "lyhidalt": "Riik ei tohi kelleltki meelevaldselt elu võtta ja peab elu seadusega kaitsma. Surmanuhtlus on kaotatud. Jõu kasutamine on õigustatud ainult siis, kui see on absoluutselt vajalik.",
+  "osad": {
+    "pohimote": {
+      "tekst": "**Igaühel on õigus elule. Seda õigust kaitseb seadus.** Meelevaldselt ei tohi kelleltki elu võtta ([[PS § 16]]). Õigusel on kaks külge: riik **ei tohi** ise elu võtta (keeld) ja riik **peab** elu kaitsma seadusega (kaitsekohustus – „seda õigust kaitseb seadus”).",
+      "punktid": [
+        "EIÕK: igaühe õigust elule kaitstakse seadusega ([[EIÕK art 2 lg 1]]).",
+        "**Surmanuhtlus on kaotatud** ([[EIÕK P6 art 1]]); protokoll nr 13 kaotab selle **kõikidel asjaoludel**, ka sõja ajal ([[EIÕK P13 art 1]]). Harta: kedagi ei tohi surma mõista ega hukata ([[harta art 2 lg 2]]).",
+        "ÜRO: võõrandamatu õigus elule ([[KPÕRP art 6 lg 1]]); [[ÜDIÕ art 3]].",
+        "Väljasaatmine riiki, kus ähvardab surmanuhtlus, on keelatud ([[harta art 19 lg 2]])."
+      ]
+    },
+    "alus": {
+      "read": [
+        { "tase": "Eesti", "viited": ["PS § 16"], "tekst": "Õigus elule; meelevaldne elu võtmine keelatud." },
+        { "tase": "Euroopa Nõukogu", "viited": ["EIÕK art 2", "EIÕK P6 art 1", "EIÕK P13 art 1", "EIÕK art 15 lg 2"], "tekst": "Erandid lg 2; surmanuhtluse kaotamine; hädaolukorras ei saa peatada (v.a õiguspärane sõjategevus)." },
+        { "tase": "Euroopa Liit", "viited": ["harta art 2"], "tekst": "Õigus elule; surmanuhtluse keeld." },
+        { "tase": "ÜRO", "viited": ["ÜDIÕ art 3", "KPÕRP art 6"], "tekst": "Võõrandamatu õigus elule." },
+        { "tase": "Vangla", "viited": ["VangS § 69", "VangS § 71"], "tekst": "Suitsiidikalduvusega kinnipeetav (julgeolekuabinõud); relva kasutamine ainult äärmuslikel juhtudel." }
+      ]
+    },
+    "piiramine": {
+      "pealkiri": "Millal ei ole elu võtmine rikkumine",
+      "tekst": "[[EIÕK art 2 lg 2]]: elu võtmine ei ole rikkumine, kui see tuleneb **absoluutsest vajadusest kasutada jõudu**:",
+      "punktid": [
+        "a) inimese kaitsmiseks õigusvastase vägivalla eest;",
+        "b) seaduslikul vahistamisel või **seaduslikult kinni peetud isiku põgenemise vältimiseks**;",
+        "c) seaduslikel toimingutel rahutuste või mässu mahasurumiseks.",
+        "Mõõdupuu on **„absoluutne vajadus”** – rangem kui tavaline proportsionaalsus."
+      ]
+    },
+    "vangla": {
+      "tekst": "Vanglas on õigus elule kõige otsesemalt seotud **relvakasutuse** ja **kinnipeetavate kaitsega**. Teenistusrelva tohib kasutada ainult **äärmuslikel juhtudel**, kui kõik muud meetmed on ammendatud, ja tervise kahjustamisest suuremal määral tuleb hoiduda ([[VangS § 71 lg 1]]). Relva kasutamisele peab eelnema **hoiatus**, tulirelva puhul hoiatus või hoiatuslask, v.a edasilükkamatu vahetu oht ([[VangS § 71 lg 6]]). Tulirelva kasutamine naiste ja alaealiste vastu on piiratud ([[VangS § 71 lg 4]]). Kaitsekohustus: täiendavaid julgeolekuabinõusid kohaldatakse ka siis, kui kinnipeetav kahjustab oma tervist või on **suitsiidikalduvusega** ([[VangS § 69 lg 1]]).",
+      "naide": {
+        "olukord": "Kinnipeetav ronib üle sisetara ja jookseb välisaia suunas. Ta on relvastamata. Valvetornis olev ametnik kaalub tulirelva kasutamist.",
+        "analyys": "**Kaitseala:** [[PS § 16]], [[EIÕK art 2]]. **Alus:** relv lubatud põgenemise takistamiseks, kui kõik muud meetmed on ammendatud ([[VangS § 71 lg 1]]); [[EIÕK art 2 lg 2]] p b. **Proportsionaalsus:** hoiatus/hoiatuslask on kohustuslik ([[VangS § 71 lg 6]]); hoiduda suuremast tervisekahjust kui vältimatu. **Järeldus:** surmava jõu kasutamine relvastamata põgeneja vastu peab olema absoluutselt vajalik – kõik leebemad võimalused tuleb enne ammendada."
+      }
+    },
+    "tyypviga": {
+      "punktid": [
+        "Unustatakse riigi **kaitsekohustus** (nt suitsiidiohus kinnipeetav) ja räägitakse ainult keelust.",
+        "EIÕK art 2 lg 2 erandeid kirjeldatakse kui tavalist proportsionaalsust – nõue on **absoluutne vajadus**.",
+        "Protokollid nr 6 ja 13 aetakse segi: nr 6 lubas surmanuhtlust sõja ajal ([[EIÕK P6 art 2]]), nr 13 kaotab **kõikidel asjaoludel**.",
+        "Ei mainita hoiatuse nõuet enne relva kasutamist ([[VangS § 71 lg 6]])."
+      ]
+    }
+  },
+  "skeem": {
+    "tyyp": "voog",
+    "pealkiri": "Teenistusrelv vanglas – kontroll-loend",
+    "sammud": [
+      { "pealkiri": "Äärmuslik juht?", "tekst": "põgenemine, relvastatud kinnipeetav, kallaletung, sissetung", "viide": "VangS § 71 lg 1" },
+      { "pealkiri": "Muud meetmed ammendatud?", "tekst": "ei → relva ei kasuta", "viide": "VangS § 71 lg 1" },
+      { "pealkiri": "Hoiatus / hoiatuslask", "tekst": "v.a vahetu ja otsene oht elule", "viide": "VangS § 71 lg 6" },
+      { "pealkiri": "Absoluutne vajadus", "tekst": "vähim võimalik kahju", "viide": "EIÕK art 2 lg 2" },
+      { "pealkiri": "Pärast", "tekst": "tervisekontroll + protokoll", "viide": "VangS § 71 lg 7^1" }
+    ]
+  },
+  "vastus": [
+    {
+      "nr": 11,
+      "punktid": [
+        "Igaühel on õigus elule; seda kaitseb seadus; meelevaldselt ei tohi elu võtta ([[PS § 16]], [[EIÕK art 2 lg 1]], [[KPÕRP art 6 lg 1]], [[harta art 2]]).",
+        "Riigil on keeld (mitte võtta elu) ja kaitsekohustus (seadusega kaitsta).",
+        "Erandid ainult absoluutse vajaduse korral: vägivalla tõrjumine, seaduslik vahistamine või põgenemise vältimine, mässu mahasurumine ([[EIÕK art 2 lg 2]]).",
+        "Surmanuhtlus on kaotatud kõikidel asjaoludel ([[EIÕK P6 art 1]], [[EIÕK P13 art 1]]).",
+        "Vanglas: relv ainult äärmuslikel juhtudel ja hoiatusega ([[VangS § 71]]); kaitse suitsiidiohu korral ([[VangS § 69 lg 1]])."
+      ]
+    }
+  ],
+  "harjutused": [
+    {
+      "tyyp": "fakt",
+      "kysimus": "Milline EIÕK protokoll kaotab surmanuhtluse kõikidel asjaoludel, ka sõja ajal?",
+      "valikud": ["Protokoll nr 6", "Protokoll nr 13", "Protokoll nr 16"],
+      "oige": 1,
+      "selgitus": "[[EIÕK P13 art 1]]; protokoll nr 6 lubas erandit sõja ajal ([[EIÕK P6 art 2]])."
+    },
+    {
+      "tyyp": "fakt",
+      "kysimus": "Mis peab vanglas eelnema tulirelva kasutamisele?",
+      "valikud": ["Direktori luba", "Hoiatus relva kasutada või hoiatuslask", "Politsei teavitamine"],
+      "oige": 1,
+      "selgitus": "[[VangS § 71 lg 6]]; erand – edasilükkamatu vahetu oht elule ja tervisele."
+    },
+    {
+      "tyyp": "kaasus",
+      "kysimus": "Kinnipeetav on korduvalt rääkinud enesetapust. Ametnik ei teavita kedagi, sest „see on tema enda otsus”. Kas riik on oma kohustuse täitnud?",
+      "vastus": [
+        "**Kaitseala:** õigus elule ([[PS § 16]], [[EIÕK art 2 lg 1]]) – „seda õigust kaitseb seadus”.",
+        "**Kohustus:** seadus annab vahendid suitsiidikalduvusega kinnipeetava kaitseks ([[VangS § 69 lg 1]]).",
+        "**Hinnang:** tegevusetus teadaoleva ohu korral ei täida kaitsekohustust.",
+        "**Järeldus:** ametnik peab info edastama ja tuleb kaaluda kaitsemeetmeid; tegevusetus võib olla õiguse elule rikkumine."
+      ]
+    }
+  ],
+  "erinevused": [
+    { "teema": "Konspekt", "konspekt": "Konspekt õigust elule eraldi peatükina ei käsitle.", "ametlik": "Vastus põhineb PS, EIÕK, protokollide 6 ja 13, harta ja KPÕRP tekstidel.", "viide": "PS § 16" }
+  ],
+  "valjast": [
+    { "tekst": "Mõisted „negatiivne kohustus” ja „positiivne kaitsekohustus” on EIK praktikast ja õigusteadusest pärit üldistused; seadusetekstis väljendab kaitsekohustust lause „Seda õigust kaitseb seadus”.", "allikas": "üldine õigusteadus / EIK praktika – ei pärine tunnimaterjalist" }
+  ]
+}

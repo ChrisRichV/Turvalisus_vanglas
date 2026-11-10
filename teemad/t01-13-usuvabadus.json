@@ -1,0 +1,165 @@
+{
+  "id": "t01-13",
+  "tund": "t01",
+  "jrk": 13,
+  "pealkiri": "Usuvabadus",
+  "kysimused": [
+    15
+  ],
+  "lyhidalt": "Igaüks võib uskuda, mida tahab, ja oma usku muuta. Usu väljendamist, näiteks usutalitusi, võib piirata ainult avaliku korra, tervise või kõlbluse kaitseks. Vangla peab tagama kinnipeetava usuliste vajaduste rahuldamise.",
+  "osad": {
+    "pohimote": {
+      "tekst": "**Igaühel on südametunnistuse-, usu- ja mõttevabadus.** Kirikutesse kuulumine on vaba, **riigikirikut ei ole**; usutalitusi võib täita üksi või koos teistega, avalikult või eraviisiliselt ([[PS § 40]]). Kedagi ei tohi sundida veendumusi muutma ([[PS § 41]]). EIÕK ja harta hõlmavad vabadust **muuta** usku ja seda **kuulutada** ([[EIÕK art 9 lg 1]], [[harta art 10 lg 1]]).",
+      "punktid": [
+        "**Sisemine külg** – uskuda, mitte uskuda, usku muuta – on piiramatu: kedagi ei tohi allutada sundusele, mis piirab vabadust omada või vastu võtta usku ([[KPÕRP art 18 lg 2]]).",
+        "**Välimine külg** – usu kuulutamine, talitused, kombed – on piiratav ([[EIÕK art 9 lg 2]]).",
+        "Veendumustega ei saa vabandada õiguserikkumist ([[PS § 41]] teine lõige).",
+        "Usuühenduste korraldus: [[KiKoS § 1]]."
+      ]
+    },
+    "alus": {
+      "read": [
+        {
+          "tase": "Eesti",
+          "viited": [
+            "PS § 40",
+            "PS § 41",
+            "KiKoS § 1"
+          ],
+          "tekst": "Usuvabadus; veendumuste vabadus; usuühendused."
+        },
+        {
+          "tase": "Vangla",
+          "viited": [
+            "VangS § 62",
+            "VangS § 47 lg 3",
+            "VangS § 26"
+          ],
+          "tekst": "Vangla tagab usuliste vajaduste rahuldamise; võimaluse korral religiooni toitumistavad; piiramatu ja segamatu kohtumine vaimulikuga."
+        },
+        {
+          "tase": "Euroopa Nõukogu",
+          "viited": [
+            "EIÕK art 9"
+          ],
+          "tekst": "Lg 1 sisu, lg 2 – piirata saab ainult usu kuulutamist."
+        },
+        {
+          "tase": "Euroopa Liit",
+          "viited": [
+            "harta art 10"
+          ],
+          "tekst": "Usuvabadus; ka õigus keelduda sõjaväeteenistusest veendumuste tõttu."
+        },
+        {
+          "tase": "ÜRO / standard",
+          "viited": [
+            "ÜDIÕ art 18",
+            "KPÕRP art 18",
+            "Mandela rule 65",
+            "Mandela rule 66"
+          ],
+          "tekst": "Usu esindaja kättesaadavus ja usuelu vajadused vanglas (soovituslik)."
+        }
+      ]
+    },
+    "piiramine": {
+      "pealkiri": "Piiramine – ainult usu väljendamist",
+      "punktid": [
+        "**PS § 40:** usutalituste täitmise vabadus kehtib, **kui see ei kahjusta avalikku korda, tervist ega kõlblust**.",
+        "**EIÕK art 9 lg 2:** usu kuulutamise vabadust võib piirata **üksnes seadusega** ja kui see on demokraatlikus ühiskonnas vajalik ühiskondliku turvalisuse, avaliku korra, tervise, kõlbluse või teiste õiguste kaitseks.",
+        "**KPÕRP art 18 lg 3:** samad eesmärgid.",
+        "Uskumist ennast (sisemist külge) piirata ei saa."
+      ]
+    },
+    "vangla": {
+      "tekst": "Vanglal on **aktiivne kohustus**: „Vanglateenistus tagab kinnipeetavale tema usuliste vajaduste rahuldamise” ([[VangS § 62]]). Kinnipeetav võib **piiramatult ja segamatult** kohtuda vaimulikuga ([[VangS § 26 lg 1]]); seda kokkusaamist tohib jälgida, kuid **mitte pealt kuulata** ([[VangS § 27 lg 2]]). Mandela reeglite järgi ei tohi kinnipeetavalt keelata juurdepääsu oma usu esindajale ([[Mandela rule 65]]).",
+      "naide": {
+        "olukord": "Kinnipeetav palub usulistel põhjustel sealihata toitu ja luba hoida kambris palvevaipa. Vangla keeldub, põhjendades, et „erandeid ei tehta”.",
+        "analyys": "**Kaitseala:** usu väljendamine kombetalituse ja tava kaudu ([[PS § 40]], [[EIÕK art 9 lg 1]]). **Riive:** keeldumine. **Formaalne:** vangla peab tagama usuliste vajaduste rahuldamise ([[VangS § 62]]) ja **võimaluse korral lubatakse järgida religiooni toitumistavasid** ([[VangS § 47 lg 3]]); muu piirang vajab julgeolekust tulenevat põhjust ([[VangS § 4^1 lg 2]]). **Materiaalne:** palvevaip ja sealihata toit ei ohusta üldjuhul korda ega julgeolekut; „erandeid ei tehta” ei ole legitiimne eesmärk ega kaalutlus. **Järeldus:** keeldumine on tõenäoliselt ebaproportsionaalne."
+      }
+    },
+    "tyypviga": {
+      "punktid": [
+        "Ei eristata **sisemist** (piiramatu) ja **välimist** (piiratav) külge.",
+        "Unustatakse vangla **aktiivne** kohustus ([[VangS § 62]]) – usuvabadus ei ole vanglas ainult sekkumise keeld.",
+        "Vaimuliku kokkusaamist käsitletakse nagu tavalist lühiajalist kokkusaamist – see on piiramatu ja seda ei kuulata pealt ([[VangS § 26]], [[VangS § 27 lg 2]]).",
+        "Arvatakse, et usuliste veendumustega saab õigustada õigusrikkumist ([[PS § 41]])."
+      ]
+    }
+  },
+  "skeem": {
+    "tyyp": "kaalud",
+    "pealkiri": "Usuvabaduse kaks külge",
+    "vasak": {
+      "pealkiri": "Sisemine külg",
+      "tekst": "uskuda · mitte uskuda · usku muuta",
+      "silt": "PIIRAMATU",
+      "viide": "KPÕRP art 18 lg 2"
+    },
+    "parem": {
+      "pealkiri": "Välimine külg",
+      "tekst": "talitused · kombed · kuulutamine",
+      "silt": "PIIRATAV",
+      "viide": "EIÕK art 9 lg 2"
+    },
+    "all": [
+      "seadusega",
+      "demokraatlikus ühiskonnas vajalik",
+      "eesmärk: turvalisus, avalik kord, tervis, kõlblus, teiste õigused",
+      "vanglas: + usuliste vajaduste tagamise kohustus ([[VangS § 62]])"
+    ]
+  },
+  "vastus": [
+    {
+      "nr": 15,
+      "punktid": [
+        "Igaühel on südametunnistuse-, usu- ja mõttevabadus; kuulumine usuühendustesse on vaba; riigikirikut ei ole ([[PS § 40]]); kedagi ei tohi sundida veendumusi muutma ([[PS § 41]]).",
+        "Hõlmab vabadust usku muuta ja seda kuulutada üksi või koos teistega, avalikult või eraviisiliselt ([[EIÕK art 9 lg 1]], [[harta art 10]], [[KPÕRP art 18]], [[ÜDIÕ art 18]]).",
+        "Piirata saab ainult usu väljendamist: seadusega, demokraatlikus ühiskonnas vajalik avaliku korra, tervise, kõlbluse jms kaitseks ([[EIÕK art 9 lg 2]], [[PS § 40]] kolmas lõige).",
+        "Vanglas: vangla tagab usuliste vajaduste rahuldamise ([[VangS § 62]]); vaimulikuga piiramatu ja segamatu kohtumine ([[VangS § 26 lg 1]])."
+      ]
+    }
+  ],
+  "harjutused": [
+    {
+      "tyyp": "fakt",
+      "kysimus": "Millist usuvabaduse külge saab piirata?",
+      "valikud": [
+        "Usku uskumist",
+        "Usu muutmist",
+        "Usu väljendamist (talitused, kombed)"
+      ],
+      "oige": 2,
+      "selgitus": "[[EIÕK art 9 lg 2]] – piirata saab „vabadust kuulutada oma usku või veendumusi”."
+    },
+    {
+      "tyyp": "fakt",
+      "kysimus": "Kas vanglaametnik tohib pealt kuulata kinnipeetava ja vaimuliku kohtumist?",
+      "valikud": [
+        "Jah, kui on julgeolekuoht",
+        "Ei – jälgida võib, pealt kuulata mitte"
+      ],
+      "oige": 1,
+      "selgitus": "[[VangS § 27 lg 2]]."
+    },
+    {
+      "tyyp": "kaasus",
+      "kysimus": "Kinnipeetav soovib korraldada kambris küünlaga palvust. Vangla keelab lahtise tule. Analüüsi.",
+      "vastus": [
+        "**Kaitseala:** usutalitus – välimine külg ([[PS § 40]], [[EIÕK art 9 lg 1]]).",
+        "**Riive:** lahtise tule keeld.",
+        "**Formaalne:** julgeoleku kaalutlusel vajalikud piirangud on lubatud ([[VangS § 4^1 lg 2]]); eesmärk – tuleohutus ja tervis ([[EIÕK art 9 lg 2]]).",
+        "**Materiaalne:** sobiv ja vajalik; mõõdukas, kui pakutakse alternatiivi (nt elektriküünal, palvus selleks ette nähtud ruumis).",
+        "**Järeldus:** piirang on tõenäoliselt lubatud, kui palvus ise jääb võimalikuks."
+      ]
+    }
+  ],
+  "erinevused": [],
+  "valjast": [
+    {
+      "tekst": "Mõisted „sisemine” ja „välimine” külg (forum internum / forum externum) on õigusteaduse ja EIK praktika üldistused; seaduse tekst toetab neid (KPÕRP art 18 lg 2 vs EIÕK art 9 lg 2).",
+      "allikas": "üldine õigusteadus – ei pärine tunnimaterjalist"
+    }
+  ]
+}

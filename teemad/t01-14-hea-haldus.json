@@ -1,0 +1,103 @@
+{
+  "id": "t01-14",
+  "tund": "t01",
+  "jrk": 14,
+  "pealkiri": "Hea haldus ja menetlusõigused",
+  "kysimused": [16],
+  "lyhidalt": "Riik peab inimese asja ajama erapooletult, õiglaselt ja mõistliku aja jooksul: kuulama ta ära, laskma tal dokumentidega tutvuda, otsust põhjendama, ütlema, kuidas vaidlustada, ja hüvitama kahju.",
+  "osad": {
+    "pohimote": {
+      "tekst": "Konspekti järgi on Euroopas **üldtunnustatud põhiõigus heale haldusele**. Harta: igaühel on õigus, et asutused käsitleksid tema küsimusi **erapooletult, õiglaselt ning mõistliku aja jooksul** ([[harta art 41 lg 1]]). Eestis tuleneb see õiguste tagamise kohustusest ([[PS § 14]]) ja on üksikasjaliselt HMS-is. Õiguskantsler kontrollib, kas asutus järgib **hea halduse tava** ([[OKS § 19 lg 1]]).",
+      "punktid": [
+        "Konspekt: hea halduse põhimõttega on hõlmatud proportsionaalsus, õiguskindlus, õiguspärane ootus, võrdne kohtlemine, õigus olla ära kuulatud, menetlus mõistliku aja jooksul, tulemuslikkus ja tõhusus, erapooletu menetlus, juurdepääs oma andmetele, otsuste põhjendamine ja kahju hüvitamine."
+      ]
+    },
+    "alus": {
+      "read": [
+        { "tase": "Eesti", "viited": ["PS § 14", "PS § 15", "PS § 44"], "tekst": "Õiguste tagamine; kohtusse pöördumine; teabe saamine ja oma andmetega tutvumine." },
+        { "tase": "Eesti", "viited": ["HMS § 3", "HMS § 5", "HMS § 6", "HMS § 10", "HMS § 37", "HMS § 40", "HMS § 56", "HMS § 57", "HMS § 71"], "tekst": "Menetluspõhimõtted ja -õigused." },
+        { "tase": "Eesti", "viited": ["MSVS § 6", "OKS § 19", "RVastS § 1"], "tekst": "Vastamise tähtaeg; õiguskantsler; riigivastutus." },
+        { "tase": "Vangla", "viited": ["VangS § 1^1"], "tekst": "HMS kehtib vanglas erisustega; vaie 30 päeva jooksul." },
+        { "tase": "Euroopa Liit", "viited": ["harta art 41", "harta art 43", "harta art 47"], "tekst": "Õigus heale haldusele; Euroopa ombudsman; tõhus õiguskaitsevahend." }
+      ]
+    },
+    "piiramine": {
+      "pealkiri": "Menetlusõigused ja nende erandid",
+      "punktid": [
+        "**Ärakuulamine:** enne haldusakti või kahjustavat toimingut ([[HMS § 40 lg 1]], [[HMS § 40 lg 2]]); erandid nt viivituse korral ([[HMS § 40 lg 3]]). Harta [[harta art 41 lg 2]] p a.",
+        "**Dokumentidega tutvumine:** igas menetlusstaadiumis ([[HMS § 37 lg 1]]), v.a seadusega keelatud andmed.",
+        "**Põhjendamine:** faktiline ja õiguslik alus, kaalutlusotsuse puhul kaalutlused ([[HMS § 56]]).",
+        "**Vaidlustamisviide:** kuidas, kuhu, mis tähtajaks ([[HMS § 57 lg 1]]).",
+        "**Erapooletus:** huvide konflikti korral taandamine ([[HMS § 10]]).",
+        "**Mõistlik aeg ja tõhusus:** menetlus kiire ja lihtne, viivituseta ([[HMS § 5 lg 2]], [[HMS § 5 lg 4]]); tähtajast mittekinnipidamisel teatada ([[HMS § 41]]).",
+        "**Uurimispõhimõte:** haldusorgan selgitab asjaolud ise välja ([[HMS § 6]]).",
+        "**Vaie ja hüvitis:** [[HMS § 71]]; [[RVastS § 1]]; harta [[harta art 41 lg 3]]."
+      ]
+    },
+    "vangla": {
+      "tekst": "Vanglas kohaldatakse HMS-i **erisustega**: osa HMS-i sätteid ei kohaldata ([[VangS § 1^1 lg 2]]); vaided ja taotlused esitatakse üldjuhul **kirjalikult** ([[VangS § 1^1 lg 4]]); vaie lahendatakse **30 päeva jooksul** ([[VangS § 1^1 lg 7]]). Hea halduse nõuded kehtivad igas otsuses: kokkusaamisest keeldumine, distsiplinaarmenetlus ([[VangS § 64]]), paigutus.",
+      "naide": {
+        "olukord": "Kinnipeetav saab teate: „Teie pikaajalise kokkusaamise taotlus on rahuldamata.” Põhjust ega vaidlustamisviidet ei ole.",
+        "analyys": "Soodustava haldusakti andmisest keeldumine peab olema **kirjalikult põhjendatud** – faktiline ja õiguslik alus ([[HMS § 56 lg 1]], [[HMS § 56 lg 2]]); haldusaktis peab olema **vaidlustamisviide** ([[HMS § 57 lg 1]]). Viite puudumine ei muuda akti kehtetuks, kuid võib olla mõjuv põhjus vaidetähtaja ennistamiseks ([[HMS § 57 lg 3]]). Hea halduse nõudeid on rikutud; kinnipeetav võib esitada vaide ([[VangS § 1^1 lg 4^1]]) või pöörduda õiguskantsleri poole ([[OKS § 19]])."
+      }
+    },
+    "tyypviga": {
+      "punktid": [
+        "Vastatakse ainult „ametnik peab olema viisakas” – hea haldus on **õiguslike menetlusõiguste kogum**.",
+        "Loetletakse põhimõtted, aga ei nimetata sätteid (HMS § 40, § 56, § 57 jt).",
+        "Harta art 41 laiendatakse Eesti asutustele – sõnastuse järgi on see suunatud **liidu** institutsioonidele; Eestis on alus PS ja HMS.",
+        "Unustatakse VangS-i erisused (kirjalik vaie, 30 päeva)."
+      ]
+    }
+  },
+  "skeem": {
+    "tyyp": "voog",
+    "pealkiri": "Hea halduse kontroll-loend iga otsuse juures",
+    "sammud": [
+      { "pealkiri": "Erapooletu?", "tekst": "huvide konflikt → taandamine", "viide": "HMS § 10" },
+      { "pealkiri": "Asjaolud selgitatud?", "tekst": "uurimispõhimõte", "viide": "HMS § 6" },
+      { "pealkiri": "Ära kuulatud?", "tekst": "arvamus ja vastuväited", "viide": "HMS § 40" },
+      { "pealkiri": "Põhjendatud?", "tekst": "fakt + õigus + kaalutlused", "viide": "HMS § 56" },
+      { "pealkiri": "Vaidlustamisviide?", "tekst": "kuhu, kuidas, millal", "viide": "HMS § 57" },
+      { "pealkiri": "Mõistlik aeg?", "tekst": "viivituseta; vaie 30 päeva", "viide": "VangS § 1^1 lg 7" }
+    ]
+  },
+  "vastus": [
+    {
+      "nr": 16,
+      "punktid": [
+        "Õigus, et asutus käsitleb isiku küsimusi erapooletult, õiglaselt ja mõistliku aja jooksul ([[harta art 41 lg 1]]); Eestis õiguste tagamise kohustus ([[PS § 14]]) ja HMS; õiguskantsler kontrollib hea halduse tava järgimist ([[OKS § 19]]).",
+        "Menetlusõigused: ärakuulamine ([[HMS § 40]]); dokumentidega tutvumine ([[HMS § 37]]); põhjendamine ([[HMS § 56]]); vaidlustamisviide ([[HMS § 57]]); erapooletus/taandamine ([[HMS § 10]]); mõistlik aeg ([[HMS § 5]], [[HMS § 41]]); vaie ([[HMS § 71]]); kahju hüvitamine ([[RVastS § 1]]).",
+        "Konspekti loetelu: proportsionaalsus, õiguskindlus, õiguspärane ootus, võrdne kohtlemine jt üldpõhimõtted kuuluvad samuti hea halduse alla.",
+        "Vanglas erisused: [[VangS § 1^1]]."
+      ]
+    }
+  ],
+  "harjutused": [
+    {
+      "tyyp": "fakt",
+      "kysimus": "Mida peab sisaldama kirjaliku haldusakti põhjendus?",
+      "valikud": ["Ainult õiguslikku alust", "Faktilist ja õiguslikku alust (kaalutlusotsuses ka kaalutlusi)", "Ametniku allkirja"],
+      "oige": 1,
+      "selgitus": "[[HMS § 56 lg 2]], [[HMS § 56 lg 3]]."
+    },
+    {
+      "tyyp": "fakt",
+      "kysimus": "Mis tähtaja jooksul tuleb märgukirjale vastata?",
+      "valikud": ["5 tööpäeva", "15 kalendripäeva (pikendatav kuni 2 kuud)", "30 päeva"],
+      "oige": 1,
+      "selgitus": "[[MSVS § 6]]."
+    },
+    {
+      "tyyp": "fakt",
+      "kysimus": "Kas vaidlustamisviite puudumine muudab haldusakti kehtetuks?",
+      "valikud": ["Jah", "Ei, kuid võib olla mõjuv põhjus tähtaja möödalaskmiseks"],
+      "oige": 1,
+      "selgitus": "[[HMS § 57 lg 2]], [[HMS § 57 lg 3]]."
+    }
+  ],
+  "erinevused": [
+    { "teema": "Harta art 41 adressaat", "konspekt": "Konspekt: „Euroopas on üldtunnustatud põhiõigus heale haldusele.”", "ametlik": "[[harta art 41 lg 1]] sõnastus käsitleb **liidu institutsioone, organeid ja asutusi**; liikmesriigi asutustes tuleneb sama sisu siseriiklikust õigusest (PS, HMS).", "viide": "harta art 41" }
+  ],
+  "valjast": []
+}
