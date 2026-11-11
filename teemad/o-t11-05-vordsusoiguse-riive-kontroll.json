@@ -1,0 +1,290 @@
+{
+ "id": "o-t11-05",
+ "tund": "o-t11",
+ "jrk": 5,
+ "pealkiri": "Võrdsusõiguse riive kontroll",
+ "kysimused": [],
+ "lyhidalt": "Võrdsusõiguse puhul ei otsita kaitseala, vaid võrreldakse kahte isikute gruppi. Kui sarnaseid gruppe koheldakse sarnases olukorras erinevalt, on võrdsusõigust riivatud. Riive on lubatud, kui erineval kohtlemisel on mõistlik õigustus või see on proportsionaalne.",
+ "osad": {
+  "pohimote": {
+   "tekst": "Võrdsus jaguneb **õiguslikuks** (seaduse ees) ja **faktiliseks** (tegelikuks). E-õpiobjekt nimetab seda võrdsuse paradoksiks: õiguslik võrdsus soodustab faktilist ebavõrdsust, ja faktilise võrdsuse saavutamiseks tuleb mõnikord inimesi õiguslikult erinevalt kohelda.",
+   "tsitaat": {
+    "viide": "PS § 12 lg 1",
+    "tekst": "Kõik on seaduse ees võrdsed. Kedagi ei tohi diskrimineerida rahvuse, rassi, nahavärvuse, soo, keele, päritolu, usutunnistuse, poliitiliste või muude veendumuste, samuti varalise ja sotsiaalse seisundi või muude asjaolude tõttu."
+   },
+   "punktid": [
+    "**Üldine võrdsusõigus** – esimene lause: kõik on seaduse ees võrdsed. Kui erilist võrdsusõigust ei ole, kohaldub üldine.",
+    "**Erilised võrdsusõigused** – diskrimineerimiskeeld loetletud tunnuste alusel (teine lause), abikaasade võrdõiguslikkus ([[PS § 27 lg 2]]) jt.",
+    "Riive tuvastamiseks on vaja **võrdlust**: vähemalt kaks gruppi, ühine nimetaja ja erinev kohtlemine."
+   ]
+  },
+  "alus": {
+   "read": [
+    {
+     "tase": "Üldine võrdsusõigus",
+     "viited": [
+      "PS § 12 lg 1"
+     ],
+     "tekst": "Esimene lause."
+    },
+    {
+     "tase": "Diskrimineerimiskeeld",
+     "viited": [
+      "PS § 12 lg 1"
+     ],
+     "tekst": "Teine lause: rahvus, rass, nahavärvus, sugu, keel, päritolu, usutunnistus, veendumused, varaline ja sotsiaalne seisund, muud asjaolud."
+    },
+    {
+     "tase": "Muud erilised võrdsusõigused",
+     "viited": [
+      "PS § 9 lg 1",
+      "PS § 27 lg 2",
+      "PS § 60 lg 1"
+     ],
+     "tekst": "Igaüheõiguste võrdsus kodanikel ja mittekodanikel; abikaasad; valimiste ühetaolisus. (Skeem nimetab ka ametnikke ja kohalikke valimisi.)"
+    },
+    {
+     "tase": "Proportsionaalsus",
+     "viited": [
+      "PS § 11"
+     ],
+     "tekst": "Lisandub erilise võrdsusõiguse korral ja siis, kui kaasneb vabadusõiguse riive."
+    },
+    {
+     "tase": "Vangla",
+     "viited": [
+      "VangS § 25 lg 1",
+      "VangS § 12 lg 1"
+     ],
+     "tekst": "Seadus ise kohtleb gruppe erinevalt: abikaasa ja faktiline abikaasa pikaajalisel kokkusaamisel; eraldihoidmine tunnuste alusel."
+    }
+   ]
+  },
+  "piiramine": {
+   "pealkiri": "Viis sammu (e-õpiobjekt, IV osa)",
+   "tekst": "Kolm esimest sammu vastavad küsimusele, kas võrdsusõigust on **üldse piiratud**; kaks viimast, kas seda on tehtud **põhiseaduspäraselt**.",
+   "punktid": [
+    "**I samm:** leia vähemalt kaks isikute gruppi, keda võrrelda.",
+    "**II samm:** leia gruppide ühine nimetaja – tunnus, mille poolest nad on sarnased.",
+    "**III samm:** kas neid gruppe on sarnases olukorras koheldud erinevalt? Kui jah, on võrdsusõigust **piiratud**.",
+    "**IV samm:** määra võrdsusõiguse liik – üldine või eriline.",
+    "**V samm:** kas piirang on põhiseaduspärane? **Üldine võrdsusõigus:** meelevalduse keeld – kas erinevale kohtlemisele leidub **mõistlik õigustus**. **Eriline võrdsusõigus** või üldine koos vabadusõiguse riivega: lisandub **proportsionaalsus** (kohane, vajalik, mõõdukas)."
+   ]
+  },
+  "vangla": {
+   "tekst": "Vangistusseadus kohtleb pikaajalise kokkusaamise puhul abikaasat ja faktilist abikaasat erinevalt: faktiliselt abikaasalt nõutakse lisatingimust ([[VangS § 25 lg 1]]). See on hea harjutus võrdsusõiguse skeemi jaoks. Allolev analüüs on Claude'i koostatud arutluse näide.",
+   "naide": {
+    "olukord": "Kinnipeetav on elanud elukaaslasega koos üks aasta enne karistuse algust; ühiseid lapsi neil ei ole. Pikaajalise kokkusaamise taotlus jäetakse rahuldamata. Kinnipeetav ütleb: „Abielus kambrikaaslane sai kokkusaamise – mind diskrimineeritakse!”",
+    "analyys": "**I grupid:** kinnipeetavad, kellel on abikaasa, ja kinnipeetavad, kellel on faktiline abikaasa. **II ühine nimetaja:** kinnipeetav, kes soovib pikaajalist kokkusaamist oma elukaaslasega. **III erinev kohtlemine:** abikaasaga võimaldatakse kokkusaamist lisatingimuseta; faktilise abikaasaga ainult siis, kui on ühised lapsed või vähemalt kaks aastat väldanud kooselu enne karistuse algust ([[VangS § 25 lg 1]]) – riive on olemas. **IV liik:** perekonnaseis ei ole diskrimineerimiskeelu loetelus nimetatud; lähtuda võib üldisest võrdsusõigusest ([[PS § 12 lg 1]]). **V õigustus:** abielu on registreeritud ja lihtsalt tõendatav; faktilise kooselu puhul on vaja mõõdupuud, mis näitab suhte püsivust. See on mõistlik põhjus. **Järeldus:** riive on, aga tõenäoliselt mitte rikkumine. Ametnik ei diskrimineeri, vaid rakendab seadust; kinnipeetav võib esitada vaide ([[VangS § 1^1 lg 5]])."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Võrreldakse valesid gruppe. Kui gruppidel ei ole ühist nimetajat, ei ole nad võrreldavad ja riivet ei ole.",
+    "Iga erinev kohtlemine nimetatakse diskrimineerimiseks. Erinev kohtlemine on **riive**; rikkumine on see alles siis, kui õigustust ei ole.",
+    "Võrdsusõigust kontrollitakse vabadusõiguse skeemiga (kaitseala → riive). Võrdsusõigusel ei ole esemelist kaitseala – on võrdlus.",
+    "Unustatakse määrata liik (IV samm). Sellest sõltub, kas piisab mõistlikust põhjusest või on vaja proportsionaalsust."
+   ]
+  }
+ },
+ "skeem": [
+  {
+   "tyyp": "voog",
+   "pealkiri": "Võrdsusõiguse riive kontroll (e-õpiobjekt, IV osa)",
+   "sammud": [
+    {
+     "pealkiri": "Võrdlusgrupid",
+     "tekst": "vähemalt kaks isikute gruppi"
+    },
+    {
+     "pealkiri": "Ühine nimetaja",
+     "tekst": "mille poolest on grupid sarnased"
+    },
+    {
+     "pealkiri": "Erinev kohtlemine?",
+     "tekst": "kui jah → võrdsusõigust on piiratud",
+     "viide": "PS § 12 lg 1"
+    },
+    {
+     "pealkiri": "Liik",
+     "tekst": "üldine või eriline võrdsusõigus"
+    },
+    {
+     "pealkiri": "Õigustus",
+     "tekst": "üldine: mõistlik põhjus · eriline: proportsionaalsus",
+     "viide": "PS § 11"
+    }
+   ]
+  },
+  {
+   "tyyp": "puu",
+   "pealkiri": "Võrdsusõiguse liigid (e-õpiobjekt, III osa skeem)",
+   "juur": {
+    "pealkiri": "Võrdsusõigused",
+    "viide": "PS § 12 lg 1"
+   },
+   "harud": [
+    {
+     "pealkiri": "Üldine",
+     "toon": "a",
+     "lapsed": [
+      {
+       "pealkiri": "Kõik on seaduse ees võrdsed",
+       "tekst": "kohaldub, kui erilist ei ole",
+       "viide": "PS § 12 lg 1"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Erilised",
+     "toon": "b",
+     "lapsed": [
+      {
+       "pealkiri": "Diskrimineerimiskeelud",
+       "tekst": "rahvus, rass, sugu, keel, usk…",
+       "viide": "PS § 12 lg 1"
+      },
+      {
+       "pealkiri": "Igaüheõigused",
+       "viide": "PS § 9 lg 1"
+      },
+      {
+       "pealkiri": "Abikaasad",
+       "viide": "PS § 27 lg 2"
+      },
+      {
+       "pealkiri": "Valimiste ühetaolisus",
+       "viide": "PS § 60 lg 1"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "tyyp": "vordlus",
+   "pealkiri": "Slaidi näide: haigushüvitis ja vanus (slaidid 40–43)",
+   "veerud": [
+    "",
+    "Grupp 1: alla 65-aastane",
+    "Grupp 2: vähemalt 65-aastane"
+   ],
+   "read": [
+    {
+     "silt": "Ühine nimetaja",
+     "lahtrid": [
+      "ravikindlustatud, saab haiguse korral haigushüvitist",
+      "sama"
+     ]
+    },
+    {
+     "silt": "Kohtlemine",
+     "lahtrid": [
+      "hüvitis kuni 250 päeva kalendriaastas",
+      "hüvitis kuni 90 päeva kalendriaastas"
+     ]
+    },
+    {
+     "silt": "Eesmärk 1: tervise hoidmine",
+     "lahtrid": [
+      "–",
+      "**ei ole kohane** – lühem hüvitis sunnib pigem haigena tööle"
+     ]
+    },
+    {
+     "silt": "Eesmärk 2: raha kokkuhoid",
+     "lahtrid": [
+      "–",
+      "kohane ja vajalik, aga **ei ole mõõdukas**"
+     ]
+    },
+    {
+     "silt": "Tulemus",
+     "lahtrid": [
+      "–",
+      "slaidi järgi tunnistas Riigikohus normi kehtetuks"
+     ]
+    }
+   ]
+  }
+ ],
+ "vastus": [],
+ "harjutused": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis on võrdsusõiguse riive kontrolli esimene samm?",
+   "valikud": [
+    "Esemelise kaitseala määramine",
+    "Vähemalt kahe võrreldava isikute grupi leidmine",
+    "Proportsionaalsuse kaalumine",
+    "Seadusliku aluse otsimine"
+   ],
+   "oige": 1,
+   "selgitus": "E-õpiobjekt, IV osa, I samm. Kaitseala otsitakse vabadusõiguse puhul."
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Millist mõõdupuud kasutatakse üldise võrdsusõiguse riive hindamisel (kui vabadusõiguse riivet ei kaasne)?",
+   "valikud": [
+    "Range proportsionaalsus",
+    "Meelevalduse keeld – kas leidub mõistlik õigustus",
+    "Riivet ei saa kunagi õigustada",
+    "Ainult seadusliku aluse olemasolu"
+   ],
+   "oige": 1,
+   "selgitus": "E-õpiobjekt, IV osa, V samm. Erilise võrdsusõiguse korral lisandub proportsionaalsus."
+  },
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Üldine või eriline võrdsusõigus?",
+   "ryhmad": [
+    "Üldine",
+    "Eriline"
+   ],
+   "read": [
+    {
+     "tekst": "Erinev kohtlemine soo tõttu",
+     "oige": 1,
+     "selgitus": "Diskrimineerimiskeelu loetelus ([[PS § 12 lg 1]])."
+    },
+    {
+     "tekst": "Kahe eriala lõpetanuid koheldakse erinevalt (ühel on töökohustus, teisel mitte)",
+     "oige": 0,
+     "selgitus": "Slaidi 39 näide; tunnus ei ole loetelus – üldine võrdsusõigus."
+    },
+    {
+     "tekst": "Abikaasade võrdõiguslikkus",
+     "oige": 1,
+     "selgitus": "[[PS § 27 lg 2]]."
+    },
+    {
+     "tekst": "Erinev kohtlemine usutunnistuse tõttu",
+     "oige": 1,
+     "selgitus": "[[PS § 12 lg 1]]."
+    }
+   ]
+  },
+  {
+   "tyyp": "kaasus",
+   "kysimus": "Vanglas lubatakse töötavatel kinnipeetavatel käia jõusaalis kolm korda nädalas, mittetöötavatel üks kord. Mittetöötav kinnipeetav kaebab ebavõrdse kohtlemise üle. Lahenda viie sammuga.",
+   "vastus": [
+    "**I grupid:** töötavad ja mittetöötavad kinnipeetavad.",
+    "**II ühine nimetaja:** sama vangla kinnipeetavad, kes soovivad kasutada jõusaali.",
+    "**III erinev kohtlemine:** jah – kolm korda vs üks kord. Võrdsusõigust on piiratud.",
+    "**IV liik:** töötamine ei ole diskrimineerimiskeelu loetelus; üldine võrdsusõigus ([[PS § 12 lg 1]]).",
+    "**V õigustus:** kas leidub mõistlik põhjus? Võimalik põhjus: töötamise soodustamine teenib vangistuse eesmärki suunata õiguskuulekale käitumisele ([[VangS § 6 lg 1]]). Kui aga kinnipeetav ei tööta temast sõltumatul põhjusel (tööd ei ole), on õigustus nõrgem.",
+    "**Järeldus:** riive on; rikkumine sõltub sellest, kas vangla suudab erinevust mõistlikult põhjendada. Lisaks vajab piirang seaduslikku alust ([[VangS § 4^1 lg 2]])."
+   ]
+  }
+ ],
+ "erinevused": [],
+ "valjast": [
+  {
+   "tekst": "Slaididel on haigushüvitise näide (ravikindlustuse seaduse § 57 lg 5 ja 6 enne 7.06.2011) ja e-õpiobjektis 65-aastase ametniku vabastamise näide (Riigikohtu lahend 3-4-1-14-07). Lahendite tekste materjali hulgas ei ole; lehel on ainult see, mida slaid ütleb.",
+   "allikas": "õppejõu slaidid 40–43 ja e-õpiobjekt, V osa"
+  },
+  {
+   "tekst": "Pikaajalise kokkusaamise ja jõusaali kaasuse analüüs on arutluse näide, mitte kohtu seisukoht.",
+   "allikas": "Claude'i analüüs – ei pärine tunnimaterjalist"
+  }
+ ]
+}

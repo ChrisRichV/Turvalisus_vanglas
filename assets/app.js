@@ -58,6 +58,7 @@
       return `<button type="button" class="term" data-term="${id}" aria-haspopup="dialog" aria-expanded="false">${naita}</button>`;
     });
     h = h.replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>");
+    h = h.replace(/(^|[\s(„])\*([^*\s][^*]*?)\*(?=[\s.,;:)”]|$)/g, "$1<em>$2</em>");
     h = h.replace(/`([^`]+)`/g, "<code>$1</code>");
     return h;
   };
@@ -208,7 +209,7 @@
         const html = d.ained.map((a) => {
           const tunnid = d.tunnid.filter((t) => t.aine === a.id);
           const tHtml = tunnid.map((t) => {
-            if (t.olek !== "valmis") return `<li class="s-tulemas">${t.nr}. ${esc(t.pealkiri)} – tulemas</li>`;
+            if (t.olek !== "valmis") return `<li class="s-tulemas">${t.tyyp === "eksam" ? "" : t.nr + ". "}${esc(t.pealkiri)} – ${t.tyyp === "seminar" ? "seminar" : t.tyyp === "eksam" ? "eksam" : A.onMoodas(t.kuupaev) ? "lisamisel" : "tulemas"}</li>`;
             return `<li><details class="s-tund" ${o.tund === t.id ? "open" : ""}><summary>${t.nr}. ${esc(t.pealkiri)}</summary><ol>${
               t.teemad.map((tm) => { const x = kaart[tm.id]; return x ? `<li class="s-teema"><a href="teema.html?id=${x.id}"${o.teema === x.id ? ' aria-current="page"' : ""}>${esc(x.pealkiri)}</a></li>` : ""; }).join("")}</ol></details></li>`;
           }).join("");
@@ -316,9 +317,32 @@
   };
 
   /* ---------- harjutuse komponent ---------- */
+  /* Tunni küsimus: kas string (number = järjekord) või {nr, tekst} (aine läbiv number). */
+  A.kysTekst = function (tund, nr) {
+    const k = (tund && tund.kysimused) || [];
+    const o = k.find((x) => x && typeof x === "object" && x.nr === nr);
+    if (o) return o.tekst;
+    return typeof k[nr - 1] === "string" ? k[nr - 1] : "";
+  };
+  A.kysLoend = function (tund) {
+    return ((tund && tund.kysimused) || []).map((k, i) => (k && typeof k === "object" ? { nr: k.nr, tekst: k.tekst } : { nr: i + 1, tekst: k }));
+  };
+  A.paevKp = function (s) { return s ? new Date(s + "T12:00:00") : null; };
+  A.tana = function () { const d = new Date(); return new Date(d.getFullYear(), d.getMonth(), d.getDate(), 12); };
+  A.onMoodas = function (s) { const d = A.paevKp(s); return !!d && d < A.tana(); };
+
   A.harjutusHtml = function (h, id, allikas) {
     const liik = h.tyyp === "kaasus" ? "Kaasus" : "Faktiküsimus";
     const all = allikas ? ` – ${esc(allikas)}` : "";
+    if (h.tyyp === "sorteeri") {
+      const read = h.read.map((r, i) => `<li class="sort-rida" data-oige="${r.oige}">
+        <span class="sort-tekst">${A.md(r.tekst)}</span>
+        <span class="sort-nupud" role="group" aria-label="Vali rühm">${h.ryhmad.map((g, j) => `<button type="button" class="sort-nupp" data-j="${j}">${esc(g)}</button>`).join("")}</span>
+        ${r.selgitus ? `<span class="sort-selgitus" hidden>${A.md(r.selgitus)}</span>` : ""}</li>`).join("");
+      return `<div class="harjutus sorteeri" id="${id}" data-kokku="${h.read.length}">
+        <div class="h-liik">Sorteeri${all}</div><div class="h-kys">${A.md(h.kysimus)}</div>
+        <ul class="sort-loend">${read}</ul><p class="sort-seis" role="status" aria-live="polite"></p></div>`;
+    }
     if (h.tyyp === "tunnikys") {
       return `<div class="harjutus tunnikys" id="${id}">
         <div class="h-liik">Tunni kordamisküsimus ${h.nr}${all}</div><div class="h-kys">${A.md(h.kysimus)}</div>
@@ -342,6 +366,40 @@
 
   A.seoHarjutused = function (juur, tulemus) {
     juur.addEventListener("click", (e) => {
+      const sn = e.target.closest(".sort-nupp");
+      if (sn) {
+        const rida = sn.closest(".sort-rida"), kast = sn.closest(".harjutus");
+        if (rida.dataset.vastatud) return;
+        rida.dataset.vastatud = "1";
+        const oige = +rida.dataset.oige, j = +sn.dataset.j;
+        rida.querySelectorAll(".sort-nupp").forEach((b) => { b.disabled = true; if (+b.dataset.j === oige) b.classList.add("oige"); });
+        if (j !== oige) { sn.classList.add("vale"); rida.dataset.vale = "1"; }
+        const sel = rida.querySelector(".sort-selgitus"); if (sel) sel.hidden = false;
+        const tehtud = kast.querySelectorAll(".sort-rida[data-vastatud]").length, kokku = +kast.dataset.kokku;
+        const valesid = kast.querySelectorAll(".sort-rida[data-vale]").length;
+        kast.querySelector(".sort-seis").textContent = tehtud === kokku ? `Valmis: ${kokku - valesid} / ${kokku} õigesti.` : `${tehtud} / ${kokku} sorteeritud`;
+        return;
+      }
+      const ks = e.target.closest(".kontroll-ava");
+      if (ks) {
+        const li = ks.closest("li"), ol = li.parentElement;
+        li.classList.add("avatud"); li.querySelector(".kontroll-vastus").hidden = false; ks.remove();
+        const jarg = li.nextElementSibling;
+        if (jarg) { jarg.classList.remove("lukus"); const b = jarg.querySelector(".kontroll-ava"); if (b) { b.disabled = false; b.focus({ preventScroll: true }); } }
+        const fig = ol.closest(".s-kontroll"); const n = ol.querySelectorAll("li.avatud").length, k = ol.children.length;
+        fig.querySelector(".kontroll-riba i").style.width = (100 * n / k) + "%";
+        fig.querySelector(".kontroll-seis").textContent = n === k ? "Kontroll läbitud." : `Samm ${n} / ${k}`;
+        if (n === k) { const j = fig.querySelector(".kontroll-jareldus"); if (j) j.hidden = false; }
+        return;
+      }
+      const ka = e.target.closest(".kontroll-koik");
+      if (ka) {
+        const fig = ka.closest(".s-kontroll");
+        fig.querySelectorAll("li").forEach((li) => { li.classList.remove("lukus"); li.classList.add("avatud"); li.querySelector(".kontroll-vastus").hidden = false; const b = li.querySelector(".kontroll-ava"); if (b) b.remove(); });
+        fig.querySelector(".kontroll-riba i").style.width = "100%"; fig.querySelector(".kontroll-seis").textContent = "Kontroll läbitud.";
+        const j = fig.querySelector(".kontroll-jareldus"); if (j) j.hidden = false; ka.remove();
+        return;
+      }
       const valik = e.target.closest(".valik");
       if (valik) {
         const kast = valik.closest(".harjutus");

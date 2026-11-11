@@ -1,0 +1,307 @@
+{
+ "id": "o-t10-02",
+ "tund": "o-t10",
+ "jrk": 2,
+ "pealkiri": "Põhiseaduse põhimõtted",
+ "kysimused": [
+  28
+ ],
+ "lyhidalt": "Põhimõtted on väärtused, millele riik on rajatud: inimväärikus, demokraatia, õigusriik, sotsiaalriik ja rahvusriik. Nende järgi tõlgendatakse kõiki seadusi ja hinnatakse, kas põhiõiguse piirang on lubatud.",
+ "osad": {
+  "pohimote": {
+   "tekst": "Slaidide järgi on põhiseaduse põhimõtted **väärtused, millele riik on rajatud**. Slaidid nimetavad viit aluspõhimõtet ja märgivad, et see on üks võimalik kataloog:",
+   "tsitaat": {
+    "viide": "PS § 10",
+    "tekst": "Käesolevas peatükis loetletud õigused, vabadused ja kohustused ei välista muid õigusi, vabadusi ega kohustusi, mis tulenevad põhiseaduse mõttest või on sellega kooskõlas ja vastavad inimväärikuse ning sotsiaalse ja demokraatliku õigusriigi põhimõtetele."
+   },
+   "punktid": [
+    "**Inimväärikus** – inimest ei tohi kohelda vahendina riigi eesmärkide saavutamisel; see on kõigi põhiõiguste alus (slaid 15, viitega Riigikohtule).",
+    "**Demokraatia** – riigivõim tuleb rahvalt ([[PS § 1]], [[PS § 56]]). Alapõhimõtted: legitimatsioon, **olulisus** (olulised küsimused otsustab Riigikogu seadusega) ja kontroll.",
+    "**Õigusriik** – seaduslikkus, põhiõiguste tagamine, võimude lahusus, {{proportsionaalsus}}, hea haldus, kohtulik kontroll ja {{oiguskindlus}}.",
+    "**Sotsiaalriik** – riik aitab puuduse korral ([[PS § 28 lg 2]]).",
+    "**Rahvusriik** – slaidi 6 järgi on riigi eesmärk ka eesti rahvuse, keele ja kultuuri säilitamine.",
+    "Slaid 11 nimetab lisaks: unitaarriik ([[PS § 2 lg 2]]), vabariik ([[PS § 1]]), võrdsus ([[PS § 12 lg 1]]) ja vabadus."
+   ]
+  },
+  "alus": {
+   "read": [
+    {
+     "tase": "Põhimõtete nimetamine",
+     "viited": [
+      "PS § 10",
+      "PS § 1"
+     ],
+     "tekst": "Inimväärikus ning sotsiaalne ja demokraatlik õigusriik; demokraatlik vabariik."
+    },
+    {
+     "tase": "Demokraatia",
+     "viited": [
+      "PS § 1",
+      "PS § 56",
+      "PS § 60 lg 1"
+     ],
+     "tekst": "Rahvas teostab võimu Riigikogu valimise ja rahvahääletusega; valimised on vabad, üldised, ühetaolised ja otsesed, hääletamine salajane."
+    },
+    {
+     "tase": "Õigusriik: seaduslikkus",
+     "viited": [
+      "PS § 3 lg 1",
+      "PS § 102",
+      "PS § 87 p 6",
+      "PS § 94 lg 2"
+     ],
+     "tekst": "Riigivõim seaduse alusel; seadused kooskõlas põhiseadusega; valitsus ja minister annavad määrusi seaduse alusel ja täitmiseks."
+    },
+    {
+     "tase": "Õigusriik: võimude lahusus ja kontroll",
+     "viited": [
+      "PS § 4",
+      "PS § 15",
+      "PS § 146"
+     ],
+     "tekst": "Võimude lahusus ja tasakaalustatus; igaühe õigus pöörduda kohtusse; õigust mõistab ainult kohus."
+    },
+    {
+     "tase": "Õigusriik: õiguskindlus",
+     "viited": [
+      "PS § 3 lg 2",
+      "PS § 13 lg 2"
+     ],
+     "tekst": "Kohustuslikud on ainult avaldatud seadused; seadus kaitseb riigivõimu omavoli eest."
+    },
+    {
+     "tase": "Proportsionaalsus",
+     "viited": [
+      "PS § 11",
+      "HMS § 3 lg 2"
+     ],
+     "tekst": "Piirangud peavad olema demokraatlikus ühiskonnas vajalikud; haldusakt ja toiming kohane, vajalik ja proportsionaalne."
+    },
+    {
+     "tase": "Sotsiaalriik",
+     "viited": [
+      "PS § 28"
+     ],
+     "tekst": "Õigus tervise kaitsele ja riigi abile vanaduse, töövõimetuse, toitjakaotuse ja puuduse korral."
+    },
+    {
+     "tase": "Vangla",
+     "viited": [
+      "VangS § 4^1"
+     ],
+     "tekst": "Inimväärikuse austamine ja piirangute vastavus täideviimise eesmärgile."
+    }
+   ]
+  },
+  "piiramine": {
+   "pealkiri": "Õigusriigi ja demokraatia alapõhimõtted lahti",
+   "tekst": "Slaidid 13 ja 14 jagavad kaks suurimat põhimõtet osadeks. Ametniku jaoks on need igapäevased tööreeglid.",
+   "punktid": [
+    "**Seaduslikkus** koosneb kahest osast: **seaduste hierarhia** (seadus vastab põhiseadusele, määrus seadusele – [[PS § 102]], [[PS § 87 p 6]]) ja **seadusliku aluse põhimõte** (riigivõimu teostamiseks on vaja seaduse luba – [[PS § 3 lg 1]]).",
+    "**Olulisuse põhimõte** (demokraatia): õpiku järgi peab riigielu seisukohast olulised küsimused otsustama Riigikogu seadusega, sest tema on saanud volituse otse rahvalt. Põhiõiguse piiramist saab seetõttu lubada ainult seadus, mitte määrus.",
+    "**Õiguskindlus** jaguneb slaidi järgi: tagasiulatuva jõu keeld, {{oigusparane-ootus|õiguspärane ootus}}, õigusselgus, õigusrahu (nt aegumine), *vacatio legis* (aeg seadusega tutvumiseks) ja avaldamiskohustus ([[PS § 3 lg 2]]).",
+    "**Võimude lahusus ja tasakaalustatus** ([[PS § 4]]) – vt järgmine teema.",
+    "**Kohtulik kontroll** – igaüks võib oma õiguste rikkumise korral pöörduda kohtusse ([[PS § 15 lg 1]]).",
+    "**Inimväärikuse kohaldamise juhud** (slaid 15): kehaline puutumatus ([[PS § 18]]), inimväärsed elutingimused ([[PS § 28]]), õiguslik võrdsus ([[PS § 12 lg 1]]), identiteedi säilitamine ([[PS § 26]], [[PS § 19]]), vabadus ise otsustada ja menetlus, kus inimest koheldakse subjektina."
+   ]
+  },
+  "vangla": {
+   "tekst": "Vangistusseadus kirjutab kaks põhiseaduse põhimõtet vangla jaoks otse lahti. **Inimväärikus:** kinnipeetavat koheldakse viisil, mis austab tema inimväärikust ega põhjusta rohkem kannatusi, kui kinnipidamisega paratamatult kaasneb ([[VangS § 4^1 lg 1]]). **Seaduslikkus ja proportsionaalsus:** piirangud tulevad seadusest ja peavad vastama täideviimise eesmärgile ([[VangS § 4^1 lg 2]]). Demokraatia põhimõte puudutab kinnipeetavat ka otse: seadusega võib piirata karistust kandvate kodanike osavõttu hääletamisest ([[PS § 58]]).",
+   "naide": {
+    "olukord": "Vangla kodukorda lisatakse reegel, mis piirab kinnipeetava õigust rohkem, kui vangistusseadus ja sisekorraeeskiri ette näevad. Seaduses sellist piirangut ei ole.",
+    "analyys": "**Seaduste hierarhia:** kodukord on madalam akt kui seadus ja määrus; ta ei tohi nendega vastuollu minna ([[PS § 3 lg 1]]). **Olulisuse põhimõte:** põhiõiguse piirangu peab lubama seadus. **Vangla erinorm:** ilma konkreetse seadusesätteta on lubatud ainult julgeoleku kaalutlustel vajalikud piirangud ([[VangS § 4^1 lg 2]]). **Järeldus:** kui reeglil pole seaduses alust ja seda ei saa julgeolekuga põhjendada, on see vastuolus seaduslikkuse põhimõttega. Kinnipeetav saab esitada vaide ja seejärel kaebuse halduskohtule ([[VangS § 1^1 lg 5]])."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Loetletakse põhimõtted, aga **ei selgitata sisu**. Küsimus 28 nõuab mõlemat.",
+    "Õigusriik võrdsustatakse ainult seaduslikkusega. Õigusriigil on mitu alapõhimõtet, sh õiguskindlus ja kohtulik kontroll.",
+    "**Olulisuse põhimõte** pannakse õigusriigi alla. Slaidide ja õpiku järgi kuulub see **demokraatia** alla, aga on tihedalt seotud seaduslikkusega.",
+    "Seadusliku aluse põhimõte ja seaduste hierarhia aetakse segi: esimene küsib „kas mul on luba tegutseda?”, teine „kas alam akt vastab ülemale?”."
+   ]
+  }
+ },
+ "skeem": [
+  {
+   "tyyp": "puu",
+   "pealkiri": "Viis aluspõhimõtet (slaid 12) ja nende alapõhimõtted",
+   "juur": {
+    "pealkiri": "Põhiseaduse põhimõtted",
+    "tekst": "väärtused, millele riik on rajatud",
+    "viide": "PS § 10"
+   },
+   "harud": [
+    {
+     "pealkiri": "Inimväärikus",
+     "toon": "b",
+     "lapsed": [
+      {
+       "pealkiri": "Inimene ei ole vahend",
+       "tekst": "kõigi põhiõiguste alus",
+       "viide": "VangS § 4^1 lg 1"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Demokraatia",
+     "toon": "a",
+     "lapsed": [
+      {
+       "pealkiri": "Legitimatsioon",
+       "tekst": "võim tuleb rahvalt",
+       "viide": "PS § 56"
+      },
+      {
+       "pealkiri": "Olulisus",
+       "tekst": "olulised küsimused seadusega"
+      },
+      {
+       "pealkiri": "Valimiste põhimõtted",
+       "viide": "PS § 60 lg 1"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Õigusriik",
+     "toon": "a",
+     "lapsed": [
+      {
+       "pealkiri": "Seaduslikkus",
+       "tekst": "hierarhia + seaduslik alus",
+       "viide": "PS § 3 lg 1"
+      },
+      {
+       "pealkiri": "Võimude lahusus",
+       "viide": "PS § 4"
+      },
+      {
+       "pealkiri": "Proportsionaalsus",
+       "viide": "PS § 11"
+      },
+      {
+       "pealkiri": "Kohtulik kontroll",
+       "viide": "PS § 15 lg 1"
+      },
+      {
+       "pealkiri": "Õiguskindlus",
+       "tekst": "avaldamine, õigusselgus, õiguspärane ootus",
+       "viide": "PS § 13 lg 2"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Sotsiaalriik",
+     "toon": "c",
+     "lapsed": [
+      {
+       "pealkiri": "Abi puuduse korral",
+       "viide": "PS § 28 lg 2"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Rahvusriik",
+     "toon": "c",
+     "lapsed": [
+      {
+       "pealkiri": "Rahvuse, keele ja kultuuri säilitamine",
+       "tekst": "riigi eesmärk (slaid 6)"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vastus": [
+  {
+   "nr": 28,
+   "punktid": [
+    "**Põhiseaduse aluspõhimõtted** (slaid 12): inimväärikus, demokraatia, õigusriik, sotsiaalriik, rahvusriik. Kataloog ei ole ainus võimalik.",
+    "**Inimväärikus** – inimest ei kohelda vahendina; kõigi põhiõiguste alus ([[PS § 10]], vanglas [[VangS § 4^1 lg 1]]).",
+    "**Demokraatia** – võim tuleb rahvalt ([[PS § 1]], [[PS § 56]]); olulised küsimused otsustab Riigikogu seadusega (olulisuse põhimõte).",
+    "**Õigusriik** – seaduslikkus ([[PS § 3 lg 1]]), võimude lahusus ([[PS § 4]]), proportsionaalsus ([[PS § 11]]), kohtulik kontroll ([[PS § 15 lg 1]]), õiguskindlus ([[PS § 3 lg 2]], [[PS § 13 lg 2]]).",
+    "**Sotsiaalriik** – abi vanaduse, töövõimetuse, toitjakaotuse ja puuduse korral ([[PS § 28 lg 2]]).",
+    "**Haldusõiguse põhimõtted** (seaduslik alus, proportsionaalsus, kaalutlusõigus, uurimispõhimõte jt) lisatakse 13. tunni teemadesse. Lühidalt: haldusmenetluses võib põhiõigusi piirata ainult seaduse alusel ([[HMS § 3 lg 1]]) ning akt ja toiming peavad olema kohased, vajalikud ja proportsionaalsed ([[HMS § 3 lg 2]])."
+   ]
+  }
+ ],
+ "harjutused": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mille alla kuulub slaidide ja õpiku järgi olulisuse põhimõte?",
+   "valikud": [
+    "Sotsiaalriigi alla",
+    "Demokraatia alla",
+    "Rahvusriigi alla",
+    "Inimväärikuse alla"
+   ],
+   "oige": 1,
+   "selgitus": "Slaid 11: demokraatia (legitimatsioon, olulisus, kontroll). Õpiku järgi on see tihedalt seotud õigusriigi seaduslikkuse põhimõttega."
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Milline neist EI ole slaidi 14 järgi õiguskindluse osa?",
+   "valikud": [
+    "Tagasiulatuva jõu keeld",
+    "Õiguspärane ootus",
+    "Valimiste ühetaolisus",
+    "Avaldamiskohustus"
+   ],
+   "oige": 2,
+   "selgitus": "Valimiste põhimõtted kuuluvad demokraatia alla ([[PS § 60 lg 1]])."
+  },
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Millise aluspõhimõtte alla see kuulub?",
+   "ryhmad": [
+    "Demokraatia",
+    "Õigusriik",
+    "Sotsiaalriik"
+   ],
+   "read": [
+    {
+     "tekst": "Täitmiseks kohustuslikud on ainult avaldatud seadused",
+     "oige": 1,
+     "selgitus": "Õiguskindlus: avaldamiskohustus ([[PS § 3 lg 2]])."
+    },
+    {
+     "tekst": "Riigikogu valitakse vabadel valimistel",
+     "oige": 0,
+     "selgitus": "[[PS § 60 lg 1]]."
+    },
+    {
+     "tekst": "Õigus riigi abile puuduse korral",
+     "oige": 2,
+     "selgitus": "[[PS § 28 lg 2]]."
+    },
+    {
+     "tekst": "Igaüks võib oma õiguste rikkumise korral pöörduda kohtusse",
+     "oige": 1,
+     "selgitus": "Kohtulik kontroll ([[PS § 15 lg 1]])."
+    },
+    {
+     "tekst": "Olulised küsimused otsustab Riigikogu seadusega",
+     "oige": 0,
+     "selgitus": "Olulisuse põhimõte (sisuline legitimatsioon)."
+    },
+    {
+     "tekst": "Määrus peab vastama seadusele",
+     "oige": 1,
+     "selgitus": "Seaduste hierarhia ([[PS § 87 p 6]])."
+    }
+   ]
+  },
+  {
+   "tyyp": "kaasus",
+   "kysimus": "Uus seadus avaldatakse Riigi Teatajas ja jõustub samal päeval. Seadus paneb kohustuse, mille täitmiseks on vaja mitu nädalat ettevalmistust. Millise põhimõttega võib see vastuolus olla?",
+   "vastus": [
+    "**Põhimõte:** õigusriigi alapõhimõte õiguskindlus.",
+    "**Alaosa:** *vacatio legis* – slaidi 14 järgi peab seaduse avaldamise ja jõustumise vahele jääma aeg, et sellega tutvuda ja kohaneda.",
+    "**Seos põhiseadusega:** kohustuslikud saavad olla ainult avaldatud seadused ([[PS § 3 lg 2]]); seadus kaitseb omavoli eest ([[PS § 13 lg 2]]).",
+    "**Järeldus:** kui kohanemiseks ei jää mõistlikku aega, võib seadus olla vastuolus õiguskindluse põhimõttega."
+   ]
+  }
+ ],
+ "erinevused": [],
+ "valjast": []
+}

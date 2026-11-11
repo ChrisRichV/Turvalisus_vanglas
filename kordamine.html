@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Source+Serif+4:opsz,wght@8..60,300..700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/stiil.css?v=20261110b">
+<link rel="stylesheet" href="assets/stiil.css?v=20261111d">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23f2c230'/%3E%3Ctext x='16' y='24' font-size='22' text-anchor='middle' font-family='Georgia' fill='%231c2733'%3E§%3C/text%3E%3C/svg%3E">
 </head>
 <body>
@@ -47,9 +47,9 @@
   <p>Seaduste ja lepingute tekstid: Riigi Teataja, EUR-Lex, ÜRO – muutmata kujul.</p>
 </footer>
 
-<script src="assets/seadistus.js?v=20261110b"></script>
-<script src="assets/app.js?v=20261110b"></script>
-<script src="assets/skeemid.js?v=20261110b"></script>
+<script src="assets/seadistus.js?v=20261111d"></script>
+<script src="assets/app.js?v=20261111d"></script>
+<script src="assets/skeemid.js?v=20261111d"></script>
 <script>
 (function () {
   const A = window.APP;
@@ -114,7 +114,7 @@
       t.harjutused.forEach((h) => { if (liik === "koik" || h.tyyp === liik) kogum.push({ h, t }); });
       if (liik === "koik" || liik === "tunnikys") {
         const tk = TUNNID.find((x) => x.id === t.tund);
-        (t.vastus || []).forEach((v) => kogum.push({ t, h: { tyyp: "tunnikys", nr: v.nr, kysimus: tk ? tk.kysimused[v.nr - 1] : "", punktid: v.punktid } }));
+        (t.vastus || []).forEach((v) => kogum.push({ t, h: { tyyp: "tunnikys", nr: v.nr, kysimus: A.kysTekst(tk, v.nr), punktid: v.punktid } }));
       }
     });
     sega(kogum);
@@ -152,8 +152,8 @@
     if (!t) { $("kysimused").innerHTML = ""; return; }
     const vastused = {};
     TEEMAD.filter((x) => x.tund === t.id).forEach((tm) => tm.vastus.forEach((v) => (vastused[v.nr] = { v, tm })));
-    $("kysimused").innerHTML = t.kysimused.map((k, i) => {
-      const nr = i + 1, a = vastused[nr];
+    $("kysimused").innerHTML = A.kysLoend(t).map((kk) => {
+      const nr = kk.nr, k = kk.tekst, a = vastused[nr];
       const sisu = a ? `<ul>${a.v.punktid.map((p) => `<li>${A.md(p)}</li>`).join("")}</ul>
         <p><a href="teema.html?id=${a.tm.id}">Ava teema: ${A.esc(a.tm.pealkiri)}</a></p>` : `<p class="tyhi">Vastus lisamata.</p>`;
       return `<div class="tk"><div class="tk-kys"><span class="tk-nr">${nr}.</span><span>${A.esc(k)}</span></div>

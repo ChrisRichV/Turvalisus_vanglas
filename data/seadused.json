@@ -1,5 +1,5 @@
 {
- "loodud": "2026-11-10",
+ "loodud": "2026-11-11",
  "markus": "Sätete tekstid on masinaga võetud ametlikest tekstifailidest; muudetud on ainult tühikuid ja reavahetusi.",
  "aktid": {
   "CAT": {
@@ -309,6 +309,17 @@
    "allikas": "Riigi Teataja – ametlik elektrooniline tekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
    "mitteametlik_tolge": false,
    "fail": "inimoigused_materjalid/02_Eesti_seadused/Valismaalasele_rahvusvahelise_kaitse_andmise_seadus_VRKS.txt",
+   "vorm": "§"
+  },
+  "VSE": {
+   "lyhend": "VSE",
+   "pealkiri": "Vangla sisekorraeeskiri",
+   "url": "https://www.riigiteataja.ee/akt/102102026009?leiaKehtiv",
+   "kehtivus": "",
+   "avaldamismarge": "RT I, 02.10.2026, 9",
+   "allikas": "Riigi Teataja – ametlik terviktekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": false,
+   "fail": "vangla_materjalid/02_seadused_ja_maarused/Vangla_sisekorraeeskiri.txt",
    "vorm": "§"
   },
   "VangS": {
@@ -890,6 +901,15 @@
     "(4) Dokumentidest väljavõtete või koopiate tegemine ning kulude hüvitamine toimub avaliku teabe seaduses sätestatud korras."
    ]
   },
+  "HMS § 4": {
+   "akt": "HMS",
+   "nr": "4",
+   "read": [
+    "§ 4. Kaalutlusõigus",
+    "(1) Kaalutlusõigus (diskretsioon) on haldusorganile seadusega antud volitus kaaluda otsustuse tegemist või valida erinevate otsustuste vahel.",
+    "(2) Kaalutlusõigust tuleb teostada kooskõlas volituse piiride, kaalutlusõiguse eesmärgi ning õiguse üldpõhimõtetega, arvestades olulisi asjaolusid ning kaaludes põhjendatud huve."
+   ]
+  },
   "HMS § 40": {
    "akt": "HMS",
    "nr": "40",
@@ -1198,6 +1218,45 @@
     "[RT I 2002, 61, 375 - jõust. 01.08.2002]"
    ]
   },
+  "KorS § 30": {
+   "akt": "KorS",
+   "nr": "30",
+   "read": [
+    "§ 30. Küsitlemine ja dokumentide nõudmine",
+    "(1) Politsei või seaduses sätestatud juhul muu korrakaitseorgan võib isiku peatada ja teda küsitleda, kui on alust arvata, et isikul on ohu ennetamiseks, väljaselgitamiseks või tõrjumiseks või korrarikkumise kõrvaldamiseks või kaitstava isiku või valvatava objekti ohutuse tagamiseks vajalikke andmeid, ning selle ohu ennetamine, väljaselgitamine, tõrjumine või korrarikkumise kõrvaldamine või isiku kaitsmine või objekti valvamine on küsitleva korrakaitseorgani pädevuses.",
+    "[RT I, 13.03.2014, 4 - jõust. 01.07.2014]",
+    "(2) Küsitlemine protokollitakse, kui küsitletav isik seda taotleb või kui seda peab vajalikuks korrakaitseorgan. Kui korrakaitseorgan peab seda vajalikuks, võib küsitletav isik anda seletusi kirjalikult omakäeliselt.",
+    "(3) Politsei või seaduses sätestatud juhul muu korrakaitseorgan võib nõuda isikult dokumentide esitamist, kui on alust arvata, et isikul on ohu ennetamiseks, väljaselgitamiseks või tõrjumiseks või korrarikkumise kõrvaldamiseks või kaitstava isiku või valvatava objekti ohutuse tagamiseks vajalikke andmeid, ning selle ohu ennetamine, väljaselgitamine, tõrjumine või korrarikkumise kõrvaldamine või isiku kaitsmine või objekti valvamine on dokumente nõudva korrakaitseorgani pädevuses.",
+    "[RT I, 13.03.2014, 4 - jõust. 01.07.2014]",
+    "(4) Dokumentide nõudmine ja vastuvõtmine korrakaitseorgani poolt protokollitakse või fikseeritakse korrakaitseorgani üldise asjaajamiskorra kohaselt. Kui dokumentide nõudmine ja nendega tutvumine toimub kohapeal, protokollitakse meede selle kohaldamisele allutatud isiku taotlusel.",
+    "(5) Küsitlemine ja dokumentide nõudmine ohu ennetamiseks ei ole lubatud teabe ja dokumentide korral, mida on võimalik saada seaduse alusel asutatud andmekogust, välja arvatud juhul, kui teabe saamine andmekogust ei ole korrakaitseorganist sõltumatul põhjusel võimalik. Käesolevas lõikes nimetatud piirang kehtib ka teabe kohta, mida korrakaitseorganil on võimalik saada tasuta teise Euroopa Liidu liikmesriigi asjaomasest andmekogust või tasu eest, kui isik kinnitab kirjalikku taasesitamist võimaldavas vormis, et kannab nimetatud teabe hankimise kulud.",
+    "[RT I, 13.03.2014, 4 - jõust. 01.07.2014]"
+   ]
+  },
+  "KorS § 52": {
+   "akt": "KorS",
+   "nr": "52",
+   "read": [
+    "§ 52. Vallasasja hoiulevõtmine",
+    "(1) Politseil või seaduses sätestatud juhul muul korrakaitseorganil on õigus võtta vallasasi hoiule:",
+    "1) vahetu ohu tõrjumiseks või korrarikkumise kõrvaldamiseks;",
+    "2) asja omaniku või valdaja kaitseks asja kaotamise, hävimise või olulise kahjustamise vahetu ohu eest, kui samal ajal on ohus avalik huvi;",
+    "3) kui seaduse alusel on asja valdamiseks vaja luba, mis asja valdaval isikul puudub;",
+    "[RT I, 13.03.2014, 4 - jõust. 01.07.2014]",
+    "4) kui asja valdab isik, kellelt on seaduse alusel võetud vabadus, ning on oht, et isik kasutab asja enda või teise isiku tapmiseks või vigastamiseks või võõra asja kahjustamiseks või põgenemiseks;",
+    "[RT I, 13.03.2014, 4 - jõust. 01.07.2014]",
+    "5) kui vallasasja on lubatud käesoleva seaduse § 49 alusel läbi vaadata ning hoiulevõtmine on vajalik, et võtta vallasasja kohta proovi, samuti teostada vallasasja mõõtmisi või teha ekspertiisi või",
+    "[RT I, 13.03.2014, 4 - jõust. 01.07.2014]",
+    "6) kui turvakontrolli käigus on tuvastatud ese, mis ei ole seadusega keelatud, kuid võib ohustada isikut ennast või teist isikut.",
+    "[RT I, 13.03.2014, 4 - jõust. 01.07.2014]",
+    "(2) Hoiulevõetud asja hoiab korrakaitseorgan. Kui korrakaitseorganil ei ole asja omadustest tulenevalt võimalik või otstarbekas asja hoida, võib korrakaitseorgan anda asja hoiule muule isikule, kellel on täidetud selleks vajalikud tingimused. Korrakaitseorgan või muu isik, kellele asi on hoiule antud, peab hoidma asja selle säilimist tagaval viisil.",
+    "(3) Isikule, kellelt asi hoiule võetakse, väljastab korrakaitseorgan viivitamata asja hoiulevõtmise protokolli koopia, milles märgitakse korrakaitseorgan, kes hoiulevõtmist kohaldab, hoiulevõtmise aeg ja põhjus ning hoiulevõetava asja kirjeldus. Kui isik, kellelt asi hoiule võetakse, ei ole asja omanik ega selle seaduslik valdaja või kui asja ei võetud hoiule isikult ning omanik või seaduslik valdaja on tuvastatav, teavitab korrakaitseorgan omanikku või seaduslikku esindajat asja hoiulevõtmisest viivitamata.",
+    "(4) Hoiulevõetud asja omanikule või seaduslikule valdajale luuakse viivitamata pärast hoiulevõtmise aluse äralangemist võimalus asi kätte saada.",
+    "(5) Vallasasja hoiulevõtmiseks võib kasutada vahetut sundi nii kaua, kui see on eesmärgi saavutamiseks vältimatu.",
+    "(6) Käesolevas paragrahvis sätestatud meetme protokollimine on kohustuslik, välja arvatud lõike 1 punktis 6 sätestatud juhul.",
+    "[RT I, 13.03.2014, 4 - jõust. 01.07.2014]"
+   ]
+  },
   "KorS § 7": {
    "akt": "KorS",
    "nr": "7",
@@ -1325,6 +1384,14 @@
     "Piinamise ning muu julma, ebainimliku või inimväärikust alandava kohtlemise ja karistamise ennetamiseks loob või nimetab iga osalisriik vähemalt ühe külastusi tegeva riigisisese institutsiooni (edaspidi riigi ennetusasutus) või tagab selle olemasolu."
    ]
   },
+  "PS § 1": {
+   "akt": "PS",
+   "nr": "1",
+   "read": [
+    "§ 1. Eesti on iseseisev ja sõltumatu demokraatlik vabariik, kus kõrgeima riigivõimu kandja on rahvas.",
+    "Eesti iseseisvus ja sõltumatus on aegumatu ning võõrandamatu."
+   ]
+  },
   "PS § 10": {
    "akt": "PS",
    "nr": "10",
@@ -1332,11 +1399,58 @@
     "§ 10. Käesolevas peatükis loetletud õigused, vabadused ja kohustused ei välista muid õigusi, vabadusi ega kohustusi, mis tulenevad põhiseaduse mõttest või on sellega kooskõlas ja vastavad inimväärikuse ning sotsiaalse ja demokraatliku õigusriigi põhimõtetele."
    ]
   },
+  "PS § 102": {
+   "akt": "PS",
+   "nr": "102",
+   "read": [
+    "§ 102. Seadusi võetakse vastu kooskõlas põhiseadusega."
+   ]
+  },
+  "PS § 104": {
+   "akt": "PS",
+   "nr": "104",
+   "read": [
+    "§ 104. Seaduste vastuvõtmise korra sätestab Riigikogu kodukorra seadus.",
+    "Ainult Riigikogu koosseisu häälteenamusega saab vastu võtta ja muuta järgmisi seadusi:",
+    "1) kodakondsuse seadus;",
+    "2) Riigikogu valimise seadus;",
+    "3) Vabariigi Presidendi valimise seadus;",
+    "4) kohaliku omavalitsuse valimise seadus;",
+    "5) rahvahääletuse seadus;",
+    "6) Riigikogu kodukorra seadus ja Riigikogu töökorra seadus;",
+    "7) Vabariigi Presidendi ja Riigikogu liikmete tasu seadus;",
+    "8) Vabariigi Valitsuse seadus;",
+    "9) Vabariigi Presidendi ja Vabariigi Valitsuse liikmete kohtulikule vastutusele võtmise seadus;",
+    "10) vähemusrahvuste kultuurautonoomia seadus;",
+    "11) riigieelarve seadus;",
+    "12) Eesti Panga seadus;",
+    "13) riigikontrolli seadus;",
+    "14) kohtukorralduse seadus ja kohtumenetluse seadused;",
+    "15) välis- ja siselaenudesse ning riigi varalistesse kohustustesse puutuvad seadused;",
+    "16) erakorralise seisukorra seadus;",
+    "17) rahuaja riigikaitse seadus ja sõjaaja riigikaitse seadus."
+   ]
+  },
+  "PS § 107": {
+   "akt": "PS",
+   "nr": "107",
+   "read": [
+    "§ 107. Seadused kuulutab välja Vabariigi President.",
+    "Vabariigi President võib jätta Riigikogu poolt vastuvõetud seaduse välja kuulutamata ja saata selle koos motiveeritud otsusega neljateistkümne päeva jooksul, arvates saamise päevast, Riigikogule uueks arutamiseks ja otsustamiseks. Kui Riigikogu võtab Vabariigi Presidendi poolt tagasi saadetud seaduse muutmata kujul uuesti vastu, kuulutab Vabariigi President seaduse välja või pöördub Riigikohtu poole ettepanekuga tunnistada seadus põhiseadusega vastuolus olevaks. Kui Riigikohus tunnistab seaduse põhiseadusega kooskõlas olevaks, kuulutab Vabariigi President seaduse välja."
+   ]
+  },
   "PS § 11": {
    "akt": "PS",
    "nr": "11",
    "read": [
     "§ 11. Õigusi ja vabadusi tohib piirata ainult kooskõlas põhiseadusega. Need piirangud peavad olema demokraatlikus ühiskonnas vajalikud ega tohi moonutada piiratavate õiguste ja vabaduste olemust."
+   ]
+  },
+  "PS § 111": {
+   "akt": "PS",
+   "nr": "111",
+   "read": [
+    "§ 111. Eesti raha emissiooni ainuõigus on Eesti Pangal. Eesti Pank korraldab raharinglust ja seisab hea riigi vääringu stabiilsuse eest."
    ]
   },
   "PS § 12": {
@@ -1363,11 +1477,46 @@
     "Seadus kaitseb igaühte riigivõimu omavoli eest."
    ]
   },
+  "PS § 132": {
+   "akt": "PS",
+   "nr": "132",
+   "read": [
+    "§ 132. Riigikontroll on oma tegevuses sõltumatu majanduskontrolli teostav riigiorgan."
+   ]
+  },
+  "PS § 133": {
+   "akt": "PS",
+   "nr": "133",
+   "read": [
+    "§ 133. Riigikontroll kontrollib:",
+    "1) riigiasutuste, riigiettevõtete ja muude riiklike organisatsioonide majandustegevust;",
+    "2) riigi vara kasutamist ja säilimist;",
+    "3) kohalike omavalitsuste valdusse antud riigivara kasutamist ja käsutamist;",
+    "4) nende ettevõtete majandustegevust, kus riigil on üle poole osakute või aktsiatega määratud häältest või kelle laene või lepinguliste kohustuste täitmist tagab riik."
+   ]
+  },
+  "PS § 139": {
+   "akt": "PS",
+   "nr": "139",
+   "read": [
+    "§ 139. Õiguskantsler on oma tegevuses sõltumatu ametiisik, kes teostab järelevalvet seadusandliku ja täidesaatva riigivõimu ning kohaliku omavalitsuse õigustloovate aktide põhiseadusele ja seadustele vastavuse üle.",
+    "Õiguskantsler analüüsib seaduste muutmise, uute seaduste vastuvõtmise ja riigiasutuste töö kohta talle tehtud ettepanekuid ning esitab vajaduse korral Riigikogule ettekande.",
+    "Õiguskantsler teeb Riigikogule põhiseaduse §-des 76, 85, 101, 138, 153 ettenähtud juhtudel ettepaneku Riigikogu liikme, Vabariigi Presidendi, Vabariigi Valitsuse liikme, riigikontrolöri, Riigikohtu esimehe või Riigikohtu liikme kriminaalvastutusele võtmiseks."
+   ]
+  },
   "PS § 14": {
    "akt": "PS",
    "nr": "14",
    "read": [
     "§ 14. Õiguste ja vabaduste tagamine on seadusandliku, täidesaatva ja kohtuvõimu ning kohalike omavalitsuste kohustus."
+   ]
+  },
+  "PS § 142": {
+   "akt": "PS",
+   "nr": "142",
+   "read": [
+    "§ 142. Kui õiguskantsler leiab, et seadusandliku või täidesaatva riigivõimu või kohaliku omavalitsuse õigustloov akt on põhiseaduse või seadusega vastuolus, teeb ta akti vastuvõtnud organile ettepaneku viia see kahekümne päeva jooksul põhiseaduse või seadusega kooskõlla.",
+    "Kui akt ei ole kahekümne päeva jooksul põhiseaduse või seadusega kooskõlla viidud, teeb õiguskantsler Riigikohtule ettepaneku tunnistada see akt kehtetuks."
    ]
   },
   "PS § 146": {
@@ -1403,11 +1552,67 @@
     "Riigikohus tunnistab kehtetuks mis tahes seaduse või muu õigusakti, kui see on vastuolus põhiseaduse sätte ja mõttega."
    ]
   },
+  "PS § 154": {
+   "akt": "PS",
+   "nr": "154",
+   "read": [
+    "§ 154. Kõiki kohaliku elu küsimusi otsustavad ja korraldavad kohalikud omavalitsused, kes tegutsevad seaduste alusel iseseisvalt.",
+    "Kohalikule omavalitsusele võib panna kohustusi ainult seaduse alusel või kokkuleppel kohaliku omavalitsusega. Seadusega kohalikule omavalitsusele pandud riiklike kohustustega seotud kulud kaetakse riigieelarvest."
+   ]
+  },
   "PS § 16": {
    "akt": "PS",
    "nr": "16",
    "read": [
     "§ 16. Igaühel on õigus elule. Seda õigust kaitseb seadus. Meelevaldselt ei tohi kelleltki elu võtta."
+   ]
+  },
+  "PS § 161": {
+   "akt": "PS",
+   "nr": "161",
+   "read": [
+    "§ 161. Õigus algatada põhiseaduse muutmist on vähemalt viiendikul Riigikogu koosseisust ja Vabariigi Presidendil.",
+    "Põhiseaduse muutmist ei saa algatada ega põhiseadust muuta erakorralise seisukorra ega sõjaseisukorra ajal."
+   ]
+  },
+  "PS § 162": {
+   "akt": "PS",
+   "nr": "162",
+   "read": [
+    "§ 162. Põhiseaduse I peatükki \"Üldsätted\" ja XV peatükki \"Põhiseaduse muutmine\" saab muuta ainult rahvahääletusega."
+   ]
+  },
+  "PS § 163": {
+   "akt": "PS",
+   "nr": "163",
+   "read": [
+    "§ 163. Põhiseadust saab muuta seadusega, mis on vastu võetud:",
+    "1) rahvahääletusel;",
+    "2) Riigikogu kahe järjestikuse koosseisu poolt;",
+    "3) Riigikogu poolt kiireloomulisena.",
+    "Põhiseaduse muutmise seaduse eelnõu arutatakse Riigikogus kolmel lugemisel, kusjuures esimese ja teise lugemise vahet on vähemalt kolm kuud ning teise ja kolmanda lugemise vahet vähemalt üks kuu. Põhiseaduse muutmise viis otsustatakse kolmandal lugemisel."
+   ]
+  },
+  "PS § 164": {
+   "akt": "PS",
+   "nr": "164",
+   "read": [
+    "§ 164. Põhiseaduse muutmise seaduse eelnõu rahvahääletusele panekuks on nõutav Riigikogu koosseisu kolmeviiendikuline häälteenamus. Rahvahääletus toimub kõige varem kolme kuu pärast, arvates sellekohase otsuse vastuvõtmisest Riigikogus."
+   ]
+  },
+  "PS § 165": {
+   "akt": "PS",
+   "nr": "165",
+   "read": [
+    "§ 165. Põhiseaduse muutmiseks Riigikogu kahe järjestikuse koosseisu poolt peab põhiseaduse muutmise seaduse eelnõu saama Riigikogu koosseisu enamuse toetuse.",
+    "Kui Riigikogu järgmine koosseis võtab esimesel lugemisel oma koosseisu kolmeviiendikulise häälteenamusega muutmatult vastu põhiseaduse muutmise seaduse eelnõu, mis sai eelmise koosseisu enamuse toetuse, siis on põhiseaduse muutmise seadus vastu võetud."
+   ]
+  },
+  "PS § 166": {
+   "akt": "PS",
+   "nr": "166",
+   "read": [
+    "§ 166. Otsus põhiseaduse muutmise seaduse eelnõu käsitlemiseks kiireloomulisena võetakse vastu Riigikogu neljaviiendikulise häälteenamusega. Põhiseaduse muutmise seadus võetakse sel juhul vastu Riigikogu koosseisu kahekolmandikulise häälteenamusega."
    ]
   },
   "PS § 18": {
@@ -1424,6 +1629,14 @@
    "read": [
     "§ 19. Igaühel on õigus vabale eneseteostusele.",
     "Igaüks peab oma õiguste ja vabaduste kasutamisel ning kohustuste täitmisel austama ja arvestama teiste inimeste õigusi ja vabadusi ning järgima seadust."
+   ]
+  },
+  "PS § 2": {
+   "akt": "PS",
+   "nr": "2",
+   "read": [
+    "§ 2. Eesti riigi maa-ala, territoriaalveed ja õhuruum on lahutamatu ja jagamatu tervik.",
+    "Eesti on riiklikult korralduselt ühtne riik, mille territooriumi haldusjaotuse sätestab seadus."
    ]
   },
   "PS § 20": {
@@ -1498,11 +1711,37 @@
     "Seadused avaldatakse ettenähtud korras. Täitmiseks kohustuslikud saavad olla üksnes avaldatud seadused."
    ]
   },
+  "PS § 32": {
+   "akt": "PS",
+   "nr": "32",
+   "read": [
+    "§ 32. Igaühe omand on puutumatu ja võrdselt kaitstud. Omandit võib omaniku nõusolekuta võõrandada ainult seaduses sätestatud juhtudel ja korras üldistes huvides õiglase ja kohese hüvituse eest. Igaühel, kelle vara on tema nõusolekuta võõrandatud, on õigus pöörduda kohtusse ning vaidlustada vara võõrandamine, hüvitus või selle suurus.",
+    "Igaühel on õigus enda omandit vabalt vallata, kasutada ja käsutada. Kitsendused sätestab seadus. Omandit ei tohi kasutada üldiste huvide vastaselt.",
+    "Seadus võib üldistes huvides sätestada vara liigid, mida tohivad Eestis omandada ainult Eesti kodanikud, mõnda liiki juriidilised isikud, kohalikud omavalitsused või Eesti riik.",
+    "Pärimisõigus on tagatud."
+   ]
+  },
   "PS § 33": {
    "akt": "PS",
    "nr": "33",
    "read": [
     "§ 33. Kodu on puutumatu. Ei tohi tungida kellegi eluruumi, valdusse ega töökohta ega neid ka läbi otsida, välja arvatud seadusega sätestatud juhtudel ja korras avaliku korra, tervise või teiste inimeste õiguste ja vabaduste kaitseks, kuriteo tõkestamiseks, kurjategija tabamiseks või tõe väljaselgitamiseks kriminaalmenetluses."
+   ]
+  },
+  "PS § 34": {
+   "akt": "PS",
+   "nr": "34",
+   "read": [
+    "§ 34. Igaühel, kes viibib seaduslikult Eestis, on õigus vabalt liikuda ja elukohta valida. Õigust vabalt liikuda võib seaduses sätestatud juhtudel ja korras piirata teiste inimeste õiguste ja vabaduste kaitseks, riigikaitse huvides, loodusõnnetuse ja katastroofi korral, nakkushaiguse leviku tõkestamiseks, looduskeskkonna kaitseks, alaealise või vaimuhaige järelevalvetuse ärahoidmiseks ja kriminaalasja menetluse tagamiseks."
+   ]
+  },
+  "PS § 36": {
+   "akt": "PS",
+   "nr": "36",
+   "read": [
+    "§ 36. Ühtki Eesti kodanikku ei tohi Eestist välja saata ega takistada Eestisse asumast.",
+    "Ühtki Eesti kodanikku ei tohi välisriigile välja anda muidu, kui välislepingus ettenähtud juhtudel ning vastavas lepingus ja seaduses sätestatud korras. Väljaandmise otsustab Vabariigi Valitsus. Igal väljaantaval on õigus vaidlustada väljaandmine Eesti kohtus.",
+    "Igal eestlasel on õigus asuda Eestisse."
    ]
   },
   "PS § 37": {
@@ -1514,6 +1753,13 @@
     "Laste hariduse valikul on otsustav sõna vanematel.",
     "Igaühel on õigus saada eestikeelset õpetust. Õppekeele vähemusrahvuse õppeasutuses valib õppeasutus.",
     "Hariduse andmine on riigi järelevalve all."
+   ]
+  },
+  "PS § 4": {
+   "akt": "PS",
+   "nr": "4",
+   "read": [
+    "§ 4. Riigikogu, Vabariigi Presidendi, Vabariigi Valitsuse ja kohtute tegevus on korraldatud võimude lahususe ja tasakaalustatuse põhimõttel."
    ]
   },
   "PS § 40": {
@@ -1551,6 +1797,161 @@
     "Kui seadus ei sätesta teisiti, siis on käesoleva paragrahvi lõigetes kaks ja kolm nimetatud õigused võrdselt Eesti kodanikuga ka Eestis viibival välisriigi kodanikul ja kodakondsuseta isikul."
    ]
   },
+  "PS § 56": {
+   "akt": "PS",
+   "nr": "56",
+   "read": [
+    "§ 56. Kõrgeimat riigivõimu teostab rahvas hääleõiguslike kodanike kaudu:",
+    "1) Riigikogu valimisega;",
+    "2) rahvahääletusega."
+   ]
+  },
+  "PS § 58": {
+   "akt": "PS",
+   "nr": "58",
+   "read": [
+    "§ 58. Seadusega võib piirata nende Eesti kodanike osavõttu hääletamisest, kes on kohtu poolt süüdi mõistetud ja kannavad karistust kinnipidamiskohtades."
+   ]
+  },
+  "PS § 59": {
+   "akt": "PS",
+   "nr": "59",
+   "read": [
+    "§ 59. Seadusandlik võim kuulub Riigikogule."
+   ]
+  },
+  "PS § 60": {
+   "akt": "PS",
+   "nr": "60",
+   "read": [
+    "§ 60. Riigikogul on sada üks liiget. Riigikogu liikmed valitakse vabadel valimistel proportsionaalsuse põhimõtte alusel. Valimised on üldised, ühetaolised ja otsesed. Hääletamine on salajane.",
+    "Riigikogusse võib kandideerida iga vähemalt kahekümne ühe aastane hääleõiguslik Eesti kodanik.",
+    "Riigikogu korralised valimised toimuvad märtsikuu esimesel pühapäeval neljandal aastal, mis järgneb Riigikogu eelmiste valimiste aastale.",
+    "Riigikogu erakorralised valimised toimuvad põhiseaduse §-des 89, 97, 105 ja 119 ettenähtud juhtudel varemalt kakskümmend ja hiljemalt nelikümmend päeva pärast valimiste väljakuulutamist.",
+    "Riigikogu valimise korra sätestab Riigikogu valimise seadus."
+   ]
+  },
+  "PS § 65": {
+   "akt": "PS",
+   "nr": "65",
+   "read": [
+    "§ 65. Riigikogu:",
+    "1) võtab vastu seadusi ja otsuseid;",
+    "2) otsustab rahvahääletuse korraldamise;",
+    "3) valib Vabariigi Presidendi vastavalt põhiseaduse §-le 79;",
+    "4) ratifitseerib ja denonsseerib välislepinguid vastavalt põhiseaduse §-le 121;",
+    "5) annab peaministrikandidaadile volitused Vabariigi Valitsuse moodustamiseks;",
+    "6) võtab vastu riigieelarve ja kinnitab selle täitmise aruande;",
+    "7) nimetab Vabariigi Presidendi ettepanekul ametisse Riigikohtu esimehe, Eesti Panga nõukogu esimehe, riigikontrolöri ja õiguskantsleri;",
+    "[RT I, 27.04.2011, 1 - jõust. 22.07.2011]",
+    "8) nimetab Riigikohtu esimehe ettepanekul ametisse Riigikohtu liikmed;",
+    "9) nimetab Eesti Panga nõukogu liikmed;",
+    "10) otsustab Vabariigi Valitsuse ettepanekul riigilaenude tegemise ja riigile muude varaliste kohustuste võtmise;",
+    "11) esineb avalduste ja deklaratsioonidega ning pöördumistega Eesti rahva, teiste riikide ning rahvusvaheliste organisatsioonide poole;",
+    "12) kehtestab riiklikud autasud, sõjaväelised ja diplomaatilised auastmed;",
+    "13) otsustab umbusalduse avaldamise Vabariigi Valitsusele, peaministrile või ministrile;",
+    "14) kuulutab riigis välja erakorralise seisukorra vastavalt põhiseaduse §-le 129;",
+    "15) kuulutab Vabariigi Presidendi ettepanekul välja sõjaseisukorra, mobilisatsiooni ja demobilisatsiooni;",
+    "16) lahendab muid riigielu küsimusi, mis ei ole põhiseadusega antud Vabariigi Presidendi, Vabariigi Valitsuse, teiste riigiorganite või kohalike omavalitsuste otsustada."
+   ]
+  },
+  "PS § 77": {
+   "akt": "PS",
+   "nr": "77",
+   "read": [
+    "§ 77. Vabariigi President on Eesti riigipea."
+   ]
+  },
+  "PS § 78": {
+   "akt": "PS",
+   "nr": "78",
+   "read": [
+    "§ 78. Vabariigi President:",
+    "1) esindab Eesti Vabariiki rahvusvahelises suhtlemises;",
+    "2) nimetab ja kutsub tagasi Vabariigi Valitsuse ettepanekul Eesti Vabariigi diplomaatilised esindajad ning võtab vastu Eestisse akrediteeritud diplomaatiliste esindajate volikirjad;",
+    "3) kuulutab välja Riigikogu korralised valimised ja vastavalt põhiseaduse §-dele 89, 97, 105 ja 119 Riigikogu erakorralised valimised;",
+    "4) kutsub kokku Riigikogu uue koosseisu vastavalt põhiseaduse §-le 66 ja avab selle esimese istungi;",
+    "5) teeb Riigikogu esimehele ettepaneku Riigikogu erakorralise istungjärgu kokkukutsumiseks vastavalt põhiseaduse §-le 68;",
+    "6) kuulutab välja seadused vastavalt põhiseaduse §-dele 105 ja 107 ning kirjutab alla ratifitseerimiskirjadele;",
+    "7) annab seadlusi vastavalt põhiseaduse §-dele 109 ja 110;",
+    "8) algatab põhiseaduse muutmist;",
+    "9) määrab peaministrikandidaadi vastavalt põhiseaduse §-le 89;",
+    "10) nimetab ametisse ja vabastab ametist valitsuse liikmed vastavalt põhiseaduse §-dele 89, 90 ja 92;",
+    "11) teeb Riigikogule ettepaneku Riigikohtu esimehe, Eesti Panga nõukogu esimehe, riigikontrolöri ja õiguskantsleri ametissenimetamiseks;",
+    "[RT I, 27.04.2011, 1 - jõust. 22.07.2011]",
+    "12) nimetab Eesti Panga nõukogu ettepanekul ametisse Eesti Panga presidendi;",
+    "13) nimetab Riigikohtu ettepanekul kohtunikud;",
+    "14) [Kehtetu - RT I, 27.04.2011, 1 - jõust. 22.07.2011]",
+    "15) annab riiklikke autasusid, sõjaväelisi ja diplomaatilisi auastmeid;",
+    "16) on Eesti riigikaitse kõrgeim juht;",
+    "17) teeb Riigikogule ettepanekud sõjaseisukorra, mobilisatsiooni ja demobilisatsiooni ning vastavalt põhiseaduse §-le 129 erakorralise seisukorra väljakuulutamiseks;",
+    "18) kuulutab Eesti vastu suunatud agressiooni korral välja sõjaseisukorra ja mobilisatsiooni vastavalt põhiseaduse §-le 128;",
+    "[RT I, 27.04.2011, 1 - jõust. 22.07.2011]",
+    "19) vabastab süüdimõistetuid nende palvel armuandmise korras karistuse kandmisest või kergendab karistust;",
+    "20) algatab õiguskantsleri kriminaalvastutusele võtmise vastavalt põhiseaduse §-le 145."
+   ]
+  },
+  "PS § 86": {
+   "akt": "PS",
+   "nr": "86",
+   "read": [
+    "§ 86. Täidesaatev riigivõim kuulub Vabariigi Valitsusele."
+   ]
+  },
+  "PS § 87": {
+   "akt": "PS",
+   "nr": "87",
+   "read": [
+    "§ 87. Vabariigi Valitsus:",
+    "1) viib ellu riigi sise- ja välispoliitikat;",
+    "2) suunab ja koordineerib valitsusasutuste tegevust;",
+    "3) korraldab seaduste, Riigikogu otsuste ja Vabariigi Presidendi aktide täitmist;",
+    "4) esitab Riigikogule seaduseelnõusid ning ratifitseerimiseks ja denonsseerimiseks välislepinguid;",
+    "5) koostab riigieelarve eelnõu ja esitab selle Riigikogule, korraldab riigieelarve täitmist ning esitab Riigikogule riigieelarve täitmise aruande;",
+    "6) annab seaduse alusel ja täitmiseks määrusi ja korraldusi;",
+    "7) korraldab suhtlemist teiste riikidega;",
+    "8) kuulutab loodusõnnetuse ja katastroofi korral või nakkushaiguse leviku tõkestamiseks välja eriolukorra riigis või selle osas;",
+    "9) täidab muid ülesandeid, mis põhiseaduse ja seadustega on antud Vabariigi Valitsuse otsustada."
+   ]
+  },
+  "PS § 9": {
+   "akt": "PS",
+   "nr": "9",
+   "read": [
+    "§ 9. Põhiseaduses loetletud kõigi ja igaühe õigused, vabadused ja kohustused on võrdselt nii Eesti kodanikel kui ka Eestis viibivatel välisriikide kodanikel ja kodakondsuseta isikutel.",
+    "Põhiseaduses loetletud õigused, vabadused ja kohustused laienevad juriidilistele isikutele niivõrd, kui see on kooskõlas juriidiliste isikute üldiste eesmärkide ja selliste õiguste, vabaduste ja kohustuste olemusega."
+   ]
+  },
+  "PS § 94": {
+   "akt": "PS",
+   "nr": "94",
+   "read": [
+    "§ 94. Valitsemisalade korraldamiseks moodustatakse seaduse alusel vastavad ministeeriumid.",
+    "Minister juhib ministeeriumi, korraldab ministeeriumi valitsemisalasse kuuluvaid küsimusi, annab seaduse alusel ja täitmiseks määrusi ja käskkirju ning täidab muid ülesandeid, mis talle on pandud seadusega sätestatud alustel ja korras.",
+    "Kui minister ei saa haiguse või muude takistuste tõttu ajutiselt oma ülesandeid täita, paneb peaminister tema ülesanded selleks ajaks mõnele teisele ministrile.",
+    "Vabariigi President võib peaministri ettepanekul nimetada ametisse ministreid, kes ei juhi ministeeriumi."
+   ]
+  },
+  "PSJKS § 15": {
+   "akt": "PSJKS",
+   "nr": "15",
+   "read": [
+    "§ 15. Riigikohtu volitused",
+    "(1) Asja lahendamisel võib Riigikohus:",
+    "1) tunnistada jõustumata õigustloova akti põhiseadusega vastuolus olevaks;",
+    "2) tunnistada jõustunud õigustloova akti või selle sätte põhiseadusega vastuolus olevaks ja kehtetuks;",
+    "2^1) tunnistada õigustloova akti andmata jätmise põhiseadusega vastuolus olevaks;",
+    "3) tunnistada jõustunud või jõustumata välislepingu või selle sätte põhiseadusega vastuolus olevaks;",
+    "4) tühistada Riigikogu otsuse seaduseelnõu või muu riigielu küsimuse rahvahääletusele panemise kohta;",
+    "5) tunnistada, et vaidlustatud õigustloov akt, õigustloova akti andmata jätmine või välisleping oli taotluse esitamise ajal vastuolus põhiseadusega;",
+    "5^1) anda seisukoha, kuidas tõlgendada põhiseadust koostoimes Euroopa Liidu õigusega;",
+    "6) jätta taotluse rahuldamata.",
+    "(2) Jõustumata õigustloova akti põhiseadusega vastuolus olevaks tunnistamise korral akt ei jõustu.",
+    "(3) Välislepingu või selle sätte põhiseadusega vastuolus olevaks tunnistamise korral on välislepingu sõlminud organ kohustatud sellest võimaluse korral väljuma või algatama välislepingu denonsseerimise või selle muutmise viisil, mis tagaks selle kooskõla põhiseadusega. Põhiseadusega vastuolus olevat välislepingut siseriiklikult ei kohaldata.",
+    "[RT I 2005, 68, 524 - jõust. 23.12.2005]",
+    "[RT I, 30.06.2026, 1 - jõust. 01.10.2026]"
+   ]
+  },
   "PSJKS § 2": {
    "akt": "PSJKS",
    "nr": "2",
@@ -1573,6 +1974,50 @@
     "[RT I, 06.05.2016, 1 - jõust. 01.01.2017]",
     "11) lahendab taotlusi kontrollida erakorralise või sõjaseisukorra, mobilisatsiooni ja demobilisatsiooni väljakuulutamise ja lõpetamise otsuse, riigikaitselise kriisiolukorra kehtestamise heakskiitmise ja heakskiitmise lõpetamise otsuse ning Eesti Vabariigi territooriumil korraldataval rahvusvahelisel sõjalisel operatsioonil osalemiseks välisriigi relvajõududele riigis viibimise loa andmise otsuse vastavust põhiseadusele, seadusele ja välislepingule või tunnistab need otsused kehtetuks.",
     "[RT I, 30.06.2026, 1 - jõust. 01.10.2026]"
+   ]
+  },
+  "PSJKS § 4": {
+   "akt": "PSJKS",
+   "nr": "4",
+   "read": [
+    "§ 4. Menetluse algatamine",
+    "(1) Riigikohus kontrollib õigustloova akti, selle andmata jätmise või välislepingu põhiseadusele vastavust põhistatud taotluse, kohtuotsuse või -määruse alusel.",
+    "(2) Taotluse võivad Riigikohtule esitada Vabariigi President, õiguskantsler, kohaliku omavalitsuse volikogu ja Riigikogu.",
+    "(3) Kohus algatab menetluse kohtuotsuse või -määruse edastamisega Riigikohtule.",
+    "[RT I 2005, 68, 524 - jõust. 23.12.2005]"
+   ]
+  },
+  "PSJKS § 5": {
+   "akt": "PSJKS",
+   "nr": "5",
+   "read": [
+    "§ 5. Vabariigi Presidendi taotlus",
+    "Vabariigi President võib esitada Riigikohtule taotluse tunnistada Riigikogus vastuvõetud, kuid tema poolt väljakuulutamata seadus põhiseadusega vastuolus olevaks, kui Riigikogu on selle pärast uueks arutamiseks ja otsustamiseks saatmist muutmata kujul uuesti vastu võtnud."
+   ]
+  },
+  "PSJKS § 6": {
+   "akt": "PSJKS",
+   "nr": "6",
+   "read": [
+    "§ 6. Õiguskantsleri taotlus",
+    "(1) Õiguskantsler võib esitada Riigikohtule taotluse:",
+    "1) tunnistada jõustunud seadusandliku või täidesaatva riigivõimu või kohaliku omavalitsuse organi õigustloov akt või selle säte kehtetuks;",
+    "2) tunnistada väljakuulutatud, kuid jõustumata seadus põhiseadusega vastuolus olevaks;",
+    "3) tunnistada jõustumata täidesaatva riigivõimu või kohaliku omavalitsuse organi õigustloov akt põhiseadusega vastuolus olevaks;",
+    "4) tunnistada alla kirjutatud välisleping või selle säte põhiseadusega vastuolus olevaks;",
+    "5) tühistada Riigikogu otsus seaduseelnõu või muu riigielu küsimuse rahvahääletusele panemise kohta, kui rahvahääletusele pandav seaduseelnõu, välja arvatud põhiseaduse muutmise seaduse eelnõu, või muu riigielu küsimus on vastuolus põhiseadusega või Riigikogu on rahvahääletuse korraldamise otsuse vastuvõtmisel oluliselt rikkunud kehtestatud menetluskorda.",
+    "(2) Lõike 1 punktis 5 nimetatud taotluse esitab õiguskantsler 14 päeva jooksul vastava Riigikogu otsuse saamisest arvates.",
+    "[RT I 2005, 68, 524 - jõust. 23.12.2005]"
+   ]
+  },
+  "PSJKS § 9": {
+   "akt": "PSJKS",
+   "nr": "9",
+   "read": [
+    "§ 9. Põhiseaduslikkuse järelevalve kohtuotsuse või -määruse alusel",
+    "(1) Kui esimese või teise astme kohus on kohtuasja lahendamisel jätnud kohaldamata mis tahes asjassepuutuva õigustloova akti või välislepingu, tunnistades selle põhiseadusega vastuolus olevaks, või kui esimese või teise astme kohus on kohtuasja lahendamisel tunnistanud õigustloova akti andmata jätmise põhiseadusega vastuolus olevaks, edastab ta vastava otsuse või määruse Riigikohtule.",
+    "(2) Kohus lisab Riigikohtule edastatavale otsusele või määrusele selle resolutsioonis põhiseadusega vastuolus olevaks tunnistatud õigustloova akti või välislepingu teksti või selle asjakohased väljavõtted.",
+    "[RT I 2004, 56, 405 - jõust. 25.07.2004]"
    ]
   },
   "PagK art 1": {
@@ -1782,6 +2227,93 @@
     "Politsei- ja Piirivalveamet järgib välja- ja tagasisaatmise lubamatuse põhimõtet kooskõlas Euroopa Liidu ja rahvusvahelise õigusega."
    ]
   },
+  "VSE § 64^1": {
+   "akt": "VSE",
+   "nr": "64^1",
+   "read": [
+    "§ 64^1. Keelatud esemete ja ainete loetelu",
+    "Kinnipeetavale on vanglas keelatud:",
+    "1) esemed, millega saab tekitada või on võimalik tekitada vigastusi, nagu relvad ja laskemoon, erivahendid, sõjariistad, torke- lõike- ja raierelvad, nõelad, vardad, nöörid, niidid, võtmed, köied ja traadid;",
+    "2) lõhkeained, sealhulgas ained, mille kokku segamise tulemusena saadakse lõhkeaineid, radioaktiivsed, oksüdeerivad, söövitavad, kergelt süttivad või muud mürgised ained või gaasid;",
+    "3) süütamisvahendid;",
+    "[RT I, 11.10.2016, 5 - jõust. 01.10.2017]",
+    "3^1) suitsetatavad tubakatooted ja esemed, millest ja mille abil on võimalik suitsetatavaid tubakatooteid kokku panna või neid suitsetada;",
+    "[RT I, 11.10.2016, 5 - jõust. 01.10.2017]",
+    "4) narkootilised, psühhotroopsed ja muud uimastava või tugeva toimega ained;",
+    "5) retseptiravimid, välja arvatud tervishoiutöötaja ettekirjutusel;",
+    "[RT I, 28.03.2024, 1 - jõust. 31.03.2024]",
+    "6) optilised riistad, välja arvatud prillid tervishoiutöötaja loal;",
+    "[RT I, 28.03.2024, 1 - jõust. 31.03.2024]",
+    "7) alkohol ja alkoholi sisaldavad ained;",
+    "8) tööriistad ja ehitusmaterjalid;",
+    "9) spordivahendid, välja arvatud avavangla kinnipeetaval;",
+    "10) mobiiltelefonid ja muud elektroonilised või tehnilised sidepidamisvahendid, sealhulgas raadiosaatjad, pihu- ja personaalarvutid, mille kaudu on võimalik infot edastada ja vastu võtta;",
+    "11) fotoaparaadid, videokaamerad;",
+    "12) küünlad;",
+    "13) kalad, loomad ja linnud;",
+    "14) taimed;",
+    "15) vägivalda, vihkamist, rassismi jne propageerivad trükised ning pornograafilised teosed;",
+    "16) sularaha, väärtpaberid, pangakaardid, välja arvatud avavanglas või kinnise vangla avavangla osakonnas;",
+    "17) hasartmänguvahendid;",
+    "18) väärisesemed, välja arvatud abielusõrmus või religioosne sümboolika;",
+    "19) suhkur, pärm, karamellikompvekid, kartulid ja toorained, millest on võimalik lõpp-produktina saada alkoholi sisaldavat vedelikku, välja arvatud avavanglas või kinnise vangla avavangla osakonnas;",
+    "[RT I, 15.03.2013, 23 - jõust. 18.03.2013]",
+    "20) tekstiiltooted ruumi sisustamiseks, sealhulgas vaibad, kardinad.",
+    "[RTL 2007, 13, 192 - jõust. 11.02.2007, rakendatakse alates 01.02.2007]"
+   ]
+  },
+  "VangS § 105": {
+   "akt": "VangS",
+   "nr": "105",
+   "read": [
+    "§ 105. Vangla",
+    "(1) Vangla on Justiits- ja Digiministeeriumi valitsemisalas olev valitsusasutus, mille ülesandeks on vangistuse, aresti ja eelvangistuse täideviimine käesolevas seaduses sätestatud korras.",
+    "[RT I, 03.03.2021, 1 - jõust. 04.03.2021]",
+    "(1^1) Justiits- ja Digiministeeriumi ja vanglate ülesannete jaotuse, ülesannete ülemineku korra ja vastutuse ulatuse kehtestab valdkonna eest vastutav minister määrusega.",
+    "[RT I, 06.08.2022, 5 - jõust. 16.08.2022]",
+    "(1^2) Vangla teenistuskoha või struktuuriüksuse võib allutada Justiits- ja Digiministeeriumi juhtimisele. Kui vangla ameti- või töökoht või struktuuriüksus on allutatud Justiits- ja Digiministeeriumi juhtimisele, siis Justiits- ja Digiministeerium või tema volitatud isik nimetab ametniku ametikohale ja vabastab ta ametikohalt või sõlmib töötajaga töölepingu ja lõpetab selle.",
+    "[RT I, 06.08.2022, 5 - jõust. 16.08.2022]",
+    "(1^3) Justiits- ja Digiministeeriumi juhtimisele allutatud ameti- või töökoha ülesannete täitmiseks ettenähtud riigieelarve vahendeid ja vangla riigivara valitseb Justiits- ja Digiministeerium.",
+    "[RT I, 06.08.2022, 5 - jõust. 16.08.2022]",
+    "(1^4) Käesoleva paragrahvi lõikes 1^2 nimetatud juhul on Justiits- ja Digiministeeriumi ametnikul õigus anda vanglateenistuse töö korraldamiseks avaliku teenistuse seaduse §-s 67 nimetatud teenistusalaseid akte.",
+    "[RT I, 06.08.2022, 5 - jõust. 16.08.2022]",
+    "(1^5) Teenistusalaste aktide andmise alused ja korra kehtestab valdkonna eest vastutav minister määrusega.",
+    "[RT I, 06.08.2022, 5 - jõust. 16.08.2022]",
+    "(1^6) Käesoleva paragrahvi lõikes 1^2 nimetatud juhul nimetab vanglat teenistuskoha järgi esindavad isikud ja kehtestab vangla esindamise korra valdkonna eest vastutav minister määrusega.",
+    "[RT I, 06.08.2022, 5 - jõust. 16.08.2022]",
+    "(1^7) Halduskohtumenetluses esindab vanglat vangla direktor või Justiits- ja Digiministeerium. Vangla direktoril ja Justiits- ja Digiministeeriumil on õigus anda halduskohtumenetluses vangla esindamiseks üld- ja erivolitusi. Üld- või erivolituse alusel esindajale kohaldatakse halduskohtumenetluse seadustiku § 32 lõike 1 punktis 5 sätestatut.",
+    "[RT I, 06.08.2022, 5 - jõust. 16.08.2022]",
+    "(2) Vangla moodustab ning vangla põhimääruse, koosseisud ja vangla sisekorraeeskirjad kehtestab valdkonna eest vastutav minister määrusega.",
+    "[RT I 2006, 63, 466 - jõust. 01.02.2007]",
+    "(2^1) Vangla kodukorras sätestatakse kinnipeetava, arestialuse või vahistatu:",
+    "[RT I, 03.03.2021, 1 - jõust. 04.03.2021]",
+    "1) vastuvõtt ja vanglasisene paigutus;",
+    "2) päevakava;",
+    "3) töötamise ja õppimise korraldus;",
+    "4) vaba aja veetmise võimalused;",
+    "5) sisseostude tegemine;",
+    "6) kokkusaamised ja telefoni kasutamine;",
+    "7) lühiajaline väljasõit ja väljaviimine;",
+    "8) usuliste vajaduste rahuldamine;",
+    "9) meditsiiniline teenindamine;",
+    "10) ametnike vastuvõtt;",
+    "11) kirjavahetuse korraldus;",
+    "12) distsiplinaarmenetluse läbiviimine ja distsiplinaarkaristuse täideviimine;",
+    "13) ümberpaigutamine ja vanglast vabastamine;",
+    "14) muud reguleerimist vajavad asjaolud.",
+    "[RT I 2006, 63, 466 - jõust. 01.02.2007]",
+    "(2^2) Vangla kodukord avaldatakse vangla veebilehel ning tehakse allkirja vastu teatavaks vanglasse saabuvale kinnipeetavale, arestialusele või vahistatule.",
+    "[RT I, 03.03.2021, 1 - jõust. 04.03.2021]",
+    "(3) Vangla kodukorra kinnitab vangla direktor.",
+    "[RT I, 20.12.2012, 3 - jõust. 01.01.2013]",
+    "(4) Teenistuslikku järelevalvet vangla üle teostab Justiits- ja Digiministeerium.",
+    "[RT I, 16.04.2014, 1 - jõust. 26.04.2014]",
+    "(5) Teenistusliku järelevalve läbiviimiseks võib muu hulgas korraldada teenistusvalve, mis on vangla kontrollimine eesmärgiga avastada ja parandada ning edaspidi vältida vigu vangla tegevuses ja töökorralduses. Teenistusvalve teostamisse võib kaasata ametnikke ja töötajaid, kes kuuluvad vanglateenistusse, ning teisi asjatundjaid.",
+    "[RT I, 16.04.2014, 1 - jõust. 26.04.2014]",
+    "(6) Vangla teenistusvalve korra kehtestab valdkonna eest vastutav minister määrusega.",
+    "[RT I, 16.04.2014, 1 - jõust. 26.04.2014]"
+   ]
+  },
   "VangS § 12": {
    "akt": "VangS",
    "nr": "12",
@@ -1803,6 +2335,32 @@
     "(4) Avavanglas arvestatakse käesoleva paragrahvi lõikes 1 sätestatut kinnipeetavate jaotamisel kohtlemisgruppidesse.",
     "(5) Käesoleva paragrahvi lõikes 1 nimetatud eraldihoidmise printsiipidest võib teha erandeid, kui see on vajalik seoses õppimise, töötamise või muu tegevusega või kui alaealise eraldamine täiskasvanutest on vastuolus alaealise huvidega.",
     "[RT I, 20.12.2019, 1 - jõust. 30.12.2019]"
+   ]
+  },
+  "VangS § 15": {
+   "akt": "VangS",
+   "nr": "15",
+   "read": [
+    "§ 15. Kinnipeetava isiklikud ja temale keelatud asjad",
+    "[RT I, 20.12.2012, 3 - jõust. 01.01.2013]",
+    "(1) Vanglasse vastuvõtmisel võtab vanglateenistus kinnipeetavaga kaasas olevad isiklikud asjad ja tema isikut tõendavad dokumendid hoiule. Kinnipeetava isikutunnistuse või elamisloakaardi digitaalset kasutamist võimaldavad koodid võetakse hoiule kinnipeetava soovil.",
+    "[RT I, 09.12.2010, 1 - jõust. 01.01.2011]",
+    "(2) Kinnipeetavale on keelatud ained ja esemed, mis:",
+    "1) ohustavad inimese julgeolekut;",
+    "2) sobivad eriti vara kahjustamiseks;",
+    "[RT I, 20.12.2012, 3 - jõust. 01.01.2013]",
+    "3) võivad ohustada vangla julgeolekut või korda;",
+    "[RT I, 20.12.2012, 3 - jõust. 01.01.2013]",
+    "4) ei ole kooskõlas karistusena mõistetud vangistuse täideviimise eesmärkidega;",
+    "[RT I, 20.12.2012, 3 - jõust. 01.01.2013]",
+    "5) raskendavad oluliselt vanglal hügieeninõuete täitmist või",
+    "[RT I, 20.12.2012, 3 - jõust. 01.01.2013]",
+    "6) nõuavad käesoleva seaduse § 31 lõike 2 kohaselt vanglateenistuse ametniku luba.",
+    "[RT I, 20.12.2012, 3 - jõust. 01.01.2013]",
+    "(3) Kinnises või avavanglas kinnipeetavale keelatud asjade loetelu, enda juures ja laos olevate asjade kogukaalu, samuti hoiule võetavate asjade ning isikut tõendavate dokumentide hoidmise korra kehtestab valdkonna eest vastutav minister määrusega.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]",
+    "(4) Vanglateenistus võib keelata täiendavalt aineid ja esemeid, mis ei ole keelatud asjade loetelus, kuid vastavad käesoleva paragrahvi lõikes 2 sätestatud tingimustele.",
+    "[RT I 2009, 39, 261 - jõust. 24.07.2009]"
    ]
   },
   "VangS § 1^1": {
@@ -2068,6 +2626,15 @@
     "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]"
    ]
   },
+  "VangS § 6": {
+   "akt": "VangS",
+   "nr": "6",
+   "read": [
+    "§ 6. Vangistuse täideviimise eesmärk",
+    "(1) Vangistuse täideviimise eesmärk on kinnipeetava suunamine õiguskuulekale käitumisele ja õiguskorra kaitsmine.",
+    "(2) Vangistuse täideviimine korraldatakse kinnises vanglas või avavanglas."
+   ]
+  },
   "VangS § 62": {
    "akt": "VangS",
    "nr": "62",
@@ -2143,6 +2710,17 @@
     "[RT I 2006, 63, 466 - jõust. 01.02.2007]",
     "(4) Kartserisse paigutatud kinnipeetava suhtes võib vanglateenistus osaliselt või täielikult piirata käesoleva seaduse §-de 22, 24, 25, 30–32, 34–38, 41, 43, 46 ja 48 kohaldamist.",
     "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]"
+   ]
+  },
+  "VangS § 66": {
+   "akt": "VangS",
+   "nr": "66",
+   "read": [
+    "§ 66. Kinnipeetavate järelevalve",
+    "(1) Kinnipeetavate järelevalve korraldatakse viisil, mis tagab käesoleva seaduse ja vangla sisekorraeeskirjade täitmise ja üldise julgeoleku vanglas.",
+    "(1^1) Järelevalve täpsema korralduse kehtestab valdkonna eest vastutav minister.",
+    "(2) Vangla sisekorraeeskirjade täitmise ja julgeoleku eest vanglas vastutab vanglateenistuse ametnik.",
+    "[RT I 2009, 39, 261 - jõust. 24.07.2009]"
    ]
   },
   "VangS § 68": {

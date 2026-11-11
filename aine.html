@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Source+Serif+4:opsz,wght@8..60,300..700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/stiil.css?v=20261110b">
+<link rel="stylesheet" href="assets/stiil.css?v=20261111d">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23f2c230'/%3E%3Ctext x='16' y='24' font-size='22' text-anchor='middle' font-family='Georgia' fill='%231c2733'%3E§%3C/text%3E%3C/svg%3E">
 </head>
 <body>
@@ -20,15 +20,53 @@
   <p>Leidsid vea? Ava teema ja kasuta lõpus olevat „Teata veast” vormi.</p>
 </footer>
 
-<script src="assets/seadistus.js?v=20261110b"></script>
-<script src="assets/app.js?v=20261110b"></script>
-<script src="assets/skeemid.js?v=20261110b"></script>
+<script src="assets/seadistus.js?v=20261111d"></script>
+<script src="assets/app.js?v=20261111d"></script>
+<script src="assets/skeemid.js?v=20261111d"></script>
 <script>
 (function () {
   const A = window.APP;
   const aineId = new URLSearchParams(location.search).get("id") || "inimoigused";
   A.kaivita({ leht: "aine", aine: aineId });
   const leht = document.getElementById("leht");
+  const luhiKp = (s) => { const d = A.paevKp(s); return d ? { p: d.getDate(), k: d.toLocaleDateString("et-EE", { month: "short" }).replace(".", ""), np: d.toLocaleDateString("et-EE", { weekday: "short" }) } : null; };
+  const pikkKp = (s) => { const d = A.paevKp(s); return d ? d.toLocaleDateString("et-EE", { day: "numeric", month: "numeric" }) : ""; };
+
+  function ajakava(aine, tt, valmisArv) {
+    const tana = A.tana().getTime();
+    const aeg = (t) => { const d = A.paevKp(t.kuupaev); if (!d) return "tulemas"; const x = d.getTime(); return x < tana ? "toimunud" : x === tana ? "tana" : "tulemas"; };
+    const kohtumised = tt.filter((t) => t.tyyp !== "eksam");
+    const toimunud = kohtumised.filter((t) => aeg(t) !== "tulemas").length;
+    const jarg = tt.find((t) => aeg(t) !== "toimunud");
+    const rida = (t) => {
+      const a = aeg(t), kp = luhiKp(t.kuupaev);
+      const liik = t.tyyp === "seminar" ? "Seminar" : t.tyyp === "eksam" ? "Eksam" : "Loeng";
+      const olek = a === "tana" ? "Täna" : a === "toimunud" ? "Toimunud" : "Tulemas";
+      let sisu;
+      if (t.olek === "valmis") sisu = `<a class="aj-link" href="#${t.id}">Ava tund · ${t.teemad.length} teemat</a><a class="aj-link teine" href="kordamine.html?tund=${t.id}">Korda</a>`;
+      else if (t.tyyp === "seminar") sisu = `<span class="aj-koht">Õpilastööde arutelu lisatakse siia</span>`;
+      else if (t.tyyp === "eksam") sisu = valmisArv ? `<a class="aj-link" href="kordamine.html?aine=${aine.id}">Korda kogu ainet</a>` : "";
+      else sisu = `<span class="aj-koht">${a === "tulemas" ? "Teemad lisatakse enne tundi" : "Teemad lisamisel"}</span>`;
+      const ala = (t.alateemad || []).length ? `<ul class="aj-ala">${t.alateemad.map((x) => `<li>${A.esc(x)}</li>`).join("")}</ul>` : "";
+      const taht = (t.tahtajad || []).length ? `<ul class="aj-taht">${t.tahtajad.map((x) => `<li class="${A.onMoodas(x.kp) ? "moodas" : ""}"><b>${pikkKp(x.kp)}</b> ${A.esc(x.nimi)}</li>`).join("")}</ul>` : "";
+      return `<li id="aj-${t.id}" class="aj-rida aj-${t.tyyp || "loeng"} aj-${a}${t.olek === "valmis" ? " aj-valmis" : ""}">
+        <div class="aj-kp">${kp ? `<span class="aj-np">${kp.np}</span><b>${kp.p}</b><span>${kp.k}</span>` : ""}</div>
+        <div class="aj-keha"><div class="aj-pea"><span class="aj-liik">${t.tyyp === "eksam" ? "" : t.nr + ". "}${liik}${t.vorm ? " · " + A.esc(t.vorm) : ""}</span><span class="aj-olek">${olek}</span></div>
+          <h3>${A.esc(t.pealkiri)}</h3>${ala}<div class="aj-sisu">${sisu}</div>${taht}</div></li>`;
+    };
+    const grupid = (aine.valjundid || [""]).map((v, i) => {
+      const read = tt.filter((t) => (t.valjund || 1) === i + 1 && t.tyyp !== "eksam");
+      return read.length ? `<section class="aj-grupp"><h3 class="aj-grupp-p"><span>${i + 1}. väljund</span>${A.esc(v)}</h3><ol class="aj-loend">${read.map(rida).join("")}</ol></section>` : "";
+    }).join("");
+    const eksam = tt.filter((t) => t.tyyp === "eksam");
+    return `<section class="ajakava" aria-labelledby="aj-p">
+      <div class="aj-ylemine"><h2 id="aj-p">Ajakava</h2>
+        <p class="aj-edenemine"><span class="aj-riba" aria-hidden="true"><i style="width:${Math.round(100 * toimunud / Math.max(1, kohtumised.length))}%"></i></span>
+          ${toimunud} / ${kohtumised.length} kohtumist toimunud${jarg ? ` · ${aeg(jarg) === "tana" ? "täna" : "järgmine"}: <a href="#aj-${jarg.id}">${pikkKp(jarg.kuupaev)} ${A.esc(jarg.pealkiri)}</a>` : ""}</p>
+        <p class="aj-legend"><span class="aj-l aj-l-loeng">Loeng</span><span class="aj-l aj-l-seminar">Seminar</span><span class="aj-l aj-l-valmis">Teemad lehel olemas</span></p></div>
+      ${grupid}
+      ${eksam.length ? `<ol class="aj-loend aj-eksam-loend">${eksam.map(rida).join("")}</ol>` : ""}</section>`;
+  }
   const kuup = (s) => s ? new Date(s + "T12:00:00").toLocaleDateString("et-EE", { day: "numeric", month: "long", year: "numeric" }) : "";
 
   A.andmed().then(({ tunnid }) => {
@@ -41,7 +79,7 @@
 
     return A.koikTeemadT().then((teemad) => {
       const kaart = {}; teemad.forEach((t) => (kaart[t.id] = t));
-      const tunnidHtml = aineTunnid.map((t) => {
+      const tunnidHtml = aineTunnid.filter((t) => !aine.ajakava || t.olek === "valmis").map((t) => {
         if (t.olek !== "valmis") {
           return `<section class="tund tulemas" aria-label="Tund ${t.nr}"><div class="tund-info"><div class="nr">${t.nr}</div><h2>${A.esc(t.pealkiri)}</h2></div>
             <div class="tund-sisu">${A.esc(t.kirjeldus)}</div></section>`;
@@ -50,13 +88,13 @@
           p.teemad.map((id) => {
             const tm = kaart[id]; if (!tm) return "";
             const otsitav = [tm.pealkiri, tm.lyhidalt, JSON.stringify(tm.osad)].join(" ").toLowerCase();
-            const k = tm.kysimused.length > 1 ? `küsimused ${tm.kysimused[0]}–${tm.kysimused[tm.kysimused.length - 1]}` : `küsimus ${tm.kysimused[0]}`;
+            const k = !tm.kysimused.length ? "" : tm.kysimused.length > 1 ? `küsimused ${tm.kysimused.join(", ")}` : `küsimus ${tm.kysimused[0]}`;
             return `<li data-otsi="${A.esc(otsitav)}"><a href="teema.html?id=${tm.id}">
               <span class="t-nr">${tm.jrk}</span><span class="t-pealkiri">${A.esc(tm.pealkiri)}</span><span class="t-k">${k}</span>
               <span class="t-lyhidalt">${A.esc(tm.lyhidalt)}</span></a></li>`;
           }).join("")}</ul></div>`).join("");
         return `<section class="tund" aria-labelledby="tund-${t.id}">
-          <div class="tund-info"><div class="nr">${t.nr}</div><h2 id="tund-${t.id}">${A.esc(t.pealkiri)}</h2>
+          <div class="tund-info" id="${t.id}"><div class="nr">${t.nr}</div><h2 id="tund-${t.id}">${A.esc(t.pealkiri)}</h2>
             <div class="kp">${kuup(t.kuupaev)}</div><p>${A.esc(t.kirjeldus)}</p>
             <div class="nupud"><a class="nupp" href="kordamine.html?tund=${t.id}">Korda seda tundi</a>
             <a class="nupp teine" href="teema.html?id=${t.teemad[0].id}">Alusta esimesest teemast</a></div>
@@ -65,6 +103,7 @@
       }).join("");
 
       const teemadeArv = valmis.reduce((n, t) => n + t.teemad.length, 0);
+      const ajajoon = aine.ajakava ? ajakava(aine, aineTunnid, valmis.length) : "";
       leht.innerHTML = `
         <header class="aine-pais">
           <div class="murupuru"><a href="index.html">Avaleht</a> / aine</div>
@@ -76,8 +115,10 @@
         </header>
         ${valmis.length ? `<div class="otsing"><label for="otsi">Otsi selles aines</label>
           <input id="otsi" type="search" placeholder="nt usuvabadus, EIK, VangS § 29" autocomplete="off"></div>` : ""}
+        ${ajajoon}
+        ${aine.ajakava && valmis.length ? `<h2 class="jaotis-pealkiri" id="valmis-tunnid">Valmis tunnid</h2>` : ""}
         <div id="tunnid">${tunnidHtml}</div>
-        ${!valmis.length ? `<div class="tyhi-paneel">Selle aine tunde veel ei ole. Need lisatakse pärast tundi koos materjali ja kordamisküsimustega.</div>` : ""}
+        ${!valmis.length && !aine.ajakava ? `<div class="tyhi-paneel">Selle aine tunde veel ei ole. Need lisatakse pärast tundi koos materjali ja kordamisküsimustega.</div>` : ""}
         ${aine.kiirotsing ? `<section class="kiirotsing" aria-labelledby="kiir-pealk"><h2 id="kiir-pealk">Põhiõigus → vangla õigusakt</h2>
           <p id="kiir-kirjeldus"></p><div id="kiirotsing"></div></section>` : ""}`;
 
