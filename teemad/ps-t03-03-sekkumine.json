@@ -53,17 +53,17 @@
    "skeem": {
     "tyyp": "kontroll",
     "pealkiri": "Kaks küsimust harjutuseks",
-    "olukord": "Kinnipeetav ütleb: „Ausalt töötades ei teeni kunagi nii palju kui tänaval.”",
+    "olukord": "Kinnipeetav ütleb: „Kõik politseinikud ja ametnikud on mu vastu, seepärast pole mõtet reegleid täita.”",
     "sammud": [
      {
       "silt": "Tõend",
       "kysimus": "Mis tõendab seda uskumust?",
-      "vastus": "Küsi koos temaga: kui palju ta tänaval teenis, kui palju aastaid ta on sellepärast vanglas olnud, mis on alles jäänud?"
+      "vastus": "Küsi koos temaga: kas tõesti kõik? Kas on olnud ametnikke, kes on teda aidanud või õiglaselt kohelnud?"
      },
      {
       "silt": "Kasu",
       "kysimus": "Kuidas see mõtlemine talle tulevikus kasu toob?",
-      "vastus": "See mõtlemine on toonud vangistused, kaotatud suhted ja aja. Mis eesmärgi ta tahaks saavutada viisil, mis ei vii tagasi vanglasse?"
+      "vastus": "See mõtlemine on toonud rikkumisi ja karistusi. Mida ta tahaks saavutada – ja kas reeglite täitmine aitaks sinna jõuda?"
      }
     ],
     "jareldus": "Ametnik ei vaidle, vaid aitab kinnipeetaval ise uskumust kontrollida – see on kognitiivse oskuse harjutus."

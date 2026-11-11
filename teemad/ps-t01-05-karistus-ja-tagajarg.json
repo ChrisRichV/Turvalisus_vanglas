@@ -57,7 +57,7 @@
   "vangla": {
    "tekst": "Korduvkurjategija ise on näide: mitu vangistust ei ole teda peatanud. Inspektor-kontaktisiku töö on täita vangistuse aeg sisuga, mis päriselt muudab käitumist.",
    "naide": {
-    "olukord": "Kinnipeetav on neljandat korda vanglas. Ta ütleb: „Vangla mind ei hirmuta.”",
+    "olukord": "Kinnipeetav on kolmandat korda vanglas varguste eest. Ta ütleb: „Vangla mind ei hirmuta, siin on mul sõbrad.”",
     "analyys": "See kinnitab kursuse järeldust: karistus üksi ei hoidnud teda eemale. Täitmiskava ([[VangS § 16 lg 1]]) annab võimaluse tegeleda haridusega, tööga ja vabanemise ettevalmistusega – need muudavad käitumist rohkem kui hirm."
    }
   },
@@ -83,10 +83,10 @@
   },
   {
    "tyyp": "kaasus",
-   "kysimus": "Kinnipeetav (26) on neljandat korda vanglas. Ta ütleb, et vangla ei hirmuta teda. Mida see näitab karistuse kohta ja mida saab inspektor-kontaktisik teha?",
+   "kysimus": "Kinnipeetav (40) on kolmandat korda vanglas varguste eest. Ta ütleb, et vangla ei hirmuta teda. Mida see näitab karistuse kohta ja mida saab inspektor-kontaktisik teha?",
    "vastus": [
     "**Mida see näitab:** varasemad karistused ei hoidnud teda eemale – karistus üksi ei mõju.",
-    "**Miks:** karistus jõuab hilja ja kuritegeliku elu tasud (raha, staatus) olid tugevamad.",
+    "**Miks:** karistus jõuab hilja ja kuritegeliku elu tasud (raha, sõbrad) olid tugevamad.",
     "**Mida teha:** kasutada täitmiskava ([[VangS § 16 lg 1]]) – haridus, töö, vabanemise ettevalmistus; leida tema enda eesmärgid.",
     "**Järeldus:** vangistuse aeg tuleb täita sisuga, mis muudab käitumist ([[VangS § 6 lg 1]])."
    ],

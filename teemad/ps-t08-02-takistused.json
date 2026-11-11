@@ -102,8 +102,8 @@
   "vangla": {
    "tekst": "",
    "naide": {
-    "olukord": "Kinnipeetav keeldub programmidest: „Programm ei saa mulle midagi õpetada, mida ma ise ei tea.” Ametnik vastab: „Kui sa ei osale, ei saa sa ka midagi.”",
-    "analyys": "Kinnipeetav on **mittevabatahtlik klient** ja **ei usu meetodisse**; ametniku vastus on **pealesurutud reegel**. Parem: tunnustada tema teadmisi, küsida tema eesmärke ja otsida koos, kas mõni programmi osa aitaks just neid saavutada – ning leppida kokku järgmine samm."
+    "olukord": "Kinnipeetav keeldub viha juhtimise programmist: „Mul pole vaja, ma tean ise, kuidas rahuneda.” Ametnik vastab: „Kui sa ei osale, ei saa sa ka midagi.”",
+    "analyys": "Kinnipeetav on **mittevabatahtlik klient** ja **ei usu meetodisse**; ametniku vastus on **pealesurutud reegel**. Parem: küsida tema eesmärke, uurida, millal ta viimati vihastas ja mis siis aitas, ning otsida koos, kas mõni programmi osa aitaks – ja leppida kokku järgmine samm."
    }
   },
   "tyypviga": {

@@ -50,8 +50,8 @@
   "vangla": {
    "tekst": "Inspektor-kontaktisik saab ennasttäitvat ennustust katkestada: märgata ja tunnustada käitumist, mis sildiga ei sobi, ning aidata leida uue identiteedi (töötaja, õppija, isa).",
    "naide": {
-    "olukord": "Kinnipeetav ütleb: „Eestis mind niikuinii sildistatakse, tööd ma ei saa. Pole mõtet proovidagi.”",
-    "analyys": "See on ennasttäitva ennustuse algus: kui ta ei kandideeri, ei saagi ta tööd – ja näeb selles kinnitust. Ametnik saab tuua näiteid tema tugevustest (haridus, töö vanglas), aidata valmistada ette konkreetseid samme ja tugiteenuseid enne vabanemist ([[VangS § 16 lg 1 p 6]] – vabastamise ettevalmistus)."
+    "olukord": "Kinnipeetav ütleb: „Kes mind pärast vanglat ikka tööle võtab? Pole mõtet proovidagi.”",
+    "analyys": "See on ennasttäitva ennustuse algus: kui ta ei kandideeri, ei saagi ta tööd – ja näeb selles kinnitust. Ametnik saab tuua näiteid tema tugevustest, aidata valmistada ette konkreetseid samme ja tugiteenuseid enne vabanemist ([[VangS § 16 lg 1 p 6]] – vabastamise ettevalmistus)."
    }
   },
   "tyypviga": {
@@ -92,7 +92,7 @@
   },
   {
    "tyyp": "kaasus",
-   "kysimus": "Kinnipeetav on neljandat korda vanglas. Ametnikud kutsuvad teda omavahel „meie püsikundeks”. Ta ise ütleb, et vabanedes ei ole tal mõtet tööd otsida. Selgita märgistamisteooria abil, mis toimub, ja mida ametnik teeb.",
+   "kysimus": "Kinnipeetav on kolmandat korda vanglas. Ametnikud kutsuvad teda omavahel „meie püsikundeks”. Ta ise ütleb, et vabanedes ei ole tal mõtet tööd otsida. Selgita märgistamisteooria abil, mis toimub, ja mida ametnik teeb.",
    "vastus": [
     "**Silt:** „püsikunde” – ametnike ootus, et ta tuleb tagasi.",
     "**Etapp:** teisene hälbivus – ta näeb end sildi kaudu ega usu muutusse.",

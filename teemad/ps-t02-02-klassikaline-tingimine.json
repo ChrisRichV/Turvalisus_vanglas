@@ -33,7 +33,7 @@
   },
   "alus": {
    "pealkiri": "Mõisted ja seaduspärad",
-   "tekst": "Kursuse näide: Andrus eksib tahvli ees, õpetaja karjub (tingimatu stiimul), Andrusel tekib hirm ja ta nutab (tingimatu vastus). Pärast mitut korda hakkab ta nutma juba klassi ust nähes – uks on tingitud stiimul.",
+   "tekst": "Kursuse näide: õpilane eksib tahvli ees, õpetaja karjub (tingimatu stiimul), õpilasel tekib hirm ja ta nutab (tingimatu vastus). Pärast mitut korda hakkab ta nutma juba klassi ust nähes – uks on tingitud stiimul.",
    "skeem": {
     "tyyp": "kaardid",
     "pealkiri": "Klassikalise tingimise seaduspärad",
@@ -91,7 +91,7 @@
  "harjutused": [
   {
    "tyyp": "sorteeri",
-   "kysimus": "Mis on näites tingitud stiimul (Andruse näide)?",
+   "kysimus": "Mis on näites tingitud stiimul (kursuse näide klassiruumist)?",
    "ryhmad": [
     "Neutraalne/tingitud stiimul",
     "Tingimatu stiimul",

@@ -135,8 +135,8 @@
   "vangla": {
    "tekst": "Õigustusi kuuleb vanglas iga päev. Inspektor-kontaktisik saab need **ära tunda ja nimetada** ning küsida avatud küsimusi, mis panevad inimese teisiti vaatama.",
    "naide": {
-    "olukord": "Kinnipeetav räägib oma teost: „Kui oled selles maailmas sees, kehtivad teised reeglid. Mulle anti ülesanne.”",
-    "analyys": "Siin on **moraalne õigustamine** („teised reeglid”) ja **vastutuse hajutamine** („mulle anti ülesanne”). Ametnik ei vaidle, vaid küsib: „Kes tegelikult otsustas, mida sa tol õhtul teed?” või „Kuidas see sinu venna silmis paistaks?”"
+    "olukord": "Kinnipeetav räägib pettusest: „Pank teenib niikuinii miljoneid, keegi ei kannatanud. Pealegi tegid seda kõik meie firmas.”",
+    "analyys": "Siin on **tagajärgede eiramine** („keegi ei kannatanud”) ja **vastutuse jagamine** („kõik tegid”). Ametnik ei vaidle, vaid küsib: „Kes need inimesed olid, kelle raha see tegelikult oli?” või „Mida sa ise tol hetkel otsustasid?”"
    }
   },
   "tyypviga": {

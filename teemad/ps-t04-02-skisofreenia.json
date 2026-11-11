@@ -94,8 +94,8 @@
   "vangla": {
    "tekst": "Inspektor-kontaktisik märkab sageli esimesena, kui kinnipeetava käitumine muutub või ta jätab ravimid võtmata.",
    "naide": {
-    "olukord": "Kinnipeetav on viimasel ajal omaette, ütleb, et teised räägivad tema selja taga ja ametnikud annavad varjatud sõnumeid. Varem tarvitas ta kanepit ja amfetamiini.",
-    "analyys": "Kirjeldus võib viidata psühhootilistele sümptomitele (luulumõtted). Ametnik ei vaidle uskumuse üle ega diagnoosi – ta räägib rahulikult, dokumenteerib ja teavitab tervishoiutöötajat ([[VangS § 52 lg 2]]). Ainete tarvitamise ajalugu tõstab riski."
+    "olukord": "Kinnipeetav on hakanud rääkima, et raadio saadab talle isiklikke sõnumeid, ja ta katab kambri akna ajalehtedega. Ta on kahtlustav ja magab vähe.",
+    "analyys": "Kirjeldus võib viidata psühhootilistele sümptomitele (luulumõtted). Ametnik ei vaidle uskumuse üle ega diagnoosi – ta räägib rahulikult, dokumenteerib ja teavitab tervishoiutöötajat ([[VangS § 52 lg 2]]). Kui ta tarvitab aineid, tõstab see riski."
    }
   },
   "tyypviga": {
