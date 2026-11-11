@@ -95,12 +95,16 @@
         <p class="l-tekst">Sätte teksti ei leitud. Kontrolli Riigi Teatajast.</p>`;
     }
     const m = A.seadused.aktid[s.akt] || {};
-    let onPeal = false;
+    let onPeal = false, lgSees = !r.lg;
+    const lgAlgus = /^(\(\d+(\^\d+)?\)|\d+(\^\d+)?\.(\s|$))/;
+    const pRe = r.p ? new RegExp("^" + r.p.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\)\\s") : null;
     const read = s.read.map((rida, i) => {
       const muud = rida.match(/^\[(RT|Kehtetu|Sätte sõnastus)[^\]]*\]$/);
       if (muud) return `<span class="muudatus">${esc(rida)}</span>`;
       const klass = [];
-      if (lgSobib(rida, r.lg, i, s.akt)) { klass.push("esile"); onPeal = true; }
+      if (r.lg && lgAlgus.test(rida)) lgSees = false;
+      if (lgSobib(rida, r.lg, i, s.akt)) { klass.push("esile"); onPeal = true; lgSees = true; }
+      else if (pRe && lgSees && pRe.test(rida)) { klass.push("esile", "esile-p"); onPeal = true; }
       if (i === 0 || (s.akt === "harta" && i === 1)) klass.push("pealk");
       let t = esc(rida).replace(/\s*(\[(?:RT|Kehtetu|Sätte sõnastus)[^\]]*\])/g, ' <span class="muudatus">$1</span>');
       return `<p class="${klass.join(" ")}">${ylaindeks(t)}</p>`;
@@ -112,7 +116,7 @@
     if (m.mitteametlik_tolge) meta.push(`<div><span class="silt">Mitteametlik tõlge</span> – täpne sõnastus võib erineda.</div>`);
     if (m.markus) meta.push(`<div>${esc(m.markus)}</div>`);
     if (m.url) meta.push(`<div><a href="${esc(m.url)}" target="_blank" rel="noopener">Ava ametlik tekst</a></div>`);
-    const lgMarkus = r.lg && !onPeal ? `<div>Lõiget ${ylaindeks(esc(r.lg))} ei õnnestunud esile tõsta – loe kogu sätet.</div>` : "";
+    const lgMarkus = (r.lg || r.p) && !onPeal ? `<div>${r.p && !r.lg ? "Punkti" : "Lõiget"} ${ylaindeks(esc(r.lg || r.p))} ei õnnestunud esile tõsta – loe kogu sätet.</div>` : "";
     return `<div class="l-pais"><div><div class="l-viide" id="lipik-pealk">${ylaindeks(esc(refStr))}</div>
       <div class="l-akt">${esc(m.pealkiri || "")}</div></div>${sulgeNupp()}</div>
       <div class="l-tekst">${read}</div>
@@ -151,6 +155,10 @@
     el.setAttribute("aria-expanded", "true");
     paiguta(el);
     lipik.focus({ preventScroll: true });
+    // keri esiletõstetud lõige/punkt nähtavale (pikad sätted)
+    const es = lipik.querySelector(".esile-p") || lipik.querySelector(".esile");
+    lipik.scrollTop = 0;
+    if (es && es.offsetTop + es.offsetHeight > lipik.clientHeight - 20) lipik.scrollTop = Math.max(0, es.offsetTop - 70);
   }
 
   A.sulge = function () {
@@ -177,9 +185,15 @@
     h.innerHTML = `<button type="button" class="sisukorranupp" aria-controls="sahtel" aria-expanded="false"><span aria-hidden="true">☰</span> Sisukord</button>
       <a class="logo" href="index.html"><b>§</b> Õppeleht</a>
       <nav class="peamenyy" aria-label="Peamenüü"></nav>
-      <button type="button" class="teemanupp">Tume</button>`;
+      <div class="seaded-kast"><button type="button" class="seaded-nupp" aria-expanded="false" aria-controls="seaded-menyy"><span aria-hidden="true">⚙</span> Seaded</button>
+        <div class="seaded-menyy" id="seaded-menyy" hidden>
+          <button type="button" class="teemanupp" role="switch" aria-checked="true"><span class="sm-silt">Tume vaade</span><span class="sm-lyliti" aria-hidden="true"></span></button>
+          <button type="button" class="liikumisnupp" role="switch" aria-checked="false"><span class="sm-silt">Vähenda liikumist</span><span class="sm-lyliti" aria-hidden="true"></span></button>
+          <p class="sm-markus">Seaded jäävad ainult sellesse brauserisse.</p>
+        </div></div>`;
     A.lae("data/tunnid.json").then((d) => {
       const lingid = d.ained.map((a) => `<a href="aine.html?id=${a.id}"${o.aine === a.id ? ' aria-current="page"' : ""}>${esc(a.lyhend)}</a>`);
+      lingid.push(`<a href="moistekaart.html"${o.leht === "moistekaart" ? ' aria-current="page"' : ""}>Mõistekaart</a>`);
       lingid.push(`<a href="kordamine.html"${o.leht === "kordamine" ? ' aria-current="page"' : ""}>Kordamine</a>`);
       lingid.push(`<a href="seadused.html"${o.leht === "seadused" ? ' aria-current="page"' : ""}>Seadused</a>`);
       h.querySelector(".peamenyy").innerHTML = lingid.join("");
@@ -216,7 +230,7 @@
           return `<details class="s-aine" ${!o.aine || o.aine === a.id ? "open" : ""}><summary>${esc(a.nimi)}</summary>
             <p class="s-ainelink"><a href="aine.html?id=${a.id}">Aine avaleht</a>${tunnid.some((t) => t.olek === "valmis") ? ` · <a href="kordamine.html?aine=${a.id}">Korda ainet</a>` : ""}</p><ul>${tHtml}</ul></details>`;
         }).join("");
-        sahtel.querySelector(".s-sisu").innerHTML = html + `<div class="s-yld"><a href="index.html">Avaleht</a><a href="kordamine.html">Kordamine</a><a href="seadused.html">Seaduste register</a><a href="index.html#sonastik">Sõnastik</a></div>`;
+        sahtel.querySelector(".s-sisu").innerHTML = html + `<div class="s-yld"><a href="index.html">Avaleht</a><a href="moistekaart.html">Mõistekaart</a><a href="kordamine.html">Kordamine</a><a href="seadused.html">Seaduste register</a><a href="index.html#sonastik">Sõnastik</a></div>`;
       }).catch(() => { sahtel.querySelector(".s-sisu").innerHTML = `<p class="teade viga">Sisukorda ei õnnestunud laadida.</p>`; });
     }
     sahtel.hidden = false; document.body.style.overflow = "hidden";
@@ -260,21 +274,30 @@
       A.sulgeSahtel();
     });
     window.addEventListener("resize", () => { if (avaja && !lipik.hidden) paiguta(avaja); });
-    const nupp = document.querySelector(".teemanupp");
-    if (nupp) {
-      const pane = (v) => {
-        document.documentElement.dataset.theme = v;
-        nupp.textContent = v === "dark" ? "Hele" : "Tume";
-        nupp.setAttribute("aria-label", v === "dark" ? "Lülita hele vaade" : "Lülita tume vaade");
-        try { localStorage.setItem("teema", v); } catch (_) { /* ei ole oluline */ }
-      };
-      let algne = null;
-      try { algne = localStorage.getItem("teema"); } catch (_) { /* privaatne aken */ }
-      if (!algne) algne = "dark"; // vaikimisi tume neoonteema
-      pane(algne);
-      nupp.addEventListener("click", () => pane(document.documentElement.dataset.theme === "dark" ? "light" : "dark"));
-    }
+    seoSeaded();
   };
+
+  /* ---------- seaded: teema ja liikumine (ainult selles brauseris) ---------- */
+  const loe = (k) => { try { return localStorage.getItem(k); } catch (_) { return null; } };
+  const kirjuta = (k, v) => { try { localStorage.setItem(k, v); } catch (_) { /* privaatne aken */ } };
+  A.vahemLiikumist = function () { return document.documentElement.dataset.liikumine === "vahem"; };
+  function seoSeaded() {
+    const juur = document.documentElement;
+    const teemaN = document.querySelector(".teemanupp"), liikN = document.querySelector(".liikumisnupp");
+    const panTeema = (v) => { juur.dataset.theme = v; if (teemaN) teemaN.setAttribute("aria-checked", v === "dark"); kirjuta("teema", v); };
+    const panLiik = (v) => { juur.dataset.liikumine = v; if (liikN) liikN.setAttribute("aria-checked", v === "vahem"); kirjuta("liikumine", v); };
+    panTeema(loe("teema") || "dark"); // vaikimisi tume neoonteema
+    const susteem = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    panLiik(loe("liikumine") || (susteem ? "vahem" : "tavaline"));
+    if (teemaN) teemaN.addEventListener("click", () => panTeema(juur.dataset.theme === "dark" ? "light" : "dark"));
+    if (liikN) liikN.addEventListener("click", () => panLiik(A.vahemLiikumist() ? "tavaline" : "vahem"));
+    const nupp = document.querySelector(".seaded-nupp"), menyy = document.getElementById("seaded-menyy");
+    if (!nupp) return;
+    const sulge = () => { menyy.hidden = true; nupp.setAttribute("aria-expanded", "false"); };
+    nupp.addEventListener("click", (e) => { e.stopPropagation(); const ava = menyy.hidden; menyy.hidden = !ava; nupp.setAttribute("aria-expanded", ava); if (ava) menyy.querySelector("button").focus(); });
+    document.addEventListener("click", (e) => { if (!menyy.hidden && !e.target.closest(".seaded-kast")) sulge(); });
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape" && !menyy.hidden) { sulge(); nupp.focus(); } });
+  }
 
   /* ---------- päris näide (aken) ---------- */
   let naiteTaust = null, naiteAvaja = null, naited = [], naiteI = 0;

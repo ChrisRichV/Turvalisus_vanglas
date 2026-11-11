@@ -3,6 +3,8 @@
   "tund": "t01",
   "jrk": 9,
   "pealkiri": "Õigus elule",
+  "lyhend": "Õigus elule",
+  "ikoon": "pulss",
   "kysimused": [
     11
   ],

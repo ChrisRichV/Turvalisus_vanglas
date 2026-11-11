@@ -59,8 +59,10 @@ kontrollib sisu.
 | `seadused.html` | Seaduste register: akt → säte → teemad (ainefiltriga); arvutatakse brauseris teemafailidest | harva |
 | `teema.html?id=t01-08` | Teema: 5 osa + skeem + tunni küsimus + harjutused + allikamärkused + tagasiside | harva |
 | `kordamine.html?aine=…&tund=…&teema=…` | Segatud harjutused (5/8/10) aine/tunni/teema kaupa ja tunni küsimused vastustega | harva |
+| `moistekaart.html?vaade=o-t11&valitud=m:riive` | **Mõistekaart**: üks tund või „kõik tunnid koos” (`vaade=koik`); sõlmed = teemad, mõisted, sätted; paneel, loendivaade | harva |
 | `assets/app.js` | Andmed, märgistus (`md`), **ühine päis + sisukorra sahtel** (`A.kaivita({leht, aine, tund, teema})`), hüpikaknad, näiteaken, harjutused, tagasiside | harva |
 | `assets/skeemid.js` | Skeemitüübid: `voog`, `puu`, `tasandid`, `vordlus`, `kaalud`, `kontroll` | uue tüübi korral |
+| `assets/ikoonid.js` | Teemade SVG-ikoonid (`A.ikoon(nimi)`, `A.IKOONID`) – ühtne joonstiil, värvitähenduseta | uue ikooni korral |
 | `assets/stiil.css` | Kujundus, hele/tume teema | harva |
 | `assets/seadistus.js` | Supabase URL + **publishable** võti | ei |
 
@@ -70,6 +72,8 @@ kontrollib sisu.
 | `teemad/tNN-MM-nimi.json` | Üks teema | **iga uus teema** |
 | `data/terminid.json` | Sõnastik | uue termini korral |
 | `data/kiirotsing.json` | Tabel „põhiõigus → vangla õigusakt” | vajadusel |
+| `data/moistekaart.json` | **Genereeritud** `tools/moistekaart.py`-st – mõisted, nende teemad/viited, sildistatud seosed | muuda skripti |
+| `tools/moistekaart.py` | Mõistekaardi sisu (mõisted ja seosed) | **iga uus tund** |
 | `data/seadused.json` | **Genereeritud** – viidatud sätete tekstid + aktide metaandmed | **ei kunagi** |
 | `tools/seadused.py` | Aktide loetelu `ACTS` ja parser | uue akti korral |
 | `tools/ehita.py` | Ehitus ja kontroll | ei |
@@ -108,7 +112,10 @@ Teemafail: `teemad/<teema-id>-<nimi>.json`. Id-d peavad olema unikaalsed (ehitus
 ### `teemad/*.json`
 ```json
 {
-  "id": "t01-08", "tund": "t01", "jrk": 8, "pealkiri": "…", "kysimused": [10],
+  "id": "t01-08", "tund": "t01", "jrk": 8, "pealkiri": "…",
+  "lyhend": "Inimväärikus",          // lühinimi mõistekaardile (≤ ~22 märki)
+  "ikoon": "vaarikus",              // nimi assets/ikoonid.js-ist
+  "kysimused": [10],
   "lyhidalt": "1–2 lauset lihtsas keeles",
   "osad": {
     "pohimote":  { "pealkiri?": "…", "tekst": "…", "tsitaat?": { "viide": "EIÕK preambul", "tekst": "sõna-sõnalt" }, "punktid?": [] },
@@ -217,9 +224,13 @@ viide ja termin; tume režiim.
    (`python3 tools/seadused.py "VangS 29" "PS 43"`). Vangla näide → kaasuse skeem.
 7. **Uus akt?** Lisa `tools/seadused.py` → `ACTS` (lühend, fail, ühiku regex, pealkiri, vorm).
    Kontrolli parserit: `python3 -c "import seadused as s; u,o,*_=s.load('AKT'); print(len(o), o[:5])"`.
-8. **`python3 tools/ehita.py`** kuni vigu pole.
-9. **Võrdle konspekti tsitaate ametliku tekstiga** (sõnatasemel diff) → `erinevused`.
-10. Eelvaade brauseris (telefoni ja arvuti laius), siis haru + PR.
+8. **Mõistekaart**: lisa teemafailidele `lyhend` + `ikoon` (uus ikoon → `assets/ikoonid.js`) ja
+   `tools/moistekaart.py`-sse tunni mõisted (selgitus lihtsas keeles + `[[viide]]`, `teemad`, `viited`
+   või `termin`) ning seosed – **eriti seosed varasemate tundide mõistetega** (need on „sillad”).
+   Käivita `python3 tools/moistekaart.py`.
+9. **`python3 tools/ehita.py`** kuni vigu pole (kontrollib ka mõistekaardi viiteid, termineid ja teemasid).
+10. **Võrdle konspekti tsitaate ametliku tekstiga** (sõnatasemel diff) → `erinevused`.
+11. Eelvaade brauseris (telefoni ja arvuti laius), siis haru + PR.
 
 ### Uue akti lisamine – parseri mustrid
 | Muster | Kasutus |
@@ -291,6 +302,17 @@ salvestatakse brauserisse). Sära (`text-shadow`/`box-shadow`) ainult tähtsal �
 | `--vask` | `#2ef5d6` neoontsüaan | `#2f6f6a` | **ainult** terminid, õige vastus, tunni küsimuse vastus |
 | `--rooste` | `#ff4fa0` neoonroosa | `#a8432c` | **ainult** tüüpvead, vale vastus, erinevused |
 | `--lilla` | `#b388ff` neoonlilla | `#6b3fd1` | **ainult** päris näited (nupp ja aken) |
+
+**Värv ei kanna tähendust üksi** – iga neoonvärvi kõrval on ikoon: raamat = seaduseviide (`.ref::before`),
+ⓘ = termin (`.term::before`), ✓ = õige, ✗ = vale/tüüpviga, ≠ = erinevus, ◆ = päris näide. Uue värvilise elemendi
+juurde lisa sama ikoon. Seletus on avalehel (`.varvid`).
+
+**Seaded** (päises ⚙): tume/hele vaade ja „Vähenda liikumist” (`data-liikumine="vahem"` → animatsioonid ja
+üleminekud välja; vaikimisi süsteemi `prefers-reduced-motion` järgi). JS-is kontrolli `A.vahemLiikumist()`.
+
+**Mõistekaardi värvid**: teema = neutraalne ristkülik ikooniga, mõiste = tsüaan (termin), säte = kollane,
+mitut tundi siduv mõiste = punktiirrõngas + ⇄, tundidevaheline seos = paks punktiirjoon. Paigutus on
+deterministlik jõusimulatsioon (sama sisu → sama pilt).
 
 Kirjad: Archivo (pealkirjad, liides; laius 110–125 %) ja Source Serif 4 (sisu, seadusetekst).
 Vasakule joondatud, tekstiveerg ≤ 42rem. Nummerdus (1–5, voo sammud) ainult päris järjestuse puhul.

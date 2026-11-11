@@ -3,6 +3,8 @@
   "tund": "t01",
   "jrk": 2,
   "pealkiri": "Regionaalsed organisatsioonid ja Euroopa Nõukogu",
+  "lyhend": "Euroopa Nõukogu",
+  "ikoon": "tahering",
   "kysimused": [2, 3],
   "lyhidalt": "Regionaalsed organisatsioonid ühendavad ühe piirkonna riike. Euroopa Nõukogu eesmärk on liikmete suurem ühtsus, ja inimõiguste peamine akt on EIÕK.",
   "osad": {

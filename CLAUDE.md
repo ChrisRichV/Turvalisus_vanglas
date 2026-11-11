@@ -23,5 +23,5 @@ python3 -m http.server 8000                                               # eelv
 Materjal on kasutaja arvutis `Desktop\Ruth tunnid` (sisukord `00_SISUKORD.md`); too failid tööalale enne ehitust.
 
 ## Uus tund (lühidalt)
-õige aine kaust (`Ruth_opetaja_tunni_failid/<Aine>/`) → teemade nimekiri → kasutaja kinnitus → `data/tunnid.json` (õige `aine`, id-d `ps-t01…`, `o-t01…`) → `teemad/tNN-MM-*.json` → (uus akt: `tools/seadused.py` `ACTS`)
+õige aine kaust (`Ruth_opetaja_tunni_failid/<Aine>/`) → teemade nimekiri → kasutaja kinnitus → `data/tunnid.json` (õige `aine`, id-d `ps-t01…`, `o-t01…`) → `teemad/tNN-MM-*.json` (+ `lyhend`, `ikoon`) → mõistekaart `tools/moistekaart.py` (mõisted + seosed varasemate tundidega) → (uus akt: `tools/seadused.py` `ACTS`)
 → `ehita.py` OK → (CSS/JS muutus: tõsta `?v=` kõigis HTML-ides) → brauseris 390 px ja 1280 px → haru + PR. Uuenda ka `Ruth tunnid/00_SISUKORD.md`.

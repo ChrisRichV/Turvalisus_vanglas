@@ -97,6 +97,24 @@ if os.path.exists(kiir_p):
         refs.extend((x, f"data/kiirotsing.json[{i}]") for x in r["pohiseadus"] + r["vangla"])
         if r.get("teema_id") and r["teema_id"] not in teema_idd:
             vead.append(f"data/kiirotsing.json[{i}]: tundmatu teema_id {r['teema_id']}")
+# --- mõistekaart: viited, terminid, teemad ja seoste otsad
+mk_p = os.path.join(REPO, "data/moistekaart.json")
+if os.path.exists(mk_p):
+    mk = json.load(open(mk_p, encoding="utf-8"))
+    walk(mk, "data/moistekaart.json", refs, terms, quotes)
+    mk_idd = set()
+    for i, k in enumerate(mk["moisted"]):
+        w = f"data/moistekaart.json moisted[{i}] ({k.get('id')})"
+        if k["id"] in mk_idd: vead.append(f"{w}: id kordub")
+        mk_idd.add(k["id"])
+        if not k.get("teemad"): vead.append(f"{w}: teemad puuduvad")
+        for tid in k.get("teemad", []):
+            if tid not in naha_teema: vead.append(f"{w}: tundmatu teema {tid}")
+        if k.get("termin"): terms.append((k["termin"], w))
+        if not k.get("selgitus") and not k.get("termin"): vead.append(f"{w}: selgitus või termin puudub")
+    for i, x in enumerate(mk["seosed"]):
+        for o in ("a", "b"):
+            if x[o] not in mk_idd: vead.append(f"data/moistekaart.json seosed[{i}]: tundmatu mõiste {x[o]}")
 
 # --- terminid
 for t, where in terms:

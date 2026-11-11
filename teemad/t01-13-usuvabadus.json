@@ -3,6 +3,8 @@
   "tund": "t01",
   "jrk": 13,
   "pealkiri": "Usuvabadus",
+  "lyhend": "Usuvabadus",
+  "ikoon": "kuunal",
   "kysimused": [
     15
   ],

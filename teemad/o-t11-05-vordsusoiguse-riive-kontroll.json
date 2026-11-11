@@ -3,6 +3,8 @@
  "tund": "o-t11",
  "jrk": 5,
  "pealkiri": "Võrdsusõiguse riive kontroll",
+ "lyhend": "Võrdsusõiguse kontroll",
+ "ikoon": "vordsus",
  "kysimused": [],
  "lyhidalt": "Võrdsusõiguse puhul ei küsita „kas riik sekkus”, vaid „kas riik kohtles sarnaseid inimesi erinevalt”. Selleks võrdled kahte gruppi. Kui sarnaseid koheldakse erinevalt, on see riive – aga see on lubatud, kui erinevusel on mõistlik põhjus.",
  "osad": {

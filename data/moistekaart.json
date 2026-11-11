@@ -1,0 +1,1029 @@
+{
+ "kirjeldus": "Mõistekaardi sisu: mõisted (sõlmed), nende teemad ja viited ning sildistatud seosed. Genereeritud skriptiga; teemad ja viited kontrollib tools/ehita.py.",
+ "moisted": [
+  {
+   "id": "pohiseadus",
+   "silt": "Põhiseadus",
+   "teemad": [
+    "o-t10-01",
+    "o-t10-04"
+   ],
+   "viited": [
+    "PS § 3 lg 1",
+    "PS § 152"
+   ],
+   "selgitus": "Riigi kõige tähtsam seadus. Riigivõimu teostatakse ainult põhiseaduse ja sellega kooskõlas olevate seaduste alusel ([[PS § 3 lg 1]]). Põhiseadusega vastuolus seadust kohus ei kohalda ([[PS § 152]])."
+  },
+  {
+   "id": "pohiseaduse-muutmine",
+   "silt": "Põhiseaduse muutmine",
+   "teemad": [
+    "o-t10-01"
+   ],
+   "viited": [
+    "PS § 161",
+    "PS § 162",
+    "PS § 163"
+   ],
+   "selgitus": "Põhiseadust saab muuta, aga palju raskemini kui tavalist seadust: algatajad, menetlus ja häälteenamus on eraldi kirjas ([[PS § 161]], [[PS § 162]], [[PS § 163]])."
+  },
+  {
+   "id": "demokraatia",
+   "silt": "Demokraatia",
+   "teemad": [
+    "o-t10-02",
+    "o-t10-03"
+   ],
+   "viited": [
+    "PS § 1",
+    "PS § 56"
+   ],
+   "selgitus": "Kõrgeim võim on rahval ([[PS § 1]]). Rahvas teostab seda Riigikogu valimise ja rahvahääletuse kaudu ([[PS § 56]])."
+  },
+  {
+   "id": "oigusriik",
+   "silt": "Õigusriik",
+   "teemad": [
+    "o-t10-02"
+   ],
+   "viited": [
+    "PS § 10"
+   ],
+   "selgitus": "Riik, kus võim on seotud õigusega: kõik käib seaduse alusel, võimu kontrollitakse ja reeglid on ette teada. Põhiseadus nimetab õigusriiki põhimõttena ([[PS § 10]])."
+  },
+  {
+   "id": "seaduslikkus",
+   "silt": "Seaduslik alus",
+   "teemad": [
+    "o-t10-02",
+    "o-t11-03",
+    "o-t11-04"
+   ],
+   "viited": [
+    "PS § 3 lg 1",
+    "HMS § 3 lg 1"
+   ],
+   "selgitus": "Riik tohib tegutseda ainult seaduse alusel ([[PS § 3 lg 1]]). Põhiõigusi võib piirata ainult seaduse alusel ([[HMS § 3 lg 1]])."
+  },
+  {
+   "id": "oiguskindlus",
+   "silt": "Õiguskindlus",
+   "teemad": [
+    "o-t10-02",
+    "t01-15"
+   ],
+   "viited": [
+    "PS § 3 lg 2",
+    "PS § 13 lg 2"
+   ],
+   "termin": "oiguskindlus"
+  },
+  {
+   "id": "proportsionaalsus",
+   "silt": "Proportsionaalsus",
+   "teemad": [
+    "o-t10-02",
+    "o-t11-03",
+    "o-t11-04",
+    "o-t11-05",
+    "t01-15"
+   ],
+   "viited": [
+    "PS § 11",
+    "HMS § 3 lg 2"
+   ],
+   "termin": "proportsionaalsus"
+  },
+  {
+   "id": "sotsiaalriik",
+   "silt": "Sotsiaalriik",
+   "teemad": [
+    "o-t10-02",
+    "o-t11-06"
+   ],
+   "viited": [
+    "PS § 28"
+   ],
+   "selgitus": "Riik ei jäta abivajajat üksi. Igaühel on õigus tervise kaitsele ning Eesti kodanikul õigus riigi abile vanaduse, töövõimetuse, toitjakaotuse ja puuduse korral ([[PS § 28]])."
+  },
+  {
+   "id": "voimude-lahusus",
+   "silt": "Võimude lahusus",
+   "teemad": [
+    "o-t10-03"
+   ],
+   "viited": [
+    "PS § 4"
+   ],
+   "selgitus": "Riigivõim on jagatud ja harud tasakaalustavad üksteist, et keegi ei saaks kogu võimu enda kätte ([[PS § 4]])."
+  },
+  {
+   "id": "riigikogu",
+   "silt": "Riigikogu",
+   "teemad": [
+    "o-t10-03"
+   ],
+   "viited": [
+    "PS § 59",
+    "PS § 65"
+   ],
+   "selgitus": "Seadusandlik võim: Riigikogu võtab vastu seadused ([[PS § 59]], [[PS § 65]])."
+  },
+  {
+   "id": "valitsus",
+   "silt": "Valitsus",
+   "teemad": [
+    "o-t10-03"
+   ],
+   "viited": [
+    "PS § 86",
+    "PS § 87"
+   ],
+   "selgitus": "Täidesaatev võim: valitsus viib seadusi ellu ja annab nende täitmiseks määrusi ([[PS § 86]], [[PS § 87]]). Vangla on ministeeriumi valitsemisalas olev valitsusasutus ([[VangS § 105 lg 1]])."
+  },
+  {
+   "id": "kohus",
+   "silt": "Kohus",
+   "teemad": [
+    "o-t10-03",
+    "t01-06"
+   ],
+   "viited": [
+    "PS § 146",
+    "PS § 149"
+   ],
+   "selgitus": "Kohtuvõim: õigust mõistab ainult kohus, ja kohus on sõltumatu ([[PS § 146]]). Kolm astet: esimese astme kohtud, ringkonnakohtud ja Riigikohus ([[PS § 149]])."
+  },
+  {
+   "id": "riigikohus",
+   "silt": "Riigikohus",
+   "teemad": [
+    "o-t10-04",
+    "t01-06"
+   ],
+   "viited": [
+    "PS § 149",
+    "PSJKS § 15 lg 1"
+   ],
+   "selgitus": "Riigi kõrgeim kohus ja ühtlasi põhiseadusliku järelevalve kohus ([[PS § 149]]). Võib tunnistada seaduse põhiseadusega vastuolus olevaks ja kehtetuks ([[PSJKS § 15 lg 1]])."
+  },
+  {
+   "id": "oiguskantsler",
+   "silt": "Õiguskantsler",
+   "teemad": [
+    "o-t10-03",
+    "o-t10-04",
+    "t01-06",
+    "t01-14"
+   ],
+   "viited": [
+    "PS § 139",
+    "OKS § 19"
+   ],
+   "selgitus": "Sõltumatu järelevalvaja: kontrollib, kas õigustloovad aktid vastavad põhiseadusele ja seadustele ([[PS § 139]]). Igaüks võib pöörduda tema poole oma õiguste kaitseks ([[OKS § 19]])."
+  },
+  {
+   "id": "normikontroll",
+   "silt": "Normikontroll",
+   "teemad": [
+    "o-t10-04"
+   ],
+   "viited": [
+    "PS § 152",
+    "PSJKS § 9 lg 1"
+   ],
+   "selgitus": "Kontroll, kas seadus või määrus ise vastab põhiseadusele. Kohus jätab põhiseadusega vastuolus seaduse kohaldamata ([[PS § 152]]) ja asi liigub Riigikohtusse ([[PSJKS § 9 lg 1]])."
+  },
+  {
+   "id": "pohioigus",
+   "silt": "Põhiõigus",
+   "teemad": [
+    "o-t11-01"
+   ],
+   "viited": [
+    "PS § 10"
+   ],
+   "selgitus": "Inimese õigus riigi vastu. Põhiseaduses loetletud õigused ei välista muid õigusi, mis tulenevad põhiseaduse mõttest ([[PS § 10]])."
+  },
+  {
+   "id": "vabadusoigus",
+   "silt": "Vabadusõigus",
+   "teemad": [
+    "o-t11-01",
+    "o-t11-04"
+   ],
+   "viited": [
+    "PS § 20 lg 1"
+   ],
+   "selgitus": "Õigus, et riik jätaks rahule – näiteks vabadus ja isikupuutumatus ([[PS § 20 lg 1]]). Rikkumine on riigi sekkumine."
+  },
+  {
+   "id": "vordsusoigus",
+   "silt": "Võrdsusõigus",
+   "teemad": [
+    "o-t11-01",
+    "o-t11-05",
+    "t01-15"
+   ],
+   "viited": [
+    "PS § 12 lg 1"
+   ],
+   "selgitus": "Sarnaseid tuleb kohelda sarnaselt: kõik on seaduse ees võrdsed ([[PS § 12 lg 1]]). Rikkumine on põhjendamatu erinev kohtlemine."
+  },
+  {
+   "id": "sooritusoigus",
+   "silt": "Sooritusõigus",
+   "teemad": [
+    "o-t11-01",
+    "o-t11-06"
+   ],
+   "viited": [
+    "PS § 14"
+   ],
+   "selgitus": "Õigus, et riik teeks midagi: kaitseks, looks menetluse või aitaks. Õiguste tagamine on kõigi võimude kohustus ([[PS § 14]]). Rikkumine on tegevusetus."
+  },
+  {
+   "id": "kandja",
+   "silt": "Põhiõiguse kandja",
+   "teemad": [
+    "o-t11-02"
+   ],
+   "viited": [
+    "PS § 9 lg 1",
+    "VangS § 4^1 lg 1"
+   ],
+   "selgitus": "Kellel õigus on. Igaühe õigused kehtivad ka Eestis viibivatel välismaalastel ([[PS § 9 lg 1]]) – ja ka kinnipeetaval, kelle inimväärikust tuleb austada ([[VangS § 4^1 lg 1]])."
+  },
+  {
+   "id": "adressaat",
+   "silt": "Põhiõiguse adressaat",
+   "teemad": [
+    "o-t11-02"
+   ],
+   "viited": [
+    "PS § 14"
+   ],
+   "selgitus": "Kes peab õigust tagama: seadusandlik, täidesaatev ja kohtuvõim ning omavalitsused ([[PS § 14]]) – ka vanglaametnik."
+  },
+  {
+   "id": "kaitsekohustus",
+   "silt": "Kaitse teise isiku eest",
+   "teemad": [
+    "o-t11-02",
+    "o-t11-06"
+   ],
+   "viited": [
+    "PS § 13 lg 1",
+    "VangS § 12 lg 1 p 4"
+   ],
+   "selgitus": "Igaühel on õigus riigi ja seaduse kaitsele ([[PS § 13 lg 1]]). Vanglas hoitakse näiteks eraldi neid, keda ähvardab kättemaks ([[VangS § 12 lg 1 p 4]])."
+  },
+  {
+   "id": "kaitseala",
+   "silt": "Kaitseala",
+   "teemad": [
+    "o-t11-03",
+    "o-t11-04"
+   ],
+   "termin": "kaitseala"
+  },
+  {
+   "id": "riive",
+   "silt": "Riive",
+   "teemad": [
+    "o-t11-03",
+    "o-t11-04",
+    "o-t11-05"
+   ],
+   "termin": "riive"
+  },
+  {
+   "id": "rikkumine",
+   "silt": "Rikkumine",
+   "teemad": [
+    "o-t11-03",
+    "o-t11-04"
+   ],
+   "viited": [
+    "PS § 11"
+   ],
+   "selgitus": "Riive, mis ei vasta põhiseadusele. Iga riive ei ole rikkumine: piirang on lubatud, kui see on vajalik ega moonuta õiguse olemust ([[PS § 11]])."
+  },
+  {
+   "id": "reservatsioon",
+   "silt": "Piiramise astmed",
+   "teemad": [
+    "o-t11-04"
+   ],
+   "viited": [
+    "PS § 29 lg 1",
+    "PS § 26",
+    "PS § 18 lg 1"
+   ],
+   "selgitus": "Osa õigusi saab piirata lihtsalt seadusega ([[PS § 29 lg 1]]), osa ainult kindlatel eesmärkidel ([[PS § 26]]) ja osa puhul piiramist ette ei nähta ([[PS § 18 lg 1]])."
+  },
+  {
+   "id": "kohtulik-kaitse",
+   "silt": "Õigus pöörduda kohtusse",
+   "teemad": [
+    "o-t11-02",
+    "o-t11-06",
+    "t01-06",
+    "t01-14"
+   ],
+   "viited": [
+    "PS § 15 lg 1"
+   ],
+   "selgitus": "Igaüks võib oma õiguste ja vabaduste rikkumise korral pöörduda kohtusse ([[PS § 15 lg 1]])."
+  },
+  {
+   "id": "uro",
+   "silt": "ÜRO",
+   "teemad": [
+    "t01-01"
+   ],
+   "viited": [
+    "ÜRO PK art 1"
+   ],
+   "selgitus": "Globaalne organisatsioon. Üks eesmärke on edendada inimõiguste austamist ([[ÜRO PK art 1]])."
+  },
+  {
+   "id": "uldeklaratsioon",
+   "silt": "Inimõiguste ülddeklaratsioon",
+   "teemad": [
+    "t01-01",
+    "t01-08"
+   ],
+   "viited": [
+    "ÜDIÕ art 1"
+   ],
+   "termin": "uldeklaratsioon"
+  },
+  {
+   "id": "kporp",
+   "silt": "Kodaniku- ja poliitiliste õiguste pakt",
+   "teemad": [
+    "t01-01"
+   ],
+   "viited": [
+    "KPÕRP art 2",
+    "KPÕRP art 28"
+   ],
+   "selgitus": "ÜRO leping: riik tagab pakti õigused kõigile oma võimu all olevatele isikutele ([[KPÕRP art 2]]); täitmist jälgib inimõiguste komitee ([[KPÕRP art 28]])."
+  },
+  {
+   "id": "ammendamine",
+   "silt": "Kõigepealt kodumaa vahendid",
+   "teemad": [
+    "t01-01",
+    "t01-03",
+    "t01-06"
+   ],
+   "viited": [
+    "EIÕK art 35",
+    "KPÕRP FP art 2"
+   ],
+   "selgitus": "Rahvusvahelise kaebuse saab esitada alles siis, kui riigisisesed õiguskaitsevahendid on läbi käidud ([[EIÕK art 35]], [[KPÕRP FP art 2]]).",
+   "termin": "ammendamine"
+  },
+  {
+   "id": "eiok",
+   "silt": "EIÕK",
+   "teemad": [
+    "t01-02",
+    "t01-03",
+    "t01-12"
+   ],
+   "viited": [
+    "EIÕK art 1"
+   ],
+   "termin": "eiok"
+  },
+  {
+   "id": "eik",
+   "silt": "Euroopa Inimõiguste Kohus",
+   "teemad": [
+    "t01-03",
+    "t01-06"
+   ],
+   "viited": [
+    "EIÕK art 19",
+    "EIÕK art 46"
+   ],
+   "selgitus": "Alaline kohus, mis tagab EIÕK järgimise ([[EIÕK art 19]]). Riik peab kohtuotsust täitma, täitmist kontrollib ministrite komitee ([[EIÕK art 46]])."
+  },
+  {
+   "id": "cpt",
+   "silt": "Piinamise tõkestamise komitee (CPT)",
+   "teemad": [
+    "t01-02",
+    "t01-08"
+   ],
+   "viited": [
+    "CPT art 1"
+   ],
+   "selgitus": "Külastab kinnipidamiskohti ja uurib vabaduse kaotanud inimeste kohtlemist, et neid piinamise ja alandava kohtlemise eest kaitsta ([[CPT art 1]])."
+  },
+  {
+   "id": "icc",
+   "silt": "Rahvusvaheline Kriminaalkohus",
+   "teemad": [
+    "t01-04",
+    "t01-06"
+   ],
+   "viited": [
+    "Rooma art 5"
+   ],
+   "selgitus": "Mõistab kohut üksikisikute üle nelja raskeima kuriteo eest: genotsiid, inimsusevastased kuriteod, sõjakuriteod ja agressioon ([[Rooma art 5]])."
+  },
+  {
+   "id": "komplementaarsus",
+   "silt": "Komplementaarsus",
+   "teemad": [
+    "t01-04",
+    "t01-06"
+   ],
+   "viited": [
+    "Rooma art 17"
+   ],
+   "termin": "komplementaarsus"
+  },
+  {
+   "id": "el-kohus",
+   "silt": "Euroopa Liidu Kohus",
+   "teemad": [
+    "t01-05",
+    "t01-06"
+   ],
+   "viited": [
+    "ELL art 19"
+   ],
+   "selgitus": "Tagab, et EL-i õigust tõlgendatakse ja kohaldatakse õigesti ([[ELL art 19]])."
+  },
+  {
+   "id": "eelotsus",
+   "silt": "Eelotsusmenetlus",
+   "teemad": [
+    "t01-05",
+    "t01-06"
+   ],
+   "viited": [
+    "ELTL art 267"
+   ],
+   "selgitus": "Liikmesriigi kohus küsib EL-i Kohtult, kuidas EL-i õigust tõlgendada. Kinnipeetavaga seotud asjas otsustatakse võimalikult kiiresti ([[ELTL art 267]])."
+  },
+  {
+   "id": "harta",
+   "silt": "EL-i põhiõiguste harta",
+   "teemad": [
+    "t01-02",
+    "t01-05",
+    "t01-14"
+   ],
+   "viited": [
+    "harta art 51"
+   ],
+   "termin": "harta"
+  },
+  {
+   "id": "humanitaaroigus",
+   "silt": "Humanitaarõigus",
+   "teemad": [
+    "t01-07"
+   ],
+   "viited": [
+    "Genf III art 3"
+   ],
+   "selgitus": "Relvakonflikti reeglid: sõjategevusest kõrvale jäänuid tuleb alati kohelda inimlikult ([[Genf III art 3]])."
+  },
+  {
+   "id": "inimvaarikus",
+   "silt": "Inimväärikus",
+   "teemad": [
+    "t01-08",
+    "o-t10-02"
+   ],
+   "viited": [
+    "PS § 10",
+    "harta art 1",
+    "VangS § 4^1 lg 1"
+   ],
+   "selgitus": "Kõigi põhiõiguste alus ([[PS § 10]]); inimväärikus on puutumatu ([[harta art 1]]). Vanglas: kinnipeetavat koheldakse viisil, mis austab tema inimväärikust ([[VangS § 4^1 lg 1]])."
+  },
+  {
+   "id": "piinamine",
+   "silt": "Piinamise keeld",
+   "teemad": [
+    "t01-08",
+    "o-t11-04"
+   ],
+   "viited": [
+    "PS § 18 lg 1",
+    "EIÕK art 3"
+   ],
+   "termin": "piinamine"
+  },
+  {
+   "id": "absoluutne",
+   "silt": "Piiramatu õigus",
+   "teemad": [
+    "t01-07",
+    "t01-08",
+    "t01-09",
+    "o-t11-04"
+   ],
+   "viited": [
+    "EIÕK art 15 lg 2"
+   ],
+   "selgitus": "Mõnest kohustusest ei tohi riik kõrvale kalduda isegi sõja ajal või hädaolukorras – näiteks piinamise keelust ([[EIÕK art 15 lg 2]]).",
+   "termin": "absoluutne-oigus"
+  },
+  {
+   "id": "oigus-elule",
+   "silt": "Õigus elule",
+   "teemad": [
+    "t01-09"
+   ],
+   "viited": [
+    "PS § 16",
+    "EIÕK art 2"
+   ],
+   "selgitus": "Igaühel on õigus elule ja kelleltki ei tohi elu meelevaldselt võtta ([[PS § 16]], [[EIÕK art 2]])."
+  },
+  {
+   "id": "enesemaaramisoigus",
+   "silt": "Enesemääramisõigus",
+   "teemad": [
+    "t01-10",
+    "t01-01"
+   ],
+   "viited": [
+    "PS § 19"
+   ],
+   "termin": "enesemaaramisoigus"
+  },
+  {
+   "id": "non-refoulement",
+   "silt": "Väljasaatmise keeld",
+   "teemad": [
+    "t01-11"
+   ],
+   "viited": [
+    "PagK art 33"
+   ],
+   "termin": "non-refoulement"
+  },
+  {
+   "id": "eraelu",
+   "silt": "Era- ja perekonnaelu",
+   "teemad": [
+    "t01-12"
+   ],
+   "viited": [
+    "PS § 26",
+    "EIÕK art 8"
+   ],
+   "selgitus": "Riik ei tohi eraellu ega perekonda sekkuda, välja arvatud seaduses sätestatud juhtudel ja eesmärkidel ([[PS § 26]], [[EIÕK art 8]])."
+  },
+  {
+   "id": "sonumisaladus",
+   "silt": "Sõnumisaladus",
+   "teemad": [
+    "t01-12",
+    "o-t11-03"
+   ],
+   "viited": [
+    "PS § 43"
+   ],
+   "selgitus": "Kirjade ja muude sõnumite saladus ([[PS § 43]]). Vanglas puudutab see kirjavahetust ([[VangS § 29]])."
+  },
+  {
+   "id": "usuvabadus",
+   "silt": "Usuvabadus",
+   "teemad": [
+    "t01-13"
+   ],
+   "viited": [
+    "PS § 40",
+    "EIÕK art 9"
+   ],
+   "selgitus": "Igaüks võib uskuda, mida tahab, ja oma usku muuta; usu väljendamist võib piirata ainult kindlatel eesmärkidel ([[PS § 40]], [[EIÕK art 9]])."
+  },
+  {
+   "id": "hea-haldus",
+   "silt": "Hea haldus",
+   "teemad": [
+    "t01-14"
+   ],
+   "viited": [
+    "harta art 41"
+   ],
+   "selgitus": "Asi aetakse erapooletult, õiglaselt ja mõistliku aja jooksul: inimene kuulatakse ära, ta saab andmetega tutvuda ja otsus põhjendatakse ([[harta art 41]])."
+  },
+  {
+   "id": "oigusparane-ootus",
+   "silt": "Õiguspärane ootus",
+   "teemad": [
+    "t01-15"
+   ],
+   "viited": [
+    "HMS § 67"
+   ],
+   "termin": "oigusparane-ootus"
+  },
+  {
+   "id": "vangla-piirangud",
+   "silt": "Kinnipeetava piirangud",
+   "teemad": [
+    "o-t11-01",
+    "o-t11-03",
+    "o-t11-04",
+    "t01-10",
+    "t01-15"
+   ],
+   "viited": [
+    "VangS § 4^1 lg 2"
+   ],
+   "selgitus": "Kinnipeetava vabadust piiratakse seaduses toodud piirangutega; muid piiranguid ainult julgeoleku kaalutlusel ja nii, et need ei moonuta teiste õiguste olemust ([[VangS § 4^1 lg 2]])."
+  },
+  {
+   "id": "vaie-vanglas",
+   "silt": "Vaie ja kaebus vanglas",
+   "teemad": [
+    "o-t10-03",
+    "o-t10-04",
+    "o-t11-06",
+    "t01-06",
+    "t01-14"
+   ],
+   "viited": [
+    "VangS § 1^1 lg 5",
+    "VangS § 1^1 lg 7"
+   ],
+   "selgitus": "Kinnipeetav esitab kõigepealt vaide ja alles siis kaebuse halduskohtule ([[VangS § 1^1 lg 5]]). Vaie lahendatakse 30 päeva jooksul ([[VangS § 1^1 lg 7]]).",
+   "termin": "vaie"
+  }
+ ],
+ "seosed": [
+  {
+   "a": "pohiseaduse-muutmine",
+   "b": "pohiseadus",
+   "silt": "muudab"
+  },
+  {
+   "a": "pohiseadus",
+   "b": "demokraatia",
+   "silt": "põhimõte"
+  },
+  {
+   "a": "pohiseadus",
+   "b": "oigusriik",
+   "silt": "põhimõte"
+  },
+  {
+   "a": "pohiseadus",
+   "b": "sotsiaalriik",
+   "silt": "põhimõte"
+  },
+  {
+   "a": "pohiseadus",
+   "b": "inimvaarikus",
+   "silt": "põhimõte"
+  },
+  {
+   "a": "pohiseadus",
+   "b": "pohioigus",
+   "silt": "loetleb"
+  },
+  {
+   "a": "oigusriik",
+   "b": "seaduslikkus",
+   "silt": "nõuab"
+  },
+  {
+   "a": "oigusriik",
+   "b": "oiguskindlus",
+   "silt": "nõuab"
+  },
+  {
+   "a": "oigusriik",
+   "b": "proportsionaalsus",
+   "silt": "nõuab"
+  },
+  {
+   "a": "oigusriik",
+   "b": "voimude-lahusus",
+   "silt": "nõuab"
+  },
+  {
+   "a": "demokraatia",
+   "b": "riigikogu",
+   "silt": "rahvas valib"
+  },
+  {
+   "a": "voimude-lahusus",
+   "b": "riigikogu",
+   "silt": "seadusandlik"
+  },
+  {
+   "a": "voimude-lahusus",
+   "b": "valitsus",
+   "silt": "täidesaatev"
+  },
+  {
+   "a": "voimude-lahusus",
+   "b": "kohus",
+   "silt": "kohtuvõim"
+  },
+  {
+   "a": "kohus",
+   "b": "riigikohus",
+   "silt": "kõrgeim aste"
+  },
+  {
+   "a": "normikontroll",
+   "b": "pohiseadus",
+   "silt": "mõõdupuu"
+  },
+  {
+   "a": "riigikohus",
+   "b": "normikontroll",
+   "silt": "otsustab"
+  },
+  {
+   "a": "oiguskantsler",
+   "b": "normikontroll",
+   "silt": "algatab"
+  },
+  {
+   "a": "riigikogu",
+   "b": "normikontroll",
+   "silt": "seadust kontrollitakse"
+  },
+  {
+   "a": "pohioigus",
+   "b": "vabadusoigus",
+   "silt": "liik"
+  },
+  {
+   "a": "pohioigus",
+   "b": "vordsusoigus",
+   "silt": "liik"
+  },
+  {
+   "a": "pohioigus",
+   "b": "sooritusoigus",
+   "silt": "liik"
+  },
+  {
+   "a": "pohioigus",
+   "b": "kandja",
+   "silt": "kellel"
+  },
+  {
+   "a": "pohioigus",
+   "b": "adressaat",
+   "silt": "kes tagab"
+  },
+  {
+   "a": "sooritusoigus",
+   "b": "kaitsekohustus",
+   "silt": "hõlmab"
+  },
+  {
+   "a": "sooritusoigus",
+   "b": "kohtulik-kaitse",
+   "silt": "hõlmab menetlust"
+  },
+  {
+   "a": "sooritusoigus",
+   "b": "sotsiaalriik",
+   "silt": "abi"
+  },
+  {
+   "a": "vabadusoigus",
+   "b": "kaitseala",
+   "silt": "1. samm"
+  },
+  {
+   "a": "kaitseala",
+   "b": "riive",
+   "silt": "2. samm"
+  },
+  {
+   "a": "riive",
+   "b": "seaduslikkus",
+   "silt": "kontrolli: alus"
+  },
+  {
+   "a": "riive",
+   "b": "proportsionaalsus",
+   "silt": "kontrolli: mõõdukus"
+  },
+  {
+   "a": "riive",
+   "b": "rikkumine",
+   "silt": "kui ei vasta PS-ile"
+  },
+  {
+   "a": "reservatsioon",
+   "b": "seaduslikkus",
+   "silt": "täpsustab"
+  },
+  {
+   "a": "vordsusoigus",
+   "b": "riive",
+   "silt": "erinev kohtlemine"
+  },
+  {
+   "a": "vordsusoigus",
+   "b": "proportsionaalsus",
+   "silt": "mõistlik põhjus"
+  },
+  {
+   "a": "rikkumine",
+   "b": "kohtulik-kaitse",
+   "silt": "vaidlusta"
+  },
+  {
+   "a": "adressaat",
+   "b": "valitsus",
+   "silt": "ka ametnik"
+  },
+  {
+   "a": "uro",
+   "b": "uldeklaratsioon",
+   "silt": "ÜRO raames"
+  },
+  {
+   "a": "uro",
+   "b": "kporp",
+   "silt": "ÜRO raames"
+  },
+  {
+   "a": "kporp",
+   "b": "ammendamine",
+   "silt": "kaebus pärast"
+  },
+  {
+   "a": "eiok",
+   "b": "eik",
+   "silt": "kaitseb"
+  },
+  {
+   "a": "ammendamine",
+   "b": "eik",
+   "silt": "eeldus"
+  },
+  {
+   "a": "ammendamine",
+   "b": "kohtulik-kaitse",
+   "silt": "kõigepealt"
+  },
+  {
+   "a": "eik",
+   "b": "kohus",
+   "silt": "täiendab"
+  },
+  {
+   "a": "icc",
+   "b": "komplementaarsus",
+   "silt": "põhimõte"
+  },
+  {
+   "a": "komplementaarsus",
+   "b": "kohus",
+   "silt": "esmalt riigi kohus"
+  },
+  {
+   "a": "humanitaaroigus",
+   "b": "icc",
+   "silt": "sõjakuriteod"
+  },
+  {
+   "a": "el-kohus",
+   "b": "eelotsus",
+   "silt": "teeb"
+  },
+  {
+   "a": "eelotsus",
+   "b": "kohus",
+   "silt": "küsib"
+  },
+  {
+   "a": "el-kohus",
+   "b": "harta",
+   "silt": "tõlgendab"
+  },
+  {
+   "a": "inimvaarikus",
+   "b": "piinamine",
+   "silt": "alus"
+  },
+  {
+   "a": "piinamine",
+   "b": "absoluutne",
+   "silt": "on"
+  },
+  {
+   "a": "absoluutne",
+   "b": "reservatsioon",
+   "silt": "ei saa piirata"
+  },
+  {
+   "a": "cpt",
+   "b": "piinamine",
+   "silt": "tõkestab"
+  },
+  {
+   "a": "non-refoulement",
+   "b": "piinamine",
+   "silt": "kaitseb ohu eest"
+  },
+  {
+   "a": "eiok",
+   "b": "eraelu",
+   "silt": "art 8"
+  },
+  {
+   "a": "eraelu",
+   "b": "vabadusoigus",
+   "silt": "on"
+  },
+  {
+   "a": "usuvabadus",
+   "b": "vabadusoigus",
+   "silt": "on"
+  },
+  {
+   "a": "enesemaaramisoigus",
+   "b": "vabadusoigus",
+   "silt": "on"
+  },
+  {
+   "a": "oigus-elule",
+   "b": "absoluutne",
+   "silt": "kõrvalekaldumine piiratud"
+  },
+  {
+   "a": "sonumisaladus",
+   "b": "kaitseala",
+   "silt": "näide"
+  },
+  {
+   "a": "eraelu",
+   "b": "sonumisaladus",
+   "silt": "lähedane"
+  },
+  {
+   "a": "hea-haldus",
+   "b": "kohtulik-kaitse",
+   "silt": "menetlusõigused"
+  },
+  {
+   "a": "oigusparane-ootus",
+   "b": "oiguskindlus",
+   "silt": "tuleneb"
+  },
+  {
+   "a": "oiguskantsler",
+   "b": "hea-haldus",
+   "silt": "kontrollib"
+  },
+  {
+   "a": "kandja",
+   "b": "vangla-piirangud",
+   "silt": "ka kinnipeetav"
+  },
+  {
+   "a": "vangla-piirangud",
+   "b": "seaduslikkus",
+   "silt": "seaduse alusel"
+  },
+  {
+   "a": "vangla-piirangud",
+   "b": "riive",
+   "silt": "on"
+  },
+  {
+   "a": "inimvaarikus",
+   "b": "vangla-piirangud",
+   "silt": "piir"
+  },
+  {
+   "a": "vaie-vanglas",
+   "b": "kohtulik-kaitse",
+   "silt": "tee kohtusse"
+  },
+  {
+   "a": "hea-haldus",
+   "b": "vaie-vanglas",
+   "silt": "vanglas"
+  },
+  {
+   "a": "ammendamine",
+   "b": "vaie-vanglas",
+   "silt": "algab siit"
+  }
+ ]
+}

@@ -3,6 +3,8 @@
   "tund": "t01",
   "jrk": 5,
   "pealkiri": "Euroopa Liidu Kohus",
+  "lyhend": "EL-i Kohus",
+  "ikoon": "kohtutaht",
   "kysimused": [
     7
   ],

@@ -3,6 +3,8 @@
   "tund": "t01",
   "jrk": 10,
   "pealkiri": "Vaba enesemääratlemine ja eneseteostus",
+  "lyhend": "Eneseteostus",
+  "ikoon": "kompass",
   "kysimused": [12],
   "lyhidalt": "Igaüks võib ise otsustada, kuidas elada, kui ta austab teiste õigusi ja järgib seadust (PS § 19). Rahvaste tasandil tähendab enesemääramine, et rahvas otsustab ise oma poliitilise staatuse.",
   "osad": {

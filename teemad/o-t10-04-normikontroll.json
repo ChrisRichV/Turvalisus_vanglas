@@ -3,6 +3,8 @@
  "tund": "o-t10",
  "jrk": 4,
  "pealkiri": "Normikontroll: kas seadus ise on õige?",
+ "lyhend": "Normikontroll",
+ "ikoon": "luup",
  "kysimused": [],
  "lyhidalt": "Tavaliselt kontrollitakse, kas ametnik tegi seaduse järgi. Normikontrollis küsitakse sammu kõrgemalt: kas seadus või määrus ise vastab põhiseadusele? Lõpliku otsuse teeb Riigikohus, ja ta võib vale seaduse kehtetuks tunnistada.",
  "osad": {
