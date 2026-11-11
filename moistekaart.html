@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Source+Serif+4:opsz,wght@8..60,300..700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/stiil.css?v=20261111k">
+<link rel="stylesheet" href="assets/stiil.css?v=20261111o">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23f2c230'/%3E%3Ctext x='16' y='24' font-size='22' text-anchor='middle' font-family='Georgia' fill='%231c2733'%3E§%3C/text%3E%3C/svg%3E">
 </head>
 <body class="mk-leht">
@@ -41,16 +41,19 @@
       <div class="mk-suum" role="group" aria-label="Suum">
         <button type="button" data-suum="1.25" aria-label="Suurenda">+</button>
         <button type="button" data-suum="0.8" aria-label="Vähenda">−</button>
-        <button type="button" data-suum="sobita" aria-label="Näita kogu kaarti">⤢</button>
+        <button type="button" data-suum="sobita" aria-label="Näita kogu kaarti" title="Näita kogu kaarti">◎</button>
+        <button type="button" class="mk-taisnupp" aria-pressed="false" aria-label="Täisekraan" title="Täisekraan (Esc väljub)">⤢</button>
       </div>
+      <details class="mk-legend-kast" id="mk-legend-kast"><summary>Tähised</summary>
       <ul class="mk-legend" aria-label="Tähised">
         <li><span class="lg-teema"></span> Teema</li>
         <li><span class="lg-moiste"></span> Mõiste</li>
         <li><span class="lg-sild"></span> Seob mitut tundi</li>
         <li><span class="lg-sate">§</span> Säte</li>
         <li><span class="lg-joon"></span> Tundide vaheline seos</li>
+        <li><span class="lg-suurus"><i></i><i></i><i></i></span> Suurem ja heledam = rohkem seoseid</li>
         <li><span class="lg-ala"></span> Kogum (tund või aine)</li>
-      </ul>
+      </ul></details>
       <p class="mk-tyhi" id="mk-tyhi" hidden></p>
     </div>
     <aside class="mk-paneel" id="mk-paneel" aria-live="polite" tabindex="-1"></aside>
@@ -62,9 +65,9 @@
   <p>Mõistete selgitused on lihtsustatud ega asenda seaduse teksti. Iga selgituse juures on säte – klõpsa, et lugeda sõna-sõnalist teksti.</p>
 </footer>
 
-<script src="assets/seadistus.js?v=20261111k"></script>
-<script src="assets/app.js?v=20261111k"></script>
-<script src="assets/ikoonid.js?v=20261111k"></script>
+<script src="assets/seadistus.js?v=20261111o"></script>
+<script src="assets/app.js?v=20261111o"></script>
+<script src="assets/ikoonid.js?v=20261111o"></script>
 <script>
 (function () {
   "use strict";
@@ -75,6 +78,7 @@
   A.kaivita({ leht: "moistekaart" });
 
   let D = null;               // andmed
+  try { if (window.innerWidth > 640) document.getElementById("mk-legend-kast").open = true; } catch (_) { /* pole oluline */ }
   // vaade: "koik" (tervikpilt) | "aine:<id>" (kõik aine tunnid) | "<tunni id>" (üks tund)
   let vaade = q.get("vaade") || "koik";
   let valitud = q.get("valitud") || null;
@@ -197,7 +201,7 @@
         const tt = tunnid.filter((t) => t.aine === aid);
         tt.forEach((t, j) => { const o = ring(tt.length, 170 + 40 * tt.length, j); ankur[t.id] = { x: c.x + o.x, y: c.y + o.y }; });
       });
-    } else tunnid.forEach((t, i) => (ankur[t.id] = ring(tunnid.length, 330 + 40 * tunnid.length, i)));
+    } else tunnid.forEach((t, i) => (ankur[t.id] = ring(tunnid.length, 380 + 70 * tunnid.length, i)));
     const kesk = (pp) => pp.length ? { x: pp.reduce((s, p) => s + p.x, 0) / pp.length, y: pp.reduce((s, p) => s + p.y, 0) / pp.length } : { x: 0, y: 0 };
 
     // teema ja samanimeline mõiste = üks sõlm (nt „ÜRO”), et kaardil ei oleks kaksikuid
@@ -278,10 +282,23 @@
     sõnad.forEach((w) => { const r = read[read.length - 1]; if (r && (r + " " + w).length > max && read.length < 2) read.push(w); else read[read.length - 1] = r ? r + " " + w : w; });
     return read;
   }
+  // aste = mitu seost sõlmel on: mõistel teiste mõistetega (kogu kaardil) + tundide arv; teemal mõistete arv.
+  // Suurem aste → suurem sõlm ja tugevam toon (mk-t1 … mk-t3).
+  const ASTE = { 1: 1, 2: 1.2, 3: 1.45 };
+  function aste(s) {
+    if (s.liik === "moiste") {
+      const n = D.mk.seosed.filter((x) => x.a === s.m.id || x.b === s.m.id).length + (s.m._tunnid.length - 1) * 2;
+      s.seoseid = n; return n >= 6 ? 3 : n >= 3 ? 2 : 1;
+    }
+    if (s.liik === "teema") { const n = [...s.naabrid].length; s.seoseid = n; return n >= 7 ? 3 : n >= 4 ? 2 : 1; }
+    s.seoseid = [...s.naabrid].length; return s.seoseid >= 4 ? 2 : 1;
+  }
   function mooda(solmed) {
     solmed.forEach((s) => {
-      if (s.liik === "teema") { s.read = murra(s.silt, 18); s.font = "650 13px Archivo, 'Arial Narrow', sans-serif"; s.h = s.read.length > 1 ? 44 : 34; s.w = 44 + Math.max(...s.read.map((r) => laius(r, s.font))) + 12; }
-      else if (s.liik === "moiste") { s.read = murra(s.silt, 20); s.font = "600 13px Archivo, 'Arial Narrow', sans-serif"; s.h = s.read.length > 1 ? 40 : (s.ikoon ? 32 : 28); s.w = Math.max(...s.read.map((r) => laius(r, s.font))) + 24 + (s.sild ? 16 : 0) + (s.ikoon ? 24 : 0); }
+      s.tase = aste(s); const k = ASTE[s.tase]; s.k = k;
+      const px = (n) => Math.round(n * k * 10) / 10;
+      if (s.liik === "teema") { s.read = murra(s.silt, 18); s.font = `${s.tase > 1 ? 750 : 650} ${px(13)}px Archivo, 'Arial Narrow', sans-serif`; s.h = px(s.read.length > 1 ? 44 : 34); s.w = px(44) + Math.max(...s.read.map((r) => laius(r, s.font))) + px(12); }
+      else if (s.liik === "moiste") { s.read = murra(s.silt, 20); s.font = `${s.tase > 1 ? 750 : 600} ${px(13)}px Archivo, 'Arial Narrow', sans-serif`; s.h = px(s.read.length > 1 ? 40 : (s.ikoon ? 32 : 28)); s.w = Math.max(...s.read.map((r) => laius(r, s.font))) + px(24) + (s.sild ? px(16) : 0) + (s.ikoon ? px(24) : 0); }
       else { s.read = [s.silt]; s.font = "700 11.5px Archivo, 'Arial Narrow', sans-serif"; s.h = 22; s.w = laius(s.silt, s.font) + 14; }
     });
   }
@@ -379,20 +396,21 @@
       }
     });
     G.solmed.forEach((s) => {
-      const g = el("g", { class: `mk-solm mk-${s.liik}${s.sild ? " mk-sild" : ""}`, tabindex: 0, role: "button",
-        "aria-label": `${s.liik === "teema" ? "Teema" : s.liik === "sate" ? "Säte" : "Mõiste"}: ${s.silt}`, "data-id": s.id }, gN);
+      const g = el("g", { class: `mk-solm mk-${s.liik} mk-t${s.tase}${s.sild ? " mk-sild" : ""}`, tabindex: 0, role: "button",
+        "aria-label": `${s.liik === "teema" ? "Teema" : s.liik === "sate" ? "Säte" : "Mõiste"}: ${s.silt}, ${s.seoseid} seost`, "data-id": s.id }, gN);
       s.el = g;
       el("rect", { class: "mk-kast", x: -s.w / 2, y: -s.h / 2, width: s.w, height: s.h, rx: s.liik === "moiste" ? s.h / 2 : s.liik === "sate" ? 4 : 8 }, g);
       if (s.sild) el("rect", { class: "mk-rongas", x: -s.w / 2 - 4, y: -s.h / 2 - 4, width: s.w + 8, height: s.h + 8, rx: s.h / 2 + 4 }, g);
       let tx = 0;
       if (s.ikoon) {
-        const ik = el("svg", { x: -s.w / 2 + (s.liik === "teema" ? 10 : 12), y: -11, width: 22, height: 22, viewBox: "0 0 24 24", class: "mk-ikoon" }, g);
+        const iw = 22 * s.k;
+        const ik = el("svg", { x: -s.w / 2 + (s.liik === "teema" ? 10 : 12) * s.k, y: -iw / 2, width: iw, height: iw, viewBox: "0 0 24 24", class: "mk-ikoon" }, g);
         ik.innerHTML = A.IKOONID[s.ikoon] || "";
         ik.setAttribute("fill", "none"); ik.setAttribute("stroke", "currentColor"); ik.setAttribute("stroke-width", "1.7");
         ik.setAttribute("stroke-linecap", "round"); ik.setAttribute("stroke-linejoin", "round");
-        tx = s.liik === "teema" ? 17 : 12;
+        tx = (s.liik === "teema" ? 17 : 12) * s.k;
       }
-      if (s.sild) { const t = el("text", { class: "mk-sild-mark", x: s.w / 2 - 13, y: 0, dy: "0.35em", "text-anchor": "middle" }, g); t.textContent = "⇄"; tx -= 8; }
+      if (s.sild) { const t = el("text", { class: "mk-sild-mark", x: s.w / 2 - 13 * s.k, y: 0, dy: "0.35em", "text-anchor": "middle", style: `font-size:${13 * s.k}px` }, g); t.textContent = "⇄"; tx -= 8 * s.k; }
       const t = el("text", { class: "mk-tekst", x: tx, "text-anchor": "middle", style: `font:${s.font}` }, g);
       s.read.forEach((r, i) => { const sp = el("tspan", { x: tx, dy: i === 0 ? (s.read.length > 1 ? "-0.25em" : "0.35em") : "1.2em" }, t); sp.textContent = r; });
       if (s.liik === "moiste" && s.valjas && s.valjas.length) {
@@ -455,6 +473,22 @@
     const k = Math.min(3, Math.max(0.25, tf.k * f)); f = k / tf.k;
     tf = { k, x: cx - (cx - tf.x) * f, y: cy - (cy - tf.y) * f }; rakenda(false);
   }
+  /* täisekraan: kaart + paneel kogu ekraanil. Brauseri täisekraan, kui võimalik; muidu (nt iPhone) leheülene kiht. */
+  const ala = document.querySelector(".mk-ala"), taisNupp = document.querySelector(".mk-taisnupp");
+  function taisekraan(on) {
+    ala.classList.toggle("mk-taisekraan", on);
+    document.body.classList.toggle("mk-tais-avatud", on);
+    taisNupp.setAttribute("aria-pressed", on); taisNupp.textContent = on ? "✕" : "⤢";
+    taisNupp.setAttribute("aria-label", on ? "Välju täisekraanist" : "Täisekraan");
+    try {
+      if (on && ala.requestFullscreen && !document.fullscreenElement) ala.requestFullscreen().catch(() => {});
+      if (!on && document.fullscreenElement) document.exitFullscreen().catch(() => {});
+    } catch (_) { /* vana brauser – piisab CSS-kihist */ }
+    requestAnimationFrame(() => sobita(false));
+  }
+  taisNupp.addEventListener("click", () => taisekraan(!ala.classList.contains("mk-taisekraan")));
+  document.addEventListener("fullscreenchange", () => { if (!document.fullscreenElement && ala.classList.contains("mk-taisekraan")) taisekraan(false); });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape" && ala.classList.contains("mk-taisekraan") && !document.fullscreenElement) taisekraan(false); });
   document.querySelector(".mk-suum").addEventListener("click", (e) => {
     const b = e.target.closest("[data-suum]"); if (!b) return;
     if (b.dataset.suum === "sobita") sobita(true); else suumi(+b.dataset.suum);
@@ -503,7 +537,7 @@
   });
   // mobiilis muutub kõrgus aadressiriba tõttu kerimisel – sobita uuesti ainult siis, kui laius muutus
   let viimaneLaius = window.innerWidth;
-  window.addEventListener("resize", () => { if (window.innerWidth !== viimaneLaius) { viimaneLaius = window.innerWidth; sobita(false); } });
+  window.addEventListener("resize", () => { if (window.innerWidth !== viimaneLaius || ala.classList.contains("mk-taisekraan")) { viimaneLaius = window.innerWidth; sobita(false); } });
 
   /* ---------- valik ja paneel ---------- */
   function markeeri() {

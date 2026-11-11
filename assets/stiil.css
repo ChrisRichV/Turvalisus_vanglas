@@ -962,8 +962,16 @@ main { padding: 0 1rem 4rem; }
 #mk-svg:active { cursor: grabbing; }
 .mk-suum { position: absolute; right: .6rem; top: .6rem; display: grid; gap: .3rem; }
 .mk-suum button { width: 2.2rem; height: 2.2rem; border-radius: 8px; border: 1px solid var(--joon); background: var(--pind); cursor: pointer; font-size: 1.1rem; font-family: var(--kiri-pealkiri); }
-.mk-legend { position: absolute; left: .6rem; bottom: .5rem; right: 3.5rem; display: flex; flex-wrap: wrap; gap: .25rem .9rem; list-style: none; margin: 0; padding: .35rem .6rem;
-  background: color-mix(in srgb, var(--pind) 88%, transparent); border-radius: 8px; font-family: var(--kiri-pealkiri); font-size: .75rem; color: var(--mahe); pointer-events: none; width: max-content; max-width: calc(100% - 4.2rem); }
+.mk-legend-kast { position: absolute; left: .6rem; bottom: .5rem; right: 3.6rem; font-family: var(--kiri-pealkiri); font-size: .75rem; color: var(--mahe); }
+.mk-legend-kast summary { pointer-events: auto; cursor: pointer; display: inline-block; padding: .3rem .6rem; border-radius: 8px; border: 1px solid var(--joon); background: var(--pind); list-style: none; }
+.mk-legend-kast summary::-webkit-details-marker { display: none; }
+.mk-legend-kast[open] summary { margin-top: .3rem; }
+.mk-legend-kast[open] summary { font-size: 0; }
+.mk-legend-kast[open] summary::before { content: "Peida tähised"; font-size: .75rem; }
+.mk-legend-kast { display: flex; flex-direction: column-reverse; align-items: flex-start; pointer-events: none; }
+.mk-legend-kast[open] { pointer-events: auto; }
+.mk-legend { position: static; display: flex; flex-wrap: wrap; gap: .25rem .9rem; list-style: none; margin: 0; padding: .35rem .6rem;
+  background: color-mix(in srgb, var(--pind) 88%, transparent); border-radius: 8px; font-family: var(--kiri-pealkiri); font-size: .75rem; color: var(--mahe); pointer-events: none; max-width: 100%; }
 .mk-legend li { display: inline-flex; align-items: center; gap: .35rem; }
 .mk-legend span { display: inline-block; }
 .lg-teema { width: 1.1rem; height: .8rem; border: 1.5px solid var(--tint); border-radius: 3px; background: var(--pind); }
@@ -1120,4 +1128,37 @@ mark.lk sup { display: none; font-family: var(--kiri-pealkiri); font-weight: 800
   .sb-asjaolu::before { content: none; }
   .sb-asjaolu { border-left: 3px solid var(--joon); padding-left: .5rem; }
   .sb-otsus { grid-template-columns: 1fr 1fr; }
+}
+
+/* ---------- mõistekaart: sõlme suurus ja toon seoste arvu järgi ---------- */
+.mk-moiste.mk-t1 .mk-kast { stroke-width: 1.4; fill: color-mix(in srgb, var(--vask) 5%, var(--pind)); stroke: color-mix(in srgb, var(--vask) 65%, var(--pind)); }
+.mk-moiste.mk-t1 .mk-tekst { fill: color-mix(in srgb, var(--tint) 80%, var(--pind)); }
+.mk-moiste.mk-t2 .mk-kast { stroke-width: 2.2; fill: color-mix(in srgb, var(--vask) 14%, var(--pind)); }
+.mk-moiste.mk-t3 .mk-kast { stroke-width: 3; fill: color-mix(in srgb, var(--vask) 30%, var(--pind)); }
+.mk-moiste.mk-t3 .mk-tekst { fill: var(--tint); }
+:root:not([data-theme="light"]) .mk-moiste.mk-t3 .mk-kast { filter: drop-shadow(0 0 10px rgba(46, 245, 214, .55)); }
+:root:not([data-theme="light"]) .mk-moiste.mk-t1 .mk-kast { filter: none; }
+.mk-teema.mk-t1 .mk-kast { stroke: var(--mahe); stroke-width: 1.3; }
+.mk-teema.mk-t1 .mk-tekst { fill: color-mix(in srgb, var(--tint) 80%, var(--pind)); }
+.mk-teema.mk-t1 .mk-ikoon { color: var(--mahe); }
+.mk-teema.mk-t2 .mk-kast { stroke: var(--tint); stroke-width: 2; fill: color-mix(in srgb, var(--tint) 8%, var(--pind)); }
+.mk-teema.mk-t3 .mk-kast { stroke: var(--tint); stroke-width: 2.6; fill: color-mix(in srgb, var(--tint) 18%, var(--pind)); }
+:root:not([data-theme="light"]) .mk-teema.mk-t3 .mk-kast { filter: drop-shadow(0 0 10px rgba(230, 234, 238, .35)); }
+.lg-suurus { display: inline-flex !important; align-items: flex-end; gap: 2px; }
+.lg-suurus i { display: block; border: 1.5px solid var(--vask); border-radius: 99px; }
+.lg-suurus i:nth-child(1) { width: .55rem; height: .4rem; opacity: .6; }
+.lg-suurus i:nth-child(2) { width: .75rem; height: .55rem; }
+.lg-suurus i:nth-child(3) { width: 1rem; height: .7rem; background: color-mix(in srgb, var(--vask) 35%, transparent); border-width: 2px; }
+
+/* ---------- mõistekaart täisekraanil ---------- */
+.mk-taisnupp { font-size: 1.05rem !important; }
+.mk-ala.mk-taisekraan { position: fixed; inset: 0; z-index: 90; max-width: none; margin: 0; padding: .6rem; gap: .6rem; background: var(--paber);
+  grid-template-columns: minmax(0, 1fr) 24rem; height: 100vh; height: 100dvh; }
+.mk-ala.mk-taisekraan .mk-louend { height: 100%; min-height: 0; }
+.mk-ala.mk-taisekraan .mk-paneel { max-height: 100%; height: 100%; position: static; }
+.mk-ala:fullscreen { background: var(--paber); }
+body.mk-tais-avatud { overflow: hidden; }
+@media (max-width: 900px) {
+  .mk-ala.mk-taisekraan { grid-template-columns: 1fr; grid-template-rows: minmax(0, 1fr) minmax(0, 38%); }
+  .mk-ala.mk-taisekraan .mk-paneel { height: auto; overflow: auto; }
 }
