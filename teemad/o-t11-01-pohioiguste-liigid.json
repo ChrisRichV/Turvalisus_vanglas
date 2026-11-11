@@ -1,0 +1,309 @@
+{
+ "id": "o-t11-01",
+ "tund": "o-t11",
+ "jrk": 1,
+ "pealkiri": "Põhiõiguste liigid",
+ "kysimused": [
+  30,
+  31
+ ],
+ "lyhidalt": "Põhiõigusi saab liigitada kolmel viisil: kellele õigus kuulub, kas see laieneb ka juriidilisele isikule ja mida õigus sisuliselt annab. Kõige tähtsam on sisu järgi jaotus – vabadus-, võrdsus- ja sooritusõigused –, sest sellest sõltub, kuidas riive põhiseaduspärasust kontrollitakse.",
+ "osad": {
+  "pohimote": {
+   "tekst": "Põhiõigused on **riigi ja üksikisiku vaheline suhe**. Slaidide järgi tulenevad need loomuõigusest: loomuõigus → inimõigused → põhiõigused (põhiseadusesse kirja pandud). Sisu järgi on kolm liiki:",
+   "tsitaat": {
+    "viide": "PS § 19 lg 1",
+    "tekst": "Igaühel on õigus vabale eneseteostusele."
+   },
+   "punktid": [
+    "**Vabadusõigused ehk tõrjeõigused** – riik peab hoiduma sekkumast. Näiteks õigus vabadusele ja isikupuutumatusele ([[PS § 20 lg 1]]), kodu puutumatus ([[PS § 33]]), omandi puutumatus ([[PS § 32 lg 1]]).",
+    "**Võrdsusõigused** – riik peab sarnaseid kohtlema sarnaselt. Üldine võrdsusõigus ja diskrimineerimiskeeld on samas lõikes ([[PS § 12 lg 1]]).",
+    "**Sooritusõigused ehk õigused riigi positiivsele tegevusele** – riik peab midagi tegema. Slaidide järgi jagunevad need kolmeks: **kaitsepõhiõigused** (riik kaitseb inimest teise inimese eest), **sotsiaalsed õigused** ([[PS § 28 lg 2]]) ja **õigus korraldusele ja menetlusele** ([[PS § 14]]).",
+    "Põhiseaduse II peatükis on ka **põhikohustused**. Need on inimese kohustused riigi ees, näiteks kohustus järgida seadust ([[PS § 19 lg 2]]). Põhikohustus kitsendab põhiõigusi."
+   ]
+  },
+  "alus": {
+   "read": [
+    {
+     "tase": "Allikad",
+     "viited": [
+      "PS § 10"
+     ],
+     "tekst": "Põhiõigused on põhiseaduse II peatükis, aga loetelu ei ole ammendav: kehtivad ka muud õigused, mis tulenevad põhiseaduse mõttest. Slaidide järgi on allikad lisaks EIÕK ja EL põhiõiguste harta."
+    },
+    {
+     "tase": "Kellele (isikuline jaotus)",
+     "viited": [
+      "PS § 9 lg 1",
+      "PS § 29 lg 1",
+      "PS § 36 lg 3"
+     ],
+     "tekst": "Igaüheõigused („igaüks”, „kõik”, „kedagi”), kodanikuõigused („Eesti kodanikul”) ja rahvusõigused („igal eestlasel”)."
+    },
+    {
+     "tase": "Füüsiline või juriidiline isik",
+     "viited": [
+      "PS § 9 lg 2"
+     ],
+     "tekst": "Juriidilisele isikule laieneb õigus ainult siis, kui see sobib tema eesmärkide ja õiguse olemusega."
+    },
+    {
+     "tase": "Sisu järgi",
+     "viited": [
+      "PS § 20 lg 1",
+      "PS § 12 lg 1",
+      "PS § 28 lg 2",
+      "PS § 14"
+     ],
+     "tekst": "Vabadusõigus, võrdsusõigus, sooritusõigus (sotsiaalne õigus; õigus korraldusele ja menetlusele)."
+    },
+    {
+     "tase": "Vangla",
+     "viited": [
+      "VangS § 4^1 lg 1",
+      "VangS § 4^1 lg 2"
+     ],
+     "tekst": "Kinnipeetav jääb põhiõiguste kandjaks: inimväärikust austatakse ja vabadust piiratakse ainult seaduse alusel."
+    }
+   ]
+  },
+  "piiramine": {
+   "pealkiri": "Miks liik on oluline",
+   "tekst": "E-õpiobjekti järgi erineb riive põhiseaduspärasuse kontroll sõltuvalt sellest, mis sisuga põhiõigusega on tegu. Slaid 17 annab iga liigi jaoks oma põhiküsimuse:",
+   "punktid": [
+    "**Vabadusõigus:** keda ja mida põhiõigusnorm kaitseb, kas sellesse on sekkutud ja kas sekkumine on põhiseaduspärane?",
+    "**Võrdsusõigus:** kas sarnaste tunnustega isikute gruppe koheldakse sarnases olukorras erinevalt ja kas see on põhiseaduspärane?",
+    "**Sooritusõigus:** kas riik on jätnud midagi tegemata (kaitse, korraldus ja menetlus, piisav abi) ja kas selline tegevusetus on õigustatud?"
+   ]
+  },
+  "vangla": {
+   "tekst": "Vanglas puutud kokku kõigi kolme liigiga. Vabadusõigust piirab iga keeld ja sund. Võrdsusõigus tuleb mängu, kui kinnipeetavaid koheldakse erinevalt. Sooritusõigus tähendab, et vangla peab ise midagi tagama, näiteks tervishoiu ([[VangS § 49 lg 1]]).",
+   "naide": {
+    "olukord": "Ühe päeva jooksul: (a) ametnik võtab kinnipeetavalt hoiule keelatud eseme; (b) kinnipeetav kaebab, et kambrikaaslane sai pikaajalise kokkusaamise, tema mitte; (c) kinnipeetav palub arsti vastuvõttu.",
+    "analyys": "**(a) Vabadusõigus** – sekkumine omandi kasutamisse ([[PS § 32 lg 2]]); kontrollitakse kaitseala, riivet ja selle põhiseaduspärasust. **(b) Võrdsusõigus** – võrreldakse kahte gruppi ja küsitakse, kas erineval kohtlemisel on põhjus ([[PS § 12 lg 1]]). **(c) Sooritusõigus** – riik peab tegutsema: igaühel on õigus tervise kaitsele ([[PS § 28 lg 1]]) ja tervishoiutöötaja peab kinnipeetavate terviseseisundit jälgima ([[VangS § 52 lg 2]]). **Järeldus:** enne kontrolli alustamist määra alati õiguse liik – sellest sõltub kontrolliskeem."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Kolm jaotust aetakse segi. „Igaüheõigus” ja „vabadusõigus” ei ole sama asi: esimene ütleb, **kellele** õigus kuulub, teine, **mida** see annab.",
+    "Arvatakse, et sooritusõigus on ainult sotsiaalabi. Slaidide järgi kuuluvad siia ka kaitsepõhiõigused ning õigus korraldusele ja menetlusele ([[PS § 14]]).",
+    "Unustatakse, et põhiõiguste loetelu ei ole ammendav ([[PS § 10]]).",
+    "Põhikohustus (inimese kohustus riigi ees) aetakse segi riigi kohustusega tagada põhiõigused ([[PS § 14]])."
+   ]
+  }
+ },
+ "skeem": [
+  {
+   "tyyp": "puu",
+   "pealkiri": "Põhiõiguste liigid sisu järgi (slaid 11)",
+   "juur": {
+    "pealkiri": "Põhiõigus",
+    "tekst": "riigi ja üksikisiku suhe",
+    "viide": "PS § 10"
+   },
+   "harud": [
+    {
+     "pealkiri": "Vabadusõigused",
+     "toon": "a",
+     "lapsed": [
+      {
+       "pealkiri": "Riik hoidub sekkumast",
+       "tekst": "tõrjeõigus",
+       "viide": "PS § 20 lg 1"
+      },
+      {
+       "pealkiri": "Näited",
+       "tekst": "omand, kodu, liikumine",
+       "viide": "PS § 32 lg 2"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Võrdsusõigused",
+     "toon": "b",
+     "lapsed": [
+      {
+       "pealkiri": "Üldine",
+       "tekst": "kõik on seaduse ees võrdsed",
+       "viide": "PS § 12 lg 1"
+      },
+      {
+       "pealkiri": "Erilised",
+       "tekst": "nt diskrimineerimiskeeld, abikaasad",
+       "viide": "PS § 27 lg 2"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Sooritusõigused",
+     "toon": "c",
+     "lapsed": [
+      {
+       "pealkiri": "Kaitsepõhiõigus",
+       "tekst": "kaitse teise isiku eest",
+       "viide": "PS § 13 lg 1"
+      },
+      {
+       "pealkiri": "Sotsiaalne õigus",
+       "viide": "PS § 28 lg 2"
+      },
+      {
+       "pealkiri": "Korraldus ja menetlus",
+       "viide": "PS § 14"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "tyyp": "vordlus",
+   "pealkiri": "Kolm liigitust (e-õpiobjekt „Põhiõiguste liigid”)",
+   "veerud": [
+    "Liigitus",
+    "Rühmad",
+    "Näide"
+   ],
+   "read": [
+    {
+     "silt": "Isikuline kaitseala",
+     "lahtrid": [
+      "igaühe-, kodaniku- ja rahvusõigused",
+      "„Igaühel…” – [[PS § 19 lg 1]]; „Eesti kodanikul…” – [[PS § 29 lg 1]]; „Igal eestlasel…” – [[PS § 36 lg 3]]"
+     ]
+    },
+    {
+     "silt": "Isiku liik",
+     "lahtrid": [
+      "ainult füüsilisele isikule / ka juriidilisele isikule",
+      "[[PS § 9 lg 2]]"
+     ]
+    },
+    {
+     "silt": "Õiguse sisu",
+     "lahtrid": [
+      "vabadus-, võrdsus- ja sooritusõigused",
+      "[[PS § 20 lg 1]], [[PS § 12 lg 1]], [[PS § 28 lg 2]]"
+     ]
+    }
+   ]
+  }
+ ],
+ "vastus": [
+  {
+   "nr": 30,
+   "punktid": [
+    "**Sisu järgi** (kõige olulisem): vabadusõigused ehk tõrjeõigused, võrdsusõigused ja sooritusõigused ehk õigused riigi positiivsele tegevusele.",
+    "**Sooritusõigused** jagunevad: kaitsepõhiõigused, sotsiaalsed õigused ([[PS § 28 lg 2]]) ning õigus korraldusele ja menetlusele ([[PS § 14]]).",
+    "**Isikulise kaitseala järgi:** igaüheõigused, kodanikuõigused, rahvusõigused ([[PS § 9 lg 1]]).",
+    "**Isiku liigi järgi:** õigused, mis kuuluvad ainult füüsilisele isikule, ja õigused, mis laienevad ka juriidilisele isikule ([[PS § 9 lg 2]])."
+   ]
+  },
+  {
+   "nr": 31,
+   "punktid": [
+    "**Vabadusõigus** – nt õigus vabadusele ja isikupuutumatusele ([[PS § 20 lg 1]]), omandi puutumatus ([[PS § 32 lg 1]]), kodu puutumatus ([[PS § 33]]). Riik peab hoiduma sekkumast.",
+    "**Võrdsusõigus** – kõik on seaduse ees võrdsed, diskrimineerimine on keelatud ([[PS § 12 lg 1]]). Riik peab kohtlema sarnaseid sarnaselt.",
+    "**Sooritusõigus** – nt õigus riigi abile puuduse korral ([[PS § 28 lg 2]]). Riik peab tegutsema.",
+    "**Erinevus:** mida riigilt oodatakse (hoidumine, võrdne kohtlemine või tegutsemine) ja kuidas riivet kontrollitakse (vabadusõigus: kaitseala → riive → põhiseaduspärasus; võrdsusõigus: võrreldavad grupid → erinev kohtlemine → õigustus; sooritusõigus: kas tegevusetus on õigustatud).",
+    "Erinevad on ka **kandjad**: igaüks, kodanik või eestlane."
+   ]
+  }
+ ],
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Mis liiki põhiõigus see sisu järgi on?",
+   "ryhmad": [
+    "Vabadusõigus",
+    "Võrdsusõigus",
+    "Sooritusõigus"
+   ],
+   "read": [
+    {
+     "tekst": "Kodu on puutumatu",
+     "oige": 0,
+     "selgitus": "Riik ei tohi sisse tungida ([[PS § 33]])."
+    },
+    {
+     "tekst": "Abikaasad on võrdõiguslikud",
+     "oige": 1,
+     "selgitus": "Eriline võrdsusõigus ([[PS § 27 lg 2]])."
+    },
+    {
+     "tekst": "Õigus riigi abile vanaduse ja puuduse korral",
+     "oige": 2,
+     "selgitus": "Sotsiaalne õigus ([[PS § 28 lg 2]])."
+    },
+    {
+     "tekst": "Õigus enda omandit vabalt vallata, kasutada ja käsutada",
+     "oige": 0,
+     "selgitus": "[[PS § 32 lg 2]]."
+    },
+    {
+     "tekst": "Kedagi ei tohi diskrimineerida",
+     "oige": 1,
+     "selgitus": "[[PS § 12 lg 1]]."
+    },
+    {
+     "tekst": "Õiguste ja vabaduste tagamine on riigivõimu kohustus",
+     "oige": 2,
+     "selgitus": "Õigus korraldusele ja menetlusele ([[PS § 14]])."
+    }
+   ]
+  },
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Kellele see õigus põhiseaduse sõnastuse järgi kuulub?",
+   "ryhmad": [
+    "Igaüks",
+    "Eesti kodanik",
+    "Eestlane"
+   ],
+   "read": [
+    {
+     "tekst": "Õigus vabale eneseteostusele",
+     "oige": 0,
+     "selgitus": "„Igaühel on õigus…” ([[PS § 19 lg 1]])."
+    },
+    {
+     "tekst": "Õigus vabalt valida tegevusala, elukutset ja töökohta",
+     "oige": 1,
+     "selgitus": "„Eesti kodanikul on õigus…”; laieneb teistele, kui seadus ei sätesta teisiti ([[PS § 29 lg 1]])."
+    },
+    {
+     "tekst": "Õigus asuda Eestisse",
+     "oige": 2,
+     "selgitus": "„Igal eestlasel…” ([[PS § 36 lg 3]])."
+    },
+    {
+     "tekst": "Õigus tervise kaitsele",
+     "oige": 0,
+     "selgitus": "[[PS § 28 lg 1]]."
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Milline neist EI kuulu slaidide järgi sooritusõiguste alla?",
+   "valikud": [
+    "Kaitsepõhiõigus",
+    "Sotsiaalne õigus",
+    "Tõrjeõigus",
+    "Õigus korraldusele ja menetlusele"
+   ],
+   "oige": 2,
+   "selgitus": "Tõrjeõigus on vabadusõiguse teine nimi (slaid 11)."
+  },
+  {
+   "tyyp": "kaasus",
+   "kysimus": "Kinnipeetav väidab, et vangla rikub tema põhiõigusi, sest (1) tema kirjad avatakse ja (2) arsti vastuvõtule tuleb oodata. Mis liiki põhiõigusega on kummalgi juhul tegu ja mida see kontrolli jaoks tähendab?",
+   "vastus": [
+    "**(1) Vabadusõigus** – õigus sõnumite saladusele on tõrjeõigus: riik sekkub. Kontroll: kaitseala → riive → riive põhiseaduspärasus (seaduslik alus, eesmärk, proportsionaalsus – [[PS § 11]]).",
+    "**(2) Sooritusõigus** – õigus tervise kaitsele ([[PS § 28 lg 1]]) nõuab riigilt tegutsemist; vanglas [[VangS § 52 lg 2]]. Kontroll: kas riik on jätnud piisava abi andmata ja kas tegevusetus on õigustatud.",
+    "**Järeldus:** sama kinnipeetava kaks kaebust lahendatakse erineva skeemiga, sest õiguse liik on erinev."
+   ]
+  }
+ ],
+ "erinevused": [],
+ "valjast": []
+}

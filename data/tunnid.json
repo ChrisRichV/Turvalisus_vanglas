@@ -1,233 +1,887 @@
 {
-  "aine": "Kooli õppeleht",
-  "kirjeldus": "Kõik ained, tunnid ja kordamine ühes kohas. Seaduse tekstid on ametlikest allikatest muutmata kujul.",
-  "seis": "Seadused seisuga 10.11.2026. Mitme seaduse (VangS, HMS, KarS, KrMS, HKMS) sõnastus muutub 2027 – kontrolli Riigi Teatajast.",
-  "tunnid": [
+ "aine": "Kooli õppeleht",
+ "kirjeldus": "Kõik ained, tunnid ja kordamine ühes kohas. Seaduse tekstid on ametlikest allikatest muutmata kujul.",
+ "seis": "Seadused seisuga 10.11.2026. Mitme seaduse (VangS, HMS, KarS, KrMS, HKMS) sõnastus muutub 2027 – kontrolli Riigi Teatajast.",
+ "tunnid": [
+  {
+   "id": "t01",
+   "nr": 1,
+   "pealkiri": "Inim- ja põhiõigused",
+   "kuupaev": "2026-11-10",
+   "olek": "valmis",
+   "kirjeldus": "Rahvusvaheline ja Euroopa inimõiguste süsteem, olulisemad põhiõigused ja õiguse üldpõhimõtted vangla vaates.",
+   "materjal": [
+    "Õppejõu konspekt „Inim- ja põhiõigused SKA-s tervik KS240” (19.11.2024)",
+    "Õppejõu kordamisküsimused (10.11.2026)",
+    "Seaduste ja lepingute ametlikud tekstid (Riigi Teataja, EUR-Lex, ÜRO)"
+   ],
+   "kysimused": [
+    "Mis on globaalne rahvusvaheline organisatsioon ja millised on selle peamised eesmärgid? Milline on selle õiguskaitse meede riigi tasandil? Millised on selle õiguskaitse meetmed üksikisiku tasandil?",
+    "Millised on regionaalsed rahvusvahelised organisatsioonid ja mis on üldjuhul nende moodustamise eesmärk?",
+    "Mis on Euroopa Nõukogu eesmärk ja mis on inimõiguste kaitse vaates peamine õigusakt, mis neid kaitseb?",
+    "Milline on inimõiguste ja põhivabaduste kaitse konventsiooni mehhanism konventsioonis sätestatud õiguste kaitsel?",
+    "Milline on Euroopa Inimõiguste Kohtu pädevus?",
+    "Milline on Rahvusvahelise kriminaalkohtu pädevus?",
+    "Milline on Euroopa Liidu Kohtu pädevus?",
+    "Milline on liikmesriigi kohtusüsteemi pädevus inim- ja põhiõiguste tagamisel? Kuidas on omavahel seotud riigisisene kohtusüsteem ÜRO õiguskaitseüsteemiga, Rahvusvahelise Kriminaalkohtuga, Euroopa Nõukogu ja Euroopa Liidu kohtusüsteemidega?",
+    "Mis on rahvusvahelise humanitaarõiguse eesmärk ja sisu?",
+    "Milles seisneb inim-/põhiõigus inimväärikusele?",
+    "Milles seisneb inim-/põhiõigus elule?",
+    "Milles seisneb inim-/põhiõigus vabale enesemääratlemisele?",
+    "Milles seisneb inim-/põhiõigus varjupaika taotleda ja saada?",
+    "Milles seisneb inim-/põhiõigus era- ja perekonnaelu puutumatusele ning sõnumi saladusele?",
+    "Milles seisneb inim- ja põhiõigus usuvabadusele?",
+    "Milles seisneb põhiõigus heale haldusele ja milliseid menetlusõigusi see hõlmab?",
+    "Milles seisneb proportsionaalsuse põhimõte?",
+    "Milles seisneb õiguskindluse põhimõte?",
+    "Milles seisneb võrdse kohtlemise põhimõte?",
+    "Milles seisneb õiguspärase ootuse põhimõte?"
+   ],
+   "plokid": [
     {
-      "id": "t01",
-      "nr": 1,
-      "pealkiri": "Inim- ja põhiõigused",
-      "kuupaev": "2026-11-10",
-      "olek": "valmis",
-      "kirjeldus": "Rahvusvaheline ja Euroopa inimõiguste süsteem, olulisemad põhiõigused ja õiguse üldpõhimõtted vangla vaates.",
-      "materjal": [
-        "Õppejõu konspekt „Inim- ja põhiõigused SKA-s tervik KS240” (19.11.2024)",
-        "Õppejõu kordamisküsimused (10.11.2026)",
-        "Seaduste ja lepingute ametlikud tekstid (Riigi Teataja, EUR-Lex, ÜRO)"
-      ],
-      "kysimused": [
-        "Mis on globaalne rahvusvaheline organisatsioon ja millised on selle peamised eesmärgid? Milline on selle õiguskaitse meede riigi tasandil? Millised on selle õiguskaitse meetmed üksikisiku tasandil?",
-        "Millised on regionaalsed rahvusvahelised organisatsioonid ja mis on üldjuhul nende moodustamise eesmärk?",
-        "Mis on Euroopa Nõukogu eesmärk ja mis on inimõiguste kaitse vaates peamine õigusakt, mis neid kaitseb?",
-        "Milline on inimõiguste ja põhivabaduste kaitse konventsiooni mehhanism konventsioonis sätestatud õiguste kaitsel?",
-        "Milline on Euroopa Inimõiguste Kohtu pädevus?",
-        "Milline on Rahvusvahelise kriminaalkohtu pädevus?",
-        "Milline on Euroopa Liidu Kohtu pädevus?",
-        "Milline on liikmesriigi kohtusüsteemi pädevus inim- ja põhiõiguste tagamisel? Kuidas on omavahel seotud riigisisene kohtusüsteem ÜRO õiguskaitseüsteemiga, Rahvusvahelise Kriminaalkohtuga, Euroopa Nõukogu ja Euroopa Liidu kohtusüsteemidega?",
-        "Mis on rahvusvahelise humanitaarõiguse eesmärk ja sisu?",
-        "Milles seisneb inim-/põhiõigus inimväärikusele?",
-        "Milles seisneb inim-/põhiõigus elule?",
-        "Milles seisneb inim-/põhiõigus vabale enesemääratlemisele?",
-        "Milles seisneb inim-/põhiõigus varjupaika taotleda ja saada?",
-        "Milles seisneb inim-/põhiõigus era- ja perekonnaelu puutumatusele ning sõnumi saladusele?",
-        "Milles seisneb inim- ja põhiõigus usuvabadusele?",
-        "Milles seisneb põhiõigus heale haldusele ja milliseid menetlusõigusi see hõlmab?",
-        "Milles seisneb proportsionaalsuse põhimõte?",
-        "Milles seisneb õiguskindluse põhimõte?",
-        "Milles seisneb võrdse kohtlemise põhimõte?",
-        "Milles seisneb õiguspärase ootuse põhimõte?"
-      ],
-      "plokid": [
-        {
-          "pealkiri": "Rahvusvaheline süsteem",
-          "teemad": [
-            "t01-01",
-            "t01-02",
-            "t01-03",
-            "t01-04",
-            "t01-05",
-            "t01-06",
-            "t01-07"
-          ]
-        },
-        {
-          "pealkiri": "Põhiõigused",
-          "teemad": [
-            "t01-08",
-            "t01-09",
-            "t01-10",
-            "t01-11",
-            "t01-12",
-            "t01-13"
-          ]
-        },
-        {
-          "pealkiri": "Hea haldus ja üldpõhimõtted",
-          "teemad": [
-            "t01-14",
-            "t01-15"
-          ]
-        }
-      ],
-      "teemad": [
-        {
-          "id": "t01-01",
-          "fail": "teemad/t01-01-uro.json"
-        },
-        {
-          "id": "t01-02",
-          "fail": "teemad/t01-02-regionaalsed-en.json"
-        },
-        {
-          "id": "t01-03",
-          "fail": "teemad/t01-03-eiok-eik.json"
-        },
-        {
-          "id": "t01-04",
-          "fail": "teemad/t01-04-icc.json"
-        },
-        {
-          "id": "t01-05",
-          "fail": "teemad/t01-05-el-kohus.json"
-        },
-        {
-          "id": "t01-06",
-          "fail": "teemad/t01-06-riigisisene-kohus.json"
-        },
-        {
-          "id": "t01-07",
-          "fail": "teemad/t01-07-humanitaaroigus.json"
-        },
-        {
-          "id": "t01-08",
-          "fail": "teemad/t01-08-inimvaarikus.json"
-        },
-        {
-          "id": "t01-09",
-          "fail": "teemad/t01-09-oigus-elule.json"
-        },
-        {
-          "id": "t01-10",
-          "fail": "teemad/t01-10-eneseteostus.json"
-        },
-        {
-          "id": "t01-11",
-          "fail": "teemad/t01-11-varjupaik.json"
-        },
-        {
-          "id": "t01-12",
-          "fail": "teemad/t01-12-eraelu-sonumisaladus.json"
-        },
-        {
-          "id": "t01-13",
-          "fail": "teemad/t01-13-usuvabadus.json"
-        },
-        {
-          "id": "t01-14",
-          "fail": "teemad/t01-14-hea-haldus.json"
-        },
-        {
-          "id": "t01-15",
-          "fail": "teemad/t01-15-uldpohimotted.json"
-        }
-      ],
-      "allikafailid": {
-        "opetaja": [
-          "Ruth_opetaja_tunni_failid/Inim_ja_pohioigused/2026-11-10_inim_ja_pohioigused_konspekt.doc"
-        ],
-        "kysimused": [
-          "Ruth_kordamiskusimused/Inim_ja_pohioigused/2026-11-10_inim_ja_pohioigused_kordamiskusimused.docx"
-        ],
-        "tekstiversioonid": [
-          "Ruth_opetaja_tunni_failid/Inim_ja_pohioigused/2026-11-10_inim_ja_pohioigused_konspekt.txt",
-          "Ruth_kordamiskusimused/Inim_ja_pohioigused/2026-11-10_inim_ja_pohioigused_kordamiskusimused.md"
-        ],
-        "markus": "Failid on kohalikus kaustas „Ruth tunnid”, mitte repos. Tekstiversioonid on originaalidega sisult identsed (MD5 kontrollitud 10.11.2026)."
-      },
-      "aine": "inimoigused"
+     "pealkiri": "Rahvusvaheline süsteem",
+     "teemad": [
+      "t01-01",
+      "t01-02",
+      "t01-03",
+      "t01-04",
+      "t01-05",
+      "t01-06",
+      "t01-07"
+     ]
     },
     {
-      "id": "t02",
-      "nr": 2,
-      "pealkiri": "Järgmine tund",
-      "kuupaev": null,
-      "olek": "tulemas",
-      "kirjeldus": "Lisatakse pärast tundi koos materjali ja kordamisküsimustega.",
-      "materjal": [],
-      "kysimused": [],
-      "plokid": [],
-      "teemad": [],
-      "allikafailid": {
-        "opetaja": [],
-        "kysimused": [],
-        "tekstiversioonid": [],
-        "markus": "Lisa pärast tundi: Ruth_opetaja_tunni_failid/Inim_ja_pohioigused/ ja Ruth_kordamiskusimused/Inim_ja_pohioigused/."
-      },
-      "aine": "inimoigused"
+     "pealkiri": "Põhiõigused",
+     "teemad": [
+      "t01-08",
+      "t01-09",
+      "t01-10",
+      "t01-11",
+      "t01-12",
+      "t01-13"
+     ]
     },
     {
-      "id": "ps-t01",
-      "aine": "psuhholoogia",
-      "nr": 1,
-      "pealkiri": "Esimene tund",
-      "kuupaev": null,
-      "olek": "tulemas",
-      "kirjeldus": "Lisatakse pärast tundi koos materjali ja kordamisküsimustega.",
-      "materjal": [],
-      "kysimused": [],
-      "plokid": [],
-      "teemad": [],
-      "allikafailid": {
-        "opetaja": [],
-        "kysimused": [],
-        "tekstiversioonid": [],
-        "markus": "Lisa failid kaustadesse Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/ ja Ruth_kordamiskusimused/Vangla_psuhholoogia/."
-      }
-    },
-    {
-      "id": "o-t01",
-      "aine": "oigus",
-      "nr": 1,
-      "pealkiri": "Esimene tund",
-      "kuupaev": null,
-      "olek": "tulemas",
-      "kirjeldus": "Lisatakse pärast tundi koos materjali ja kordamisküsimustega.",
-      "materjal": [],
-      "kysimused": [],
-      "plokid": [],
-      "teemad": [],
-      "allikafailid": {
-        "opetaja": [],
-        "kysimused": [],
-        "tekstiversioonid": [],
-        "markus": "Lisa failid kaustadesse Ruth_opetaja_tunni_failid/Oigus/ ja Ruth_kordamiskusimused/Oigus/."
-      }
+     "pealkiri": "Hea haldus ja üldpõhimõtted",
+     "teemad": [
+      "t01-14",
+      "t01-15"
+     ]
     }
-  ],
-  "ained": [
+   ],
+   "teemad": [
     {
-      "id": "inimoigused",
-      "nimi": "Inim- ja põhiõigused vanglas",
-      "lyhend": "Inimõigused",
-      "kood": "KS240",
-      "kirjeldus": "Rahvusvaheline ja Euroopa inimõiguste süsteem, põhiõigused ja õiguse üldpõhimõtted vangla vaates.",
-      "kiirotsing": true
+     "id": "t01-01",
+     "fail": "teemad/t01-01-uro.json"
     },
     {
-      "id": "psuhholoogia",
-      "nimi": "Vangla psühholoogia",
-      "lyhend": "Psühholoogia",
-      "kood": "",
-      "kirjeldus": "Kinnipeetava ja vanglateenistuja psühholoogia. Tunnid lisatakse pärast tunde.",
-      "kiirotsing": false
+     "id": "t01-02",
+     "fail": "teemad/t01-02-regionaalsed-en.json"
     },
     {
-      "id": "oigus",
-      "nimi": "Õigus",
-      "lyhend": "Õigus",
-      "kood": "",
-      "kirjeldus": "Õiguse õpetus: normiõpetus, tõlgendamine ja õiguse rakendamine. Tunnid lisatakse pärast tunde.",
-      "kiirotsing": false
+     "id": "t01-03",
+     "fail": "teemad/t01-03-eiok-eik.json"
+    },
+    {
+     "id": "t01-04",
+     "fail": "teemad/t01-04-icc.json"
+    },
+    {
+     "id": "t01-05",
+     "fail": "teemad/t01-05-el-kohus.json"
+    },
+    {
+     "id": "t01-06",
+     "fail": "teemad/t01-06-riigisisene-kohus.json"
+    },
+    {
+     "id": "t01-07",
+     "fail": "teemad/t01-07-humanitaaroigus.json"
+    },
+    {
+     "id": "t01-08",
+     "fail": "teemad/t01-08-inimvaarikus.json"
+    },
+    {
+     "id": "t01-09",
+     "fail": "teemad/t01-09-oigus-elule.json"
+    },
+    {
+     "id": "t01-10",
+     "fail": "teemad/t01-10-eneseteostus.json"
+    },
+    {
+     "id": "t01-11",
+     "fail": "teemad/t01-11-varjupaik.json"
+    },
+    {
+     "id": "t01-12",
+     "fail": "teemad/t01-12-eraelu-sonumisaladus.json"
+    },
+    {
+     "id": "t01-13",
+     "fail": "teemad/t01-13-usuvabadus.json"
+    },
+    {
+     "id": "t01-14",
+     "fail": "teemad/t01-14-hea-haldus.json"
+    },
+    {
+     "id": "t01-15",
+     "fail": "teemad/t01-15-uldpohimotted.json"
     }
-  ]
+   ],
+   "allikafailid": {
+    "opetaja": [
+     "Ruth_opetaja_tunni_failid/Inim_ja_pohioigused/2026-11-10_inim_ja_pohioigused_konspekt.doc"
+    ],
+    "kysimused": [
+     "Ruth_kordamiskusimused/Inim_ja_pohioigused/2026-11-10_inim_ja_pohioigused_kordamiskusimused.docx"
+    ],
+    "tekstiversioonid": [
+     "Ruth_opetaja_tunni_failid/Inim_ja_pohioigused/2026-11-10_inim_ja_pohioigused_konspekt.txt",
+     "Ruth_kordamiskusimused/Inim_ja_pohioigused/2026-11-10_inim_ja_pohioigused_kordamiskusimused.md"
+    ],
+    "markus": "Failid on kohalikus kaustas „Ruth tunnid”, mitte repos. Tekstiversioonid on originaalidega sisult identsed (MD5 kontrollitud 10.11.2026)."
+   },
+   "aine": "inimoigused"
+  },
+  {
+   "id": "t02",
+   "nr": 2,
+   "pealkiri": "Järgmine tund",
+   "kuupaev": null,
+   "olek": "tulemas",
+   "kirjeldus": "Lisatakse pärast tundi koos materjali ja kordamisküsimustega.",
+   "materjal": [],
+   "kysimused": [],
+   "plokid": [],
+   "teemad": [],
+   "allikafailid": {
+    "opetaja": [],
+    "kysimused": [],
+    "tekstiversioonid": [],
+    "markus": "Lisa pärast tundi: Ruth_opetaja_tunni_failid/Inim_ja_pohioigused/ ja Ruth_kordamiskusimused/Inim_ja_pohioigused/."
+   },
+   "aine": "inimoigused"
+  },
+  {
+   "id": "ps-t01",
+   "aine": "psuhholoogia",
+   "nr": 1,
+   "pealkiri": "Esimene tund",
+   "kuupaev": null,
+   "olek": "tulemas",
+   "kirjeldus": "Lisatakse pärast tundi koos materjali ja kordamisküsimustega.",
+   "materjal": [],
+   "kysimused": [],
+   "plokid": [],
+   "teemad": [],
+   "allikafailid": {
+    "opetaja": [],
+    "kysimused": [],
+    "tekstiversioonid": [],
+    "markus": "Lisa failid kaustadesse Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/ ja Ruth_kordamiskusimused/Vangla_psuhholoogia/."
+   }
+  },
+  {
+   "id": "o-t01",
+   "aine": "oigus",
+   "nr": 1,
+   "pealkiri": "Õiguskord ja andmebaasid",
+   "kuupaev": "2026-08-27",
+   "olek": "tulemas",
+   "tyyp": "loeng",
+   "valjund": 1,
+   "vorm": "Vooruloeng",
+   "alateemad": [
+    "Õiguse põhimõisted ja põhimõtted",
+    "Õiguse infosüsteemid"
+   ],
+   "tahtajad": [
+    {
+     "nimi": "Veebiloeng „Õiguse mõisted; üld- ja üksikakt” (soovitatav)",
+     "kp": "2026-09-02"
+    },
+    {
+     "nimi": "Iseseisev praktiline harjutus",
+     "kp": "2026-09-16"
+    }
+   ],
+   "kirjeldus": "Teemad lisatakse.",
+   "materjal": [],
+   "kysimused": [],
+   "plokid": [],
+   "teemad": [],
+   "allikafailid": {
+    "opetaja": [],
+    "kysimused": [],
+    "tekstiversioonid": [],
+    "markus": ""
+   }
+  },
+  {
+   "id": "o-t02",
+   "aine": "oigus",
+   "nr": 2,
+   "pealkiri": "Õiguse süsteemid ja valdkonnad",
+   "kuupaev": "2026-09-02",
+   "olek": "tulemas",
+   "tyyp": "loeng",
+   "valjund": 1,
+   "alateemad": [
+    "Õiguse süsteemid",
+    "Avalik õigus",
+    "Eraõigus"
+   ],
+   "tahtajad": [
+    {
+     "nimi": "Test „Õiguse üldteooria”",
+     "kp": "2026-09-22"
+    }
+   ],
+   "kirjeldus": "Teemad lisatakse.",
+   "materjal": [],
+   "kysimused": [],
+   "plokid": [],
+   "teemad": [],
+   "allikafailid": {
+    "opetaja": [],
+    "kysimused": [],
+    "tekstiversioonid": [],
+    "markus": ""
+   }
+  },
+  {
+   "id": "o-t03",
+   "aine": "oigus",
+   "nr": 3,
+   "pealkiri": "Eraõigus ja selle seos ametniku tegevusega",
+   "kuupaev": "2026-09-16",
+   "olek": "tulemas",
+   "tyyp": "loeng",
+   "valjund": 1,
+   "alateemad": [
+    "Tsiviilõiguse üldosa",
+    "Võlaõigus",
+    "Asjaõigus",
+    "Tööõigus",
+    "Õiguskaitse"
+   ],
+   "tahtajad": [
+    {
+     "nimi": "Test „Eraõigus”",
+     "kp": "2026-09-22"
+    }
+   ],
+   "kirjeldus": "Teemad lisatakse.",
+   "materjal": [],
+   "kysimused": [],
+   "plokid": [],
+   "teemad": [],
+   "allikafailid": {
+    "opetaja": [],
+    "kysimused": [],
+    "tekstiversioonid": [],
+    "markus": ""
+   }
+  },
+  {
+   "id": "o-t04",
+   "aine": "oigus",
+   "nr": 4,
+   "pealkiri": "Õiguskorra ülesehitus, õiguse põhimõisted, era- ja avalik õigus",
+   "kuupaev": "2026-09-22",
+   "olek": "tulemas",
+   "tyyp": "seminar",
+   "valjund": 1,
+   "alateemad": [
+    "1.–3. loengu teemad"
+   ],
+   "tahtajad": [],
+   "kirjeldus": "Seminar. Õpilastööde arutelu lisatakse hiljem.",
+   "materjal": [],
+   "kysimused": [],
+   "plokid": [],
+   "teemad": [],
+   "allikafailid": {
+    "opetaja": [],
+    "kysimused": [],
+    "tekstiversioonid": [],
+    "markus": ""
+   }
+  },
+  {
+   "id": "o-t05",
+   "aine": "oigus",
+   "nr": 5,
+   "pealkiri": "Normiõpetus",
+   "kuupaev": "2026-09-30",
+   "olek": "tulemas",
+   "tyyp": "loeng",
+   "valjund": 2,
+   "alateemad": [
+    "Õigusnormi liigid",
+    "Tõlgendamine"
+   ],
+   "tahtajad": [
+    {
+     "nimi": "Test „Normiõpetus”",
+     "kp": "2026-10-21"
+    }
+   ],
+   "kirjeldus": "Teemad lisatakse.",
+   "materjal": [],
+   "kysimused": [],
+   "plokid": [],
+   "teemad": [],
+   "allikafailid": {
+    "opetaja": [],
+    "kysimused": [],
+    "tekstiversioonid": [],
+    "markus": ""
+   }
+  },
+  {
+   "id": "o-t06",
+   "aine": "oigus",
+   "nr": 6,
+   "pealkiri": "Õiguse realiseerimine",
+   "kuupaev": "2026-10-07",
+   "olek": "tulemas",
+   "tyyp": "loeng",
+   "valjund": 2,
+   "vorm": "E-õppe loeng",
+   "alateemad": [
+    "Kasutamine, järgimine, rakendamine",
+    "Subsumeerimine"
+   ],
+   "tahtajad": [],
+   "kirjeldus": "Teemad lisatakse.",
+   "materjal": [],
+   "kysimused": [],
+   "plokid": [],
+   "teemad": [],
+   "allikafailid": {
+    "opetaja": [],
+    "kysimused": [],
+    "tekstiversioonid": [],
+    "markus": ""
+   }
+  },
+  {
+   "id": "o-t07",
+   "aine": "oigus",
+   "nr": 7,
+   "pealkiri": "Kaasuste lahendamise metoodika",
+   "kuupaev": "2026-10-14",
+   "olek": "tulemas",
+   "tyyp": "loeng",
+   "valjund": 2,
+   "alateemad": [
+    "Erinevad metoodikad",
+    "Lahendi kirjapanek"
+   ],
+   "tahtajad": [
+    {
+     "nimi": "Iseseisev praktiline harjutus õiguse rakendamise kohta",
+     "kp": "2026-10-21"
+    }
+   ],
+   "kirjeldus": "Teemad lisatakse.",
+   "materjal": [],
+   "kysimused": [],
+   "plokid": [],
+   "teemad": [],
+   "allikafailid": {
+    "opetaja": [],
+    "kysimused": [],
+    "tekstiversioonid": [],
+    "markus": ""
+   }
+  },
+  {
+   "id": "o-t08",
+   "aine": "oigus",
+   "nr": 8,
+   "pealkiri": "Normiõpetus, õiguse realiseerimine, kaasuste lahendamine",
+   "kuupaev": "2026-10-21",
+   "olek": "tulemas",
+   "tyyp": "seminar",
+   "valjund": 2,
+   "alateemad": [
+    "5.–7. loengu teemad",
+    "Rühmatöö: 6 õigusnormi analüüs"
+   ],
+   "tahtajad": [],
+   "kirjeldus": "Seminar. Õpilastööde arutelu lisatakse hiljem.",
+   "materjal": [],
+   "kysimused": [],
+   "plokid": [],
+   "teemad": [],
+   "allikafailid": {
+    "opetaja": [],
+    "kysimused": [],
+    "tekstiversioonid": [],
+    "markus": ""
+   }
+  },
+  {
+   "id": "o-t09",
+   "aine": "oigus",
+   "nr": 9,
+   "pealkiri": "Kaasuste lahendamine",
+   "kuupaev": "2026-10-28",
+   "olek": "tulemas",
+   "tyyp": "seminar",
+   "valjund": 2,
+   "alateemad": [
+    "7. loengu teemad",
+    "Kirjalik kodutöö"
+   ],
+   "tahtajad": [],
+   "kirjeldus": "Seminar. Õpilastööde arutelu lisatakse hiljem.",
+   "materjal": [],
+   "kysimused": [],
+   "plokid": [],
+   "teemad": [],
+   "allikafailid": {
+    "opetaja": [],
+    "kysimused": [],
+    "tekstiversioonid": [],
+    "markus": ""
+   }
+  },
+  {
+   "id": "o-t10",
+   "aine": "oigus",
+   "nr": 10,
+   "pealkiri": "Põhiseadus ja selle põhimõtted",
+   "kuupaev": "2026-11-04",
+   "olek": "valmis",
+   "tyyp": "loeng",
+   "valjund": 3,
+   "alateemad": [
+    "Põhiseaduse tähendus",
+    "Põhimõtted"
+   ],
+   "tahtajad": [
+    {
+     "nimi": "Test „Põhiseaduse põhimõtted”",
+     "kp": "2026-11-18"
+    }
+   ],
+   "kirjeldus": "Mis on põhiseadus, millistele põhimõtetele riik on rajatud, kes on põhiseaduse institutsioonid ja kuidas kontrollitakse seaduse vastavust põhiseadusele.",
+   "materjal": [
+    "Õppejõu slaidid „Riigiõigus. Põhiseadus. Põhiseaduse põhimõtted” (T. Roosve, 2020)",
+    "T. Roosve „Riigiõigus” (väljavõte õpikust)",
+    "A. Mõttus „Riigiõiguse ülevaatekonspekt”",
+    "Eesti Vabariigi põhiseadus (Riigi Teataja)"
+   ],
+   "kysimused": [
+    {
+     "nr": 28,
+     "tekst": "Nimeta põhiseaduse ja haldusõiguse põhimõtteid! Selgita lühidalt nende sisu!"
+    },
+    {
+     "nr": 29,
+     "tekst": "Nimeta põhiseaduse instutsioonid! Lahterda nad võimuse lahususe põhimõtte järgi!"
+    }
+   ],
+   "plokid": [
+    {
+     "pealkiri": "Põhiseadus",
+     "teemad": [
+      "o-t10-01",
+      "o-t10-02"
+     ]
+    },
+    {
+     "pealkiri": "Riigi korraldus",
+     "teemad": [
+      "o-t10-03",
+      "o-t10-04"
+     ]
+    }
+   ],
+   "teemad": [
+    {
+     "id": "o-t10-01",
+     "fail": "teemad/o-t10-01-pohiseaduse-tahendus.json"
+    },
+    {
+     "id": "o-t10-02",
+     "fail": "teemad/o-t10-02-pohiseaduse-pohimotted.json"
+    },
+    {
+     "id": "o-t10-03",
+     "fail": "teemad/o-t10-03-institutsioonid-voimude-lahusus.json"
+    },
+    {
+     "id": "o-t10-04",
+     "fail": "teemad/o-t10-04-normikontroll.json"
+    }
+   ],
+   "allikafailid": {
+    "opetaja": [
+     "Ruth_opetaja_tunni_failid/Oigus/03_riigioigus_pohioigused/Riigiõigus_Põhiseadus.pdf",
+     "…/Triin Roosve. Riigiõigus (väljavõte õpikust).pdf",
+     "…/A.Mõttus. Riigiõiguse ülevaatekonspekt.pdf",
+     "…/M.ERNITS- Konkreetne normikontroll de lege lata ja de lege ferenda (1).doc"
+    ],
+    "kysimused": [
+     "Ruth_kordamiskusimused/Oigus/Oiguse_alused_kordamiskusimused.txt (küsimused 28–29)"
+    ],
+    "tekstiversioonid": [
+     "sama nimega .txt samas kaustas"
+    ],
+    "markus": "Kordamisküsimus 28 hõlmab ka haldusõiguse põhimõtteid – need tulevad 13. tunni juurde."
+   }
+  },
+  {
+   "id": "o-t11",
+   "aine": "oigus",
+   "nr": 11,
+   "pealkiri": "Põhiõigused",
+   "kuupaev": "2026-11-11",
+   "olek": "valmis",
+   "tyyp": "loeng",
+   "valjund": 3,
+   "alateemad": [
+    "Liigid ja riived",
+    "Kaitsealad"
+   ],
+   "tahtajad": [
+    {
+     "nimi": "Test „Põhiõigustesse sekkumise alused”",
+     "kp": "2026-11-18"
+    }
+   ],
+   "kirjeldus": "Põhiõiguste liigid, kandjad ja adressaadid, kaitseala ja riive ning see, kuidas kontrollida, kas põhiõiguse piirang on põhiseaduspärane.",
+   "materjal": [
+    "Õppejõu slaidid „Põhiõigused” (T. Roosve, 2020)",
+    "T. Roosve e-õpiobjektid: põhiõigused, vabadusõiguste riive, vanglakaasus, võrdsusõigused",
+    "Eesti Vabariigi põhiseadus, vangistusseadus ja vangla sisekorraeeskiri (Riigi Teataja)"
+   ],
+   "kysimused": [
+    {
+     "nr": 30,
+     "tekst": "Nimeta põhiõiguste liigid!"
+    },
+    {
+     "nr": 31,
+     "tekst": "Nimeta erinevaid põhiõigusi ja selgita, mille poolest nad erinevad üksteisest!"
+    },
+    {
+     "nr": 32,
+     "tekst": "Kes on kohustatud põhiseaduse järgi tagama isikute põhiõigused?"
+    },
+    {
+     "nr": 33,
+     "tekst": "Kas põhiõigusi võib piirata?"
+    },
+    {
+     "nr": 34,
+     "tekst": "Selgita seadusliku aluse põhimõtte, olulisuse põhimõtte ja põhiõiguste piiramise lubatavuse seost!"
+    }
+   ],
+   "plokid": [
+    {
+     "pealkiri": "Põhiõiguste üldosa",
+     "teemad": [
+      "o-t11-01",
+      "o-t11-02",
+      "o-t11-03"
+     ]
+    },
+    {
+     "pealkiri": "Riive põhiseaduspärasuse kontroll",
+     "teemad": [
+      "o-t11-04",
+      "o-t11-05",
+      "o-t11-06"
+     ]
+    }
+   ],
+   "teemad": [
+    {
+     "id": "o-t11-01",
+     "fail": "teemad/o-t11-01-pohioiguste-liigid.json"
+    },
+    {
+     "id": "o-t11-02",
+     "fail": "teemad/o-t11-02-kandjad-ja-adressaadid.json"
+    },
+    {
+     "id": "o-t11-03",
+     "fail": "teemad/o-t11-03-kaitseala-ja-riive.json"
+    },
+    {
+     "id": "o-t11-04",
+     "fail": "teemad/o-t11-04-vabadusoiguse-riive-kontroll.json"
+    },
+    {
+     "id": "o-t11-05",
+     "fail": "teemad/o-t11-05-vordsusoiguse-riive-kontroll.json"
+    },
+    {
+     "id": "o-t11-06",
+     "fail": "teemad/o-t11-06-sooritusoigused.json"
+    }
+   ],
+   "allikafailid": {
+    "opetaja": [
+     "Ruth_opetaja_tunni_failid/Oigus/03_riigioigus_pohioigused/Slaidid_pohioigused (9).pdf",
+     "…/veebimaterjalid/Roosve_pohioigused/",
+     "…/veebimaterjalid/Roosve_vabadusoigused/",
+     "…/veebimaterjalid/Roosve_vordsusoigused/"
+    ],
+    "kysimused": [
+     "Ruth_kordamiskusimused/Oigus/Oiguse_alused_kordamiskusimused.txt (küsimused 30–34)"
+    ],
+    "tekstiversioonid": [
+     "sama nimega .txt samas kaustas"
+    ],
+    "markus": "Vanglakaasuse (isiklik kardin) lahendus on Claude'i koostatud õppejõu skeemi ja kehtiva seaduse põhjal – õppejõu lahenduse lehed ei olnud kättesaadavad."
+   }
+  },
+  {
+   "id": "o-t12",
+   "aine": "oigus",
+   "nr": 12,
+   "pealkiri": "Põhiseaduse põhimõtted ja põhiõigused",
+   "kuupaev": "2026-11-18",
+   "olek": "tulemas",
+   "tyyp": "seminar",
+   "valjund": 3,
+   "alateemad": [
+    "10. ja 11. loengu teemad",
+    "Rühmatöö: ettekanne"
+   ],
+   "tahtajad": [],
+   "kirjeldus": "Seminar. Õpilastööde arutelu lisatakse hiljem.",
+   "materjal": [],
+   "kysimused": [],
+   "plokid": [],
+   "teemad": [],
+   "allikafailid": {
+    "opetaja": [],
+    "kysimused": [],
+    "tekstiversioonid": [],
+    "markus": ""
+   }
+  },
+  {
+   "id": "o-t13",
+   "aine": "oigus",
+   "nr": 13,
+   "pealkiri": "Haldusõiguse põhimõisted ja haldustegevuse liigid",
+   "kuupaev": "2026-11-23",
+   "olek": "tulemas",
+   "tyyp": "loeng",
+   "valjund": 4,
+   "alateemad": [
+    "Põhimõisted ja põhimõtted",
+    "Haldustegevuse liigid"
+   ],
+   "tahtajad": [
+    {
+     "nimi": "Test „Haldustegevuse liigid”",
+     "kp": "2026-12-02"
+    },
+    {
+     "nimi": "Harjutus haldustegevuse liikide kohta",
+     "kp": "2026-12-02"
+    }
+   ],
+   "kirjeldus": "Teemad lisatakse.",
+   "materjal": [],
+   "kysimused": [],
+   "plokid": [],
+   "teemad": [],
+   "allikafailid": {
+    "opetaja": [],
+    "kysimused": [],
+    "tekstiversioonid": [],
+    "markus": ""
+   }
+  },
+  {
+   "id": "o-t14",
+   "aine": "oigus",
+   "nr": 14,
+   "pealkiri": "Haldusmenetlus",
+   "kuupaev": "2026-11-26",
+   "olek": "tulemas",
+   "tyyp": "loeng",
+   "valjund": 4,
+   "alateemad": [
+    "Menetlusosalised",
+    "Menetluse algus",
+    "Isikupöördumised",
+    "Menetluse kulg ja lõpetamine"
+   ],
+   "tahtajad": [
+    {
+     "nimi": "Test „Haldusmenetlus”",
+     "kp": "2026-12-08"
+    }
+   ],
+   "kirjeldus": "Teemad lisatakse.",
+   "materjal": [],
+   "kysimused": [],
+   "plokid": [],
+   "teemad": [],
+   "allikafailid": {
+    "opetaja": [],
+    "kysimused": [],
+    "tekstiversioonid": [],
+    "markus": "Õppejõu kalenderplaanis on kuupäev 26.12.26 – kirjaviga, õige on 26.11.26 (kasutaja kinnitus)."
+   }
+  },
+  {
+   "id": "o-t15",
+   "aine": "oigus",
+   "nr": 15,
+   "pealkiri": "Haldusakti koostamine",
+   "kuupaev": "2026-12-02",
+   "olek": "tulemas",
+   "tyyp": "loeng",
+   "valjund": 4,
+   "alateemad": [
+    "Nõuded haldusaktile",
+    "Asendustäitmine ja sunniraha"
+   ],
+   "tahtajad": [
+    {
+     "nimi": "Test „Haldussund”",
+     "kp": "2026-12-08"
+    }
+   ],
+   "kirjeldus": "Teemad lisatakse.",
+   "materjal": [],
+   "kysimused": [],
+   "plokid": [],
+   "teemad": [],
+   "allikafailid": {
+    "opetaja": [],
+    "kysimused": [],
+    "tekstiversioonid": [],
+    "markus": ""
+   }
+  },
+  {
+   "id": "o-t16",
+   "aine": "oigus",
+   "nr": 16,
+   "pealkiri": "Haldusakti koostamine ja kaasused",
+   "kuupaev": "2026-12-08",
+   "olek": "tulemas",
+   "tyyp": "seminar",
+   "valjund": 4,
+   "vorm": "Vooruseminar",
+   "alateemad": [
+    "13.–15. loengu teemad",
+    "Rühmatöö: haldusakti koostamine"
+   ],
+   "tahtajad": [],
+   "kirjeldus": "Seminar. Õpilastööde arutelu lisatakse hiljem.",
+   "materjal": [],
+   "kysimused": [],
+   "plokid": [],
+   "teemad": [],
+   "allikafailid": {
+    "opetaja": [],
+    "kysimused": [],
+    "tekstiversioonid": [],
+    "markus": ""
+   }
+  },
+  {
+   "id": "o-t17",
+   "aine": "oigus",
+   "nr": 17,
+   "pealkiri": "Haldusakti koostamine ja kaasused",
+   "kuupaev": "2026-12-15",
+   "olek": "tulemas",
+   "tyyp": "seminar",
+   "valjund": 4,
+   "vorm": "Vooruseminar",
+   "alateemad": [
+    "13.–15. loengu teemad",
+    "Kaasuste lahendamine"
+   ],
+   "tahtajad": [],
+   "kirjeldus": "Seminar. Õpilastööde arutelu lisatakse hiljem.",
+   "materjal": [],
+   "kysimused": [],
+   "plokid": [],
+   "teemad": [],
+   "allikafailid": {
+    "opetaja": [],
+    "kysimused": [],
+    "tekstiversioonid": [],
+    "markus": ""
+   }
+  },
+  {
+   "id": "o-eksam",
+   "aine": "oigus",
+   "nr": 18,
+   "pealkiri": "Eksam",
+   "kuupaev": "2027-01-05",
+   "olek": "tulemas",
+   "tyyp": "eksam",
+   "valjund": 4,
+   "alateemad": [
+    "Kõik neli väljundit",
+    "Eksamitest, teooriaküsimused ja kaasus"
+   ],
+   "tahtajad": [],
+   "kirjeldus": "Kirjalik eksam.",
+   "materjal": [],
+   "kysimused": [],
+   "plokid": [],
+   "teemad": [],
+   "allikafailid": {
+    "opetaja": [],
+    "kysimused": [],
+    "tekstiversioonid": [],
+    "markus": ""
+   }
+  }
+ ],
+ "ained": [
+  {
+   "id": "inimoigused",
+   "nimi": "Inim- ja põhiõigused vanglas",
+   "lyhend": "Inimõigused",
+   "kood": "KS240",
+   "kirjeldus": "Rahvusvaheline ja Euroopa inimõiguste süsteem, põhiõigused ja õiguse üldpõhimõtted vangla vaates.",
+   "kiirotsing": true
+  },
+  {
+   "id": "psuhholoogia",
+   "nimi": "Vangla psühholoogia",
+   "lyhend": "Psühholoogia",
+   "kood": "",
+   "kirjeldus": "Kinnipeetava ja vanglateenistuja psühholoogia. Tunnid lisatakse pärast tunde.",
+   "kiirotsing": false
+  },
+  {
+   "id": "oigus",
+   "nimi": "Õiguse alused",
+   "lyhend": "Õigus",
+   "kood": "YAKC5023",
+   "kirjeldus": "Õiguskord, normiõpetus ja kaasuse lahendamine, põhiseadus ja põhiõigused, haldusõigus. Õppejõud Riina Kroonberg, Triinu Moora ja Triin Roosve.",
+   "kiirotsing": false,
+   "ajakava": true,
+   "valjundid": [
+    "Õiguskord",
+    "Normiõpetus ja õiguse rakendamine",
+    "Riigiõigus ja põhiõigused",
+    "Haldusõigus"
+   ]
+  }
+ ]
 }

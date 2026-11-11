@@ -1,0 +1,389 @@
+{
+ "id": "o-t10-03",
+ "tund": "o-t10",
+ "jrk": 3,
+ "pealkiri": "Põhiseaduse institutsioonid ja võimude lahusus",
+ "kysimused": [
+  29
+ ],
+ "lyhidalt": "Põhiseaduse institutsioonid on riigiorganid, mis on põhiseaduses nimetatud ja saanud sealt oma pädevuse. Võim on jagatud kolmeks haruks: seadusandlik, täidesaatev ja kohtuvõim. Harud kontrollivad üksteist.",
+ "osad": {
+  "pohimote": {
+   "tekst": "Slaidi 2 järgi on **põhiseadusinstitutsioon** ehk põhiseadusorgan riigiorgan, mis **a)** on nimetatud põhiseaduses ja **b)** millele on põhiseaduses antud pädevus.",
+   "tsitaat": {
+    "viide": "PS § 4",
+    "tekst": "Riigikogu, Vabariigi Presidendi, Vabariigi Valitsuse ja kohtute tegevus on korraldatud võimude lahususe ja tasakaalustatuse põhimõttel."
+   },
+   "punktid": [
+    "**Lahusus:** kolm riigivõimu haru on üksteisest eraldatud ja neid teostavad eri organid.",
+    "**Tasakaalustatus:** harud kontrollivad ja mõjutavad üksteist. Näide: President võib jätta seaduse välja kuulutamata ([[PS § 107 lg 2]]).",
+    "Põhiõiguste tagamine on **kõigi** võimuharude ja kohalike omavalitsuste kohustus ([[PS § 14]])."
+   ]
+  },
+  "alus": {
+   "read": [
+    {
+     "tase": "Põhimõte",
+     "viited": [
+      "PS § 4",
+      "PS § 14"
+     ],
+     "tekst": "Võimude lahusus ja tasakaalustatus; õiguste tagamine on seadusandliku, täidesaatva ja kohtuvõimu ning kohalike omavalitsuste kohustus."
+    },
+    {
+     "tase": "Rahvas",
+     "viited": [
+      "PS § 1",
+      "PS § 56"
+     ],
+     "tekst": "Kõrgeima riigivõimu kandja; teostab võimu Riigikogu valimise ja rahvahääletusega."
+    },
+    {
+     "tase": "Seadusandlik võim",
+     "viited": [
+      "PS § 59",
+      "PS § 65"
+     ],
+     "tekst": "Riigikogu: võtab vastu seadusi, nimetab ametisse, avaldab umbusaldust."
+    },
+    {
+     "tase": "Riigipea",
+     "viited": [
+      "PS § 77",
+      "PS § 78",
+      "PS § 107"
+     ],
+     "tekst": "Vabariigi President: kuulutab välja seadused, nimetab kohtunikud, võib anda armu."
+    },
+    {
+     "tase": "Täidesaatev võim",
+     "viited": [
+      "PS § 86",
+      "PS § 87",
+      "PS § 94 lg 2"
+     ],
+     "tekst": "Vabariigi Valitsus ja ministrid: viivad ellu poliitikat, annavad seaduse alusel määrusi."
+    },
+    {
+     "tase": "Kohtuvõim",
+     "viited": [
+      "PS § 146",
+      "PS § 149"
+     ],
+     "tekst": "Õigust mõistab ainult kohus; Riigikohus on kõrgeim kohus ja põhiseadusliku järelevalve kohus."
+    },
+    {
+     "tase": "Järelevalve",
+     "viited": [
+      "PS § 139",
+      "PS § 132",
+      "PS § 133"
+     ],
+     "tekst": "Õiguskantsler kontrollib õigustloovate aktide põhiseaduspärasust; Riigikontroll teeb majanduskontrolli."
+    },
+    {
+     "tase": "Muud",
+     "viited": [
+      "PS § 111",
+      "PS § 154"
+     ],
+     "tekst": "Eesti Pank; kohalikud omavalitsused otsustavad kohaliku elu küsimusi iseseisvalt."
+    },
+    {
+     "tase": "Vangla",
+     "viited": [
+      "VangS § 105 lg 1",
+      "VangS § 1^1 lg 5"
+     ],
+     "tekst": "Vangla on täidesaatva võimu asutus; tema tegevust kontrollib halduskohus."
+    }
+   ]
+  },
+  "piiramine": {
+   "pealkiri": "Kuidas institutsioonid võimuharude järgi lahterdada",
+   "tekst": "Küsimus 29 nõuab kahte sammu: **nimeta** institutsioonid ja **jaga** nad võimuharudesse. Kolm haru tulevad otse põhiseadusest; ülejäänute paigutus tugineb õpikule.",
+   "punktid": [
+    "**Seadusandlik võim:** Riigikogu ([[PS § 59]]). Õpiku järgi kuulub seadusandlikku võimuosisesse ka **rahvas** ([[PS § 56]]).",
+    "**Täidesaatev võim:** Vabariigi Valitsus ([[PS § 86]]). Ministeeriumid ja nende haldusala asutused (sh vangla) tegutsevad valitsuse all ([[PS § 94]]).",
+    "**Kohtuvõim:** kohtud ([[PS § 146]]): maa- ja halduskohtud, ringkonnakohtud, Riigikohus ([[PS § 149]]).",
+    "**Vabariigi President** on riigipea ([[PS § 77]]). [[PS § 4]] nimetab teda eraldi; tal on tasakaalustav roll kõigi harude suhtes (seaduste väljakuulutamine, ametisse nimetamised – [[PS § 78]]).",
+    "**Õiguskantsler ja Riigikontroll** on sõltumatud järelevalveasutused ([[PS § 139 lg 1]], [[PS § 132]]). Õpiku järgi kontrollib Riigikogu nende kaudu **kaudselt** teisi võimuharusid.",
+    "**Kohalik omavalitsus** ei ole riigivõimu haru, vaid iseseisev avaliku võimu tasand ([[PS § 154 lg 1]]). **Eesti Pank** on iseseisev põhiseaduslik institutsioon ([[PS § 111]])."
+   ]
+  },
+  "vangla": {
+   "tekst": "Vangla on Justiits- ja Digiministeeriumi valitsemisalas olev valitsusasutus ([[VangS § 105 lg 1]]), seega **täidesaatva võimu** osa. Kõik kolm haru puudutavad vanglat: **Riigikogu** kehtestab vangistusseaduse, **minister** kehtestab sisekorraeeskirja ([[VangS § 105 lg 2]]), **kohus** mõistab karistuse ja kontrollib vangla otsuseid ([[VangS § 1^1 lg 5]]). **President** võib anda armu ([[PS § 78 p 19]]) ja **õiguskantsler** kontrollib, kas vanglat puudutavad õigusaktid vastavad põhiseadusele ([[PS § 139 lg 1]]).",
+   "naide": {
+    "olukord": "Kinnipeetav leiab, et vangla direktori otsus rikub tema õigusi. Ta tahab, et otsuse vaataks üle keegi, kes ei allu vanglale ega ministeeriumile.",
+    "analyys": "**Võimude lahusus:** otsuse tegi täidesaatev võim; sõltumatu kontrollija on kohtuvõim ([[PS § 146]]). **Tee kohtuni:** esmalt vaie – direktori otsuse peale vaatab selle läbi Justiits- ja Digiministeerium ([[VangS § 1^1 lg 4^1]]); seejärel kaebus halduskohtule ([[VangS § 1^1 lg 5]]). **Põhiseaduslik alus:** igaühel on õigus pöörduda oma õiguste rikkumise korral kohtusse ([[PS § 15 lg 1]]). **Järeldus:** tasakaalustatus toimib nii, et täidesaatva võimu otsust kontrollib kohus."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "**President pannakse täidesaatva võimu alla.** Täidesaatev võim kuulub Vabariigi Valitsusele ([[PS § 86]]); President on riigipea ([[PS § 77]]).",
+    "**Õiguskantsler pannakse kohtuvõimu alla.** Õigust mõistab ainult kohus ([[PS § 146]]); õiguskantsler on sõltumatu järelevalvaja ([[PS § 139 lg 1]]).",
+    "Unustatakse **tasakaalustatus**: küsitakse ainult, kes mida teeb, mitte seda, kuidas harud üksteist kontrollivad.",
+    "Vangla nimetatakse „kohtuvõimu osaks”, sest ta viib täide kohtuotsust. Vangla on täidesaatva võimu asutus ([[VangS § 105 lg 1]])."
+   ]
+  }
+ },
+ "skeem": [
+  {
+   "tyyp": "tasandid",
+   "pealkiri": "Põhiseaduse institutsioonid võimuharude kaupa",
+   "tasandid": [
+    {
+     "pealkiri": "Seadusandlik",
+     "toon": "a",
+     "kastid": [
+      {
+       "pealkiri": "Rahvas",
+       "tekst": "valib Riigikogu, rahvahääletus",
+       "viide": "PS § 56"
+      },
+      {
+       "pealkiri": "Riigikogu",
+       "tekst": "võtab vastu seadused",
+       "viide": "PS § 59"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Täidesaatev",
+     "toon": "a",
+     "kastid": [
+      {
+       "pealkiri": "Vabariigi Valitsus",
+       "tekst": "viib seadused ellu, annab määrusi",
+       "viide": "PS § 86"
+      },
+      {
+       "pealkiri": "Ministeeriumid ja asutused",
+       "tekst": "sh vangla",
+       "viide": "VangS § 105 lg 1"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Kohtuvõim",
+     "toon": "a",
+     "kastid": [
+      {
+       "pealkiri": "Kohtud",
+       "tekst": "õigust mõistab ainult kohus",
+       "viide": "PS § 146"
+      },
+      {
+       "pealkiri": "Riigikohus",
+       "tekst": "kõrgeim kohus ja põhiseadusliku järelevalve kohus",
+       "viide": "PS § 149 lg 3"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Riigipea",
+     "toon": "b",
+     "kastid": [
+      {
+       "pealkiri": "Vabariigi President",
+       "tekst": "tasakaalustab: kuulutab seadused välja",
+       "viide": "PS § 77"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Järelevalve",
+     "toon": "c",
+     "kastid": [
+      {
+       "pealkiri": "Õiguskantsler",
+       "viide": "PS § 139 lg 1"
+      },
+      {
+       "pealkiri": "Riigikontroll",
+       "viide": "PS § 132"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Muud",
+     "toon": "c",
+     "kastid": [
+      {
+       "pealkiri": "Kohalik omavalitsus",
+       "viide": "PS § 154 lg 1"
+      },
+      {
+       "pealkiri": "Eesti Pank",
+       "viide": "PS § 111"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "tyyp": "vordlus",
+   "pealkiri": "Kes mida teeb vangla suhtes",
+   "veerud": [
+    "Mida teeb",
+    "Säte"
+   ],
+   "read": [
+    {
+     "silt": "Riigikogu",
+     "lahtrid": [
+      "Võtab vastu vangistusseaduse",
+      "[[PS § 65 p 1]]"
+     ]
+    },
+    {
+     "silt": "Minister",
+     "lahtrid": [
+      "Kehtestab määrusega vangla sisekorraeeskirja",
+      "[[VangS § 105 lg 2]]"
+     ]
+    },
+    {
+     "silt": "Vangla",
+     "lahtrid": [
+      "Viib vangistuse täide",
+      "[[VangS § 105 lg 1]]"
+     ]
+    },
+    {
+     "silt": "Halduskohus",
+     "lahtrid": [
+      "Lahendab kinnipeetava kaebuse vangla otsuse peale",
+      "[[VangS § 1^1 lg 5]]"
+     ]
+    },
+    {
+     "silt": "President",
+     "lahtrid": [
+      "Võib süüdimõistetu palvel anda armu",
+      "[[PS § 78 p 19]]"
+     ]
+    },
+    {
+     "silt": "Õiguskantsler",
+     "lahtrid": [
+      "Kontrollib õigustloovate aktide põhiseaduspärasust",
+      "[[PS § 139 lg 1]]"
+     ]
+    }
+   ]
+  }
+ ],
+ "vastus": [
+  {
+   "nr": 29,
+   "punktid": [
+    "**Põhiseaduse institutsioon** = riigiorgan, mis on põhiseaduses nimetatud ja saanud sealt pädevuse (slaid 2).",
+    "**Seadusandlik võim:** Riigikogu ([[PS § 59]]); õpiku järgi ka rahvas ([[PS § 56]]).",
+    "**Täidesaatev võim:** Vabariigi Valitsus ([[PS § 86]]).",
+    "**Kohtuvõim:** kohtud, kõrgeim on Riigikohus ([[PS § 146]], [[PS § 149 lg 3]]).",
+    "**Väljaspool kolme haru:** Vabariigi President riigipeana ([[PS § 77]]); õiguskantsler ([[PS § 139 lg 1]]) ja Riigikontroll ([[PS § 132]]) sõltumatu järelevalvena; Eesti Pank ([[PS § 111]]); kohalik omavalitsus ([[PS § 154 lg 1]]).",
+    "**Põhimõte:** tegevus on korraldatud võimude lahususe ja tasakaalustatuse põhimõttel ([[PS § 4]])."
+   ]
+  }
+ ],
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Lahterda institutsioon võimude lahususe järgi (küsimus 29).",
+   "ryhmad": [
+    "Seadusandlik",
+    "Täidesaatev",
+    "Kohtuvõim",
+    "Muu"
+   ],
+   "read": [
+    {
+     "tekst": "Riigikogu",
+     "oige": 0,
+     "selgitus": "[[PS § 59]]."
+    },
+    {
+     "tekst": "Vabariigi Valitsus",
+     "oige": 1,
+     "selgitus": "[[PS § 86]]."
+    },
+    {
+     "tekst": "Riigikohus",
+     "oige": 2,
+     "selgitus": "[[PS § 149 lg 3]]."
+    },
+    {
+     "tekst": "Õiguskantsler",
+     "oige": 3,
+     "selgitus": "Sõltumatu järelevalvaja ([[PS § 139 lg 1]])."
+    },
+    {
+     "tekst": "Halduskohus",
+     "oige": 2,
+     "selgitus": "Esimese astme kohus ([[PS § 149 lg 1]])."
+    },
+    {
+     "tekst": "Vangla",
+     "oige": 1,
+     "selgitus": "Ministeeriumi valitsemisalas olev valitsusasutus ([[VangS § 105 lg 1]])."
+    },
+    {
+     "tekst": "Vabariigi President",
+     "oige": 3,
+     "selgitus": "Riigipea ([[PS § 77]])."
+    },
+    {
+     "tekst": "Riigikontroll",
+     "oige": 3,
+     "selgitus": "Sõltumatu majanduskontroll ([[PS § 132]])."
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Kellele kuulub põhiseaduse järgi täidesaatev riigivõim?",
+   "valikud": [
+    "Vabariigi Presidendile",
+    "Vabariigi Valitsusele",
+    "Riigikogule",
+    "Õiguskantslerile"
+   ],
+   "oige": 1,
+   "selgitus": "[[PS § 86]]."
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis on näide võimude tasakaalustatusest?",
+   "valikud": [
+    "Riigikogul on 101 liiget",
+    "President võib jätta Riigikogu vastu võetud seaduse välja kuulutamata",
+    "Vangla on valitsusasutus",
+    "Kohtuistungid on avalikud"
+   ],
+   "oige": 1,
+   "selgitus": "[[PS § 107 lg 2]]: üks institutsioon kontrollib teise tegevust."
+  },
+  {
+   "tyyp": "kaasus",
+   "kysimus": "Minister annab määruse, mis reguleerib kinnipeetavate õigusi teisiti kui vangistusseadus. Kinnipeetav vaidlustab vangla otsuse, mis põhineb sellel määrusel. Mida saab kohus teha?",
+   "vastus": [
+    "**Seaduste hierarhia:** minister annab määrusi seaduse alusel ja täitmiseks ([[PS § 94 lg 2]]); määrus ei tohi seadusega vastuolus olla.",
+    "**Kohtu roll:** kohus jätab kohaldamata õigusakti, mis on vastuolus põhiseadusega ([[PS § 152 lg 1]]).",
+    "**Edasi:** Riigikohus võib sellise akti kehtetuks tunnistada ([[PS § 152 lg 2]]).",
+    "**Võimude lahusus:** täidesaatva võimu akti kontrollib kohtuvõim ([[PS § 4]]).",
+    "**Järeldus:** kohus ei pea vastuolus olevat määrust kohaldama ja lahendab kaebuse seaduse järgi."
+   ]
+  }
+ ],
+ "erinevused": [
+  {
+   "teema": "Slaidi 2 paragrahviloend",
+   "konspekt": "Slaid 2: „Vt nt PS § 65 Riigikogu pädevus, aga ka §-d 56, 78, 87, 11, 133, 139 jne”.",
+   "ametlik": "[[PS § 11]] räägib õiguste ja vabaduste piiramisest, mitte institutsiooni pädevusest. Institutsiooni pädevust sätestab [[PS § 111]] (Eesti Pank).",
+   "viide": "PS § 111",
+   "markus": "Tõenäoliselt on slaidil trükiviga (11 → 111). Ära vali ise: eksamil viita sättele, mille sisu oled kontrollinud."
+  }
+ ],
+ "valjast": []
+}

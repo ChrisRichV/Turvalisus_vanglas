@@ -1,4 +1,4 @@
-/* Skeemid: voog, puu, tasandid, vordlus, kaalud. Sisu tuleb teemafailist. */
+/* Skeemid: voog, puu, tasandid, vordlus, kaalud, kontroll (samm-sammuline). Sisu tuleb teemafailist. */
 (function () {
   "use strict";
   const A = window.APP;
@@ -24,6 +24,18 @@
       const pais = `<thead><tr><th scope="col"><span class="peidetud">Rida</span></th>${s.veerud.map((v) => `<th scope="col">${md(v)}</th>`).join("")}</tr></thead>`;
       const read = s.read.map((r) => `<tr><th scope="row">${md(r.silt)}</th>${r.lahtrid.map((l, i) => `<td data-veerg="${A.esc(s.veerud[i] || "")}">${md(l)}</td>`).join("")}</tr>`).join("");
       return `<table class="s-vordlus">${pais}<tbody>${read}</tbody></table>`;
+    },
+    kontroll(s) {
+      const sammud = s.sammud.map((x, i) => `<li class="${i ? "lukus" : ""}">
+        <div class="kontroll-kys"><span class="kontroll-silt">${md(x.silt || "")}</span><b>${md(x.kysimus)}</b></div>
+        <button type="button" class="nupp teine kontroll-ava"${i ? " disabled" : ""}>Mõtle ise, siis näita</button>
+        <div class="kontroll-vastus" hidden>${md(x.vastus)}${x.viited ? `<div class="kontroll-viited">${x.viited.map((v) => A.refNupp(v)).join("")}</div>` : ""}</div></li>`).join("");
+      return `<div class="s-kontroll">${s.olukord ? `<div class="kontroll-olukord">${md(s.olukord)}</div>` : ""}
+        <div class="kontroll-pea"><div class="kontroll-riba" aria-hidden="true"><i></i></div><span class="kontroll-seis" role="status" aria-live="polite">Samm 0 / ${s.sammud.length}</span>
+          <button type="button" class="kontroll-koik">Näita kõik</button></div>
+        <ol class="kontroll-sammud">${sammud}</ol>
+        ${s.jareldus ? `<div class="kontroll-jareldus" hidden><b>Järeldus</b>${md(s.jareldus)}</div>` : ""}
+        ${s.markus ? `<p class="kontroll-markus">${md(s.markus)}</p>` : ""}</div>`;
     },
     kaalud(s) {
       const vaagen = (o) => `<div class="vaagen">${kast(o)}<span class="silt-k">${md(o.silt)}</span></div>`;

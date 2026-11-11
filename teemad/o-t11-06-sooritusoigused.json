@@ -1,0 +1,262 @@
+{
+ "id": "o-t11-06",
+ "tund": "o-t11",
+ "jrk": 6,
+ "pealkiri": "Sooritusõigused: kui riik peab tegutsema",
+ "kysimused": [],
+ "lyhidalt": "Sooritusõiguse puhul ei ole probleem selles, et riik sekkub, vaid selles, et riik jätab midagi tegemata. Liike on kolm: kaitse teise inimese eest, korralik menetlus ja abi puuduse korral. Riive on riigi tegevusetus.",
+ "osad": {
+  "pohimote": {
+   "tekst": "Sooritusõigus ehk nõudeõigus on õigus riigi **positiivsele tegevusele**. Slaid 45 võrdleb kolme liiki:",
+   "tsitaat": {
+    "viide": "PS § 13 lg 1",
+    "tekst": "Igaühel on õigus riigi ja seaduse kaitsele. Eesti riik kaitseb oma kodanikku ka välisriikides."
+   },
+   "punktid": [
+    "**Kaitsepõhiõigus** – kaitstav hüve on ohus ja oht tuleb **kolmandalt isikult**. Riive: puudulik kaitse.",
+    "**Põhiõigus korraldusele ja menetlusele** – riik peab looma menetluse, mille kaudu õigusi saab kaitsta. Riive: puudulik korraldus või menetlus.",
+    "**Sotsiaalsed põhiõigused** – riik peab andma abi. Riive: piisava abi andmata jätmine.",
+    "Kõigil kolmel juhul on riive **adressaadi tegevusetus**."
+   ]
+  },
+  "alus": {
+   "read": [
+    {
+     "tase": "Kaitse",
+     "viited": [
+      "PS § 13 lg 1",
+      "PS § 14"
+     ],
+     "tekst": "Õigus riigi ja seaduse kaitsele; riigivõimu kohustus õigused tagada."
+    },
+    {
+     "tase": "Menetlus",
+     "viited": [
+      "PS § 14",
+      "PS § 15 lg 1"
+     ],
+     "tekst": "Õigus korraldusele ja menetlusele; õigus pöörduda kohtusse."
+    },
+    {
+     "tase": "Sotsiaalsed õigused",
+     "viited": [
+      "PS § 28 lg 1",
+      "PS § 28 lg 2"
+     ],
+     "tekst": "Õigus tervise kaitsele; õigus riigi abile vanaduse, töövõimetuse, toitjakaotuse ja puuduse korral."
+    },
+    {
+     "tase": "Vangla: kaitse",
+     "viited": [
+      "VangS § 12 lg 1",
+      "VangS § 66 lg 2"
+     ],
+     "tekst": "Eraldihoidmine; ametnik vastutab julgeoleku eest."
+    },
+    {
+     "tase": "Vangla: menetlus",
+     "viited": [
+      "VangS § 1^1 lg 5",
+      "VangS § 1^1 lg 7"
+     ],
+     "tekst": "Vaie ja kaebus halduskohtule; vaie lahendatakse 30 päeva jooksul."
+    },
+    {
+     "tase": "Vangla: abi",
+     "viited": [
+      "VangS § 49 lg 1",
+      "VangS § 52 lg 2"
+     ],
+     "tekst": "Tervishoid vanglas on riigi tervishoiusüsteemi osa; tervishoiutöötaja jälgib ja ravib."
+    }
+   ]
+  },
+  "piiramine": {
+   "pealkiri": "Kuidas tegevusetust kontrollida",
+   "tekst": "Slaidi 17 põhiküsimus: **kas selline riigipoolne tegevusetus on õigustatud?** Slaid 45 täpsustab liikide kaupa:",
+   "punktid": [
+    "**Kaitsepõhiõigus:** kaalutakse **kahte vastassuunalist põhiõigust** – ühe inimese kaitsmine tähendab sekkumist teise inimese põhiõigustesse (kolmikmõju).",
+    "**Korraldus ja menetlus:** kontroll sarnaneb kaalutlusvigade kontrolliga halduskohtus. **Miinimumläve** tagamata jätmist ei ole võimalik õigustada.",
+    "**Sotsiaalsed õigused:** samuti sarnane kaalutlusvigade kontrolliga. **Elatusmiinimumi** tagamata jätmist ei ole võimalik õigustada – kaalutlusruum on sel juhul nullis.",
+    "Slaid 47: õige menetlus aitab kaasa õige ja õiglase tulemuse saavutamisele; mida tõhusam on menetlus, seda paremini põhiõigused praktikas teostuvad."
+   ]
+  },
+  "vangla": {
+   "tekst": "Kinnipeetav sõltub vanglast peaaegu kõiges, mistõttu on sooritusõigused vanglas eriti tähtsad: kinnipeetav ei saa ise arsti juurde minna ega ohtliku kaaslase eest ära kolida. Karistuse kandmine ei tohi põhjustada rohkem kannatusi, kui kinnipidamisega paratamatult kaasneb ([[VangS § 4^1 lg 1]]).",
+   "naide": {
+    "olukord": "Kinnipeetav esitab vaide distsiplinaarkaristuse peale. Kahe kuu jooksul ei tule mingit vastust. Ametnik ütleb: „Vastus tuleb siis, kui jõuame.”",
+    "analyys": "**Liik:** põhiõigus korraldusele ja menetlusele ([[PS § 14]]) – sooritusõigus. **Riigi kohustus:** vaie lahendatakse 30 päeva jooksul, arvates vaide edastamisest vaiet läbivaatavale haldusorganile ([[VangS § 1^1 lg 7]]). **Riive:** tegevusetus – menetlus ei toimi ettenähtud ajal. **Õigustus:** tähtaeg on seaduses; „kui jõuame” ei ole õigustus. **Mida kinnipeetav saab teha:** kui vaie on jäetud tähtaegselt lahendamata, võib ta esitada kaebuse halduskohtule ([[VangS § 1^1 lg 5]]); igaühel on õigus pöörduda oma õiguste rikkumise korral kohtusse ([[PS § 15 lg 1]]). **Järeldus:** menetlusõigust on rikutud; vastamata jätmine ei takista kohtusse pöördumist."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Sooritusõigust kontrollitakse vabadusõiguse skeemiga ja otsitakse „sekkumist”. Siin on riive **tegevusetus**.",
+    "Arvatakse, et riigi tegevusetust ei saa vaidlustada. Saab – ka tegevusetus võib olla põhiõiguse rikkumine.",
+    "Kaitsepõhiõiguse puhul unustatakse kolmas isik: tema põhiõigused tuleb samuti kaalule panna.",
+    "Arvatakse, et rahapuudus õigustab kõike. Miinimumläve (menetlus) ja elatusmiinimumi (abi) tagamata jätmist slaidide järgi õigustada ei saa."
+   ]
+  }
+ },
+ "skeem": [
+  {
+   "tyyp": "vordlus",
+   "pealkiri": "Sooritusõiguste kolm liiki (slaid 45)",
+   "veerud": [
+    "",
+    "Kaitsepõhiõigus",
+    "Korraldus ja menetlus",
+    "Sotsiaalne õigus"
+   ],
+   "read": [
+    {
+     "silt": "Mida kaitseb",
+     "lahtrid": [
+      "hüve, mida ohustab kolmas isik",
+      "korralduse ja menetluse miinimumlävi",
+      "elatusmiinimum"
+     ]
+    },
+    {
+     "silt": "Riive",
+     "lahtrid": [
+      "puudulik kaitse",
+      "puudulik korraldus või menetlus",
+      "piisava abi andmata jätmine"
+     ]
+    },
+    {
+     "silt": "Kontroll",
+     "lahtrid": [
+      "kahe vastassuunalise põhiõiguse kaalumine",
+      "nagu kaalutlusvigade kontroll; miinimumi ei saa õigustada",
+      "nagu kaalutlusvigade kontroll; miinimumi ei saa õigustada"
+     ]
+    },
+    {
+     "silt": "Põhiseadus",
+     "lahtrid": [
+      "[[PS § 13 lg 1]]",
+      "[[PS § 14]], [[PS § 15 lg 1]]",
+      "[[PS § 28 lg 2]]"
+     ]
+    },
+    {
+     "silt": "Vangla",
+     "lahtrid": [
+      "[[VangS § 12 lg 1 p 4]]",
+      "[[VangS § 1^1 lg 7]]",
+      "[[VangS § 52 lg 2]]"
+     ]
+    }
+   ]
+  },
+  {
+   "tyyp": "tasandid",
+   "pealkiri": "Kolm liiki, kolm põhiküsimust (slaid 17)",
+   "tasandid": [
+    {
+     "pealkiri": "Vabadusõigus",
+     "toon": "a",
+     "kastid": [
+      {
+       "pealkiri": "Riik sekkus",
+       "tekst": "kas sekkumine on põhiseaduspärane?",
+       "viide": "PS § 11"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Võrdsusõigus",
+     "toon": "b",
+     "kastid": [
+      {
+       "pealkiri": "Riik kohtles erinevalt",
+       "tekst": "kas erinev kohtlemine on õigustatud?",
+       "viide": "PS § 12 lg 1"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Sooritusõigus",
+     "toon": "c",
+     "kastid": [
+      {
+       "pealkiri": "Riik jättis tegemata",
+       "tekst": "kas tegevusetus on õigustatud?",
+       "viide": "PS § 14"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "vastus": [],
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Mis liiki sooritusõigus?",
+   "ryhmad": [
+    "Kaitse",
+    "Menetlus",
+    "Sotsiaalne"
+   ],
+   "read": [
+    {
+     "tekst": "Vangla hoiab eraldi isikuid, keda ähvardab kättemaksuoht",
+     "oige": 0,
+     "selgitus": "Oht tuleb kolmandalt isikult ([[VangS § 12 lg 1 p 4]])."
+    },
+    {
+     "tekst": "Vaie lahendatakse 30 päeva jooksul",
+     "oige": 1,
+     "selgitus": "[[VangS § 1^1 lg 7]]."
+    },
+    {
+     "tekst": "Tervishoiutöötaja jälgib kinnipeetavate terviseseisundit",
+     "oige": 2,
+     "selgitus": "[[VangS § 52 lg 2]]; [[PS § 28 lg 1]]."
+    },
+    {
+     "tekst": "Õigus riigi abile puuduse korral",
+     "oige": 2,
+     "selgitus": "[[PS § 28 lg 2]]."
+    },
+    {
+     "tekst": "Õigus pöörduda oma õiguste rikkumise korral kohtusse",
+     "oige": 1,
+     "selgitus": "[[PS § 15 lg 1]]."
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis on sooritusõiguse riive slaidi 45 järgi?",
+   "valikud": [
+    "Riigi aktiivne sekkumine kaitsealasse",
+    "Põhiõiguse adressaadi tegevusetus",
+    "Kahe grupi erinev kohtlemine",
+    "Kolmanda isiku õigusvastane tegu"
+   ],
+   "oige": 1,
+   "selgitus": "Puudulik kaitse, puudulik menetlus või piisava abi andmata jätmine – kõik on tegevusetus."
+  },
+  {
+   "tyyp": "kaasus",
+   "kysimus": "Kinnipeetav kaebab kolm nädalat tugevat hambavalu. Talle öeldakse, et hambaarsti vastuvõtt on „kunagi järgmisel kuul”, valuvaigistit ei pakuta. Mis liiki õigusega on tegu ja kuidas kontrollida?",
+   "vastus": [
+    "**Liik:** sotsiaalne põhiõigus – õigus tervise kaitsele ([[PS § 28 lg 1]]). Sooritusõigus: riik peab tegutsema.",
+    "**Riigi kohustus vanglas:** tervishoid vanglas on riigi tervishoiusüsteemi osa ([[VangS § 49 lg 1]]); tervishoiutöötaja on kohustatud kinnipeetavate terviseseisundit pidevalt jälgima ja neid vanglas olevate võimaluste piires ravima ([[VangS § 52 lg 2]]).",
+    "**Riive:** tegevusetus – abi ei anta mõistliku aja jooksul.",
+    "**Õigustus:** ravi korraldamisel on riigil kaalutlusruum (järjekord, võimalused), aga miinimumi tagamata jätmist ei saa slaidi 45 järgi õigustada. Tugev valu ilma igasuguse leevenduseta nädalate kaupa võib puutuda ka inimväärikusse ([[VangS § 4^1 lg 1]]).",
+    "**Järeldus:** tõenäoliselt rikkumine; kinnipeetav võib pöörduda vanglateenistuse poole ([[VangS § 49 lg 6]]) ja esitada vaide ([[VangS § 1^1 lg 5]])."
+   ]
+  }
+ ],
+ "erinevused": [],
+ "valjast": [
+  {
+   "tekst": "Slaidid viitavad Riigikohtu lahenditele (RKPJKo 12.01.1994, III-4/1-1/94 – seadusandja positiivne kohustus; RKÜKo 31.05.2011, 3-3-1-85-10 – õigus menetlusele). Lahendite tekste materjali hulgas ei ole; lehel on ainult slaidil öeldu.",
+   "allikas": "õppejõu slaidid 46–47"
+  }
+ ]
+}

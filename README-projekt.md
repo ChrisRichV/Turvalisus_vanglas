@@ -60,7 +60,7 @@ kontrollib sisu.
 | `teema.html?id=t01-08` | Teema: 5 osa + skeem + tunni küsimus + harjutused + allikamärkused + tagasiside | harva |
 | `kordamine.html?aine=…&tund=…&teema=…` | Segatud harjutused (5/8/10) aine/tunni/teema kaupa ja tunni küsimused vastustega | harva |
 | `assets/app.js` | Andmed, märgistus (`md`), **ühine päis + sisukorra sahtel** (`A.kaivita({leht, aine, tund, teema})`), hüpikaknad, näiteaken, harjutused, tagasiside | harva |
-| `assets/skeemid.js` | Skeemitüübid: `voog`, `puu`, `tasandid`, `vordlus`, `kaalud` | uue tüübi korral |
+| `assets/skeemid.js` | Skeemitüübid: `voog`, `puu`, `tasandid`, `vordlus`, `kaalud`, `kontroll` | uue tüübi korral |
 | `assets/stiil.css` | Kujundus, hele/tume teema | harva |
 | `assets/seadistus.js` | Supabase URL + **publishable** võti | ei |
 
@@ -82,18 +82,27 @@ kontrollib sisu.
 
 ### `data/tunnid.json`
 ```json
-{ "ained": [ { "id": "inimoigused", "nimi": "…", "lyhend": "Inimõigused", "kood": "KS240", "kirjeldus": "…", "kiirotsing": true } ],
+{ "ained": [ { "id": "inimoigused", "nimi": "…", "lyhend": "Inimõigused", "kood": "KS240", "kirjeldus": "…", "kiirotsing": true,
+                "ajakava?": true, "valjundid?": ["Õiguskord", "…"] } ],   // ajakava: aine lehel ajajoon väljundite kaupa
   "tunnid": [ {
     "id": "t01", "aine": "inimoigused", "nr": 1, "pealkiri": "…", "kuupaev": "2026-11-10", "olek": "valmis | tulemas",
     "kirjeldus": "…", "materjal": ["avalik materjali kirjeldus"],
     "kysimused": ["õppejõu küsimus 1", "…"],          // järjekord = number
+                 // VÕI [{ "nr": 28, "tekst": "…" }]   // aine läbiv number (õiguse alused: 1–47 ühes failis)
+    "tyyp?": "loeng | seminar | eksam", "valjund?": 3, "vorm?": "E-õppe loeng",
+    "alateemad?": ["…"], "tahtajad?": [ { "nimi": "Test „…”", "kp": "2026-11-18" } ],  // ajajoone kaardil
     "plokid": [ { "pealkiri": "…", "teemad": ["t01-01", "…"] } ],
     "teemad": [ { "id": "t01-01", "fail": "teemad/t01-01-uro.json" } ],
     "allikafailid": { "opetaja": [], "kysimused": [], "tekstiversioonid": [], "markus": "" }
 } ] }
 ```
 
-**Id-de kuju:** inimõigused `t01`, `t01-01`; psühholoogia `ps-t01`, `ps-t01-01`; õigus `o-t01`, `o-t01-01`.
+**Id-de kuju:** inimõigused `t01`, `t01-01`; psühholoogia `ps-t01`, `ps-t01-01`; õigus `o-t01`, `o-t01-01`; eksam `o-eksam`.
+
+**Ajakavaga aine** (`ajakava: true`, praegu `oigus`): kõik kohtumised on `tunnid.json`-is kuupäevaga, ka tulevased,
+seminarid (`tyyp: "seminar"`) ja eksam. Aine leht näitab ajajoont: toimunud / täna / tulemas (brauseri kuupäeva
+järgi), seminaridel kohatäide „Õpilastööde arutelu lisatakse siia”. Teemade nimekirjas on ainult `olek: "valmis"` tunnid.
+Seminari arutelu lisamiseks: anna seminarile `teemad` + `plokid` ja `olek: "valmis"`.
 Teemafail: `teemad/<teema-id>-<nimi>.json`. Id-d peavad olema unikaalsed (ehitus kontrollib).
 
 ### `teemad/*.json`
@@ -112,7 +121,9 @@ Teemafail: `teemad/<teema-id>-<nimi>.json`. Id-d peavad olema unikaalsed (ehitus
   "vastus": [ { "nr": 10, "punktid": [] } ],      // iga tunni küsimuse kohta, mida teema katab
   "harjutused": [
     { "tyyp": "fakt", "kysimus": "…", "valikud": ["…"], "oige": 1, "selgitus": "[[viide]]" },
-    { "tyyp": "kaasus", "kysimus": "…", "vastus": ["**Kaitseala:** …", "**Riive:** …", "…", "**Järeldus:** …"] }
+    { "tyyp": "kaasus", "kysimus": "…", "vastus": ["**Kaitseala:** …", "**Riive:** …", "…", "**Järeldus:** …"] },
+    { "tyyp": "sorteeri", "kysimus": "…", "ryhmad": ["A", "B", "C"],          // iga rida: klõpsa õige rühm
+      "read": [ { "tekst": "…", "oige": 0, "selgitus": "[[viide]]" } ] }
   ],
   "erinevused": [ { "teema": "…", "konspekt": "…", "ametlik": "…", "viide": "…", "markus?": "…" } ],
   "valjast":    [ { "tekst": "…", "allikas": "… – ei pärine tunnimaterjalist" } ],
@@ -139,6 +150,7 @@ ja proportsionaalsus, 4) näide vanglast, 5) tüüpviga eksamil.
 | `tasandid` | read sildiga vasakul | `tasandid[{pealkiri, toon, kastid[…]}]` |
 | `vordlus` | tabel; mobiilis kaardid | `veerud[]`, `read[{silt, lahtrid[]}]` |
 | `kaalud` | kaks vaagnat + tingimused | `vasak{…, silt}`, `parem{…, silt}`, `all[]` |
+| `kontroll` | **samm-sammuline kaasus**: küsimus → „Mõtle ise, siis näita” → järgmine avaneb; edenemisriba, järeldus lõpus | `olukord`, `sammud[{silt, kysimus, vastus, viited[]}]`, `jareldus`, `markus` |
 
 ### Märgistus tekstis
 | Kirjutad | Tulemus |
@@ -146,7 +158,7 @@ ja proportsionaalsus, 4) näide vanglast, 5) tüüpviga eksamil.
 | `[[PS § 18]]`, `[[VangS § 4^1 lg 2]]`, `[[EIÕK art 8 lg 2]]`, `[[Mandela rule 58]]` | klikitav viide; aken näitab sätet, lõige esile tõstetud |
 | `[[PS § 18\|kuvatav tekst]]` | sama, teise kuvatekstiga |
 | `{{termin-id}}`, `{{termin-id\|kuvatav}}` | klikitav termin (`data/terminid.json`) |
-| `**paks**`, `` `kood` `` | vorming |
+| `**paks**`, `*kaldkiri*`, `` `kood` `` | vorming (kaldkiri: tärn sõna alguses ja lõpus, nt `*vacatio legis*`) |
 
 Viite kuju: `<AKT> <§|art|rule> <nr>[ lg <nr>][ p <nr>]`. Akti lühend peab olema `tools/seadused.py` →
 `ACTS` võtmete hulgas. Punkti (`p`) aken esile ei tõsta, lõiget tõstab.
@@ -220,6 +232,10 @@ esimese esinemise, kui number kordub (sisukord, protokollid).
 - **Mandela reeglid:** lihttekstis oli rule 58 sõnajärg nihkes; seetõttu kasutatakse PDF-i paigutusega väljavõtet.
 - **VRKS** ei defineeri pagulast ise, vaid viitab EL-i määrustele (§ 2).
 - **RT muudatusmärked** (`[RT I, …]`) jäävad teksti, kuvatakse halli väikese kirjana.
+- **Õiguse alused – kalenderplaan:** 14. loengu kuupäev on õppejõu plaanis 26.12.26 – kirjaviga, õige 26.11.26.
+- **Kardinakaasus (o-t11-04):** õppejõu e-õpiobjekt tsiteerib VangS § 15 vanas sõnastuses (lg 2 kolm punkti);
+  lehel on kehtiv tekst + `erinevused`. Lahenduse sammud on Claude'i koostatud (õppejõu lahenduse lehed puudusid).
+- **Slaidid VangS § 25 lg 1:** vana sõnastus „ühine majapidamine” – kehtivas tekstis seda alust pole.
 - **AK:** standardid kustutati kasutaja kaustast 10.11.2026; kontroll toimub `tools/ak_sormejaljed.txt` kaudu.
   Tallinna Vangla kodukorra **lisa 11** on AK – ülejäänud kodukord mitte.
 
