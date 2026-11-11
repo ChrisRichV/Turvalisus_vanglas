@@ -1,4 +1,4 @@
-/* Skeemid: voog, puu, tasandid, vordlus, kaalud, kontroll (samm-sammuline). Sisu tuleb teemafailist. */
+/* Skeemid: voog, puu, tasandid, vordlus, kaalud, kontroll, kaardid, otsus, kolmnurk, pyramiid, sambad. Sisu tuleb teemafailist. */
 (function () {
   "use strict";
   const A = window.APP;
@@ -37,6 +37,47 @@
         ${s.jareldus ? `<div class="kontroll-jareldus" hidden><b>Järeldus</b>${md(s.jareldus)}</div>` : ""}
         ${s.markus ? `<p class="kontroll-markus">${md(s.markus)}</p>` : ""}</div>`;
     },
+    /* Kaardid: ruudustik; silt (suur märk/number), pealkiri, tekst, viide, toon a/b/c/d. */
+    kaardid(s) {
+      return `<ul class="s-kaardid${s.kitsad ? " kitsad" : ""}">${s.kaardid.map((k) => `<li data-toon="${k.toon || "a"}">
+        ${k.silt ? `<span class="k-silt">${md(k.silt)}</span>` : ""}<b class="k-pea">${md(k.pealkiri)}</b>
+        ${k.tekst ? `<span class="k-tekst">${md(k.tekst)}</span>` : ""}${k.viide ? `<span class="k-viide">${A.refNupp(k.viide)}</span>` : ""}</li>`).join("")}</ul>`;
+    },
+    /* Otsustusrada: iga samm on küsimus; "ei" viib kõrvale väljapääsu; lõpus tulemus. */
+    otsus(s) {
+      const sammud = s.sammud.map((x, i) => `<li class="o-samm">
+        <div class="o-kys"><span class="o-nr">${i + 1}</span><div><b>${md(x.kysimus)}</b>${x.tekst ? `<span>${md(x.tekst)}</span>` : ""}${x.viide ? A.refNupp(x.viide) : ""}</div></div>
+        ${x.ei ? `<div class="o-ei"><span class="o-silt">${md(x.ei_silt || "Ei")}</span><div><b>${md(x.ei.tulemus)}</b>${x.ei.tekst ? `<span>${md(x.ei.tekst)}</span>` : ""}</div></div>` : ""}
+        ${i < s.sammud.length - 1 ? `<span class="o-jah" aria-hidden="true">${md(x.jah_silt || "Jah")}</span>` : ""}</li>`).join("");
+      return `<div class="s-otsus">${s.algus ? `<div class="o-algus">${md(s.algus)}</div>` : ""}<ol>${sammud}</ol>
+        ${s.lopp ? `<div class="o-lopp"><span class="o-silt">${md(s.lopp.silt || "Jah")}</span><div><b>${md(s.lopp.tulemus)}</b>${s.lopp.tekst ? `<span>${md(s.lopp.tekst)}</span>` : ""}</div></div>` : ""}</div>`;
+    },
+    /* Kolmnurk: kolm osalist ja nende vahelised seosed. */
+    kolmnurk(s) {
+      const nurk = (o, kl) => `<div class="kn-nurk ${kl}">${kast(o)}</div>`;
+      const n = s.nooled || {};
+      return `<div class="s-kolmnurk">
+        <svg class="kn-jooned" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+          <line x1="50" y1="16" x2="17" y2="78"/><line x1="50" y1="16" x2="83" y2="78"/><line x1="24" y1="86" x2="76" y2="86" class="katk"/></svg>
+        ${nurk(s.yla, "kn-yla")}${nurk(s.vasak, "kn-vasak")}${nurk(s.parem, "kn-parem")}
+        ${n.vasak ? `<span class="kn-noole kn-nv">${md(n.vasak)}</span>` : ""}${n.parem ? `<span class="kn-noole kn-np">${md(n.parem)}</span>` : ""}${n.all ? `<span class="kn-noole kn-na">${md(n.all)}</span>` : ""}
+      </div>${s.all ? `<p class="kn-all">${md(s.all)}</p>` : ""}`;
+    },
+    /* Püramiid: astmed ülevalt alla (kitsast laiaks); "vahel" = silt kahe astme vahel. */
+    pyramiid(s) {
+      const k = s.astmed.length;
+      return `<ol class="s-pyramiid">${s.astmed.map((x, i) => `<li style="--l:${Math.round(52 + 48 * i / Math.max(1, k - 1))}%" data-toon="${x.toon || "a"}">
+          <div class="p-aste"><b>${md(x.pealkiri)}</b>${x.tekst ? `<span>${md(x.tekst)}</span>` : ""}${x.viide ? A.refNupp(x.viide) : ""}</div>
+          ${x.vahel ? `<div class="p-vahel"><span>${md(x.vahel)}</span></div>` : ""}</li>`).join("")}</ol>`;
+    },
+    /* Sambad: katus (ühine alus), sambad (harud) ja vundament; tasakaal = seosed sammaste vahel. */
+    sambad(s) {
+      return `<div class="s-sambad">${s.katus ? `<div class="sb-katus"><b>${md(s.katus.pealkiri)}</b>${s.katus.tekst ? `<span>${md(s.katus.tekst)}</span>` : ""}${s.katus.viide ? A.refNupp(s.katus.viide) : ""}</div>` : ""}
+        <div class="sb-read">${s.sambad.map((x) => `<div class="sb-sammas" data-toon="${x.toon || "a"}"><h4>${md(x.pealkiri)}</h4>${x.viide ? A.refNupp(x.viide) : ""}
+          <ul>${(x.read || []).map((r) => `<li>${md(r)}</li>`).join("")}</ul></div>`).join("")}</div>
+        ${s.alus ? `<div class="sb-alus"><b>${md(s.alus.pealkiri)}</b>${s.alus.tekst ? `<span>${md(s.alus.tekst)}</span>` : ""}${s.alus.viide ? A.refNupp(s.alus.viide) : ""}</div>` : ""}
+        ${s.tasakaal ? `<div class="sb-tasakaal"><h4>${md(s.tasakaal_pealkiri || "Kuidas harud üksteist kontrollivad")}</h4><ul>${s.tasakaal.map((r) => `<li>${md(r)}</li>`).join("")}</ul></div>` : ""}</div>`;
+    },
     kaalud(s) {
       const vaagen = (o) => `<div class="vaagen">${kast(o)}<span class="silt-k">${md(o.silt)}</span></div>`;
       return `<div class="s-kaalud">${vaagen(s.vasak)}${vaagen(s.parem)}</div>
@@ -49,6 +90,6 @@
     if (Array.isArray(s)) return s.map(A.skeem).join("");
     const f = R[s.tyyp];
     if (!f) return "";
-    return `<figure class="skeem" style="margin-inline:0"><h3>${md(s.pealkiri || "")}</h3>${f(s)}</figure>`;
+    return `<figure class="skeem" style="margin-inline:0">${s.pealkiri ? `<h3>${md(s.pealkiri)}</h3>` : ""}${s.sissejuhatus ? `<p class="skeem-sissejuhatus">${md(s.sissejuhatus)}</p>` : ""}${f(s)}${s.allkiri ? `<figcaption>${md(s.allkiri)}</figcaption>` : ""}</figure>`;
   };
 })();

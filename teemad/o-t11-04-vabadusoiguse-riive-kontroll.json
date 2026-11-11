@@ -6,17 +6,82 @@
  "kysimused": [
   34
  ],
- "lyhidalt": "Vabadusõiguse riivet kontrollitakse viie sammuga: nimeta norm, määra kaitseala, kontrolli kuuluvust, tuvasta riive ja hinda selle põhiseaduspärasust. Põhiseaduspärasus jaguneb formaalseks (seaduslik alus, õigusselgus) ja materiaalseks (eesmärk, proportsionaalsus).",
+ "lyhidalt": "Kui riik sekkub sinu vabadusse, saab samm-sammult kontrollida, kas tal oli selleks õigus. Esmalt: kas õigus üldse puutub asjasse ja kas sekkumine toimus? Siis: kas sekkumisel on seaduslik alus ja kas see on mõistlik – mitte rohkem kui vaja. Kui mõni samm kukub läbi, on õigust rikutud.",
  "osad": {
   "pohimote": {
-   "tekst": "Slaid 22 ja e-õpiobjekt annavad kindla järjekorra. Seda tasub pähe õppida, sest eksamikaasus lahendatakse sama skeemiga.",
-   "punktid": [
-    "**1. Nimeta põhiõigusnorm** – leia põhiseadusest õige paragrahv.",
-    "**2. Määra {{kaitseala}}** – keda (isikuline) ja mida (esemeline) norm kaitseb.",
-    "**3. Kas kontrollitav suhe kuulub kaitsealasse?** – kas isik on õigustatud ja kas tema tegevus on kaitstud hüve.",
-    "**4. Kas põhiõigust on piiratud?** – kas riik on mõjutanud hüve ebasoodsalt ({{riive}}).",
-    "**5. Kas piirang on põhiseaduspärane?** – formaalsed ja materiaalsed nõuded. Kui mõni nõue on täitmata, on põhiõigust **rikutud**."
-   ]
+   "pealkiri": "Kontrolli rada",
+   "tekst": "Seda skeemi kasutad iga kord, kui riik on midagi keelanud, ära võtnud või kuhugi sisenenud. Mõtle sellest kui **teekonnast**: liigud sammhaaval edasi. Kui mõne sammu juures vastus on „ei”, pöörad kõrvale ja jõuad järelduseni. Kui jõuad lõpuni, on riive lubatud.",
+   "skeem": {
+    "tyyp": "otsus",
+    "pealkiri": "Vabadusõiguse riive põhiseaduspärasus",
+    "algus": "Riik on midagi teinud. Kas see oli lubatud?",
+    "sammud": [
+     {
+      "kysimus": "Milline põhiõigus on asjakohane?",
+      "tekst": "Otsi põhiseadusest paragrahv: nt omand § 32, kodu § 33, liikumine § 34.",
+      "ei": {
+       "tulemus": "Põhiõigust ei puudutata",
+       "tekst": "Seda õigust pole vaja kontrollida – proovi mõnda teist."
+      },
+      "ei_silt": "Pole"
+     },
+     {
+      "kysimus": "Kas inimene ja tema tegevus kuuluvad {{kaitseala|kaitsealasse}}?",
+      "tekst": "Isikuline kaitseala (kas ta on õiguse kandja?) ja esemeline (kas see hüve on kaitstud?).",
+      "ei": {
+       "tulemus": "Õigus ei kaitse seda olukorda",
+       "tekst": "Nt kodanikuõigusele toetub välismaalane, keda see õigus ei hõlma."
+      }
+     },
+     {
+      "kysimus": "Kas riik mõjus sellele ebasoodsalt ({{riive|riive}})?",
+      "tekst": "Kas midagi keelati, võeti ära, takistati?",
+      "ei": {
+       "tulemus": "Riivet ei ole",
+       "tekst": "Kontroll lõpeb siin."
+      }
+     },
+     {
+      "kysimus": "Kas piirangul on seaduslik alus?",
+      "tekst": "Luba piirata peab olema **seaduses** – seaduse reservatsioon.",
+      "viide": "PS § 3 lg 1",
+      "ei": {
+       "tulemus": "Põhiõigust on rikutud",
+       "tekst": "Ilma seaduseta ei tohi."
+      }
+     },
+     {
+      "kysimus": "Kas seadus on selge?",
+      "tekst": "Kas on aru saada, **kes, kuidas ja millises ulatuses** piirata tohib?",
+      "viide": "PS § 13 lg 2",
+      "ei": {
+       "tulemus": "Põhiõigust on rikutud",
+       "tekst": "Ebaselge norm ei kaitse omavoli eest."
+      }
+     },
+     {
+      "kysimus": "Kas piirangul on legitiimne eesmärk?",
+      "tekst": "Miks piiratakse? Kui põhiseadus nimetab lubatud eesmärgid, peab eesmärk olema nende hulgas.",
+      "ei": {
+       "tulemus": "Põhiõigust on rikutud"
+      }
+     },
+     {
+      "kysimus": "Kas piirang on proportsionaalne?",
+      "tekst": "Kohane, vajalik ja mõõdukas – vt allpool.",
+      "viide": "PS § 11",
+      "ei": {
+       "tulemus": "Põhiõigust on rikutud",
+       "tekst": "Liiga suur sekkumine."
+      }
+     }
+    ],
+    "lopp": {
+     "tulemus": "Riive on põhiseaduspärane",
+     "tekst": "Õigust piirati, aga lubatud viisil – rikkumist ei ole."
+    },
+    "allkiri": "Sammud 4–5 on **formaalsed** nõuded (kas reegel on õigesti kehtestatud), sammud 6–7 **materiaalsed** (kas piirang on sisult õigustatud)."
+   }
   },
   "alus": {
    "read": [
@@ -61,24 +126,152 @@
      ],
      "tekst": "Piirangud seaduses; keelatud asjade tingimused seaduses ja loetelu ministri määruses."
     }
-   ]
+   ],
+   "tekst": "Kontrolli iga sammu taga on põhiseaduse säte. Need tasub meelde jätta, sest eksamil oodatakse, et iga järeldus oleks viitega."
   },
   "piiramine": {
-   "pealkiri": "Viies samm lahti võetuna",
-   "tekst": "**Formaalsed nõuded** (kas piirang on õigesti kehtestatud) ja **materiaalsed nõuded** (kas piirang on sisult õigustatud):",
-   "punktid": [
-    "**Pädevus ja menetlus** – normi kehtestas õige organ õiges korras.",
-    "**Seaduse reservatsioon** – piirangu lubatavus on seaduses, kindlate tingimuste ja raamidega ([[PS § 3 lg 1]]). Kolm astet: **lihtne** – põhiseadus lubab piirata seadusega, tingimusi seadmata (nt [[PS § 29 lg 1]]: „Seadus võib sätestada selle õiguse kasutamise tingimused ja korra”); **kvalifitseeritud** – piirata võib ainult loetletud eesmärkidel (nt [[PS § 26]], [[PS § 33]]); **ilma reservatsioonita** – põhiseadus piiramist otsesõnu ette ei näe (nt [[PS § 18 lg 1]]).",
-    "**Õigusselgus** – normist peab olema aru saada, **kes, kuidas ja millises ulatuses** võib piirata ([[PS § 13 lg 2]]). Slaidi näide: korrakaitseorgan (kes) võib isikut peatada (kuidas) küsitlemiseks korrarikkumise kõrvaldamiseks (millises ulatuses) – [[KorS § 30 lg 1]].",
-    "**Legitiimne eesmärk** – miks piiratakse? Kvalifitseeritud reservatsiooni korral peab eesmärk olema põhiseaduses loetletute seas; reservatsioonita õiguse korral peab eesmärk tulema mõnest teisest põhiseaduse väärtusest.",
-    "**{{proportsionaalsus}}** ([[PS § 11]]): **kohane** – vahend aitab eesmärki saavutada; **vajalik** – ei ole teist sama mõjusat, aga vähem koormavat vahendit; **mõõdukas** – saavutatav kasu kaalub üles tekitatava kahju."
-   ]
+   "pealkiri": "Kaks kõige raskemat sammu lahti",
+   "tekst": "**Seaduse reservatsioon.** Põhiseadus ei suhtu kõikidesse õigustesse ühtemoodi. Mõnda lubab seadusega vabalt piirata, mõnda ainult kindlatel põhjustel ja mõnda üldse mitte. Seda nimetatakse reservatsiooni astmeks – ja see tuleb leida põhiseaduse paragrahvi sõnastusest.",
+   "skeem": [
+    {
+     "tyyp": "kaardid",
+     "pealkiri": "Seaduse reservatsiooni kolm astet",
+     "kaardid": [
+      {
+       "silt": "1",
+       "pealkiri": "Lihtne",
+       "tekst": "„Seadus võib sätestada…”, „Kitsendused sätestab seadus.” Piirata võib igal põhiseadusega kooskõlas eesmärgil.",
+       "viide": "PS § 32 lg 2"
+      },
+      {
+       "silt": "2",
+       "pealkiri": "Kvalifitseeritud",
+       "tekst": "Piirata võib ainult **loetletud eesmärkidel** – nt kodu: avaliku korra, tervise, teiste õiguste kaitseks, kuriteo tõkestamiseks.",
+       "viide": "PS § 33"
+      },
+      {
+       "silt": "3",
+       "pealkiri": "Reservatsioonita",
+       "tekst": "Põhiseadus ei ütle, et seda võib piirata. Õigustus peab tulema mõnest teisest põhiseaduse väärtusest – piinamise keeldu ei saa piirata üldse.",
+       "viide": "PS § 18 lg 1",
+       "toon": "b"
+      }
+     ]
+    },
+    {
+     "tyyp": "kaardid",
+     "pealkiri": "Proportsionaalsus: kolm kontrollküsimust",
+     "sissejuhatus": "Kõigepealt määra eesmärk. Siis küsi järjest – kui üks vastus on „ei”, on piirang ebaproportsionaalne.",
+     "kaardid": [
+      {
+       "silt": "1",
+       "pealkiri": "Kohane?",
+       "tekst": "Kas vahend üldse aitab eesmärki saavutada? Ka natuke aitamine on piisav.",
+       "toon": "b"
+      },
+      {
+       "silt": "2",
+       "pealkiri": "Vajalik?",
+       "tekst": "Kas on mõni **leebem** vahend, mis aitaks sama hästi? Kui on, siis see vahend ei olnud vajalik.",
+       "toon": "b"
+      },
+      {
+       "silt": "3",
+       "pealkiri": "Mõõdukas?",
+       "tekst": "Pane kaalule: kas saavutatav kasu on suurem kui inimesele tekitatud kahju?",
+       "toon": "b"
+      }
+     ]
+    }
+   ],
+   "jarel": "**Õigusselgus** tähendab, et normist on aru saada, **kes** tohib piirata, **kuidas** ja **millises ulatuses**. Hea näide on korrakaitseseadus: korrakaitseorgan (kes) võib isiku peatada ja teda küsitleda (kuidas), kui tal võib olla andmeid ohu tõrjumiseks või korrarikkumise kõrvaldamiseks (millises ulatuses) – [[KorS § 30 lg 1]]."
   },
   "vangla": {
-   "tekst": "Õppejõu e-õpiobjektis on vanglakaasus: kinnipeetava isiklik kardin võetakse vanglasse saabumisel hoiule. Lahenda see allpool **samm-sammult** – mõtle iga sammu juures ise ja alles siis ava vastus. Lahenduse on koostanud Claude õppejõu skeemi ja kehtiva seaduse põhjal; õppejõu enda lahendus ei olnud kättesaadav.",
+   "tekst": "Õppejõu e-õpiobjektis on vanglakaasus: kinnipeetava isiklik kardin võetakse vanglasse saabumisel hoiule. Lahenda see ise allolevas harjutuses **samm-sammult**: mõtle iga sammu juures, alles siis ava vastus. Lahenduse on koostanud Claude õppejõu skeemi ja kehtiva seaduse põhjal; õppejõu enda lahendus ei olnud kättesaadav.",
    "naide": {
     "olukord": "Vanglaametnik keeldub kinnipeetavale tema kardinat tagasi andmast ja ütleb: „Sisekorraeeskiri keelab, rohkem pole midagi arutada.” Kas ametnikul on õigus?",
     "analyys": "**Osaliselt.** Keeld on sisekorraeeskirjas sõnaselgelt olemas ([[VSE § 64^1 p 20]]) ja ametnik peab seda täitma. Aga määrus ei ole lõplik alus: see on antud seaduse volitusel ([[VangS § 15 lg 3]]) ja peab püsima seaduse tingimuste piires ([[VangS § 15 lg 2]]). Seadus omakorda peab vastama põhiseadusele ([[PS § 32 lg 2]], [[PS § 11]]). **Järeldus:** õige vastus kinnipeetavale nimetab kogu ahela – põhiseadus lubab omandit seadusega kitsendada, seadus seab tingimused, määrus loetleb esemed – ja selgitab, et ta võib esitada vaide ([[VangS § 1^1 lg 5]])."
+   },
+   "skeem": {
+    "tyyp": "kontroll",
+    "pealkiri": "Vanglakaasus: isiklik kardin",
+    "olukord": "Kinnipeetav saabub vanglasse ja tal on kaasas isiklik **kardin**. Vanglaametnik võtab selle hoiule. Kas vangistusseaduse §-ga 15 ja seda täpsustava vangla sisekorraeeskirjaga piiratakse kinnipeetava õigust omandit vabalt vallata, kasutada ja käsutada põhiseaduspäraselt? *(Kaasuse püstitus: T. Roosve e-õpiobjekt „Kaasus vangla kohta”.)*",
+    "sammud": [
+     {
+      "silt": "Põhiõigusnorm",
+      "kysimus": "Milline põhiõigus on asjakohane?",
+      "vastus": "**Omandiõigus.** Igaühel on õigus enda omandit vabalt vallata, kasutada ja käsutada; kitsendused sätestab seadus ([[PS § 32 lg 2]]). Kardinat ei võõrandata, vaid võetakse hoiule ([[VangS § 15 lg 1]]) – seega ei ole küsimus sundvõõrandamises ([[PS § 32 lg 1]]), vaid kasutamise kitsendamises.",
+      "viited": [
+       "PS § 32 lg 2",
+       "VangS § 15 lg 1"
+      ]
+     },
+     {
+      "silt": "Kaitseala",
+      "kysimus": "Keda ja mida see põhiõigus kaitseb?",
+      "vastus": "**Isikuline kaitseala:** „igaühel” – igaüheõigus. **Esemeline kaitseala:** omaniku positsioon – võimalus oma asja vallata, kasutada ja käsutada. Kaitstav hüve on isiku asjad ja tema omandisuhe neisse.",
+      "viited": [
+       "PS § 32 lg 2",
+       "PS § 9 lg 1"
+      ]
+     },
+     {
+      "silt": "Kuuluvus kaitsealasse",
+      "kysimus": "Kas kinnipeetav ja tema kardin kuuluvad kaitsealasse?",
+      "vastus": "**Jah.** Kinnipeetav on inimene ja jääb põhiõiguste kandjaks ([[VangS § 4^1 lg 2]]). Kardin on tema isiklik asi; selle valdamine ja kasutamine on täpselt see, mida omandiõigus kaitseb.",
+      "viited": [
+       "VangS § 4^1 lg 2"
+      ]
+     },
+     {
+      "silt": "Riive",
+      "kysimus": "Kas põhiõigust on piiratud?",
+      "vastus": "**Jah.** Vanglateenistus (adressaat) võtab asja hoiule; kinnipeetav ei saa seda vallata ega kasutada. See on ebasoodne mõju kaitstud positsioonile. Riive on olemas ka siis, kui see osutub lubatuks.",
+      "viited": [
+       "VangS § 15 lg 1"
+      ]
+     },
+     {
+      "silt": "Põhiseaduspärasus · formaalne",
+      "kysimus": "Kas piirangul on seaduslik alus? Mis astme reservatsiooniga on tegu?",
+      "vastus": "**Lihtne seaduse reservatsioon:** „Kitsendused sätestab seadus” ([[PS § 32 lg 2]]) – põhiseadus ei loetle eesmärke. **Seadus:** kinnipeetavale on keelatud esemed, mis vastavad seaduses loetletud tingimustele, sh võivad ohustada vangla julgeolekut või korda või raskendavad oluliselt hügieeninõuete täitmist ([[VangS § 15 lg 2]]). **Volitusnorm:** keelatud asjade loetelu kehtestab minister määrusega ([[VangS § 15 lg 3]]). **Määrus:** keelatud on tekstiiltooted ruumi sisustamiseks, sealhulgas vaibad ja kardinad ([[VSE § 64^1 p 20]]). Kontrolli ka, kas määrus püsib volituse piires: loetellu võib panna ainult asju, mis vastavad seaduse lõike 2 tingimustele.",
+      "viited": [
+       "PS § 32 lg 2",
+       "VangS § 15 lg 2",
+       "VangS § 15 lg 3",
+       "VSE § 64^1 p 20"
+      ]
+     },
+     {
+      "silt": "Põhiseaduspärasus · formaalne",
+      "kysimus": "Kas normist on aru saada, kes, kuidas ja millises ulatuses piirab?",
+      "vastus": "**Kes:** vanglateenistus. **Kuidas:** võtab asja hoiule. **Millises ulatuses:** kardinad on määruses sõnaselgelt nimetatud ([[VSE § 64^1 p 20]]). Kinnipeetav saab normist ette teada, et kardinat kambris hoida ei tohi – õigusselguse nõue ([[PS § 13 lg 2]]) on täidetud.",
+      "viited": [
+       "PS § 13 lg 2",
+       "VSE § 64^1 p 20"
+      ]
+     },
+     {
+      "silt": "Põhiseaduspärasus · materiaalne",
+      "kysimus": "Mis on piirangu legitiimne eesmärk?",
+      "vastus": "Seadus nimetab eesmärgid ise: **vangla julgeolek ja kord** ning **hügieeninõuete täitmine** ([[VangS § 15 lg 2]]). Laiemalt teenib piirang vangistuse eesmärki – õiguskorra kaitsmist ([[VangS § 6 lg 1]]). Lihtsa reservatsiooni korral sobib iga eesmärk, mis ei ole põhiseadusega vastuolus.",
+      "viited": [
+       "VangS § 15 lg 2",
+       "VangS § 6 lg 1"
+      ]
+     },
+     {
+      "silt": "Põhiseaduspärasus · materiaalne",
+      "kysimus": "Kas keeld on kohane, vajalik ja mõõdukas?",
+      "vastus": "**Kohane:** jah – kui kambris ei ole isiklikke tekstiile, on ruumi lihtsam üle vaadata ja puhtana hoida; vahend aitab eesmärki saavutada. **Vajalik:** kas on leebem, aga sama mõjus vahend? Näiteks iga kardina eraldi kontrollimine koormaks vanglat rohkem ega oleks sama mõjus; samas peab vangla siis ise tagama, et kamber on elamiseks sobiv. **Mõõdukas:** riive on väike – omand säilib, asi on hoiul ([[VangS § 15 lg 1]]) ja keeld puudutab üht esemeliiki; kaalul on vangla julgeolek ja kord. Kasu kaalub kahju üles.",
+      "viited": [
+       "PS § 11",
+       "VangS § 15 lg 1"
+      ]
+     }
+    ],
+    "jareldus": "Omandiõigust on **riivatud**, aga tõenäoliselt mitte **rikutud**: piirangul on seaduslik alus, norm on selge, eesmärk on legitiimne ja keeld on proportsionaalne. Kinnipeetav võib siiski esitada vaide ja seejärel kaebuse halduskohtule ([[VangS § 1^1 lg 5]]).",
+    "markus": "Õppejõu viis sammu on siin jaotatud kaheksaks: viimane samm (põhiseaduspärasus) on neljas osas. Lahenduse koostas Claude õppejõu skeemi ja kehtiva seaduse põhjal; see ei ole õppejõu ega kohtu seisukoht."
    }
   },
   "tyypviga": {
@@ -87,175 +280,11 @@
     "Aluseks märgitakse ainult määrus (sisekorraeeskiri). Põhiõiguse piiramise alus peab olema **seaduses**; määrus täpsustab volitusnormi piires.",
     "„Vajalik” ja „mõõdukas” aetakse segi. Vajalikkus võrdleb **vahendeid omavahel** (kas on leebem); mõõdukus võrdleb **kasu ja kahju**.",
     "Kvalifitseeritud reservatsiooni korral ei kontrollita, kas eesmärk on põhiseaduse loetelus.",
-    "Arvatakse, et reservatsioonita õigust ei saa kunagi piirata. Slaidi 33 järgi peab seadusandja sel juhul leidma õigustuse mõnest teisest põhiseaduse põhimõttest."
+    "Arvatakse, et reservatsioonita õigust ei saa kunagi piirata. Selle õigustus peab tulema mõnest teisest põhiseaduse põhimõttest – välja arvatud absoluutsed õigused nagu piinamise keeld."
    ]
   }
  },
- "skeem": [
-  {
-   "tyyp": "kontroll",
-   "pealkiri": "Vanglakaasus: isiklik kardin – lahenda samm-sammult",
-   "olukord": "Kinnipeetav saabub vanglasse ja tal on kaasas isiklik **kardin**. Vanglaametnik võtab selle hoiule. Kas vangistusseaduse §-ga 15 ja seda täpsustava vangla sisekorraeeskirjaga piiratakse kinnipeetava õigust omandit vabalt vallata, kasutada ja käsutada põhiseaduspäraselt? *(Kaasuse püstitus: T. Roosve e-õpiobjekt „Kaasus vangla kohta”.)*",
-   "sammud": [
-    {
-     "silt": "Põhiõigusnorm",
-     "kysimus": "Milline põhiõigus on asjakohane?",
-     "vastus": "**Omandiõigus.** Igaühel on õigus enda omandit vabalt vallata, kasutada ja käsutada; kitsendused sätestab seadus ([[PS § 32 lg 2]]). Kardinat ei võõrandata, vaid võetakse hoiule ([[VangS § 15 lg 1]]) – seega ei ole küsimus sundvõõrandamises ([[PS § 32 lg 1]]), vaid kasutamise kitsendamises.",
-     "viited": [
-      "PS § 32 lg 2",
-      "VangS § 15 lg 1"
-     ]
-    },
-    {
-     "silt": "Kaitseala",
-     "kysimus": "Keda ja mida see põhiõigus kaitseb?",
-     "vastus": "**Isikuline kaitseala:** „igaühel” – igaüheõigus. **Esemeline kaitseala:** omaniku positsioon – võimalus oma asja vallata, kasutada ja käsutada. Slaidi 25 järgi on omandi puutumatuse kaitstav hüve isiku asjad ja tema omandisuhe neisse.",
-     "viited": [
-      "PS § 32 lg 2",
-      "PS § 9 lg 1"
-     ]
-    },
-    {
-     "silt": "Kuuluvus kaitsealasse",
-     "kysimus": "Kas kinnipeetav ja tema kardin kuuluvad kaitsealasse?",
-     "vastus": "**Jah.** Kinnipeetav on inimene ja jääb põhiõiguste kandjaks ([[VangS § 4^1 lg 2]]). Kardin on tema isiklik asi; selle valdamine ja kasutamine on täpselt see, mida omandiõigus kaitseb.",
-     "viited": [
-      "VangS § 4^1 lg 2"
-     ]
-    },
-    {
-     "silt": "Riive",
-     "kysimus": "Kas põhiõigust on piiratud?",
-     "vastus": "**Jah.** Vanglateenistus (adressaat) võtab asja hoiule; kinnipeetav ei saa seda vallata ega kasutada. See on ebasoodne mõju kaitstud positsioonile. Riive on olemas ka siis, kui see osutub lubatuks.",
-     "viited": [
-      "VangS § 15 lg 1"
-     ]
-    },
-    {
-     "silt": "Põhiseaduspärasus · formaalne",
-     "kysimus": "Kas piirangul on seaduslik alus? Mis astme reservatsiooniga on tegu?",
-     "vastus": "**Lihtne seaduse reservatsioon:** „Kitsendused sätestab seadus” ([[PS § 32 lg 2]]) – põhiseadus ei loetle eesmärke. **Seadus:** kinnipeetavale on keelatud esemed, mis vastavad seaduses loetletud tingimustele, sh võivad ohustada vangla julgeolekut või korda või raskendavad oluliselt hügieeninõuete täitmist ([[VangS § 15 lg 2]]). **Volitusnorm:** keelatud asjade loetelu kehtestab minister määrusega ([[VangS § 15 lg 3]]). **Määrus:** keelatud on tekstiiltooted ruumi sisustamiseks, sealhulgas vaibad ja kardinad ([[VSE § 64^1 p 20]]). Kontrolli ka, kas määrus püsib volituse piires: loetellu võib panna ainult asju, mis vastavad seaduse lõike 2 tingimustele.",
-     "viited": [
-      "PS § 32 lg 2",
-      "VangS § 15 lg 2",
-      "VangS § 15 lg 3",
-      "VSE § 64^1 p 20"
-     ]
-    },
-    {
-     "silt": "Põhiseaduspärasus · formaalne",
-     "kysimus": "Kas normist on aru saada, kes, kuidas ja millises ulatuses piirab?",
-     "vastus": "**Kes:** vanglateenistus. **Kuidas:** võtab asja hoiule. **Millises ulatuses:** kardinad on määruses sõnaselgelt nimetatud ([[VSE § 64^1 p 20]]). Kinnipeetav saab normist ette teada, et kardinat kambris hoida ei tohi – õigusselguse nõue ([[PS § 13 lg 2]]) on täidetud.",
-     "viited": [
-      "PS § 13 lg 2",
-      "VSE § 64^1 p 20"
-     ]
-    },
-    {
-     "silt": "Põhiseaduspärasus · materiaalne",
-     "kysimus": "Mis on piirangu legitiimne eesmärk?",
-     "vastus": "Seadus nimetab eesmärgid ise: **vangla julgeolek ja kord** ning **hügieeninõuete täitmine** ([[VangS § 15 lg 2]]). Laiemalt teenib piirang vangistuse eesmärki – õiguskorra kaitsmist ([[VangS § 6 lg 1]]). Lihtsa reservatsiooni korral sobib iga eesmärk, mis ei ole põhiseadusega vastuolus.",
-     "viited": [
-      "VangS § 15 lg 2",
-      "VangS § 6 lg 1"
-     ]
-    },
-    {
-     "silt": "Põhiseaduspärasus · materiaalne",
-     "kysimus": "Kas keeld on kohane, vajalik ja mõõdukas?",
-     "vastus": "**Kohane:** jah – kui kambris ei ole isiklikke tekstiile, on ruumi lihtsam üle vaadata ja puhtana hoida; vahend aitab eesmärki saavutada. **Vajalik:** kas on leebem, aga sama mõjus vahend? Näiteks iga kardina eraldi kontrollimine koormaks vanglat rohkem ega oleks sama mõjus; samas peab vangla siis ise tagama, et kamber on elamiseks sobiv. **Mõõdukas:** riive on väike – omand säilib, asi on hoiul ([[VangS § 15 lg 1]]) ja keeld puudutab üht esemeliiki; kaalul on vangla julgeolek ja kord. Kasu kaalub kahju üles.",
-     "viited": [
-      "PS § 11",
-      "VangS § 15 lg 1"
-     ]
-    }
-   ],
-   "jareldus": "Omandiõigust on **riivatud**, aga tõenäoliselt mitte **rikutud**: piirangul on seaduslik alus, norm on selge, eesmärk on legitiimne ja keeld on proportsionaalne. Kinnipeetav võib siiski esitada vaide ja seejärel kaebuse halduskohtule ([[VangS § 1^1 lg 5]]).",
-   "markus": "Õppejõu viis sammu on siin jaotatud kaheksaks: viies samm (põhiseaduspärasus) on neljas osas. Lahenduse koostas Claude õppejõu skeemi (slaidid 22–36, e-õpiobjekt) ja kehtiva seaduse põhjal. See ei ole õppejõu ega kohtu seisukoht; proportsionaalsuse hinnang on arutluse näide."
-  },
-  {
-   "tyyp": "tasandid",
-   "pealkiri": "Riive põhiseaduspärasuse nõuded (slaid 29)",
-   "tasandid": [
-    {
-     "pealkiri": "Formaalsed",
-     "toon": "a",
-     "kastid": [
-      {
-       "pealkiri": "Pädevus ja menetlus",
-       "tekst": "õige organ, õige kord"
-      },
-      {
-       "pealkiri": "Seaduse reservatsioon",
-       "tekst": "luba piirata on seaduses",
-       "viide": "PS § 3 lg 1"
-      },
-      {
-       "pealkiri": "Õigusselgus",
-       "tekst": "kes, kuidas, millises ulatuses",
-       "viide": "PS § 13 lg 2"
-      }
-     ]
-    },
-    {
-     "pealkiri": "Materiaalsed",
-     "toon": "b",
-     "kastid": [
-      {
-       "pealkiri": "Legitiimne eesmärk",
-       "tekst": "miks piiratakse"
-      },
-      {
-       "pealkiri": "Kohane",
-       "tekst": "aitab eesmärki saavutada",
-       "viide": "PS § 11"
-      },
-      {
-       "pealkiri": "Vajalik",
-       "tekst": "leebemat sama mõjusat ei ole",
-       "viide": "HMS § 3 lg 2"
-      },
-      {
-       "pealkiri": "Mõõdukas",
-       "tekst": "kasu kaalub kahju üles"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "tyyp": "vordlus",
-   "pealkiri": "Seaduse reservatsiooni kolm astet (slaid 26, e-õpiobjekt)",
-   "veerud": [
-    "Aste",
-    "Mida põhiseadus ütleb",
-    "Näide"
-   ],
-   "read": [
-    {
-     "silt": "Lihtne",
-     "lahtrid": [
-      "lubab piirata seadusega, eesmärke loetlemata",
-      "[[PS § 29 lg 1]], [[PS § 32 lg 2]]"
-     ]
-    },
-    {
-     "silt": "Kvalifitseeritud",
-     "lahtrid": [
-      "lubab piirata ainult loetletud eesmärkidel",
-      "[[PS § 26]], [[PS § 33]], [[PS § 34]]"
-     ]
-    },
-    {
-     "silt": "Ilma reservatsioonita",
-     "lahtrid": [
-      "piiramist otsesõnu ette ei näe",
-      "[[PS § 18 lg 1]]"
-     ]
-    }
-   ]
-  }
- ],
+ "skeem": [],
  "vastus": [
   {
    "nr": 34,
@@ -285,7 +314,7 @@
     {
      "tekst": "Piirangul on legitiimne eesmärk",
      "oige": 1,
-     "selgitus": "Slaid 29."
+     "selgitus": "Miks piiratakse – sisuline küsimus."
     },
     {
      "tekst": "Norm on sõnastatud üheselt arusaadavalt",
@@ -347,7 +376,7 @@
   },
   {
    "tyyp": "fakt",
-   "kysimus": "Millal on abinõu slaidi 35 järgi „vajalik”?",
+   "kysimus": "Millal on abinõu „vajalik”?",
    "valikud": [
     "Kui see aitab eesmärki saavutada",
     "Kui puudub teine sobiv ja vähemalt sama mõjus, kuid põhiõigusi vähem kitsendav abinõu",
@@ -372,16 +401,11 @@
  "erinevused": [
   {
    "teema": "Kaasuses tsiteeritud VangS § 15",
-   "konspekt": "E-õpiobjekt „Kaasus vangla kohta” tsiteerib § 15 vanemas sõnastuses: lõikes 2 on kolm punkti (inimese julgeolek, vara kahjustamine, vangla julgeolek) ja lõikes 1 „võtab vangla”.",
+   "konspekt": "Õppejõu e-õpiobjekt „Kaasus vangla kohta” tsiteerib § 15 vanemas sõnastuses: lõikes 2 on kolm punkti (inimese julgeolek, vara kahjustamine, vangla julgeolek) ja lõikes 1 „võtab vangla”.",
    "ametlik": "Kehtivas tekstis on lõikes 2 kuus punkti, sh „võivad ohustada vangla julgeolekut või korda”, vangistuse eesmärkidega kooskõla ja hügieeninõuded; lõikes 1 „võtab vanglateenistus”.",
    "viide": "VangS § 15 lg 2",
-   "markus": "Lahenduses on kasutatud kehtivat sõnastust. Sisekorraeeskirja § 64^1 p 20 (kardinad) vastab kehtivale tekstile."
-  },
-  {
-   "teema": "Skeemi viide seaduse reservatsioonile",
-   "konspekt": "Slaidi 36 skeem märgib seaduse reservatsiooni aluseks „PS § 3 ja 11” ning õigusselguse aluseks „PS § 13”.",
-   "ametlik": "PS § 3 lg 1: riigivõimu teostatakse üksnes põhiseaduse ja sellega kooskõlas olevate seaduste alusel. PS § 13 lg 2: seadus kaitseb igaühte riigivõimu omavoli eest. Sõnu „seaduse reservatsioon” ja „õigusselgus” põhiseaduse tekstis ei ole – need on tuletatud põhimõtted.",
-   "viide": "PS § 13 lg 2"
+   "markus": "Lahenduses on kasutatud kehtivat sõnastust. Sisekorraeeskirja § 64^1 p 20 (kardinad) vastab kehtivale tekstile.",
+   "silt": "Õppematerjal"
   }
  ],
  "valjast": [

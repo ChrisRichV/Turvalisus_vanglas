@@ -2,38 +2,59 @@
  "id": "o-t10-04",
  "tund": "o-t10",
  "jrk": 4,
- "pealkiri": "Normikontroll: kas seadus vastab põhiseadusele",
+ "pealkiri": "Normikontroll: kas seadus ise on õige?",
  "kysimused": [],
- "lyhidalt": "Normikontroll tähendab kontrolli, kas õigusakt on põhiseadusega kooskõlas. Abstraktne kontroll toimub ilma konkreetse vaidluseta (President, õiguskantsler), konkreetne kontroll algab kohtuasjast. Lõpliku otsuse teeb Riigikohus.",
+ "lyhidalt": "Tavaliselt kontrollitakse, kas ametnik tegi seaduse järgi. Normikontrollis küsitakse sammu kõrgemalt: kas seadus või määrus ise vastab põhiseadusele? Lõpliku otsuse teeb Riigikohus, ja ta võib vale seaduse kehtetuks tunnistada.",
  "osad": {
   "pohimote": {
-   "tekst": "Slaidid eristavad kahte kontrolli. **Normikontroll** küsib, kas **üldakt** (seadus, määrus) vastab kõrgemale üldaktile. **Vastavuskontroll** küsib, kas **üksikjuhtum** (haldusakt, toiming) vastab üldaktile.",
+   "pealkiri": "Kaks erinevat kontrolli",
+   "tekst": "Õigusaktid on nagu redel. Iga aste peab klappima ülemisega. Kontrolli saab teha kahes kohas:\n\n**Vastavuskontroll** – kas ametniku konkreetne otsus vastab seadusele või määrusele? Seda teeb halduskohus iga päev.\n\n**Normikontroll** – kas seadus või määrus ise vastab põhiseadusele (või määrus seadusele)? See on harvem, aga palju suurema mõjuga: kui norm on vale, ei puuduta see ühte inimest, vaid kõiki.",
    "tsitaat": {
     "viide": "PS § 152",
-    "tekst": "Riigikohus tunnistab kehtetuks mis tahes seaduse või muu õigusakti, kui see on vastuolus põhiseaduse sätte ja mõttega."
+    "tekst": "Kohus jätab kohtuasja lahendamisel kohaldamata mis tahes seaduse või muu õigusakti, kui see on vastuolus põhiseadusega.\nRiigikohus tunnistab kehtetuks mis tahes seaduse või muu õigusakti, kui see on vastuolus põhiseaduse sätte ja mõttega."
    },
-   "punktid": [
-    "**Abstraktne normikontroll** – akti kontrollitakse ilma konkreetse kohtuvaidluseta. Taotluse võivad esitada Vabariigi President, õiguskantsler, kohaliku omavalitsuse volikogu ja Riigikogu ([[PSJKS § 4 lg 2]]).",
-    "**Konkreetne normikontroll** – algab kohtuasjast: kohus jätab akti kohaldamata ja edastab otsuse Riigikohtule ([[PSJKS § 9 lg 1]]).",
-    "Riigikohus on põhiseadusliku järelevalve kohus ([[PS § 149 lg 3]])."
-   ]
+   "skeem": {
+    "tyyp": "pyramiid",
+    "pealkiri": "Kus kumbagi kontrolli tehakse",
+    "astmed": [
+     {
+      "pealkiri": "Põhiseadus",
+      "viide": "PS § 102",
+      "vahel": "▲ normikontroll: kas seadus vastab põhiseadusele?"
+     },
+     {
+      "pealkiri": "Seadus",
+      "tekst": "nt vangistusseadus",
+      "vahel": "▲ normikontroll: kas määrus vastab seadusele?"
+     },
+     {
+      "pealkiri": "Määrus",
+      "tekst": "nt sisekorraeeskiri",
+      "vahel": "▲ vastavuskontroll: kas otsus vastab seadusele ja määrusele?"
+     },
+     {
+      "pealkiri": "Ametniku otsus või toiming",
+      "tekst": "üks inimene, üks juhtum",
+      "toon": "b"
+     }
+    ]
+   }
   },
   "alus": {
    "read": [
     {
      "tase": "Põhiseadus",
      "viited": [
-      "PS § 15",
+      "PS § 15 lg 1",
       "PS § 152",
       "PS § 149 lg 3"
      ],
-     "tekst": "Igaüks võib oma kohtuasjas nõuda akti põhiseadusvastaseks tunnistamist; kohus jätab kohaldamata, Riigikohus tunnistab kehtetuks."
+     "tekst": "Igaüks võib oma kohtuasjas nõuda akti põhiseadusvastaseks tunnistamist; kohus jätab kohaldamata; Riigikohus tunnistab kehtetuks."
     },
     {
      "tase": "President",
      "viited": [
-      "PS § 107 lg 2",
-      "PSJKS § 5"
+      "PS § 107 lg 2"
      ],
      "tekst": "Jätab seaduse välja kuulutamata; kui Riigikogu võtab selle muutmata uuesti vastu, võib pöörduda Riigikohtusse."
     },
@@ -41,16 +62,14 @@
      "tase": "Õiguskantsler",
      "viited": [
       "PS § 139 lg 1",
-      "PS § 142",
-      "PSJKS § 6"
+      "PS § 142"
      ],
-     "tekst": "Teeb akti vastuvõtjale ettepaneku viia akt 20 päeva jooksul kooskõlla; seejärel pöördub Riigikohtusse."
+     "tekst": "Teeb akti vastuvõtjale ettepaneku viia see 20 päeva jooksul kooskõlla; seejärel pöördub Riigikohtusse."
     },
     {
      "tase": "Kohus",
      "viited": [
-      "PSJKS § 9 lg 1",
-      "PSJKS § 4 lg 3"
+      "PSJKS § 9 lg 1"
      ],
      "tekst": "Esimese või teise astme kohus edastab otsuse Riigikohtule; sellega algab menetlus."
     },
@@ -59,7 +78,7 @@
      "viited": [
       "PSJKS § 15 lg 1"
      ],
-     "tekst": "Võib tunnistada akti põhiseadusega vastuolus olevaks ja kehtetuks või jätta taotluse rahuldamata."
+     "tekst": "Võib tunnistada akti põhiseadusega vastuolus olevaks ja kehtetuks."
     },
     {
      "tase": "Vangla",
@@ -71,130 +90,141 @@
    ]
   },
   "piiramine": {
-   "pealkiri": "Kuidas kontroll käib",
-   "tekst": "Kolm teed Riigikohtuni. Kõigis küsib Riigikohus sama: kas norm vastab põhiseadusele. Põhiõigust piirava normi puhul on kontrolli sisu sama mis 11. tunni teemas „Vabadusõiguse riive kontroll”.",
-   "punktid": [
-    "**President (enne jõustumist):** jätab seaduse välja kuulutamata ja saadab tagasi Riigikogule; kui Riigikogu võtab selle muutmata uuesti vastu, kuulutab President seaduse välja või pöördub Riigikohtusse ([[PS § 107 lg 2]]).",
-    "**Õiguskantsler:** leiab vastuolu → teeb akti vastuvõtnud organile ettepaneku viia see 20 päeva jooksul kooskõlla ([[PS § 142 lg 1]]) → kui ei viida, teeb Riigikohtule ettepaneku tunnistada akt kehtetuks ([[PS § 142 lg 2]]).",
-    "**Kohus (konkreetne kontroll):** kohtuasja lahendades jätab põhiseadusvastase akti kohaldamata ([[PS § 152 lg 1]]) ja edastab otsuse Riigikohtule ([[PSJKS § 9 lg 1]]).",
-    "**Isik ise** ei pöördu normi vaidlustamiseks otse Riigikohtusse, vaid nõuab seda **oma kohtuasja** käigus ([[PS § 15 lg 1]]).",
-    "**Tulemus:** Riigikohus võib tunnistada jõustunud akti või selle sätte põhiseadusega vastuolus olevaks ja kehtetuks ([[PSJKS § 15 lg 1 p 2]])."
-   ]
+   "pealkiri": "Kuidas asi Riigikohtusse jõuab",
+   "tekst": "Normikontrolli on kahte liiki. **Abstraktne** – akti kontrollitakse ilma konkreetse vaidluseta, sest keegi pädev märkab probleemi. **Konkreetne** – probleem tuleb välja päris kohtuasjas, kus norm puudutab päris inimest. Riigikohtusse on kolm teed:",
+   "skeem": [
+    {
+     "tyyp": "kaardid",
+     "pealkiri": "Kolm teed Riigikohtuni",
+     "kaardid": [
+      {
+       "silt": "A",
+       "pealkiri": "President",
+       "tekst": "Enne jõustumist. Ei kuuluta seadust välja, saadab tagasi. Kui Riigikogu võtab selle muutmata uuesti vastu, pöördub Riigikohtusse.",
+       "viide": "PS § 107 lg 2"
+      },
+      {
+       "silt": "A",
+       "pealkiri": "Õiguskantsler",
+       "tekst": "Leiab vastuolu → 20 päeva parandamiseks → kui ei paranda, pöördub Riigikohtusse.",
+       "viide": "PS § 142 lg 2"
+      },
+      {
+       "silt": "K",
+       "pealkiri": "Kohus",
+       "tekst": "Kohtuasja lahendades jätab põhiseadusvastase normi kohaldamata ja saadab otsuse Riigikohtule.",
+       "viide": "PSJKS § 9 lg 1",
+       "toon": "b"
+      }
+     ],
+     "allkiri": "A = abstraktne normikontroll, K = konkreetne normikontroll."
+    },
+    {
+     "tyyp": "vordlus",
+     "pealkiri": "Abstraktne ja konkreetne normikontroll",
+     "veerud": [
+      "",
+      "Abstraktne",
+      "Konkreetne"
+     ],
+     "read": [
+      {
+       "silt": "Millal",
+       "lahtrid": [
+        "ilma kohtuvaidluseta",
+        "päris kohtuasja käigus"
+       ]
+      },
+      {
+       "silt": "Kes algatab",
+       "lahtrid": [
+        "President, õiguskantsler jt",
+        "kohus, kes asja lahendab"
+       ]
+      },
+      {
+       "silt": "Inimese roll",
+       "lahtrid": [
+        "võib pöörduda õiguskantsleri poole",
+        "nõuab oma kohtuasjas normi kontrolli ([[PS § 15 lg 1]])"
+       ]
+      },
+      {
+       "silt": "Tulemus",
+       "lahtrid": [
+        "Riigikohus võib normi kehtetuks tunnistada",
+        "sama; lisaks jäetakse norm selles asjas kohaldamata"
+       ]
+      }
+     ]
+    }
+   ],
+   "jarel": "Inimene ise **ei saa** otse Riigikohtusse minna ja öelda „see seadus on vale”. Ta peab pöörduma kohtusse oma asjas ja nõudma seal, et vale normi ei kohaldataks ([[PS § 15 lg 1]]), või paluma õiguskantsleril asja uurida."
   },
   "vangla": {
-   "tekst": "Vanglaametnik teeb iga päev **vastavuskontrolli**: kas minu otsus vastab vangistusseadusele ja sisekorraeeskirjale? **Normikontroll** tuleb mängu siis, kui kinnipeetav väidab, et sisekorraeeskirja või seaduse säte ise on põhiseadusega vastuolus. Seda ei otsusta ametnik ega vangla, vaid kohus.",
+   "tekst": "Vanglaametnik teeb iga päev **vastavuskontrolli** iseendaga: kas minu otsus vastab vangistusseadusele ja sisekorraeeskirjale? **Normikontroll** tuleb mängu siis, kui kinnipeetav väidab, et sisekorraeeskirja või seaduse säte ise on põhiseadusega vastuolus. Seda ei otsusta vangla ega ametnik – ametnik peab normi järgima, kuni kohus otsustab teisiti.",
+   "skeem": {
+    "tyyp": "voog",
+    "pealkiri": "Konkreetne normikontroll kinnipeetava vaates",
+    "sammud": [
+     {
+      "pealkiri": "Vangla teeb otsuse",
+      "tekst": "nt võtab asja hoiule määruse alusel"
+     },
+     {
+      "pealkiri": "Vaie",
+      "tekst": "kõigepealt vanglateenistusele või ministeeriumile",
+      "viide": "VangS § 1^1 lg 5"
+     },
+     {
+      "pealkiri": "Halduskohus",
+      "tekst": "kinnipeetav väidab, et määrus ise on põhiseadusvastane",
+      "viide": "PS § 15 lg 1"
+     },
+     {
+      "pealkiri": "Kohus jätab normi kohaldamata",
+      "tekst": "ja saadab otsuse Riigikohtule",
+      "viide": "PS § 152"
+     },
+     {
+      "pealkiri": "Riigikohus otsustab",
+      "tekst": "kas norm on põhiseadusega vastuolus ja kehtetu",
+      "viide": "PSJKS § 15 lg 1"
+     }
+    ]
+   },
    "naide": {
     "olukord": "Kinnipeetav vaidlustab halduskohtus vangla otsuse võtta hoiule tema isiklik kardin. Ta väidab, et sisekorraeeskirja säte, mis kardinad keelab, on põhiseadusega vastuolus.",
-    "analyys": "**Vastavuskontroll:** kas vangla otsus vastab normile? Sisekorraeeskiri keelab ruumi sisustamise tekstiiltooted, sh kardinad ([[VSE § 64^1 p 20]]) – otsus vastab normile. **Normikontroll:** kas norm ise vastab põhiseadusele ([[PS § 32 lg 2]])? Kinnipeetav võib seda oma kohtuasjas nõuda ([[PS § 15 lg 1]]). **Kui halduskohus leiab vastuolu**, jätab ta sätte kohaldamata ([[PS § 152 lg 1]]) ja edastab otsuse Riigikohtule ([[PSJKS § 9 lg 1]]). **Järeldus:** see on konkreetne normikontroll. Sisulist kontrolli vt 11. tunni teemast „Vabadusõiguse riive kontroll”."
+    "analyys": "**Vastavuskontroll:** kas vangla otsus vastab normile? Sisekorraeeskiri keelab ruumi sisustamise tekstiiltooted, sh kardinad ([[VSE § 64^1 p 20]]) – otsus vastab normile. **Normikontroll:** kas norm ise vastab põhiseadusele ([[PS § 32 lg 2]])? Kinnipeetav võib seda oma kohtuasjas nõuda ([[PS § 15 lg 1]]). **Kui halduskohus leiab vastuolu,** jätab ta sätte kohaldamata ([[PS § 152]]) ja edastab otsuse Riigikohtule ([[PSJKS § 9 lg 1]]). **Järeldus:** see on konkreetne normikontroll. Kuidas sisuliselt kontrollida, kas omandi piirang on põhiseaduspärane, õpid 11. tunnis."
    }
   },
   "tyypviga": {
    "punktid": [
-    "**Normikontroll ja vastavuskontroll aetakse segi.** Normikontroll: üldakt vs kõrgem üldakt. Vastavuskontroll: üksikjuhtum vs üldakt.",
-    "Väidetakse, et **iga kohus tunnistab seaduse kehtetuks**. Kohus jätab kohaldamata; kehtetuks tunnistab ainult Riigikohus ([[PS § 152]]).",
-    "Väidetakse, et isik saab seaduse vaidlustamiseks pöörduda **otse Riigikohtusse**. Taotlejad on loetletud ([[PSJKS § 4 lg 2]]); isik nõuab kontrolli oma kohtuasjas.",
-    "Unustatakse õiguskantsleri **20 päeva**: kõigepealt ettepanek akti vastuvõtjale, alles siis Riigikohus ([[PS § 142]])."
+    "Normikontroll ja vastavuskontroll aetakse segi. Küsi endalt: kas hindan **reeglit** või **ühte otsust**?",
+    "Arvatakse, et iga kohus võib seaduse kehtetuks tunnistada. Tavaline kohus jätab selle **kohaldamata**; kehtetuks tunnistab ainult **Riigikohus** ([[PS § 152]]).",
+    "Arvatakse, et inimene võib otse Riigikohtusse kaevata. Tee käib **oma kohtuasja** või õiguskantsleri kaudu.",
+    "Unustatakse õiguskantsleri 20 päeva ([[PS § 142 lg 1]])."
    ]
   }
  },
- "skeem": [
-  {
-   "tyyp": "vordlus",
-   "pealkiri": "Abstraktne ja konkreetne normikontroll",
-   "veerud": [
-    "Abstraktne",
-    "Konkreetne"
-   ],
-   "read": [
-    {
-     "silt": "Millest algab",
-     "lahtrid": [
-      "Taotlusest, ilma kohtuvaidluseta",
-      "Konkreetsest kohtuasjast"
-     ]
-    },
-    {
-     "silt": "Kes algatab",
-     "lahtrid": [
-      "President, õiguskantsler, kohaliku omavalitsuse volikogu, Riigikogu ([[PSJKS § 4 lg 2]])",
-      "Esimese või teise astme kohus ([[PSJKS § 9 lg 1]])"
-     ]
-    },
-    {
-     "silt": "Mida teeb algataja",
-     "lahtrid": [
-      "Esitab Riigikohtule taotluse",
-      "Jätab akti kohaldamata ja edastab otsuse Riigikohtule"
-     ]
-    },
-    {
-     "silt": "Kes otsustab lõplikult",
-     "lahtrid": [
-      "Riigikohus ([[PS § 149 lg 3]])",
-      "Riigikohus ([[PS § 152 lg 2]])"
-     ]
-    },
-    {
-     "silt": "Vangla näide",
-     "lahtrid": [
-      "Õiguskantsler vaidlustab sisekorraeeskirja sätte",
-      "Halduskohus jätab kinnipeetava kaebust lahendades sätte kohaldamata"
-     ]
-    }
-   ]
-  },
-  {
-   "tyyp": "voog",
-   "pealkiri": "Konkreetne normikontroll kinnipeetava vaates",
-   "sammud": [
-    {
-     "pealkiri": "Vangla otsus",
-     "tekst": "Otsus põhineb seaduse või määruse sättel."
-    },
-    {
-     "pealkiri": "Vaie",
-     "tekst": "Kohtueelne kohustuslik samm.",
-     "viide": "VangS § 1^1 lg 5"
-    },
-    {
-     "pealkiri": "Kaebus halduskohtule",
-     "tekst": "Kinnipeetav nõuab ka sätte põhiseadusvastaseks tunnistamist.",
-     "viide": "PS § 15 lg 1"
-    },
-    {
-     "pealkiri": "Kohus jätab sätte kohaldamata",
-     "tekst": "Kui leiab, et säte on põhiseadusega vastuolus.",
-     "viide": "PS § 152 lg 1"
-    },
-    {
-     "pealkiri": "Otsus edastatakse Riigikohtule",
-     "viide": "PSJKS § 9 lg 1"
-    },
-    {
-     "pealkiri": "Riigikohus otsustab",
-     "tekst": "Tunnistab sätte kehtetuks või jätab taotluse rahuldamata.",
-     "viide": "PSJKS § 15 lg 1"
-    }
-   ]
-  }
- ],
+ "skeem": [],
  "vastus": [],
  "harjutused": [
   {
    "tyyp": "fakt",
    "kysimus": "Kes tunnistab põhiseadusega vastuolus oleva seaduse kehtetuks?",
    "valikud": [
-    "Halduskohus",
-    "Õiguskantsler",
+    "Iga kohus",
     "Riigikohus",
+    "Õiguskantsler",
     "Vabariigi President"
    ],
-   "oige": 2,
-   "selgitus": "[[PS § 152 lg 2]]. Teised kohtud jätavad akti kohaldamata ([[PS § 152 lg 1]])."
+   "oige": 1,
+   "selgitus": "Tavaline kohus jätab kohaldamata, Riigikohus tunnistab kehtetuks ([[PS § 152]])."
   },
   {
    "tyyp": "fakt",
-   "kysimus": "Mitu päeva annab õiguskantsler akti vastuvõtnud organile, et viia akt põhiseadusega kooskõlla?",
+   "kysimus": "Mitu päeva annab õiguskantsler akti vastuvõtjale, et akt kooskõlla viia?",
    "valikud": [
     "10",
     "14",
@@ -206,66 +236,45 @@
   },
   {
    "tyyp": "sorteeri",
-   "kysimus": "Kas see on normikontroll või vastavuskontroll?",
+   "kysimus": "Normikontroll või vastavuskontroll?",
    "ryhmad": [
     "Normikontroll",
     "Vastavuskontroll"
    ],
    "read": [
     {
-     "tekst": "Halduskohus hindab, kas vangla otsus vastab vangistusseadusele",
+     "tekst": "Halduskohus hindab, kas ametnik tohtis kinnipeetava eseme hoiule võtta",
      "oige": 1,
-     "selgitus": "Üksikjuhtum vs üldakt."
+     "selgitus": "Üks otsus vs seadus."
     },
     {
      "tekst": "Riigikohus hindab, kas seaduse säte vastab põhiseadusele",
      "oige": 0,
-     "selgitus": "Üldakt vs kõrgem üldakt."
+     "selgitus": "[[PS § 152]]."
     },
     {
-     "tekst": "Õiguskantsler hindab, kas ministri määrus vastab seadusele",
+     "tekst": "Õiguskantsler leiab, et ministri määrus on vastuolus seadusega",
      "oige": 0,
-     "selgitus": "[[PS § 139 lg 1]]."
+     "selgitus": "Üldakt vs kõrgem üldakt ([[PS § 139 lg 1]])."
     },
     {
-     "tekst": "Ametnik kontrollib enne otsustamist, kas tal on seaduses alus",
+     "tekst": "Vaide lahendaja kontrollib direktori käskkirja vastavust vangistusseadusele",
      "oige": 1,
-     "selgitus": "Oma tegevuse vastavus üldaktile."
-    },
-    {
-     "tekst": "President jätab seaduse välja kuulutamata, sest peab seda põhiseadusvastaseks",
-     "oige": 0,
-     "selgitus": "[[PS § 107 lg 2]]."
+     "selgitus": "Üksikakt vs seadus."
     }
    ]
   },
   {
    "tyyp": "kaasus",
-   "kysimus": "Õiguskantsler leiab, et ministri määruse üks säte on vangistusseadusega vastuolus. Mida ta teeb ja mis järjekorras?",
+   "kysimus": "Õiguskantsler leiab, et ministri määruse üks säte on vangistusseadusega vastuolus. Mis edasi juhtub?",
    "vastus": [
-    "**Pädevus:** õiguskantsler teostab järelevalvet täidesaatva võimu õigustloovate aktide põhiseadusele ja seadustele vastavuse üle ([[PS § 139 lg 1]]).",
-    "**Esimene samm:** ettepanek ministrile viia määrus 20 päeva jooksul seadusega kooskõlla ([[PS § 142 lg 1]]).",
-    "**Teine samm:** kui määrust ei muudeta, ettepanek Riigikohtule tunnistada akt kehtetuks ([[PS § 142 lg 2]], [[PSJKS § 6 lg 1 p 1]]).",
-    "**Liik:** abstraktne normikontroll, sest ei eelda konkreetset kohtuvaidlust.",
-    "**Järeldus:** õiguskantsler ise määrust kehtetuks ei tunnista; seda teeb Riigikohus."
+    "**1. samm:** õiguskantsler teeb ministrile ettepaneku viia määrus 20 päeva jooksul kooskõlla ([[PS § 142 lg 1]]).",
+    "**2. samm:** kui minister seda ei tee, teeb õiguskantsler Riigikohtule ettepaneku tunnistada säte kehtetuks ([[PS § 142 lg 2]]).",
+    "**3. samm:** Riigikohus otsustab; ta võib sätte kehtetuks tunnistada ([[PSJKS § 15 lg 1]]).",
+    "**Liik:** abstraktne normikontroll – konkreetset kohtuvaidlust ei ole."
    ]
   }
  ],
- "erinevused": [
-  {
-   "teema": "Konkreetse normikontrolli kirjeldus lühikonspektis",
-   "konspekt": "Fail „LÜHIÜLEVAADE RIIGIKOHTU PS TÕLGENDAMISE PÕHIMÕTTEST” (autor teadmata): kui tavaline kohus näeb vastuolu, „peatab Riigikohus selle rakendamise või tunnistab kehtetuks”.",
-   "ametlik": "Akti jätab kohaldamata **asja lahendav kohus ise** ([[PS § 152 lg 1]]) ja edastab otsuse Riigikohtule ([[PSJKS § 9 lg 1]]); Riigikohus tunnistab akti kehtetuks ([[PS § 152 lg 2]]).",
-   "viide": "PS § 152",
-   "markus": "Lühikonspekt on kontrollimata materjal. Kasuta seaduse sõnastust."
-  },
-  {
-   "teema": "Lühend PJKS vanas kirjanduses",
-   "konspekt": "M. Ernitsa artikkel (Juridica 2001) viitab seadusele lühendiga PJKS ja toonastele paragrahvidele.",
-   "ametlik": "Kehtiv seadus on põhiseaduslikkuse järelevalve kohtumenetluse seadus, lühend PSJKS; paragrahvide numbrid on teised (nt menetluse algatamine [[PSJKS § 4]]).",
-   "viide": "PSJKS § 4",
-   "markus": "Artikkel sobib teooria mõistmiseks, aga paragrahvinumbreid sealt ära võta."
-  }
- ],
+ "erinevused": [],
  "valjast": []
 }

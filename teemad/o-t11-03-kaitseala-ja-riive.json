@@ -6,19 +6,62 @@
  "kysimused": [
   33
  ],
- "lyhidalt": "Iga põhiõigus kaitseb kedagi (isikuline kaitseala) ja midagi (esemeline kaitseala). Kui riik mõjutab kaitstud hüve inimese jaoks halvemuse suunas, on see riive. Riive ei ole veel rikkumine – rikkumine on ainult põhiseadusvastane riive.",
+ "lyhidalt": "Iga põhiõigus kaitseb kedagi ja midagi – see on kaitseala. Kui riik mõjub sellele halvasti, on see riive. Riive ei ole veel rikkumine: paljud riived on täiesti lubatud. Rikkumine on ainult see riive, mis ei vasta põhiseadusele.",
  "osad": {
   "pohimote": {
-   "tekst": "{{kaitseala}} vastab kahele küsimusele: **keda** ja **mida** põhiõigus kaitseb. {{riive}} (ka: sekkumine, piirang, kitsendus) tekib slaidide järgi siis, kui põhiõiguse adressaat on mõjutanud mingit tegevust, seisundit või positsiooni põhiõiguse kandja jaoks **ebasoodsalt**.",
+   "pealkiri": "Kolm sõna, mida peab eristama",
+   "tekst": "Põhiõiguste juures on kolm mõistet, mis kõlavad sarnaselt, aga tähendavad väga erinevaid asju. Kui need selgeks saad, on pool kaasuse lahendamisest tehtud.\n\n**Kaitseala** on kahe poolega: *isikuline* (keda õigus kaitseb) ja *esemeline* (mida õigus kaitseb ehk kaitstav hüve).",
    "tsitaat": {
     "viide": "PS § 11",
     "tekst": "Õigusi ja vabadusi tohib piirata ainult kooskõlas põhiseadusega. Need piirangud peavad olema demokraatlikus ühiskonnas vajalikud ega tohi moonutada piiratavate õiguste ja vabaduste olemust."
    },
-   "punktid": [
-    "**Isikuline kaitseala** – keda kaitseb: igaüht, kodanikku või eestlast.",
-    "**Esemeline kaitseala** – mida kaitseb. Kaitstav hüve on **tegevus** (nt liikumine), **seisund** (nt elu) või **positsioon** (nt omaniku võimalus oma asja kasutada).",
-    "**Riive** – riigi ebasoodne mõju kaitstud hüvele. Slaidi näide: kui politsei siseneb koju elaniku soovi vastaselt, on see kodupuutumatuse riive.",
-    "**Rikkumine** – lubamatu ehk põhiseadusvastane riive. Slaid 14: lubatud on põhiseaduspärane riive, muu on põhiõiguse rikkumine."
+   "skeem": [
+    {
+     "tyyp": "voog",
+     "pealkiri": "Kaitseala → riive → rikkumine?",
+     "sammud": [
+      {
+       "pealkiri": "Kaitseala",
+       "tekst": "**Keda** ja **mida** õigus kaitseb ({{kaitseala}}). Nt omandiõigus kaitseb igaüht ja tema võimalust oma asju kasutada.",
+       "viide": "PS § 32 lg 2"
+      },
+      {
+       "pealkiri": "Riive",
+       "tekst": "Riik mõjub kaitstud hüvele **ebasoodsalt** ({{riive|riive}}). Teised sõnad sama asja kohta: sekkumine, piirang, kitsendus.",
+       "viide": "PS § 11"
+      },
+      {
+       "pealkiri": "Rikkumine",
+       "tekst": "Ainult siis, kui riive **ei vasta põhiseadusele**. Põhiseaduspärane riive on lubatud.",
+       "viide": "PS § 15 lg 1"
+      }
+     ]
+    },
+    {
+     "tyyp": "kaardid",
+     "pealkiri": "Kaitstav hüve on üks kolmest",
+     "kaardid": [
+      {
+       "silt": "Tegevus",
+       "pealkiri": "Midagi, mida teed",
+       "tekst": "Liikumine, kogunemine, ettevõtlus, usu praktiseerimine.",
+       "viide": "PS § 34"
+      },
+      {
+       "silt": "Seisund",
+       "pealkiri": "Midagi, mis sa oled",
+       "tekst": "Elu, tervis, kehaline puutumatus.",
+       "viide": "PS § 16"
+      },
+      {
+       "silt": "Positsioon",
+       "pealkiri": "Midagi, mis sul on",
+       "tekst": "Omand, kodu, õigus otsustada, keda oma koju lubad.",
+       "viide": "PS § 33",
+       "toon": "b"
+      }
+     ]
+    }
    ]
   },
   "alus": {
@@ -31,13 +74,13 @@
      "tekst": "Piirata tohib ainult kooskõlas põhiseadusega; piirang peab olema vajalik ega tohi moonutada õiguse olemust."
     },
     {
-     "tase": "Kaitseala näited (slaid 23)",
+     "tase": "Kaitseala näited",
      "viited": [
       "PS § 33",
       "PS § 34",
       "PS § 32 lg 2"
      ],
-     "tekst": "Kodu puutumatus, liikumisvabadus, omandi vaba valdamine ja kasutamine. (Slaid nimetab ka õigust elule.)"
+     "tekst": "Kodu puutumatus, liikumisvabadus, omandi vaba valdamine ja kasutamine. Samuti õigus elule."
     },
     {
      "tase": "Seaduslik alus",
@@ -65,17 +108,37 @@
    ]
   },
   "piiramine": {
-   "pealkiri": "Kaks kontrolli: norm ja üksikjuhtum",
-   "tekst": "Slaidid 15–18 näitavad „teekonda”: põhiseadus → seadus, mis lubab piirata → ametniku üksikakt või toiming. Sellest tuleb kaks eri kontrolli:",
-   "punktid": [
-    "**Normikontroll** – kas **seadus** (norm, mis lubab põhiõigust piirata) vastab põhiseadusele? Üldakti vastavus kõrgemale üldaktile.",
-    "**Vastavuskontroll** – kas ametniku **üksikjuhtum** (akt või toiming) vastab seadusele? Üksikakti vastavus üldaktile.",
-    "Slaidi näide: politsei võtab avalikul kogunemisel MTÜ-lt hoiule müra tekitavad trummid. Riivatakse omandiõigust ([[PS § 32 lg 2]]). Vastavuskontroll: kas hoiulevõtmine vastas seadusele ([[KorS § 52 lg 1 p 1]])? Normikontroll: kas see säte ise vastab põhiseadusele?",
-    "Slaid 19: politsei peab **enne** trummide hoiule võtmist kaaluma, kas seda teha, ja arvestama sekkumise ulatust ja mõju ([[HMS § 4 lg 2]])."
-   ]
+   "pealkiri": "Põhiseadusest ametniku otsuseni",
+   "tekst": "Iga sekkumine põhiõigusesse läbib sama tee. Põhiseadus lubab õigust piirata, seadus ütleb täpsemalt kuidas ja ametnik rakendab seda konkreetsel juhul. Kontrollida saab kahte kohta: kas **reegel** on õige (normikontroll) ja kas **konkreetne otsus** on õige (vastavuskontroll).",
+   "skeem": {
+    "tyyp": "pyramiid",
+    "pealkiri": "Teekond põhiõiguse piiramiseni – näide politsei ja trummidega",
+    "sissejuhatus": "Politsei võtab avalikul kogunemisel MTÜ-lt hoiule väga valju trummi. MTÜ ütleb, et tema omandiõigust rikuti.",
+    "astmed": [
+     {
+      "pealkiri": "Põhiseadus",
+      "tekst": "„Igaühel on õigus enda omandit vabalt vallata, kasutada ja käsutada. Kitsendused sätestab seadus.”",
+      "viide": "PS § 32 lg 2",
+      "vahel": "▲ normikontroll: kas seadus vastab põhiseadusele?"
+     },
+     {
+      "pealkiri": "Seadus",
+      "tekst": "Politsei tohib vallasasja hoiule võtta korrarikkumise kõrvaldamiseks.",
+      "viide": "KorS § 52 lg 1 p 1",
+      "vahel": "▲ vastavuskontroll: kas otsus vastab seadusele?"
+     },
+     {
+      "pealkiri": "Politsei otsus",
+      "tekst": "Need trummid võetakse nüüd hoiule. Enne peab ametnik kaaluma, kas see on vajalik ja kui palju see MTÜ-d mõjutab.",
+      "viide": "HMS § 4 lg 2",
+      "toon": "b"
+     }
+    ]
+   },
+   "jarel": "Normikontrolli teeb Riigikohus (teemal „Normikontroll” tunnis 10). Vastavuskontrolli teeb halduskohus – ja enne kohut iga ametnik iseendaga, kui ta otsust teeb."
   },
   "vangla": {
-   "tekst": "Vangistus ise on vabaduse riive, mille alus on kohtuotsus ([[PS § 20 lg 2 p 1]]). Iga lisapiirang vanglas (asja hoiulevõtmine, kokkusaamise keelamine, eraldamine) on **eraldi riive** ja vajab oma seaduslikku alust ([[VangS § 4^1 lg 2]]).",
+   "tekst": "Vangistus ise on vabaduse riive, mille aluseks on kohtuotsus ([[PS § 20 lg 2 p 1]]). Aga see ei anna vanglale õigust piirata kõike. Iga lisapiirang – asja hoiulevõtmine, kokkusaamise keelamine, eraldamine – on **eraldi riive** ja vajab oma seaduslikku alust ([[VangS § 4^1 lg 2]]).",
    "naide": {
     "olukord": "Ametnik võtab läbiotsimisel kinnipeetavalt hoiule eseme, mis on sisekorraeeskirja järgi keelatud. Kinnipeetav ütleb: „Te rikkusite mu omandiõigust!” Ametnik vastab: „Mingit riivet ei ole, sest ese on keelatud.”",
     "analyys": "**Kaitseala:** omandi vaba valdamine ja kasutamine kuulub igaühele ([[PS § 32 lg 2]]); kinnipeetav on kandja. **Riive:** jah – ese võetakse ära, kinnipeetav ei saa seda kasutada. See on ebasoodne mõju kaitstud positsioonile. **Põhiseaduspärasus:** kitsendused sätestab seadus ([[PS § 32 lg 2]]); alus on olemas ([[VangS § 15 lg 2]], [[VangS § 15 lg 3]]). **Järeldus:** eksivad mõlemad. Riive **on** olemas (ametnik eksib), aga kui see vastab seadusele ja on proportsionaalne, ei ole see **rikkumine** (kinnipeetav eksib)."
@@ -92,29 +155,8 @@
  },
  "skeem": [
   {
-   "tyyp": "voog",
-   "pealkiri": "Põhiõigusesse sekkumise teekond (slaid 15)",
-   "sammud": [
-    {
-     "pealkiri": "Põhiseadus",
-     "tekst": "põhiõigus ja luba seda piirata (seaduse reservatsioon)",
-     "viide": "PS § 34"
-    },
-    {
-     "pealkiri": "Seadus",
-     "tekst": "õigusselge ja proportsionaalne norm, mis lubab piirata",
-     "viide": "KorS § 52 lg 1"
-    },
-    {
-     "pealkiri": "Üksikakt või toiming",
-     "tekst": "ametnik kaalub ja rakendab normi konkreetsel juhul",
-     "viide": "HMS § 4 lg 2"
-    }
-   ]
-  },
-  {
    "tyyp": "vordlus",
-   "pealkiri": "Normikontroll ja vastavuskontroll (slaid 16)",
+   "pealkiri": "Normikontroll ja vastavuskontroll kõrvuti",
    "veerud": [
     "",
     "Normikontroll",
@@ -159,7 +201,7 @@
     "**Jah, aga ainult kooskõlas põhiseadusega** ([[PS § 11]]).",
     "Piirang peab olema demokraatlikus ühiskonnas **vajalik** ega tohi **moonutada õiguse olemust** ([[PS § 11]]).",
     "Piirata saab ainult **seaduse alusel** ([[PS § 3 lg 1]], [[HMS § 3 lg 1]]).",
-    "Põhiseadus väärtustab õigusi erinevalt: osa lubab piirata lihtsalt seadusega, osa ainult kindlatel eesmärkidel, osa puhul piiramist otsesõnu ette ei nähta (slaid 26).",
+    "Põhiseadus väärtustab õigusi erinevalt: osa lubab piirata lihtsalt seadusega, osa ainult kindlatel eesmärkidel ja osa puhul piiramist otsesõnu ette ei nähta.",
     "**Riive ei ole rikkumine.** Põhiseaduspärane riive on lubatud; rikkumine on lubamatu riive.",
     "Vanglas: kinnipeetava vabadus allutatakse seaduses toodud piirangutele ([[VangS § 4^1 lg 2]])."
    ]
@@ -178,7 +220,7 @@
     {
      "tekst": "Inimese elu",
      "oige": 1,
-     "selgitus": "Slaid 25: elu puutumatuse kaitstav hüve on inimese elu."
+     "selgitus": "Elu on seisund ([[PS § 16]])."
     },
     {
      "tekst": "Vabalt liikumine",
@@ -188,18 +230,18 @@
     {
      "tekst": "Omaniku võimalus oma asja vallata ja kasutada",
      "oige": 2,
-     "selgitus": "Slaid 25: isiku asjad ja omandisuhe neisse ([[PS § 32 lg 2]])."
+     "selgitus": "Omandisuhe ([[PS § 32 lg 2]])."
     },
     {
      "tekst": "Valdaja võimalus otsustada, keda ta oma koju lubab",
      "oige": 2,
-     "selgitus": "Slaid 28: kodupuutumatusega kaitstav hüve on isiku positsioon ([[PS § 33]])."
+     "selgitus": "Positsioon ([[PS § 33]])."
     }
    ]
   },
   {
    "tyyp": "fakt",
-   "kysimus": "Millal on põhiõigust slaidide järgi piiratud (riivatud)?",
+   "kysimus": "Millal on põhiõigust piiratud (riivatud)?",
    "valikud": [
     "Kui kohus on tuvastanud rikkumise",
     "Kui adressaat on mõjutanud kaitstud tegevust, seisundit või positsiooni kandja jaoks ebasoodsalt",
@@ -207,7 +249,7 @@
     "Kui inimene tunneb end häirituna"
    ],
    "oige": 1,
-   "selgitus": "Slaid 28. Seadusliku aluse puudumine teeb riivest rikkumise, aga riive on olemas ka siis, kui alus on olemas."
+   "selgitus": "Seadusliku aluse puudumine teeb riivest rikkumise, aga riive on olemas ka siis, kui alus on olemas."
   },
   {
    "tyyp": "sorteeri",
@@ -245,7 +287,7 @@
    "vastus": [
     "**Kaitseala:** igaühel, kes viibib seaduslikult Eestis, on õigus vabalt liikuda ([[PS § 34]]). Inimene on kandja, vaba liikumine on kaitstud tegevus.",
     "**Riive:** jah – peatamine takistab liikumist, see on ebasoodne mõju.",
-    "**Seaduslik alus:** korrakaitseorgan võib isiku peatada ja teda küsitleda, kui on alust arvata, et tal on korrarikkumise kõrvaldamiseks vajalikke andmeid ([[KorS § 30 lg 1]]). Slaidi 30 järgi on normist näha, kes, kuidas ja millises ulatuses võib piirata.",
+    "**Seaduslik alus:** korrakaitseorgan võib isiku peatada ja teda küsitleda, kui on alust arvata, et tal on korrarikkumise kõrvaldamiseks vajalikke andmeid ([[KorS § 30 lg 1]]). Normist on näha, kes, kuidas ja millises ulatuses võib piirata.",
     "**Üksikjuhtum:** abinõu peab olema kohane, vajalik ja proportsionaalne ([[HMS § 3 lg 2]]); 10 minutit küsitlemist on väike koormus.",
     "**Järeldus:** riive on, rikkumist tõenäoliselt mitte."
    ]
@@ -254,8 +296,9 @@
  "erinevused": [],
  "valjast": [
   {
-   "tekst": "Mõisted „kaitseala” ja „riive” on õigusteaduse mõisted; põhiseadus ise kasutab sõna „piirata”.",
-   "allikas": "õppejõu slaidid ja e-õpiobjekt (õigusteaduse terminid)"
+   "tekst": "Sõnad „kaitseala” ja „riive” on õigusteaduse mõisted; põhiseadus ise kasutab sõna „piirata”.",
+   "allikas": "õigusteaduse terminid"
   }
- ]
+ ],
+ "skeem_pealkiri": "Kokkuvõte tabelina"
 }
