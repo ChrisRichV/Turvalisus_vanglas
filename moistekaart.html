@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Source+Serif+4:opsz,wght@8..60,300..700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/stiil.css?v=20261111h">
+<link rel="stylesheet" href="assets/stiil.css?v=20261111i">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23f2c230'/%3E%3Ctext x='16' y='24' font-size='22' text-anchor='middle' font-family='Georgia' fill='%231c2733'%3E§%3C/text%3E%3C/svg%3E">
 </head>
 <body class="mk-leht">
@@ -17,7 +17,7 @@
   <header class="mk-pais">
     <h1>Mõistekaart</h1>
     <p class="mk-juhis">Kaart näitab, kuidas teemad ja mõisted omavahel seotud on. <b>Klõpsa sõlmel</b>: näed selgitust, seoseid ja viiteid. <b>Topeltklõps</b> teemal avab teema. Lohista tausta, et liikuda; keri või näpista, et suumida.</p>
-    <div class="mk-vaated" role="tablist" aria-label="Mis kaarti näidata" id="mk-vaated"></div>
+    <nav class="mk-vaated" aria-label="Mis kaarti näidata" id="mk-vaated"></nav>
     <div class="mk-riba">
       <label class="mk-otsi"><span class="peidetud-tekst">Otsi kaardilt</span>
         <input id="mk-otsi" type="search" list="mk-nimed" placeholder="Otsi mõistet või teemat" autocomplete="off"></label>
@@ -35,7 +35,7 @@
         <defs>
           <marker id="mk-nool" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" class="mk-nool"/></marker>
         </defs>
-        <g id="mk-maailm"><g id="mk-servad"></g><g id="mk-silldid"></g><g id="mk-solmed"></g></g>
+        <g id="mk-maailm"><g id="mk-alad"></g><g id="mk-servad"></g><g id="mk-silldid"></g><g id="mk-solmed"></g></g>
       </svg>
       <p id="mk-kirjeldus" class="peidetud-tekst">Graafiline kaart. Sama sisu on tekstina nupu „Loendina” all.</p>
       <div class="mk-suum" role="group" aria-label="Suum">
@@ -49,6 +49,7 @@
         <li><span class="lg-sild"></span> Seob mitut tundi</li>
         <li><span class="lg-sate">§</span> Säte</li>
         <li><span class="lg-joon"></span> Tundide vaheline seos</li>
+        <li><span class="lg-ala"></span> Kogum (tund või aine)</li>
       </ul>
       <p class="mk-tyhi" id="mk-tyhi" hidden></p>
     </div>
@@ -61,9 +62,9 @@
   <p>Mõistete selgitused on lihtsustatud ega asenda seaduse teksti. Iga selgituse juures on säte – klõpsa, et lugeda sõna-sõnalist teksti.</p>
 </footer>
 
-<script src="assets/seadistus.js?v=20261111h"></script>
-<script src="assets/app.js?v=20261111h"></script>
-<script src="assets/ikoonid.js?v=20261111h"></script>
+<script src="assets/seadistus.js?v=20261111i"></script>
+<script src="assets/app.js?v=20261111i"></script>
+<script src="assets/ikoonid.js?v=20261111i"></script>
 <script>
 (function () {
   "use strict";
@@ -74,6 +75,7 @@
   A.kaivita({ leht: "moistekaart" });
 
   let D = null;               // andmed
+  // vaade: "koik" (tervikpilt) | "aine:<id>" (kõik aine tunnid) | "<tunni id>" (üks tund)
   let vaade = q.get("vaade") || "koik";
   let valitud = q.get("valitud") || null;
   let G = null;               // praegune graaf {solmed, servad}
@@ -90,9 +92,10 @@
       m._tunnid = [...new Set(m.teemad.map((x) => tunniKaudu[x] && tunniKaudu[x].id).filter(Boolean))];
       m._ained = [...new Set(m._tunnid.map((id) => tunnid.find((t) => t.id === id).aine))];
     });
-    D = { mk, teema, tunnid, ained, tunniKaudu, moiste };
-    if (vaade !== "koik" && !tunnid.some((t) => t.id === vaade)) vaade = "koik";
-    ehitaVaated();
+    D = { mk, teema, tunnid, ained, tunniKaudu, moiste, koikTunnid: A.tunnid.tunnid };
+    const sobib = vaade === "koik" || (vaade.startsWith("aine:") && ained.some((a) => "aine:" + a.id === vaade)) || tunnid.some((t) => t.id === vaade);
+    if (!sobib) vaade = "koik";
+    ehitaVaated(); ehitaVaatedYks();
     ehitaGraaf();
   }).catch((e) => A.viga($("leht"), e));
 
@@ -101,18 +104,38 @@
     const a = D.ained.find((x) => x.id === t.aine);
     return `${a ? a.lyhend : ""} · tund ${t.nr}`;
   }
+  const aineNimi = (id) => { const a = D.ained.find((x) => x.id === id); return a ? a.lyhend : id; };
+  function vaateNimi() {
+    if (vaade === "koik") return "Tervikpilt – kõik ained";
+    if (vaade.startsWith("aine:")) return aineNimi(vaade.slice(5)) + " – kõik tunnid";
+    const t = D.tunnid.find((x) => x.id === vaade); return t ? tunniNimi(t) + ": " + t.pealkiri : "";
+  }
   function ehitaVaated() {
-    const nupp = (id, pea, ala) => `<button type="button" role="tab" data-vaade="${id}" aria-selected="${vaade === id}">
-      <span class="mk-v-pea">${pea}</span><span class="mk-v-ala">${ala}</span></button>`;
-    const html = D.tunnid.map((t) => nupp(t.id, A.esc(tunniNimi(t)), A.esc(t.pealkiri))).join("") +
-      nupp("koik", "Kõik tunnid koos", "kõikide tundide seosed");
-    const k = $("mk-vaated"); k.innerHTML = html;
-    k.addEventListener("click", (e) => {
-      const b = e.target.closest("[data-vaade]"); if (!b) return;
-      vaade = b.dataset.vaade; valitud = null;
-      k.querySelectorAll("[data-vaade]").forEach((x) => x.setAttribute("aria-selected", x === b));
-      ehitaGraaf();
-    });
+    const k = $("mk-vaated");
+    const valitud_ = (id) => (vaade === id ? ' aria-current="true"' : "");
+    const read = D.ained.map((a) => {
+      const tt = D.koikTunnid.filter((t) => t.aine === a.id && t.tyyp !== "eksam" && t.tyyp !== "seminar");
+      const valmis = tt.filter((t) => D.tunnid.some((x) => x.id === t.id));
+      const chips = tt.map((t) => {
+        const on = valmis.includes(t);
+        return on ? `<button type="button" class="mk-tund" data-vaade="${t.id}"${valitud_(t.id)} title="${A.esc(t.pealkiri)}" aria-label="Tund ${t.nr}: ${A.esc(t.pealkiri)}">${t.nr}</button>`
+          : `<span class="mk-tund tulemas" title="Tund ${t.nr}: ${A.esc(t.pealkiri)} – kaart tuleb, kui tund lisatakse" aria-hidden="true">${t.nr}</span>`;
+      }).join("");
+      return `<div class="mk-aine-rida">
+        <button type="button" class="mk-aine" data-vaade="aine:${a.id}"${valitud_("aine:" + a.id)}><span class="mk-v-pea">${A.esc(a.lyhend)}</span><span class="mk-v-ala">kõik tunnid${valmis.length ? ` (${valmis.length})` : " – tulemas"}</span></button>
+        <div class="mk-tunnid" role="group" aria-label="${A.esc(a.lyhend)}: tunnid">${chips || '<span class="mk-v-tyhi">tunde veel pole</span>'}</div></div>`;
+    }).join("");
+    k.innerHTML = `<button type="button" class="mk-tervik" data-vaade="koik"${valitud_("koik")}><span class="mk-v-pea">Tervikpilt</span><span class="mk-v-ala">kõik ained ühe kaardina</span></button>
+      <div class="mk-ained">${read}</div>`;
+    if (!k.dataset.seotud) {
+      k.dataset.seotud = "1";
+      k.addEventListener("click", (e) => {
+        const b = e.target.closest("button[data-vaade]"); if (!b) return;
+        vaade = b.dataset.vaade; valitud = null; ehitaVaated(); ehitaGraaf();
+      });
+    }
+  }
+  function ehitaVaatedYks() {
     ["mk-teemad", "mk-satted", "mk-sillad"].forEach((id) => $(id).addEventListener("change", () => ehitaGraaf(true)));
     $("mk-loend-nupp").addEventListener("click", () => {
       const l = $("mk-loend"), on = l.hidden;
@@ -138,8 +161,10 @@
   /* ---------- graafi koostamine ---------- */
   function ehitaGraaf(sailitaValik) {
     if (!sailitaValik) valitud = valitud || null;
-    const koik = vaade === "koik";
-    const tunnid = koik ? D.tunnid : D.tunnid.filter((t) => t.id === vaade);
+    const koik = vaade === "koik", aineVaade = vaade.startsWith("aine:");
+    const tunnid = koik ? D.tunnid : aineVaade ? D.tunnid.filter((t) => t.aine === vaade.slice(5)) : D.tunnid.filter((t) => t.id === vaade);
+    // kogum: tervikpildis aine, aine vaates tund
+    const grupp = (tundId) => (koik ? D.tunnid.find((t) => t.id === tundId).aine : aineVaade ? tundId : null);
     const tunniIdd = new Set(tunnid.map((t) => t.id));
     const naitaTeemad = $("mk-teemad").checked, naitaSatted = $("mk-satted").checked;
     $("mk-sillad-silt").hidden = !koik;
@@ -160,12 +185,19 @@
     const solmed = [], servad = [], kaart = {};
     const lisa = (s) => { kaart[s.id] = s; solmed.push(s); return s; };
 
-    // ankrud: tunnid ringil
+    // ankrud: tervikpildis ained suurel ringil ja nende tunnid väikesel ringil aine ümber; muidu tunnid ringil
     const ankur = {};
-    tunnid.forEach((t, i) => {
-      const n = tunnid.length, R = n > 1 ? 330 + 40 * n : 0, a = (i / n) * Math.PI * 2 - Math.PI / 2;
-      ankur[t.id] = { x: R * Math.cos(a), y: R * Math.sin(a) };
-    });
+    const kast = svg.getBoundingClientRect(), lai = (kast.width || 800) >= (kast.height || 600);
+    // laial ekraanil kogumid kõrvuti (algus vasakult), kitsal üksteise all
+    const ring = (n, R0, i) => { const R = n > 1 ? R0 : 0, a = (i / n) * Math.PI * 2 + (lai ? Math.PI : -Math.PI / 2); return { x: R * Math.cos(a), y: R * Math.sin(a) }; };
+    if (koik) {
+      const ained = [...new Set(tunnid.map((t) => t.aine))];
+      ained.forEach((aid, i) => {
+        const c = ring(ained.length, 620 + 60 * ained.length, i);
+        const tt = tunnid.filter((t) => t.aine === aid);
+        tt.forEach((t, j) => { const o = ring(tt.length, 170 + 40 * tt.length, j); ankur[t.id] = { x: c.x + o.x, y: c.y + o.y }; });
+      });
+    } else tunnid.forEach((t, i) => (ankur[t.id] = ring(tunnid.length, 330 + 40 * tunnid.length, i)));
     const kesk = (pp) => pp.length ? { x: pp.reduce((s, p) => s + p.x, 0) / pp.length, y: pp.reduce((s, p) => s + p.y, 0) / pp.length } : { x: 0, y: 0 };
 
     // teema ja samanimeline mõiste = üks sõlm (nt „ÜRO”), et kaardil ei oleks kaksikuid
@@ -179,14 +211,15 @@
       tunnid.forEach((t) => t.teemad.forEach((tm) => {
         const x = D.teema[tm.id]; if (!x || yhend[tm.id]) return;
         if (ainultSillad && !moisted.some((m) => m.teemad.includes(tm.id))) return;
-        lisa({ id: "t:" + x.id, liik: "teema", silt: x.lyhend || x.pealkiri, ikoon: x.ikoon, teema: x, tund: t.id, ankur: ankur[t.id] });
+        lisa({ id: "t:" + x.id, liik: "teema", silt: x.lyhend || x.pealkiri, ikoon: x.ikoon, teema: x, tund: t.id, ankur: ankur[t.id], grupid: [grupp(t.id)] });
       }));
     }
     moisted.forEach((m) => {
       const tt = m._tunnid.filter((id) => tunniIdd.has(id));
       const oma = Object.keys(yhend).find((tid) => yhend[tid] === m.id);
       lisa({ id: "m:" + m.id, liik: "moiste", silt: m.silt, m, sild: m._tunnid.length > 1, valjas: m._tunnid.filter((id) => !tunniIdd.has(id)),
-        ankur: kesk(tt.map((id) => ankur[id])), omaTeema: oma ? D.teema[oma] : null, ikoon: oma ? D.teema[oma].ikoon : null });
+        ankur: kesk(tt.map((id) => ankur[id])), omaTeema: oma ? D.teema[oma] : null, ikoon: oma ? D.teema[oma].ikoon : null,
+        grupid: [...new Set(tt.map(grupp))] });
     });
     if (naitaTeemad) moisted.forEach((m) => m.teemad.forEach((tid) => {
       const a = teemaSolm(tid);
@@ -209,7 +242,16 @@
         set.forEach((id) => servad.push({ a: "m:" + id, b: "s:" + voti, liik: "sate" }));
       });
     }
-    G = { solmed, servad, kaart };
+    // kogumid (taustaalad): aine vaates tunnid, tervikpildis ained
+    const alad = [];
+    if (koik || aineVaade) {
+      const vot = koik ? [...new Set(tunnid.map((t) => t.aine))] : tunnid.map((t) => t.id);
+      vot.forEach((g) => {
+        const t = !koik && tunnid.find((x) => x.id === g);
+        alad.push({ g, silt: koik ? D.ained.find((a) => a.id === g).nimi : `Tund ${t.nr} · ${t.pealkiri}`, suur: koik });
+      });
+    }
+    G = { solmed, servad, kaart, alad };
     // naabrid
     solmed.forEach((s) => (s.naabrid = new Set()));
     servad.forEach((e) => { kaart[e.a].naabrid.add(e.b); kaart[e.b].naabrid.add(e.a); });
@@ -285,7 +327,7 @@
         a.x += dx * m; a.y += dy * m; b.x -= dx * m; b.y -= dy * m;
       });
       solmed.forEach((s) => {
-        const k = (s.liik === "teema" ? 0.025 : 0.01) * alfa;
+        const k = (s.liik === "teema" ? 0.03 : s.grupid && s.grupid.length === 1 ? 0.02 : 0.006) * alfa;
         s.x += (s.ankur.x - s.x) * k; s.y += (s.ankur.y - s.y) * k;
         s.x -= s.x * 0.003 * alfa; s.y -= s.y * 0.003 * alfa;
       });
@@ -318,8 +360,13 @@
     return [lop(a, b), lop(b, a)];
   }
   function joonista() {
-    const gS = $("mk-servad"), gT = $("mk-silldid"), gN = $("mk-solmed");
-    gS.innerHTML = ""; gT.innerHTML = ""; gN.innerHTML = "";
+    const gS = $("mk-servad"), gT = $("mk-silldid"), gN = $("mk-solmed"), gA = $("mk-alad");
+    gS.innerHTML = ""; gT.innerHTML = ""; gN.innerHTML = ""; gA.innerHTML = "";
+    G.alad.forEach((a, i) => {
+      a.el = el("g", { class: `mk-kogum${a.suur ? " mk-kogum-suur" : ""}`, "data-toon": i % 4 }, gA);
+      a.rect = el("rect", { rx: 22 }, a.el);
+      a.tekst = el("text", {}, a.el); a.tekst.textContent = a.silt;
+    });
     G.servad.forEach((e) => {
       const ln = el("line", { class: `mk-serv mk-serv-${e.liik}${e.sild ? " mk-serv-sild" : ""}` }, gS);
       if (e.liik === "seos") ln.setAttribute("marker-end", "url(#mk-nool)");
@@ -363,6 +410,18 @@
       if (e.tEl) { const mx = (a.x + b.x) / 2, my = (a.y + b.y) / 2; e.tEl.setAttribute("transform", `translate(${mx},${my})`); e.tTaust.setAttribute("x", -e.tW / 2); e.tTaust.setAttribute("y", -8); }
     });
     G.solmed.forEach((s) => s.el.setAttribute("transform", `translate(${s.x},${s.y})`));
+    // kogumi ala = tema sõlmede (ainult selle kogumi omad) ümbris
+    G.alad.forEach((a) => {
+      const oma = G.solmed.filter((s) => s.grupid && s.grupid.length === 1 && s.grupid[0] === a.g);
+      if (!oma.length) { a.el.setAttribute("display", "none"); return; }
+      let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+      oma.forEach((s) => { x0 = Math.min(x0, s.x - s.w / 2); x1 = Math.max(x1, s.x + s.w / 2); y0 = Math.min(y0, s.y - s.h / 2); y1 = Math.max(y1, s.y + s.h / 2); });
+      const p = a.suur ? 34 : 22, ylal = a.suur ? 34 : 24;
+      a.rect.setAttribute("x", x0 - p); a.rect.setAttribute("y", y0 - p - ylal);
+      a.rect.setAttribute("width", x1 - x0 + 2 * p); a.rect.setAttribute("height", y1 - y0 + 2 * p + ylal);
+      a.tekst.setAttribute("x", x0 - p + 16); a.tekst.setAttribute("y", y0 - p - ylal + (a.suur ? 30 : 20));
+      a.el.removeAttribute("display");
+    });
   }
 
   /* ---------- suum ja liikumine ---------- */
@@ -377,7 +436,12 @@
     const r = svg.getBoundingClientRect();
     let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
     G.solmed.forEach((s) => { x0 = Math.min(x0, s.x - s.w / 2); x1 = Math.max(x1, s.x + s.w / 2); y0 = Math.min(y0, s.y - s.h / 2); y1 = Math.max(y1, s.y + s.h / 2); });
-    const pad = 24, k = Math.min((r.width - pad * 2) / (x1 - x0), (r.height - pad * 2) / (y1 - y0), 1.6);
+    (G.alad || []).forEach((a) => {
+      if (!a.rect || a.el.getAttribute("display") === "none") return;
+      const x = +a.rect.getAttribute("x"), y = +a.rect.getAttribute("y"), w = +a.rect.getAttribute("width"), h = +a.rect.getAttribute("height");
+      x0 = Math.min(x0, x); y0 = Math.min(y0, y); x1 = Math.max(x1, x + w); y1 = Math.max(y1, y + h);
+    });
+    const pad = 16, k = Math.min((r.width - pad * 2) / (x1 - x0), (r.height - pad * 2) / (y1 - y0), 1.6);
     tf = { k, x: r.width / 2 - ((x0 + x1) / 2) * k, y: r.height / 2 - ((y0 + y1) / 2) * k };
     rakenda(anim);
   }
@@ -484,7 +548,7 @@
       ${seosed.length ? `<h3>Seosed</h3><ul class="mk-p-seosed">${seosed.join("")}</ul>` : ""}
       <h3>Teemad</h3><ul class="mk-p-teemad">${m.teemad.map(teemaLink).join("")}</ul>
       ${s.valjas && s.valjas.length ? `<p class="mk-p-vihje">See mõiste esineb ka: ${s.valjas.map((id) => A.esc(tunniNimi(D.tunnid.find((t) => t.id === id)))).join(", ")}.
-        <button type="button" class="nupp teine" data-koik="${A.esc(s.id)}">Näita kõigi tundide kaardil</button></p>` : ""}`;
+        <button type="button" class="nupp teine" data-koik="${A.esc(s.id)}">Näita tervikpildil</button></p>` : ""}`;
   }
   function teemaPaneel(s) {
     const t = s.teema;
@@ -505,12 +569,12 @@
   }
   function naitaYldpaneel() {
     const p = $("mk-paneel"); p.classList.remove("taidetud");
-    if (!G || !G.solmed.length) { p.innerHTML = ""; return; }
+    if (!G || !G.solmed.length) { p.innerHTML = `<div class="mk-p-liik">${A.esc(vaateNimi())}</div><h2>Veel tühi</h2><p>Selles vaates pole veel tunde. Kaart täitub iga lisatud tunniga ja seob uued mõisted varasemate tundide ja ainetega.</p>`; return; }
     const moisted = G.solmed.filter((s) => s.liik === "moiste");
     const solmpunktid = moisted.map((s) => ({ s, n: [...s.naabrid].filter((id) => id.startsWith("m:")).length })).sort((a, b) => b.n - a.n).slice(0, 6);
     const sillad = moisted.filter((s) => s.sild);
     const koik = vaade === "koik";
-    p.innerHTML = `<div class="mk-p-liik">${koik ? "Kõik tunnid koos" : A.esc(tunniNimi(D.tunnid.find((t) => t.id === vaade)))}</div>
+    p.innerHTML = `<div class="mk-p-liik">${A.esc(vaateNimi())}</div>
       <h2>Suur pilt</h2>
       <p>${moisted.length} mõistet ja ${G.servad.filter((e) => e.liik === "seos").length} seost.${koik ? ` Tundidevahelisi seoseid: ${G.servad.filter((e) => e.sild).length}.` : ""}</p>
       <h3>Kõige rohkem seoseid</h3>
@@ -523,7 +587,7 @@
     const b = e.target.closest("[data-vali]");
     if (b) { vali(b.dataset.vali); keskenda(G.kaart[b.dataset.vali]); return; }
     const k = e.target.closest("[data-koik]");
-    if (k) { vaade = "koik"; valitud = k.dataset.koik; document.querySelectorAll("#mk-vaated [data-vaade]").forEach((x) => x.setAttribute("aria-selected", x.dataset.vaade === "koik")); ehitaGraaf(true); }
+    if (k) { vaade = "koik"; valitud = k.dataset.koik; ehitaVaated(); ehitaGraaf(true); }
   });
 
   /* ---------- loendivaade (sama sisu tekstina) ---------- */

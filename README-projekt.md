@@ -59,7 +59,7 @@ kontrollib sisu.
 | `seadused.html` | Seaduste register: akt → säte → teemad (ainefiltriga); arvutatakse brauseris teemafailidest | harva |
 | `teema.html?id=t01-08` | Teema: 5 osa + skeem + tunni küsimus + harjutused + allikamärkused + tagasiside | harva |
 | `kordamine.html?aine=…&tund=…&teema=…` | Segatud harjutused (5/8/10) aine/tunni/teema kaupa ja tunni küsimused vastustega | harva |
-| `moistekaart.html?vaade=o-t11&valitud=m:riive` | **Mõistekaart**: üks tund või „kõik tunnid koos” (`vaade=koik`); sõlmed = teemad, mõisted, sätted; paneel, loendivaade | harva |
+| `moistekaart.html?vaade=…&valitud=m:riive` | **Mõistekaart** kolmel tasandil: üks tund (`vaade=o-t11`), aine kõik tunnid (`vaade=aine:oigus`, kogumid = tunnid) ja tervikpilt (`vaade=koik`, kogumid = ained). Valikus on kõik aine tunnid numbritega; tulemas tunnid on punktiiriga. Sõlmed = teemad, mõisted, sätted; paneel, loendivaade | harva |
 | `assets/app.js` | Andmed, märgistus (`md`), **ühine päis + sisukorra sahtel** (`A.kaivita({leht, aine, tund, teema})`), hüpikaknad, näiteaken, harjutused, tagasiside | harva |
 | `assets/skeemid.js` | Skeemitüübid: `voog`, `puu`, `tasandid`, `vordlus`, `kaalud`, `kontroll` | uue tüübi korral |
 | `assets/ikoonid.js` | Teemade SVG-ikoonid (`A.ikoon(nimi)`, `A.IKOONID`) – ühtne joonstiil, värvitähenduseta | uue ikooni korral |

@@ -893,14 +893,40 @@ main { padding: 0 1rem 4rem; }
 .mk-pais h1 { font-family: var(--kiri-pealkiri); font-stretch: 115%; font-weight: 800; font-size: clamp(1.9rem, 5vw, 3rem); line-height: 1.02; margin: 0 0 .5rem; }
 .mk-juhis { max-width: 46rem; margin: 0 0 1rem; color: var(--mahe); }
 .mk-juhis b { color: var(--tint); font-weight: 600; }
-.mk-vaated { display: flex; gap: .5rem; overflow-x: auto; padding-bottom: .3rem; scrollbar-width: thin; }
-.mk-vaated button {
-  flex: none; display: grid; text-align: left; gap: .1rem; cursor: pointer; max-width: 15rem;
-  border: 1.5px solid var(--joon); background: var(--pind); border-radius: 10px; padding: .5rem .8rem;
+.mk-vaated { display: grid; grid-template-columns: auto 1fr; gap: .6rem; align-items: stretch; }
+.mk-vaated button { cursor: pointer; font: inherit; color: var(--tint); }
+.mk-tervik, .mk-aine {
+  display: grid; text-align: left; gap: .1rem; align-content: center;
+  border: 1.5px solid var(--joon); background: var(--pind); border-radius: 10px; padding: .5rem .85rem;
 }
-.mk-vaated button[aria-selected="true"] { border-color: var(--tint); background: var(--tint); color: var(--paber); }
-.mk-v-pea { font-family: var(--kiri-pealkiri); font-weight: 750; font-size: .92rem; }
-.mk-v-ala { font-family: var(--kiri-pealkiri); font-size: .78rem; opacity: .75; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.mk-tervik { border-width: 2px; border-color: var(--tint); min-width: 11rem; align-self: start; min-height: 4.2rem; }
+.mk-tervik[aria-current="true"], .mk-aine[aria-current="true"], .mk-tund[aria-current="true"] { background: var(--tint); color: var(--paber) !important; border-color: var(--tint); }
+.mk-ained { display: grid; gap: .45rem; min-width: 0; }
+.mk-aine-rida { display: grid; grid-template-columns: 10.5rem minmax(0, 1fr); gap: .6rem; align-items: center; }
+.mk-tunnid { display: flex; flex-wrap: wrap; gap: .3rem; align-items: center; }
+.mk-tund { display: inline-grid; place-items: center; min-width: 2.1rem; height: 2.1rem; padding: 0 .35rem; border-radius: 8px;
+  border: 1.5px solid var(--vask); background: transparent; font-family: var(--kiri-pealkiri) !important; font-weight: 750; font-size: .9rem; }
+.mk-tund:hover { background: var(--vask-hele); }
+.mk-tund.tulemas { border: 1.5px dashed var(--joon); color: var(--mahe); font-weight: 500; cursor: default; }
+.mk-v-pea { font-family: var(--kiri-pealkiri); font-weight: 750; font-size: .95rem; }
+.mk-v-ala { font-family: var(--kiri-pealkiri); font-size: .78rem; opacity: .75; }
+.mk-v-tyhi { font-family: var(--kiri-pealkiri); font-size: .82rem; color: var(--mahe); }
+@media (max-width: 700px) {
+  .mk-vaated { grid-template-columns: 1fr; gap: .45rem; }
+  .mk-tervik { min-height: 0; padding: .45rem .8rem; }
+  .mk-aine-rida { grid-template-columns: 7.6rem minmax(0, 1fr); gap: .45rem; align-items: start; }
+  .mk-aine .mk-v-pea { font-size: .85rem; }
+  .mk-aine { padding: .35rem .6rem; }
+  .mk-aine .mk-v-ala { font-size: .7rem; }
+  .mk-tund { min-width: 1.9rem; height: 1.9rem; font-size: .85rem; }
+}
+/* kogumid kaardil */
+.mk-kogum rect { fill: color-mix(in srgb, var(--tint) 4%, transparent); stroke: var(--joon); stroke-width: 1.5; stroke-dasharray: 6 5; }
+.mk-kogum text { fill: var(--mahe); font: 700 13px Archivo, sans-serif; letter-spacing: .04em; text-transform: uppercase; }
+.mk-kogum-suur rect { fill: color-mix(in srgb, var(--tint) 6%, transparent); stroke: var(--mahe); stroke-width: 2; stroke-dasharray: none; }
+.mk-kogum-suur text { fill: var(--tint); font-size: 22px; font-weight: 800; letter-spacing: .02em; text-transform: none; }
+.mk-on-valik .mk-kogum { opacity: .35; }
+.lg-ala { width: 1.3rem; height: .8rem; border: 1.5px dashed var(--mahe); border-radius: 4px; }
 .mk-riba { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem 1rem; margin-top: .8rem; font-family: var(--kiri-pealkiri); font-size: .9rem; }
 .mk-otsi input { font: inherit; width: 15rem; max-width: 100%; padding: .45rem .7rem; border-radius: var(--raadius); border: 1.5px solid var(--joon); background: var(--pind); color: var(--tint); }
 .mk-otsi { flex: 0 1 15rem; min-width: 0; }
