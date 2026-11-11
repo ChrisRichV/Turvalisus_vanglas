@@ -1,0 +1,105 @@
+{
+ "id": "ps-t01-05",
+ "tund": "ps-t01",
+ "jrk": 5,
+ "pealkiri": "Kas karistus hoiab kuritegudest eemale?",
+ "lyhend": "Karistuse mõju",
+ "ikoon": "trellid",
+ "lyhidalt": "Levinud uskumus on, et karistus hoiab inimesi kuritegudest eemale. Kursuse järgi on sellel vähe teaduslikku tõestust: karistus üksi ei hoia kuritegudest eemale ei neid, kes on juba kuriteo teinud, ega ühiskonda üldiselt.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Uskumus",
+   "tekst": "Ikka on levinud usk, et **karistada saamine hoiab uutest kuritegudest eemale** – ja et karistuse risk hoiab suuremat osa ühiskonnast kuritegudest eemal.\n\nKursus küsib: kas tõesti väldivad kõik kuritegusid ainult karistuse hirmus – või on ka muid põhjuseid?",
+   "skeem": [
+    {
+     "tyyp": "kaalud",
+     "pealkiri": "Uskumus vs uuringud",
+     "vasak": {
+      "silt": "Uskumus",
+      "pealkiri": "Karistus hoiab eemale",
+      "tekst": "„Kui karistus on piisavalt karm, siis ei tehta.”"
+     },
+     "parem": {
+      "silt": "Uuringud",
+      "pealkiri": "Tõendid on nõrgad",
+      "tekst": "Karistus üksi ei hoia eemale ei kurjategijaid ega ühiskonda."
+     },
+     "all": [
+      "Vähesed leitud efektid on nõrgad.",
+      "Inimesi hoiavad kuritegudest eemal ka muud põhjused (väärtused, suhted, töö)."
+     ]
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Mis siis mõjub",
+   "tekst": "Kui karistus üksi ei mõju, on vaja **käitumist muuta**: õpetada uusi oskusi ja prosotsiaalseid viise samade eesmärkide saavutamiseks (vt tund 2). Karistus mõjub käitumisele kõige paremini siis, kui see järgneb **kohe** teole – kohtu karistus jõuab aga kuude või aastate pärast.",
+   "read": [
+    {
+     "tase": "Vangla",
+     "viited": [
+      "VangS § 6 lg 1",
+      "VangS § 16 lg 1"
+     ],
+     "tekst": "Vangistuse eesmärk on suunata õiguskuulekale käitumisele; üle aasta kestva vangistuse korral koostatakse individuaalne täitmiskava, kus on ka haridus, töö ja vabanemise ettevalmistus."
+    }
+   ]
+  },
+  "piiramine": {
+   "pealkiri": "Mida see ei tähenda",
+   "tekst": "Uuringud ei ütle, et karistust ei ole vaja.",
+   "punktid": [
+    "Karistus on vajalik õiguskorra kaitseks ([[VangS § 6 lg 1]]).",
+    "Üksi ei muuda see käitumist – vaja on ka sekkumist, haridust, tööd ja tuge.",
+    "Karmim karistus ei tähenda automaatselt vähem kuritegusid."
+   ]
+  },
+  "vangla": {
+   "tekst": "Korduvkurjategija ise on näide: mitu vangistust ei ole teda peatanud. Inspektor-kontaktisiku töö on täita vangistuse aeg sisuga, mis päriselt muudab käitumist.",
+   "naide": {
+    "olukord": "Kinnipeetav on kolmandat korda vanglas varguste eest. Ta ütleb: „Vangla mind ei hirmuta, siin on mul sõbrad.”",
+    "analyys": "See kinnitab kursuse järeldust: karistus üksi ei hoidnud teda eemale. Täitmiskava ([[VangS § 16 lg 1]]) annab võimaluse tegeleda haridusega, tööga ja vabanemise ettevalmistusega – need muudavad käitumist rohkem kui hirm."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Kirjutatakse, et karistus „ei mõju üldse”. Õigem: karistus **üksi** ei hoia eemale ja leitud efektid on nõrgad.",
+    "Arvatakse, et karmim karistus = vähem kuritegusid. Seda tõendid ei kinnita."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mida näitavad uuringud karistuse heidutava mõju kohta kursuse järgi?",
+   "valikud": [
+    "Karistus hoiab usaldusväärselt kõiki kuritegudest eemale",
+    "Karistus üksi ei hoia eemale ei varem kuritegusid teinuid ega ühiskonda; efektid on nõrgad",
+    "Karistus mõjub ainult naistele",
+    "Karistus mõjub ainult siis, kui see on avalik"
+   ],
+   "oige": 1,
+   "selgitus": "Seepärast on vaja käitumist muutvaid sekkumisi."
+  },
+  {
+   "tyyp": "kaasus",
+   "kysimus": "Kinnipeetav (40) on kolmandat korda vanglas varguste eest. Ta ütleb, et vangla ei hirmuta teda. Mida see näitab karistuse kohta ja mida saab inspektor-kontaktisik teha?",
+   "vastus": [
+    "**Mida see näitab:** varasemad karistused ei hoidnud teda eemale – karistus üksi ei mõju.",
+    "**Miks:** karistus jõuab hilja ja kuritegeliku elu tasud (raha, sõbrad) olid tugevamad.",
+    "**Mida teha:** kasutada täitmiskava ([[VangS § 16 lg 1]]) – haridus, töö, vabanemise ettevalmistus; leida tema enda eesmärgid.",
+    "**Järeldus:** vangistuse aeg tuleb täita sisuga, mis muudab käitumist ([[VangS § 6 lg 1]])."
+   ],
+   "juhis": "Mõtle läbi: mis on toimunud, mis teooria seda selgitab ja mida inspektor-kontaktisik teeb."
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

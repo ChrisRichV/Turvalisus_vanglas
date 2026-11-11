@@ -1,0 +1,100 @@
+{
+ "id": "ps-t03-02",
+ "tund": "ps-t03",
+ "jrk": 2,
+ "pealkiri": "Ajuosad ja kriminaalne mõtlemine",
+ "lyhend": "Ajuosad",
+ "ikoon": "aju",
+ "lyhidalt": "Kolm ajuosa on seotud kriminaalse mõtlemisega: eesajukoor (otsused ja pidurdus), amügdala (emotsioonid, empaatia, hirm) ja hipokampus (mälu ja õppimine).",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Kolm ajuosa",
+   "tekst": "",
+   "skeem": [
+    {
+     "tyyp": "kaardid",
+     "pealkiri": "Ajuosad, mis seonduvad kriminaalse mõtlemisega",
+     "kaardid": [
+      {
+       "pealkiri": "Eesajukoor (prefrontaalne korteks)",
+       "silt": "1",
+       "tekst": "Otsuste tegemine ja **pidurdusmehhanismid**. Oluline keerulistes kognitiivsetes, emotsionaalsetes ja käitumuslikes tegevustes."
+      },
+      {
+       "pealkiri": "Amügdala (mandeltuum)",
+       "silt": "2",
+       "tekst": "Aju **emotsioonide keskus**. Kriminaalse käitumise puhul võib olla väiksem – see vähendab empaatiat ja hirmu kogemist.",
+       "toon": "b"
+      },
+      {
+       "pealkiri": "Hipokampus",
+       "silt": "3",
+       "tekst": "**Mäletamine, õppimine**, seoste loomine ja mälestuste töötlemine."
+      }
+     ]
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Seos teooriatega",
+   "tekst": "Ajuosad seostuvad eelmise teema kahe omadusega: **kartmatus ja takistamatus** (amügdala, hipokampus). Eesajukoore pidurdusmehhanismid on seotud **enesekontrolliga** (tund 2).",
+   "read": []
+  },
+  "piiramine": {
+   "pealkiri": "Mida see ei tähenda",
+   "tekst": "",
+   "punktid": [
+    "Aju eripära **ei tähenda**, et inimene on „sündinud kurjategija” või et muutus on võimatu.",
+    "Aju areneb ja õpib kogu elu – hipokampus on õppimise ja seoste looja.",
+    "Bioloogia on üks tegur paljude seas (temperament, kasvukeskkond, kaaslased)."
+   ]
+  },
+  "vangla": {
+   "tekst": "Inspektor-kontaktisiku jaoks tähendab see: kui kinnipeetav ei paista tundvat hirmu ega kaastunnet, võib sellel olla ka bioloogiline taust. See ei õigusta tegu, kuid selgitab, miks hirmutamine ja moraali lugemine ei pruugi mõjuda – vaja on selgeid reegleid ja harjutamist.",
+   "naide": {
+    "olukord": "Ametnik hoiatab kinnipeetavat korduvalt karmide tagajärgede eest, kuid kinnipeetav jääb täiesti ükskõikseks.",
+    "analyys": "Väiksema hirmu kogemisega inimest ei pruugi hirmutamine mõjutada. Tõhusam on järjepidev reeglite rakendamine, kohene tagajärg (tund 2) ja positiivse käitumise tasustamine."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Amügdala ja hipokampus aetakse segi: amügdala – emotsioonid; hipokampus – mälu ja õppimine.",
+    "Kirjutatakse, et aju määrab kuritegevuse. Kursus seob aju **temperamendi ja omadustega**, mitte saatusega."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline ajuosa?",
+   "ryhmad": [
+    "Eesajukoor",
+    "Amügdala",
+    "Hipokampus"
+   ],
+   "read": [
+    {
+     "tekst": "Pidurdab impulsi enne tegu",
+     "oige": 0
+    },
+    {
+     "tekst": "Emotsioonide keskus; seotud empaatia ja hirmuga",
+     "oige": 1
+    },
+    {
+     "tekst": "Õppimine ja mälestuste töötlemine",
+     "oige": 2
+    }
+   ]
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

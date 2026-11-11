@@ -1,0 +1,126 @@
+{
+ "id": "ps-t02-01",
+ "tund": "ps-t02",
+ "jrk": 1,
+ "pealkiri": "Teooriate areng: psühhoanalüüsist RNR-ini",
+ "lyhend": "Teooriate areng",
+ "ikoon": "astmed",
+ "lyhidalt": "Korrektsioonipsühholoogia alustas psühhoanalüüsist, mis kuritegevust ei vähendanud. Tänapäeval eeldatakse, et kriminaalne käitumine on õpitud – ja et selle lõpetamiseks on vaja õppida uusi, prosotsiaalseid viise. Kõige mõjukam teooria on riski-vajaduse-vastavuse mudel (RNR).",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Viis sammu",
+   "tekst": "**Ükski teooria üksinda ei selgita kriminaalset käitumist** – teooriaid tuleb tunda ja omavahel siduda. Need on arenenud järjest:",
+   "skeem": [
+    {
+     "tyyp": "voog",
+     "pealkiri": "Korrektsioonipsühholoogia teooriate areng",
+     "sammud": [
+      {
+       "pealkiri": "Psühhoanalüüs",
+       "tekst": "Freud; rõhk alateadvusel ja inimese sisemusel. Kuritegevuse vähendamisel ebaefektiivne."
+      },
+      {
+       "pealkiri": "Käitumuslikud teooriad",
+       "tekst": "Algul vanglasisese käitumise kontrollimiseks – kriitika: eesmärk peaks olema kuritegeliku käitumise muutmine."
+      },
+      {
+       "pealkiri": "Sotsiaalne õppimine",
+       "tekst": "Vaatlemisest ja imiteerimisest õppimine (Bandura)."
+      },
+      {
+       "pealkiri": "Kognitiivne teooria",
+       "tekst": "Tekkis vaimse tervise probleemide raviks: mõtted mõjutavad käitumist."
+      },
+      {
+       "pealkiri": "Riski-vajaduse-vastavuse mudel (RNR)",
+       "tekst": "Kõige hilisem ja teaduslikult kõige mõjukam teooria sekkumiste läbiviimiseks."
+      }
+     ]
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Kriminaalne käitumine on õpitud",
+   "tekst": "Tänapäeval eeldatakse peamiselt, et **kriminaalne käitumine on õpitud** ja selle lõpetamine vajab samuti õppimist.\n\nParim viis käitumist muuta on õpetada **prosotsiaalsemaid käitumisviise, mis saavutavad sarnaseid eesmärke**, mida inimene varem saavutas antisotsiaalselt.",
+   "skeem": {
+    "tyyp": "kolmnurk",
+    "pealkiri": "Sama eesmärk, teine tee",
+    "yla": {
+     "pealkiri": "Eesmärk",
+     "tekst": "raha, staatus, kuuluvus, põnevus"
+    },
+    "vasak": {
+     "pealkiri": "Antisotsiaalne tee",
+     "tekst": "narkoäri, vargus, vägivald"
+    },
+    "parem": {
+     "pealkiri": "Prosotsiaalne tee",
+     "tekst": "töö, haridus, sport, oma ettevõte"
+    },
+    "nooled": {
+     "vasak": "vana",
+     "parem": "uus",
+     "all": "õppimine"
+    }
+   },
+   "read": []
+  },
+  "piiramine": {
+   "pealkiri": "Mida silmas pidada",
+   "tekst": "",
+   "punktid": [
+    "Psühhoanalüütilised raviviisid ei vähendanud kuritegevust – ära eelda, et „sügav vestlus lapsepõlvest” üksi muudab käitumist.",
+    "Käitumuslikud teooriad kontrollivad käitumist vanglas, aga eesmärk on käitumise muutus **ka pärast vabanemist**.",
+    "RNR on mudel sekkumise valimiseks – see ei asenda suhtlemisoskust (vt tund 8)."
+   ]
+  },
+  "vangla": {
+   "tekst": "Kriminogeensed riskitegurid ja RNR on ka vanglasüsteemi riskihindamise taustal. Seadus nõuab, et vanglasse saabumisel hinnatakse kinnipeetava riske ([[VangS § 14 lg 1^2]]) ja tehakse kindlaks andmed täitmiskava jaoks ([[VangS § 14 lg 3]]).",
+   "naide": {
+    "olukord": "Kinnipeetav varastas autosid, sest „nii saab kiiresti raha ja sõprade ees on lahe”.",
+    "analyys": "Tema eesmärgid (raha, tunnustus) ei ole iseenesest halvad – halb on viis. Õppimisteooria järgi tuleb leida prosotsiaalne viis samade eesmärkide saavutamiseks: kutseõpe (nt automehaanik), töö, tunnustus seaduslikus tegevuses."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Arvatakse, et üks teooria selgitab kõike. Kursus rõhutab: teooriaid tuleb siduda.",
+    "RNR-i nimetatakse vanaks teooriaks. See on kõige hilisem ja teaduslikult kõige mõjukam."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Milline teooria on kursuse järgi teaduslikult kõige mõjukam sekkumiste läbiviimisel?",
+   "valikud": [
+    "Psühhoanalüüs",
+    "Riski-vajaduse-vastavuse mudel (RNR)",
+    "Klassikaline tingimine",
+    "Valgustusaja utilitaarne vaade"
+   ],
+   "oige": 1,
+   "selgitus": "RNR on teooriate arengus viimane samm."
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis on kursuse järgi parim viis kriminaalset käitumist muuta?",
+   "valikud": [
+    "Karmistada karistusi",
+    "Õpetada prosotsiaalseid viise, mis saavutavad sarnaseid eesmärke",
+    "Analüüsida alateadvust",
+    "Isoleerida inimene teistest"
+   ],
+   "oige": 1,
+   "selgitus": "Kriminaalne käitumine on õpitud – selle lõpetamine vajab samuti õppimist."
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

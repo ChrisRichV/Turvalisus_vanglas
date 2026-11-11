@@ -1,0 +1,187 @@
+{
+ "id": "ps-t02-03",
+ "tund": "ps-t02",
+ "jrk": 3,
+ "pealkiri": "Operantne tingimine: tasu ja karistus",
+ "lyhend": "Operantne tingimine",
+ "ikoon": "maatriks",
+ "lyhidalt": "Operantse tingimise puhul õpitakse käitumist selle tagajärgede kaudu. Tasu suurendab soovitud käitumist, karistus vähendab soovimatut. Mõlemat saab teha millegi lisamise või äravõtmisega – nii tekib neli võimalust.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Neli võimalust",
+   "tekst": "Operantne tingimine on **teadvustatum ja sihilikum** kui klassikaline. Oluline on **käitumisele järgnev tagajärg**.",
+   "skeem": [
+    {
+     "tyyp": "maatriks",
+     "pealkiri": "Operantne tingimine",
+     "nurk": "",
+     "veerud": [
+      "Tasu – soovitud käitumist **juurde**",
+      "Karistus – soovimatut käitumist **vähem**"
+     ],
+     "read": [
+      "Lisamine",
+      "Eemaldamine"
+     ],
+     "lahtrid": [
+      [
+       {
+        "pealkiri": "Positiivne tasu",
+        "tekst": "meeldivat juurde – kiitus, soodustus"
+       },
+       {
+        "pealkiri": "Positiivne karistus",
+        "tekst": "ebameeldivat juurde – noomitus",
+        "toon": "c"
+       }
+      ],
+      [
+       {
+        "pealkiri": "Negatiivne tasu",
+        "tekst": "ebameeldivat ära – piirangu lõpetamine",
+        "toon": "b"
+       },
+       {
+        "pealkiri": "Negatiivne karistus",
+        "tekst": "meeldivat ära – privileegi kaotus",
+        "toon": "c"
+       }
+      ]
+     ]
+    }
+   ],
+   "jarel": "„Positiivne” ja „negatiivne” ei tähenda head ja halba – need tähendavad **lisamist** ja **eemaldamist**."
+  },
+  "alus": {
+   "pealkiri": "Tasud ja karistused",
+   "tekst": "Tasud ja karistused võivad olla väga erinevad. Sama tasu mõjub eri inimestele erinevalt.",
+   "skeem": {
+    "tyyp": "kaardid",
+    "pealkiri": "Tasustamise ja karistamise viisid",
+    "kaardid": [
+     {
+      "pealkiri": "Sotsiaalsed",
+      "silt": "01",
+      "tekst": "kiitus, naeratus, õlalepatsutus, avalik kiitus – aga ka laitus, ignoreerimine"
+     },
+     {
+      "pealkiri": "Materiaalsed",
+      "silt": "02",
+      "tekst": "diplomid, šokolaad – trahv",
+      "toon": "b"
+     },
+     {
+      "pealkiri": "Tegevused",
+      "silt": "03",
+      "tekst": "lõbu, vaheldus, uudsus, puhkus"
+     },
+     {
+      "pealkiri": "Erilised üritused",
+      "silt": "04",
+      "tekst": "perepäevad, ühisüritus, külalisesineja",
+      "toon": "b"
+     },
+     {
+      "pealkiri": "Primaarsed",
+      "silt": "05",
+      "tekst": "loomupärased – toit, müra, valu"
+     },
+     {
+      "pealkiri": "Üldistunud",
+      "silt": "06",
+      "tekst": "algul neutraalsed, hiljem tähendusega – edu, tunnustus, raha, võim",
+      "toon": "b"
+     },
+     {
+      "pealkiri": "Positiivne karistus",
+      "silt": "07",
+      "tekst": "ebameeldiva lisamine – noomitus",
+      "toon": "c"
+     },
+     {
+      "pealkiri": "Negatiivne karistus",
+      "silt": "08",
+      "tekst": "meeldivast ilma jätmine – privileeg, punktisüsteem",
+      "toon": "c"
+     }
+    ],
+    "kitsad": true
+   },
+   "read": []
+  },
+  "piiramine": {
+   "pealkiri": "Kaks reeglit",
+   "tekst": "",
+   "punktid": [
+    "**Karistus mõjub kõige paremini kohe pärast tegu.** Mida pikem aeg jääb teo ja karistuse vahele, seda väiksem on mõju.",
+    "**Tasu mõjub rohkem, kui sellega kaasneb informatiivne tagasiside:** ütle, mida märkasid. Nt: „Sa jäid täna väga rahulikuks selles pingelises olukorras, väga hästi!”",
+    "Tasud ja karistused peavad olema seaduslikud – distsiplinaarkaristus määratakse seaduses sätestatud korras ([[VangS § 63 lg 1]])."
+   ]
+  },
+  "vangla": {
+   "tekst": "Inspektor-kontaktisiku kõige kasulikum tööriist on **sotsiaalne tasu**: konkreetne kiitus, mis ütleb, mida kinnipeetav hästi tegi. See on alati käepärast ja ei maksa midagi.",
+   "naide": {
+    "olukord": "Kinnipeetav, kes varem karjus ametnike peale, esitab täna oma soovi rahulikult.",
+    "analyys": "Positiivne tasu: „Märkasin, et rääkisid täna väga rahulikult – nii saame asja palju kiiremini lahendada.” Kiitus järgneb kohe ja ütleb täpselt, mida märgati. Nii suureneb tõenäosus, et käitumine kordub."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "„Negatiivne tasu” arvatakse olevat karistus. Negatiivne tasu = **ebameeldiva eemaldamine**, mis suurendab käitumist.",
+    "„Positiivne karistus” arvatakse olevat hea karistus. Positiivne = **lisamine** (nt noomitus).",
+    "Unustatakse ajastus: hiline karistus mõjub nõrgalt."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline operantse tingimise liik?",
+   "ryhmad": [
+    "Positiivne tasu",
+    "Negatiivne tasu",
+    "Positiivne karistus",
+    "Negatiivne karistus"
+   ],
+   "read": [
+    {
+     "tekst": "Ametnik kiidab kinnipeetavat korrektselt tehtud töö eest.",
+     "oige": 0
+    },
+    {
+     "tekst": "Pärast kuu aega rikkumisteta lõpetatakse lisapiirang.",
+     "oige": 1
+    },
+    {
+     "tekst": "Kinnipeetav saab noomituse.",
+     "oige": 2
+    },
+    {
+     "tekst": "Kinnipeetav jääb rikkumise tõttu ilma lubatud ühisüritusest.",
+     "oige": 3
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Millal mõjub karistus käitumise muutmisele kõige paremini?",
+   "valikud": [
+    "Mõne kuu pärast, kui inimene on rahunenud",
+    "Kohe pärast ebasobivat tegu",
+    "Siis, kui see on võimalikult karm",
+    "Siis, kui seda ei selgitata"
+   ],
+   "oige": 1,
+   "selgitus": "Mida pikem vahe, seda väiksem mõju."
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

@@ -1,0 +1,141 @@
+{
+ "id": "ps-t06-04",
+ "tund": "ps-t06",
+ "jrk": 4,
+ "pealkiri": "Agressiivne klient: seitse suhtlusvõtet",
+ "lyhend": "Agressiivne klient",
+ "ikoon": "mull",
+ "lyhidalt": "Agressiivse kliendiga aitab empaatia, kaasamine, ausus, tunnete kohta küsimine, enesega seotud ütlused ja võimalus ventileerida. Kui agressioon jätkub, seab ametnik rahulikult piirid.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Seitse sammu",
+   "tekst": "",
+   "skeem": [
+    {
+     "tyyp": "voog",
+     "pealkiri": "Agressiivse kinnipeetavaga suhtlemine",
+     "sammud": [
+      {
+       "pealkiri": "01 Kasuta empaatiat",
+       "tekst": "Kirjelda tema tundeid ja olukorda."
+      },
+      {
+       "pealkiri": "02 Kaasa otsustesse",
+       "tekst": "„Kuidas me saaksime seda olukorda lahendada?”"
+      },
+      {
+       "pealkiri": "03 Ütle, kui lahendus ei ole võimalik",
+       "tekst": "„Seda me kahjuks ei saa teha, kuid kas on midagi muud, mis jääb asutuse reeglitesse?”"
+      },
+      {
+       "pealkiri": "04 Küsi tunnete kohta",
+       "tekst": "„Mis sind selle olukorra juures eriti ärritab?”"
+      },
+      {
+       "pealkiri": "05 Kasuta enesega seotud ütlusi",
+       "tekst": "„Mina tunneks end sinu olukorras ka vihasena.”"
+      },
+      {
+       "pealkiri": "06 Lase ventileerida",
+       "tekst": "Alguses võib ta olla väga emotsionaalne. Aktiivne kuulamine ja toetavad mitteverbaalsed märgid aitavad tal rahuneda."
+      },
+      {
+       "pealkiri": "07 Sea piirid",
+       "tekst": "„Ma saan aru, et sa oled frustreeritud, aga kui sa karjud, ei saa me vestlust jätkata. Palun räägi rahulikumalt. Kui jätkad karjumist, peame vestluse täna lõpetama.”"
+      }
+     ]
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Miks see toimib",
+   "tekst": "Agressioon on sageli tunne (frustratsioon, ebaõigluse tunne), mis otsib väljundit. Kui tunne saab nimetatud ja kuulatud, väheneb vajadus seda tegudega väljendada. Kaasamine annab kontrollitunde tagasi.\n\nPiiride seadmine (samm 7) kirjeldab **käitumist**, mitte inimest, ja ütleb ette tagajärje.",
+   "read": []
+  },
+  "piiramine": {
+   "pealkiri": "Mida silmas pidada",
+   "tekst": "",
+   "punktid": [
+    "Empaatia ei tähenda nõustumist – tunnet saab mõista ka siis, kui soovi ei saa täita.",
+    "Ära luba seda, mida ei saa täita (samm 3).",
+    "Kui tekib otsene oht, kehtivad vangla julgeolekureeglid – suhtlusvõtted ei asenda neid."
+   ]
+  },
+  "vangla": {
+   "tekst": "",
+   "skeem": {
+    "tyyp": "kontroll",
+    "pealkiri": "Harjuta",
+    "olukord": "Kinnipeetav tuleb kontaktisiku juurde ja karjub: „Mu kokkusaamine jäeti ära! Te teete seda meelega!”",
+    "sammud": [
+     {
+      "silt": "Empaatia",
+      "kysimus": "Mida esimesena öelda?",
+      "vastus": "„Näen, et oled väga vihane – kokkusaamine on sulle tähtis ja see jäeti ära.”"
+     },
+     {
+      "silt": "Tunne",
+      "kysimus": "Kuidas uurida edasi?",
+      "vastus": "„Mis sind selle juures kõige rohkem ärritab?” – lase tal ventileerida, kuula aktiivselt."
+     },
+     {
+      "silt": "Kaasamine",
+      "kysimus": "Kuidas liikuda lahenduse poole?",
+      "vastus": "„Uurime koos, miks see ära jäi ja kas saab uue aja taotleda. Mis sinu arvates oleks hea lahendus?”"
+     },
+     {
+      "silt": "Piirid",
+      "kysimus": "Mida teha, kui ta jätkab karjumist ja solvamist?",
+      "vastus": "„Saan aru, et oled frustreeritud, aga kui sa mind solvad, ei saa me jätkata. Kui jätkad, lõpetame täna vestluse ja räägime homme.”"
+     }
+    ],
+    "jareldus": "Järjekord: tunne → kuulamine → lahendus; piirid alles siis, kui agressioon jätkub."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Alustatakse piiride seadmisest. Kursuse järjekorras on piirid viimane samm.",
+    "Empaatiat peetakse järeleandmiseks."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline võte?",
+   "ryhmad": [
+    "Empaatia",
+    "Kaasamine",
+    "Enesega seotud ütlus",
+    "Piiride seadmine"
+   ],
+   "read": [
+    {
+     "tekst": "„Sa oled pettunud, sest ootasid seda kõnet terve nädala.”",
+     "oige": 0
+    },
+    {
+     "tekst": "„Mis sinu arvates oleks siin hea lahendus?”",
+     "oige": 1
+    },
+    {
+     "tekst": "„Ma tunneksin end samas olukorras ka vihasena.”",
+     "oige": 2
+    },
+    {
+     "tekst": "„Kui sa jätkad karjumist, lõpetame täna vestluse.”",
+     "oige": 3
+    }
+   ]
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

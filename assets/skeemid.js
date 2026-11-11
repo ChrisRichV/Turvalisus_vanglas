@@ -1,4 +1,4 @@
-/* Skeemid: voog, puu, tasandid, vordlus, kaalud, kontroll, kaardid, otsus, kolmnurk, pyramiid, sambad, lahka, subsumeeri. Sisu tuleb teemafailist. */
+/* Skeemid: ring, maatriks, trepp, voog, puu, tasandid, vordlus, kaalud, kontroll, kaardid, otsus, kolmnurk, pyramiid, sambad, lahka, subsumeeri. Sisu tuleb teemafailist. */
 (function () {
   "use strict";
   const A = window.APP;
@@ -128,6 +128,36 @@
         <div class="sb-veerud" aria-hidden="true"><span>Normi tunnus (kui …)</span><span>Mis elus juhtus</span><span>Kas klapib?</span></div>
         <ol class="sb-read">${read}</ol>
         <div class="sb-jareldus" hidden><b>Järeldus</b>${md(s.jareldus)}${s.tagajarg ? `<p class="sb-tagajarg">Tagajärg normis: ${md(s.tagajarg)}</p>` : ""}</div></div>`;
+    },
+    /* Ring: tsükkel (nt muutusering); osad päripäeva ümber keskme; mobiilis nummerdatud loend noolega tagasi algusse. */
+    ring(s) {
+      const k = s.osad.length;
+      const osad = s.osad.map((x, i) => {
+        const a = -Math.PI / 2 + (2 * Math.PI * i) / k;
+        return `<li style="--x:${(50 + 40 * Math.cos(a)).toFixed(1)}%;--y:${(50 + 40 * Math.sin(a)).toFixed(1)}%" data-toon="${x.toon || "a"}">
+          <span class="r-nr">${i + 1}</span><b>${md(x.pealkiri)}</b>${x.tekst ? `<span>${md(x.tekst)}</span>` : ""}${x.viide ? A.refNupp(x.viide) : ""}</li>`;
+      }).join("");
+      return `<div class="s-ring${s.osad.length > 4 ? " r-palju" : ""}">
+        <svg class="r-joon" viewBox="0 0 100 100" aria-hidden="true"><defs><marker id="r-nool" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z"/></marker></defs>
+          <circle cx="50" cy="50" r="40"/>${s.osad.map((_, i) => { const a = -Math.PI / 2 + (2 * Math.PI * (i + .5)) / k; const b = a + .05;
+            return `<path d="M${(50 + 40 * Math.cos(a - .05)).toFixed(2)} ${(50 + 40 * Math.sin(a - .05)).toFixed(2)} A40 40 0 0 1 ${(50 + 40 * Math.cos(b)).toFixed(2)} ${(50 + 40 * Math.sin(b)).toFixed(2)}" marker-end="url(#r-nool)"/>`; }).join("")}</svg>
+        ${s.keskel ? `<div class="r-kese"><b>${md(s.keskel.pealkiri || s.keskel)}</b>${s.keskel.tekst ? `<span>${md(s.keskel.tekst)}</span>` : ""}</div>` : ""}
+        <ol class="r-osad">${osad}</ol>${s.tagasi ? `<p class="r-tagasi">↻ ${md(s.tagasi)}</p>` : ""}</div>`;
+    },
+    /* Maatriks: 2 × 2 (või n × m) tabel, telgede pealkirjad; lahter = {pealkiri, tekst, toon}. */
+    maatriks(s) {
+      const v = s.veerud, r = s.read;
+      const lahter = (x) => `<div class="m-lahter" data-toon="${x.toon || "a"}">${x.silt ? `<span class="m-silt">${md(x.silt)}</span>` : ""}<b>${md(x.pealkiri)}</b>${x.tekst ? `<span>${md(x.tekst)}</span>` : ""}</div>`;
+      return `<div class="s-maatriks" style="--veerge:${v.length}">
+        <div class="m-nurk">${s.nurk ? md(s.nurk) : ""}</div>${v.map((x) => `<div class="m-veerg">${md(x)}</div>`).join("")}
+        ${r.map((rida, i) => `<div class="m-rida">${md(rida)}</div>${s.lahtrid[i].map((x, j) => lahter(Object.assign({ silt: `${rida} · ${v[j]}` }, x))).join("")}`).join("")}</div>`;
+    },
+    /* Trepp: astmed alt üles (1 = alumine); mobiilis loend. */
+    trepp(s) {
+      const k = s.astmed.length;
+      return `<ol class="s-trepp" style="--k:${k}">${s.astmed.map((x, i) => `<li style="--i:${i}" data-toon="${x.toon || "a"}">
+        <div class="t-aste">${x.silt ? `<span class="t-silt">${md(x.silt)}</span>` : ""}<b>${md(x.pealkiri)}</b>${x.tekst ? `<span>${md(x.tekst)}</span>` : ""}${x.viide ? A.refNupp(x.viide) : ""}</div></li>`).join("")}</ol>
+        ${s.tipp ? `<p class="t-tipp">▲ ${md(s.tipp)}</p>` : ""}`;
     },
     kaalud(s) {
       const vaagen = (o) => `<div class="vaagen">${kast(o)}<span class="silt-k">${md(o.silt)}</span></div>`;

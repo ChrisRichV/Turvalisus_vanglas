@@ -1028,6 +1028,293 @@
     "VangS § 64 lg 2"
    ],
    "selgitus": "Vangla sanktsioon süülise rikkumise eest ([[VangS § 63 lg 1]]); enne määramist teavitatakse kinnipeetavat ja kuulatakse ta ära ([[VangS § 64 lg 2]])."
+  },
+  {
+   "id": "korrektsioonipsuhholoogia",
+   "silt": "Korrektsioonipsühholoogia",
+   "teemad": [
+    "ps-t01-01",
+    "ps-t01-02"
+   ],
+   "viited": [
+    "VangS § 6 lg 1"
+   ],
+   "selgitus": "Selgitab, kuidas kriminaalne käitumine tekib, ja annab teadmist, kuidas seda muuta. Teenib vangistuse eesmärki: suunata õiguskuulekale käitumisele ([[VangS § 6 lg 1]])."
+  },
+  {
+   "id": "teaduspohisus",
+   "silt": "Teaduspõhine praktika",
+   "teemad": [
+    "ps-t01-02",
+    "ps-t01-03"
+   ],
+   "selgitus": "Sekkumine valitakse tõendite, mitte ainult kõhutunde ja kogemuse järgi. Kursuse järgi viib teaduseta praktika kallite ja kahjulike tulemusteni."
+  },
+  {
+   "id": "karistuse-eesmargid",
+   "silt": "Karistuse eesmärgid",
+   "teemad": [
+    "ps-t01-04",
+    "ps-t01-05"
+   ],
+   "viited": [
+    "VangS § 6 lg 1",
+    "VangS § 4^1 lg 1"
+   ],
+   "selgitus": "Valgustusajal: ennetada, suunata kergemale, vähendada kahju, väikese kuluga. Täna: õiguskuulekale käitumisele suunamine ([[VangS § 6 lg 1]]), kannatus ei tohi ületada paratamatut ([[VangS § 4^1 lg 1]])."
+  },
+  {
+   "id": "heidutus",
+   "silt": "Karistuse mõju",
+   "teemad": [
+    "ps-t01-05"
+   ],
+   "selgitus": "Kursuse järgi ei hoia karistus üksi kuritegudest eemale ei kurjategijaid ega ühiskonda; leitud efektid on nõrgad."
+  },
+  {
+   "id": "rnr",
+   "silt": "RNR-mudel",
+   "teemad": [
+    "ps-t02-01",
+    "ps-t05-05"
+   ],
+   "viited": [
+    "VangS § 14 lg 1^2"
+   ],
+   "selgitus": "Riski-vajaduse-vastavuse mudel – teaduslikult kõige mõjukam teooria sekkumiste valimiseks. Vanglas hinnatakse saabumisel riske ([[VangS § 14 lg 1^2]])."
+  },
+  {
+   "id": "ope-kaitumine",
+   "silt": "Õpitud käitumine",
+   "teemad": [
+    "ps-t02-01",
+    "ps-t02-02",
+    "ps-t02-03",
+    "ps-t02-05"
+   ],
+   "selgitus": "Kriminaalne käitumine on õpitud – selle lõpetamiseks tuleb õppida prosotsiaalseid viise samade eesmärkide saavutamiseks."
+  },
+  {
+   "id": "klassikaline-tingimine",
+   "silt": "Klassikaline tingimine",
+   "teemad": [
+    "ps-t02-02",
+    "ps-t05-02"
+   ],
+   "selgitus": "Teadvustamata õppimine: neutraalne stiimul seostub reaktsiooniga (nt seltskond tekitab isu, uksekolin hirmu)."
+  },
+  {
+   "id": "operantne-tingimine",
+   "silt": "Operantne tingimine",
+   "teemad": [
+    "ps-t02-03",
+    "ps-t05-02"
+   ],
+   "selgitus": "Käitumine õpitakse tagajärgede kaudu: positiivne/negatiivne tasu ja karistus. Karistus mõjub kõige paremini kohe pärast tegu."
+  },
+  {
+   "id": "mudeldamine",
+   "silt": "Mudeldamine",
+   "teemad": [
+    "ps-t02-05",
+    "ps-t08-04"
+   ],
+   "selgitus": "Teisi jälgides õppimine. Ametnik on mudel oma tegudega: reeglite järgimine, täpsus, lugupidamine, vigade tunnistamine."
+  },
+  {
+   "id": "enesekontroll",
+   "silt": "Enesekontroll",
+   "teemad": [
+    "ps-t02-04",
+    "ps-t03-01",
+    "ps-t03-02"
+   ],
+   "selgitus": "Madal enesekontroll (impulsiivsus, riskialdisus) suurendab kuritegevuse tõenäosust; seda saab arendada enesetõhususe kaudu."
+  },
+  {
+   "id": "moraalne-tagasitombumine",
+   "silt": "Moraalne tagasitõmbumine",
+   "teemad": [
+    "ps-t02-04",
+    "ps-t03-01"
+   ],
+   "selgitus": "Bandura: viisid oma moraalist lahti öelda – õigustamine, eufemismid, võrdlus, vastutuse hajutamine ja jagamine, tagajärgede eiramine, dehumaniseerimine, süü nihutamine."
+  },
+  {
+   "id": "motivatsioon",
+   "silt": "Motivatsioon",
+   "teemad": [
+    "ps-t02-05",
+    "ps-t05-05"
+   ],
+   "selgitus": "Enesemääratlemise teooria: väline (4 liiki) ja sisemine motivatsioon; autonoomia on keskne."
+  },
+  {
+   "id": "muutusering",
+   "silt": "Muutusering",
+   "teemad": [
+    "ps-t02-06",
+    "ps-t05-03"
+   ],
+   "selgitus": "Transteoreetiline mudel: eelkaalutlemine → kaalutlemine → ettevalmistus → tegutsemine → säilitamine; tagasilangus on normaalne."
+  },
+  {
+   "id": "kriminaalne-motlemine",
+   "silt": "Kriminaalne mõtlemine",
+   "teemad": [
+    "ps-t03-01",
+    "ps-t03-03"
+   ],
+   "selgitus": "Hoiakud ja uskumused, mis toetavad kriminaalset elustiili; üks neljast suurest retsidivismi ennustajast. Proaktiivne või reaktiivne."
+  },
+  {
+   "id": "sekkumine",
+   "silt": "Sekkumise faasid",
+   "teemad": [
+    "ps-t03-03"
+   ],
+   "selgitus": "Ettevalmistus (kriis, Shamani efekt, avalik lubadus) → tegutsemine (kognitiivsed ja käitumuslikud oskused) → järelfaas."
+  },
+  {
+   "id": "psuuhikahaire",
+   "silt": "Psüühikahäire",
+   "teemad": [
+    "ps-t04-01",
+    "ps-t04-02",
+    "ps-t04-03",
+    "ps-t04-04"
+   ],
+   "viited": [
+    "VangS § 52 lg 2"
+   ],
+   "selgitus": "Märgatav nihe psüühikas, mis takistab toimetulekut. Vanglas suurendab enesevigastamise ja uue kuriteo riski; tervishoiutöötaja jälgib terviseseisundit ([[VangS § 52 lg 2]])."
+  },
+  {
+   "id": "suitsiidirisk",
+   "silt": "Suitsiidirisk",
+   "teemad": [
+    "ps-t04-05"
+   ],
+   "viited": [
+    "VangS § 14 lg 1"
+   ],
+   "selgitus": "Suurim vangistuse alguses, noortel ja sõltuvus- või psüühikahäirega kinnipeetavatel. Isolatsioon ei sobi. Saabumisel tervisekontroll ([[VangS § 14 lg 1]])."
+  },
+  {
+   "id": "stigma",
+   "silt": "Stigma ja märgistamine",
+   "teemad": [
+    "ps-t04-06",
+    "ps-t06-01"
+   ],
+   "selgitus": "Häbimärgistamine ja silt võivad muutuda identiteediks (teisene hälbivus) – ennasttäitev ennustus."
+  },
+  {
+   "id": "soltuvus",
+   "silt": "Sõltuvus",
+   "teemad": [
+    "ps-t05-01",
+    "ps-t05-02",
+    "ps-t05-03"
+   ],
+   "selgitus": "Krooniline ajuhaigus: sund tarvitada hoolimata kahjust. Kujuneb paljude tegurite koosmõjul."
+  },
+  {
+   "id": "ained-ja-kuritegevus",
+   "silt": "Ained ja kuritegevus",
+   "teemad": [
+    "ps-t05-04",
+    "ps-t05-05"
+   ],
+   "selgitus": "Alkohol on rohkem seotud vägivallaga; narkootikumide tarvitamine võib kuriteole eelneda või järgneda."
+  },
+  {
+   "id": "keeruline-kinnipeetav",
+   "silt": "Keeruline kinnipeetav",
+   "teemad": [
+    "ps-t06-01",
+    "ps-t06-02",
+    "ps-t06-03"
+   ],
+   "viited": [
+    "VangS § 4^1 lg 2"
+   ],
+   "selgitus": "Käitumisel on alati funktsioon. Rohkem kontrolli annab lihtsalt rohkem reegleid rikkuda; piirangud peavad olema vajalikud ([[VangS § 4^1 lg 2]])."
+  },
+  {
+   "id": "suhtlusvotted",
+   "silt": "Suhtlusvõtted",
+   "teemad": [
+    "ps-t06-04",
+    "ps-t06-05"
+   ],
+   "selgitus": "Agressiivne: empaatia, kaasamine, ventileerimine, viimasena piirid. Kinnine: vaikus ja avatud küsimused. Jutukas: eesmärk ja kokkuvõtted."
+  },
+  {
+   "id": "ametniku-heaolu",
+   "silt": "Ametniku heaolu",
+   "teemad": [
+    "ps-t06-06"
+   ],
+   "selgitus": "Keeruline klient kurnab; tagajärjeks võivad olla stress, vältimine, hüperreaktsioonid ja püsiv hirm."
+  },
+  {
+   "id": "haavatavus",
+   "silt": "Haavatavus",
+   "teemad": [
+    "ps-t07-01",
+    "ps-t07-02",
+    "ps-t07-03",
+    "ps-t07-04",
+    "ps-t07-05"
+   ],
+   "viited": [
+    "VangS § 14 lg 3"
+   ],
+   "selgitus": "Tunnused: psühhiaatriline diagnoos, madal haridus, nõrk tugi, ohvrikogemus, noor vanus, toimetulekuoskuste puudus. Vastuvõtul selgitatakse välja eluloolised andmed ([[VangS § 14 lg 3]])."
+  },
+  {
+   "id": "noor-kinnipeetav",
+   "silt": "Noor kinnipeetav",
+   "teemad": [
+    "ps-t07-05"
+   ],
+   "viited": [
+    "VangS § 81 lg 1"
+   ],
+   "selgitus": "Mitu korda rohkem psühhoosi, ATH-d ja käitumishäireid; vanusegruppe hoitakse eraldi ([[VangS § 81 lg 1]])."
+  },
+  {
+   "id": "koostoosuhe",
+   "silt": "Koostöösuhe",
+   "teemad": [
+    "ps-t08-01",
+    "ps-t08-02"
+   ],
+   "viited": [
+    "VangS § 16 lg 2"
+   ],
+   "selgitus": "Kokkulepitud eesmärgid + ülesannetega seotud koostöö + aktsepteeriv suhe. Täitmiskava arutatakse kinnipeetavaga ([[VangS § 16 lg 2]])."
+  },
+  {
+   "id": "vaartuskonflikt",
+   "silt": "Väärtuskonflikt",
+   "teemad": [
+    "ps-t08-03"
+   ],
+   "selgitus": "Kaks olulist väärtust põrkuvad. Ametnikul isiklik (hoiakud) või professionaalne (pädevuse piirid)."
+  },
+  {
+   "id": "taitmiskava",
+   "silt": "Individuaalne täitmiskava",
+   "teemad": [
+    "ps-t01-05",
+    "ps-t08-01"
+   ],
+   "viited": [
+    "VangS § 16 lg 1"
+   ],
+   "selgitus": "Kava paigutuse, hariduse, töö, soodustuste ja vabanemise ettevalmistuse kohta, kui vangistus on üle aasta ([[VangS § 16 lg 1]])."
   }
  ],
  "seosed": [
@@ -1595,6 +1882,196 @@
    "a": "oigussuhe",
    "b": "pohioigus",
    "silt": "riik ↔ isik"
+  },
+  {
+   "a": "korrektsioonipsuhholoogia",
+   "b": "teaduspohisus",
+   "silt": "toetub"
+  },
+  {
+   "a": "korrektsioonipsuhholoogia",
+   "b": "karistuse-eesmargid",
+   "silt": "teenib"
+  },
+  {
+   "a": "heidutus",
+   "b": "karistuse-eesmargid",
+   "silt": "piirab"
+  },
+  {
+   "a": "ope-kaitumine",
+   "b": "klassikaline-tingimine",
+   "silt": "üks viis"
+  },
+  {
+   "a": "ope-kaitumine",
+   "b": "operantne-tingimine",
+   "silt": "üks viis"
+  },
+  {
+   "a": "ope-kaitumine",
+   "b": "mudeldamine",
+   "silt": "üks viis"
+  },
+  {
+   "a": "rnr",
+   "b": "ope-kaitumine",
+   "silt": "toetub"
+  },
+  {
+   "a": "enesekontroll",
+   "b": "kriminaalne-motlemine",
+   "silt": "madal soodustab"
+  },
+  {
+   "a": "moraalne-tagasitombumine",
+   "b": "kriminaalne-motlemine",
+   "silt": "sisu"
+  },
+  {
+   "a": "sekkumine",
+   "b": "kriminaalne-motlemine",
+   "silt": "muudab"
+  },
+  {
+   "a": "motivatsioon",
+   "b": "muutusering",
+   "silt": "liigutab"
+  },
+  {
+   "a": "muutusering",
+   "b": "soltuvus",
+   "silt": "kasutatakse"
+  },
+  {
+   "a": "klassikaline-tingimine",
+   "b": "soltuvus",
+   "silt": "isu"
+  },
+  {
+   "a": "operantne-tingimine",
+   "b": "soltuvus",
+   "silt": "kinnistab"
+  },
+  {
+   "a": "soltuvus",
+   "b": "psuuhikahaire",
+   "silt": "F1"
+  },
+  {
+   "a": "soltuvus",
+   "b": "ained-ja-kuritegevus",
+   "silt": "seos"
+  },
+  {
+   "a": "psuuhikahaire",
+   "b": "suitsiidirisk",
+   "silt": "tõstab"
+  },
+  {
+   "a": "stigma",
+   "b": "psuuhikahaire",
+   "silt": "takistab abi"
+  },
+  {
+   "a": "stigma",
+   "b": "keeruline-kinnipeetav",
+   "silt": "ootused"
+  },
+  {
+   "a": "keeruline-kinnipeetav",
+   "b": "suhtlusvotted",
+   "silt": "vajab"
+  },
+  {
+   "a": "keeruline-kinnipeetav",
+   "b": "ametniku-heaolu",
+   "silt": "kurnab"
+  },
+  {
+   "a": "haavatavus",
+   "b": "suitsiidirisk",
+   "silt": "tõstab"
+  },
+  {
+   "a": "haavatavus",
+   "b": "noor-kinnipeetav",
+   "silt": "näide"
+  },
+  {
+   "a": "koostoosuhe",
+   "b": "motivatsioon",
+   "silt": "toetab"
+  },
+  {
+   "a": "koostoosuhe",
+   "b": "suhtlusvotted",
+   "silt": "kasutab"
+  },
+  {
+   "a": "mudeldamine",
+   "b": "koostoosuhe",
+   "silt": "osa"
+  },
+  {
+   "a": "vaartuskonflikt",
+   "b": "koostoosuhe",
+   "silt": "takistab"
+  },
+  {
+   "a": "taitmiskava",
+   "b": "koostoosuhe",
+   "silt": "arutatakse"
+  },
+  {
+   "a": "rnr",
+   "b": "taitmiskava",
+   "silt": "riskihindamine"
+  },
+  {
+   "a": "operantne-tingimine",
+   "b": "heidutus",
+   "silt": "ajastus"
+  },
+  {
+   "a": "karistuse-eesmargid",
+   "b": "inimvaarikus",
+   "silt": "piir"
+  },
+  {
+   "a": "keeruline-kinnipeetav",
+   "b": "vangla-piirangud",
+   "silt": "ainult vajalikud"
+  },
+  {
+   "a": "operantne-tingimine",
+   "b": "distsiplinaarkaristus",
+   "silt": "karistus"
+  },
+  {
+   "a": "stigma",
+   "b": "vordsusoigus",
+   "silt": "ebaõiglane kohtlemine"
+  },
+  {
+   "a": "ained-ja-kuritegevus",
+   "b": "eraelu",
+   "silt": "õigus ravist keelduda"
+  },
+  {
+   "a": "taitmiskava",
+   "b": "uksikakt",
+   "silt": "kinnitab ametnik"
+  },
+  {
+   "a": "suitsiidirisk",
+   "b": "inimvaarikus",
+   "silt": "isolatsioon ei sobi"
+  },
+  {
+   "a": "korrektsioonipsuhholoogia",
+   "b": "seaduslikkus",
+   "silt": "seaduse raamides"
   }
  ]
 }

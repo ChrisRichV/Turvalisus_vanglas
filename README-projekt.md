@@ -32,7 +32,7 @@ Staatiline leht, ilma raamistiku ja ehitussammuta brauseri jaoks.
 
 **Hierarhia: aine → tund → teema.** Ained on eraldi (eraldi leht, kordamine, sisukorra haru), kuid
 seaduste tekstid on ühised (`data/seadused.json`) ja **seaduste register** näitab, millistes ainetes
-ja teemades iga säte esineb. Ained praegu: `inimoigused` (KS240), `psuhholoogia` (vangla psühholoogia),
+ja teemades iga säte esineb. Ained praegu: `inimoigused` (KS240), `psuhholoogia` (vangla psühholoogia = korrektsioonipsühholoogia, Moodle KS260; tunnid 1–8 = H5P-raamatud),
 `oigus` (õiguse õpetus). Uus aine = uus kirje `data/tunnid.json` → `ained` + kaust `Ruth tunnid`-is. Kõik sisu on JSON-is, HTML-failid
 ainult renderdavad. Ainus „ehitus” on Pythoni skript, mis genereerib seaduste andmefaili ja
 kontrollib sisu.
@@ -61,7 +61,7 @@ kontrollib sisu.
 | `kordamine.html?aine=…&tund=…&teema=…` | Segatud harjutused (5/8/10) aine/tunni/teema kaupa ja tunni küsimused vastustega | harva |
 | `moistekaart.html?vaade=…&valitud=m:riive` | **Mõistekaart** kolmel tasandil: üks tund (`vaade=o-t11`), aine kõik tunnid (`vaade=aine:oigus`, kogumid = tunnid) ja tervikpilt (`vaade=koik`, kogumid = ained). Valikus on kõik aine tunnid numbritega; tulemas tunnid on punktiiriga. Sõlmed = teemad, mõisted, sätted; paneel, loendivaade | harva |
 | `assets/app.js` | Andmed, märgistus (`md`), **ühine päis + sisukorra sahtel** (`A.kaivita({leht, aine, tund, teema})`), hüpikaknad, näiteaken, harjutused, tagasiside | harva |
-| `assets/skeemid.js` | Skeemitüübid: `voog`, `puu`, `tasandid`, `vordlus`, `kaalud`, `kontroll` | uue tüübi korral |
+| `assets/skeemid.js` | Skeemitüübid (vt tabel „Skeemid”), sh `ring`, `maatriks`, `trepp` | uue tüübi korral |
 | `assets/ikoonid.js` | Teemade SVG-ikoonid (`A.ikoon(nimi)`, `A.IKOONID`) – ühtne joonstiil, värvitähenduseta | uue ikooni korral |
 | `assets/stiil.css` | Kujundus, hele/tume teema | harva |
 | `assets/seadistus.js` | Supabase URL + **publishable** võti | ei |
@@ -164,11 +164,14 @@ ja proportsionaalsus, 4) näide vanglast, 5) tüüpviga eksamil.
 | `sambad` | „maja”: katus, sambad, vundament + tasakaalu loend (võimude lahusus) | `katus`, `sambad[{pealkiri, viide?, read[], toon?}]`, `alus`, `tasakaal[]` |
 | `kontroll` | **samm-sammuline kaasus**: küsimus → „Mõtle ise, siis näita” → järgmine avaneb; edenemisriba, järeldus lõpus | `olukord`, `sammud[{silt, kysimus, vastus, viited[]}]`, `jareldus`, `markus` |
 | `lahka` | **normi lahkamine**: sätte tekst tuleb `seadused.json`-ist sõna-sõnalt, nupp märgib koosseisu (K1…), tagajärje (T…), sanktsiooni (S…) ja seosed (ja/või). Viite lõige piirab näidatava osa | `viide`, `osad[{tekst, roll: k/t/s/m, selgitus?}]`, `juhis?`, `valem?` – **`ehita.py` kontrollib, et iga `tekst` on sättes sõna-sõnalt** |
+| `ring` | **tsükkel** (muutusering, koostöösuhte osad): osad ringil päripäeva, keskel pealkiri; mobiilis loend nooltega | `keskel{pealkiri, tekst?}`, `osad[{pealkiri, tekst?, viide?, toon?}]`, `tagasi?` |
+| `maatriks` | **2 × 2 tabel** (nt operantne tingimine): veergude ja ridade pealkirjad, lahtrid; mobiilis kaardid sildiga | `veerud[]`, `read[]`, `lahtrid[[{pealkiri, tekst?, toon?}]]`, `nurk?` |
+| `trepp` | **astmed alt üles** (tarvitamise faasid, motivatsioon, teekonnad); mobiilis loend | `astmed[{silt?, pealkiri, tekst?, viide?, toon?}]`, `tipp?` |
 | `subsumeeri` | **subsumeerimise harjutus**: normi tunnus ↔ elus juhtunu ↔ tõend; kasutaja valib „täidetud / ei ole”, lõpus järeldus | `viide`, `kysimus`, `seos: ja/või`, `read[{tunnus, asjaolu, toend?, taidetud: true/false, selgitus?}]`, `tagajarg?`, `jareldus` |
 
 **Skeem osa sees:** igal osal (`pohimote`, `alus`, `piiramine`, `vangla`) võib olla oma `skeem` (üks või massiiv) –
 see kuvatakse otse selgituse juures. `jarel` = tekst pärast skeemi. Kõigil skeemidel võivad olla `sissejuhatus` ja `allkiri`.
-Pikem `tekst` jaguneb lõikudeks tühja reaga (`\n\n`). Teema lõpu `skeem` võib olla `[]`; `skeem_pealkiri` muudab selle osa nime.
+`alus.read` võib puududa (nt psühholoogias, kui seadusesätet pole). Pikem `tekst` jaguneb lõikudeks tühja reaga (`\n\n`). Teema lõpu `skeem` võib olla `[]`; `skeem_pealkiri` muudab selle osa nime.
 `erinevused[].silt` muudab sildi „Konspekt” (nt „Õppematerjal”). Harjutuse `kaasus` valikuline `juhis` asendab vaikimisi vihje (põhiõiguste kaasuse skeem).
 `kontroll`-skeemi `silt` olgu sõna (nt „Menetlus”), mitte number – number on ringis juba olemas.
 

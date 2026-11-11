@@ -1,0 +1,160 @@
+{
+ "id": "ps-t08-01",
+ "tund": "ps-t08",
+ "jrk": 1,
+ "pealkiri": "Koostöösuhte osad ja tekkimine",
+ "lyhend": "Koostöösuhe",
+ "ikoon": "kasi",
+ "lyhidalt": "Koostöösuhtel on kolm osa: kokkulepitud eesmärgid, ülesannetega seotud koostöö ja omavaheline suhe. Suhte loomise eest vastutab eelkõige ametnik: avatud ja toetav, kuid eesmärgipärane vestlus, motiveeriv intervjueerimine, empaatia ja kliendi kaasamine.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Kolm osa",
+   "tekst": "Tõhusa juhtumikorralduse aluseks on toimiv koostöösuhe kliendi ja juhtumikorraldaja vahel.",
+   "skeem": [
+    {
+     "tyyp": "ring",
+     "pealkiri": "Koostöösuhte osad",
+     "keskel": {
+      "pealkiri": "Koostöösuhe"
+     },
+     "osad": [
+      {
+       "pealkiri": "Kokkulepitud eesmärgid",
+       "tekst": "lepitud kokku ühiselt; muutunud oluliseks ka kinnipeetavale"
+      },
+      {
+       "pealkiri": "Ülesannetega seotud koostöö",
+       "tekst": "eesmärgi poole liikudes toetab ametnik info, motiveerimise ja oskuste õpetamisega",
+       "toon": "b"
+      },
+      {
+       "pealkiri": "Omavaheline suhe",
+       "tekst": "aktsepteeriv, empaatiline ja lugupidav"
+      }
+     ]
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Kuidas suhe tekib",
+   "tekst": "Suhte kujunemisel on **keskne roll ja vastutus juhtumikorraldajal**: tema loob kontakti, seab raami ja annab tooni. Suhe ei teki iseenesest.",
+   "read": [
+    {
+     "tase": "Vangla",
+     "viited": [
+      "VangS § 16 lg 2"
+     ],
+     "tekst": "Kinnipeetava individuaalset täitmiskava arutatakse kinnipeetavaga – kokkulepitud eesmärgid on ka seaduse mõte."
+    }
+   ],
+   "skeem": {
+    "tyyp": "kaardid",
+    "pealkiri": "Koostöösuhte ehituskivid",
+    "kaardid": [
+     {
+      "pealkiri": "Avatud ja eesmärgipärane",
+      "silt": "1",
+      "tekst": "avatus loob usalduse, eesmärk hoiab fookust – tasakaal empaatilise kuulamise ja professionaalse suunamise vahel"
+     },
+     {
+      "pealkiri": "Motiveeriv intervjueerimine",
+      "silt": "2",
+      "tekst": "toetab autonoomiat; kuula, peegelda, toeta tema enda arutlust – ära anna valmis lahendusi",
+      "toon": "b"
+     },
+     {
+      "pealkiri": "Mitteverbaalne suhtlus",
+      "silt": "3",
+      "tekst": "naeratus, huvi väljendav ilme, rahulik hääletoon"
+     },
+     {
+      "pealkiri": "Empaatia",
+      "silt": "4",
+      "tekst": "tunnete mõistmine ja sõnastamine; empaatia ≠ heakskiit",
+      "toon": "b"
+     },
+     {
+      "pealkiri": "Professionaalne eneseavamine",
+      "silt": "5",
+      "tekst": "enesega seotud ütlused („ma kuulen, et see on olnud koormav”), mitte isiklik elu"
+     },
+     {
+      "pealkiri": "Kaasamine",
+      "silt": "6",
+      "tekst": "rollide selgitus, koostöökokkulepe, klient valib eesmärke ja ülesandeid",
+      "toon": "b"
+     }
+    ],
+    "kitsad": true
+   }
+  },
+  "piiramine": {
+   "pealkiri": "Mida silmas pidada",
+   "tekst": "",
+   "punktid": [
+    "Isikliku elu jagamine ei ole juhtumikorraldaja rollis asjakohane.",
+    "Kaasamine eeldab, et klient teab, mis on ametniku ja mis tema enda vastutus.",
+    "Eesmärgid peavad olema realistlikud ja kooskõlas nii raamistiku kui kliendi väärtustega."
+   ]
+  },
+  "vangla": {
+   "tekst": "Inspektor-kontaktisiku esimene kohtumine paneb tooni: selgita rolle, lepi kokku suhtluse põhimõtted ja küsi, mis on kinnipeetavale endale oluline.",
+   "naide": {
+    "olukord": "Kinnipeetav ütleb esimesel kohtumisel: „Mis sa minust tahad? Kõik ametnikud on ühesugused.”",
+    "analyys": "Ametnik selgitab oma rolli ja mida ta saab ja ei saa teha, peegeldab tunnet („Kõlab, nagu sul oleks varem olnud halbu kogemusi”), ja küsib, mis oleks talle vangistuse ajal kasulik. Esimene eesmärk sõnastatakse koos – nii algab koostöökokkulepe."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Arvatakse, et koostöösuhe tekib iseenesest või kliendi initsiatiivil. Vastutus on ametnikul.",
+    "Eneseavamist mõistetakse isiklike lugude jagamisena."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline koostöösuhte osa?",
+   "ryhmad": [
+    "Kokkulepitud eesmärgid",
+    "Ülesannetega seotud koostöö",
+    "Omavaheline suhe"
+   ],
+   "read": [
+    {
+     "tekst": "Lepitakse koos kokku, et kinnipeetav lõpetab põhikooli",
+     "oige": 0
+    },
+    {
+     "tekst": "Ametnik aitab täita kooli avalduse ja selgitab tingimusi",
+     "oige": 1
+    },
+    {
+     "tekst": "Ametnik kuulab lugupidavalt ja ei mõista hukka",
+     "oige": 2
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Milline eneseavamine on juhtumikorraldaja rollis sobiv?",
+   "valikud": [
+    "Oma lahutusest rääkimine",
+    "Enesega seotud ütlus: „Ma kuulen, et see olukord on olnud sulle väga koormav”",
+    "Oma telefoninumbri andmine",
+    "Oma palga avaldamine"
+   ],
+   "oige": 1,
+   "selgitus": "Isikliku info jagamine ei ole asjakohane."
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

@@ -1,0 +1,122 @@
+{
+ "id": "ps-t01-04",
+ "tund": "ps-t01",
+ "jrk": 4,
+ "pealkiri": "Kuritegevuse põhjused ajaloos ja karistuse eesmärgid",
+ "lyhend": "Karistuse eesmärgid",
+ "ikoon": "liivakell",
+ "lyhidalt": "See, mida ühiskond peab kuriteo põhjuseks, määrab, kuidas kurjategijaga tegeletakse. Kui usuti kurje hingi, karistati. Valgustusajal hakati küsima, mis kasu karistusest on – nii tekkisid karistuse neli eesmärki ja proportsionaalsuse idee.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Põhjus määrab meetodi",
+   "tekst": "Kurjategijaga tegelemise meetodeid on ajaloos suunanud see, **mida ühiskond kuriteo põhjuseks peab**.",
+   "skeem": [
+    {
+     "tyyp": "voog",
+     "pealkiri": "Kuidas vaade on muutunud",
+     "sammud": [
+      {
+       "pealkiri": "Kurjad hinged ja deemonid",
+       "tekst": "Käitumist juhivad kurjad jõud → rõhk karistamisel; usuti, et süütu jääb Jumala abil terveks."
+      },
+      {
+       "pealkiri": "18. sajand: vaba ja ratsionaalne otsus",
+       "tekst": "Kuritegu järgneb, kui isiklik võit kaalub üles kaotuse."
+      },
+      {
+       "pealkiri": "Kinnised asutused ja psühholoogia",
+       "tekst": "Vanglates oli palju raskete vaimsete häiretega inimesi → vaja oli muud kui vangistus ja karistus; vanglad lubasid esimeste seas psühholooge tööle."
+      },
+      {
+       "pealkiri": "Lähiajalugu",
+       "tekst": "Palju eksperimente, kuid püsib uskumus, et karistus hoiab kuritegudest eemale."
+      }
+     ]
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Valgustusaeg: karistuse neli eesmärki",
+   "tekst": "Valgustusaja filosoofid küsisid, mis **kasu** karistusest on – see pidi andma rohkem kui lihtsalt valu.",
+   "skeem": {
+    "tyyp": "pyramiid",
+    "pealkiri": "Karistuse neli põhjust valgustusaja järgi",
+    "astmed": [
+     {
+      "pealkiri": "1. Ennetada kuritegusid",
+      "tekst": "kõige tähtsam"
+     },
+     {
+      "pealkiri": "2. Suunata kergemate kuritegude poole",
+      "tekst": "kui ennetada ei õnnestu"
+     },
+     {
+      "pealkiri": "3. Vähendada kuriteo kahju"
+     },
+     {
+      "pealkiri": "4. Teha seda võimalikult väikese kuluga",
+      "toon": "b"
+     }
+    ]
+   },
+   "jarel": "Tekkis ka **utilitaarne vaade**: karistus peab olema kuriteoga **sobivas proportsioonis**. Need mõtted on olulised ka täna.",
+   "read": []
+  },
+  "piiramine": {
+   "pealkiri": "Mida see tähendab tänapäeval",
+   "tekst": "Tänane vangistuse eesmärk ei ole valu tekitamine, vaid õiguskuulekale käitumisele suunamine ([[VangS § 6 lg 1]]). Vangistus ei tohi põhjustada rohkem kannatusi, kui kinnipidamisega paratamatult kaasneb ([[VangS § 4^1 lg 1]]).",
+   "punktid": [
+    "Karistus on vahend, mitte eesmärk.",
+    "Proportsionaalsuse mõte on valgustusajast pärit."
+   ]
+  },
+  "vangla": {
+   "tekst": "Inspektor-kontaktisik puutub kokku nii „karistava” kui „taasühiskonnastava” vaatega. Ajalugu aitab mõista, miks need põrkuvad.",
+   "naide": {
+    "olukord": "Kinnipeetav ütleb: „Te hoiate mind siin ainult selleks, et mul halb oleks.”",
+    "analyys": "Seaduse järgi ei ole vangistuse eesmärk kannatus, vaid õiguskuulekale käitumisele suunamine ([[VangS § 6 lg 1]]) ja kannatus ei tohi olla suurem kui paratamatu ([[VangS § 4^1 lg 1]]). Ametnik saab seda selgitada ja suunata jutu sellele, mida kinnipeetav saab vangistuse ajal enda heaks teha."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Arvatakse, et valgustusaja karistuse peamine põhjus oli kättemaks. Esimene põhjus oli **ennetada kuritegusid**.",
+    "Unustatakse utilitaarne vaade: karistus peab olema kuriteoga proportsionaalne."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis oli valgustusaja järgi karistuse esimene põhjus?",
+   "valikud": [
+    "Kättemaks",
+    "Kuritegude ennetamine",
+    "Kurja hinge väljaajamine",
+    "Riigikassa täitmine"
+   ],
+   "oige": 1,
+   "selgitus": "Järgnesid: suunata kergemate kuritegude poole, vähendada kahju ja teha seda väikese kuluga."
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis on vangistuse täideviimise eesmärk kehtiva seaduse järgi?",
+   "valikud": [
+    "Tekitada kinnipeetavale kannatusi",
+    "Suunata kinnipeetav õiguskuulekale käitumisele ja kaitsta õiguskorda",
+    "Ainult ühiskonna kaitsmine kinnipeetava eest",
+    "Kinnipeetava ümberkasvatamine töö kaudu"
+   ],
+   "oige": 1,
+   "selgitus": "[[VangS § 6 lg 1]]"
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

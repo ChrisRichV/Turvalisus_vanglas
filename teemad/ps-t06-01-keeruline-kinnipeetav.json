@@ -1,0 +1,118 @@
+{
+ "id": "ps-t06-01",
+ "tund": "ps-t06",
+ "jrk": 1,
+ "pealkiri": "Keeruline kinnipeetav ja käitumist mõjutavad tegurid",
+ "lyhend": "Keeruline kinnipeetav",
+ "ikoon": "kuubik",
+ "lyhidalt": "Keerulise kinnipeetava käitumisel on alati eesmärk või funktsioon – seda ei tasu võtta isiklikult. Käitumist mõjutavad isolatsioon, rollid ja ootused, asutuse ja keskkonna mõju ning inimese enda uskumused.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Käitumisel on funktsioon",
+   "tekst": "Kuigi keeruline käitumine võib tunduda arusaamatu, on sellel alati **kindel eesmärk või funktsioon**. Sageli võetakse seda isiklikult – see viib **karistava hoiakuni**.\n\nUuringute järgi on umbes **68%** vägivallajuhtumitest ja **73%** vara lõhkumistest vanglates seotud keeruliste kinnipeetavatega. **Aga:** ametnikud jätavad kergemaid rikkumisi sageli kirja panemata, kui kinnipeetav on varem rahulik olnud – keeruliste kinnipeetavate sündmusi kirjutatakse rohkem üles (Wilson & Tamatea, 2013)."
+  },
+  "alus": {
+   "pealkiri": "Viis tegurit",
+   "tekst": "",
+   "skeem": {
+    "tyyp": "kaardid",
+    "pealkiri": "Käitumist mõjutavad tegurid",
+    "kaardid": [
+     {
+      "pealkiri": "Sotsiaalne isolatsioon",
+      "silt": "1",
+      "tekst": "Vähene kontakt süvendab antisotsiaalseid jooni ja tekitab düsfunktsionaalseid reaktsioone. Inimene vajab sisukat suhtlust."
+     },
+     {
+      "pealkiri": "Rollid ja ootused",
+      "silt": "2",
+      "tekst": "Kui kinnipeetavalt oodatakse halba, see sageli materialiseerub – nõiaring, kus ootused loovad reaalsust.",
+      "toon": "b"
+     },
+     {
+      "pealkiri": "Asutuse mõju",
+      "silt": "3",
+      "tekst": "Kui vanglat peetakse julmaks ja ametnikel on sama mentaliteet, süvendab see probleemi. Julmad vanglad loovad julmemaid kinnipeetavaid."
+     },
+     {
+      "pealkiri": "Vangla keskkond",
+      "silt": "4",
+      "tekst": "Piiratud vabadus ja rutiin võivad tekitada pingeid.",
+      "toon": "b"
+     },
+     {
+      "pealkiri": "Isiklikud uskumused",
+      "silt": "5",
+      "tekst": "Nt „tõelised mehed istuvad range režiimiga vanglas” – võib ajendada kõike tegema, et sinna sattuda."
+     }
+    ]
+   },
+   "read": []
+  },
+  "piiramine": {
+   "pealkiri": "Mida silmas pidada",
+   "tekst": "",
+   "punktid": [
+    "Statistikat mõjutab ka see, **kelle** rikkumised kirja pannakse – silt „keeruline” võib ennast ise kinnitada.",
+    "Karistav hoiak ja „julm vangla” suurendavad probleeme, mitte ei vähenda.",
+    "Inimväärikuse austamine ja ainult vajalikud piirangud on seaduse nõue ([[VangS § 4^1 lg 1]], [[VangS § 4^1 lg 2]])."
+   ]
+  },
+  "vangla": {
+   "tekst": "Inspektor-kontaktisiku esimene küsimus keerulise käitumise korral: **mis on selle funktsioon?** Kas ta tahab tähelepanu, kontrolli, kaitset, staatust – või väljendab hirmu?",
+   "naide": {
+    "olukord": "Kinnipeetav nõuab iga päev uut kohtumist, kirjutab kaebusi ja ähvardab ametnikke kaebustega.",
+    "analyys": "Funktsioon võib olla kontrollitunne või tähelepanu. Kui ametnik võtab seda isiklikult, tekib karistav hoiak ja nõiaring. Parem: selged kokkulepped (millal ja kui sageli kohtutakse), järjepidevus ja tähelepanu ka siis, kui ta käitub hästi."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Keerulist käitumist peetakse mõttetuks või „pahatahtlikuks”. Kursuse järgi on sellel alati funktsioon.",
+    "Unustatakse, et ametnike ootused ja asutuse kultuur on samuti tegurid."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline tegur?",
+   "ryhmad": [
+    "Sotsiaalne isolatsioon",
+    "Rollid ja ootused",
+    "Asutuse mõju",
+    "Isiklikud uskumused"
+   ],
+   "read": [
+    {
+     "tekst": "Kinnipeetav on kuid kambris üksi ja muutub üha vaenulikumaks.",
+     "oige": 0
+    },
+    {
+     "tekst": "Ametnikud ütlevad uuele kinnipeetavale: „Sinusugustega on alati probleeme.”",
+     "oige": 1
+    },
+    {
+     "tekst": "Vanglas valitseb hoiak „siin ei hellitata kedagi”.",
+     "oige": 2
+    },
+    {
+     "tekst": "Kinnipeetav arvab, et rikkumised näitavad tema mehelikkust.",
+     "oige": 3
+    }
+   ]
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Statistika (68% ja 73%) ja Wilson & Tamatea (2013) viide pärinevad õppejõu materjalist.",
+   "allikas": "tunnimaterjal"
+  },
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

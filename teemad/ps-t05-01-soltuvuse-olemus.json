@@ -1,0 +1,105 @@
+{
+ "id": "ps-t05-01",
+ "tund": "ps-t05",
+ "jrk": 1,
+ "pealkiri": "Sõltuvuse olemus",
+ "lyhend": "Sõltuvus",
+ "ikoon": "pill",
+ "lyhidalt": "Sõltuvushäire on krooniline ajuhaigus: sund tarvitada või teha midagi hoolimata kahjust. Kuritarvitamine on tarvitamise viis, mis kahjustab tervist või teisi. Kõik tarvitajad ei jää sõltuvusse – aine üksi ei ole põhjus.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Kaks mõistet",
+   "tekst": "",
+   "skeem": [
+    {
+     "tyyp": "vordlus",
+     "pealkiri": "Sõltuvus ja kuritarvitamine",
+     "veerud": [
+      "Sõltuvushäire",
+      "Kuritarvitamine"
+     ],
+     "read": [
+      {
+       "silt": "Mis see on",
+       "lahtrid": [
+        "**krooniline ajuhaigus**: sund teha või tarvitada midagi hoolimata kahjulikest tagajärgedest",
+        "psühhoaktiivse aine (või millegi muu) tarvitamise viis, mis **kahjustab** vaimset või kehalist tervist, lähedasi või teisi"
+       ]
+      },
+      {
+       "silt": "Põhitunnus",
+       "lahtrid": [
+        "sund, kontrolli kadumine",
+        "kahju"
+       ]
+      },
+      {
+       "silt": "RHK-10",
+       "lahtrid": [
+        "F1 grupp",
+        "F1 grupp"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Aine ei ole ainus põhjus",
+   "tekst": "Igaühel, kes midagi proovib või tarvitab, sõltuvus ei teki. Seega ei saa **aine ise** olla sõltuvuse ainus põhjus.\n\nSõltuvuse kujunemine on **kompleksne protsess**, kus saavad kokku mitmed riskitegurid (vt järgmine teema).",
+   "read": [
+    {
+     "tase": "Vangla",
+     "viited": [
+      "VangS § 52 lg 2"
+     ],
+     "tekst": "Tervishoiutöötaja jälgib terviseseisundit ja suunab vajadusel eriarstiabi juurde – ka sõltuvusravi."
+    }
+   ]
+  },
+  "piiramine": {
+   "pealkiri": "Mida silmas pidada",
+   "tekst": "",
+   "punktid": [
+    "Sõltuvus on haigus, mitte iseloomuviga – see ei vabasta vastutusest, kuid mõjutab, kuidas inimesega tööd teha.",
+    "Sõltuvus võib olla ka käitumuslik (nt hasartmängud), mitte ainult ainetest."
+   ]
+  },
+  "vangla": {
+   "tekst": "Paljud kinnipeetavad on tarvitanud aineid. Inspektor-kontaktisik ei pea diagnoosima, kuid peab teadma, et sõltuvusega kinnipeetav vajab sageli ravi ja tuge, mitte ainult kontrolli.",
+   "naide": {
+    "olukord": "Kinnipeetav ütleb: „Ma ei ole sõltlane, ma lihtsalt tarvitasin nädalavahetustel.”",
+    "analyys": "Kõik tarvitajad ei ole sõltlased – võib olla tegu regulaarse tarvitamise või kuritarvitamisega (vt tarvitamise faasid). Ametnik ei vaidle sildi üle, vaid küsib, mida tarvitamine talle andis ja mida võttis."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Sõltuvus ja kuritarvitamine pannakse võrdseks.",
+    "Arvatakse, et aine üksi põhjustab sõltuvuse."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Miks ei saa kursuse järgi aine ise olla sõltuvuse ainus põhjus?",
+   "valikud": [
+    "Sest aineid on liiga palju",
+    "Sest igal tarvitajal ei teki sõltuvust",
+    "Sest sõltuvus on alati geneetiline",
+    "Sest sõltuvust ei ole olemas"
+   ],
+   "oige": 1,
+   "selgitus": "Sõltuvuse kujunemisel saavad kokku mitmed riskitegurid."
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

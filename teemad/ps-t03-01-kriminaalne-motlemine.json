@@ -1,0 +1,172 @@
+{
+ "id": "ps-t03-01",
+ "tund": "ps-t03",
+ "jrk": 1,
+ "pealkiri": "Kriminaalne mõtlemine: proaktiivne ja reaktiivne",
+ "lyhend": "Kriminaalne mõtlemine",
+ "ikoon": "sihik",
+ "lyhidalt": "Kriminaalne mõtlemine on hoiakute ja uskumuste kogum, mis toetab kriminaalset elustiili. See on üks neljast suurest korduvkuritegevuse ennustajast. Proaktiivne mõtlemine on eesmärgile suunatud ja kalkuleeriv, reaktiivne on emotsioonikeskne ja impulsiivne.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Mis ja kuidas",
+   "tekst": "**Kriminaalne mõtlemine** on hoiakute ja uskumuste grupp, mis on seotud kriminaalse käitumisega ja toetab kriminaalse elustiili püsimist. See on **üks neljast suurest retsidivismi ennustajast**.\n\nSee tähendab nii seda, **mida** kurjategija mõtleb (sisu), kui ka seda, **kuidas** ta mõtleb (protsess).",
+   "punktid": [
+    "Kriminaalne mõtlemine **järgneb** kriminaalsele käitumisele, mitte ei eelne sellele.",
+    "See erineb inimeseti **suuruselt, mitte liigilt**.",
+    "See suurendab tulevaste kuritegude tõenäosust ja seob teisi riskitegureid."
+   ],
+   "skeem": [
+    {
+     "tyyp": "kaardid",
+     "pealkiri": "Mõtlemise muutujad, mis seovad mineviku ja tuleviku kuriteod",
+     "kaardid": [
+      {
+       "pealkiri": "Mõtlemise stiilid",
+       "silt": "1"
+      },
+      {
+       "pealkiri": "Vaenulik tõlgendus",
+       "silt": "2",
+       "tekst": "teiste käitumist nähakse vaenulikuna",
+       "toon": "b"
+      },
+      {
+       "pealkiri": "Positiivsed ootused kuriteole",
+       "silt": "3",
+       "tekst": "„kiire raha”"
+      },
+      {
+       "pealkiri": "Madal enesetõhusus",
+       "silt": "4",
+       "tekst": "ei usu, et suudab sobivalt käituda",
+       "toon": "b"
+      },
+      {
+       "pealkiri": "Hedonistlikud väärtused",
+       "silt": "5",
+       "tekst": "naudingu poole püüdlemine"
+      },
+      {
+       "pealkiri": "Lühiajalised eesmärgid",
+       "silt": "6",
+       "toon": "b"
+      }
+     ],
+     "kitsad": true,
+     "allkiri": "Muutujatel on **lumepalliefekt**: üks viib teiseni."
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Proaktiivne vs reaktiivne",
+   "tekst": "Kriminaalse mõtlemise hindamiseks on küsimustikud: protsessi jaoks **PICTS**, sisu jaoks **CSS-M** ja **MCAA**.",
+   "skeem": {
+    "tyyp": "vordlus",
+    "pealkiri": "Kaks liiki",
+    "veerud": [
+     "Proaktiivne",
+     "Reaktiivne"
+    ],
+    "read": [
+     {
+      "silt": "Mis see on",
+      "lahtrid": [
+       "**eesmärgile suunatud** – kriminaalse sihi saavutamiseks",
+       "**emotsioonikeskne** – reaktsioon keskkonna muutusele või väljakutsele"
+      ]
+     },
+     {
+      "silt": "Seos",
+      "lahtrid": [
+       "võib siduda psühhopaatiat ja vägivaldseid kuritegusid; nõrk empaatia ennustab",
+       "seotud ainete kuritarvitamisega; impulsiivne käitumine on levinum"
+      ]
+     },
+     {
+      "silt": "Mõju lähikonnale",
+      "lahtrid": [
+       "mõjutab **lähikonna mõju**",
+       "mõjutab **lähikonna valikut**"
+      ]
+     },
+     {
+      "silt": "Sekkumine",
+      "lahtrid": [
+       "tavalistel sekkumistel minimaalne mõju; vaja väärtusi ja moraalseid otsuseid",
+       "sekkumised mõjuvad hästi"
+      ]
+     }
+    ]
+   },
+   "jarel": "Liigid korreleeruvad omavahel üsna palju (kuni 50%) – inimesel võib olla mõlemat.",
+   "read": []
+  },
+  "piiramine": {
+   "pealkiri": "Kuidas see kujuneb",
+   "tekst": "Kriminaalset mõtlemist seotakse **kartmatuse ja takistamatusega**. Need on seotud amügdala ja hipokampuse halli ainega – ja ka temperamendiga.\n\nOluline on **enesekontrolli** kujunemine lapsepõlves. Kui see ei kujune, tuleb rohkem tõrjumist, konflikte ja raskusi koolis – ja inimene leiab endaga sarnased, antisotsiaalsed kaaslased.",
+   "punktid": []
+  },
+  "vangla": {
+   "tekst": "Liigi eristamine aitab valida, mida teha: reaktiivse puhul aitavad oskused (viha juhtimine, ainetest loobumine), proaktiivse puhul on vaja tegeleda väärtuste ja kuriteo „kasu” ootustega.",
+   "naide": {
+    "olukord": "Kinnipeetav A planeeris kuid pangakaardipettusi, et osta kallis auto ja näidata sõpradele, kui edukas ta on. Kinnipeetav B lõi baaris joobes meest, kes teda tõukas.",
+    "analyys": "**A – proaktiivne:** eesmärk (raha, staatus) ja kalkuleeritud tegevus. Tuleb tegeleda väärtuste ja positiivsete ootustega kuriteole. **B – reaktiivne:** emotsioon ja ained, impulsiivne reaktsioon. Aitavad oskused: emotsioonide juhtimine, alkoholist loobumine."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Kirjutatakse, et kriminaalne mõtlemine põhjustab esimese kuriteo. Kursuse järgi **järgneb** see kriminaalsele käitumisele.",
+    "Arvatakse, et kurjategijad mõtlevad teisiti **liigilt**. Erinevus on **suuruses**."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Proaktiivne või reaktiivne?",
+   "ryhmad": [
+    "Proaktiivne",
+    "Reaktiivne"
+   ],
+   "read": [
+    {
+     "tekst": "Planeeris röövi nädal aega, et saada raha uue auto jaoks.",
+     "oige": 0
+    },
+    {
+     "tekst": "Lõi kambrikaaslast, kui too tema asju puudutas.",
+     "oige": 1
+    },
+    {
+     "tekst": "Ähvardab ametnikke, et saada endale parem töökoht.",
+     "oige": 0
+    },
+    {
+     "tekst": "Narkojoobes lõhkus vihahoos aknad.",
+     "oige": 1
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis on kursuse järgi kriminaalse mõtlemise ja kriminaalse käitumise seos?",
+   "valikud": [
+    "Mõtlemine eelneb alati käitumisele",
+    "Kriminaalne mõtlemine järgneb kriminaalsele käitumisele",
+    "Seost ei ole",
+    "Mõtlemine tekib ainult vanglas"
+   ],
+   "oige": 1,
+   "selgitus": "Sekkumisel on vastupidi – alustatakse mõtteviisi muutmisest."
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

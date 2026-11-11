@@ -1,0 +1,133 @@
+{
+ "id": "ps-t04-04",
+ "tund": "ps-t04",
+ "jrk": 4,
+ "pealkiri": "Ärevus ja depressioon",
+ "lyhend": "Ärevus ja depressioon",
+ "ikoon": "pilv",
+ "lyhidalt": "Ärevushäired ja depressioon on kinnipeetavatel laialt levinud ja esinevad sageli koos. Vanglas avalduvad need eriti: hirm ja vältimine, passiivsus, hügieeni eiramine, rikkumised ja enesevigastamine.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Kaks levinud häiret",
+   "tekst": "**Ärevus** on keha märguanne, et midagi ohtlikku on toimumas – see on loomulik. Häireks muutub ärevus siis, kui see põhjustab igapäevaseid või sagedasi probleeme. Sageli on ärevust vabaduses **maandatud sõltuvusainetega**.\n\n**Depressioon** ei ole lihtsalt halb tuju, vaid seisund, mis vajab tähelepanu ja abi. Vanglas on see üks enim levinud häireid ja seotud **isolatsiooni, lootusetuse ja süütundega**.",
+   "skeem": [
+    {
+     "tyyp": "vordlus",
+     "pealkiri": "Ärevus ja depressioon vanglas",
+     "veerud": [
+      "Ärevus",
+      "Depressioon"
+     ],
+     "read": [
+      {
+       "silt": "Omadused",
+       "lahtrid": [
+        "liigne mure, rahutus, pinge, paanikahood, ärrituvus; südamekloppimine, hingamisraskus",
+        "sügav kurbus, huvi kadumine, energia puudus, une- ja söömishäired, keskendumisraskus, enesetapumõtted"
+       ]
+      },
+      {
+       "silt": "Vanglas",
+       "lahtrid": [
+        "hirm ja paranoia teiste või ametnike suhtes; sotsiaalsete olukordade vältimine; raske kohaneda režiimiga; paanikahood kinnistes ruumides",
+        "tagasitõmbumine, passiivsus, hügieeni eiramine, sagenenud rikkumised ja enesevigastamine"
+       ]
+      },
+      {
+       "silt": "Mida ametnik märkab",
+       "lahtrid": [
+        "väldib jalutuskäiku, ühisruume; ärritub kergesti",
+        "ei tõuse, ei söö, ei suhtle; jätab tegevused pooleli"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Miks just vanglas",
+   "tekst": "Vangistus ise tähendab isolatsiooni perest, piiratud kontrolli oma elu üle ja sageli süütunnet. Need on depressiooni riskitegurid. Ärevust võimendab ettearvamatu ja ohtlikuna tajutud keskkond.",
+   "read": [
+    {
+     "tase": "Vangla",
+     "viited": [
+      "VangS § 4^1 lg 1",
+      "VangS § 57"
+     ],
+     "tekst": "Kinnipidamine ei tohi põhjustada rohkem kannatusi kui paratamatu; sotsiaalhoolekande eesmärk on aidata säilitada positiivseid kontakte väljaspool vanglat ja suurendada toimetulekut."
+    }
+   ]
+  },
+  "piiramine": {
+   "pealkiri": "Mida silmas pidada",
+   "tekst": "",
+   "punktid": [
+    "Rikkumine võib olla depressiooni sümptom – ainult karistus ei lahenda probleemi.",
+    "Ärevusega kinnipeetav võib tunduda agressiivne või „paranoiline” – tegelikult kardab ta.",
+    "Enesetapumõtted on depressiooni võimalik sümptom – vt järgmine teema."
+   ]
+  },
+  "vangla": {
+   "tekst": "Inspektor-kontaktisik saab vähendada ärevust ettearvatavusega (selgitab ette, mis toimub) ja depressiooni riski kontaktide toetamisega (pere, tegevused).",
+   "naide": {
+    "olukord": "Kinnipeetav on hakanud rikkuma päevakava, jätab söömata ja ei suhtle kellegagi. Kolleeg soovitab distsiplinaarmenetlust.",
+    "analyys": "Muster (passiivsus, söömata jätmine, tagasitõmbumine, rikkumised) sobib depressiooni avaldumisega vanglas. Enne karistust tuleb rääkida, küsida enesetunde kohta ja teavitada tervishoiutöötajat. Toetada kontakte ja tegevusi ([[VangS § 57]])."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Depressiooni peetakse laiskuseks või trotsiks.",
+    "Ärevust peetakse ohtlikkuseks. Hirmust tulev pinge vajab rahustamist, mitte ähvardamist."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Pigem ärevus või depressioon?",
+   "ryhmad": [
+    "Ärevus",
+    "Depressioon"
+   ],
+   "read": [
+    {
+     "tekst": "Paanikahood kinnises ruumis",
+     "oige": 0
+    },
+    {
+     "tekst": "Huvi kadumine kõige vastu, mis varem rõõmu tegi",
+     "oige": 1
+    },
+    {
+     "tekst": "Väldib ühisruume, kardab teisi kinnipeetavaid",
+     "oige": 0
+    },
+    {
+     "tekst": "Jätab hügieeni hooletusse, on passiivne",
+     "oige": 1
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Millega on depressioon kinnipeetavatel kursuse järgi eelkõige seotud?",
+   "valikud": [
+    "Liigse aktiivsusega",
+    "Isolatsiooni, lootusetuse ja süütundega",
+    "Hea toiduga",
+    "Pikkade jalutuskäikudega"
+   ],
+   "oige": 1,
+   "selgitus": "Vangistus ise toob kaasa isolatsiooni ja sageli süütunde."
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

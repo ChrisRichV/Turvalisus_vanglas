@@ -1,0 +1,143 @@
+{
+ "id": "ps-t04-02",
+ "tund": "ps-t04",
+ "jrk": 2,
+ "pealkiri": "Skisofreenia spektri häired",
+ "lyhend": "Skisofreenia",
+ "ikoon": "udu",
+ "lyhidalt": "Skisofreeniat iseloomustavad mõtlemise ja tajumise sügavad häired ning tuimenenud või sobimatu tundeelu. Vägivalla risk on seotud eelkõige ainete tarvitamisega. Ravi on mitmeosaline ja vajab pikaajalist jälgimist.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Mis on skisofreenia",
+   "tekst": "RHK-10 järgi iseloomustavad skisofreenilisi häireid **mõtlemise ja tajumise sügavad häired** ning **tuimenenud või inadekvaatne tundeelu**. Inimesele võib tunduda, et ka tema kõige isiklikumad mõtted on teistele teada. Sagedased on hallutsinatsioonid, eriti kuulmishallutsinatsioonid.\n\nSkisofreenia spektri häired on tugevalt seotud vägivaldsete kuritegudega, kuid **seda seost vahendab sõltuvuskäitumine**: ilma ainete tarvitamiseta on vägivaldse kuriteo risk oluliselt väiksem.",
+   "skeem": [
+    {
+     "tyyp": "kaardid",
+     "pealkiri": "Sümptomid RHK-10 järgi (lihtsustatult)",
+     "kaardid": [
+      {
+       "pealkiri": "Mõtete häired",
+       "silt": "a",
+       "tekst": "mõtete kajamine, sisendamine, äravõtmine, levimine"
+      },
+      {
+       "pealkiri": "Luulumõtted",
+       "silt": "b",
+       "tekst": "kontrollist või mõjustusest; kultuurile ebakohased, ebareaalsed uskumused",
+       "toon": "b"
+      },
+      {
+       "pealkiri": "Hallutsinatsioonid",
+       "silt": "c",
+       "tekst": "hääled, mis kommenteerivad või vaidlevad; püsivad hallutsinatsioonid"
+      },
+      {
+       "pealkiri": "Seosetu kõne",
+       "silt": "d",
+       "tekst": "mõttekäigu tõkestused, uued sõnad (neologismid)",
+       "toon": "b"
+      },
+      {
+       "pealkiri": "Katatoonia",
+       "silt": "e",
+       "tekst": "rahutus, tardumine, mutism, stuupor"
+      },
+      {
+       "pealkiri": "Negatiivsed sümptomid",
+       "silt": "f",
+       "tekst": "apaatia, kõnevaegus, tuimus, isoleerumine",
+       "toon": "b"
+      }
+     ],
+     "kitsad": true
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Ravi",
+   "tekst": "Kursus annab ravi valemi:",
+   "skeem": {
+    "tyyp": "voog",
+    "pealkiri": "Ravi valem",
+    "sammud": [
+     {
+      "pealkiri": "Antipsühhootilised ravimid"
+     },
+     {
+      "pealkiri": "+ Psühhoharimine",
+      "tekst": "inimene saab aru oma haigusest"
+     },
+     {
+      "pealkiri": "+ Kognitiivne rehabilitatsioon"
+     },
+     {
+      "pealkiri": "+ Tööga seotud treening"
+     },
+     {
+      "pealkiri": "+ Pikaajaline raviväline tugi",
+      "tekst": "jälgimine kogu elu, et inimene püsiks raviskeemis"
+     }
+    ]
+   },
+   "jarel": "Ravi planeerimisel tehakse vahet: kas **käitumisprobleemid olid enne** skisofreenia avaldumist (siis tuleb tegeleda ka antisotsiaalse ja agressiivse käitumisega) või tekkis agressioon **pärast** haigust. Kui on ainete tarvitamine, tuleb ka sellega tegeleda. Kursuse järgi võib skisofreenia ravi ära hoida 6–28% tapmistest.",
+   "read": []
+  },
+  "piiramine": {
+   "pealkiri": "Mida silmas pidada",
+   "tekst": "",
+   "punktid": [
+    "Skisofreenia **ei tähenda** automaatselt ohtlikkust – risk tõuseb eelkõige koos ainete tarvitamisega.",
+    "Negatiivseid sümptomeid (apaatia, isoleerumine) võib segi ajada depressiooni või ravimite kõrvalmõjuga – hindab arst.",
+    "Raviskeemist kinnipidamine on võtmetähtsusega."
+   ]
+  },
+  "vangla": {
+   "tekst": "Inspektor-kontaktisik märkab sageli esimesena, kui kinnipeetava käitumine muutub või ta jätab ravimid võtmata.",
+   "naide": {
+    "olukord": "Kinnipeetav on hakanud rääkima, et raadio saadab talle isiklikke sõnumeid, ja ta katab kambri akna ajalehtedega. Ta on kahtlustav ja magab vähe.",
+    "analyys": "Kirjeldus võib viidata psühhootilistele sümptomitele (luulumõtted). Ametnik ei vaidle uskumuse üle ega diagnoosi – ta räägib rahulikult, dokumenteerib ja teavitab tervishoiutöötajat ([[VangS § 52 lg 2]]). Kui ta tarvitab aineid, tõstab see riski."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Kirjutatakse, et skisofreenia põhjustab vägivalda. Kursuse järgi vahendab seost **sõltuvuskäitumine**.",
+    "Ravi taandatakse ravimitele. Valemis on ka psühhoharimine, rehabilitatsioon, töö ja pikaajaline tugi."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis vahendab kursuse järgi skisofreenia ja vägivaldsete kuritegude seost?",
+   "valikud": [
+    "Sugu",
+    "Sõltuvuskäitumine",
+    "Haridustase",
+    "Vangistuse pikkus"
+   ],
+   "oige": 1,
+   "selgitus": "Ilma ainete tarvitamiseta on risk oluliselt väiksem."
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Milline on negatiivne sümptom?",
+   "valikud": [
+    "Kuulmishallutsinatsioon",
+    "Apaatia ja sotsiaalne isoleerumine",
+    "Luulumõte kontrollist",
+    "Seosetu kõne"
+   ],
+   "oige": 1,
+   "selgitus": "Negatiivsed sümptomid = midagi on puudu (huvi, emotsioonid, kõne)."
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

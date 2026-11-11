@@ -1,0 +1,141 @@
+{
+ "id": "ps-t04-03",
+ "tund": "ps-t04",
+ "jrk": 3,
+ "pealkiri": "Käitumishäired ja ATH",
+ "lyhend": "Käitumishäired ja ATH",
+ "ikoon": "valk",
+ "lyhidalt": "Käitumishäired on püsivad probleemid käitumise kontrollimisel ja normidega kohanemisel. Nende hulka kuuluvad harjumus- ja impulsihäired ning hüperkineetilised häired, sh aktiivsus- ja tähelepanuhäire (ATH).",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Mis on käitumishäire",
+   "tekst": "Käitumishäired on psüühika- ja arenguhäired, mille puhul käitumine on **püsivalt normidest kõrvalekalduv, häiriv või kahjulik** nii inimesele endale kui ka teistele.",
+   "skeem": [
+    {
+     "tyyp": "puu",
+     "pealkiri": "Käitumishäirete näited",
+     "juur": {
+      "pealkiri": "Käitumishäired"
+     },
+     "harud": [
+      {
+       "pealkiri": "Harjumus- ja impulsihäired",
+       "lapsed": [
+        {
+         "pealkiri": "Patoloogiline hasartmängimine"
+        },
+        {
+         "pealkiri": "Püromaania",
+         "tekst": "korduv süütamine motiivita"
+        }
+       ]
+      },
+      {
+       "pealkiri": "Muud impulsi kontrolli häired",
+       "toon": "b",
+       "lapsed": [
+        {
+         "pealkiri": "Kleptomaania",
+         "tekst": "ei suuda vastu seista varastamise impulsile"
+        }
+       ]
+      },
+      {
+       "pealkiri": "Hüperkineetilised häired",
+       "lapsed": [
+        {
+         "pealkiri": "Aktiivsus- ja tähelepanuhäire (ATH)"
+        },
+        {
+         "pealkiri": "Hüperkineetiline käitumishäire",
+         "tekst": "üliaktiivsus ja tähelepanematus mitmes keskkonnas"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "ATH kolm tunnust",
+   "tekst": "**Aktiivsus- ja tähelepanuhäire** on neuroarenguline seisund. Sageli diagnoositakse see lapsepõlves, kuid paljudel püsivad sümptomid ka täiskasvanueas.",
+   "skeem": {
+    "tyyp": "kaardid",
+    "pealkiri": "ATH tunnused",
+    "kaardid": [
+     {
+      "pealkiri": "Tähelepanematus",
+      "silt": "1",
+      "tekst": "raske keskenduda, eksib detailides, hajub kergesti, unustab, raske juhiseid järgida"
+     },
+     {
+      "pealkiri": "Hüperaktiivsus",
+      "silt": "2",
+      "tekst": "rahutus, nihelemine, pidev tegutsemisvajadus, liigne rääkimine",
+      "toon": "b"
+     },
+     {
+      "pealkiri": "Impulsiivsus",
+      "silt": "3",
+      "tekst": "raske reaktsioone kontrollida, vastab enne küsimuse lõppu, segab vahele, ei suuda oodata"
+     }
+    ],
+    "kitsad": true
+   },
+   "jarel": "Sümptomid peavad püsima pikemat aega ja oluliselt häirima igapäevaelu.",
+   "read": []
+  },
+  "piiramine": {
+   "pealkiri": "Mida silmas pidada",
+   "tekst": "ATH sümptomeid saab kergesti **segi ajada** teiste seisunditega: ärevus, meeleoluhäired, sõltuvused, traumajärgne stressihäire. Täpne diagnoos on professionaali töö.",
+   "punktid": []
+  },
+  "vangla": {
+   "tekst": "ATH-ga kinnipeetav võib tunduda „tõrges” või „lugupidamatu”, kuigi ta lihtsalt ei suuda pikalt keskenduda või oodata. Lühikesed ja selged juhised aitavad.",
+   "naide": {
+    "olukord": "Kinnipeetav segab ametnikule pidevalt vahele, unustab kokkulepped ja tõuseb vestluse ajal mitu korda püsti.",
+    "analyys": "Need võivad olla ATH tunnused (impulsiivsus, tähelepanematus, hüperaktiivsus), mitte trots. Aitab: üks teema korraga, lühikesed laused, kokkulepe kirjalikult, kokkuvõte vestluse lõpus. Kui muster on püsiv, teavita tervishoiutöötajat."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Kleptomaaniat kirjeldatakse kui tavalist vargust kasu saamiseks. Kleptomaania on suutmatus impulsile vastu seista.",
+    "Arvatakse, et ATH on ainult laste häire."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline ATH tunnus?",
+   "ryhmad": [
+    "Tähelepanematus",
+    "Hüperaktiivsus",
+    "Impulsiivsus"
+   ],
+   "read": [
+    {
+     "tekst": "Unustab kokkulepitud aja",
+     "oige": 0
+    },
+    {
+     "tekst": "Ei suuda vestluse ajal paigal istuda",
+     "oige": 1
+    },
+    {
+     "tekst": "Vastab enne, kui küsimus on lõpuni küsitud",
+     "oige": 2
+    }
+   ]
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

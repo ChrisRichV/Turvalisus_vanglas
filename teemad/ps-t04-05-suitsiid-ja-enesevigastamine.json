@@ -1,0 +1,152 @@
+{
+ "id": "ps-t04-05",
+ "tund": "ps-t04",
+ "jrk": 5,
+ "pealkiri": "Suitsiidi- ja enesevigastamise risk: märgid ja sekkumine",
+ "lyhend": "Suitsiidirisk",
+ "ikoon": "elupoi",
+ "lyhidalt": "Enesevigastamine on tahtlik enesekahjustamine ilma suitsiidikavatsuseta, kuid see suurendab suitsiidiriski. Vanglas on risk suurim vangistuse alguses, noortel ja sõltuvus- või psüühikahäirega kinnipeetavatel. Isolatsioon riski ei vähenda – see suurendab seda.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Mõisted",
+   "tekst": "**Suitsiidikatse** on tegu, mille eesmärk on elu lõpetada, kuid mis ei lõpe surmaga – see vajab **alati tõsist tähelepanu**. **Enesevigastamine** on tahtlik enesekahjustamine **ilma suitsiidikavatsuseta**; sageli on see viis emotsionaalse valuga toime tulla.\n\nUmbes pooled suitsiidi sooritanutest on end varem vigastanud ja enesevigastajatel on kursuse järgi 30 korda kõrgem suitsiidirisk kui tavapopulatsioonil.",
+   "skeem": [
+    {
+     "tyyp": "kaardid",
+     "pealkiri": "Kes on vanglas suurema riskiga",
+     "kaardid": [
+      {
+       "pealkiri": "Vangistuse algus",
+       "silt": "1",
+       "tekst": "esimene kuu, eriti esimesed päevad; enesevigastamine sageli esimese 7 päeva jooksul"
+      },
+      {
+       "pealkiri": "Noored",
+       "silt": "2",
+       "tekst": "25-aastased ja nooremad (tavapopulatsioonis vastupidi)",
+       "toon": "b"
+      },
+      {
+       "pealkiri": "Sõltuvus- ja psüühikahäired",
+       "silt": "3",
+       "tekst": "eriti alguses: sobivat ravi pole veel, võivad olla võõrutusnähud"
+      },
+      {
+       "pealkiri": "Ümberpaigutused",
+       "silt": "4",
+       "tekst": "eriti haavatavatele gruppidele ja naistele",
+       "toon": "b"
+      },
+      {
+       "pealkiri": "Teatud teod",
+       "silt": "5",
+       "tekst": "rasked vägivalla- ja lähisuhtevägivalla teod, seksuaalkuriteod"
+      },
+      {
+       "pealkiri": "Lühike või väga pikk karistus",
+       "silt": "6",
+       "tekst": "uuringud on erinevad",
+       "toon": "d"
+      }
+     ],
+     "kitsad": true
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Põhjused ja funktsioonid",
+   "tekst": "**Põhjused vangistatute seas:** vaimse tervise häired (sõltuvus, psüühika- ja isiksushäired), sotsiaalne isolatsioon, traumad ja füüsilise tervise probleemid, sotsiaalmajanduslikud tegurid.\n\n**Enesevigastamisel on palju funktsioone:** kergendus üleujutavatest emotsioonidest, stressiga toimetulek, enesekaristus häbi tõttu, lootusetuse väljendus, kontrollitunne kaose keskel, rahu, „pidur”, kui kõik läheb käest ära, tundetus, elus olemise tunne – ja **suhtlus**, kui muud viisi vajadusi väljendada ei tundu olevat (eriti vanglas).",
+   "read": [
+    {
+     "tase": "Vangla",
+     "viited": [
+      "VangS § 14 lg 1",
+      "VangS § 52 lg 2"
+     ],
+     "tekst": "Saabumisel tervisekontroll; tervishoiutöötaja jälgib terviseseisundit ja suunab vajadusel eriarstiabi juurde."
+    }
+   ]
+  },
+  "piiramine": {
+   "pealkiri": "Mis aitab ja mis mitte",
+   "tekst": "Kursuse järgi **ei sobi suitsiidiriski korral isolatsioon, mööblita kamber ega oma riietusest ilma jätmine** – need pigem suurendavad riski ja negatiivseid emotsioone. Risk on suurem öösel, nädalavahetustel ja suvel, kui töötajaid on vähem.",
+   "punktid": [
+    "**Hea praktika:** esmane hindamine; paigutus kellegagi ühisesse kambrisse; võimalus suhelda tugigruppidega; ligipääs sobivale meditsiinilisele abile.",
+    "Esmane sekkumine on spetsialisti (psühhiaater, kliiniline psühholoog) teraapia; seejärel üldisem nõustamine.",
+    "Iga juhtumi puhul on oluline **traumateadlik lähenemine**.",
+    "Vanglates ei ole veel rutiinselt kasutatavat teaduslikult tõestatud sekkumist; paljulubav on kognitiiv-käitumuslik suitsiidi ennetamise teraapia (CBSP)."
+   ]
+  },
+  "vangla": {
+   "tekst": "Inspektor-kontaktisiku kõige tähtsam roll on **märgata ja reageerida**: võtta iga märki tõsiselt, mitte jätta inimest üksi ja teavitada kohe tervishoiutöötajat ning juhti vastavalt vangla korrale.",
+   "skeem": {
+    "tyyp": "kaardid",
+    "pealkiri": "Märgid, mis võivad viidata enesetapuriskile",
+    "kaardid": [
+     {
+      "pealkiri": "Räägib surmast",
+      "tekst": "„Oleks parem, kui ma oleksin surnud”, „Varsti ma ei tüüta sind enam”; nalja teeb enesetapust; räägib surmast positiivselt"
+     },
+     {
+      "pealkiri": "Jätab hüvasti",
+      "tekst": "annab ära väärtuslikke asju; jätab perega eriliselt hüvasti; kirjutab kirju",
+      "toon": "b"
+     },
+     {
+      "pealkiri": "Muutunud käitumine",
+      "tekst": "tõmbub endasse; käitub teistmoodi; söömine ja uni muutunud; huvi kadunud; hügieen hooletusse"
+     },
+     {
+      "pealkiri": "Hoolimatus",
+      "tekst": "käitub enda suhtes hoolimatult; sagedased vigastused; teeb veidraid avaldusi",
+      "toon": "b"
+     }
+    ],
+    "allkiri": "Üks märk ei tõesta riski, kuid iga märk on põhjus küsida ja teavitada."
+   },
+   "jarel": "Kui märkad märke, küsi otse ja rahulikult, kuidas inimene end tunneb ja kas tal on mõtteid endale haiget teha. Nii näitad, et võtad teda tõsiselt, ja saad info, mida edasi anda."
+  },
+  "tyypviga": {
+   "punktid": [
+    "Arvatakse, et enesevigastamine on alati „tähelepanu otsimine”. Sellel on palju funktsioone ja see suurendab suitsiidiriski.",
+    "Pakutakse lahenduseks isolatsiooni. Kursuse järgi see pigem suurendab riski.",
+    "Arvatakse, et risk on suurim karistuse lõpus. Uuringud näitavad suurimat riski vangistuse **alguses**."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Milline meede EI sobi kursuse järgi suitsiidiriski vähendamiseks?",
+   "valikud": [
+    "Esmane hindamine",
+    "Paigutus ühisesse kambrisse",
+    "Isolatsioon ja mööblita kamber",
+    "Ligipääs meditsiinilisele abile"
+   ],
+   "oige": 2,
+   "selgitus": "Isolatsioon pigem suurendab riski."
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Millal on kinnipeetavate suitsiidirisk uuringute järgi sageli suurim?",
+   "valikud": [
+    "Vangistuse esimesel kuul",
+    "Viimasel nädalal enne vabanemist",
+    "Pärast kokkusaamist",
+    "Kevadel"
+   ],
+   "oige": 0,
+   "selgitus": "Eriti esimestel päevadel; enesevigastamine sageli esimese 7 päeva jooksul."
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

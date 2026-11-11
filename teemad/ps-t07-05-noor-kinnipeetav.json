@@ -1,0 +1,151 @@
+{
+ "id": "ps-t07-05",
+ "tund": "ps-t07",
+ "jrk": 5,
+ "pealkiri": "Noor kinnipeetav: riskitegurid",
+ "lyhend": "Noor kinnipeetav",
+ "ikoon": "idu",
+ "lyhidalt": "Noor kinnipeetav on eriti haavatav: vangistatud noortel on mitu korda rohkem psühhoosi, ATH-d ja käitumishäireid ning väga kõrge ainete tarvitamise tase. Riskitegurid on individuaalsed, perekondlikud ja keskkondlikud.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Eriti haavatav grupp",
+   "tekst": "Juba varases eas tekib noortel agressiivne ja vägivaldne käitumine, mis aitab kaasa vaimse tervise probleemide arengule. Vangistamine mõjub noore vaimsele tervisele negatiivselt.",
+   "skeem": [
+    {
+     "tyyp": "kaardid",
+     "pealkiri": "Vangistatud noortel võrreldes tavapopulatsiooniga",
+     "kaardid": [
+      {
+       "pealkiri": "Psühhoos",
+       "silt": "10×",
+       "tekst": "10 korda rohkem"
+      },
+      {
+       "pealkiri": "ATH",
+       "silt": "2–4×",
+       "tekst": "2 kuni 4 korda rohkem",
+       "toon": "b"
+      },
+      {
+       "pealkiri": "Käitumishäired",
+       "silt": "5–20×",
+       "tekst": "5 kuni 20 korda rohkem"
+      },
+      {
+       "pealkiri": "Ainete kuritarvitamine",
+       "silt": "↑",
+       "tekst": "erakordselt kõrge; sageli mitu häiret korraga (komorbiidsus)",
+       "toon": "b"
+      }
+     ],
+     "kitsad": true
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Riskitegurid",
+   "tekst": "",
+   "read": [
+    {
+     "tase": "Vangla",
+     "viited": [
+      "VangS § 80",
+      "VangS § 81 lg 1"
+     ],
+     "tekst": "Noore kinnipeetava vangistuse täideviimisel on erisused; noortevanglas või noorteosakonnas hoitakse vanusegruppe eraldi."
+    }
+   ],
+   "skeem": {
+    "tyyp": "sambad",
+    "pealkiri": "Riskitegurid noore kriminaalseks käitumiseks",
+    "sambad": [
+     {
+      "pealkiri": "Individuaalsed ja arengulised",
+      "read": [
+       "rasedusaegsed riskid",
+       "madal käitumuslik ja emotsionaalne regulatsioon lapsepõlves",
+       "neuroloogilised defitsiidid"
+      ]
+     },
+     {
+      "pealkiri": "Perekondlikud",
+      "toon": "b",
+      "read": [
+       "mitme põlvkonna käitumisprobleemid ja kuritegevus",
+       "vanemate madal haridustase",
+       "ebakorrapärane vanemlik distsipliin"
+      ]
+     },
+     {
+      "pealkiri": "Keskkondlikud",
+      "read": [
+       "sotsiaalselt ebaorganiseeritud naabruskond",
+       "vägivald kogukonnas",
+       "kogukonna madal ühine efektiivsus"
+      ]
+     }
+    ]
+   }
+  },
+  "piiramine": {
+   "pealkiri": "Mida silmas pidada",
+   "tekst": "",
+   "punktid": [
+    "Noorel on sageli mitu probleemi korraga – häire, ained, pere.",
+    "Noored on suurema suitsiidiriskiga (tund 4).",
+    "Isiksusehäired ja välise käitumise häired (ATH, käitumishäired) on tugevalt seotud kuritegevusega."
+   ]
+  },
+  "vangla": {
+   "tekst": "Noorega töötades on eriti olulised selged reeglid, eeskuju (mudeldamine) ja haridus.",
+   "naide": {
+    "olukord": "18-aastane kinnipeetav on impulsiivne, satub tihti tülidesse ja ütleb, et tema isa ja vanem vend on ka vanglas olnud.",
+    "analyys": "Riskitegurid: individuaalne (madal regulatsioon), perekondlik (mitme põlvkonna kuritegevus). Ametnik toetab haridust ja oskusi, on ise järjekindel eeskuju ning jälgib, et teda hoitakse vanusegrupi järgi eraldi ([[VangS § 81 lg 1]])."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Riskitegurid pannakse kõik „halva pere” alla. Kursus eristab kolme rühma.",
+    "Unustatakse komorbiidsus – häired esinevad sageli koos."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline riskitegurite rühm?",
+   "ryhmad": [
+    "Individuaalne",
+    "Perekondlik",
+    "Keskkondlik"
+   ],
+   "read": [
+    {
+     "tekst": "Neuroloogiline defitsiit",
+     "oige": 0
+    },
+    {
+     "tekst": "Ebakorrapärane vanemlik distsipliin",
+     "oige": 1
+    },
+    {
+     "tekst": "Vägivald naabruskonnas",
+     "oige": 2
+    },
+    {
+     "tekst": "Isa ja vanaisa on samuti kuritegusid toime pannud",
+     "oige": 1
+    }
+   ]
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

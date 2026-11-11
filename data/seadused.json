@@ -2532,6 +2532,24 @@
     "[RT I, 20.12.2019, 1 - jõust. 30.12.2019]"
    ]
   },
+  "VangS § 14": {
+   "akt": "VangS",
+   "nr": "14",
+   "read": [
+    "§ 14. Kinnipeetava vastuvõtmine vanglas",
+    "(1) Vanglasse saabumisel kuuluvad kinnipeetav ja tema isiklikud asjad läbiotsimisele. Kinnipeetava läbiotsimise viib läbi kinnipeetavaga samast soost vanglaametnik. Kinnipeetav on kohustatud läbima tervisekontrolli, mida teeb tervishoiutöötaja.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]",
+    "(1^1) Alaealisest kahtlustatavast kinnipeetu tervisekontrolli eesmärk on hinnata eelkõige tema üldist vaimset ja füüsilist seisundit. Kontrolli järeldused tehakse teatavaks menetlejale. Kui ilmnevad uued asjaolud, tehakse täiendav kontroll.",
+    "[RT I, 20.12.2019, 1 - jõust. 30.12.2019]",
+    "(1^2) Kinnipeetava vanglasse saabumisel hinnatakse tema riske eesmärgiga tagada vangla julgeolek ja kord ning korraldada karistuse täideviimine.",
+    "[RT I, 31.12.2024, 4 - jõust. 10.01.2025]",
+    "(2) Hiljemalt vanglasse saabumisele järgneval päeval kohtub kinnipeetav vanglateenistuse ametnikuga, kes selgitab kinnipeetavale tema õigusi ja kohustusi. Kinnipeetavale antakse kirjalik teave vangistuse täideviimist reguleerivate seaduste, vangla sisekorraeeskirjade ja kaebuste esitamise kohta.",
+    "[RT I 2009, 39, 261 - jõust. 24.07.2009]",
+    "(3) Kinnipeetav paigutatakse vastuvõtuosakonda. Vastuvõtuosakonnas tehakse kindlaks kinnipeetava eluloolised andmed, määratletakse tema sotsiaalpsühholoogiline prognoos ja selgitatakse välja muud andmed, mis on vajalikud kinnipeetava individuaalse täitmiskava koostamiseks vastavalt käesoleva seaduse §-le 16.",
+    "[RT I 2006, 63, 466 - jõust. 01.02.2007]",
+    "(4) Kinnipeetava vastuvõtuosakonnas viibimise aeg ei tohi ületada kolme kuud."
+   ]
+  },
   "VangS § 15": {
    "akt": "VangS",
    "nr": "15",
@@ -2556,6 +2574,28 @@
     "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]",
     "(4) Vanglateenistus võib keelata täiendavalt aineid ja esemeid, mis ei ole keelatud asjade loetelus, kuid vastavad käesoleva paragrahvi lõikes 2 sätestatud tingimustele.",
     "[RT I 2009, 39, 261 - jõust. 24.07.2009]"
+   ]
+  },
+  "VangS § 16": {
+   "akt": "VangS",
+   "nr": "16",
+   "read": [
+    "§ 16. Kinnipeetava individuaalne täitmiskava",
+    "(1) Kinnipeetavale, kelle poolt reaalselt ärakandmisele kuuluva vangistuse tähtaeg ületab ühte aastat, koostatakse kinnipeetava individuaalne täitmiskava, milles nähakse ette:",
+    "[RT I 2006, 63, 466 - jõust. 01.02.2007]",
+    "1) kinnipeetava paigutamine vanglas;",
+    "2) kinnipeetava ümberpaigutamine avavanglasse või teise kinnisesse vanglasse;",
+    "3) kinnipeetava töövõimelisus ja kutseoskused;",
+    "4) kinnipeetavale üldhariduse või kutsehariduse või tööalase enesetäiendamise eesmärgiga täienduskoolituse andmise vajadus;",
+    "[RT I, 23.03.2015, 5 - jõust. 01.07.2015]",
+    "5) kinnipeetavale kohaldatavad soodustused;",
+    "6) kinnipeetava vabastamise ettevalmistamiseks vajalikud abinõud;",
+    "7) muud vangistuse täideviimise eesmärkide saavutamiseks vajalikud abinõud.",
+    "(2) Kinnipeetava individuaalset täitmiskava arutatakse kinnipeetavaga.",
+    "(3) Kinnipeetava individuaalset täitmiskava muudetakse ja täiendatakse vastavalt kinnipeetava arengule.",
+    "(4) Kinnipeetava individuaalse täitmiskava kinnitab vanglateenistuse ametnik.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]",
+    "(5) Kinnipeetava individuaalse täitmiskava koostamise ja rakendamise juhendi kehtestab valdkonna eest vastutav minister."
    ]
   },
   "VangS § 1^1": {
@@ -2845,6 +2885,14 @@
     "[RT I, 07.03.2023, 4 - jõust. 01.07.2024]",
     "(2) Tervishoiutöötaja on kohustatud pidevalt jälgima kinnipeetavate terviseseisundit, ravima neid vanglas olevate võimaluste piires ja vajaduse korral suunama ravile asjakohase eriarstiabi osutaja juurde, samuti täitma teisi talle pandud ülesandeid.",
     "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]"
+   ]
+  },
+  "VangS § 57": {
+   "akt": "VangS",
+   "nr": "57",
+   "read": [
+    "§ 57. Sotsiaalhoolekande eesmärk",
+    "Sotsiaalhoolekande eesmärk on aidata kinnipeetaval säilitada ja luua sotsiaalselt olulisi ja positiivseid kontakte väljaspool vanglat, suurendada tema iseseisvat toimetulekuvõimet ning mõjutada teda õiguskuulekalt käituma."
    ]
   },
   "VangS § 6": {

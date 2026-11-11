@@ -1,0 +1,152 @@
+{
+ "id": "ps-t05-05",
+ "tund": "ps-t05",
+ "jrk": 5,
+ "pealkiri": "Narkootikumid: seos kuritegevusega, ravi ja eetika",
+ "lyhend": "Narkootikumid ja ravi",
+ "ikoon": "rist",
+ "lyhidalt": "Narkootikumid ei ole alati kuriteo põhjus – vahel järgneb tarvitamine kuriteole. Eristatakse peamiselt tarvitajaid ja peamiselt kurjategijaid. Vanglas kasutatakse grupisekkumisi ja ravimeid; ravile suunamisel tekib eetiline küsimus vabatahtlikkusest.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Seos kuritegevusega",
+   "tekst": "Narkootikumide tarvitamine ei ole alati kuriteo põhjus – vahel **järgneb** see kuriteole (nt eduka kuriteo tähistamine). Kuna tarvitamist ei saa alati seaduslikult rahastada, tehakse kuritegusid ka raha saamiseks.\n\nSeos kuritegevusega tekib ühest või mitmest tegurist koos: **vähene enesekontroll, üldine hälbiv eluviis, lähedane side kriminaalsete isikutega**.",
+   "skeem": [
+    {
+     "tyyp": "vordlus",
+     "pealkiri": "Kaks tüüpi",
+     "veerud": [
+      "Peamiselt ainete tarvitaja",
+      "Peamiselt kurjategija"
+     ],
+     "read": [
+      {
+       "silt": "Kuritegevus",
+       "lahtrid": [
+        "suureneb tarvitamise ajal",
+        "toimub enne tarvitamist"
+       ]
+      },
+      {
+       "silt": "Tase",
+       "lahtrid": [
+        "üldiselt väga madal",
+        "oluliselt rohkem kuritegusid"
+       ]
+      },
+      {
+       "silt": "Mida teha",
+       "lahtrid": [
+        "ravi vähendab ka kuritegevust",
+        "ravist üksi ei piisa – vaja tegeleda kriminaalse mõtlemise ja kaaslastega"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Ravi ja korduvkuritegevuse vähendamine",
+   "tekst": "Vanglas kasutatakse sõltuvusraviks peamiselt **grupisekkumisi ehk sotsiaalprogramme** (nt Eluviis 24/7, 12 sammu). Lisaks on kasutusel ravimid (nt metadoon, buprenorfiin, naltreksoon); kursuse järgi vähendab naltreksoon kuritegevust rohkem kui psühholoogilised sekkumised.\n\nMotivatsioon ja raviks valmisolek ennustavad ravi tulemust.",
+   "skeem": {
+    "tyyp": "kaardid",
+    "pealkiri": "Mis vähendab korduvkuritegevust ainete tarvitajatel",
+    "kaardid": [
+     {
+      "pealkiri": "Seos enne sekkumist",
+      "silt": "1",
+      "tekst": "selgita välja, kuidas tarvitamine ja kuritegevus on seotud, ja vali selle järgi sekkumine"
+     },
+     {
+      "pealkiri": "Riski järgi",
+      "silt": "2",
+      "tekst": "programmid kõrgema riskiga inimestele; kõigi risk hinnatakse",
+      "toon": "b"
+     },
+     {
+      "pealkiri": "Ravimid lisaks",
+      "silt": "3",
+      "tekst": "farmakoloogia lisaravina + tugi ja järelevalve pärast vabanemist"
+     },
+     {
+      "pealkiri": "Aine järgi",
+      "silt": "4",
+      "tekst": "arvesta, et seos kuritegevusega sõltub ainest",
+      "toon": "b"
+     }
+    ],
+    "kitsad": true
+   },
+   "read": []
+  },
+  "piiramine": {
+   "pealkiri": "Eetika: kas ravi võib peale suruda?",
+   "tekst": "Sundkliendina ravile saatmine tõstatab küsimusi õigluse ja inimõiguste kohta. Kursus viitab, et õigus ravist keelduda tuleneb Euroopa inimõiguste konventsiooni artiklist 8 (eraelu austamine): vabas ühiskonnas ei pea inimene käituma viisil, mis on talle hea.",
+   "punktid": [
+    "Kas inimene saab anda **informeeritud nõusoleku** – või keelduda?",
+    "Probleem: kui osalemine on „valik”, kuid keeldumise eest karistatakse hiljem igal sammul.",
+    "Eraelu austamise õigus: [[EIÕK art 8 lg 1]]."
+   ]
+  },
+  "vangla": {
+   "tekst": "Inspektor-kontaktisik motiveerib, mitte ei sunni: selgitab, mida programm annab, ja austab otsust. Ravile suunamisel tuleb olla aus, mis on keeldumise tagajärjed.",
+   "naide": {
+    "olukord": "Kinnipeetav keeldub sõltuvusprogrammist: „Ma ei ole sõltlane.” Kolleeg soovitab ähvardada soodustuste kaotamisega.",
+    "analyys": "Ähvardus teeb osalemise näiliselt vabatahtlikuks, kuid tegelikult sunnitakse – see on kursuses kirjeldatud eetiline probleem ja motivatsioon jääb väliseks. Parem: motiveeriv vestlus (tund 2), info programmi kohta ja tema enda eesmärkide sidumine programmiga."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Arvatakse, et narkootikumid on alati kuriteo põhjus. Vahel järgneb tarvitamine kuriteole.",
+    "Tüübid aetakse segi: „peamiselt kurjategija” teeb kuritegusid juba enne tarvitamist."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Kumb tüüp?",
+   "ryhmad": [
+    "Peamiselt ainete tarvitaja",
+    "Peamiselt kurjategija"
+   ],
+   "read": [
+    {
+     "tekst": "Varastas ainult siis, kui oli joobes ja raha otsas",
+     "oige": 0
+    },
+    {
+     "tekst": "Juhtis narkoäri juba enne, kui hakkas ise tarvitama",
+     "oige": 1
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis ennustab kursuse järgi ainete tarvitajate ravi tulemust?",
+   "valikud": [
+    "Vangistuse pikkus",
+    "Motivatsioon ja raviks valmisolek",
+    "Aine hind",
+    "Vanus"
+   ],
+   "oige": 1,
+   "selgitus": "Seepärast on motiveerimine nii oluline."
+  }
+ ],
+ "erinevused": [
+  {
+   "silt": "Õppematerjal",
+   "teema": "Ravimite kasutusala (tund 5, „Narkootilised ained”)",
+   "konspekt": "Õppematerjalis on metadooni ja buprenorfiini juures kirjas, et neid kasutatakse „eelkõige kokaiini kasutamise vähendamiseks”.",
+   "ametlik": "Mõlemad on opioidid ja neid kasutatakse opioidisõltuvuse raviks (nii on kirjas ka sama õppematerjali buprenorfiini kirjelduses: „opioidi kasutamise häirete … raviks”). Lehel ei korrata kokaiini väidet – küsi õppejõult."
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": []
+}

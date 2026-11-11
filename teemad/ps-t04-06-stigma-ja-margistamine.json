@@ -1,0 +1,119 @@
+{
+ "id": "ps-t04-06",
+ "tund": "ps-t04",
+ "jrk": 6,
+ "pealkiri": "Stigma ja märgistamisteooria",
+ "lyhend": "Stigma",
+ "ikoon": "sildid",
+ "lyhidalt": "Stigma on häbimärgistamine, millega kaasneb ebaõiglane kohtlemine. Märgistamisteooria järgi võib silt („kurjategija”, „probleemne”) muutuda inimese identiteediks ja tekitada ennasttäitva ennustuse.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Mis on stigma",
+   "tekst": "**Stigmatiseerimine ehk häbimärgistamine** on see, kui kellessegi suhtutakse negatiivselt ja ebaõiglaselt – see kahjustab teda. Tavaliselt kaasneb sellega **ebaõiglane kohtlemine**.\n\n**Miks stigma tekib:** probleemid on sageli nähtamatud; puudulik teadlikkus tekitab eelarvamusi ja stereotüüpe; meedia klikke otsiv kajastus tugevdab negatiivseid stereotüüpe.\n\nStigma tõttu ei pöördu paljud abi saama: üle poolte neist, kellele psühhiaatri abi kasu tooks, ei lähe isegi esimesele vastuvõtule (Purre, 2019)."
+  },
+  "alus": {
+   "pealkiri": "Märgistamisteooria",
+   "tekst": "Märgistamisteooria (*labeling theory*) järgi ei ole hälbivus teos endas – see tekib siis, kui ühiskond ütleb, et tegu või inimene on „halb”. Silt võib muutuda inimesele omaks ja tekitada **ennasttäitva ennustuse**: inimene hakkab end nägema sildi kaudu ja käitub vastavalt ootustele.",
+   "skeem": {
+    "tyyp": "voog",
+    "pealkiri": "Märgistamise neli etappi",
+    "sammud": [
+     {
+      "pealkiri": "1. Esmane hälbivus",
+      "tekst": "Algne rikkumine (nt koolist puudumine, vargus). Õigustatakse kui ajutist eksimust – enesepilt ei muutu."
+     },
+     {
+      "pealkiri": "2. Ühiskondlik reaktsioon",
+      "tekst": "Politsei, kool, õigussüsteem reageerivad ja annavad sildi: „õigusrikkuja”, „probleemne noor”."
+     },
+     {
+      "pealkiri": "3. Stigmatiseerimine",
+      "tekst": "Silt tekitab stigma; inimene jääb ilma tavalistest võimalustest (töö, haridus); suhtumine muutub püsivalt negatiivseks."
+     },
+     {
+      "pealkiri": "4. Teisene hälbivus",
+      "tekst": "Inimene võtab sildi omaks, seob end teiste tõrjututega; hälbiv käitumine süveneb ja muutub identiteediks."
+     }
+    ]
+   },
+   "read": []
+  },
+  "piiramine": {
+   "pealkiri": "Mida silmas pidada",
+   "tekst": "",
+   "punktid": [
+    "Ka ametnike sildid („raske klient”, „jõugumees”) võivad saada ennasttäitvaks: kui oodatakse halba, see sageli materialiseerub (tund 6).",
+    "Räägi käitumisest, mitte inimesest: „sa karjusid” – mitte „sa oled agressiivne”.",
+    "Inimväärikuse austamine on seaduse nõue ([[VangS § 4^1 lg 1]])."
+   ]
+  },
+  "vangla": {
+   "tekst": "Inspektor-kontaktisik saab ennasttäitvat ennustust katkestada: märgata ja tunnustada käitumist, mis sildiga ei sobi, ning aidata leida uue identiteedi (töötaja, õppija, isa).",
+   "naide": {
+    "olukord": "Kinnipeetav ütleb: „Kes mind pärast vanglat ikka tööle võtab? Pole mõtet proovidagi.”",
+    "analyys": "See on ennasttäitva ennustuse algus: kui ta ei kandideeri, ei saagi ta tööd – ja näeb selles kinnitust. Ametnik saab tuua näiteid tema tugevustest, aidata valmistada ette konkreetseid samme ja tugiteenuseid enne vabanemist ([[VangS § 16 lg 1 p 6]] – vabastamise ettevalmistus)."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Esmane ja teisene hälbivus aetakse segi: esmane – algne rikkumine, enesepilt ei muutu; teisene – silt on omaks võetud.",
+    "Unustatakse ametnike roll: ka vanglasüsteem annab silte."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline märgistamise etapp?",
+   "ryhmad": [
+    "Esmane hälbivus",
+    "Ühiskondlik reaktsioon",
+    "Stigmatiseerimine",
+    "Teisene hälbivus"
+   ],
+   "read": [
+    {
+     "tekst": "14-aastane varastab poest šokolaadi.",
+     "oige": 0
+    },
+    {
+     "tekst": "Kool ja politsei nimetavad teda „probleemseks nooreks”.",
+     "oige": 1
+    },
+    {
+     "tekst": "Teda ei võeta trenni ega suvetööle.",
+     "oige": 2
+    },
+    {
+     "tekst": "Ta ütleb: „Ma olengi kurjategija” ja liitub vanemate seltskonnaga.",
+     "oige": 3
+    }
+   ]
+  },
+  {
+   "tyyp": "kaasus",
+   "kysimus": "Kinnipeetav on kolmandat korda vanglas. Ametnikud kutsuvad teda omavahel „meie püsikundeks”. Ta ise ütleb, et vabanedes ei ole tal mõtet tööd otsida. Selgita märgistamisteooria abil, mis toimub, ja mida ametnik teeb.",
+   "vastus": [
+    "**Silt:** „püsikunde” – ametnike ootus, et ta tuleb tagasi.",
+    "**Etapp:** teisene hälbivus – ta näeb end sildi kaudu ega usu muutusse.",
+    "**Ennasttäitev ennustus:** ei otsi tööd → ei saa tööd → kordab kuritegu → „nagu arvati”.",
+    "**Ametniku roll:** ei kasuta silte; tunnustab sildiga vastuolus olevat käitumist; valmistab koos temaga ette vabanemist (töö, tugiteenused).",
+    "**Järeldus:** silt mõjutab käitumist – ametnik saab ahela katkestada."
+   ],
+   "juhis": "Mõtle läbi: mis on toimunud, mis teooria seda selgitab ja mida inspektor-kontaktisik teeb."
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Purre (2019) viide pärineb õppejõu materjalist.",
+   "allikas": "tunnimaterjal"
+  },
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}
