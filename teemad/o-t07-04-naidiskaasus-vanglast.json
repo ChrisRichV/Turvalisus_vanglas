@@ -1,0 +1,217 @@
+{
+ "id": "o-t07-04",
+ "tund": "o-t07",
+ "jrk": 4,
+ "pealkiri": "Näidiskaasus vanglast samm-sammult",
+ "lyhend": "Näidiskaasus",
+ "ikoon": "kambriuks",
+ "kysimused": [],
+ "lyhidalt": "Siin lahendame ühe vanglakaasuse algusest lõpuni analüüsivas stiilis: küsimus, norm, tunnused, asjaolud, seostamine ja järeldus. Lõpus on sama lahendus lühidalt otsustusstiilis.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Kaasus",
+   "tekst": "**Asjaolud.** Kinnipeetav Mart (25) kannab vangistust kinnises vanglas. Tema karistus pöörati täitmisele, kui ta oli 20-aastane. Mart keeldus 3. märtsil korduvalt ametniku korraldusest lahkuda kogunemisalast, sest „tahtis lõpetada mängu”. Ametnik koostas protokolli. 10. märtsil teatati Martile, milles teda süüdistatakse, ja ta andis selgituse: „Ma ei kuulnud korraldust.” Kaamerasalvestisel on näha, kuidas ametnik seisab Mardi kõrval ja Mart vastab talle. 20. märtsil määras vanglateenistus käskkirjaga Mardile kartseri 20 ööpäevaks, põhjendades seda „rikkumise raskusega”.\n\n**Küsimus.** Kas Mardile distsiplinaarkaristuse määramine oli õiguspärane?",
+   "skeem": [
+    {
+     "tyyp": "kaardid",
+     "pealkiri": "Enne lahendamist: mida küsitakse?",
+     "kaardid": [
+      {
+       "silt": "1",
+       "pealkiri": "Kas oli alus karistada?",
+       "tekst": "Kas täidetud on distsiplinaarkaristuse tingimused?",
+       "viide": "VangS § 63 lg 1"
+      },
+      {
+       "silt": "2",
+       "pealkiri": "Kas menetlus oli õige?",
+       "tekst": "Kas kinnipeetavale öeldi süüdistus ja anti võimalus selgitada? Tähtajad?",
+       "viide": "VangS § 64 lg 2",
+       "toon": "b"
+      },
+      {
+       "silt": "3",
+       "pealkiri": "Kas tagajärg oli lubatud?",
+       "tekst": "Kas valitud karistus mahub seaduse piiridesse?",
+       "viide": "VangS § 63 lg 1 p 4",
+       "toon": "c"
+      }
+     ],
+     "allkiri": "„Õiguspärane” on lai küsimus – see hõlmab alust, menetlust ja tagajärge."
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Lahendus analüüsivas stiilis",
+   "tekst": "Kasutan analüüsivat stiili. Vastus sõltub kolmest asjast: kas oli alus, kas menetlus oli nõuetekohane ja kas valitud karistus oli seaduse piires.",
+   "read": [
+    {
+     "tase": "Alus",
+     "viited": [
+      "VangS § 63 lg 1",
+      "VangS § 67"
+     ],
+     "tekst": "Süüline rikkumine; kohustus alluda ametnike seaduslikele korraldustele."
+    },
+    {
+     "tase": "Menetlus",
+     "viited": [
+      "VangS § 64 lg 2",
+      "VangS § 64 lg 4",
+      "VangS § 64 lg 4^1"
+     ],
+     "tekst": "Teavitamine ja selgitused; põhjendatud käskkiri; tähtaeg."
+    },
+    {
+     "tase": "Tagajärg",
+     "viited": [
+      "VangS § 63 lg 1 p 4",
+      "VangS § 63 lg 3"
+     ],
+     "tekst": "Kartseri ülempiir; karistuse valik arvestab vangistuse eesmärki."
+    }
+   ],
+   "skeem": {
+    "tyyp": "subsumeeri",
+    "pealkiri": "1. osa – kas oli alus karistada?",
+    "viide": "VangS § 63 lg 1",
+    "kysimus": "Kas Mardile võis kohaldada distsiplinaarkaristust?",
+    "seos": "ja",
+    "read": [
+     {
+      "tunnus": "Kinnipeetav",
+      "asjaolu": "Mart kannab vangistust kinnises vanglas.",
+      "taidetud": true,
+      "selgitus": "Täidetud."
+     },
+     {
+      "tunnus": "Seaduse, sisekorraeeskirja või muu õigusakti nõude rikkumine",
+      "asjaolu": "Keeldus korduvalt ametniku korraldusest lahkuda kogunemisalast.",
+      "toend": "protokoll, kaamerasalvestis",
+      "taidetud": true,
+      "selgitus": "Kinnipeetav on kohustatud alluma ametnike seaduslikele korraldustele ([[VangS § 67]]). Kaasuses ei ole märke, et korraldus oleks olnud ebaseaduslik."
+     },
+     {
+      "tunnus": "Rikkumine on süüline",
+      "asjaolu": "Mart väidab, et ei kuulnud. Salvestisel vastab ta ametnikule, kes seisab tema kõrval.",
+      "toend": "Mardi seletus, salvestis",
+      "taidetud": true,
+      "selgitus": "Mardi väide on tõenditega ümber lükatud: ta kuulis korraldust ja vastas sellele. Rikkumine oli teadlik."
+     }
+    ],
+    "tagajarg": "**Võib** kohaldada distsiplinaarkaristusi (kaalutlus).",
+    "jareldus": "Alus distsiplinaarkaristuse kohaldamiseks oli olemas."
+   }
+  },
+  "piiramine": {
+   "pealkiri": "2. ja 3. osa – menetlus ja tagajärg",
+   "tekst": "Alus on olemas, aga see ei tähenda veel, et karistus oli õiguspärane. Kontrolli edasi.",
+   "skeem": {
+    "tyyp": "kontroll",
+    "pealkiri": "Menetlus ja karistuse valik",
+    "sammud": [
+     {
+      "silt": "Menetlus",
+      "kysimus": "Kas Martile teatati süüdistusest ja anti võimalus selgitada?",
+      "vastus": "Jah – 10. märtsil teatati, Mart andis selgituse. Nõue on täidetud.",
+      "viited": [
+       "VangS § 64 lg 2"
+      ]
+     },
+     {
+      "silt": "Tähtaeg",
+      "kysimus": "Kas karistus määrati tähtaegselt?",
+      "vastus": "Rikkumine 3. märtsil, karistus 20. märtsil – mahub ühe kuu sisse teadasaamisest ja kuue kuu sisse rikkumisest. Täidetud.",
+      "viited": [
+       "VangS § 64 lg 4^1"
+      ]
+     },
+     {
+      "silt": "Põhjendus",
+      "kysimus": "Kas käskkiri oli põhjendatud?",
+      "vastus": "Põhjendus „rikkumise raskusega” on väga üldine. Ei selgu, miks valiti just kõige raskem karistus. Põhjendamise nõue on kahtlane.",
+      "viited": [
+       "VangS § 64 lg 4"
+      ]
+     },
+     {
+      "silt": "Ülempiir",
+      "kysimus": "Kas karistus mahub seaduse piiridesse?",
+      "vastus": "**Ei.** Kartserisse paigutamine on lubatud kuni 14 ööpäevaks. 20 ööpäeva ületab ülempiiri.",
+      "viited": [
+       "VangS § 63 lg 1 p 4"
+      ]
+     },
+     {
+      "silt": "Erinorm",
+      "kysimus": "Kas Mart on noor kinnipeetav?",
+      "vastus": "Noor kinnipeetav on see, kes karistuse täitmisele pööramise ajal oli alla 21 ([[VangS § 77]]). Mart oli 20 – seega on ta noor kinnipeetav ja tema kartseri ülempiir on veelgi lühem: kuni 3 ööpäeva.",
+      "viited": [
+       "VangS § 77",
+       "VangS § 63 lg 2"
+      ]
+     }
+    ],
+    "jareldus": "Alus karistamiseks oli olemas ja menetlus suures osas korras, kuid valitud karistus ületas seaduse ülempiiri (noore kinnipeetava puhul 3 ööpäeva). **Distsiplinaarkaristuse määramine ei olnud õiguspärane.** Mart saab esitada vaide ja seejärel kaebuse halduskohtule ([[VangS § 1^1 lg 5]])."
+   }
+  },
+  "vangla": {
+   "tekst": "Sama lahendus otsustusstiilis – nii näeks välja vaideotsuse põhjendus:\n\n*„Rahuldada kinnipeetav Mardi vaie. Distsiplinaarkaristus määrati süülise rikkumise eest ([[VangS § 63 lg 1]], [[VangS § 67]]), kuid kartserisse paigutamise kestus ületas seadusega lubatud ülempiiri. Mart on noor kinnipeetav ([[VangS § 77]]), keda võib kartserisse paigutada kuni kolmeks ööpäevaks ([[VangS § 63 lg 2]]).”*",
+   "naide": {
+    "olukord": "Kursusekaaslane lahendas sama kaasuse nii: „Mart rikkus korda, seega võis talle anda kartserit. Karistus oli õiguspärane.”",
+    "analyys": "**Mis puudub:** 1) normi tunnused ei ole välja toodud; 2) süülisust ei ole kontrollitud (Mardi väide, et ta ei kuulnud); 3) menetlust ei ole kontrollitud; 4) karistuse **ülempiiri** ei ole kontrollitud; 5) spetsialiseeritud normid (§ 77, § 63 lg 2) on leidmata. **Järeldus:** lahendus on otsustusstiilis ja vale – just kõige olulisem viga (ülempiir) jäi märkamata."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Kontrollitakse ainult alust ja peetakse karistust seetõttu õiguspäraseks.",
+    "Jäetakse märkamata, et kinnipeetav on noor kinnipeetav (vanus **karistuse täitmisele pööramise ajal**, mitte praegu).",
+    "Kasutatakse vanade slaidide ülempiire (45 / 20 ööpäeva) kehtivate (14 / 3) asemel.",
+    "Kinnipeetava väide („ei kuulnud”) võetakse tõena, kuigi tõendid näitavad muud."
+   ]
+  }
+ },
+ "vastus": [],
+ "harjutused": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Kinnipeetav on 23-aastane; karistus pöörati täitmisele, kui ta oli 19. Kas ta on noor kinnipeetav?",
+   "valikud": [
+    "Ei, ta on üle 21",
+    "Jah – loeb vanus karistuse täitmisele pööramise ajal",
+    "Ainult avavanglas"
+   ],
+   "oige": 1,
+   "selgitus": "[[VangS § 77]]."
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis on täiskasvanud kinnipeetava kartseri ülempiir kehtiva VangS-i järgi?",
+   "valikud": [
+    "45 ööpäeva",
+    "20 ööpäeva",
+    "14 ööpäeva"
+   ],
+   "oige": 2,
+   "selgitus": "[[VangS § 63 lg 1 p 4]]. 45 ööpäeva oli seaduse varasemas redaktsioonis."
+  },
+  {
+   "tyyp": "kaasus",
+   "juhis": "Lahenda ise: küsimus → norm ja tunnused → asjaolud → järeldus.",
+   "kysimus": "Kinnipeetav Peeter (30) solvas 1. aprillil ametnikku. Vangla sai rikkumisest teada samal päeval, kuid määras noomituse käskkirjaga alles 15. mail. Kas karistus määrati tähtaegselt?",
+   "vastus": [
+    "**Küsimus:** kas karistuse määramise tähtaeg oli järgitud?",
+    "**Norm:** karistuse võib määrata kuue kuu jooksul rikkumisest, kuid mitte hiljem kui ühe kuu jooksul teadasaamisest ([[VangS § 64 lg 4^1]]).",
+    "**Asjaolud:** teadasaamine 1. aprillil, karistus 15. mail – möödus üle ühe kuu.",
+    "**Järeldus:** karistus määrati tähtaega rikkudes; see ei olnud õiguspärane."
+   ]
+  }
+ ],
+ "erinevused": [],
+ "valjast": [
+  {
+   "tekst": "Kaasus ja lahendus on koostatud selle lehe jaoks kehtiva VangS-i järgi (seisuga 10.11.2026). Õppejõu näidiskaasus (Käbi kogumikus) on päästeteenistuse kohta.",
+   "allikas": "Claude'i koostatud harjutus"
+  }
+ ]
+}

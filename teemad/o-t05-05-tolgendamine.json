@@ -1,0 +1,220 @@
+{
+ "id": "o-t05-05",
+ "tund": "o-t05",
+ "jrk": 5,
+ "pealkiri": "Tõlgendamise võtted",
+ "lyhend": "Tõlgendamine",
+ "ikoon": "tolgendus",
+ "kysimused": [
+  13
+ ],
+ "lyhidalt": "Seaduse sõnad ei ole alati üheselt selged. Tõlgendamine on normi sisu väljaselgitamine nelja võttega: sõnade järgi (grammatiline), teiste sätete abil (süstemaatiline), seadusandja tahte järgi (ajalooline) ja normi eesmärgi järgi (teleoloogiline).",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Neli võtet",
+   "tekst": "Enne kui normi rakendad, pead aru saama, mida see tähendab. Õigusakti keel on eriline: tavalisel sõnal võib seaduses olla kitsam või laiem tähendus. Tõlgendamiseks on neli klassikalist võtet – need ei välista üksteist, vaid täiendavad.",
+   "skeem": [
+    {
+     "tyyp": "sambad",
+     "pealkiri": "Tõlgendamise neli sammast",
+     "katus": {
+      "pealkiri": "Normi tegelik sisu",
+      "tekst": "Mida see säte konkreetsel juhul tähendab?"
+     },
+     "sambad": [
+      {
+       "pealkiri": "Grammatiline",
+       "read": [
+        "sõnade tähendus",
+        "eesti keele reeglid",
+        "õigus- ja erialaterminid",
+        "legaaldefinitsioon"
+       ]
+      },
+      {
+       "pealkiri": "Süstemaatiline",
+       "toon": "b",
+       "read": [
+        "kus säte paikneb",
+        "seos teiste sätetega",
+        "teised seadused"
+       ]
+      },
+      {
+       "pealkiri": "Ajalooline",
+       "read": [
+        "tekst vastuvõtmise ajal",
+        "seletuskiri",
+        "Riigikogu stenogrammid",
+        "varasemad redaktsioonid"
+       ]
+      },
+      {
+       "pealkiri": "Teleoloogiline",
+       "toon": "b",
+       "read": [
+        "normi eesmärk täna",
+        "kohtupraktika",
+        "ühiskonna vajadused"
+       ]
+      }
+     ],
+     "alus": {
+      "pealkiri": "Seaduse tekst",
+      "tekst": "Alati alusta sõnadest – teised võtted ei tohi teksti vastu minna."
+     }
+    }
+   ],
+   "jarel": "Kui kõik neli annavad sama tulemuse – suurepärane. Kui mitte, kaalub kohus, milline tõlgendus vastab kõige paremini normi eesmärgile. Slaidil on Riigikohtu näide: kas kõnniteel tohib parkida? Grammatiline ja süstemaatiline võte ütlevad, et kõnnitee on tee nagu iga teine; eesmärgipärane võte ütleb, et kõnnitee on jalakäija ohutuse jaoks."
+  },
+  "alus": {
+   "pealkiri": "Kuidas mõiste sisu leida – 4 reeglit",
+   "tekst": "Grammatilise tõlgenduse juures on slaididel lihtne töökäik. Mine järjest alla, kuni vastus on käes.",
+   "read": [
+    {
+     "tase": "1. Legaaldefinitsioon",
+     "viited": [
+      "VangS § 77",
+      "HÕNTE § 18 lg 6",
+      "HÕNTE § 18 lg 7"
+     ],
+     "tekst": "Kas seadus ise ütleb, mida sõna tähendab? „Käesoleva seaduse tähenduses” = see ja ainult see tähendus. Võib olla ka teises seaduses, millele viidatakse."
+    },
+    {
+     "tase": "2. Haldus- ja kohtupraktika",
+     "viited": [
+      "ATS § 51 lg 4"
+     ],
+     "tekst": "Kuidas on sõna sisustanud Riigikohus? Slaidi näide: „diskrediteerima” (ATS) – Riigikohus: ainult siis, kui tegu on oluliselt mõjutanud avalikkuse hinnangut asutusele."
+    },
+    {
+     "tase": "3. Kommentaarid ja õigusteadus",
+     "viited": [],
+     "tekst": "Seaduste kommenteeritud väljaanded, õigusteadlaste artiklid."
+    },
+    {
+     "tase": "4. Mõtle ise",
+     "viited": [
+      "PS § 13 lg 2"
+     ],
+     "tekst": "Põhjenda oma tõlgendust – see peab olema mõistlik ja kaitsma isikut omavoli eest."
+    }
+   ],
+   "skeem": {
+    "tyyp": "kaardid",
+    "pealkiri": "Iga võte vangla näitel",
+    "kaardid": [
+     {
+      "silt": "G",
+      "pealkiri": "Grammatiline",
+      "tekst": "„Noor kinnipeetav” – seadus ütleb: alla 21 karistuse täitmisele pööramise ajal. Tavakeele „noor” ei loe.",
+      "viide": "VangS § 77"
+     },
+     {
+      "silt": "S",
+      "pealkiri": "Süstemaatiline",
+      "tekst": "Kinnipidamise korra leiad korrakaitseseadusest, sest VangS viitab sinna.",
+      "viide": "VangS § 71 lg 3^1",
+      "toon": "b"
+     },
+     {
+      "silt": "A",
+      "pealkiri": "Ajalooline",
+      "tekst": "Pikaajalise kokkusaamise tingimusi faktilise abikaasaga on muudetud – varasem „ühine majapidamine” ei ole enam eraldi alus.",
+      "viide": "VangS § 25 lg 1"
+     },
+     {
+      "silt": "T",
+      "pealkiri": "Teleoloogiline",
+      "tekst": "Kahtluse korral küsi: kas tõlgendus aitab suunata õiguskuulekale käitumisele ja kaitsta õiguskorda?",
+      "viide": "VangS § 6 lg 1",
+      "toon": "b"
+     }
+    ]
+   }
+  },
+  "piiramine": {
+   "pealkiri": "Tõlgendamise piirid",
+   "tekst": "Tõlgendamine ei ole uue normi loomine. Mida rohkem tõlgendus isikut koormab, seda ettevaatlikum peab olema.",
+   "punktid": [
+    "**Teksti vastu ei tohi minna.** Kui sõnad on selged, ei saa „eesmärgi” abil isikule lisakohustusi välja mõelda ([[PS § 3 lg 1]]).",
+    "**Karistusõiguses on piirid eriti ranged** – karistada saab ainult teo eest, mida seadus tunnistab süüteoks ([[PS § 23]]).",
+    "**Õigusselgus**: seadus kaitseb igaüht omavoli eest ([[PS § 13 lg 2]]) – tõlgendus, mida keegi ette näha ei saanud, on kahtlane."
+   ]
+  },
+  "vangla": {
+   "tekst": "Vanglas tuleb tõlgendada sageli sõnu nagu „julgeolek”, „kord”, „maine”. Esimene samm on alati: kas seadus on mõiste ise avanud? Kui ei, otsi kohtupraktikat.",
+   "naide": {
+    "olukord": "Kinnipeetav taotleb pikaajalist kokkusaamist elukaaslasega. Nad on elanud koos poolteist aastat ja pidanud ühist majapidamist; ühiseid lapsi pole. Ametnik leiab vanast koolitusmaterjalist, et „ühine majapidamine” on piisav.",
+    "analyys": "**Grammatiline:** kehtiv tekst ütleb, et faktilise abikaasaga lubatakse pikaajalist kokkusaamist, kui neil on ühised lapsed **või** vähemalt kaks aastat väldanud kooselu enne karistuse kandmise algust ([[VangS § 25 lg 1]]). **Ajalooline:** varasemas redaktsioonis oli ka „ühine majapidamine” – see on seadusest välja võetud. **Järeldus:** vana tekst ei kehti; poolteist aastat kooselu ei täida tingimust. Ametnik peab alati kasutama kehtivat redaktsiooni."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Legaaldefinitsioon jäetakse vaatamata ja sõna sisustatakse tavakeele järgi.",
+    "Võtteid nimetatakse, aga ei näidata, kuidas neid kasutati.",
+    "Ajaloolist tõlgendust aetakse segi vana redaktsiooni rakendamisega – vana tekst aitab mõista, aga rakendada saab kehtivat.",
+    "Teleoloogilise võtte abil laiendatakse isikut koormavat normi."
+   ]
+  }
+ },
+ "vastus": [
+  {
+   "nr": 13,
+   "punktid": [
+    "**Grammatiline** – sõnade ja keelereeglite järgi, sh legaaldefinitsioonid ([[HÕNTE § 18 lg 6]]).",
+    "**Süstemaatiline** – sätte koha ja seoste kaudu teiste sätete ja seadustega (nt viitav norm [[VangS § 71 lg 3^1]]).",
+    "**Ajalooline** – seadusandja tahe vastuvõtmise ajal: seletuskiri, stenogrammid, varasemad redaktsioonid.",
+    "**Teleoloogiline** – normi eesmärk täna, sh kohtupraktika (nt vangistuse eesmärk [[VangS § 6 lg 1]]).",
+    "Võtted täiendavad üksteist; tekstist alustatakse alati."
+   ]
+  }
+ ],
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Millist tõlgendamisvõtet kasutatakse?",
+   "ryhmad": [
+    "Grammatiline",
+    "Süstemaatiline",
+    "Ajalooline",
+    "Teleoloogiline"
+   ],
+   "read": [
+    {
+     "tekst": "Loen seaduse eelnõu seletuskirja, et teada, miks säte lisati.",
+     "oige": 2,
+     "selgitus": "Seadusandja tahe."
+    },
+    {
+     "tekst": "Vaatan, mida tähendab „noor kinnipeetav” seaduse enda järgi.",
+     "oige": 0,
+     "selgitus": "[[VangS § 77]]."
+    },
+    {
+     "tekst": "Loen ka KorS-i, sest VangS viitab sinna.",
+     "oige": 1,
+     "selgitus": "[[VangS § 71 lg 3^1]]."
+    },
+    {
+     "tekst": "Küsin, milline tõlgendus aitab kõige paremini saavutada vangistuse eesmärki.",
+     "oige": 3,
+     "selgitus": "[[VangS § 6 lg 1]]."
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mida tähendab „käesoleva seaduse tähenduses”?",
+   "valikud": [
+    "Sõna on tavakeelne",
+    "Seadus annab sõnale oma, siduva tähenduse",
+    "Sõna võib tõlgendada vabalt"
+   ],
+   "oige": 1,
+   "selgitus": "[[HÕNTE § 18 lg 6]]."
+  }
+ ],
+ "erinevused": [],
+ "valjast": []
+}

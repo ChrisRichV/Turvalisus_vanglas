@@ -1,0 +1,239 @@
+{
+ "id": "o-t05-02",
+ "tund": "o-t05",
+ "jrk": 2,
+ "pealkiri": "Normide liigid: mida norm teeb",
+ "lyhend": "Normide liigid",
+ "ikoon": "sildid",
+ "kysimused": [
+  9,
+  10
+ ],
+ "lyhidalt": "Normid teevad erinevat tööd. Üks ütleb, kuidas käituda; teine, kes otsustab; kolmas lubab riigil sekkuda; neljas karistab; viies volitab tegema määrust; kuues seletab sõna. Kui tead, mis liiki norm on, tead, mida sellega teha saab.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Igal normil oma töö",
+   "tekst": "Õigusnormid ei ole kõik ühesugused. Kõige kasulikum on küsida: **mis on selle normi ülesanne?** Slaididel on loetletud üle kümne liigi; eksamil ja töös tulevad kõige sagedamini ette need seitse.",
+   "skeem": [
+    {
+     "tyyp": "kaardid",
+     "pealkiri": "Seitse sagedasemat normiliiki – vangla näidetega",
+     "kaardid": [
+      {
+       "silt": "1",
+       "pealkiri": "Käitumisnorm",
+       "tekst": "Kohustab, keelab või lubab. Kinnipeetav on kohustatud täitma sisekorraeeskirju.",
+       "viide": "VangS § 67"
+      },
+      {
+       "silt": "2",
+       "pealkiri": "Pädevusnorm",
+       "tekst": "Ütleb, **kes** otsustab. Distsiplinaarkaristuse määrab vanglateenistus.",
+       "viide": "VangS § 64 lg 4"
+      },
+      {
+       "silt": "3",
+       "pealkiri": "Sekkumisnorm (õiguslik alus)",
+       "tekst": "Lubab riigil isiku õigustesse sekkuda. Täiendavad julgeolekuabinõud ohtlikule kinnipeetavale.",
+       "viide": "VangS § 69 lg 1",
+       "toon": "b"
+      },
+      {
+       "silt": "4",
+       "pealkiri": "Karistusnorm",
+       "tekst": "Näeb ette karistuse rikkumise eest. Distsiplinaarkaristused.",
+       "viide": "VangS § 63 lg 1",
+       "toon": "c"
+      },
+      {
+       "silt": "5",
+       "pealkiri": "Volitusnorm",
+       "tekst": "Annab õiguse anda **määrus**. Minister kehtestab keelatud asjade loetelu.",
+       "viide": "VangS § 15 lg 3",
+       "toon": "b"
+      },
+      {
+       "silt": "6",
+       "pealkiri": "Mõistenorm (legaaldefinitsioon)",
+       "tekst": "Seletab, mida sõna tähendab. „Noor kinnipeetav” on alla 21-aastane.",
+       "viide": "VangS § 77"
+      },
+      {
+       "silt": "7",
+       "pealkiri": "Korraldus- ja menetlusnorm",
+       "tekst": "Kuidas asja aetakse: vorm, tähtaeg, kord. Vaie lahendatakse 30 päeva jooksul.",
+       "viide": "VangS § 1^1 lg 7"
+      }
+     ]
+    }
+   ],
+   "jarel": "Lisaks on veel nõude alused (isiku subjektiivne õigus midagi nõuda), rakendusnormid (millal seadus jõustub), kohaldatavusnormid (millele seadus laieneb) ning muutvad ja tühistavad normid. Neid läheb harvem vaja."
+  },
+  "alus": {
+   "pealkiri": "Määrus ja volitusnorm",
+   "tekst": "Kordamisküsimus 9 küsib seost määruse ja volitusnormi vahel. See on lihtne, kui meeles pidada üht reeglit: **määrust ei saa anda ilma seaduses oleva volitusnormita**.\n\nValitsus ja minister annavad määrusi **seaduse alusel ja täitmiseks** ([[PS § 87 p 6]], [[PS § 94 lg 2]]). Volitusnorm peab ütlema, kes määruse annab ja mis on selle sisu ja ulatus ([[HÕNTE § 11 lg 3]], [[HÕNTE § 11 lg 4]]). Määruse algusesse (preambulisse) kirjutatakse, millise volitusnormi alusel see antakse ([[HÕNTE § 58 lg 1]]).",
+   "read": [
+    {
+     "tase": "Põhiseadus",
+     "viited": [
+      "PS § 87 p 6",
+      "PS § 94 lg 2",
+      "PS § 3 lg 1"
+     ],
+     "tekst": "Valitsus ja minister annavad määrusi seaduse alusel ja täitmiseks."
+    },
+    {
+     "tase": "Volitusnorm",
+     "viited": [
+      "HÕNTE § 11 lg 1",
+      "HÕNTE § 11 lg 3"
+     ],
+     "tekst": "Annab õiguse või paneb kohustuse kehtestada määrus; peab ütlema selge sisu ja ulatuse."
+    },
+    {
+     "tase": "Preambul",
+     "viited": [
+      "HÕNTE § 58 lg 1"
+     ],
+     "tekst": "Määruse alguses osundatakse volitusnormile."
+    },
+    {
+     "tase": "Määrus",
+     "viited": [
+      "HMS § 88"
+     ],
+     "tekst": "Õigusakt piiritlemata arvu juhtude reguleerimiseks."
+    },
+    {
+     "tase": "Vangla",
+     "viited": [
+      "VangS § 15 lg 3",
+      "VangS § 105 lg 2"
+     ],
+     "tekst": "Minister kehtestab määrusega keelatud asjade loetelu ja vangla sisekorraeeskirjad."
+    }
+   ],
+   "skeem": {
+    "tyyp": "pyramiid",
+    "pealkiri": "Seadusest määruseni – keelatud asjad vanglas",
+    "astmed": [
+     {
+      "pealkiri": "Seadus annab volituse",
+      "tekst": "Keelatud asjade loetelu kehtestab minister määrusega.",
+      "viide": "VangS § 15 lg 3",
+      "vahel": "▼ volitusnorm lubab"
+     },
+     {
+      "pealkiri": "Minister annab määruse",
+      "tekst": "Vangla sisekorraeeskirja algus loetleb VangS-i sätted, mille alusel määrus kehtestatakse – nende hulgas § 15 lg 3.",
+      "viide": "HÕNTE § 58 lg 1",
+      "vahel": "▼ määrus täpsustab"
+     },
+     {
+      "pealkiri": "Määruses on loetelu",
+      "tekst": "Keelatud esemete ja ainete loetelu.",
+      "viide": "VSE § 64^1",
+      "toon": "b"
+     }
+    ]
+   }
+  },
+  "piiramine": {
+   "pealkiri": "Miks liik on oluline",
+   "tekst": "Liigi tundmine aitab vältida kõige sagedasemat viga: kasutada normi, mis ei anna seda, mida otsid.",
+   "punktid": [
+    "**Pädevusnorm ei ole õiguslik alus.** See ütleb, kes otsustab, aga mitte seda, millal ja mida tohib teha. Sekkumiseks on vaja ka sekkumisnormi ([[PS § 3 lg 1]]).",
+    "**Määrus ei saa minna volitusnormist kaugemale.** Kui seadus annab volituse kehtestada loetelu, ei saa määrus lisada uusi karistusi.",
+    "**Mõistenorm üksi ei tee midagi** – see täpsustab teise normi sõna. „Noor kinnipeetav” [[VangS § 77]] on vajalik selleks, et rakendada [[VangS § 63 lg 2]]."
+   ]
+  },
+  "vangla": {
+   "tekst": "Vangla töö on täis kõiki normiliike korraga. Kui ametnik paigutab kinnipeetava eraldatud kambrisse, peab tal olema: **sekkumisnorm** (millal tohib – [[VangS § 69 lg 1]]), **pädevusnorm** (kes otsustab – [[VangS § 69 lg 4]]) ja **menetlusnormid** (kuidas otsust vormistada ja vaidlustada – [[VangS § 1^1 lg 1]]).",
+   "naide": {
+    "olukord": "Vangla sisekorraeeskirjas on kirjas, et teatud otsus on üksuse juhi pädevuses. Ametnik ütleb: „Kuna üksuse juht on pädev, võib ta seda alati teha.”",
+    "analyys": "Sisekorraeeskirja säte ([[VSE § 1^2 lg 1]]) on **pädevusnorm**: see ütleb, kes otsustab. Millal ja mis tingimustel tohib otsustada, ütleb VangS-i säte, millele pädevusnorm viitab (nt [[VangS § 69 lg 4]] koos [[VangS § 69 lg 1]]). **Järeldus:** pädevus üksi ei anna õigust sekkuda – vaja on ka täidetud õiguslikku alust."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Pädevusnormi esitatakse õigusliku alusena. Eksamikaasuses küsi: kas küsitakse **kes** (pädevus) või **millal/mida** (alus)?",
+    "Määruse kohta öeldakse, et see on „seadus”. Määrus on haldusorgani õigusakt piiritlemata arvu juhtude jaoks ([[HMS § 88]]) ja vajab seaduses volitusnormi.",
+    "Legaaldefinitsioon jäetakse kasutamata ja sõna sisustatakse oma arvamusega."
+   ]
+  }
+ },
+ "vastus": [
+  {
+   "nr": 9,
+   "punktid": [
+    "Määrus antakse **seaduse alusel ja täitmiseks** ([[PS § 87 p 6]], [[PS § 94 lg 2]]).",
+    "Selle aluseks on seaduses olev **volitusnorm**, mis annab õiguse (või kohustuse) määrus kehtestada ([[HÕNTE § 11 lg 1]]).",
+    "Volitusnorm määrab akti andja, liigi ning volituse sisu ja ulatuse ([[HÕNTE § 11 lg 3]], [[HÕNTE § 11 lg 4]]); määrus ei tohi sellest väljuda.",
+    "Määruse preambulis osundatakse volitusnormile ([[HÕNTE § 58 lg 1]]). Vangla näide: [[VangS § 15 lg 3]] → keelatud asjade loetelu sisekorraeeskirjas."
+   ]
+  },
+  {
+   "nr": 10,
+   "punktid": [
+    "**Käitumisnorm** kohustab, keelab või lubab isikut (nt [[VangS § 67]]).",
+    "**Sekkumisnorm** annab riigile õigusliku aluse isiku õigustesse sekkuda (nt [[VangS § 69 lg 1]]).",
+    "**Karistusnorm** näeb ette karistuse normi rikkumise eest (nt [[VangS § 63 lg 1]]).",
+    "**Ühine:** kõik on õigusnormid kujul „kui …, siis …”; kõigi taga on riigi sund.",
+    "**Erinevus:** käitumisnorm on suunatud isikule (primaarnorm); sekkumis- ja karistusnorm on suunatud riigile ja rakenduvad siis, kui on oht või käitumisnormi rikuti (sekundaarnorm)."
+   ]
+  }
+ ],
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Mis liiki norm see on?",
+   "ryhmad": [
+    "Käitumisnorm",
+    "Pädevusnorm",
+    "Sekkumisnorm",
+    "Volitusnorm",
+    "Mõistenorm"
+   ],
+   "read": [
+    {
+     "tekst": "Noor kinnipeetav on isik, kes karistuse täitmisele pööramise ajal on noorem kui 21-aastane.",
+     "oige": 4,
+     "selgitus": "[[VangS § 77]] seletab mõistet."
+    },
+    {
+     "tekst": "Keelatud asjade loetelu kehtestab valdkonna eest vastutav minister määrusega.",
+     "oige": 3,
+     "selgitus": "[[VangS § 15 lg 3]] annab volituse määrus kehtestada."
+    },
+    {
+     "tekst": "Kinnipeetav on kohustatud mitte takistama ametnike kohustuste täitmist.",
+     "oige": 0,
+     "selgitus": "[[VangS § 67]] – kohustus isikule."
+    },
+    {
+     "tekst": "Täiendavaid julgeolekuabinõusid kohaldatakse kinnipeetavale, kes on ohtlik teistele isikutele.",
+     "oige": 2,
+     "selgitus": "[[VangS § 69 lg 1]] – lubab sekkuda."
+    },
+    {
+     "tekst": "Distsiplinaarkaristuse määrab vanglateenistus.",
+     "oige": 1,
+     "selgitus": "[[VangS § 64 lg 4]] – kes otsustab."
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Minister tahab kehtestada määrusega uue piirangu, mille kohta seaduses volitusnormi ei ole. Kas tohib?",
+   "valikud": [
+    "Jah, minister võib alati anda määrusi",
+    "Ei – määrus antakse ainult seaduse alusel ja täitmiseks",
+    "Jah, kui piirang on vajalik"
+   ],
+   "oige": 1,
+   "selgitus": "[[PS § 94 lg 2]], [[HÕNTE § 11 lg 1]]."
+  }
+ ],
+ "erinevused": [],
+ "valjast": []
+}

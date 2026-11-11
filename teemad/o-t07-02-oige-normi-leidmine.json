@@ -1,0 +1,185 @@
+{
+ "id": "o-t07-02",
+ "tund": "o-t07",
+ "jrk": 2,
+ "pealkiri": "Õige normi leidmine",
+ "lyhend": "Õige norm",
+ "ikoon": "sihik",
+ "kysimused": [],
+ "lyhidalt": "Normi otsimine algab seadusest, mitte paragrahvist. Eelista eriseadust üldseadusele ja konkreetset normi abstraktsele. Ja kõige tähtsam: norm peab vastama küsimusele – õigusliku aluse küsimusele vastab sekkumisnorm, pädevuse küsimusele pädevusnorm.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Kolm reeglit",
+   "tekst": "Kõige raskem samm kaasuses on sageli **õige normi leidmine**. Seadusi on palju ja sarnaseid sätteid veelgi rohkem.",
+   "skeem": [
+    {
+     "tyyp": "kaardid",
+     "pealkiri": "Kuidas valida normi",
+     "kaardid": [
+      {
+       "silt": "1",
+       "pealkiri": "Eriseadus enne üldseadust",
+       "tekst": "Vangla haldusmenetluses on VangS eriseadus, HMS üldseadus.",
+       "viide": "VangS § 1^1 lg 1"
+      },
+      {
+       "silt": "2",
+       "pealkiri": "Konkreetne norm enne abstraktset",
+       "tekst": "Põhiseaduse üldnorm on liiga abstraktne – otsi seadust või määrust, mis reguleerib täpselt seda olukorda.",
+       "toon": "b"
+      },
+      {
+       "silt": "3",
+       "pealkiri": "Norm vastab küsimusele",
+       "tekst": "Õiguslik alus? → sekkumisnorm. Pädevus? → pädevusnorm. Menetlus? → menetlusnorm.",
+       "toon": "c"
+      }
+     ]
+    }
+   ],
+   "jarel": "Kui norm on leitud, vaata, kas selle mõisted vajavad teisi norme (legaaldefinitsioonid, viited) – need tuleb lahenduses samuti välja tuua."
+  },
+  "alus": {
+   "pealkiri": "Õiguslik alus või pädevus?",
+   "tekst": "Need kaks küsimust aetakse kõige sagedamini segi. **Õiguslik alus** ütleb, **millal ja mida** tohib teha. **Pädevus** ütleb, **kes** seda teha tohib. Täielikuks otsuseks on vaja mõlemat.",
+   "read": [
+    {
+     "tase": "Õiguslik alus",
+     "viited": [
+      "VangS § 69 lg 1",
+      "VangS § 69 lg 2"
+     ],
+     "tekst": "Täiendavaid julgeolekuabinõusid kohaldatakse, kui kinnipeetav on ohtlik … ; lubatud on loetletud abinõud."
+    },
+    {
+     "tase": "Pädevus seaduses",
+     "viited": [
+      "VangS § 69 lg 4"
+     ],
+     "tekst": "Kohaldab vanglateenistus; edasilükkamatul juhul kõrgem kohalviibiv ametnik."
+    },
+    {
+     "tase": "Pädevus määruses",
+     "viited": [
+      "VSE § 1^2 lg 1"
+     ],
+     "tekst": "Sisekorraeeskiri täpsustab, milliseid otsuseid teeb üksuse juht."
+    },
+    {
+     "tase": "Üldnorm",
+     "viited": [
+      "PS § 3 lg 1",
+      "HMS § 3 lg 1"
+     ],
+     "tekst": "Põhiõigusi saab piirata ainult seaduse alusel – see ütleb, et alus on vaja, aga ei ole ise alus."
+    }
+   ],
+   "skeem": {
+    "tyyp": "otsus",
+    "pealkiri": "Kas see norm sobib minu kaasusesse?",
+    "algus": "Oled leidnud sätte, mis tundub asjakohane.",
+    "sammud": [
+     {
+      "kysimus": "Kas see reguleerib just seda eluvaldkonda?",
+      "tekst": "Nt vangistuse täideviimine, mitte üldine haldusmenetlus.",
+      "ei": {
+       "tulemus": "Otsi eriseadust",
+       "tekst": "Või kontrolli, kas eriseadus viitab üldseadusele."
+      }
+     },
+     {
+      "kysimus": "Kas see on piisavalt konkreetne?",
+      "tekst": "Põhiseaduse üldsättest ei saa tuletada ametniku konkreetset õigust.",
+      "ei": {
+       "tulemus": "Otsi konkreetsemat",
+       "tekst": "Seadus → määrus."
+      }
+     },
+     {
+      "kysimus": "Kas see vastab küsimusele?",
+      "tekst": "Alus, pädevus, menetlus või tagajärg?",
+      "ei": {
+       "tulemus": "Otsi teist normi",
+       "tekst": "Pädevusnorm ei vasta küsimusele „kas tohtis”."
+      }
+     }
+    ],
+    "lopp": {
+     "tulemus": "Õige norm",
+     "tekst": "Esita selle hüpoteesi tunnused ja asu subsumeerima.",
+     "silt": "Jah"
+    }
+   }
+  },
+  "piiramine": {
+   "pealkiri": "Kui normi ei leia",
+   "tekst": "Kui ühtegi sobivat normi ei ole, ära mõtle seda välja. Haldusõiguses tähendab normi puudumine, et ametnikul **ei ole** õigust isiku õigustesse sekkuda ([[PS § 3 lg 1]], [[HMS § 3 lg 1]]). See on samuti vastus.",
+   "punktid": [
+    "Kontrolli enne, kas säte ei ole viitav – vastus võib olla teises seaduses ([[VangS § 71 lg 3^1]]).",
+    "Kontrolli, kas mõni määrus täpsustab seadust – määrus antakse volitusnormi alusel ([[VangS § 15 lg 3]]).",
+    "Isiku kahjuks ei saa lünka ületada analoogiaga."
+   ]
+  },
+  "vangla": {
+   "tekst": "Vanglaametniku jaoks on peamised seadused: **VangS** (eriseadus), **VSE** (määrus), **HMS** (üldine haldusmenetlus) ja **KorS** (kui VangS sinna viitab). Teenistussuhte küsimustes lisanduvad avaliku teenistuse seadus ja vanglateenistuse sätted VangS-is.",
+   "naide": {
+    "olukord": "Kaasuse küsimus: „Kas vahetuse ülem võis paigutada agressiivse kinnipeetava eraldatud lukustatud kambrisse?” Üliõpilane vastab: „Jah, sest vanglateenistuse ametnik vastutab julgeoleku eest (VangS § 66 lg 2).”",
+    "analyys": "**Viga:** [[VangS § 66 lg 2]] ütleb, kes **vastutab** julgeoleku eest – see ei ole sekkumise alus. **Õige norm:** täiendavad julgeolekuabinõud ([[VangS § 69 lg 1]]), sh eraldatud lukustatud kambrisse paigutamine ([[VangS § 69 lg 2]]). **Pädevus** (kes tohib): vanglateenistus, edasilükkamatul juhul kõrgem kohalviibiv ametnik ([[VangS § 69 lg 4]]). **Järeldus:** lahendus peab kontrollima nii alust (lg 1 tunnused) kui ka pädevust (lg 4)."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Ülesandenormi või vastutusnormi kasutatakse sekkumise alusena.",
+    "Kasutatakse üldseadust (HMS), kuigi eriseadus (VangS) reguleerib küsimust teisiti.",
+    "Viidatakse ainult põhiseadusele – liiga abstraktne konkreetse otsuse jaoks.",
+    "Leitakse pädevusnorm ja peetakse küsimust lahendatuks."
+   ]
+  }
+ },
+ "vastus": [],
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Kas see säte vastab küsimusele „kes?” või „millal ja mida?”",
+   "ryhmad": [
+    "Pädevus (kes)",
+    "Õiguslik alus (millal, mida)"
+   ],
+   "read": [
+    {
+     "tekst": "Täiendavaid julgeolekuabinõusid kohaldab vanglateenistus.",
+     "oige": 0,
+     "selgitus": "[[VangS § 69 lg 4]]."
+    },
+    {
+     "tekst": "Täiendavaid julgeolekuabinõusid kohaldatakse kinnipeetavale, kes on ohtlik teistele isikutele.",
+     "oige": 1,
+     "selgitus": "[[VangS § 69 lg 1]]."
+    },
+    {
+     "tekst": "Distsiplinaarkaristuse määrab vanglateenistus.",
+     "oige": 0,
+     "selgitus": "[[VangS § 64 lg 4]]."
+    },
+    {
+     "tekst": "Süülise rikkumise eest võib kohaldada distsiplinaarkaristusi.",
+     "oige": 1,
+     "selgitus": "[[VangS § 63 lg 1]]."
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Vangla haldusmenetluses on HMS ja VangS sama küsimuse kohta erinevad. Kumba eelistad?",
+   "valikud": [
+    "HMS, sest see on üldseadus",
+    "VangS kui eriseadust",
+    "Kumbagi – pöördu kohtusse"
+   ],
+   "oige": 1,
+   "selgitus": "[[VangS § 1^1 lg 1]]."
+  }
+ ],
+ "erinevused": [],
+ "valjast": []
+}

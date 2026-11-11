@@ -1,0 +1,184 @@
+{
+ "id": "o-t07-03",
+ "tund": "o-t07",
+ "jrk": 3,
+ "pealkiri": "Lahendi kirjapanek: analüüsiv stiil ja otsustusstiil",
+ "lyhend": "Analüüsiv ja otsustusstiil",
+ "ikoon": "pliiats",
+ "kysimused": [],
+ "lyhidalt": "Analüüsivas stiilis alustad küsimusest, kontrollid samm-sammult eeldusi ja jõuad järelduseni – nii kirjutatakse eksamil kaasust. Otsustusstiilis ütled kohe tulemuse ja siis põhjendad – nii kirjutatakse haldusakte. Mõlemad peavad olema loogilised ja kontrollitavad.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Kaks stiili",
+   "tekst": "Lahendi kirjutamise stiil sõltub eesmärgist ja lugejast. Eksamil on lugeja õppejõud, kes tahab näha **mõttekäiku**. Haldusaktis on lugeja inimene, kes tahab teada **tulemust** ja selle põhjuseid.",
+   "skeem": [
+    {
+     "tyyp": "vordlus",
+     "pealkiri": "Analüüsiv stiil ja otsustusstiil",
+     "veerud": [
+      "",
+      "Analüüsiv stiil",
+      "Otsustusstiil"
+     ],
+     "read": [
+      {
+       "silt": "Algab",
+       "lahtrid": [
+        "küsimuse ja oletusega",
+        "otsuse teatavakstegemisega"
+       ]
+      },
+      {
+       "silt": "Edasi",
+       "lahtrid": [
+        "eelduste kirjeldamine → eelduste kontroll",
+        "olulised põhjused → õiguslikud alused → miks eeldused on täidetud"
+       ]
+      },
+      {
+       "silt": "Lõpeb",
+       "lahtrid": [
+        "järeldusega",
+        "(otsus oli juba alguses)"
+       ]
+      },
+      {
+       "silt": "Pikkus",
+       "lahtrid": [
+        "pikem",
+        "lühem"
+       ]
+      },
+      {
+       "silt": "Kus",
+       "lahtrid": [
+        "eksamikaasus, keerulised probleemid",
+        "haldusakt, kohtuotsus"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Analüüsiva lahendi viis osa",
+   "tekst": "Slaidil „õiguslik lahend analüüsivas stiilis” on lahendi ülesehitus. Kasuta seda eksamil iga kaasuse puhul.",
+   "read": [
+    {
+     "tase": "Haldusakti põhjendamine",
+     "viited": [
+      "VangS § 64 lg 4"
+     ],
+     "tekst": "Näide otsustusstiili nõudest: distsiplinaarkaristuse käskkirja tuleb põhjendada."
+    },
+    {
+     "tase": "Uurimispõhimõte",
+     "viited": [
+      "HMS § 6"
+     ],
+     "tekst": "Põhjendus saab tugineda ainult välja selgitatud asjaoludele."
+    }
+   ],
+   "skeem": {
+    "tyyp": "voog",
+    "pealkiri": "Õiguslik lahend analüüsivas stiilis",
+    "sammud": [
+     {
+      "pealkiri": "1. Õiguslik küsimus",
+      "tekst": "„Kas vanglal oli õiguslik alus keelduda …?”"
+     },
+     {
+      "pealkiri": "2. Õigusnorm",
+      "tekst": "Faktiline koosseis (tunnused, ja/või) ning õiguslik tagajärg."
+     },
+     {
+      "pealkiri": "3. Elulised asjaolud",
+      "tekst": "Kaasuse olulised faktid."
+     },
+     {
+      "pealkiri": "4. Võrdlus",
+      "tekst": "Iga tunnus ↔ asjaolu ↔ täidetud / ei ole."
+     },
+     {
+      "pealkiri": "5. Järeldus",
+      "tekst": "Kas tagajärg võib/võis saabuda – selge vastus küsimusele."
+     }
+    ]
+   }
+  },
+  "piiramine": {
+   "pealkiri": "Kuidas kirjutada hästi",
+   "tekst": "Põhjalikkus on veenev. Eksamil on mõistlik kirjutada pigem põhjalikult – nii näitad, et oskad õiguslikult mõelda.",
+   "punktid": [
+    "**Iga väide põhineb argumendil**, argumendis on alati järeldus. Kirjeldus, määratlus või põhjendamata arvamus ei ole argument.",
+    "**Argument on kaalukas**, kui see on tõene, asjakohane, piisava alusega ja loogiliselt õige.",
+    "**Viide normile** täpselt: seadus, §, lg, p.",
+    "**Lühendid** – esimest korda täielikult (vangistusseadus (VangS)), edaspidi lühendiga."
+   ]
+  },
+  "vangla": {
+   "tekst": "Sama kaasus kahes stiilis – vaata, kuidas erineb ülesehitus.",
+   "skeem": {
+    "tyyp": "kaalud",
+    "pealkiri": "Üks kaasus, kaks stiili",
+    "sissejuhatus": "Kinnipeetav taotleb pikaajalist kokkusaamist elukaaslasega, kellega tal on ühine laps.",
+    "vasak": {
+     "pealkiri": "Analüüsiv (eksam)",
+     "tekst": "Küsimus on, kas vangla peab lubama … Selleks peavad olema täidetud [[VangS § 25 lg 1]] tunnused: faktiline abikaasa **ja** ühine laps **või** kahe aasta kooselu. Kaasusest nähtub, et … Seega on tunnus täidetud. Järelikult …",
+     "silt": "küsimus → järeldus"
+    },
+    "parem": {
+     "pealkiri": "Otsustusstiil (haldusakt)",
+     "tekst": "Lubada kinnipeetav X-ile pikaajaline kokkusaamine Y-ga. Põhjendus: X ja Y on faktilised abikaasad, neil on ühine laps ([[VangS § 25 lg 1]]); keeldumise aluseid ei tuvastatud ([[VangS § 25 lg 1^1]]).",
+     "silt": "otsus → põhjendus"
+    }
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Eksamikaasus kirjutatakse otsustusstiilis: „Vangla pidi lubama, sest seadus nii ütleb.” Mõttekäik jääb näitamata.",
+    "Analüüs kirjutatakse märksõnadena – lahendus peab olema seotud tekst.",
+    "Seaduse tekst kopeeritakse pikalt sisse ja jäetakse kaasusega sidumata.",
+    "Järelduses tuuakse sisse uus asjaolu, mida analüüsis ei olnud."
+   ]
+  }
+ },
+ "vastus": [],
+ "harjutused": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Millist stiili kasutatakse eksamikaasuse lahendamisel?",
+   "valikud": [
+    "Otsustusstiili",
+    "Analüüsivat stiili",
+    "Vabat stiili"
+   ],
+   "oige": 1,
+   "selgitus": "Mõttekäik peab olema jälgitav: küsimus → eeldused → kontroll → järeldus."
+  },
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Kas see lause sobib analüüsiva lahendi algusesse või otsustusstiili algusesse?",
+   "ryhmad": [
+    "Analüüsiv",
+    "Otsustusstiil"
+   ],
+   "read": [
+    {
+     "tekst": "Küsimus on, kas vanglal oli õiguslik alus kokkusaamisest keelduda.",
+     "oige": 0
+    },
+    {
+     "tekst": "Jätta kinnipeetava taotlus rahuldamata.",
+     "oige": 1
+    },
+    {
+     "tekst": "Selleks tuleb kontrollida, kas on täidetud VangS § 24 lg 1^1 tunnused.",
+     "oige": 0
+    }
+   ]
+  }
+ ],
+ "erinevused": [],
+ "valjast": []
+}

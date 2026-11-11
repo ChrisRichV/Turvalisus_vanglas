@@ -39,8 +39,12 @@ def parse_ref(r):
         return None
     return m.group("akt"), m.group("vorm"), m.group("nr"), m.group("lg")
 
+lahkad = []   # skeemid „lahka”: osad peavad sättes sõna-sõnalt leiduma
+
 def walk(o, path, refs, terms, quotes):
     if isinstance(o, dict):
+        if o.get("tyyp") == "lahka":
+            lahkad.append((o, path))
         for k, v in o.items():
             if k == "viide" and isinstance(v, str):
                 refs.append((v, path))
@@ -185,6 +189,17 @@ for r, where in refs:
         leitud = int(lg.split("^")[0]) <= len(read)
     if not leitud:
         vead.append(f"{where}: lõiget {lg} ei leitud sättes {key} (viide '{r}')")
+
+# --- normi lahkamine: iga märgitud lõik peab sättes olema sõna-sõnalt
+for o, where in lahkad:
+    pr = parse_ref(o["viide"])
+    key = pr and f"{pr[0]} {pr[1]} {pr[2]}"
+    if not key or key not in satted:
+        vead.append(f"{where}: lahka – sätet ei leitud ({o.get('viide')})"); continue
+    tekst = " ".join(satted[key]["read"])
+    for x in o.get("osad", []):
+        if x["tekst"] not in tekst:
+            vead.append(f"{where}: lahka – lõiku „{x['tekst']}” ei ole sättes {o['viide']} sõna-sõnalt")
 
 # --- tsitaadid
 def norm_all(t):

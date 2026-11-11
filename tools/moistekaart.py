@@ -110,6 +110,72 @@ m("vangla-piirangud", "Kinnipeetava piirangud", ["o-t11-01", "o-t11-03", "o-t11-
 m("vaie-vanglas", "Vaie ja kaebus vanglas", ["o-t10-03", "o-t10-04", "o-t11-06", "t01-06", "t01-14"], ["VangS § 1^1 lg 5", "VangS § 1^1 lg 7"], termin="vaie", selgitus=
   "Kinnipeetav esitab kõigepealt vaide ja alles siis kaebuse halduskohtule ([[VangS § 1^1 lg 5]]). Vaie lahendatakse 30 päeva jooksul ([[VangS § 1^1 lg 7]]).")
 
+# ---------- Õiguse alused: normiõpetus (tund 5)
+m("taielik-oigusnorm", "Täielik õigusnorm", ["o-t05-01", "o-t06-05"], ["VangS § 63 lg 1"],
+  "Norm kujul „kui …, siis …”: hüpotees (tingimused) ja õiguslik tagajärg. Näide: süülise rikkumise eest võib kohaldada distsiplinaarkaristust ([[VangS § 63 lg 1]]).")
+m("hupotees", "Hüpotees (faktiline koosseis)", ["o-t05-01", "o-t05-04", "o-t06-05"], ["VangS § 63 lg 1"],
+  "Normi „kui”-osa: tingimused, mille korral norm kehtib – nt „süülise rikkumise eest” ([[VangS § 63 lg 1]]).")
+m("oiguslik-tagajarg", "Õiguslik tagajärg", ["o-t05-01", "o-t05-04"], ["VangS § 63 lg 1", "VangS § 24 lg 1^1"],
+  "Normi „siis”-osa: mida peab, võib või ei tohi teha. „Võib” = kaalutlus ([[VangS § 63 lg 1]]); „keeldutakse” = kohustus ([[VangS § 24 lg 1^1]]).")
+m("sanktsioon", "Sanktsioon", ["o-t05-01", "o-t05-03"], ["VangS § 63 lg 1"],
+  "Riiklik sund normi rikkumise korral – „vastasel juhul …”. Vanglas distsiplinaarkaristused ([[VangS § 63 lg 1]]).")
+m("kaitumisnorm", "Käitumisnorm (primaarnorm)", ["o-t05-02", "o-t05-03"], ["VangS § 67"],
+  "Kohustab, keelab või lubab isikut. Näide: kinnipeetava kohustused ([[VangS § 67]]).")
+m("padevusnorm", "Pädevusnorm", ["o-t05-02", "o-t07-02"], ["VangS § 64 lg 4", "VSE § 1^2 lg 1"],
+  "Ütleb, kes otsustab – nt distsiplinaarkaristuse määrab vanglateenistus ([[VangS § 64 lg 4]]). Pädevus üksi ei ole õiguslik alus.")
+m("sekkumisnorm", "Sekkumisnorm (õiguslik alus)", ["o-t05-02", "o-t07-02"], ["VangS § 69 lg 1"],
+  "Lubab riigil isiku õigustesse sekkuda ja ütleb, millal – nt täiendavad julgeolekuabinõud ([[VangS § 69 lg 1]]).")
+m("volitusnorm", "Volitusnorm", ["o-t05-02"], ["HÕNTE § 11 lg 1", "VangS § 15 lg 3"],
+  "Seaduse säte, mis annab õiguse anda määrus ([[HÕNTE § 11 lg 1]]). Näide: keelatud asjade loetelu kehtestab minister ([[VangS § 15 lg 3]]).")
+m("maarus", "Määrus (üldakt)", ["o-t05-02", "o-t06-03"], ["HMS § 88", "PS § 87 p 6"],
+  "Õigusakt piiritlemata arvu juhtude jaoks ([[HMS § 88]]); antakse seaduse alusel ja täitmiseks ([[PS § 87 p 6]]).")
+m("legaaldefinitsioon", "Legaaldefinitsioon", ["o-t05-02", "o-t05-05", "o-t06-06"], ["VangS § 77", "HÕNTE § 18 lg 6"],
+  "Seadus ütleb ise, mida sõna tähendab („käesoleva seaduse tähenduses”, [[HÕNTE § 18 lg 6]]). Näide: noor kinnipeetav ([[VangS § 77]]).")
+m("spetsialiseeritud-norm", "Spetsialiseeritud normid", ["o-t05-03"], ["VangS § 63 lg 2", "VangS § 71 lg 3^1"],
+  "Norm ilma kui–siis ehituseta, mis kitsendab ([[VangS § 63 lg 2]]), seletab või viitab ([[VangS § 71 lg 3^1]]).")
+m("koosseisu-liigid", "Kumulatiivne ja alternatiivne koosseis", ["o-t05-04", "o-t06-05"], ["VangS § 41 lg 1", "VangS § 24 lg 1^1"],
+  "Kõik tunnused korraga („ja”, [[VangS § 41 lg 1]]) või vähemalt üks („või”, [[VangS § 24 lg 1^1]]).")
+m("tolgendamine", "Tõlgendamine", ["o-t05-05"], ["HÕNTE § 18 lg 6", "VangS § 6 lg 1"],
+  "Normi sisu väljaselgitamine: grammatiline, süstemaatiline, ajalooline, teleoloogiline võte. Alusta legaaldefinitsioonist ([[HÕNTE § 18 lg 6]]); eesmärgi järgi vt nt [[VangS § 6 lg 1]].")
+m("lynk", "Lünk ja analoogia", ["o-t05-06"], ["PS § 23", "HMS § 3 lg 1"],
+  "Lünk = normi ei ole. Analoogia on haldus- ja karistusõiguses isiku kahjuks keelatud ([[PS § 23]], [[HMS § 3 lg 1]]).")
+m("vastuolu", "Vastuolu: kõrgem, hilisem, erinorm", ["o-t05-06", "o-t07-02"], ["PS § 152", "VangS § 1^1 lg 1"],
+  "Kaks normi annavad välistavad tagajärjed. Võidab kõrgem ([[PS § 152]]), hilisem või erinorm ([[VangS § 1^1 lg 1]]).")
+
+# ---------- Õiguse alused: õiguse realiseerimine (tund 6)
+m("realiseerimine", "Kasutamine, järgimine, rakendamine", ["o-t06-01"], ["VangS § 28 lg 1", "VangS § 67"],
+  "Õigus jõuab ellu: isik kasutab õigust ([[VangS § 28 lg 1]]), järgib kohustust ([[VangS § 67]]) või riik rakendab õigust tema suhtes.")
+m("oiguse-rakendamine", "Õiguse rakendamine", ["o-t06-01", "o-t06-04"], ["PS § 3 lg 1", "HMS § 6"],
+  "Pädeva riigiorgani otsus normi alusel konkreetse elujuhtumi kohta – seaduslik ([[PS § 3 lg 1]]) ja asjaolud välja selgitatud ([[HMS § 6]]).")
+m("oigussuhe", "Õigussuhe", ["o-t06-02"], ["VangS § 28 lg 1", "VangS § 28 lg 3"],
+  "Isikute seos normi alusel: ühel õigus, teisel kohustus. Kinnipeetaval on õigus kirjavahetusele ([[VangS § 28 lg 1]]), vangla saab seda piirata ainult seaduse alusel ([[VangS § 28 lg 3]]).")
+m("juriidiline-fakt", "Juriidiline fakt", ["o-t06-02"], ["VangS § 63 lg 1"],
+  "Elus toimuv muutus, millega seadus seob tagajärje – nt süüline rikkumine ([[VangS § 63 lg 1]]).")
+m("uksikakt", "Üksikakt (haldusakt)", ["o-t06-03"], ["HMS § 51 lg 1", "VangS § 64 lg 4"],
+  "Konkreetne ja individuaalne, rakendab õigust ([[HMS § 51 lg 1]]). Vanglas nt distsiplinaarkaristuse käskkiri ([[VangS § 64 lg 4]]).")
+m("toiming", "Toiming", ["o-t06-03"], ["HMS § 106 lg 1"],
+  "Haldusorgani tegevus, mis ei ole õigusakti andmine ([[HMS § 106 lg 1]]) – nt läbiotsimine. Ka see vajab seaduslikku alust.")
+m("toendamine", "Asjaolud ja tõendid", ["o-t06-04"], ["HMS § 6", "HMS § 38 lg 2"],
+  "Haldusorgan selgitab olulised asjaolud välja ise ([[HMS § 6]]); tõendid on loetletud seaduses ([[HMS § 38 lg 2]]).")
+m("subsumeerimine", "Subsumeerimine", ["o-t06-05", "o-t07-01"], ["VangS § 25 lg 1"],
+  "Eluliste asjaolude võrdlemine normi koosseisuga; kui kõik tunnused on täidetud, saabub tagajärg. Näide: [[VangS § 25 lg 1]].")
+m("maaratlemata", "Määratlemata õigusmõiste", ["o-t06-06"], ["VangS § 24 lg 1^1"],
+  "Teadlikult avar mõiste koosseisus – „vangla julgeolek või kord” ([[VangS § 24 lg 1^1]]). Sisustatakse iga juhtumi asjaoludega.")
+m("kaalutlusoigus", "Kaalutlusõigus", ["o-t06-06", "o-t05-04"], ["HMS § 4 lg 1", "HMS § 4 lg 2"],
+  "Volitus kaaluda või valida mitme otsuse vahel ([[HMS § 4 lg 1]]); kooskõlas eesmärgi ja üldpõhimõtetega ([[HMS § 4 lg 2]]). Märksõna normis: „võib”.")
+
+# ---------- Õiguse alused: kaasuste lahendamine (tund 7)
+m("syllogism", "Õiguslik süllogism", ["o-t07-01"], ["VangS § 63 lg 1"],
+  "Suur eeldus (norm) + väike eeldus (asjaolud) = järeldus. Iga õigusliku otsuse loogika; näide: [[VangS § 63 lg 1]].")
+m("kuus-sammu", "Kuus sammu", ["o-t07-01", "o-t07-04"], ["HMS § 6"],
+  "Loe kaasus → loe küsimus → norm ja tunnused → seosta asjaoludega → vajadusel tagajärg → järeldus. Asjaolud peavad olema välja selgitatud ([[HMS § 6]]).")
+m("normi-leidmine", "Õige norm", ["o-t07-02"], ["VangS § 1^1 lg 1"],
+  "Eelista eriseadust (VangS) üldseadusele (HMS) ja konkreetset normi abstraktsele ([[VangS § 1^1 lg 1]]). Norm peab vastama küsimusele.")
+m("analuusiv-stiil", "Analüüsiv ja otsustusstiil", ["o-t07-03"], ["VangS § 64 lg 4"],
+  "Eksamil analüüsiv (küsimus → eeldused → järeldus); haldusaktis otsustusstiil (otsus → põhjendus). Käskkirja tuleb põhjendada ([[VangS § 64 lg 4]]).")
+m("distsiplinaarkaristus", "Distsiplinaarkaristus", ["o-t05-01", "o-t06-04", "o-t07-04"], ["VangS § 63 lg 1", "VangS § 64 lg 2"],
+  "Vangla sanktsioon süülise rikkumise eest ([[VangS § 63 lg 1]]); enne määramist teavitatakse kinnipeetavat ja kuulatakse ta ära ([[VangS § 64 lg 2]]).")
+
 S = []
 def s(a, b, silt): S.append({"a": a, "b": b, "silt": silt})
 # põhiseadus ja põhimõtted
@@ -188,6 +254,50 @@ s("inimvaarikus", "vangla-piirangud", "piir")
 s("vaie-vanglas", "kohtulik-kaitse", "tee kohtusse")
 s("hea-haldus", "vaie-vanglas", "vanglas")
 s("ammendamine", "vaie-vanglas", "algab siit")
+
+# tunnid 5–7 omavahel
+s("taielik-oigusnorm", "hupotees", "koosneb")
+s("taielik-oigusnorm", "oiguslik-tagajarg", "koosneb")
+s("oiguslik-tagajarg", "sanktsioon", "võib olla")
+s("kaitumisnorm", "sanktsioon", "rikkumisel")
+s("koosseisu-liigid", "hupotees", "liigitab")
+s("volitusnorm", "maarus", "lubab anda")
+s("padevusnorm", "sekkumisnorm", "ei asenda")
+s("spetsialiseeritud-norm", "taielik-oigusnorm", "täiendab")
+s("legaaldefinitsioon", "tolgendamine", "1. reegel")
+s("tolgendamine", "maaratlemata", "sisustab")
+s("lynk", "tolgendamine", "ületatakse")
+s("juriidiline-fakt", "oigussuhe", "tekitab")
+s("juriidiline-fakt", "hupotees", "on kirjas")
+s("realiseerimine", "oiguse-rakendamine", "üks viis")
+s("oiguse-rakendamine", "uksikakt", "tulemus")
+s("oiguse-rakendamine", "toiming", "tulemus")
+s("oiguse-rakendamine", "toendamine", "samm")
+s("toendamine", "subsumeerimine", "eeldus")
+s("subsumeerimine", "hupotees", "võrdleb")
+s("maaratlemata", "hupotees", "on koosseisus")
+s("kaalutlusoigus", "oiguslik-tagajarg", "on tagajärjes")
+s("syllogism", "subsumeerimine", "tuum")
+s("kuus-sammu", "syllogism", "põhineb")
+s("normi-leidmine", "vastuolu", "erinorm")
+s("normi-leidmine", "padevusnorm", "ära sega")
+s("analuusiv-stiil", "kuus-sammu", "kirjapanek")
+s("distsiplinaarkaristus", "sanktsioon", "on")
+s("distsiplinaarkaristus", "uksikakt", "käskkiri")
+s("maarus", "uksikakt", "erineb")
+# sillad varasemate tundidega
+s("sekkumisnorm", "seaduslikkus", "annab aluse")
+s("sekkumisnorm", "riive", "lubab")
+s("maarus", "seaduslikkus", "seaduse alusel")
+s("vastuolu", "normikontroll", "kõrgem norm")
+s("vastuolu", "pohiseadus", "kõrgeim")
+s("subsumeerimine", "kaitseala", "sama loogika")
+s("kaalutlusoigus", "proportsionaalsus", "piirab")
+s("oiguse-rakendamine", "seaduslikkus", "nõue")
+s("distsiplinaarkaristus", "vaie-vanglas", "vaidlustatav")
+s("vangla-piirangud", "sekkumisnorm", "vajab")
+s("lynk", "seaduslikkus", "analoogia ei asenda")
+s("oigussuhe", "pohioigus", "riik ↔ isik")
 
 ids = {k["id"] for k in K}
 assert len(ids) == len(K)

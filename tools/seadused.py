@@ -35,6 +35,10 @@ ACTS = {
   "KarS":  (IM+"/02_Eesti_seadused/Karistusseadustik_KarS.txt", PAR, "Karistusseadustik", "§"),
   "VangS": (VM+"/02_seadused_ja_maarused/Vangistusseadus.txt", PAR, "Vangistusseadus", "§"),
   "VSE":   (VM+"/02_seadused_ja_maarused/Vangla_sisekorraeeskiri.txt", PAR, "Vangla sisekorraeeskiri", "§"),
+  "ATS":   (VM+"/02_seadused_ja_maarused/Avaliku_teenistuse_seadus.txt", PAR, "Avaliku teenistuse seadus", "§"),
+  "KVTS":  (IM+"/02_Eesti_seadused/Kaitsevaeteenistuse_seadus_KVTS.txt", PAR, "Kaitseväeteenistuse seadus", "§"),
+  "PKS":   (IM+"/02_Eesti_seadused/Perekonnaseadus_PKS.txt", PAR, "Perekonnaseadus", "§"),
+  "HÕNTE": (IM+"/02_Eesti_seadused/Hea_oigusloome_ja_normitehnika_eeskiri_HONTE.txt", PAR, "Hea õigusloome ja normitehnika eeskiri", "§"),
   "EIÕK":  (IM+"/03_Euroopa_Noukogu/Inimoiguste_ja_pohivabaduste_kaitse_konventsioon_EIOK_2021.txt", ART, "Inimõiguste ja põhivabaduste kaitse konventsioon", "art"),
   "EIÕK P6": (IM+"/03_Euroopa_Noukogu/EIOK_lisaprotokoll_nr6_surmanuhtlus.txt", ART, "EIÕK protokoll nr 6 surmanuhtluse kaotamise kohta", "art"),
   "EIÕK P13":(IM+"/03_Euroopa_Noukogu/EIOK_protokoll_nr13_surmanuhtlus.txt", ART, "EIÕK protokoll nr 13 surmanuhtluse kaotamise kohta kõikidel asjaoludel", "art"),
@@ -135,7 +139,7 @@ def meta(act):
     path = ACTS[act][0]
     return {
         "lyhend": act, "pealkiri": title, "url": meta.get("URL", ""),
-        "kehtivus": meta.get("Sõnastuse kehtivus", ""),
+        "kehtivus": meta.get("Sõnastuse kehtivus", "") or meta.get("Redaktsiooni jõustumine", "") or meta.get("Olek", ""),
         "avaldamismarge": meta.get("Avaldamismärge", ""),
         "allikas": meta.get("ALLIKAS", ""),
         "mitteametlik_tolge": act in ("KPÕRP","KPÕRP FP","CAT","CPT"),

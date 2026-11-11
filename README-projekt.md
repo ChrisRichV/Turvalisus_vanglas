@@ -163,11 +163,17 @@ ja proportsionaalsus, 4) näide vanglast, 5) tüüpviga eksamil.
 | `pyramiid` | astmed kitsast laiaks + sildid astmete vahel (hierarhia, normikontroll) | `astmed[{pealkiri, tekst?, viide?, vahel?, toon?}]` |
 | `sambad` | „maja”: katus, sambad, vundament + tasakaalu loend (võimude lahusus) | `katus`, `sambad[{pealkiri, viide?, read[], toon?}]`, `alus`, `tasakaal[]` |
 | `kontroll` | **samm-sammuline kaasus**: küsimus → „Mõtle ise, siis näita” → järgmine avaneb; edenemisriba, järeldus lõpus | `olukord`, `sammud[{silt, kysimus, vastus, viited[]}]`, `jareldus`, `markus` |
+| `lahka` | **normi lahkamine**: sätte tekst tuleb `seadused.json`-ist sõna-sõnalt, nupp märgib koosseisu (K1…), tagajärje (T…), sanktsiooni (S…) ja seosed (ja/või). Viite lõige piirab näidatava osa | `viide`, `osad[{tekst, roll: k/t/s/m, selgitus?}]`, `juhis?`, `valem?` – **`ehita.py` kontrollib, et iga `tekst` on sättes sõna-sõnalt** |
+| `subsumeeri` | **subsumeerimise harjutus**: normi tunnus ↔ elus juhtunu ↔ tõend; kasutaja valib „täidetud / ei ole”, lõpus järeldus | `viide`, `kysimus`, `seos: ja/või`, `read[{tunnus, asjaolu, toend?, taidetud: true/false, selgitus?}]`, `tagajarg?`, `jareldus` |
 
 **Skeem osa sees:** igal osal (`pohimote`, `alus`, `piiramine`, `vangla`) võib olla oma `skeem` (üks või massiiv) –
 see kuvatakse otse selgituse juures. `jarel` = tekst pärast skeemi. Kõigil skeemidel võivad olla `sissejuhatus` ja `allkiri`.
 Pikem `tekst` jaguneb lõikudeks tühja reaga (`\n\n`). Teema lõpu `skeem` võib olla `[]`; `skeem_pealkiri` muudab selle osa nime.
-`erinevused[].silt` muudab sildi „Konspekt” (nt „Õppematerjal”).
+`erinevused[].silt` muudab sildi „Konspekt” (nt „Õppematerjal”). Harjutuse `kaasus` valikuline `juhis` asendab vaikimisi vihje (põhiõiguste kaasuse skeem).
+`kontroll`-skeemi `silt` olgu sõna (nt „Menetlus”), mitte number – number on ringis juba olemas.
+
+**Lehitsemine** teema lõpus: suur „Järgmine teema” nupp (sama aine piires; tunni lõpus „Järgmine tund …” või „Korda kogu tundi”),
+väiksem „Eelmine teema” ja tunni edenemisriba. Asub enne „Teata veast” vormi.
 
 **Kirjutamisstiil:** lihtne kõnekeel, sisu otse lehel. **Ära viita slaididele** („slaid 25 järgi”) – kirjuta sisu lahti ja joonista
 slaidi skeem uuesti mõne skeemitüübiga. Allikad on tunni `materjal` väljal.

@@ -1,0 +1,253 @@
+{
+ "id": "o-t05-04",
+ "tund": "o-t05",
+ "jrk": 4,
+ "pealkiri": "Koosseis ja tagajärg: lihtne, keeruline, valikuline",
+ "lyhend": "Ja või või",
+ "ikoon": "javoi",
+ "kysimused": [
+  12
+ ],
+ "lyhidalt": "Normi tingimusi võib olla üks (lihtne), mitu, mis peavad kõik olema täidetud (keeruline ehk kumulatiivne – „ja”), või mitu, millest piisab ühest (valikuline ehk alternatiivne – „või”). Sama kehtib tagajärje kohta. See otsustab, mida pead kaasuses kontrollima.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "„Ja” ja „või” teevad suure vahe",
+   "tekst": "Kui normi tingimused on loetletud, küsi kohe: **kas kõik korraga või piisab ühest?**",
+   "skeem": [
+    {
+     "tyyp": "kaardid",
+     "pealkiri": "Kolm koosseisu tüüpi",
+     "kaardid": [
+      {
+       "silt": "E",
+       "pealkiri": "Lihtne",
+       "tekst": "Üks tingimus. Kui see on täidetud – norm kehtib."
+      },
+      {
+       "silt": "E1 ja E2",
+       "pealkiri": "Keeruline (kumulatiivne)",
+       "tekst": "Kõik tingimused peavad olema **korraga** täidetud. Kui üks puudub, normi ei rakendata.",
+       "toon": "b"
+      },
+      {
+       "silt": "E1 või E2",
+       "pealkiri": "Valikuline (alternatiivne)",
+       "tekst": "Piisab, kui **vähemalt üks** tingimus on täidetud.",
+       "toon": "c"
+      }
+     ]
+    }
+   ],
+   "jarel": "Sama jaotus kehtib **tagajärje** kohta: lihtne (üks tagajärg), keeruline (kõik tagajärjed koos) või valikuline (üks mitmest – sageli valib ametnik)."
+  },
+  "alus": {
+   "pealkiri": "Näited sätetest",
+   "tekst": "Kõik kolm tüüpi on vangistusseaduses olemas. Pane tähele sõnu „ja”, „või” ning loetelu lõpus olevat „või”.",
+   "read": [
+    {
+     "tase": "Valikuline koosseis",
+     "viited": [
+      "VangS § 24 lg 1^1"
+     ],
+     "tekst": "Lühiajalise kokkusaamise loast keeldutakse, kui kehtib üks neljast alusest."
+    },
+    {
+     "tase": "Keeruline koosseis",
+     "viited": [
+      "VangS § 41 lg 1"
+     ],
+     "tekst": "Väljaspool vanglat töötamine: alust oletada, et ei pane toime uusi õiguserikkumisi, kinnipeetava nõusolek ja vastavus vangistuse eesmärkidele."
+    },
+    {
+     "tase": "Valikuline tagajärg",
+     "viited": [
+      "VangS § 63 lg 1",
+      "VangS § 63 lg 3"
+     ],
+     "tekst": "Mitu karistust, ametnik valib ühe – ühe rikkumise eest ainult üks."
+    },
+    {
+     "tase": "Keeruline + valikuline (slaidi näide)",
+     "viited": [
+      "KorS § 30 lg 1"
+     ],
+     "tekst": "Politsei võib isiku peatada **ja** küsitleda, kui isikul on andmeid ohu ennetamiseks **või** tõrjumiseks **või** … **ning** see on politsei pädevuses."
+    },
+    {
+     "tase": "Valikuline (slaidi näide)",
+     "viited": [
+      "KVTS § 43 lg 1"
+     ],
+     "tekst": "Ajapikendus antakse, kui kutsealusel on üks neljast ülalpidamise olukorrast."
+    }
+   ],
+   "skeem": {
+    "tyyp": "lahka",
+    "viide": "VangS § 24 lg 1^1",
+    "pealkiri": "Lahka ise: VangS § 24 lg 1^1",
+    "juhis": "Mitu tingimust siin on ja kas peavad kõik olema täidetud? Vaata sõna kolmanda punkti lõpus.",
+    "osad": [
+     {
+      "tekst": "kokkusaamine ei ole kooskõlas vangistuse täideviimise eesmärkidega",
+      "roll": "k"
+     },
+     {
+      "tekst": "kokkusaamine võib ohustada vangla julgeolekut või korda",
+      "roll": "k"
+     },
+     {
+      "tekst": "kokkusaaja maines on alust kahelda",
+      "roll": "k"
+     },
+     {
+      "tekst": "kokkusaamine võib ohustada kokkusaaja või kinnipeetava tervist ja heaolu",
+      "roll": "k"
+     },
+     {
+      "tekst": "Lühiajalise kokkusaamise loa andmisest keeldutakse",
+      "roll": "t",
+      "selgitus": "lihtne tagajärg, ja „keeldutakse” = peab"
+     }
+    ],
+    "valem": "Kui K1 **või** K2 **või** K3 **või** K4, siis T1 (keeldutakse). Sõna „või” 3. punkti lõpus teeb kogu loetelu valikuliseks."
+   }
+  },
+  "piiramine": {
+   "pealkiri": "Dispositsiooni liigid",
+   "tekst": "Slaididel on veel üks liigitus – kui täpselt norm ütleb, kuidas käituda.",
+   "skeem": {
+    "tyyp": "vordlus",
+    "veerud": [
+     "",
+     "Absoluutselt määratletud",
+     "Suhteliselt määratletud"
+    ],
+    "read": [
+     {
+      "silt": "Mida ütleb",
+      "lahtrid": [
+       "täpselt ja ammendavalt, mis peab olema",
+       "annab valiku või raamid"
+      ]
+     },
+     {
+      "silt": "Valikuvabadus",
+      "lahtrid": [
+       "puudub",
+       "on (diskretsioon)"
+      ]
+     },
+     {
+      "silt": "Vangla",
+      "lahtrid": [
+       "vaie lahendatakse 30 päeva jooksul ([[VangS § 1^1 lg 7]])",
+       "„võib kohaldada” üht mitmest karistusest ([[VangS § 63 lg 1]])"
+      ]
+     }
+    ]
+   },
+   "jarel": "Väljenduse järgi on dispositsioon **lihtne** (nimetab käitumise, ei kirjelda) või **kirjeldav** (annab käitumise olulised tunnused). Eraõiguses saavad pooled sageli normist kokkuleppel kõrvale kalduda; avalikus õiguses riik ei saa – ametnik teeb ainult seda, mida norm lubab ([[PS § 3 lg 1]])."
+  },
+  "vangla": {
+   "tekst": "Keeldumise alustega normides piisab tavaliselt ühest alusest – see tähendab, et ametnik peab põhjendama **vähemalt ühe** aluse olemasolu. Kõigi nelja olemasolu ei pea näitama.",
+   "skeem": {
+    "tyyp": "subsumeeri",
+    "viide": "VangS § 41 lg 1",
+    "kysimus": "Kas kinnipeetaval tohib lubada töötada väljaspool vanglat?",
+    "seos": "ja",
+    "read": [
+     {
+      "tunnus": "Piisavalt alust oletada, et ei pane toime uusi õiguserikkumisi",
+      "asjaolu": "Rikkumisi pole olnud kaks aastat, riskihinnang madal.",
+      "taidetud": true,
+      "selgitus": "Täidetud."
+     },
+     {
+      "tunnus": "Kinnipeetava nõusolek",
+      "asjaolu": "Kinnipeetav ise taotles tööle lubamist.",
+      "taidetud": true,
+      "selgitus": "Täidetud."
+     },
+     {
+      "tunnus": "Vastavuses vangistuse täideviimise eesmärkidega",
+      "asjaolu": "Töö toetab tema õiguskuulekale käitumisele suunamist; vanglal ei ole vastupidiseid andmeid.",
+      "taidetud": true,
+      "selgitus": "Täidetud – vangistuse eesmärk on õiguskuulekale käitumisele suunamine ([[VangS § 6 lg 1]])."
+     }
+    ],
+    "jareldus": "Kõik kumulatiivse koosseisu tunnused on täidetud, seega saabub normi tagajärg: töötamine väljaspool vanglat **võimaldatakse**. Kui **üks** tunnus puuduks (nt kinnipeetav ei nõustu), normi kohaldada ei saaks.",
+    "pealkiri": "Kumulatiivne koosseis vangla näitel"
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Kumulatiivse koosseisu puhul kontrollitakse ainult üht tunnust ja tehakse järeldus.",
+    "Alternatiivse koosseisu puhul nõutakse kõiki tunnuseid.",
+    "Ei märgata, et loetelu viimane „või” teeb kogu loetelu valikuliseks.",
+    "Valikulise tagajärje puhul ei põhjendata, miks valiti just see tagajärg ([[VangS § 63 lg 3]])."
+   ]
+  }
+ },
+ "vastus": [
+  {
+   "nr": 12,
+   "punktid": [
+    "**Lihtne:** üks tunnus (koosseisus) või üks tagajärg.",
+    "**Keeruline ehk kumulatiivne:** mitu tunnust, mis peavad olema täidetud **korraga** („ja”); keeruline tagajärg = kõik tagajärjed koos.",
+    "**Valikuline ehk alternatiivne:** mitu tunnust, millest piisab **vähemalt ühest** („või”); valikuline tagajärg = valitakse üks.",
+    "Näited: [[VangS § 24 lg 1^1]] (alternatiivne koosseis), [[VangS § 41 lg 1]] (kumulatiivne), [[VangS § 63 lg 1]] (alternatiivne tagajärg)."
+   ]
+  }
+ ],
+ "harjutused": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Koosseis on kumulatiivne ja 3 tingimusest 2 on täidetud. Mis edasi?",
+   "valikud": [
+    "Normi saab rakendada",
+    "Normi ei saa rakendada",
+    "Ametnik otsustab ise"
+   ],
+   "oige": 1,
+   "selgitus": "Kumulatiivse koosseisu puhul peavad kõik tunnused olema täidetud."
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "VangS § 24 lg 1^1 loetleb neli keeldumise alust, viimase ees on „või”. Mitu peab olema täidetud?",
+   "valikud": [
+    "Kõik neli",
+    "Vähemalt üks",
+    "Vähemalt kaks"
+   ],
+   "oige": 1,
+   "selgitus": "Alternatiivne koosseis ([[VangS § 24 lg 1^1]])."
+  },
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Kas tagajärg on absoluutselt või suhteliselt määratletud?",
+   "ryhmad": [
+    "Absoluutselt",
+    "Suhteliselt"
+   ],
+   "read": [
+    {
+     "tekst": "Vaie lahendatakse 30 päeva jooksul.",
+     "oige": 0,
+     "selgitus": "[[VangS § 1^1 lg 7]]."
+    },
+    {
+     "tekst": "Võib kohaldada distsiplinaarkaristusi: noomitus … kartser.",
+     "oige": 1,
+     "selgitus": "Valik mitme vahel ([[VangS § 63 lg 1]])."
+    },
+    {
+     "tekst": "Loa andmisest keeldutakse, kui …",
+     "oige": 0,
+     "selgitus": "Ametnikul valikut ei ole ([[VangS § 24 lg 1^1]])."
+    }
+   ]
+  }
+ ],
+ "erinevused": [],
+ "valjast": []
+}

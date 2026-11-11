@@ -317,7 +317,7 @@
    "nr": 5,
    "pealkiri": "Normiõpetus",
    "kuupaev": "2026-09-30",
-   "olek": "tulemas",
+   "olek": "valmis",
    "tyyp": "loeng",
    "valjund": 2,
    "alateemad": [
@@ -330,16 +330,90 @@
      "kp": "2026-10-21"
     }
    ],
-   "kirjeldus": "Teemad lisatakse.",
-   "materjal": [],
-   "kysimused": [],
-   "plokid": [],
-   "teemad": [],
+   "kirjeldus": "Mis on õigusnorm ja millest koosneb täielik õigusnorm, normide liigid, koosseisu ja tagajärje liigid, tõlgendamise võtted ning lünk ja vastuolu – kõik vangistusseaduse näidetel.",
+   "materjal": [
+    "Õppejõu veebiloengu slaidid „Normiõpetus” ja „Tõlgendamine” (T. Roosve)",
+    "Hea õigusloome ja normitehnika eeskiri, vangistusseadus, korrakaitseseadus (Riigi Teataja)"
+   ],
+   "kysimused": [
+    {
+     "nr": 9,
+     "tekst": "Selgita määruse ja seaduses asuva volitusnormi seost!"
+    },
+    {
+     "nr": 10,
+     "tekst": "Selgita käitumisnormi, sekkumisnormi ja karistusnormi erisusi ja ühiseid jooni!"
+    },
+    {
+     "nr": 11,
+     "tekst": "Millest koosneb täielik õigusnorm?"
+    },
+    {
+     "nr": 12,
+     "tekst": "Selgita, mida tähendab kui täieliku õigusnormi erinevad osad on alternatiivse (valikulise), kumulatiivse (keerulise) ja lihtsa koosseisuga!"
+    },
+    {
+     "nr": 13,
+     "tekst": "Nimeta tõlgendamise võtted, selgita nende sisu!"
+    }
+   ],
+   "plokid": [
+    {
+     "pealkiri": "Õigusnorm ja selle ehitus",
+     "teemad": [
+      "o-t05-01",
+      "o-t05-02",
+      "o-t05-03",
+      "o-t05-04"
+     ]
+    },
+    {
+     "pealkiri": "Normi sisu väljaselgitamine",
+     "teemad": [
+      "o-t05-05",
+      "o-t05-06"
+     ]
+    }
+   ],
+   "teemad": [
+    {
+     "id": "o-t05-01",
+     "fail": "teemad/o-t05-01-taielik-oigusnorm.json"
+    },
+    {
+     "id": "o-t05-02",
+     "fail": "teemad/o-t05-02-normide-liigid.json"
+    },
+    {
+     "id": "o-t05-03",
+     "fail": "teemad/o-t05-03-primaar-ja-spetsialiseeritud-normid.json"
+    },
+    {
+     "id": "o-t05-04",
+     "fail": "teemad/o-t05-04-koosseisu-liigid.json"
+    },
+    {
+     "id": "o-t05-05",
+     "fail": "teemad/o-t05-05-tolgendamine.json"
+    },
+    {
+     "id": "o-t05-06",
+     "fail": "teemad/o-t05-06-lynk-ja-vastuolu.json"
+    }
+   ],
    "allikafailid": {
-    "opetaja": [],
-    "kysimused": [],
-    "tekstiversioonid": [],
-    "markus": ""
+    "opetaja": [
+     "Ruth_opetaja_tunni_failid/Oigus/02_normiopetus_tolgendamine_rakendamine/1.osa Normiõpetus slaidid.pdf",
+     "Ruth_opetaja_tunni_failid/Oigus/02_normiopetus_tolgendamine_rakendamine/2. osa Tõlgendamine slaidid.pdf",
+     "Ruth_opetaja_tunni_failid/Oigus/02_normiopetus_tolgendamine_rakendamine/LÜHIKONSPEKT -ÕIGUSNORMID ja KAASUSE LAHENDAMINEdocx.docx [KONTROLLIMATA]"
+    ],
+    "kysimused": [
+     "Ruth_kordamiskusimused/Oigus/Oiguse_alused_kordamiskusimused.txt (küsimused 9, 10, 11, 12, 13)"
+    ],
+    "tekstiversioonid": [
+     "sama nimega .txt/.md samas kaustas"
+    ],
+    "markus": "Slaidide VangS § 63 näide on vanemas redaktsioonis (kartser 45/20 ööpäeva); lehel on kehtiv tekst ja lahknevus on teemas 5.1 välja toodud."
    }
   },
   {
@@ -348,7 +422,7 @@
    "nr": 6,
    "pealkiri": "Õiguse realiseerimine",
    "kuupaev": "2026-10-07",
-   "olek": "tulemas",
+   "olek": "valmis",
    "tyyp": "loeng",
    "valjund": 2,
    "vorm": "E-õppe loeng",
@@ -357,16 +431,87 @@
     "Subsumeerimine"
    ],
    "tahtajad": [],
-   "kirjeldus": "Teemad lisatakse.",
-   "materjal": [],
-   "kysimused": [],
-   "plokid": [],
-   "teemad": [],
+   "kirjeldus": "Kuidas õigus ellu jõuab: kasutamine, järgimine ja rakendamine, õigussuhe ja juriidiline fakt, üld- ja üksikakt, rakendamise skeem, subsumeerimine ja määratlemata õigusmõiste.",
+   "materjal": [
+    "Õppejõu slaidid „Õiguse rakendamine” (T. Roosve) ja „Õiguse rakendamine” (pptx)",
+    "Haldusmenetluse seadus, vangistusseadus, kaitseväeteenistuse seadus, perekonnaseadus (Riigi Teataja)"
+   ],
+   "kysimused": [
+    {
+     "nr": 14,
+     "tekst": "Selgita, mida tähendab õiguse kasutamine, järgimine ja rakendamine!"
+    },
+    {
+     "nr": 15,
+     "tekst": "Selgita, mida tähendab subsumeerimine!"
+    },
+    {
+     "nr": 16,
+     "tekst": "Mis on juriidiline fakt?"
+    },
+    {
+     "nr": 26,
+     "tekst": "Mis on määratlemata õiguse mõiste?"
+    }
+   ],
+   "plokid": [
+    {
+     "pealkiri": "Õiguse realiseerimine",
+     "teemad": [
+      "o-t06-01",
+      "o-t06-02",
+      "o-t06-03"
+     ]
+    },
+    {
+     "pealkiri": "Õiguse rakendamise käik",
+     "teemad": [
+      "o-t06-04",
+      "o-t06-05",
+      "o-t06-06"
+     ]
+    }
+   ],
+   "teemad": [
+    {
+     "id": "o-t06-01",
+     "fail": "teemad/o-t06-01-kasutamine-jargimine-rakendamine.json"
+    },
+    {
+     "id": "o-t06-02",
+     "fail": "teemad/o-t06-02-oigussuhe-ja-juriidiline-fakt.json"
+    },
+    {
+     "id": "o-t06-03",
+     "fail": "teemad/o-t06-03-uldakt-uksikakt-toiming.json"
+    },
+    {
+     "id": "o-t06-04",
+     "fail": "teemad/o-t06-04-rakendamise-skeem-ja-asjaolud.json"
+    },
+    {
+     "id": "o-t06-05",
+     "fail": "teemad/o-t06-05-subsumeerimine.json"
+    },
+    {
+     "id": "o-t06-06",
+     "fail": "teemad/o-t06-06-maaratlemata-oigusmoiste.json"
+    }
+   ],
    "allikafailid": {
-    "opetaja": [],
-    "kysimused": [],
-    "tekstiversioonid": [],
-    "markus": ""
+    "opetaja": [
+     "Ruth_opetaja_tunni_failid/Oigus/02_normiopetus_tolgendamine_rakendamine/Slaidid õiguse rakendamine.pdf",
+     "Ruth_opetaja_tunni_failid/Oigus/02_normiopetus_tolgendamine_rakendamine/ÕIGUSE RAKENDAMINE (1).pptx",
+     "Ruth_opetaja_tunni_failid/Oigus/02_normiopetus_tolgendamine_rakendamine/ÕIGUSE REALISEERIMINE+RAKENDAMINE +TÕLGENDaMNE.docx [KONTROLLIMATA]",
+     "Ruth_opetaja_tunni_failid/Oigus/02_normiopetus_tolgendamine_rakendamine/FAKTILISTE ASJAOLUDE TUVASTAMINE (2).docx [KONTROLLIMATA]"
+    ],
+    "kysimused": [
+     "Ruth_kordamiskusimused/Oigus/Oiguse_alused_kordamiskusimused.txt (küsimused 14, 15, 16, 26)"
+    ],
+    "tekstiversioonid": [
+     "sama nimega .txt/.md samas kaustas"
+    ],
+    "markus": "Slaidi VangS § 25 lg 1 näide on vanemas sõnastuses; KVTS § 43 näite tunnuse „ülalpidamiskohustus tuleneb perekonnaseadusest” sisustus on slaidil teistsugune kui PKS § 96 lg 1 – mõlemad lahknevused on teemas 6.5."
    }
   },
   {
@@ -375,7 +520,7 @@
    "nr": 7,
    "pealkiri": "Kaasuste lahendamise metoodika",
    "kuupaev": "2026-10-14",
-   "olek": "tulemas",
+   "olek": "valmis",
    "tyyp": "loeng",
    "valjund": 2,
    "alateemad": [
@@ -388,16 +533,58 @@
      "kp": "2026-10-21"
     }
    ],
-   "kirjeldus": "Teemad lisatakse.",
-   "materjal": [],
+   "kirjeldus": "Kaasuse lahendamine samm-sammult: süllogism ja kuus sammu, õige normi leidmine, analüüsiv ja otsustusstiil ning üks vanglakaasus algusest lõpuni.",
+   "materjal": [
+    "M. Käbi „Sissejuhatus õigusesse. Kaasused” (SKA 2015), lk 5–14",
+    "Õppejõu slaidid „Õiguse rakendamine” – analüüsiv stiil ja otsustusstiil"
+   ],
    "kysimused": [],
-   "plokid": [],
-   "teemad": [],
+   "plokid": [
+    {
+     "pealkiri": "Metoodika",
+     "teemad": [
+      "o-t07-01",
+      "o-t07-02",
+      "o-t07-03"
+     ]
+    },
+    {
+     "pealkiri": "Harjutus",
+     "teemad": [
+      "o-t07-04"
+     ]
+    }
+   ],
+   "teemad": [
+    {
+     "id": "o-t07-01",
+     "fail": "teemad/o-t07-01-syllogism-ja-sammud.json"
+    },
+    {
+     "id": "o-t07-02",
+     "fail": "teemad/o-t07-02-oige-normi-leidmine.json"
+    },
+    {
+     "id": "o-t07-03",
+     "fail": "teemad/o-t07-03-lahendi-kirjapanek.json"
+    },
+    {
+     "id": "o-t07-04",
+     "fail": "teemad/o-t07-04-naidiskaasus-vanglast.json"
+    }
+   ],
    "allikafailid": {
-    "opetaja": [],
-    "kysimused": [],
-    "tekstiversioonid": [],
-    "markus": ""
+    "opetaja": [
+     "Ruth_opetaja_tunni_failid/Oigus/02_normiopetus_tolgendamine_rakendamine/(M.KÄBI)Sissejuhatus+õigusesse.+Kaasused.pdf",
+     "Ruth_opetaja_tunni_failid/Oigus/02_normiopetus_tolgendamine_rakendamine/Slaidid õiguse rakendamine.pdf"
+    ],
+    "kysimused": [
+     "Ruth_kordamiskusimused/Oigus/Oiguse_alused_kordamiskusimused.txt"
+    ],
+    "tekstiversioonid": [
+     "sama nimega .txt/.md samas kaustas"
+    ],
+    "markus": "Vanglakaasused (teemad 7.1 ja 7.4) on Claude'i koostatud kehtiva VangS-i järgi; Käbi näidislahend on päästeteenistuse kohta."
    }
   },
   {

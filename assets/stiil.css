@@ -274,10 +274,30 @@ main { padding: 0 1rem 4rem; }
 .valjast { font-size: .92rem; color: var(--mahe); border-top: 1px solid var(--joon); padding-top: .75rem; }
 .valjast p { margin: 0 0 .5rem; }
 
-.lehitse { display: flex; justify-content: space-between; gap: 1rem; margin-top: 2.5rem; padding-top: 1rem; border-top: 2px solid var(--tint); font-family: var(--kiri-pealkiri); }
-.lehitse a { text-decoration: none; max-width: 48%; }
-.lehitse small { display: block; color: var(--mahe); }
-.lehitse .jargmine { text-align: right; margin-left: auto; }
+/* lehitsemine: suur „Järgmine teema” nupp + väiksem „Eelmine” */
+.lehitse { margin-top: 3rem; padding-top: 1.4rem; border-top: 2px solid var(--tint); font-family: var(--kiri-pealkiri); }
+.lehitse-seis { display: flex; align-items: center; gap: .35rem; margin-bottom: .9rem; font-size: .85rem; color: var(--mahe); }
+.lehitse-seis i { width: 1.6rem; height: .4rem; border-radius: 99px; background: var(--joon); }
+.lehitse-seis i.tehtud { background: var(--mahe); }
+.lehitse-seis i.praegu { background: var(--tint); }
+.lehitse-seis span { margin-left: .5rem; }
+.lehitse-nupud { display: grid; gap: .7rem; }
+.lehitse a { display: flex; align-items: center; gap: .9rem; text-decoration: none; border-radius: 14px; }
+.lehitse .l-tekst { display: grid; gap: .1rem; min-width: 0; }
+.lehitse small { display: block; font-size: .82rem; }
+.lehitse b { font-weight: 750; line-height: 1.2; }
+.lehitse .jargmine { background: var(--tint); color: var(--paber); padding: 1.05rem 1.2rem; border: 2px solid var(--tint); }
+.lehitse .jargmine small { color: var(--paber); opacity: .75; }
+.lehitse .jargmine b { font-size: clamp(1.1rem, 2.6vw, 1.4rem); }
+.lehitse .jargmine .l-nool { margin-left: auto; font-size: 2rem; line-height: 1; transition: transform .15s ease; }
+.lehitse .jargmine:hover .l-nool, .lehitse .jargmine:focus-visible .l-nool { transform: translateX(5px); }
+.lehitse .jargmine .l-ikoon { flex: none; display: grid; place-items: center; width: 3rem; height: 3rem; border-radius: 12px; background: var(--paber); color: var(--tint); }
+.lehitse .jargmine .l-ikoon .ikoon { width: 1.9rem; height: 1.9rem; }
+:root:not([data-theme="light"]) .lehitse .jargmine { box-shadow: 0 0 34px -10px rgba(230, 234, 238, .55); }
+.lehitse .eelmine { border: 1.5px solid var(--joon); padding: .6rem .9rem; color: var(--mahe); }
+.lehitse .eelmine:hover { border-color: var(--tint); color: var(--tint); }
+.lehitse .eelmine .l-ikoon .ikoon { width: 1.3rem; height: 1.3rem; }
+.lehitse .eelmine b { font-weight: 600; font-size: .95rem; }
 
 /* ---------- harjutused ---------- */
 .harjutus { border: 1px solid var(--joon); border-radius: var(--raadius); padding: 1rem 1.1rem; margin-bottom: 1rem; background: var(--pind); }
@@ -1041,4 +1061,63 @@ main { padding: 0 1rem 4rem; }
 @media (max-width: 640px) {
   .mk-legend { font-size: .7rem; gap: .15rem .6rem; }
   .mk-otsi { flex: 1 1 100%; } .mk-otsi input { width: 100%; }
+}
+
+/* ---------- normi lahkamine (skeem „lahka”) ---------- */
+.s-lahka { border: 1.5px solid var(--joon); border-radius: 12px; padding: 1rem 1.1rem; background: var(--pind); }
+.lk-pea { display: flex; flex-wrap: wrap; gap: .4rem .8rem; align-items: baseline; margin-bottom: .6rem; }
+.lk-juhis { font-family: var(--kiri-pealkiri); font-size: .9rem; color: var(--mahe); }
+.lk-tekst { font-size: 1.02rem; line-height: 1.75; }
+.lk-tekst p { margin: 0 0 .35rem; }
+.lk-nupp { margin-top: .5rem; font-size: .9rem; padding: .4rem .9rem; }
+mark.lk { background: none; color: inherit; border-radius: 3px; padding: 0 .1em; }
+.s-lahka.naita mark.lk-k { background: color-mix(in srgb, var(--tint) 14%, transparent); box-shadow: inset 0 -2px 0 var(--tint); }
+.s-lahka.naita mark.lk-t { background: color-mix(in srgb, var(--tint) 6%, transparent); outline: 2px dashed var(--tint); outline-offset: 1px; }
+.s-lahka.naita mark.lk-s { outline: 2px dotted var(--mahe); outline-offset: 1px; }
+.s-lahka.naita mark.lk-m { font-weight: 800; text-decoration: underline wavy var(--mahe); }
+mark.lk sup { display: none; font-family: var(--kiri-pealkiri); font-weight: 800; font-size: .65em; margin-left: .1em; }
+.s-lahka.naita mark.lk sup { display: inline; }
+.lk-tulem { margin-top: .8rem; border-top: 1px solid var(--joon); padding-top: .7rem; }
+.lk-legend { list-style: none; padding: 0; margin: 0 0 .6rem; display: flex; flex-wrap: wrap; gap: .3rem 1rem; font-family: var(--kiri-pealkiri); font-size: .82rem; color: var(--mahe); }
+.lk-legend span.lk, .lk-tabel b.lk { display: inline-grid; place-items: center; min-width: 1.7rem; padding: 0 .3rem; border-radius: 5px; font-family: var(--kiri-pealkiri); font-weight: 800; font-size: .8rem; color: var(--tint); }
+.lk-legend .lk-k, .lk-tabel .lk-k { border: 2px solid var(--tint); }
+.lk-legend .lk-t, .lk-tabel .lk-t { border: 2px dashed var(--tint); }
+.lk-legend .lk-s, .lk-tabel .lk-s { border: 2px dotted var(--mahe); }
+.lk-legend .lk-m { border: 0; text-decoration: underline wavy var(--mahe); }
+.lk-tabel { list-style: none; padding: 0; margin: 0; display: grid; gap: .35rem; }
+.lk-tabel li { line-height: 1.45; }
+.lk-selg { color: var(--mahe); font-size: .93rem; }
+.lk-valem { margin: .7rem 0 0; font-family: var(--kiri-pealkiri); font-weight: 700; font-size: 1.02rem; }
+
+/* ---------- subsumeerimine (skeem „subsumeeri”) ---------- */
+.s-subsumeeri { border: 1.5px solid var(--joon); border-radius: 12px; padding: 1rem 1.1rem; background: var(--pind); }
+.sb-kys { margin: 0 0 .4rem; }
+.sb-norm { margin: 0 0 .8rem; font-family: var(--kiri-pealkiri); font-size: .9rem; color: var(--mahe); }
+.sb-veerud, .sb-rida { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) 9.5rem; gap: .5rem .9rem; align-items: start; }
+.sb-veerud { font-family: var(--kiri-pealkiri); font-size: .75rem; letter-spacing: .05em; text-transform: uppercase; color: var(--mahe); padding: 0 .6rem .3rem; }
+.sb-read { list-style: none; padding: 0; margin: 0; display: grid; gap: .5rem; }
+.sb-rida { border: 1.5px solid var(--joon); border-radius: 10px; padding: .65rem .6rem; position: relative; }
+.sb-rida.on-taidetud { border-color: var(--vask); }
+.sb-rida.pole-taidetud { border-color: var(--rooste); }
+.sb-tunnus { display: flex; gap: .5rem; align-items: baseline; font-weight: 600; }
+.sb-nr { flex: none; font-family: var(--kiri-pealkiri); font-weight: 800; font-size: .78rem; border: 2px solid var(--tint); border-radius: 5px; padding: 0 .3rem; }
+.sb-asjaolu { position: relative; }
+.sb-asjaolu::before { content: "↔"; position: absolute; left: -.85rem; color: var(--mahe); }
+.sb-toend { display: block; font-family: var(--kiri-pealkiri); font-size: .8rem; color: var(--mahe); margin-top: .2rem; }
+.sb-otsus { display: grid; gap: .3rem; }
+.sb-v { cursor: pointer; font-family: var(--kiri-pealkiri); font-size: .82rem; font-weight: 650; border: 1.5px solid var(--joon); background: transparent; border-radius: 7px; padding: .3rem .4rem; }
+.sb-v:disabled { cursor: default; opacity: .55; }
+.sb-v.oige { border-color: var(--vask); background: var(--vask-hele); opacity: 1; }
+.sb-v.vale { border-color: var(--rooste); background: var(--rooste-hele); opacity: 1; }
+.sb-selg { grid-column: 1 / -1; font-size: .93rem; color: var(--mahe); border-top: 1px dashed var(--joon); padding-top: .4rem; }
+.sb-jareldus { margin-top: .8rem; border: 1.5px solid var(--vask); background: var(--vask-hele); border-radius: var(--raadius); padding: .75rem .9rem; }
+.sb-jareldus::before { content: "✓ "; color: var(--vask); font-weight: 800; }
+.sb-jareldus b { display: block; font-family: var(--kiri-pealkiri); margin-bottom: .2rem; }
+.sb-tagajarg { margin: .4rem 0 0; font-size: .93rem; }
+@media (max-width: 640px) {
+  .sb-veerud { display: none; }
+  .sb-rida { grid-template-columns: 1fr; }
+  .sb-asjaolu::before { content: none; }
+  .sb-asjaolu { border-left: 3px solid var(--joon); padding-left: .5rem; }
+  .sb-otsus { grid-template-columns: 1fr 1fr; }
 }

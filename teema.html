@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Source+Serif+4:opsz,wght@8..60,300..700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/stiil.css?v=20261111i">
+<link rel="stylesheet" href="assets/stiil.css?v=20261111k">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23f2c230'/%3E%3Ctext x='16' y='24' font-size='22' text-anchor='middle' font-family='Georgia' fill='%231c2733'%3E§%3C/text%3E%3C/svg%3E">
 </head>
 <body>
@@ -19,10 +19,10 @@
   <p>Seaduste ja lepingute tekstid: Riigi Teataja, EUR-Lex, ÜRO – muutmata kujul. Selgitused on õppimiseks ega asenda ametlikku teksti.</p>
 </footer>
 
-<script src="assets/seadistus.js?v=20261111i"></script>
-<script src="assets/app.js?v=20261111i"></script>
-<script src="assets/ikoonid.js?v=20261111i"></script>
-<script src="assets/skeemid.js?v=20261111i"></script>
+<script src="assets/seadistus.js?v=20261111k"></script>
+<script src="assets/app.js?v=20261111k"></script>
+<script src="assets/ikoonid.js?v=20261111k"></script>
+<script src="assets/skeemid.js?v=20261111k"></script>
 <script>
 (function () {
   const A = window.APP;
@@ -33,15 +33,18 @@
 
   A.andmed().then(({ tunnid }) => {
     let tund = null, kirje = null, jrj = [];
-    tunnid.tunnid.forEach((t) => t.teemad.forEach((tm) => { jrj.push(tm); if (tm.id === id) { tund = t; kirje = tm; } }));
+    tunnid.tunnid.forEach((t) => t.teemad.forEach((tm) => { if (tm.id === id) { tund = t; kirje = tm; } }));
+    // lehitsemine ainult sama aine sees (tund → järgmine tund)
+    if (tund) tunnid.tunnid.filter((t) => t.aine === tund.aine).forEach((t) => t.teemad.forEach((tm) => jrj.push(Object.assign({ _tund: t }, tm))));
+    if (kirje) kirje = jrj.find((x) => x.id === id);
     A.kaivita({ leht: "teema", aine: tund && tund.aine, tund: tund && tund.id, teema: id });
     if (!kirje) { leht.innerHTML = `<div class="vahe" style="padding-top:2rem"><h1>Teemat ei leitud</h1><p><a href="index.html">Tagasi tundide juurde</a></p></div>`; return; }
     const i = jrj.indexOf(kirje);
     return Promise.all([A.lae(kirje.fail), jrj[i - 1] ? A.lae(jrj[i - 1].fail) : null, jrj[i + 1] ? A.lae(jrj[i + 1].fail) : null])
-      .then(([t, eel, jar]) => joonista(t, tund, eel, jar));
+      .then(([t, eel, jar]) => joonista(t, tund, eel && Object.assign({ _tund: jrj[i - 1]._tund }, eel), jar && Object.assign({ _tund: jrj[i + 1]._tund }, jar), { nr: tund.teemad.findIndex((x) => x.id === id) + 1, kokku: tund.teemad.length }));
   }).catch((e) => { A.kaivita({ leht: "teema" }); A.viga(leht, e); });
 
-  function joonista(t, tund, eel, jar) {
+  function joonista(t, tund, eel, jar, asukoht) {
     document.title = `${t.pealkiri} – Õppeleht`;
     const aine = (A.tunnid.ained || []).find((a) => a.id === tund.aine) || { id: "", nimi: "", lyhend: "" };
     A.salvestaViimati({ id: t.id, pealkiri: t.pealkiri, aine: aine.lyhend });
@@ -84,7 +87,14 @@
     const sisu = koik.map((x) => `<section class="osa" id="${x.id}" aria-labelledby="${x.id}-p">
       <h2 id="${x.id}-p">${x.nr ? `<span class="onr">${x.nr}</span>` : ""}${A.esc(x.nimi)}</h2>${x.html()}</section>`).join("");
     const kys = !t.kysimused.length ? "" : t.kysimused.length > 1 ? `Kordamisküsimused ${t.kysimused.join(", ")}. ` : `Kordamisküsimus ${t.kysimused[0]}. `;
-    const link = (x, klass, silt) => x ? `<a class="${klass}" href="teema.html?id=${x.id}"><small>${silt}</small>${A.esc(x.pealkiri)}</a>` : "";
+    const link = (x, klass, silt) => {
+      if (!x) return "";
+      const uusTund = x._tund.id !== tund.id;
+      const s = uusTund ? (klass === "jargmine" ? `Järgmine tund ${x._tund.nr} · ${A.esc(x._tund.pealkiri)}` : `Eelmine tund ${x._tund.nr}`) : silt;
+      return `<a class="${klass}" href="teema.html?id=${x.id}">${x.ikoon ? `<span class="l-ikoon">${A.ikoon(x.ikoon)}</span>` : ""}<span class="l-tekst"><small>${s}</small><b>${A.esc(x.pealkiri)}</b></span>${klass === "jargmine" ? '<span class="l-nool" aria-hidden="true">→</span>' : ""}</a>`;
+    };
+    const lopp = !jar ? `<a class="jargmine lopp" href="kordamine.html?tund=${tund.id}"><span class="l-tekst"><small>Tunni viimane teema</small><b>Korda kogu tundi</b></span><span class="l-nool" aria-hidden="true">→</span></a>` : "";
+    const sammud = `<div class="lehitse-seis" aria-label="Teema ${asukoht.nr} / ${asukoht.kokku} selles tunnis">${Array.from({ length: asukoht.kokku }, (_, k) => `<i class="${k + 1 < asukoht.nr ? "tehtud" : k + 1 === asukoht.nr ? "praegu" : ""}"></i>`).join("")}<span>Teema ${asukoht.nr} / ${asukoht.kokku}</span></div>`;
 
     leht.innerHTML = `
       <header class="teema-pais">
@@ -99,6 +109,7 @@
       <div class="teema-keha">
         <nav class="osad-menyy" aria-label="Teema osad"><ol>${menyy}</ol></nav>
         <div class="sisu">${sisu}
+          <nav class="lehitse" aria-label="Teemade vahel">${sammud}<div class="lehitse-nupud">${link(jar, "jargmine", "Järgmine teema")}${lopp}${link(eel, "eelmine", "Eelmine teema")}</div></nav>
           <details class="tagasiside">
             <summary>Teata veast või paku parandust</summary>
             <form id="tagasiside" novalidate>
@@ -112,7 +123,7 @@
               <p class="teade" role="status" aria-live="polite"></p>
             </form>
           </details>
-          <nav class="lehitse" aria-label="Teemade vahel">${link(eel, "eelmine", "Eelmine teema")}${link(jar, "jargmine", "Järgmine teema")}</nav>
+          
         </div>
       </div>`;
 

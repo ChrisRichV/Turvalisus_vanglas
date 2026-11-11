@@ -1,0 +1,237 @@
+{
+ "id": "o-t05-06",
+ "tund": "o-t05",
+ "jrk": 6,
+ "pealkiri": "Lünk ja vastuolu",
+ "lyhend": "Lünk ja vastuolu",
+ "ikoon": "lynk",
+ "kysimused": [],
+ "lyhidalt": "Lünk on siis, kui elulise olukorra jaoks normi ei ole. Vastuolu on siis, kui kaks normi annavad samale olukorrale teineteist välistavad tagajärjed. Vastuolu lahendatakse kolme reegliga: kõrgem norm, hilisem norm, erinorm. Lünka ületatakse analoogiaga – aga haldus- ja karistusõiguses on see keelatud.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Kaks erinevat probleemi",
+   "tekst": "Õiguse rakendaja ei saa juhtumit lahendamata jätta. Aga mõnikord on seadus vaikne või räägib iseendale vastu.",
+   "skeem": [
+    {
+     "tyyp": "vordlus",
+     "pealkiri": "Lünk ja vastuolu",
+     "veerud": [
+      "",
+      "Lünk",
+      "Vastuolu"
+     ],
+     "read": [
+      {
+       "silt": "Mis juhtub",
+       "lahtrid": [
+        "elulise olukorra jaoks normi ei ole",
+        "kaks või enam normi annavad samale olukorrale teineteist välistavad tagajärjed"
+       ]
+      },
+      {
+       "silt": "Kuidas lahendada",
+       "lahtrid": [
+        "analoogia (seaduse või õiguse analoogia)",
+        "kõrgem norm → hilisem norm → erinorm"
+       ]
+      },
+      {
+       "silt": "Piirang",
+       "lahtrid": [
+        "haldus- ja karistusõiguses analoogia ei ole lubatud",
+        "vastuolu on ainult siis, kui tagajärjed tõesti välistavad teineteist"
+       ]
+      }
+     ]
+    },
+    {
+     "tyyp": "kaardid",
+     "pealkiri": "Vastuolu lahendamise kolm reeglit",
+     "kaardid": [
+      {
+       "silt": "▲",
+       "pealkiri": "Kõrgem norm võidab",
+       "tekst": "*Lex superior* – seadus enne määrust, põhiseadus enne seadust.",
+       "viide": "PS § 152"
+      },
+      {
+       "silt": "⟳",
+       "pealkiri": "Hilisem norm võidab",
+       "tekst": "*Lex posterior* – sama taseme normidest uuem, kui ei ole sätestatud teisiti.",
+       "toon": "b"
+      },
+      {
+       "silt": "◎",
+       "pealkiri": "Erinorm võidab",
+       "tekst": "*Lex specialis* – eriseadus üldseaduse ees. VangS-i erisused HMS-i ees.",
+       "viide": "VangS § 1^1 lg 1",
+       "toon": "c"
+      }
+     ]
+    }
+   ],
+   "jarel": "Lünkadel on kolm sorti: **ehtne lünk** (seadusandja tahtis reguleerida, aga jäi tegemata), **näiv lünk** (seadusandja ei tahtnudki reguleerida – seda ei tohi „ületada”) ja **väärtuslünk** (säte on nii abstraktne, et raske aru saada, mis olukordadele see kehtib)."
+  },
+  "alus": {
+   "pealkiri": "Õiguslik alus",
+   "read": [
+    {
+     "tase": "Kõrgem norm",
+     "viited": [
+      "PS § 152",
+      "PS § 102",
+      "PS § 3 lg 1"
+     ],
+     "tekst": "Põhiseadusega vastuolus normi kohus ei kohalda; seadused võetakse vastu kooskõlas põhiseadusega; määrus seaduse alusel."
+    },
+    {
+     "tase": "Erinorm vanglas",
+     "viited": [
+      "VangS § 1^1 lg 1",
+      "VangS § 1^1 lg 2"
+     ],
+     "tekst": "HMS kehtib, arvestades VangS-i erisusi; mõni HMS-i säte vanglas ei kehti üldse."
+    },
+    {
+     "tase": "Analoogia keeld karistusõiguses",
+     "viited": [
+      "PS § 23"
+     ],
+     "tekst": "Süüdi saab mõista ainult teo eest, mida seadus tunnistab kuriteoks."
+    },
+    {
+     "tase": "Seaduslikkus halduses",
+     "viited": [
+      "PS § 3 lg 1",
+      "HMS § 3 lg 1"
+     ],
+     "tekst": "Põhiõigusi piirata ainult seaduse alusel – analoogia ei asenda seadust."
+    }
+   ],
+   "skeem": {
+    "tyyp": "otsus",
+    "pealkiri": "Kas tegu on vastuoluga ja kuidas see lahendada?",
+    "algus": "Kaks normi tunduvad samale olukorrale andvat erineva vastuse.",
+    "sammud": [
+     {
+      "kysimus": "Kas tagajärjed tõesti välistavad teineteist?",
+      "tekst": "Sageli saab mõlemat järgida – siis vastuolu ei ole.",
+      "ei": {
+       "tulemus": "Vastuolu pole",
+       "tekst": "Rakenda mõlemat normi."
+      }
+     },
+     {
+      "kysimus": "Kas normid on erineva õigusjõuga?",
+      "tekst": "Nt seadus ja määrus.",
+      "ei": {
+       "tulemus": "Mine edasi",
+       "tekst": "Sama tase – vaata, kumb on eriline või hilisem."
+      },
+      "ei_silt": "Sama tase",
+      "jah_silt": "Jah → kõrgem võidab"
+     },
+     {
+      "kysimus": "Kas üks on erinorm?",
+      "tekst": "Eriseadus või konkreetsem säte.",
+      "ei": {
+       "tulemus": "Hilisem võidab",
+       "tekst": "Kui hilisemas aktis pole sätestatud teisiti."
+      },
+      "jah_silt": "Jah → erinorm võidab"
+     }
+    ],
+    "lopp": {
+     "tulemus": "Rakenda võitnud normi",
+     "tekst": "ja põhjenda lahenduses, millise reegli järgi valisid.",
+     "silt": "Lahendus"
+    }
+   }
+  },
+  "piiramine": {
+   "pealkiri": "Analoogia ja selle piir",
+   "tekst": "**Seaduse analoogia**: kasutatakse sarnast olukorda reguleerivat normi. **Õiguse analoogia**: kui sellist normi pole, kasutatakse õigusharu üldpõhimõtteid. Mõlemat peab üksikasjalikult põhjendama.\n\nAnaloogia on kasutatav eraõiguses. **Karistusõiguses ja haldusõiguses analoogia rakendamine ei ole lubatud** – riik ei tohi koormata isikut ilma seaduse aluseta ([[PS § 23]], [[HMS § 3 lg 1]]). Isiku kasuks võib kohus tõlgendamise teel lünga ületada – slaidil on Riigikohtu veeteetasu näide, kus eelistati eesmärgipärast tõlgendust, et kohelda ettevõtjaid võrdselt.",
+   "skeem": {
+    "tyyp": "kaalud",
+    "pealkiri": "Kus analoogia on lubatud",
+    "vasak": {
+     "pealkiri": "Eraõigus",
+     "tekst": "Analoogia lubatud, kui see on põhjendatud.",
+     "silt": "lubatud"
+    },
+    "parem": {
+     "pealkiri": "Haldus- ja karistusõigus",
+     "tekst": "Isikut koormava normi analoogia ei ole lubatud.",
+     "silt": "keelatud"
+    }
+   }
+  },
+  "vangla": {
+   "tekst": "Vanglas on igapäevane vastuolu-küsimus HMS ja VangS: haldusmenetluse üldseadus on HMS, aga VangS sätestab erisused ([[VangS § 1^1 lg 1]]). Näiteks vaiet ei lahendata HMS-i üldtähtaja järgi, vaid VangS-i järgi ([[VangS § 1^1 lg 7]]).",
+   "naide": {
+    "olukord": "Kinnipeetav kaebab otse halduskohtusse, sest „HMS järgi ei pea vaiet esitama”. Vangla ütleb, et kõigepealt tuleb esitada vaie.",
+    "analyys": "**Kas vastuolu?** HMS-i üldreegli järgi isik **võib** esitada vaide ([[HMS § 71 lg 1]]) – see on valikuline; VangS seab kohtusse pöördumise eelduseks vaide ([[VangS § 1^1 lg 5]]). Tagajärjed välistavad teineteist. **Reegel:** VangS on vangla haldusmenetluses **eriseadus** ja HMS-i kohaldatakse VangS-i erisusi arvestades ([[VangS § 1^1 lg 1]]). **Järeldus:** erinorm võidab – kinnipeetav peab esmalt esitama vaide."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Iga erinevust kahe normi vahel nimetatakse vastuoluks, kuigi mõlemat saab järgida.",
+    "Haldusõiguses ületatakse lünka analoogiaga isiku kahjuks.",
+    "Unustatakse, et eriseadus võib üldseaduse kõrvale jätta ainult ulatuses, milles see erisuse sätestab.",
+    "Näivat lünka hakatakse „ületama” – kui seadusandja ei tahtnud reguleerida, ei ole midagi ületada."
+   ]
+  }
+ },
+ "vastus": [],
+ "harjutused": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Ministri määrus ja seadus annavad samale olukorrale erineva tagajärje. Kumb kehtib?",
+   "valikud": [
+    "Määrus, sest see on konkreetsem",
+    "Seadus – kõrgema õigusjõuga norm",
+    "Hilisem neist"
+   ],
+   "oige": 1,
+   "selgitus": "Määrus antakse seaduse alusel ja täitmiseks ([[PS § 94 lg 2]]) – lex superior."
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Kas vanglaametnik võib analoogia abil kohaldada kinnipeetavale piirangut, mida seadus ei näe ette?",
+   "valikud": [
+    "Jah, kui olukord on sarnane",
+    "Ei – haldusõiguses ei ole analoogia isiku kahjuks lubatud",
+    "Jah, kui direktor nõustub"
+   ],
+   "oige": 1,
+   "selgitus": "Piirangud on seaduses ([[VangS § 4^1 lg 2]], [[HMS § 3 lg 1]])."
+  },
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Lünk või vastuolu?",
+   "ryhmad": [
+    "Lünk",
+    "Vastuolu"
+   ],
+   "read": [
+    {
+     "tekst": "Seadus ei ütle, mis juhtub menetlustähtajaga, kui taotlus oli puudustega.",
+     "oige": 0,
+     "selgitus": "Slaidi näide: normi ei ole."
+    },
+    {
+     "tekst": "Üks seadus keelab erakonda kuulumise, teine lubab.",
+     "oige": 1,
+     "selgitus": "Slaidi näide (KVTS ja ATS) – kontrolli, kas tagajärjed tõesti välistavad ja kumb on erinorm."
+    },
+    {
+     "tekst": "HMS-i järgi on vaie valikuline, VangS-i järgi kohustuslik enne kohut.",
+     "oige": 1,
+     "selgitus": "Lahendus: erinorm ([[VangS § 1^1 lg 5]])."
+    }
+   ]
+  }
+ ],
+ "erinevused": [],
+ "valjast": []
+}

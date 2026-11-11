@@ -1,0 +1,224 @@
+{
+ "id": "o-t05-01",
+ "tund": "o-t05",
+ "jrk": 1,
+ "pealkiri": "Õigusnorm ja täielik õigusnorm",
+ "lyhend": "Täielik õigusnorm",
+ "ikoon": "hds",
+ "kysimused": [
+  11
+ ],
+ "lyhidalt": "Iga õigusnorm on mõtteline reegel kujul „kui …, siis …”. Kui-osa ütleb, millises olukorras norm kehtib (hüpotees ehk faktiline koosseis). Siis-osa ütleb, mis sellest järgneb (õiguslik tagajärg). Kui see kahe osaga ehitus on ühes sättes koos, on tegu täieliku õigusnormiga.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Kui …, siis …",
+   "tekst": "Seadus ei ole lihtsalt tekst – see on **reeglite kogum**, mille järgimist riik vajadusel sunniga tagab. Iga reegel ehk õigusnorm vastab samale mustrile: **kui** elus juhtub midagi kindlat, **siis** järgneb kindel õiguslik tagajärg.\n\nMustri kahte poolt nimetatakse nii:\n\n**Hüpotees** ehk **faktiline koosseis** – tingimused, mille korral norm hakkab tööle. Need on kirjas üldiselt: mitte „Jaan”, vaid „kinnipeetav”; mitte „eile kell 14”, vaid „vangla julgeoleku tagamiseks”.\n\n**Õiguslik tagajärg** – mis siis juhtub: keegi **peab**, **võib** või **ei tohi** midagi teha.\n\nVanem õigusteooria jagab tagajärje veel kaheks: **dispositsioon** (kuidas tuleb käituda) ja **sanktsioon** (mis juhtub, kui ei käituta). Siis saab mustri **H – D – S**: kui … siis … vastasel juhul ….",
+   "skeem": [
+    {
+     "tyyp": "voog",
+     "pealkiri": "Täielik õigusnorm: H → D → S",
+     "sammud": [
+      {
+       "pealkiri": "H · Hüpotees – „kui …”",
+       "tekst": "Tingimused: **kinnipeetav**, **vanglas**, **julgeoleku tagamiseks**.",
+       "viide": "VangS § 67"
+      },
+      {
+       "pealkiri": "D · Dispositsioon – „siis …”",
+       "tekst": "Kuidas käituda: kinnipeetav on kohustatud täitma sisekorraeeskirju ja alluma ametnike seaduslikele korraldustele.",
+       "viide": "VangS § 67"
+      },
+      {
+       "pealkiri": "S · Sanktsioon – „vastasel juhul …”",
+       "tekst": "Mis juhtub rikkumise korral: süülise rikkumise eest võib määrata distsiplinaarkaristuse – noomitusest kartserini.",
+       "viide": "VangS § 63 lg 1"
+      }
+     ],
+     "allkiri": "Vangla näide: üks norm kirjeldab kohustust (§ 67), teine annab sanktsiooni selle rikkumise eest (§ 63)."
+    }
+   ],
+   "jarel": "Pane tähele: H, D ja S ei pea olema samas paragrahvis. Väga sageli on käitumisreegel ühes kohas ja karistus teises. Õiguse rakendaja paneb need mõttes kokku."
+  },
+  "alus": {
+   "pealkiri": "Kus seda näeb",
+   "tekst": "Õigusnormi ehitust ei kirjelda ükski seadus – see on õigusteooria tööriist. Aga kõik seadused on selle järgi kirjutatud. Näiteks hea õigusloome ja normitehnika eeskiri nõuab, et seaduses oleks reeglid (regulatiivsed normid) ja vajadusel ka nende järgimist tagavad normid.",
+   "read": [
+    {
+     "tase": "Kuidas seadusi kirjutatakse",
+     "viited": [
+      "HÕNTE § 9 lg 1",
+      "HÕNTE § 9 lg 2"
+     ],
+     "tekst": "Seaduses on reeglid ja nende järgimist tagavad normid; seadus peab selgelt ütlema, kellele millised õigused ja kohustused tekivad."
+    },
+    {
+     "tase": "Vangla: kohustus (D)",
+     "viited": [
+      "VangS § 67"
+     ],
+     "tekst": "Kinnipeetava kohustused julgeoleku tagamiseks."
+    },
+    {
+     "tase": "Vangla: sanktsioon (S)",
+     "viited": [
+      "VangS § 63 lg 1"
+     ],
+     "tekst": "Distsiplinaarkaristused nõuete süülise rikkumise eest."
+    },
+    {
+     "tase": "Riigi sund",
+     "viited": [
+      "PS § 3 lg 1"
+     ],
+     "tekst": "Riigivõimu – ka sundi – teostatakse ainult seaduse alusel."
+    }
+   ],
+   "skeem": {
+    "tyyp": "lahka",
+    "viide": "VangS § 63 lg 1",
+    "juhis": "Leia ise: millised on tingimused (kui …) ja mis on tagajärg (siis …)? Siis vajuta nuppu.",
+    "osad": [
+     {
+      "tekst": "Käesoleva seaduse, vangla sisekorraeeskirjade või muude õigusaktide nõuete",
+      "roll": "k",
+      "selgitus": "mida on rikutud – üks kolmest allikast piisab"
+     },
+     {
+      "tekst": "süülise rikkumise eest",
+      "roll": "k",
+      "selgitus": "rikkumine peab olema süüline"
+     },
+     {
+      "tekst": "kinnipeetavale",
+      "roll": "k",
+      "selgitus": "kelle suhtes"
+     },
+     {
+      "tekst": "võib",
+      "roll": "m",
+      "selgitus": "kaalutlus – mitte kohustus"
+     },
+     {
+      "tekst": "kohaldada distsiplinaarkaristusi",
+      "roll": "t",
+      "selgitus": "tagajärg (sanktsioon)"
+     }
+    ],
+    "valem": "Kui K1 ja K2 ja K3, siis **võib** T1.",
+    "pealkiri": "Lahka ise: VangS § 63 lg 1",
+    "allkiri": "Tekst tuleb Riigi Teatajast sõna-sõnalt; märgistus on õppimiseks."
+   }
+  },
+  "piiramine": {
+   "pealkiri": "Miks see on ametnikule tähtis",
+   "tekst": "Kui oskad normi kaheks lõigata, oskad vastata kahele küsimusele, mida iga ametnik peab endalt küsima:\n\n1. **Kas olukord vastab normi tingimustele?** (hüpotees) – kui mõni tingimus puudub, ei tohi normi kasutada.\n2. **Mida ma tohin või pean tegema?** (tagajärg) – mitte rohkem, kui norm lubab.\n\nSee on sama loogika, mida kasutasid tunnis 11 põhiõiguse riive kontrollimisel: ilma seadusliku aluseta ei tohi riik sekkuda ([[PS § 3 lg 1]]). Seaduslik alus = norm, mille hüpotees on täidetud.",
+   "skeem": {
+    "tyyp": "kaalud",
+    "vasak": {
+     "pealkiri": "Hüpotees täidetud",
+     "tekst": "Kõik tingimused on elus olemas → tagajärge **võib/peab** rakendama.",
+     "silt": "norm kehtib"
+    },
+    "parem": {
+     "pealkiri": "Üks tingimus puudub",
+     "tekst": "Normi ei saa kasutada → tagajärge rakendada **ei tohi**.",
+     "silt": "norm ei kehti"
+    },
+    "all": [
+     "Rikkumine, mis ei ole süüline, ei ole distsiplinaarkaristuse alus ([[VangS § 63 lg 1]]).",
+     "Kartseri ülempiir on seaduses kirjas – üle selle ei saa minna ([[VangS § 63 lg 1 p 4]])."
+    ]
+   }
+  },
+  "vangla": {
+   "tekst": "Distsiplinaarmenetlus on kõige puhtam näide täielikust õigusnormist vanglas. Ametnik peab läbi käima kogu ahela: millist nõuet rikuti (D), kas rikkumine oli süüline (H) ja milline karistus valida (S). Karistuse valikul arvestatakse vangistuse eesmärki ja ühe rikkumise eest määratakse ainult üks karistus ([[VangS § 63 lg 3]]).",
+   "naide": {
+    "olukord": "Kinnipeetav keeldub ametniku korraldusest minna loenduseks kambrisse. Ametnik ütleb: „See on rikkumine, saad kartserit.”",
+    "analyys": "**D:** kinnipeetav on kohustatud alluma ametniku seaduslikele korraldustele ([[VangS § 67]]). **H:** tuleb kontrollida, kas korraldus oli seaduslik ja kas keeldumine oli **süüline** ([[VangS § 63 lg 1]]). **S:** tagajärg on „**võib** kohaldada” – ametnik ei pea valima kõige raskemat karistust, vaid kaaluma ([[VangS § 63 lg 3]]). Lisaks peab enne karistamist läbima distsiplinaarmenetluse: kinnipeetavat informeeritakse ja tal on õigus anda selgitusi ([[VangS § 64 lg 2]]). **Järeldus:** „saad kartserit” on enneaegne – tagajärg tuleb alles pärast hüpoteesi kontrolli ja menetlust."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Hüpotees ja tagajärg aetakse segi: „süülise rikkumise eest” on **tingimus**, mitte tagajärg.",
+    "Unustatakse, et H, D ja S võivad olla eri paragrahvides – otsitakse sanktsiooni samast sättest, kus on kohustus.",
+    "„Võib” loetakse „peab”-iks. „Võib” tähendab, et ametnik kaalub ([[HMS § 4 lg 1]]).",
+    "Normi tingimused jäetakse kontrollimata ja minnakse kohe tagajärje juurde."
+   ]
+  }
+ },
+ "vastus": [
+  {
+   "nr": 11,
+   "punktid": [
+    "Täielik õigusnorm koosneb **hüpoteesist** ehk faktilisest koosseisust (kui …) ja **õiguslikust tagajärjest** (siis …).",
+    "Klassikalise jaotuse järgi: **hüpotees – dispositsioon – sanktsioon** (kui … siis … vastasel juhul …).",
+    "Hüpotees = tingimused, mille korral norm kehtib; dispositsioon = kuidas peab käituma; sanktsioon = riiklik sund rikkumise korral.",
+    "Näide: kohustus [[VangS § 67]] (D) ja distsiplinaarkaristus selle süülise rikkumise eest [[VangS § 63 lg 1]] (S)."
+   ]
+  }
+ ],
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Kas see osa VangS § 63 lõikest 1 on tingimus (hüpotees) või tagajärg?",
+   "ryhmad": [
+    "Hüpotees (kui …)",
+    "Tagajärg (siis …)"
+   ],
+   "read": [
+    {
+     "tekst": "süülise rikkumise eest",
+     "oige": 0,
+     "selgitus": "Tingimus: rikkumine peab olema süüline."
+    },
+    {
+     "tekst": "võib kinnipeetavale kohaldada distsiplinaarkaristusi",
+     "oige": 1,
+     "selgitus": "See on õiguslik tagajärg."
+    },
+    {
+     "tekst": "vangla sisekorraeeskirjade nõuete rikkumine",
+     "oige": 0,
+     "selgitus": "Tingimus: mida on rikutud."
+    },
+    {
+     "tekst": "kartserisse paigutamine",
+     "oige": 1,
+     "selgitus": "Üks võimalikest tagajärgedest ([[VangS § 63 lg 1 p 4]])."
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mida tähistab täht S mustris H – D – S?",
+   "valikud": [
+    "Seadust",
+    "Sanktsiooni – riiklikku sundi rikkumise korral",
+    "Subjekti – kellele norm kehtib"
+   ],
+   "oige": 1,
+   "selgitus": "S = sanktsioon: „vastasel juhul …”."
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Kinnipeetava kohustus ja karistus selle rikkumise eest on VangS-is eri paragrahvides. Mida see tähendab?",
+   "valikud": [
+    "Tegu ei ole õigusnormiga",
+    "Täielik norm tuleb mõttes kokku panna mitmest sättest",
+    "Karistust ei saa määrata"
+   ],
+   "oige": 1,
+   "selgitus": "H, D ja S võivad olla eri sätetes ([[VangS § 67]], [[VangS § 63 lg 1]])."
+  }
+ ],
+ "erinevused": [
+  {
+   "silt": "Slaid",
+   "teema": "Kartseri pikkus VangS § 63 järgi",
+   "konspekt": "Õppejõu slaidid (normiõpetus, lk 7–10) tsiteerivad: „kartserisse paigutamine kuni 45 ööpäevaks” ja noore kinnipeetava puhul „kuni 20 ööpäevaks”.",
+   "ametlik": "Kehtiv tekst: kartserisse paigutamine kuni 14 ööpäevaks ([[VangS § 63 lg 1 p 4]]); noort kinnipeetavat kuni 3 ööpäevaks ([[VangS § 63 lg 2]]).",
+   "markus": "Slaid on koostatud seaduse vanema redaktsiooni järgi. Normi **ehituse** näitena on slaid õige; eksamil tsiteeri kehtivat sõnastust."
+  }
+ ],
+ "valjast": []
+}

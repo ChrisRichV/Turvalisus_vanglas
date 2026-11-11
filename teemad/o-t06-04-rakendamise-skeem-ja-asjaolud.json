@@ -1,0 +1,222 @@
+{
+ "id": "o-t06-04",
+ "tund": "o-t06",
+ "jrk": 4,
+ "pealkiri": "Õiguse rakendamise skeem ja asjaolude tuvastamine",
+ "lyhend": "Rakendamise skeem",
+ "ikoon": "rakendus",
+ "kysimused": [],
+ "lyhidalt": "Õiguse rakendamine käib alati sama skeemi järgi: sõnasta õiguslik küsimus, leia kehtiv norm, tee kindlaks asjaolud, kohalda normi ja tagajärge, vormista lahend. Asjaolud tuleb tõendada – haldusorgan peab need ise välja selgitama.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Viis sammu",
+   "tekst": "Õiguse rakendamine on **otsuse tegemine õigusnormi alusel konkreetse elujuhtumi kohta**. Eesmärk on leida sellele juhtumile kehtiv õiguslik lahend – ratsionaalselt, kontrollitavalt ja läbipaistvalt.",
+   "skeem": [
+    {
+     "tyyp": "voog",
+     "pealkiri": "Õiguse rakendamise skeem",
+     "sammud": [
+      {
+       "pealkiri": "1. Õiguslik küsimus",
+       "tekst": "Mis on probleem? Kas see on üldse õiguslik? Mida täpselt küsitakse?"
+      },
+      {
+       "pealkiri": "2. Kehtiv õigus",
+       "tekst": "Leia seadus ja säte, mis annab vastuse. Eelista eriseadust ja konkreetset normi."
+      },
+      {
+       "pealkiri": "3. Asjaolud",
+       "tekst": "Mis juhtus? Tõendamine ja uurimine.",
+       "viide": "HMS § 6"
+      },
+      {
+       "pealkiri": "4. Normi ja tagajärje kohaldamine",
+       "tekst": "Kas asjaolud vastavad normi tunnustele (subsumeerimine)? Kui jah – milline tagajärg?"
+      },
+      {
+       "pealkiri": "5. Lahendi vormistamine",
+       "tekst": "Otsus koos põhjendustega."
+      }
+     ],
+     "allkiri": "Sammud ei käi rangelt järjest: osa asjaolusid on teada enne küsimuse sõnastamist ja normi leides selgub, milliseid asjaolusid veel vaja on. Slaidil on nooled mõlemas suunas."
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Asjaolud ja tõendid",
+   "tekst": "Asjaolude väljaselgitamine sõltub normist, mida rakendatakse – normi tunnused ütlevad, mida on vaja tõendada. Haldusmenetluses kehtib **uurimispõhimõte**: haldusorgan peab ise olulised asjaolud välja selgitama.",
+   "read": [
+    {
+     "tase": "Uurimispõhimõte",
+     "viited": [
+      "HMS § 6"
+     ],
+     "tekst": "Haldusorgan on kohustatud välja selgitama asjas olulise tähendusega asjaolud ja vajadusel koguma tõendeid oma algatusel."
+    },
+    {
+     "tase": "Tõendid",
+     "viited": [
+      "HMS § 38 lg 2"
+     ],
+     "tekst": "Menetlusosalise seletus, dokumentaalne tõend, asitõend, paikvaatlus, tunnistaja ütlus, eksperdi arvamus."
+    },
+    {
+     "tase": "Menetlusosalise kohustus",
+     "viited": [
+      "HMS § 38 lg 3"
+     ],
+     "tekst": "Menetlusosaline peab esitama talle teada olevad asjaolud ja tõendid."
+    },
+    {
+     "tase": "Vangla",
+     "viited": [
+      "VangS § 64 lg 1",
+      "VangS § 64 lg 2"
+     ],
+     "tekst": "Distsiplinaarmenetluses selgitab asjaolud välja vanglateenistus; kinnipeetaval on õigus anda selgitusi."
+    }
+   ],
+   "skeem": {
+    "tyyp": "kaardid",
+    "pealkiri": "Tõendi tunnused",
+    "kaardid": [
+     {
+      "silt": "1",
+      "pealkiri": "Lubatav",
+      "tekst": "Kogutud õiguslikke reegleid järgides."
+     },
+     {
+      "silt": "2",
+      "pealkiri": "Asjakohane",
+      "tekst": "Seotud just sellega, mida on vaja tõendada.",
+      "toon": "b"
+     },
+     {
+      "silt": "3",
+      "pealkiri": "Usaldusväärne",
+      "tekst": "Allikas suudab teavet õigesti säilitada ja edasi anda; kontrolli teiste tõenditega."
+     },
+     {
+      "silt": "4",
+      "pealkiri": "Kaalukas",
+      "tekst": "Mida asjakohasem ja usaldusväärsem, seda kaalukam.",
+      "toon": "b"
+     }
+    ],
+    "allkiri": "Tõendeid hinnatakse kogumis ja vastastikuses seoses; haldusmenetluses on tõendamisstandard tavaliselt madalam kui süüteomenetluses (õppejõu slaidid)."
+   }
+  },
+  "piiramine": {
+   "pealkiri": "Fakt ja õigus on eri küsimused",
+   "tekst": "Subsumeerimine toetub kahele eeldusele: **faktiküsimus** (mis juhtus?) ja **õigusküsimus** (mida norm nõuab?) lahendatakse eraldi. Kõigepealt tee selgeks, mis juhtus; siis rakenda faktidele normi.",
+   "punktid": [
+    "**Üldteada asjaolusid** ei pea tõendama (nt et 1. jaanuar on riigipüha).",
+    "**Tõendada saab fakte, mitte õiguslikke väiteid.** „Ta rikkus seadust” on õiguslik järeldus; „ta oli kell 22 koridoris” on fakt.",
+    "Igale asjaolule omistatakse tõenäosus – kas see on tõendatud või mitte."
+   ]
+  },
+  "vangla": {
+   "tekst": "Distsiplinaarmenetlus on vanglas kõige tavalisem õiguse rakendamise menetlus. Läbi kõik viis sammu:",
+   "skeem": {
+    "tyyp": "kontroll",
+    "pealkiri": "Viis sammu distsiplinaarmenetluses",
+    "olukord": "Ametnik leiab kambrist keelatud eseme. Kambris on kaks kinnipeetavat.",
+    "sammud": [
+     {
+      "silt": "Küsimus",
+      "kysimus": "Mis on õiguslik küsimus?",
+      "vastus": "Kas kinnipeetav A-le (või B-le) võib määrata distsiplinaarkaristuse?"
+     },
+     {
+      "silt": "Norm",
+      "kysimus": "Milline norm?",
+      "vastus": "Distsiplinaarkaristus süülise rikkumise eest; keelatud esemed.",
+      "viited": [
+       "VangS § 63 lg 1",
+       "VangS § 15 lg 2"
+      ]
+     },
+     {
+      "silt": "Asjaolud",
+      "kysimus": "Millised asjaolud tuleb tõendada?",
+      "vastus": "**Kelle** ese on (kaks kinnipeetavat!), kas ese on keelatud, kas valdamine oli süüline. Tõendid: protokoll, seletused, vaatlus. Kinnipeetavale öeldakse, milles teda süüdistatakse, ja ta saab anda selgitusi.",
+      "viited": [
+       "VangS § 64 lg 2",
+       "HMS § 38 lg 2"
+      ]
+     },
+     {
+      "silt": "Subsumeerimine",
+      "kysimus": "Kas asjaolud vastavad normile? Milline tagajärg?",
+      "vastus": "Ainult see, kelle süü on tõendatud. Kollektiivne karistus on keelatud. Karistuse valikul arvesta vangistuse eesmärki.",
+      "viited": [
+       "VangS § 63 lg 3"
+      ]
+     },
+     {
+      "silt": "Vormistamine",
+      "kysimus": "Kuidas vormistada?",
+      "vastus": "Käskkiri, mis on põhjendatud ja antakse kinnipeetavale teatavaks.",
+      "viited": [
+       "VangS § 64 lg 4"
+      ]
+     }
+    ],
+    "jareldus": "Kui asjaoludest ei selgu, kumma kinnipeetava ese oli, ei saa kumbagi karistada ainult kambris viibimise pärast – süülisus peab olema tõendatud."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Asjaolud kirjeldatakse, aga ei öelda, millega need on tõendatud.",
+    "Fakti- ja õigusküsimus segatakse: „tõendati, et ta rikkus seadust”.",
+    "Unustatakse uurimispõhimõte: haldusorgan ei saa jätta asjaolusid välja selgitamata põhjusel, et isik neid ei esitanud ([[HMS § 6]])."
+   ]
+  }
+ },
+ "vastus": [],
+ "harjutused": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Kes peab haldusmenetluses olulised asjaolud välja selgitama?",
+   "valikud": [
+    "Ainult taotleja",
+    "Haldusorgan, vajadusel oma algatusel",
+    "Kohus"
+   ],
+   "oige": 1,
+   "selgitus": "Uurimispõhimõte ([[HMS § 6]])."
+  },
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Fakt või õiguslik järeldus?",
+   "ryhmad": [
+    "Fakt",
+    "Õiguslik järeldus"
+   ],
+   "read": [
+    {
+     "tekst": "Kinnipeetav oli kell 22.15 koridoris.",
+     "oige": 0,
+     "selgitus": "Saab tõendada (vaatlus, salvestis)."
+    },
+    {
+     "tekst": "Kinnipeetav rikkus süüliselt sisekorraeeskirja.",
+     "oige": 1,
+     "selgitus": "See on subsumeerimise tulemus."
+    },
+    {
+     "tekst": "Kambrist leiti mobiiltelefon.",
+     "oige": 0,
+     "selgitus": "Fakt; tõend = protokoll, asitõend."
+    },
+    {
+     "tekst": "Ese on keelatud asi.",
+     "oige": 1,
+     "selgitus": "Hinnang normi järgi ([[VangS § 15 lg 2]])."
+    }
+   ]
+  }
+ ],
+ "erinevused": [],
+ "valjast": []
+}

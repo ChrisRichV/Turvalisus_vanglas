@@ -1,0 +1,215 @@
+{
+ "id": "o-t05-03",
+ "tund": "o-t05",
+ "jrk": 3,
+ "pealkiri": "Primaar- ja sekundaarnorm, täielik ja spetsialiseeritud norm",
+ "lyhend": "Spetsialiseeritud normid",
+ "ikoon": "pusle",
+ "kysimused": [
+  10
+ ],
+ "lyhidalt": "Normi saab liigitada ka ehituse järgi. Täielikul normil on kui- ja siis-osa koos. Spetsialiseeritud normil seda ei ole – see viitab, seletab või kitsendab teist normi. Primaarnorm ütleb, kuidas käituda; sekundaarnorm, mis juhtub, kui seda ei tehtud.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Kaks liigitust ehituse järgi",
+   "tekst": "**Primaar- ja sekundaarnorm.** Primaarnorm ehk käitumisnorm ütleb inimesele, kuidas käituda (H – D). Sekundaarnorm ehk karistus- või sekkumisnorm hakkab tööle siis, kui primaarnormi ei järgitud (D ei saabunud → S).\n\n**Täielik ja spetsialiseeritud norm.** Täielikul normil on mõlemad pooled olemas. Paljud sätted on aga „abilised”: neil puudub kahe osaga ehitus ja nad töötavad ainult koos teise normiga. Neid on kolme sorti.",
+   "skeem": [
+    {
+     "tyyp": "puu",
+     "pealkiri": "Täielik norm ja tema kolm abilist – kõik VangS-ist",
+     "juur": {
+      "pealkiri": "Täielik norm",
+      "tekst": "Süülise rikkumise eest võib kohaldada distsiplinaarkaristusi, sh kartserisse paigutamine.",
+      "viide": "VangS § 63 lg 1"
+     },
+     "harud": [
+      {
+       "pealkiri": "Kitsendav",
+       "lapsed": [
+        {
+         "pealkiri": "Piirab tagajärge erijuhul",
+         "tekst": "Noort kinnipeetavat võib kartserisse paigutada lühemaks ajaks.",
+         "viide": "VangS § 63 lg 2"
+        }
+       ]
+      },
+      {
+       "pealkiri": "Seletav",
+       "toon": "b",
+       "lapsed": [
+        {
+         "pealkiri": "Avab mõiste",
+         "tekst": "Kes on „noor kinnipeetav”.",
+         "viide": "VangS § 77"
+        }
+       ]
+      },
+      {
+       "pealkiri": "Viitav",
+       "lapsed": [
+        {
+         "pealkiri": "Laenab teise seaduse korra",
+         "tekst": "Ametnik võib isiku kinni pidada – korrakaitseseaduses sätestatud korras.",
+         "viide": "VangS § 71 lg 3^1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "jarel": "Need kolm töötavad koos: et teada, kui kauaks võib 19-aastase kinnipeetava kartserisse paigutada, on vaja täielikku normi (§ 63 lg 1), kitsendavat normi (§ 63 lg 2) **ja** seletavat normi (§ 77)."
+  },
+  "alus": {
+   "pealkiri": "Näited sätetest",
+   "read": [
+    {
+     "tase": "Primaarnorm",
+     "viited": [
+      "VangS § 67"
+     ],
+     "tekst": "Kinnipeetava kohustused (H – D)."
+    },
+    {
+     "tase": "Sekundaarnorm",
+     "viited": [
+      "VangS § 63 lg 1"
+     ],
+     "tekst": "Distsiplinaarkaristused kohustuste süülise rikkumise eest (D ei saabunud → S)."
+    },
+    {
+     "tase": "Kitsendav",
+     "viited": [
+      "VangS § 63 lg 2"
+     ],
+     "tekst": "Noore kinnipeetava kartseri ülempiir."
+    },
+    {
+     "tase": "Seletav",
+     "viited": [
+      "VangS § 77"
+     ],
+     "tekst": "Noore kinnipeetava mõiste."
+    },
+    {
+     "tase": "Viitav",
+     "viited": [
+      "VangS § 71 lg 3^1",
+      "VangS § 1^1 lg 1"
+     ],
+     "tekst": "Kinnipidamine KorS-i korras; haldusmenetlusele kohaldatakse HMS-i."
+    }
+   ],
+   "skeem": {
+    "tyyp": "vordlus",
+    "pealkiri": "Primaarnorm ja sekundaarnorm",
+    "veerud": [
+     "",
+     "Primaarnorm (käitumisnorm)",
+     "Sekundaarnorm (karistus- või sekkumisnorm)"
+    ],
+    "read": [
+     {
+      "silt": "Muster",
+      "lahtrid": [
+       "H – D: kui …, siis käitu nii",
+       "D ei saabunud – S: kui ei käitutud, siis sanktsioon"
+      ]
+     },
+     {
+      "silt": "Kellele",
+      "lahtrid": [
+       "inimesele, kes peab käituma",
+       "riigile, kes rakendab sundi"
+      ]
+     },
+     {
+      "silt": "Vangla",
+      "lahtrid": [
+       "[[VangS § 67]] kinnipeetava kohustused",
+       "[[VangS § 63 lg 1]] distsiplinaarkaristused"
+      ]
+     }
+    ]
+   }
+  },
+  "piiramine": {
+   "pealkiri": "Miks see on tähtis",
+   "tekst": "Spetsialiseeritud norm muudab täieliku normi tagajärge või tingimusi – sageli isiku kasuks. Kui need jäävad leidmata, rakendab ametnik normi valesti.",
+   "punktid": [
+    "**Kitsendav norm võidab** üldnormi: noore kinnipeetava puhul ei saa kasutada üldist ülempiiri ([[VangS § 63 lg 2]]).",
+    "**Viitav norm toob kaasa teise seaduse reeglid**: kui VangS viitab KorS-ile, kehtivad ka KorS-i tingimused ja menetlus ([[VangS § 71 lg 3^1]]).",
+    "**Seletav norm on siduv**: „käesoleva seaduse tähenduses” tähendab, et sõna tähendus on just see, mitte tavakeele oma ([[HÕNTE § 18 lg 6]])."
+   ]
+  },
+  "vangla": {
+   "tekst": "Spetsialiseeritud normide tundmine on vanglas igapäevane: noored, arestialused, avavangla – kõigil on erisused, mis on kirjas eraldi sätetes.",
+   "naide": {
+    "olukord": "20-aastane kinnipeetav (karistus pöörati täitmisele, kui ta oli 19) rikub süüliselt sisekorraeeskirja. Ametnik vaatab ainult § 63 lg 1 ja otsustab kartseri üldise ülempiiri järgi.",
+    "analyys": "**Täielik norm:** distsiplinaarkaristus süülise rikkumise eest ([[VangS § 63 lg 1]]). **Seletav norm:** noor kinnipeetav on see, kes karistuse täitmisele pööramise ajal oli alla 21 ([[VangS § 77]]) – ta oli 19, seega on ta noor kinnipeetav ka praegu, 20-aastasena. **Kitsendav norm:** noore kinnipeetava kartseri ülempiir on lühem ([[VangS § 63 lg 2]]). **Järeldus:** ametnik kasutas valet ülempiiri – ta jättis spetsialiseeritud normid arvestamata."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Viitavat normi loetakse iseseisvaks aluseks ja jäetakse lugemata säte, millele see viitab.",
+    "Kitsendav norm jääb märkamata, sest see on samas paragrahvis järgmises lõikes.",
+    "Primaar- ja sekundaarnormi segamine: „kohustus” ja „karistus” ei ole sama normi kaks nime."
+   ]
+  }
+ },
+ "vastus": [
+  {
+   "nr": 10,
+   "punktid": [
+    "Käitumisnorm = **primaarnorm** (H – D); karistus- ja sekkumisnorm = **sekundaarnormid** (D ei saabunud → S).",
+    "Ühine: kõik on õigusnormid, mille taga on riigi sund; karistus- ja sekkumisnorm kaitsevad käitumisnormi.",
+    "Vangla: [[VangS § 67]] (käitumisnorm) ja [[VangS § 63 lg 1]] (karistusnorm)."
+   ]
+  }
+ ],
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Kas see säte on kitsendav, seletav või viitav?",
+   "ryhmad": [
+    "Kitsendav",
+    "Seletav",
+    "Viitav"
+   ],
+   "read": [
+    {
+     "tekst": "Noor kinnipeetav käesoleva seaduse tähenduses on isik, kes … on noorem kui 21-aastane.",
+     "oige": 1,
+     "selgitus": "[[VangS § 77]]."
+    },
+    {
+     "tekst": "Noort kinnipeetavat võib kartserisse paigutada lühemaks ajaks.",
+     "oige": 0,
+     "selgitus": "[[VangS § 63 lg 2]] piirab üldnormi tagajärge."
+    },
+    {
+     "tekst": "Isiku kinnipidamine toimub korrakaitseseaduse §-s 46 sätestatud korras.",
+     "oige": 2,
+     "selgitus": "[[VangS § 71 lg 3^1]]."
+    },
+    {
+     "tekst": "Haldusmenetlusele kohaldatakse haldusmenetluse seaduse sätteid, arvestades käesoleva seaduse erisusi.",
+     "oige": 2,
+     "selgitus": "[[VangS § 1^1 lg 1]]."
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis on spetsialiseeritud normi tunnus?",
+   "valikud": [
+    "Tal on alati sanktsioon",
+    "Tal puudub kaheosaline (kui–siis) ehitus ja ta töötab koos teise normiga",
+    "Ta kehtib ainult vanglas"
+   ],
+   "oige": 1,
+   "selgitus": "Spetsialiseeritud norm viitab, seletab või kitsendab."
+  }
+ ],
+ "erinevused": [],
+ "valjast": []
+}

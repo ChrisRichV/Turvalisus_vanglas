@@ -1,0 +1,169 @@
+{
+ "id": "o-t07-01",
+ "tund": "o-t07",
+ "jrk": 1,
+ "pealkiri": "Süllogism ja kuus lahendussammu",
+ "lyhend": "Kuus sammu",
+ "ikoon": "syllogism",
+ "kysimused": [],
+ "lyhidalt": "Iga õiguslik otsus on loogiline järeldus: suur eeldus (õigusnorm) + väike eeldus (elulised asjaolud) = järeldus. Kaasuse lahendamiseks on kuus sammu: loe kaasus, loe küsimus, leia norm ja selle tunnused, seosta asjaoludega, vajadusel sama tagajärjega, tee järeldus.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Õigusnorm – eluline asjaolu – seos",
+   "tekst": "Õiguslik mõtlemine põhineb **loogilisel süllogismil** – järeldusel üldiselt üksikule.\n\n*Suur eeldus:* lindudel on kaks tiiba. *Väike eeldus:* tuvil on kaks tiiba. *Järeldus:* tuvi on lind.\n\nÕiguses tuleb **suur eeldus õigusnormist** ja **väike eeldus kaasuse asjaoludest**. Mõlemad tuleb selgesõnaliselt siduda.",
+   "skeem": [
+    {
+     "tyyp": "kolmnurk",
+     "pealkiri": "Õiguslik süllogism",
+     "yla": {
+      "pealkiri": "Järeldus",
+      "tekst": "Kinnipeetavale võib määrata distsiplinaarkaristuse."
+     },
+     "vasak": {
+      "pealkiri": "Suur eeldus: norm",
+      "tekst": "Nõuete süülise rikkumise eest võib kohaldada distsiplinaarkaristusi.",
+      "viide": "VangS § 63 lg 1"
+     },
+     "parem": {
+      "pealkiri": "Väike eeldus: asjaolud",
+      "tekst": "Kinnipeetav keeldus teadlikult ametniku seaduslikust korraldusest."
+     },
+     "nooled": {
+      "vasak": "üldine reegel",
+      "parem": "konkreetne juhtum",
+      "all": "seos (subsumeerimine)"
+     }
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Kuus sammu",
+   "tekst": "Mari Käbi kaasuste kogumik (Sisekaitseakadeemia, 2015) annab üldise lahendussammude jada. See põhineb süllogismil ja sobib igale õigusvaldkonnale; põhiõiguste riive skeem ja haldusakti kontrollskeem on selle edasiarendused.",
+   "read": [],
+   "skeem": {
+    "tyyp": "voog",
+    "pealkiri": "Kaasuse lahendamise kuus sammu",
+    "sammud": [
+     {
+      "pealkiri": "1. Loe kaasuse tekst",
+      "tekst": "Tähelepanelikult. Eelda, et väidetud faktid on tõesed – aga isikute endi väited tuleb kontrollida. Pane tähele kuupäevi."
+     },
+     {
+      "pealkiri": "2. Loe küsimus",
+      "tekst": "Vasta **just sellele** küsimusele. Kui küsitakse õigusliku aluse kohta, ära keskendu pädevusele – ja vastupidi."
+     },
+     {
+      "pealkiri": "3. Leia norm, esita hüpoteesi tunnused",
+      "tekst": "Kõigepealt seadus, siis säte. Eelista eriseadust ja konkreetset normi. Tunnused loeteluna; kas „ja” või „või”."
+     },
+     {
+      "pealkiri": "4. Seosta asjaolud tunnustega",
+      "tekst": "Iga tunnuse juurde vastav asjaolu kaasusest ja järeldus, kas tunnus on täidetud."
+     },
+     {
+      "pealkiri": "5. Vajadusel sama tagajärjega",
+      "tekst": "Kui küsitakse, **mida** ametnik võib teha: too välja tagajärg, kas see on kuhjuv või valikuline, ja seosta kaasusega."
+     },
+     {
+      "pealkiri": "6. Tee järeldus",
+      "tekst": "Sõnasta selge vastus küsimusele."
+     }
+    ]
+   }
+  },
+  "piiramine": {
+   "pealkiri": "Mida kaasuse lahendamisel ei tohi",
+   "tekst": "Kaasuse lahendamisel kasutatakse ainult kaasuses antud andmeid.",
+   "punktid": [
+    "**Ära lisa asjaolusid juurde** ega eelda midagi, mida kaasuses ei ole. Kui mõni asjaolu on lahtine, ütle, millest järeldus sõltub.",
+    "**Ära kopeeri seaduse teksti mehaaniliselt** lahenduskäiku – too välja tunnused ja seo need kaasusega.",
+    "**Ära jäta seostamist lugejale** – kaks eraldi loetelu (tunnused / asjaolud) ei ole lahendus.",
+    "**Viita täpselt**: seadus, paragrahv, lõige, punkt."
+   ]
+  },
+  "vangla": {
+   "tekst": "Vangla töös ei pea iga otsust kirjalikult lahti kirjutama, aga **iga otsus peab läbima samad sammud**. Kui otsus vaidlustatakse, küsib vaide lahendaja või kohus täpselt neid küsimusi.",
+   "skeem": {
+    "tyyp": "kontroll",
+    "pealkiri": "Harjuta samme",
+    "olukord": "Kinnipeetav K (42) palub luba saada isiklikult tellitud ajakirja. Ametnik keeldub: „Ajakirju saab raamatukogust.” K küsib: kas ametnikul oli õigus keelduda?",
+    "sammud": [
+     {
+      "silt": "Asjaolud",
+      "kysimus": "Mis on kaasuse olulised asjaolud?",
+      "vastus": "K soovib ajakirja tellida; keeldumise põhjuseks on toodud ainult raamatukogu olemasolu. Muid põhjusi ei ole nimetatud."
+     },
+     {
+      "silt": "Küsimus",
+      "kysimus": "Mis on küsimus?",
+      "vastus": "Kas keeldumiseks oli õiguslik alus? (mitte: kes on pädev)"
+     },
+     {
+      "silt": "Norm",
+      "kysimus": "Milline norm ja millised tunnused?",
+      "vastus": "Kinnipeetaval on lubatud tellida mõõdukuse piires isiklike vahendite arvel ajalehti ja ajakirju, **kui** see ei ohusta vangistuse täideviimise eesmärke või vangla julgeolekut või korda.",
+      "viited": [
+       "VangS § 30 lg 2"
+      ]
+     },
+     {
+      "silt": "Seostamine",
+      "kysimus": "Kas asjaolud vastavad?",
+      "vastus": "Raamatukogu olemasolu ei ole normis keeldumise alus. Ei ole näidatud, et tellimine ohustaks eesmärke, julgeolekut või korda või ületaks mõõdukuse piiri."
+     },
+     {
+      "silt": "Tagajärg",
+      "kysimus": "Milline tagajärg?",
+      "vastus": "„Lubatud” – kui keeldumise alust ei ole, tuleb tellimine lubada."
+     },
+     {
+      "silt": "Järeldus",
+      "kysimus": "Järeldus?",
+      "vastus": "Kaasuse andmete põhjal ei olnud keeldumiseks õiguslikku alust."
+     }
+    ],
+    "jareldus": "Ametnik pidi keeldumise siduma normis toodud alusega ja selle asjaoludega põhjendama ([[HMS § 6]])."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Vastatakse mõnele teisele küsimusele kui see, mida küsiti.",
+    "Normi tunnused jäetakse välja toomata ja kirjutatakse kohe „seega oli tal õigus”.",
+    "Lõppjäreldus puudub või on ebamäärane („võib-olla”).",
+    "Kaasusele lisatakse asjaolusid, mida seal ei ole."
+   ]
+  }
+ },
+ "vastus": [],
+ "harjutused": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Kust tuleb õiguslikus süllogismis „suur eeldus”?",
+   "valikud": [
+    "Kaasuse asjaoludest",
+    "Õigusnormist",
+    "Ametniku kogemusest"
+   ],
+   "oige": 1,
+   "selgitus": "Suur eeldus = norm; väike eeldus = asjaolud."
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Kaasuse küsimus: „Kas ametnik oli pädev otsust tegema?” Mida lahendus peab käsitlema?",
+   "valikud": [
+    "Kas otsuse tingimused olid täidetud",
+    "Kes on seaduse järgi otsustamiseks pädev",
+    "Kas otsus oli õiglane"
+   ],
+   "oige": 1,
+   "selgitus": "Vasta just sellele küsimusele – pädevus, mitte alus."
+  }
+ ],
+ "erinevused": [],
+ "valjast": [
+  {
+   "tekst": "Kuue sammu jada ja süllogismi näide pärinevad Mari Käbi kogumikust „Sissejuhatus õigusesse. Kaasused” (Sisekaitseakadeemia, 2015), millele õppejõu slaidid viitavad. Vanglanäide on koostatud selle lehe jaoks.",
+   "allikas": "M. Käbi, SKA 2015, lk 6–10"
+  }
+ ]
+}

@@ -382,7 +382,7 @@
     const vastus = (h.vastus || []).map((v) => `<li>${A.md(v)}</li>`).join("");
     return `<div class="harjutus kaasus" id="${id}">
       <div class="h-liik">${liik}${all}</div><div class="h-kys">${A.md(h.kysimus)}</div>
-      <p class="tyhi" style="margin:.2rem 0 .6rem;font-size:.92rem">Lahenda ise: kaitseala → riive → põhiseaduspärasus (formaalne + materiaalne) → järeldus.</p>
+      <p class="tyhi" style="margin:.2rem 0 .6rem;font-size:.92rem">${A.esc(h.juhis || "Lahenda ise: kaitseala → riive → põhiseaduspärasus (formaalne + materiaalne) → järeldus.")}</p>
       <button type="button" class="nupp teine ava-vastus">Näita lahendust</button>
       <div class="kaasus-vastus" hidden><ol>${vastus}</ol></div></div>`;
   };
@@ -401,6 +401,26 @@
         const tehtud = kast.querySelectorAll(".sort-rida[data-vastatud]").length, kokku = +kast.dataset.kokku;
         const valesid = kast.querySelectorAll(".sort-rida[data-vale]").length;
         kast.querySelector(".sort-seis").textContent = tehtud === kokku ? `Valmis: ${kokku - valesid} / ${kokku} õigesti.` : `${tehtud} / ${kokku} sorteeritud`;
+        return;
+      }
+      const lk = e.target.closest(".lk-nupp");
+      if (lk) {
+        const kast = lk.closest(".s-lahka"), on = kast.classList.toggle("naita");
+        kast.querySelector(".lk-tulem").hidden = !on; lk.setAttribute("aria-expanded", on);
+        lk.textContent = on ? "Peida lahkamine" : "Näita lahkamist";
+        return;
+      }
+      const sv = e.target.closest(".sb-v");
+      if (sv) {
+        const rida = sv.closest(".sb-rida"), kast = sv.closest(".s-subsumeeri");
+        if (rida.dataset.vastatud) return;
+        rida.dataset.vastatud = "1";
+        const oige = rida.dataset.oige === "1", v = sv.dataset.v === "1";
+        rida.querySelectorAll(".sb-v").forEach((b) => { b.disabled = true; if ((b.dataset.v === "1") === oige) b.classList.add("oige"); });
+        if (v !== oige) sv.classList.add("vale");
+        rida.classList.add(oige ? "on-taidetud" : "pole-taidetud");
+        const sel = rida.querySelector(".sb-selg"); if (sel) sel.hidden = false;
+        if (kast.querySelectorAll(".sb-rida:not([data-vastatud])").length === 0) kast.querySelector(".sb-jareldus").hidden = false;
         return;
       }
       const ks = e.target.closest(".kontroll-ava");

@@ -35,6 +35,23 @@
     vordsus: '<circle cx="6" cy="7" r="2.4"/><circle cx="18" cy="7" r="2.4"/><path d="M2.5 16c0-2 1.6-3.7 3.5-3.7s3.5 1.7 3.5 3.7M14.5 16c0-2 1.6-3.7 3.5-3.7s3.5 1.7 3.5 3.7"/><path d="M10 18.5h4M10 21h4"/>',
     rongas: '<circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="3.5"/><path d="M6 6l3.5 3.5M14.5 14.5L18 18M18 6l-3.5 3.5M9.5 14.5L6 18"/>',
     voti: '<circle cx="8" cy="8" r="4.2"/><path d="M11 11l9.5 9.5M16 16l2.2-2.2M18.6 18.6l2.2-2.2"/>',
+    // tund 5–7 (normiõpetus, õiguse realiseerimine, kaasused)
+    hds: '<path d="M2.5 7h5l2.5 5-2.5 5h-5l2.5-5z"/><path d="M9.5 7h5l2.5 5-2.5 5h-5l2.5-5z"/><path d="M16.5 7h5"/><path d="M16.5 17h5"/><path d="M19 12h2.5"/>',
+    sildid: '<path d="M3.5 4.5h7.5l3 3-3 3H3.5z"/><path d="M3.5 13.5h7.5l3 3-3 3H3.5z"/><path d="M14 9h6.5M14 12h4.5M17 19.5h3.5"/>',
+    pusle: '<path d="M4 8h3.5a2 2 0 1 1 4 0H15v3.5a2 2 0 1 1 0 4V19H4z"/><path d="M15 11.5h2.5a2 2 0 1 0 0-4H15"/>',
+    javoi: '<circle cx="8" cy="12" r="5"/><circle cx="16" cy="12" r="5"/><path d="M12 8.2v7.6"/>',
+    tolgendus: '<path d="M3 5.5c2.8-1 5.6-.8 8.5 1v12.5c-2.9-1.8-5.7-2-8.5-1z"/><path d="M11.5 6.5c1.4-.9 2.8-1.3 4.2-1.4"/><circle cx="17.5" cy="13.5" r="3.5"/><path d="M20 16l2 2"/>',
+    lynk: '<path d="M2.5 15h6M15.5 15h6"/><path d="M4 15v4M7 15v4M17 15v4M20 15v4"/><path d="M2.5 15c3-5 6-5.5 7-5.5M21.5 15c-3-5-6-5.5-7-5.5"/><path d="M10.5 9.5l1.5 2-1 1.5 1.5 1.5"/>',
+    kolmharu: '<path d="M12 21v-7"/><path d="M12 14L5 7M12 14l7-7M12 14V4"/><circle cx="5" cy="5.5" r="2"/><circle cx="12" cy="3.5" r="1.5"/><circle cx="19" cy="5.5" r="2"/>',
+    oigussuhe: '<circle cx="5.5" cy="8" r="2.4"/><circle cx="18.5" cy="8" r="2.4"/><path d="M2 17c0-2 1.6-3.7 3.5-3.7S9 15 9 17M15 17c0-2 1.6-3.7 3.5-3.7S22 15 22 17"/><path d="M9 7.5h6M13 5.5l2 2-2 2M11 10.5H9M11 10.5l-2-2 2-2"/>',
+    aktid: '<rect x="3" y="3" width="10" height="13" rx="1.2"/><path d="M5.5 7h5M5.5 10h5M5.5 13h3"/><rect x="11" y="9" width="10" height="12" rx="1.2"/><path d="M13.5 13h5M13.5 16h3"/><circle cx="18" cy="18.5" r=".8" fill="currentColor"/>',
+    rakendus: '<rect x="3" y="3.5" width="18" height="4" rx="1"/><rect x="3" y="10" width="13" height="4" rx="1"/><rect x="3" y="16.5" width="8" height="4" rx="1"/><path d="M19 12v6.5h-5"/><path d="M15.5 16.5l-2 2 2 2"/>',
+    subsum: '<rect x="3" y="4" width="7.5" height="16" rx="1.5"/><rect x="13.5" y="4" width="7.5" height="16" rx="1.5"/><path d="M5.5 8.5h2.5M5.5 12h2.5M5.5 15.5h2.5M16 8.5h2.5M16 12h2.5"/><path d="M9 8.5h6M9 12h6"/><path d="M16 15.5l1 1 1.8-2"/>',
+    udu: '<path d="M4 9h11M7 12.5h13M3 16h10M6 19.5h11"/><circle cx="17.5" cy="6" r="3"/><path d="M17.5 7.6v.2M17 4.8a.8.8 0 0 1 1.3.6c0 .6-.8.7-.8 1.2"/>',
+    syllogism: '<path d="M4 5h16M4 10h16"/><path d="M4 15h16"/><circle cx="8" cy="19.5" r=".9" fill="currentColor"/><circle cx="16" cy="19.5" r=".9" fill="currentColor"/><circle cx="12" cy="17" r=".9" fill="currentColor"/>',
+    sihik: '<circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1" fill="currentColor"/><path d="M12 1.5v3M12 19.5v3M1.5 12h3M19.5 12h3"/>',
+    pliiats: '<path d="M4 20l1.2-4.6L16 4.6a2 2 0 0 1 2.8 0l.6.6a2 2 0 0 1 0 2.8L8.6 18.8z"/><path d="M14.5 6l3.5 3.5M4 20h16"/>',
+    kambriuks: '<rect x="5" y="2.5" width="14" height="19" rx="1.5"/><path d="M8.5 6h7v5h-7z"/><path d="M10.8 6v5M13.2 6v5"/><circle cx="16" cy="15" r=".9" fill="currentColor"/><path d="M8.5 18.5h7"/>',
     kaart: '<circle cx="5" cy="6" r="2.2"/><circle cx="18.5" cy="5" r="2.2"/><circle cx="12" cy="13" r="2.6"/><circle cx="5" cy="19" r="2.2"/><circle cx="19" cy="18.5" r="2.2"/><path d="M6.8 7.4l3.3 3.8M16.7 6.4l-3.2 4.6M10.2 14.9L6.6 17.6M14.4 14.4l2.9 2.7"/>'
   };
 
