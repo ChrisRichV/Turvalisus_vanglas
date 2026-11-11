@@ -2,6 +2,17 @@
  "loodud": "2026-11-11",
  "markus": "Sätete tekstid on masinaga võetud ametlikest tekstifailidest; muudetud on ainult tühikuid ja reavahetusi.",
  "aktid": {
+  "ATS": {
+   "lyhend": "ATS",
+   "pealkiri": "Avaliku teenistuse seadus",
+   "url": "https://www.riigiteataja.ee/akt/111072026154?leiaKehtiv",
+   "kehtivus": "Kehtiv sõnastus 01.10.2026 - 31.12.2026",
+   "avaldamismarge": "RT I, 11.07.2026, 154",
+   "allikas": "Riigi Teataja – ametlik terviktekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": false,
+   "fail": "vangla_materjalid/02_seadused_ja_maarused/Avaliku_teenistuse_seadus.txt",
+   "vorm": "§"
+  },
   "CAT": {
    "lyhend": "CAT",
    "pealkiri": "Piinamise ning muu julma, ebainimliku või inimväärikust alandava kohtlemise ja karistamise vastane konventsioon",
@@ -134,6 +145,17 @@
    "fail": "inimoigused_materjalid/02_Eesti_seadused/Haldusmenetluse_seadus_HMS.txt",
    "vorm": "§"
   },
+  "HÕNTE": {
+   "lyhend": "HÕNTE",
+   "pealkiri": "Hea õigusloome ja normitehnika eeskiri",
+   "url": "https://www.riigiteataja.ee/akt/123092026010",
+   "kehtivus": "01.10.2026; kehtivuse lõpp: 31.12.2026",
+   "avaldamismarge": "RT I, 23.09.2026, 10",
+   "allikas": "Riigi Teataja – ametlik terviktekst, alla laaditud RT „Laadi alla → Tekstifailina“, muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/02_Eesti_seadused/Hea_oigusloome_ja_normitehnika_eeskiri_HONTE.txt",
+   "vorm": "§"
+  },
   "IKS": {
    "lyhend": "IKS",
    "pealkiri": "Isikuandmete kaitse seadus",
@@ -176,6 +198,17 @@
    "allikas": "Riigi Teataja – ametlik elektrooniline tekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
    "mitteametlik_tolge": false,
    "fail": "inimoigused_materjalid/02_Eesti_seadused/Kohtute_seadus_KS.txt",
+   "vorm": "§"
+  },
+  "KVTS": {
+   "lyhend": "KVTS",
+   "pealkiri": "Kaitseväeteenistuse seadus",
+   "url": "https://www.riigiteataja.ee/akt/111072026020",
+   "kehtivus": "01.10.2026; kehtivuse lõpp: 31.12.2026",
+   "avaldamismarge": "RT I, 11.07.2026, 20",
+   "allikas": "Riigi Teataja – ametlik terviktekst, alla laaditud RT „Laadi alla → Tekstifailina“, muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/02_Eesti_seadused/Kaitsevaeteenistuse_seadus_KVTS.txt",
    "vorm": "§"
   },
   "KiKoS": {
@@ -244,6 +277,17 @@
    "mitteametlik_tolge": false,
    "fail": "inimoigused_materjalid/04_YRO/Piinamisvastase_konventsiooni_fakultatiivprotokoll_OPCAT.txt",
    "vorm": "art"
+  },
+  "PKS": {
+   "lyhend": "PKS",
+   "pealkiri": "Perekonnaseadus",
+   "url": "https://www.riigiteataja.ee/akt/107052025017",
+   "kehtivus": "01.01.2025; kehtivuse lõpp: Hetkel kehtiv",
+   "avaldamismarge": "RT I, 07.05.2025, 17",
+   "allikas": "Riigi Teataja – ametlik terviktekst, alla laaditud RT „Laadi alla → Tekstifailina“, muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
+   "mitteametlik_tolge": false,
+   "fail": "inimoigused_materjalid/02_Eesti_seadused/Perekonnaseadus_PKS.txt",
+   "vorm": "§"
   },
   "PS": {
    "lyhend": "PS",
@@ -315,7 +359,7 @@
    "lyhend": "VSE",
    "pealkiri": "Vangla sisekorraeeskiri",
    "url": "https://www.riigiteataja.ee/akt/102102026009?leiaKehtiv",
-   "kehtivus": "",
+   "kehtivus": "Kehtiv sõnastus (jõustunud 18.10.2026, hetkel kehtiv)",
    "avaldamismarge": "RT I, 02.10.2026, 9",
    "allikas": "Riigi Teataja – ametlik terviktekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
    "mitteametlik_tolge": false,
@@ -326,7 +370,7 @@
    "lyhend": "VangS",
    "pealkiri": "Vangistusseadus",
    "url": "https://www.riigiteataja.ee/akt/111072026066?leiaKehtiv",
-   "kehtivus": "",
+   "kehtivus": "Kehtiv sõnastus 01.10.2026 - 31.12.2026",
    "avaldamismarge": "RT I, 11.07.2026, 66",
    "allikas": "Riigi Teataja – ametlik terviktekst, kopeeritud muutmata kujul (ei ole ümber sõnastatud ega lühendatud)",
    "mitteametlik_tolge": false,
@@ -379,6 +423,20 @@
   }
  },
  "satted": {
+  "ATS § 51": {
+   "akt": "ATS",
+   "nr": "51",
+   "read": [
+    "§ 51. Üldised kohustused",
+    "(1) Ametnik peab oma teenistusülesandeid täitma ausalt, asjatundlikult ja hoolikalt.",
+    "(2) Ametnik peab oma teenistusülesandeid täitma erapooletult, sealhulgas valima teenistusülesandeid täites igaühe õigusi ja vabadusi ning avalikku huvi parimal võimalikul viisil arvestava lahenduse.",
+    "(3) Ametnik peab juhinduma vahetu ja kõrgemalseisva juhi seadusega kooskõlas olevatest teenistusalastest juhistest ja korraldustest, samuti ametijuhendist. Kõrgemalseisva juhi juhistest ja korraldustest peab ametnik teavitama vahetut juhti.",
+    "(4) Ametnik peab käituma väärikalt nii teenistuses olles kui ka väljaspool teenistust, sealhulgas hoiduma tegevusest, mis diskrediteeriks teda ametnikuna või kahjustaks ametiasutuse mainet.",
+    "(5) Ametnik peab kasutama ametiasutuse ning ametniku kasutusse antud vara ja vahendeid heaperemehelikult ja sihipäraselt.",
+    "(6) Ametnik peab teenistus- ja usaldussuhte raames aitama kaasa ametiasutuse seadusest tulenevate ülesannete täitmisele.",
+    "(7) Ametiasutus peab teenistus- ja usaldussuhte raames seisma hea ametniku teenistusalaste huvide eest, sealhulgas tagama teenistusülesannete täitmiseks sobivad tingimused."
+   ]
+  },
   "CAT art 1": {
    "akt": "CAT",
    "nr": "1",
@@ -881,6 +939,15 @@
     "(6) Käesolevat paragrahvi ei rakendata Vabariigi Valitsuse ning kohaliku omavalitsuse volikogu ja valitsuse liikmete suhtes."
    ]
   },
+  "HMS § 106": {
+   "akt": "HMS",
+   "nr": "106",
+   "read": [
+    "§ 106. Toimingu mõiste",
+    "(1) Toiming on haldusorgani tegevus, mis ei ole õigusakti andmine ja mida ei sooritata tsiviilõigussuhtes.",
+    "(2) Käesoleva peatüki sätteid ei kohaldata menetlustoimingule."
+   ]
+  },
   "HMS § 3": {
    "akt": "HMS",
    "nr": "3",
@@ -899,6 +966,16 @@
     "(2) Haldusorgan keelab toimiku, dokumendi või selle osaga tutvumise, kui selles sisalduvate andmete avaldamine on seadusega või selle alusel keelatud.",
     "(3) Toimikuga ja dokumentidega tutvumine toimub üldjuhul haldusorgani tööruumides ametiisiku juuresolekul. Haldusorgan võib teha sellest korrast erandeid.",
     "(4) Dokumentidest väljavõtete või koopiate tegemine ning kulude hüvitamine toimub avaliku teabe seaduses sätestatud korras."
+   ]
+  },
+  "HMS § 38": {
+   "akt": "HMS",
+   "nr": "38",
+   "read": [
+    "§ 38. Tõendid",
+    "(1) Haldusorganil on õigus nõuda haldusmenetluse käigus menetlusosalistelt ning muudelt isikutelt nende käsutuses olevate tõendite ja andmete esitamist, mille alusel haldusorgan teeb kindlaks asja lahendamiseks olulised asjaolud.",
+    "(2) Tõendiks võib olla menetlusosalise seletus, dokumentaalne tõend, asitõend, paikvaatlus, tunnistaja ütlus ning eksperdi arvamus.",
+    "(3) Menetlusosaline on kohustatud haldusorganile esitama ja teatavaks tegema talle teada olevad menetluses tähtsust omavad asjaolud ja tõendid. Selle kohustuse täitmata jätmisel võib haldusorgan soodustava haldusakti andmisel jätta taotluse läbi vaatamata."
    ]
   },
   "HMS § 4": {
@@ -949,6 +1026,15 @@
     "(5) Kui haldusmenetlust reguleerivad õigusnormid muutuvad menetluse ajal, kohaldatakse menetluse alguses kehtinud õigusnorme.",
     "(6) Elektrooniline asjaajamine on haldusmenetluses võrdsustatud kirjaliku asjaajamisega, võttes arvesse elektroonilisest asjaajamisest tulenevaid erisusi. Digitaalallkirja ja e-templit kasutatakse haldusmenetluses e-identimise ja e-tehingute usaldusteenuste seaduses ning teistes õigusaktides sätestatud korras.",
     "[RT I, 28.12.2017, 2 - jõust. 01.02.2018]"
+   ]
+  },
+  "HMS § 51": {
+   "akt": "HMS",
+   "nr": "51",
+   "read": [
+    "§ 51. Haldusakti mõiste",
+    "(1) Haldusakt on haldusorgani poolt haldusülesannete täitmisel avalikõiguslikus suhtes üksikjuhtumi reguleerimiseks antud, isiku õiguste või kohustuste tekitamisele, muutmisele või lõpetamisele suunatud korraldus, otsus, ettekirjutus, käskkiri või muu õigusakt.",
+    "(2) Üldkorraldus on haldusakt, mis on suunatud üldiste tunnuste alusel kindlaksmääratud isikutele või asja avalik-õigusliku seisundi muutmisele."
    ]
   },
   "HMS § 56": {
@@ -1017,6 +1103,63 @@
     "(1) Isik, kes leiab, et haldusaktiga või haldusmenetluse käigus on rikutud tema õigusi või piiratud tema vabadusi, võib esitada vaide.",
     "(2) Vaiet ei saa esitada haldusorgani, kelle üle teostab teenistuslikku järelevalvet Vabariigi Valitsus, akti või toimingu peale.",
     "[RT I 2002, 61, 375 - jõust. 01.08.2002]"
+   ]
+  },
+  "HMS § 88": {
+   "akt": "HMS",
+   "nr": "88",
+   "read": [
+    "§ 88. Määrus",
+    "Määrus on õigusakt, mille haldusorgan annab piiritlemata arvu juhtude reguleerimiseks."
+   ]
+  },
+  "HÕNTE § 11": {
+   "akt": "HÕNTE",
+   "nr": "11",
+   "read": [
+    "§ 11. Volitusnorm",
+    "(1) Volitusnormiga antakse õigus või pannakse kohustus kehtestada kooskõlas haldusmenetluse seaduse 6. peatükis sätestatuga seaduse või seaduse ja Euroopa Liidu õigusakti rakendamiseks Vabariigi Valitsuse, ministri või kohaliku omavalitsuse organi määrus.",
+    "(2) Lõikes 1 nimetatud õiguse või kohustuse edasivolitus toimub haldusmenetluse seaduse §-s 91 sätestatud korras.",
+    "(3) Volitusnormis esitatakse määrusandliku volituse selge sisu ja ulatus, milles tuleb seaduse sätteid täpsustada või nende rakendamiseks vajalik kord kehtestada.",
+    "(4) Volitusnorm esitatakse ühelauselises lõikes või volitusnormide loetelu puhul punktides. Volitusnormis peab olema märgitud akti andja ja liik. Volituse eesmärke, sisu või piire võib täpsustada eelnõu teiste sätetega."
+   ]
+  },
+  "HÕNTE § 18": {
+   "akt": "HÕNTE",
+   "nr": "18",
+   "read": [
+    "§ 18. Termini määratlemine",
+    "(1) Ühest või mitmest sõnast koosneva termini tähendus määratletakse õigusselguse eesmärgil, kui:",
+    "1) eelnõu on reguleeritava valdkonna või õigusinstituudi termineid sisaldav üldakt ja terminil on selle seisukohalt oluline õiguslik tähendus;",
+    "2) terminit kasutatakse tavalisest või õigusaktides seni sätestatust erinevas tähenduses;",
+    "3) terminit on võimalik mitmeti tõlgendada või on sellel mitu tähendust;",
+    "4) termin ei ole eesti keeles üldlevinud.",
+    "(2) Euroopa Liidu õigusega seotud seaduseelnõus kasutatavad terminid peavad olema kooskõlas Euroopa Liidu õiguses kasutusel olevate terminitega ning eelnõus neid üldjuhul enam ei määratleta.",
+    "(3) Termini sisu määratletakse selle põhitunnuste või mõistega hõlmatud subjektide, objektide või nähtuste loetelu kaudu või vähelevinud sõna selgitusena. Terminit määratlevasse sättesse ei tohi lisada eraldiseisvaid regulatiivse toimega sätteid.",
+    "(4) Üht ja sama terminit kasutatakse eelnõus vaid ühe ja sama mõiste tähistamiseks.",
+    "(5) Termini sisu määratletakse kas pärast termini esmakordset kasutamist eelnõu struktuuriosas, kuhu on koondatud terminiga seotud sätted, või eelnõu üldsätetes selle termini jaoks kavandatavas paragrahvis. Sisult seotud terminite korral määratletakse termini sisu paragrahvi ühes lõikes.",
+    "(6) Kui terminit kasutatakse õigusaktides seni sätestatust erinevas tähenduses või kui terminil võib olla mitu tähendust, lisatakse termini määratlusse väljend „käesoleva seaduse tähenduses”. Kui terminit kasutatakse vaid eelnõu mõne jaotusüksuse piires, siis lisatakse asjakohane väljend.",
+    "(7) Kui eelnõusse sobiv termin on juba teises seaduses määratletud, siis õigusselguse eesmärgil võib viidata sellele seadusele, mille tähenduses terminit kasutatakse."
+   ]
+  },
+  "HÕNTE § 58": {
+   "akt": "HÕNTE",
+   "nr": "58",
+   "read": [
+    "§ 58. Määruse eelnõu preambul",
+    "(1) Määruse eelnõu preambulis osundatakse volitusnormile või -normidele, mille alusel määrus antakse. Preambulis ei osundata sättele, mis ei sisalda volitust määruse andmiseks.",
+    "(2) Kui ministri määrus antakse volitusnormis sisalduva edasivolituse alusel, osundatakse ministri määruse eelnõu preambulis ka Vabariigi Valitsuse määruse sättele, millega Vabariigi Valitsus on volitanud seaduses sätestatud volitusnormi ulatuses andma seaduse rakendamiseks vajalikud õigusnormid ministri määrusega.",
+    "(3) Kui määrus antakse Euroopa Liidu õigusaktist tuleneva volitusnormi alusel, osundatakse määruse eelnõu preambulis lisaks Euroopa Liidu õigusakti vastavale sättele ka seaduse sättele, mis volitab Vabariigi Valitsust või ministrit andma Euroopa Liidu õigusakti rakendamiseks vajalikud õigusnormid."
+   ]
+  },
+  "HÕNTE § 9": {
+   "akt": "HÕNTE",
+   "nr": "9",
+   "read": [
+    "§ 9. Kavandatava regulatsiooni täitmise tagamine",
+    "(1) Seaduseelnõusse kavandatakse vajalikud regulatiivsed normid ning põhjendatud juhtudel nende järgimist tagavad ja õigustkaitsvad normid.",
+    "(2) Seaduseelnõu peab sõnaselgelt ja ühemõtteliselt väljendama, kellele milliseid õigusi ja kohustusi selle eelnõu seadusena jõustumine kaasa toob ning kuidas on tagatud normide järgimine.",
+    "(3) Tagavate sätetena võib kavandada näiteks finantsmajanduslikke, sotsiaalseid või korrakaitse meetmeid ja vastutust sätestavaid norme."
    ]
   },
   "IKS § 1": {
@@ -1208,6 +1351,40 @@
     "(3) Kohtus ja selle lähikonnas on keelatud teod, mis on suunatud õigusemõistmise häirimisele."
    ]
   },
+  "KVTS § 2": {
+   "akt": "KVTS",
+   "nr": "2",
+   "read": [
+    "§ 2. Kaitseväekohustus, kaitseväekohustuslane ja identifitseerimiskood",
+    "(1) Kaitseväekohustus on Eesti kodaniku kohustus osaleda riigikaitses ja käesolevas seaduses sätestatud toimingute tegemises. Isik, kellel on kaitseväekohustus, on kaitseväekohustuslane.",
+    "(2) Kaitseväekohustuslane on:",
+    "1) kutsealune;",
+    "2) 18–60-aastane meessoost isik;",
+    "3) kaitseväekohustuse võtnud üle 18-aastane isik;",
+    "4) tegevteenistuses olev üle 60-aastane isik, kes ei ole ületanud piirvanust;",
+    "5) piirvanuse ületanud tegevväelane, kes on Vabariigi Valitsuse või valdkonna eest vastutava ministri nimetataval ametikohal, kuni ametikohalt vabastamiseni.",
+    "[RT I, 29.05.2018, 1 - jõust. 01.07.2018]",
+    "(3) Kutsealune on 17–27-aastane (kaasa arvatud) meessoost isik kuni aja- või asendusteenistusse asumiseni või aja- või asendusteenistusse asumisest vabastamiseni.",
+    "(4) Reservis olev isik on kaitseväekohustuslane, kes ei ole kutsealune ega teeni asendus- või kaitseväeteenistuses.",
+    "(5) Kaitseväekohustuslasele määratakse identifitseerimiskood.",
+    "(6) Identifitseerimiskoodi moodustamise korra kehtestab valdkonna eest vastutav minister määrusega.",
+    "[RT I, 03.02.2026, 4 - jõust. 04.02.2026]"
+   ]
+  },
+  "KVTS § 43": {
+   "akt": "KVTS",
+   "nr": "43",
+   "read": [
+    "§ 43. Ajapikenduse andmine seoses ülalpidamiskohustusega",
+    "[RT I, 27.01.2023, 1 - jõust. 01.04.2023]",
+    "(1) Kaitseressursside Amet annab kutsealusele ajapikendust, kui kutsealune:",
+    "1) lapsevanemana või muu last ülalpidava isikuna peab ülal vähemalt ühte alla kolmeaastast last ning ülalpidamiskohustus tuleneb perekonnaseadusest;",
+    "2) lapsevanemana või muu last ülalpidava isikuna on kohustatud ülal pidama vähemalt kahte last ning ülalpidamiskohustus tuleneb perekonnaseadusest;",
+    "3) lapsevanemana või muu last ülalpidava isikuna üksinda peab ülal vähemalt ühte last, kellel puuduvad teised ülalpidamiskohustusega isikud, ja ülalpidamiskohustus tuleneb perekonnaseadusest;",
+    "4) on ainus isik, kes on kohustatud ülal pidama raske või sügava puudega inimest, kellel puuduvad teised ülalpidamiskohustusega isikud.",
+    "(2) Käesoleva paragrahvi lõikes 1 sätestatud ajapikendus antakse kuni asjaolude äralangemiseni."
+   ]
+  },
   "KiKoS § 1": {
    "akt": "KiKoS",
    "nr": "1",
@@ -1230,6 +1407,25 @@
     "[RT I, 13.03.2014, 4 - jõust. 01.07.2014]",
     "(4) Dokumentide nõudmine ja vastuvõtmine korrakaitseorgani poolt protokollitakse või fikseeritakse korrakaitseorgani üldise asjaajamiskorra kohaselt. Kui dokumentide nõudmine ja nendega tutvumine toimub kohapeal, protokollitakse meede selle kohaldamisele allutatud isiku taotlusel.",
     "(5) Küsitlemine ja dokumentide nõudmine ohu ennetamiseks ei ole lubatud teabe ja dokumentide korral, mida on võimalik saada seaduse alusel asutatud andmekogust, välja arvatud juhul, kui teabe saamine andmekogust ei ole korrakaitseorganist sõltumatul põhjusel võimalik. Käesolevas lõikes nimetatud piirang kehtib ka teabe kohta, mida korrakaitseorganil on võimalik saada tasuta teise Euroopa Liidu liikmesriigi asjaomasest andmekogust või tasu eest, kui isik kinnitab kirjalikku taasesitamist võimaldavas vormis, et kannab nimetatud teabe hankimise kulud.",
+    "[RT I, 13.03.2014, 4 - jõust. 01.07.2014]"
+   ]
+  },
+  "KorS § 5": {
+   "akt": "KorS",
+   "nr": "5",
+   "read": [
+    "§ 5. Oht avalikule korrale ja korrarikkumine",
+    "(1) Korrarikkumine on avaliku korra kaitsealas oleva õigusnormi või isiku subjektiivse õiguse rikkumine või õigushüve kahjustamine.",
+    "(2) Oht on olukord, kus ilmnenud asjaoludele antava objektiivse hinnangu põhjal võib pidada piisavalt tõenäoliseks, et lähitulevikus leiab aset korrarikkumine.",
+    "(3) Oluline oht on oht isiku tervisele, olulise väärtusega varalisele hüvele, keskkonnale või käesoleva paragrahvi lõikes 4 nimetamata kuriteo toimepanemise oht.",
+    "(4) Kõrgendatud oht on oht isiku elule, kehalisele puutumatusele, füüsilisele vabadusele, suure väärtusega varalisele hüvele, suure keskkonnakahju tekkimise oht või karistusseadustiku 15. peatükis sätestatud I astme kuriteo või 22. peatükis sätestatud kuriteo toimepanemise oht. Kehalise puutumatuse riive käesoleva seaduse tähenduses on seksuaalse enesemääramise õiguse raske rikkumine või raske tervisekahjustuse tekitamine.",
+    "(5) Vahetu oht on olukord, kus korrarikkumine leiab juba aset või on suur tõenäosus, et see kohe algab.",
+    "(6) Ohukahtlus on olukord, kus ilmnenud asjaoludele antava objektiivse hinnangu põhjal ei saa tõenäosust, et korrarikkumine aset leiab, pidada piisavaks, kuid mille puhul on alust arvata, et korrarikkumine ei ole välistatud.",
+    "(7) Ohu ennetamine on see osa korrakaitsest, kus puudub ohukahtlus, kuid saab pidada võimalikuks olukorda, mille realiseerumisel tekib ohukahtlus või oht. Ohu ennetamine on muu hulgas teabe kogumine, vahetamine ja analüüs, toimingute kavandamine ja elluviimine ning riikliku järelevalve meetmete kohaldamine avalikku korda tulevikus ähvardada võivate ohtude tõrjumiseks, sealhulgas süütegude ennetamine.",
+    "[RT I, 13.03.2014, 4 - jõust. 01.07.2014]",
+    "(8) Ohu liikide kvalifitseerimisel käesoleva paragrahvi lõigete 3 ja 4 alusel hinnatakse varalist hüve järgmiselt:",
+    "1) olulise väärtusega varaline hüve ületab kehtivat palga alammäära ühes kuus kümnekordselt;",
+    "2) suure väärtusega varaline hüve ületab kehtivat palga alammäära ühes kuus sajakordselt.",
     "[RT I, 13.03.2014, 4 - jõust. 01.07.2014]"
    ]
   },
@@ -1382,6 +1578,27 @@
    "read": [
     "Artikkel 3",
     "Piinamise ning muu julma, ebainimliku või inimväärikust alandava kohtlemise ja karistamise ennetamiseks loob või nimetab iga osalisriik vähemalt ühe külastusi tegeva riigisisese institutsiooni (edaspidi riigi ennetusasutus) või tagab selle olemasolu."
+   ]
+  },
+  "PKS § 16": {
+   "akt": "PKS",
+   "nr": "16",
+   "read": [
+    "§ 16. Perekonna ülalpidamise kohustus",
+    "(1) Abikaasad on vastastikku kohustatud oma tööga ja varaga perekonda ülal pidama.",
+    "(2) Perekonna ülalpidamine hõlmab tegevust ja varalisi panuseid, mis on perekonna elutingimuste kohaselt vajalikud ühise majapidamise kulude katteks ning kummagi abikaasa ja nende ülalpeetavate laste tavapäraste ning erivajaduste rahuldamiseks (perekonna huvides tehtud kulutused).",
+    "(3) Kui abikaasad elavad lahus, annab kumbki teise abikaasa tavapäraste vajaduste rahuldamiseks ülalpidamist korrapäraselt makstavate rahasummadena samadel alustel nagu perekonna ülalpidamisel käesoleva paragrahvi lõigete 1 ja 2 kohaselt. Lahus elav abikaasa ei ole õigustatud teiselt abikaasalt endale ülalpidamist nõudma, kui ta suudab end ise ülal pidada või kui lahuselu on põhjustanud tema ise oma käitumisega.",
+    "(4) Abikaasa võib nõuda ülalpidamiskohustuse täitmist või kohustuse täitmata jätmise tõttu tekkinud kahju hüvitamist tagasiulatuvalt kuni ühe aasta eest enne ülalpidamishagi kohtule esitamist."
+   ]
+  },
+  "PKS § 96": {
+   "akt": "PKS",
+   "nr": "96",
+   "read": [
+    "§ 96. Ülalpidamist andma kohustatud isikud",
+    "(1) Ülalpidamist on kohustatud andma täisealised esimese astme ülenejad ja alanejad sugulased (edaspidi ülalpidamiskohustuslased). Ülalpidamiskohustust ei mõjuta muudatused hooldusõiguses.",
+    "(2) Teise astme ülenejad sugulased on ülalpidamiskohustuslased oma alaealiste alanejate sugulaste suhtes.",
+    "[RT I, 28.04.2022, 1 - jõust. 08.05.2022]"
    ]
   },
   "PS § 1": {
@@ -2186,6 +2403,25 @@
     "Politsei- ja Piirivalveamet järgib välja- ja tagasisaatmise lubamatuse põhimõtet kooskõlas Euroopa Liidu ja rahvusvahelise õigusega."
    ]
   },
+  "VSE § 1^2": {
+   "akt": "VSE",
+   "nr": "1^2",
+   "read": [
+    "§ 1^2. Üksuse juhi otsustuspädevus",
+    "(1) Üksuse juhi pädevuses on teha otsus vangistusseaduse § 8 lõike 2, § 11 lõike 2, § 12 lõigete 2 ja 5, § 32, § 38 lõike 2^1, § 39 lõike 3, § 43 lõike 3, § 69 lõike 4 esimese lause ja § 103 alusel.",
+    "[RT I, 23.03.2021, 6 - jõust. 26.03.2021, rakendatakse tagasiulatuvalt alates 04.03.2021]",
+    "(1^1) Üksuse, kus paiknevad arestialused, juhi või tema määratud ametniku pädevuses on teha otsus vangistusseaduse § 64 lõike 4 ja § 87 lõike 1 alusel.",
+    "[RT I, 23.03.2021, 6 - jõust. 26.03.2021, rakendatakse tagasiulatuvalt alates 04.03.2021]",
+    "(2) Avavangla või kinnise vangla avavanglaosakonna juht võib otsustada kinnipeetava väljapoole vanglat õppima või tööle lubamise „Vangistusseaduse” § 22 alusel käesolevas määruses sätestatud korras ja teha otsuse „Vangistusseaduse” § 10 lõike 2 alusel.",
+    "[RT I, 27.04.2012, 1 - jõust. 01.06.2012]",
+    "(2^1) Üksuse juht vaatab läbi vaide, mis on esitatud inspektori-kontaktisiku või muu selle üksuse koosseisus oleva isiku haldusakti või toimingu peale.",
+    "[RT I, 15.03.2013, 23 - jõust. 18.03.2013]",
+    "(3) Lõigetes 1, 2 ja 2^1 sätestatut kohaldatakse ka Viru Vangla avavanglaosakonna juhataja suhtes ning üksust juhtiva muu vanglateenistuse ametniku suhtes.",
+    "[RT I, 15.03.2013, 23 - jõust. 18.03.2013]",
+    "(4) Edasilükkamatul juhul võib „Vangistusseaduse” § 8 lõike 2 alusel teha otsuse kõrgeim kohalviibiv vanglateenistuse ametnik.",
+    "[RT I, 27.04.2012, 1 - jõust. 01.06.2012]"
+   ]
+  },
   "VSE § 64^1": {
    "akt": "VSE",
    "nr": "64^1",
@@ -2482,6 +2718,16 @@
     "[RT I, 20.12.2012, 3 - jõust. 01.01.2013]"
    ]
   },
+  "VangS § 30": {
+   "akt": "VangS",
+   "nr": "30",
+   "read": [
+    "§ 30. Ajalehed ja ajakirjad",
+    "(1) Kinnipeetavale tagatakse vanglas võimalus lugeda üleriigilisi päevalehti ning ajakirju.",
+    "(2) Kinnipeetaval on lubatud vanglateenistuse või oma riigi konsulaartöötaja vahendusel tellida mõõdukuse piires isiklike vahendite arvel ajalehti, ajakirju ja muud kirjandust, kui see ei ohusta vangistuse täideviimise eesmärke või vangla julgeolekut või korda.",
+    "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]"
+   ]
+  },
   "VangS § 34": {
    "akt": "VangS",
    "nr": "34",
@@ -2514,6 +2760,22 @@
     "[RT I, 22.03.2024, 1 - jõust. 01.04.2024]",
     "(4) Töö korraldamise viisid ning sisu peavad võimalikult vastama töökorraldusele vabaduses.",
     "(5) Kinnipeetava rakendamine tööle käesoleva seaduse § 38 lõikes 3 nimetatud käitistes võib toimuda üksnes kinnipeetava nõusolekul."
+   ]
+  },
+  "VangS § 41": {
+   "akt": "VangS",
+   "nr": "41",
+   "read": [
+    "§ 41. Töötamine väljaspool vanglat",
+    "(1) Kinnipeetaval, kelle suhtes on piisavalt alust oletada, et ta ei pane toime uusi õiguserikkumisi, võimaldatakse tema nõusolekul töötada järelevalveta või järelevalve all väljaspool vanglat, kui see on vastavuses vangistuse täideviimise eesmärkide ja kinnipeetava individuaalse täitmiskavaga. Sellisel juhul kohaldatakse käesoleva seaduse § 22 sätteid.",
+    "(1^1) Kinnipeetavale väljaspool vanglat töötamiseks loa andmise täpsemad tingimused ja korra ning kinnipeetava väljaspool vanglat töötamise korra kehtestab valdkonna eest vastutav minister määrusega.",
+    "[RT I 2006, 63, 466 - jõust. 01.02.2007]",
+    "(2) Kinnipeetava töötamise korral järelevalveta väljaspool vanglat kohaldatakse töösuhteid reguleerivate seaduste sätteid, sealhulgas töölepingu sõlmimise ning töötasu ja puhkuse kohta. Kinnipeetavaga sõlmitavast töölepingust ei tohi nähtuda tema viibimine karistuse kandmisel.",
+    "[RT I 2009, 5, 35 - jõust. 01.07.2009]",
+    "(2^1) Kui kinnipeetav töötab järelevalveta väljaspool vanglat ajutisel tasulisel tööl, mis ei eelda kutse-, eri- ega ametialast ettevalmistust, lähtutakse talle palga maksmisel käesoleva seaduse §-st 43.",
+    "[RT I 2009, 35, 232 - jõust. 27.06.2009]",
+    "(3) Kinnipeetava töötamisel väljaspool vanglat kannab tööandja kinnipeetava töötasu vanglateenistuse arveldusarvele.",
+    "[RT I 2009, 39, 261 - jõust. 24.07.2009]"
    ]
   },
   "VangS § 43": {
@@ -2682,6 +2944,21 @@
     "[RT I 2009, 39, 261 - jõust. 24.07.2009]"
    ]
   },
+  "VangS § 67": {
+   "akt": "VangS",
+   "nr": "67",
+   "read": [
+    "§ 67. Kinnipeetava kohustused",
+    "Julgeoleku tagamiseks vanglas on kinnipeetav kohustatud:",
+    "1) täitma vangla sisekorraeeskirju ja alluma vanglateenistuse ametnike seaduslikele korraldustele;",
+    "[RT I 2009, 39, 261 - jõust. 24.07.2009]",
+    "2) mitte takistama vanglateenistuse ametnike kohustuste täitmist ega häirima teisi kinnipeetavaid ja muid isikuid;",
+    "[RT I 2009, 39, 261 - jõust. 24.07.2009]",
+    "3) teatama viivitamatult vanglateenistuse ametnikule kõikidest asjaoludest, mis võivad ohustada vangla julgeolekut ja korda ning teise isiku elu ja tervist;",
+    "[RT I, 20.12.2012, 3 - jõust. 01.01.2013]",
+    "4) suhtuma heaperemehelikult talle usaldatud esemetesse ja pidama korras tema kasutuses olevad elu- ja olmeruumid."
+   ]
+  },
   "VangS § 68": {
    "akt": "VangS",
    "nr": "68",
@@ -2795,6 +3072,26 @@
     "(2) Kui vangistust kandev välismaalane, kes on süüdi mõistetud teise astme kuriteo eest, soovib võtta kohustuse Eesti Vabariigist lahkumiseks kriminaalmenetluse seadustiku § 424^1 lõike 1 alusel ning tal on Politsei- ja Piirivalveameti hinnangul võimalik vastuvõtvasse riiki tagasi pöörduda, taotleb vangla karistuse kandmise asukoha järgse maakohtu täitmiskohtunikult välismaalasest kinnipeetava edasisest karistuse kandmisest vabastamist.",
     "(3) Käesoleva paragrahvi lõikes 2 nimetatud taotluse esitamiseks taotleb vangla välismaalase vastuvõtvasse riiki tagasipöördumise võimalikkuse kohta hinnangut Politsei- ja Piirivalveametilt, kes edastab selle vanglale 30 päeva jooksul taotluse saamisest arvates.",
     "[RT I, 19.03.2019, 3 - jõust. 01.07.2019]"
+   ]
+  },
+  "VangS § 77": {
+   "akt": "VangS",
+   "nr": "77",
+   "read": [
+    "§ 77. Noor kinnipeetav",
+    "Noor kinnipeetav käesoleva seaduse tähenduses on isik, kes karistuse täitmisele pööramise ajal on noorem kui 21-aastane."
+   ]
+  },
+  "VangS § 8": {
+   "akt": "VangS",
+   "nr": "8",
+   "read": [
+    "§ 8. Kinnise vangla üldtingimused",
+    "[RT I 2006, 63, 466 - jõust. 01.02.2007]",
+    "(1) Kinnipeetaval on lubatud liikuda kinnise vangla territooriumil vangla sisekorraeeskirjas ja kodukorras sätestatud kohtades ning ajal. Öörahu algusest kuni äratuseni ning muul vangla sisekorraeeskirjas ja kodukorras sätestatud ajal eraldatakse kinnipeetavad neile ettenähtud kambritesse, mis lukustatakse.",
+    "[RT I 2008, 17, 118 - jõust. 01.06.2008]",
+    "(2) Vanglateenistus võib põhjendatud vajaduse korral kambreid või osakondi lukustada või kinnipeetavaid ajutiselt teistesse ruumidesse paigutada käesoleva paragrahvi lõikes 1 ettenähtud ajast erinevalt, kui see on vajalik vangla julgeoleku tagamiseks või kinnipeetava õigusvastase käitumise vältimiseks. Erandi tegemise otsus tuleb teha kirjalikult.",
+    "[RT I 2009, 39, 261 - jõust. 24.07.2009]"
    ]
   },
   "VangS § 80": {

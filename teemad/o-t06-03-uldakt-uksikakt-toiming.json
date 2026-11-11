@@ -1,0 +1,198 @@
+{
+ "id": "o-t06-03",
+ "tund": "o-t06",
+ "jrk": 3,
+ "pealkiri": "Üldakt, üksikakt ja toiming",
+ "lyhend": "Üldakt ja üksikakt",
+ "ikoon": "aktid",
+ "kysimused": [],
+ "lyhidalt": "Üldakt (seadus, määrus) kehtib piiramatu arvu inimeste ja juhtude kohta – see loob õigust. Üksikakt (otsus, käskkiri, ettekirjutus, kohtuotsus) puudutab konkreetset inimest konkreetses asjas – see rakendab õigust. Toiming on riigi tegevus, mis ei ole õigusakt (nt läbiotsimine).",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Õigust loov ja õigust rakendav",
+   "tekst": "Õiguse rakendamise tulemus on kas **üksikakt** või **toiming**. Üksikakt antakse alati **üldakti alusel**.",
+   "skeem": [
+    {
+     "tyyp": "vordlus",
+     "pealkiri": "Üldakt ja üksikakt",
+     "veerud": [
+      "",
+      "Üldakt",
+      "Üksikakt"
+     ],
+     "read": [
+      {
+       "silt": "Roll",
+       "lahtrid": [
+        "õigust **loov**",
+        "õigust **rakendav**"
+       ]
+      },
+      {
+       "silt": "Kelle kohta",
+       "lahtrid": [
+        "piiramatu arv isikuid – üldkohustuslik",
+        "konkreetne isik – individuaalne"
+       ]
+      },
+      {
+       "silt": "Milliste juhtude kohta",
+       "lahtrid": [
+        "tüüpjuhtumid – abstraktne",
+        "üks elujuhtum – konkreetne"
+       ]
+      },
+      {
+       "silt": "Näited",
+       "lahtrid": [
+        "seadus, määrus ([[HMS § 88]])",
+        "haldusakt ([[HMS § 51 lg 1]]), kohtuotsus"
+       ]
+      },
+      {
+       "silt": "Vangla",
+       "lahtrid": [
+        "VangS, vangla sisekorraeeskiri",
+        "distsiplinaarkaristuse käskkiri ([[VangS § 64 lg 4]])"
+       ]
+      }
+     ]
+    }
+   ],
+   "jarel": "Mõlemaid ühendab: need **kehtestab riik** ja neid **tagatakse riigi sunnijõuga**."
+  },
+  "alus": {
+   "pealkiri": "Mõisted seaduses",
+   "read": [
+    {
+     "tase": "Määrus (üldakt)",
+     "viited": [
+      "HMS § 88"
+     ],
+     "tekst": "Õigusakt piiritlemata arvu juhtude reguleerimiseks."
+    },
+    {
+     "tase": "Haldusakt (üksikakt)",
+     "viited": [
+      "HMS § 51 lg 1"
+     ],
+     "tekst": "Üksikjuhtumi reguleerimiseks antud, isiku õiguste või kohustuste tekitamisele, muutmisele või lõpetamisele suunatud korraldus, otsus, ettekirjutus, käskkiri vms."
+    },
+    {
+     "tase": "Toiming",
+     "viited": [
+      "HMS § 106 lg 1"
+     ],
+     "tekst": "Haldusorgani tegevus, mis ei ole õigusakti andmine."
+    },
+    {
+     "tase": "Vangla",
+     "viited": [
+      "VangS § 105 lg 2",
+      "VangS § 64 lg 4"
+     ],
+     "tekst": "Sisekorraeeskiri on ministri määrus; distsiplinaarkaristus vormistatakse käskkirjana."
+    }
+   ],
+   "skeem": {
+    "tyyp": "pyramiid",
+    "pealkiri": "Üldaktist üksikaktini – vangla näide",
+    "astmed": [
+     {
+      "pealkiri": "Seadus (üldakt)",
+      "tekst": "Süülise rikkumise eest võib kohaldada distsiplinaarkaristusi.",
+      "viide": "VangS § 63 lg 1",
+      "vahel": "▼ volitusnorm"
+     },
+     {
+      "pealkiri": "Määrus (üldakt)",
+      "tekst": "Vangla sisekorraeeskiri – minister kehtestab.",
+      "viide": "VangS § 105 lg 2",
+      "vahel": "▼ rakendamine konkreetsel juhul"
+     },
+     {
+      "pealkiri": "Käskkiri (üksikakt)",
+      "tekst": "Kinnipeetav X-ile määratakse noomitus. Põhjendatud ja antakse talle teatavaks.",
+      "viide": "VangS § 64 lg 4",
+      "toon": "b"
+     }
+    ]
+   }
+  },
+  "piiramine": {
+   "pealkiri": "Toiming – rakendamine ilma õigusaktita",
+   "tekst": "Õiguse rakendamise tulemus ei ole alati paber. **Toiming** on tegevus, millega riik midagi teeb, kuid mitte õigusakti ei anna – nt politsei toimetab joobes inimese kainenema, vanglaametnik teeb kambris läbiotsimise.",
+   "punktid": [
+    "Toiming ei ole õigusakt ([[HMS § 106 lg 1]]), aga sellegi jaoks on vaja õiguslikku alust ([[PS § 3 lg 1]]).",
+    "Ka toimingu peale saab kinnipeetav esitada vaide ja kaebuse ([[VangS § 1^1 lg 5]]).",
+    "Üldkorraldus on haldusakt, mis on suunatud üldiste tunnuste järgi määratud isikutele ([[HMS § 51 lg 2]]) – see on üldakti ja üksikakti vahepeal."
+   ]
+  },
+  "vangla": {
+   "tekst": "Kordamisküsimus 7 (tund 1) küsib üld- ja üksikakti tunnuseid – siin on need vangla näidetel. Haldusakti ja toimingu vahet õpid täpsemalt haldusõiguse tunnis 13.",
+   "naide": {
+    "olukord": "Vangla direktor kehtestab kodukorra, mis kehtib kõigile vangla kinnipeetavatele. Samal päeval annab ta käskkirja, millega kinnipeetav Y paigutatakse teise osakonda.",
+    "analyys": "**Kodukord:** kehtib kõigile, kõikidel juhtudel – üldine ja abstraktne. Selle kinnitab vangla direktor ([[VangS § 105 lg 3]]). **Käskkiri Y kohta:** üks isik, üks juhtum, muudab tema olukorda – üksikakt ([[HMS § 51 lg 1]]). **Järeldus:** esimene loob reegleid, teine rakendab neid."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "„Käskkiri” = alati üksikakt. Tegelikult loeb sisu: kas see reguleerib üksikjuhtumit või piiramata arvu juhtumeid.",
+    "Toimingut ei loeta õiguse rakendamiseks, sest „paberit ei tehtud”.",
+    "Üksikakti tunnustest unustatakse „õigust rakendav” – see antakse alati üldakti alusel."
+   ]
+  }
+ },
+ "vastus": [],
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Üldakt, üksikakt või toiming?",
+   "ryhmad": [
+    "Üldakt",
+    "Üksikakt",
+    "Toiming"
+   ],
+   "read": [
+    {
+     "tekst": "Vangla sisekorraeeskiri",
+     "oige": 0,
+     "selgitus": "Ministri määrus ([[VangS § 105 lg 2]])."
+    },
+    {
+     "tekst": "Distsiplinaarkaristuse määramise käskkiri",
+     "oige": 1,
+     "selgitus": "[[VangS § 64 lg 4]]."
+    },
+    {
+     "tekst": "Kambri läbiotsimine",
+     "oige": 2,
+     "selgitus": "Tegevus, mitte õigusakt ([[HMS § 106 lg 1]])."
+    },
+    {
+     "tekst": "Halduskohtu otsus kinnipeetava kaebuse kohta",
+     "oige": 1,
+     "selgitus": "Konkreetne asi, konkreetsed pooled."
+    },
+    {
+     "tekst": "Vangistusseadus",
+     "oige": 0,
+     "selgitus": "Seadus."
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis eristab üksikakti üldaktist?",
+   "valikud": [
+    "Üksikakti annab alati kohus",
+    "Üksikakt on konkreetne ja individuaalne ning rakendab õigust",
+    "Üksikakt ei ole siduv"
+   ],
+   "oige": 1,
+   "selgitus": "[[HMS § 51 lg 1]] vs [[HMS § 88]]."
+  }
+ ],
+ "erinevused": [],
+ "valjast": []
+}

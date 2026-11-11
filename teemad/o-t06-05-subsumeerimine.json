@@ -1,0 +1,206 @@
+{
+ "id": "o-t06-05",
+ "tund": "o-t06",
+ "jrk": 5,
+ "pealkiri": "Subsumeerimine",
+ "lyhend": "Subsumeerimine",
+ "ikoon": "subsum",
+ "kysimused": [
+  15
+ ],
+ "lyhidalt": "Subsumeerimine tähendab elus juhtunu võrdlemist normi abstraktse koosseisuga: kas iga normi tunnus leiab elust oma vaste? Kui jah, saabub normi tagajärg. Kui mõni tunnus puudub, tagajärge kohaldada ei saa.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Kui E1, E2 … = elus A1, A2 … → siis ÕT",
+   "tekst": "Normi koosseis kirjeldab **tüüpolukorda** üldiste tunnustega (E1, E2 …). Elus juhtub **konkreetne olukord** (A1, A2 …). Subsumeerimine on nende kahe kõrvutamine: kas iga tunnus leiab elust paarilise?\n\nSlaid kasutab sama mõtte jaoks ka teisi sõnu: **faktikirjeldus F(k)** on normis, **faktiväide F(v)** on see, mida väidetakse elus juhtunu kohta. Õiguslik tähendus tekib ainult siis, kui nende vahel on **küllaldane vastavus**.",
+   "skeem": [
+    {
+     "tyyp": "voog",
+     "pealkiri": "Subsumeerimine neljas sammus",
+     "sammud": [
+      {
+       "pealkiri": "Konkreetsed elulised asjaolud",
+       "tekst": "Mis juhtus – kes, mida, millal, kus."
+      },
+      {
+       "pealkiri": "Õigusnormi faktiline koosseis",
+       "tekst": "Normi tunnused loeteluna; kas „ja” või „või”."
+      },
+      {
+       "pealkiri": "Võrdlus ja seose tuvastamine",
+       "tekst": "Iga tunnus ↔ asjaolu. Vajadusel tõlgenda mõistet."
+      },
+      {
+       "pealkiri": "Lõppjäreldus",
+       "tekst": "Kas õiguslik tagajärg võib/peab saabuma?"
+      }
+     ]
+    }
+   ],
+   "jarel": "Enne kui tagajärje kohaldad, **pead** asjaolud koosseisu alla viima. Kumulatiivse koosseisu puhul peavad kõik tunnused olema täidetud, alternatiivse puhul vähemalt üks."
+  },
+  "alus": {
+   "pealkiri": "Slaidi näide: ajapikendus kaitseväeteenistusest",
+   "tekst": "Isik pöördub Kaitseressursside Ameti poole ajapikenduse saamiseks, sest tema peres on laps. **Õiguslik küsimus:** kas isikul on õigus saada ajapikendust?",
+   "read": [
+    {
+     "tase": "Norm",
+     "viited": [
+      "KVTS § 43 lg 1 p 1"
+     ],
+     "tekst": "Ajapikendus antakse kutsealusele, kes lapsevanemana või muu last ülalpidava isikuna peab ülal vähemalt ühte alla kolmeaastast last ning ülalpidamiskohustus tuleneb perekonnaseadusest."
+    },
+    {
+     "tase": "Tõlgendamine: kutsealune",
+     "viited": [
+      "KVTS § 2 lg 3"
+     ],
+     "tekst": "17–27-aastane meessoost isik kuni teenistusse asumiseni."
+    },
+    {
+     "tase": "Tõlgendamine: ülalpidamine",
+     "viited": [
+      "PKS § 96 lg 1"
+     ],
+     "tekst": "Ülalpidamist on kohustatud andma täisealised esimese astme ülenejad ja alanejad sugulased."
+    }
+   ],
+   "skeem": {
+    "tyyp": "subsumeeri",
+    "pealkiri": "Proovi ise: Mihkel Sits",
+    "viide": "KVTS § 43 lg 1 p 1",
+    "kysimus": "Kas Mihkel Sitsile antakse ajapikendust?",
+    "seos": "ja",
+    "read": [
+     {
+      "tunnus": "Kutsealune (17–27, meessoost)",
+      "asjaolu": "20-aastane mees Mihkel Sits",
+      "toend": "isikut tõendav dokument",
+      "taidetud": true,
+      "selgitus": "Täidetud ([[KVTS § 2 lg 3]])."
+     },
+     {
+      "tunnus": "Lapsevanem või muu last ülalpidav isik",
+      "asjaolu": "Mihkel on Liisa isa",
+      "toend": "sünnitunnistus",
+      "taidetud": true,
+      "selgitus": "Täidetud."
+     },
+     {
+      "tunnus": "Peab ülal vähemalt ühte alla 3-aastast last",
+      "asjaolu": "Liisa on 2-aastane",
+      "toend": "sünnitunnistus",
+      "taidetud": true,
+      "selgitus": "Täidetud."
+     },
+     {
+      "tunnus": "Ülalpidamiskohustus tuleneb perekonnaseadusest",
+      "asjaolu": "Isa on lapse esimese astme ülenev sugulane",
+      "toend": "sünnitunnistus",
+      "taidetud": true,
+      "selgitus": "Täidetud ([[PKS § 96 lg 1]]). Slaid sisustab selle tunnuse teisiti – vt „Allikate märkused”."
+     }
+    ],
+    "tagajarg": "Kaitseressursside Amet **annab** ajapikendust (kohustus, mitte kaalutlus).",
+    "jareldus": "Kõik tunnused on täidetud – Mihkel Sitsile antakse ajapikendust."
+   }
+  },
+  "piiramine": {
+   "pealkiri": "Kui tunnus ei ole täidetud",
+   "tekst": "Kui kutsealusel ei ole ülalpeetavat alla kolmeaastast last, ei saa ta [[KVTS § 43 lg 1 p 1]] alusel ajapikendust – üks tunnus on täitmata ja tagajärge kohaldada ei saa. Tagajärge kohaldatakse **ainult** siis, kui asjaolud vastavad koosseisule.",
+   "punktid": [
+    "Kumulatiivne koosseis: puudub üks → normi ei kohaldata.",
+    "Alternatiivne koosseis: piisab ühest → kontrolli, kas vähemalt üks on täidetud.",
+    "Tagajärg võib olla sõnastatud erineva siduvusega: „võib” (kaalutlus) või „peab/annab” (kohustus)."
+   ]
+  },
+  "vangla": {
+   "tekst": "Slaidil on ka vangla näide – pikaajaline kokkusaamine faktilise abikaasaga. Siin on see **kehtiva** VangS-i järgi.",
+   "skeem": {
+    "tyyp": "subsumeeri",
+    "pealkiri": "Proovi ise: Jaan Pääsuke ja Tiina Tuul",
+    "viide": "VangS § 25 lg 1",
+    "kysimus": "Kas kinnipeetav Jaan Pääsukesele tuleb lubada pikaajaline kokkusaamine elukaaslase Tiina Tuulega?",
+    "seos": "või",
+    "read": [
+     {
+      "tunnus": "Ühised lapsed",
+      "asjaolu": "Ühiseid lapsi ei ole.",
+      "toend": "rahvastikuregistri andmed",
+      "taidetud": false,
+      "selgitus": "Ei ole täidetud."
+     },
+     {
+      "tunnus": "Vähemalt kaks aastat väldanud kooselu enne karistuse kandmise algust",
+      "asjaolu": "Elasid koos kolm aastat Tartus enne karistuse algust.",
+      "toend": "üürileping, rahvastikuregistri elukoht, kommunaalarved, naabrite ütlused",
+      "taidetud": true,
+      "selgitus": "Täidetud – kooselu kestis üle kahe aasta."
+     }
+    ],
+    "tagajarg": "Pikaajalisi kokkusaamisi faktilise abikaasaga **lubatakse** – kui ei esine keeldumise aluseid ([[VangS § 25 lg 1^1]]).",
+    "jareldus": "Alternatiivsest koosseisust on täidetud üks tunnus – sellest piisab. Kokkusaamine tuleb lubada, kui ei esine keeldumise aluseid."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Normi tunnused ja kaasuse asjaolud kirjutatakse kahe eraldi loeteluna – seostamine jäetakse lugejale.",
+    "Tunnus loetakse täidetuks ilma asjaolu nimetamata („tingimus on ilmselt täidetud”).",
+    "Unustatakse tõlgendada normi mõisteid (nt „kutsealune”), enne kui neid asjaoludega võrreldakse.",
+    "Slaidilt tsiteeritakse aegunud normi sõnastust (vt allikate märkused)."
+   ]
+  }
+ },
+ "vastus": [
+  {
+   "nr": 15,
+   "punktid": [
+    "Subsumeerimine on **konkreetsete eluliste asjaolude võrdlemine õigusnormi abstraktse faktilise koosseisuga**.",
+    "Kui iga koosseisu tunnus leiab elust vaste (seos on tuvastatud), tehakse **lõppjäreldus õigusliku tagajärje kohta**.",
+    "Faktiküsimus (mis juhtus) ja õigusküsimus (mida norm nõuab) lahendatakse eraldi.",
+    "Näide: [[VangS § 25 lg 1]] – kas kinnipeetava ja elukaaslase olukord vastab tunnustele „ühised lapsed” või „vähemalt kaks aastat väldanud kooselu”."
+   ]
+  }
+ ],
+ "harjutused": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mida tähendab F(k) ja F(v)?",
+   "valikud": [
+    "Kohus ja valitsus",
+    "Faktikirjeldus normis ja faktiväide elus juhtunu kohta",
+    "Koosseis ja vastutus"
+   ],
+   "oige": 1,
+   "selgitus": "Subsumeerimine võrdleb neid kahte."
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Kinnipeetav ja elukaaslane elasid koos 18 kuud, ühiseid lapsi pole. Kas VangS § 25 lg 1 alusel tuleb pikaajaline kokkusaamine lubada?",
+   "valikud": [
+    "Jah, sest neil oli ühine majapidamine",
+    "Ei, kumbki alternatiivne tunnus ei ole täidetud",
+    "Jah, kui direktor nõustub"
+   ],
+   "oige": 1,
+   "selgitus": "Kooselu pidi kestma vähemalt kaks aastat ([[VangS § 25 lg 1]]). „Ühine majapidamine” oli alus seaduse vanemas sõnastuses."
+  }
+ ],
+ "erinevused": [
+  {
+   "silt": "Slaid",
+   "teema": "VangS § 25 lg 1 – pikaajaline kokkusaamine faktilise abikaasaga",
+   "konspekt": "Slaid „õiguse rakendamine” (lk 26) tsiteerib: lubatakse, kui neil on „ühised lapsed või ühine majapidamine või vähemalt kaks aastat väldanud kooselu enne karistuse kandmise algust”.",
+   "ametlik": "Kehtiv [[VangS § 25 lg 1]]: lubatakse, kui neil on ühised lapsed või vähemalt kaks aastat väldanud kooselu enne karistuse kandmise algust.",
+   "markus": "„Ühine majapidamine” ei ole enam eraldi alus. Kasuta eksamil kehtivat sõnastust."
+  },
+  {
+   "silt": "Slaid",
+   "teema": "KVTS § 43 lg 1 p 1 – kuidas sisustada „ülalpidamiskohustus tuleneb perekonnaseadusest”",
+   "konspekt": "Slaid (lk 19–20, 25) sisustab tunnuse viitega abikaasade perekonna ülalpidamise kohustusele ([[PKS § 16 lg 1]]) ja nõuab, et isik oleks „abielus lapse emaga”.",
+   "ametlik": "Perekonnaseaduse järgi on ülalpidamist kohustatud andma täisealised esimese astme ülenejad ja alanejad sugulased ([[PKS § 96 lg 1]]) – see säte ei sea abielu tingimuseks.",
+   "markus": "Slaid näitab tõlgendamise töökäiku; tulemus erineb sõltuvalt sellest, millisele PKS-i sättele toetuda. Too eksamil välja, millist sätet kasutasid."
+  }
+ ],
+ "valjast": []
+}

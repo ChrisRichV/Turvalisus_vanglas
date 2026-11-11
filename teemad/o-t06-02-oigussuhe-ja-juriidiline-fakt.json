@@ -1,0 +1,151 @@
+{
+ "id": "o-t06-02",
+ "tund": "o-t06",
+ "jrk": 2,
+ "pealkiri": "Õigussuhe ja juriidiline fakt",
+ "lyhend": "Õigussuhe ja juriidiline fakt",
+ "ikoon": "oigussuhe",
+ "kysimused": [
+  16
+ ],
+ "lyhidalt": "Õigussuhe on isikute seos, mis tekib õigusnormi alusel: ühel on õigus, teisel kohustus. Juriidiline fakt on elus toimuv muutus (sünd, surm, leping, rikkumine), millega seadus seob õigusliku tagajärje – õiguse või kohustuse tekkimise, muutumise või lõppemise.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Õigus ja kohustus on alati paaris",
+   "tekst": "**Õigussuhe** on isikute vaheline seos, mis tekib õigusnormi alusel. See avaldub õigustes, kohustustes ja vastutuses. Kui ühel on **subjektiivne õigus**, on teisel vastav **juriidiline kohustus**.\n\nÕigussuhtel on:\n\n- **subjektid** – osalised: füüsilised isikud, juriidilised isikud (era- ja avalik-õiguslikud), asutused ja organid;\n- **objekt** – mille üle suhe on: asjad, teenused, aga ka mittemateriaalne (au, väärikus, hea nimi);\n- **sisu** – õigused ja kohustused.",
+   "skeem": [
+    {
+     "tyyp": "kolmnurk",
+     "pealkiri": "Õigussuhe vanglas",
+     "yla": {
+      "pealkiri": "Õigusnorm",
+      "tekst": "Kinnipeetaval on õigus kirjavahetusele.",
+      "viide": "VangS § 28 lg 1"
+     },
+     "vasak": {
+      "pealkiri": "Õigustatud: kinnipeetav",
+      "tekst": "kasutab õigust – kirjutab kirja"
+     },
+     "parem": {
+      "pealkiri": "Kohustatud: vangla",
+      "tekst": "peab kirja edastama; piirata saab ainult seaduse alusel",
+      "viide": "VangS § 28 lg 3"
+     },
+     "nooled": {
+      "vasak": "annab õiguse",
+      "parem": "paneb kohustuse",
+      "all": "õigussuhe"
+     },
+     "all": "Riik tagab õiguse oma autoriteediga: kui vangla kohustust ei täida, saab kinnipeetav esitada vaide ja kaebuse ([[VangS § 1^1 lg 5]])."
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Juriidiline fakt",
+   "tekst": "**Juriidiline fakt** on tegelikkuses toimuv muutus, millega seadusandja seob õigusliku tagajärje. See on kirjas normi **hüpoteesis**. Juriidiline fakt tekitab, muudab või lõpetab õigusi ja kohustusi.\n\nNäiteks: inimese sünd ja surm, abielu, kahju tekitamine, lepingu sõlmimine – aga ka õigusrikkumine.",
+   "read": [
+    {
+     "tase": "Tekitab",
+     "viited": [
+      "VangS § 63 lg 1"
+     ],
+     "tekst": "Süüline rikkumine tekitab vanglale õiguse kohaldada distsiplinaarkaristust."
+    },
+    {
+     "tase": "Muudab",
+     "viited": [
+      "VangS § 77"
+     ],
+     "tekst": "Vanus karistuse täitmisele pööramise ajal määrab, kas isik on „noor kinnipeetav” – sellega muutuvad tema õigused ja piirangud."
+    },
+    {
+     "tase": "Lõpetab",
+     "viited": [
+      "VangS § 69 lg 3"
+     ],
+     "tekst": "Ohu äralangemisel lõpetatakse täiendavate julgeolekuabinõude kohaldamine."
+    }
+   ],
+   "skeem": {
+    "tyyp": "voog",
+    "pealkiri": "Juriidiline fakt käivitab tagajärje",
+    "sammud": [
+     {
+      "pealkiri": "Elus juhtub",
+      "tekst": "Kinnipeetav rikub süüliselt sisekorraeeskirja."
+     },
+     {
+      "pealkiri": "See on normi hüpoteesis",
+      "tekst": "„nõuete süülise rikkumise eest”",
+      "viide": "VangS § 63 lg 1"
+     },
+     {
+      "pealkiri": "Tekib õiguslik tagajärg",
+      "tekst": "Vanglal tekib õigus kohaldada distsiplinaarkaristust; kinnipeetaval tekib õigus anda selgitusi.",
+      "viide": "VangS § 64 lg 2"
+     }
+    ]
+   }
+  },
+  "piiramine": {
+   "pealkiri": "Õigusrikkumine ja vastutus",
+   "tekst": "Inimese käitumine on õiguslikult kas **õiguspärane** (normidega kooskõlas) või **õigusrikkumine** (normidega vastuolus tegu või tegevusetus). Õigusrikkumine on juriidilise vastutuse alus – aga ainult siis, kui see on seaduses nii kirjas ja kui isik on süüline seal, kus seadus süüd nõuab.",
+   "punktid": [
+    "Süütegu peab olema seaduses kirjas juba teo toimepanemise ajal ([[PS § 23]]).",
+    "Distsiplinaarvastutus vanglas eeldab **süülist** rikkumist ([[VangS § 63 lg 1]]).",
+    "Kollektiivne karistus on keelatud – vastutab see, kes rikkus ([[VangS § 63 lg 3]])."
+   ]
+  },
+  "vangla": {
+   "tekst": "Kogu vanglaelu on õigussuhete võrk: kinnipeetav–vangla, ametnik–ametiasutus, vangla–ministeerium. Igas suhtes küsi: **kellel on õigus, kellel kohustus ja mis on selle alus?**",
+   "naide": {
+    "olukord": "Kinnipeetav saab vanglasse saabudes teada, et tal on õigus saada üleriigilisi päevalehti. Ta küsib: „Kas vangla peab mulle need andma või pean ise tellima?”",
+    "analyys": "**Norm:** kinnipeetavale tagatakse vanglas võimalus lugeda üleriigilisi päevalehti ja ajakirju ([[VangS § 30 lg 1]]). **Õigussuhe:** õigustatud on kinnipeetav, kohustatud vangla (peab võimaldama lugemise). Isiklik tellimine on eraldi õigus, mida kinnipeetav saab kasutada mõõdukuse piires oma kulul ([[VangS § 30 lg 2]]). **Juriidiline fakt:** vanglasse paigutamine – sellest hetkest on kinnipeetav selles õigussuhtes."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Juriidiline fakt aetakse segi tõendiga. Fakt on see, mis juhtus; tõend on see, millega seda näidatakse.",
+    "Õigussuhte poolena nimetatakse „riik” ilma täpsustamata, milline organ on kohustatud.",
+    "Unustatakse, et ka tegevusetus võib olla juriidiline fakt (nt kohustuse täitmata jätmine)."
+   ]
+  }
+ },
+ "vastus": [
+  {
+   "nr": 16,
+   "punktid": [
+    "Juriidiline fakt on **tegelikkuses toimuv muutus**, millega õigusnorm seob õiguste ja kohustuste **tekkimise, muutumise või lõppemise**.",
+    "Need asjaolud on kirjeldatud õigusnormi **hüpoteesis**.",
+    "Näited: sünd, surm, abielu, lepingu sõlmimine, kahju tekitamine, õigusrikkumine.",
+    "Vangla: süüline rikkumine tekitab aluse distsiplinaarkaristuseks ([[VangS § 63 lg 1]])."
+   ]
+  }
+ ],
+ "harjutused": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis on juriidiline fakt?",
+   "valikud": [
+    "Iga tõene väide",
+    "Elus toimuv muutus, millega seadus seob õigusliku tagajärje",
+    "Kohtuotsus"
+   ],
+   "oige": 1,
+   "selgitus": "Juriidiline fakt on kirjas normi hüpoteesis."
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Kinnipeetaval on õigus kirjavahetusele. Kes on selle õigussuhte kohustatud pool?",
+   "valikud": [
+    "Kirja saaja",
+    "Vangla (riik)",
+    "Teised kinnipeetavad"
+   ],
+   "oige": 1,
+   "selgitus": "[[VangS § 28 lg 1]], piiramine ainult seaduse alusel [[VangS § 28 lg 3]]."
+  }
+ ],
+ "erinevused": [],
+ "valjast": []
+}

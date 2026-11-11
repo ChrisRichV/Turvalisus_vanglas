@@ -1,0 +1,206 @@
+{
+ "id": "o-t06-06",
+ "tund": "o-t06",
+ "jrk": 6,
+ "pealkiri": "Määratlemata õigusmõiste",
+ "lyhend": "Määratlemata õigusmõiste",
+ "ikoon": "udu",
+ "kysimused": [
+  26
+ ],
+ "lyhidalt": "Määratlemata õigusmõiste on seaduses teadlikult avaraks jäetud sõna – „avalik huvi”, „oluline põhjus”, „julgeolek või kord”. Seadusandja jätab ametnikule ülesande sisustada see iga juhtumi puhul. Üksikjuhtumil on mõistel alati konkreetne sisu ja seda tuleb põhjendada.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Teadlikult lahtine sõna",
+   "tekst": "Seadusandja ei suuda ette näha kõiki elujuhtumeid. Seepärast kasutab ta mõnikord **avara sisuga mõisteid**, mida ametnik peab konkreetse juhtumi järgi sisustama: „avalik huvi”, „head kombed”, „oluline põhjus”, „mõistlik aeg”, „vajaduse korral”.\n\nSee on **normitehniline võte**, mitte seadusandja viga. Määratlemata õigusmõiste ei ole lihtsalt ebamäärane – **üksikjuhul on sellel alati konkreetne sisu**, ja selle leidmine on õiguse rakendaja töö.",
+   "skeem": [
+    {
+     "tyyp": "kaardid",
+     "pealkiri": "Määratlemata õigusmõisted vangistusseaduses",
+     "kaardid": [
+      {
+       "silt": "?",
+       "pealkiri": "„vangla julgeolek või kord”",
+       "tekst": "Kokkusaamisest keeldumise alus.",
+       "viide": "VangS § 24 lg 1^1"
+      },
+      {
+       "silt": "?",
+       "pealkiri": "„kokkusaaja maines on alust kahelda”",
+       "tekst": "Mis on piisav alus?",
+       "viide": "VangS § 24 lg 1^1"
+      },
+      {
+       "silt": "?",
+       "pealkiri": "„mõõdukuse piires”",
+       "tekst": "Ajalehtede tellimine isiklike vahendite arvel.",
+       "viide": "VangS § 30 lg 2",
+       "toon": "b"
+      },
+      {
+       "silt": "?",
+       "pealkiri": "„põhjendatud juhtudel”",
+       "tekst": "Pikaajalise kokkusaamise pikendamine.",
+       "viide": "VangS § 25 lg 2",
+       "toon": "b"
+      }
+     ]
+    }
+   ],
+   "jarel": "Vastand on **legaaldefinitsioon**: seadus ise ütleb täpselt, mida mõiste tähendab. Näiteks korrakaitseseadus defineerib „ohu” ([[KorS § 5 lg 2]]) – seda ei pea ametnik ise sisustama."
+  },
+  "alus": {
+   "pealkiri": "Kuidas sisustada – töökäik",
+   "tekst": "Määratlemata õigusmõiste sisustamine ei ole sama, mis grammatiline tõlgendamine. Ei piisa sõnaraamatust – tuleb kontrollida, kas **selle juhtumi** asjaolud vastavad mõiste tunnustele.",
+   "read": [
+    {
+     "tase": "1. Kas on legaaldefinitsioon?",
+     "viited": [
+      "KorS § 5 lg 2",
+      "HÕNTE § 18 lg 7"
+     ],
+     "tekst": "Mõnikord on mõiste avatud teises seaduses – nt oht korrakaitseseaduses."
+    },
+    {
+     "tase": "2. Kohtupraktika ja seletuskiri",
+     "viited": [],
+     "tekst": "Kuidas on Riigikohus mõistet sisustanud? Mida ütles seadusandja eelnõu seletuskirjas? (Käbi näidislahendus: „erakorraline asjaolu” sisustati ATS-i seletuskirja abil.)"
+    },
+    {
+     "tase": "3. Normi eesmärk",
+     "viited": [
+      "VangS § 6 lg 1"
+     ],
+     "tekst": "Mida see norm kaitseb? Vanglas: õiguskuulekale käitumisele suunamine ja õiguskorra kaitse."
+    },
+    {
+     "tase": "4. Põhjenda selle juhtumi asjaoludega",
+     "viited": [
+      "HMS § 6"
+     ],
+     "tekst": "Millised faktid näitavad, et mõiste on täidetud? Need peavad olema välja selgitatud."
+    }
+   ],
+   "skeem": {
+    "tyyp": "vordlus",
+    "pealkiri": "Määratlemata õigusmõiste ja kaalutlusõigus – ära aja segi",
+    "veerud": [
+     "",
+     "Määratlemata õigusmõiste",
+     "Kaalutlusõigus"
+    ],
+    "read": [
+     {
+      "silt": "Kus normis",
+      "lahtrid": [
+       "**koosseisus** (kui …)",
+       "**tagajärjes** (siis võib …)"
+      ]
+     },
+     {
+      "silt": "Küsimus",
+      "lahtrid": [
+       "Kas see juhtum mahub mõiste alla?",
+       "Kas ja mida teha?"
+      ]
+     },
+     {
+      "silt": "Märksõnad",
+      "lahtrid": [
+       "„avalik huvi”, „julgeolek või kord”, „oluline põhjus”",
+       "„võib”, „on õigus”, valik mitme meetme vahel"
+      ]
+     },
+     {
+      "silt": "Seadus",
+      "lahtrid": [
+       "sisustab rakendaja üksikjuhul",
+       "[[HMS § 4 lg 1]]"
+      ]
+     }
+    ],
+    "allkiri": "Kaalutlusõigusest ja kaalutlusnormist (kordamisküsimus 27) tuleb põhjalikumalt juttu haldusõiguse tundides."
+   }
+  },
+  "piiramine": {
+   "pealkiri": "Piirid",
+   "tekst": "Avar mõiste ei anna ametnikule vabadust teha, mis tahab.",
+   "punktid": [
+    "Sisustamine peab olema **põhjendatud** – miks just need asjaolud täidavad mõiste ([[HMS § 6]]).",
+    "Isikut koormava otsuse korral peab mõiste sisu tulenema seaduse eesmärgist, mitte ametniku eelistusest ([[PS § 13 lg 2]]).",
+    "Kohus kontrollib, kas mõistet sisustati õigesti – see ei ole ametniku „vaba valik”."
+   ]
+  },
+  "vangla": {
+   "tekst": "Vanglaametnik sisustab „julgeolekut ja korda” iga päev. See on tugev alus – aga ainult siis, kui on **konkreetsed asjaolud**, mitte üldine kahtlus.",
+   "naide": {
+    "olukord": "Kinnipeetav taotleb lühiajalist kokkusaamist oma vennaga. Ametnik keeldub: „Kokkusaamine võib ohustada vangla julgeolekut.” Muud põhjendust ei ole.",
+    "analyys": "**Norm:** loa andmisest keeldutakse, kui kokkusaamine võib ohustada vangla julgeolekut või korda ([[VangS § 24 lg 1^1 p 2]]). „Julgeolek või kord” on **määratlemata õigusmõiste**. **Sisustamine:** tuleb näidata konkreetsed asjaolud – nt teave, et vend on varem üritanud vanglasse keelatud aineid toimetada. Asjaolud peab vangla välja selgitama ([[HMS § 6]]). **Järeldus:** pelgalt seaduse sõnade kordamine ei ole sisustamine; selline keeldumine on põhjendamata."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Määratlemata õigusmõiste ja kaalutlusõigus aetakse segi: mõiste on koosseisus, kaalutlus tagajärjes.",
+    "Mõiste sisustatakse sõnaraamatu abil ja jäetakse asjaoludega sidumata.",
+    "Arvatakse, et avar mõiste tähendab „ametnik otsustab vabalt”."
+   ]
+  }
+ },
+ "vastus": [
+  {
+   "nr": 26,
+   "punktid": [
+    "Määratlemata õigusmõiste on seaduses **teadlikult avaraks jäetud mõiste** („avalik huvi”, „oluline põhjus”, „julgeolek või kord”) – normitehniline võte.",
+    "Seadusandja jätab rakendajale ülesande see **üksikjuhtumil sisustada**; igal juhul on mõistel konkreetne sisu.",
+    "Sisustamiseks: legaaldefinitsioon (kui on), kohtupraktika ja seletuskiri, normi eesmärk, siis juhtumi asjaolud.",
+    "Määratlemata õigusmõiste on normi **koosseisus**; kaalutlusõigus ([[HMS § 4 lg 1]]) on normi **tagajärjes**.",
+    "Vangla näide: „vangla julgeolek või kord” ([[VangS § 24 lg 1^1]])."
+   ]
+  }
+ ],
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Määratlemata õigusmõiste või kaalutlusõigus?",
+   "ryhmad": [
+    "Määratlemata õigusmõiste",
+    "Kaalutlusõigus"
+   ],
+   "read": [
+    {
+     "tekst": "„… kui kokkusaamine võib ohustada vangla julgeolekut või korda”",
+     "oige": 0,
+     "selgitus": "Koosseisus ([[VangS § 24 lg 1^1]])."
+    },
+    {
+     "tekst": "„… võib kinnipeetavale kohaldada distsiplinaarkaristusi”",
+     "oige": 1,
+     "selgitus": "Tagajärjes ([[VangS § 63 lg 1]])."
+    },
+    {
+     "tekst": "„… mõõdukuse piires …”",
+     "oige": 0,
+     "selgitus": "[[VangS § 30 lg 2]]."
+    },
+    {
+     "tekst": "„Põhjendatud juhtudel võib … pikendada …”",
+     "oige": 1,
+     "selgitus": "„võib” – valik; samas sisaldab ka määratlemata mõistet „põhjendatud juhtudel” ([[VangS § 25 lg 2]])."
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Ametnik keeldub, kirjutades ainult „julgeoleku kaalutlustel”. Mis on viga?",
+   "valikud": [
+    "Vigu pole – seadus nii ütleb",
+    "Määratlemata õigusmõiste on sisustamata konkreetsete asjaoludega",
+    "Ametnik oleks pidanud küsima direktorilt"
+   ],
+   "oige": 1,
+   "selgitus": "Asjaolud tuleb välja selgitada ja otsusega siduda ([[HMS § 6]])."
+  }
+ ],
+ "erinevused": [],
+ "valjast": []
+}

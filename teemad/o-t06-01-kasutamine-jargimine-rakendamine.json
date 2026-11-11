@@ -1,0 +1,226 @@
+{
+ "id": "o-t06-01",
+ "tund": "o-t06",
+ "jrk": 1,
+ "pealkiri": "Õiguse realiseerimine: kasutamine, järgimine, rakendamine",
+ "lyhend": "Kasutamine, järgimine, rakendamine",
+ "ikoon": "kolmharu",
+ "kysimused": [
+  14
+ ],
+ "lyhidalt": "Õigus „elab” kolmel viisil. Inimene kasutab oma õigust (nt kirjutab kirja). Inimene järgib oma kohustust (nt täidab sisekorraeeskirja). Riik rakendab õigust inimese suhtes (nt määrab karistuse). Kaks esimest teeb inimene ise, kolmandat teeb alati pädev riigiorgan.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Kolm viisi, kuidas õigus ellu jõuab",
+   "tekst": "Seadus paberil ei tee midagi. Õigus **realiseerub**, kui elus juhtub see, mida norm kirjeldab. Slaidil on see öeldud nii: **eluline situatsioon = õigusnormis kirjeldatu** – ja siis omandab elus toimunu õigusliku tähenduse.\n\nSee võib juhtuda kolmel viisil.",
+   "skeem": [
+    {
+     "tyyp": "puu",
+     "pealkiri": "Õiguse realiseerimine",
+     "juur": {
+      "pealkiri": "Eluline situatsioon = normis kirjeldatu",
+      "tekst": "Elus toimunu omandab õigusliku tähenduse."
+     },
+     "harud": [
+      {
+       "pealkiri": "Kasutamine",
+       "lapsed": [
+        {
+         "pealkiri": "Isikul on **subjektiivne õigus** – ta kasutab seda",
+         "tekst": "Kinnipeetav kirjutab kirja oma lähedasele.",
+         "viide": "VangS § 28 lg 1"
+        }
+       ]
+      },
+      {
+       "pealkiri": "Järgimine",
+       "toon": "b",
+       "lapsed": [
+        {
+         "pealkiri": "Isikul on **juriidiline kohustus** – ta järgib seda",
+         "tekst": "Kinnipeetav täidab sisekorraeeskirju ja allub seaduslikele korraldustele.",
+         "viide": "VangS § 67"
+        }
+       ]
+      },
+      {
+       "pealkiri": "Rakendamine",
+       "lapsed": [
+        {
+         "pealkiri": "**Riik** teeb isiku suhtes otsuse",
+         "tekst": "Vanglateenistus määrab distsiplinaarkaristuse käskkirjaga.",
+         "viide": "VangS § 64 lg 4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "jarel": "Kasutamine ja järgimine on **vahetu** realiseerimine – inimene teeb ise. Rakendamine on **vahendatud** realiseerimine – seda teeb pädev riigiorgan (haldusorgan, kohus, politsei, vangla)."
+  },
+  "alus": {
+   "pealkiri": "Millal on vaja rakendamist",
+   "tekst": "Enamasti realiseerub õigus ilma riigita: inimesed täidavad lepinguid ja käituvad õiguskuulekalt. Riik peab õigust **rakendama** kolmel juhul.",
+   "read": [
+    {
+     "tase": "1. Suhe ei teki ilma riigi aktita",
+     "viited": [
+      "VangS § 25 lg 1"
+     ],
+     "tekst": "Nt pikaajalise kokkusaamise luba – kinnipeetav ei saa seda ise võtta, vangla peab otsustama."
+    },
+    {
+     "tase": "2. Vaidlus õiguse üle",
+     "viited": [
+      "VangS § 1^1 lg 5"
+     ],
+     "tekst": "Kinnipeetav vaidlustab vangla otsuse – vaie, siis halduskohus."
+    },
+    {
+     "tase": "3. Õigusrikkumine",
+     "viited": [
+      "VangS § 63 lg 1"
+     ],
+     "tekst": "Kohaldatakse sanktsiooni – distsiplinaarkaristus."
+    },
+    {
+     "tase": "Rakendamise alus",
+     "viited": [
+      "PS § 3 lg 1"
+     ],
+     "tekst": "Rakendada saab ainult seaduse alusel."
+    }
+   ],
+   "skeem": {
+    "tyyp": "vordlus",
+    "pealkiri": "Vahetu ja vahendatud realiseerimine",
+    "veerud": [
+     "",
+     "Kasutamine",
+     "Järgimine",
+     "Rakendamine"
+    ],
+    "read": [
+     {
+      "silt": "Kes tegutseb",
+      "lahtrid": [
+       "isik ise",
+       "isik ise",
+       "pädev riigiorgan"
+      ]
+     },
+     {
+      "silt": "Mis normist tuleneb",
+      "lahtrid": [
+       "õigus (võib)",
+       "kohustus või keeld (peab / ei tohi)",
+       "pädevus ja alus otsustada"
+      ]
+     },
+     {
+      "silt": "Tulemus",
+      "lahtrid": [
+       "isik teeb midagi",
+       "isik käitub nõutult (või hoidub keelatust)",
+       "üksikakt või toiming"
+      ]
+     },
+     {
+      "silt": "Vangla",
+      "lahtrid": [
+       "kiri kohtule",
+       "kambris öörahu ajal",
+       "karistuse määramine"
+      ]
+     }
+    ]
+   }
+  },
+  "piiramine": {
+   "pealkiri": "Rakendamise põhimõtted",
+   "tekst": "Kuna rakendamine on riigi sekkumine, peab see vastama neljale nõudele (lühikonspektist, kontrolli seaduse vastu):",
+   "punktid": [
+    "**Seaduslikkus** – iga samm põhineb kehtival normil ([[PS § 3 lg 1]]).",
+    "**Põhjendatus** – asjaolud on hoolikalt välja selgitatud ([[HMS § 6]]) ja otsus on argumenteeritud.",
+    "**Otstarbekus** – kaalutlusõiguse korral valitakse eesmärgile sobiv lahendus ([[HMS § 4 lg 2]]).",
+    "**Õiglus** – kõiki koheldakse seaduse ees võrdselt ([[PS § 12 lg 1]])."
+   ]
+  },
+  "vangla": {
+   "tekst": "Vanglaametnik näeb kõiki kolme iga päev. Kinnipeetav **kasutab** õigust helistada, **järgib** päevakava – ja kui ta seda ei tee, **rakendab** ametnik õigust tema suhtes.",
+   "naide": {
+    "olukord": "Kinnipeetav kirjutab kirja õiguskantslerile. Teine kinnipeetav rikub öörahu ja ametnik alustab distsiplinaarmenetlust.",
+    "analyys": "**Esimene:** kinnipeetav **kasutab** subjektiivset õigust kirjavahetusele ([[VangS § 28 lg 1]]); õiguskantslerile adresseeritud kiri saadetakse vangla kulul ([[VangS § 28 lg 2]]). **Teine:** kinnipeetav ei **järginud** kohustust ([[VangS § 67]]); vangla **rakendab** õigust – viib läbi distsiplinaarmenetluse ([[VangS § 64 lg 1]]) ja võib määrata karistuse ([[VangS § 63 lg 1]])."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "„Rakendamine” ja „realiseerimine” aetakse segi. Realiseerimine on üldmõiste; rakendamine on üks selle viis.",
+    "Arvatakse, et kinnipeetav „rakendab” õigust, kui ta esitab taotluse. Ta **kasutab** õigust; rakendab vangla, kes taotluse lahendab.",
+    "Järgimine ja kasutamine pannakse vahetusse: õigus = võib (kasutamine), kohustus = peab (järgimine)."
+   ]
+  }
+ },
+ "vastus": [
+  {
+   "nr": 14,
+   "punktid": [
+    "**Kasutamine** – isik kasutab normist tulenevat subjektiivset õigust (nt kirjavahetus [[VangS § 28 lg 1]]).",
+    "**Järgimine** – isik täidab juriidilist kohustust või hoidub keelatud teost (nt [[VangS § 67]]).",
+    "**Rakendamine** – pädev riigiorgan teeb normi alusel otsuse konkreetse elujuhtumi kohta isiku suhtes (nt distsiplinaarkaristus [[VangS § 64 lg 4]]).",
+    "Kasutamine ja järgimine on vahetu realiseerimine; rakendamine on vahendatud realiseerimine ja peab olema seaduslik ([[PS § 3 lg 1]])."
+   ]
+  }
+ ],
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Kas see on õiguse kasutamine, järgimine või rakendamine?",
+   "ryhmad": [
+    "Kasutamine",
+    "Järgimine",
+    "Rakendamine"
+   ],
+   "read": [
+    {
+     "tekst": "Kinnipeetav helistab oma emale.",
+     "oige": 0,
+     "selgitus": "Õigus telefoni kasutada ([[VangS § 28 lg 1]])."
+    },
+    {
+     "tekst": "Kinnipeetav läheb öörahu algusel oma kambrisse.",
+     "oige": 1,
+     "selgitus": "Kohustus ([[VangS § 8 lg 1]])."
+    },
+    {
+     "tekst": "Vangla keeldub pikaajalise kokkusaamise loa andmisest.",
+     "oige": 2,
+     "selgitus": "Riik teeb otsuse ([[VangS § 25 lg 1^1]])."
+    },
+    {
+     "tekst": "Halduskohus tühistab vangla otsuse.",
+     "oige": 2,
+     "selgitus": "Kohus rakendab õigust."
+    },
+    {
+     "tekst": "Kinnipeetav esitab vaide.",
+     "oige": 0,
+     "selgitus": "Ta kasutab õigust vaidlustada ([[VangS § 1^1 lg 5]])."
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Kes rakendab õigust?",
+   "valikud": [
+    "Iga isik, kes teab seadust",
+    "Pädev riigiorgan (haldusorgan, kohus, politsei, vangla)",
+    "Ainult kohus"
+   ],
+   "oige": 1,
+   "selgitus": "Rakendamine on vahendatud realiseerimine."
+  }
+ ],
+ "erinevused": [],
+ "valjast": []
+}
