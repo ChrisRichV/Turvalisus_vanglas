@@ -3,6 +3,8 @@
   "tund": "t01",
   "jrk": 8,
   "pealkiri": "Inimväärikus ja piinamise keeld",
+  "lyhend": "Inimväärikus",
+  "ikoon": "vaarikus",
   "kysimused": [
     10
   ],

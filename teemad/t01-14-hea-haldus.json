@@ -3,6 +3,8 @@
   "tund": "t01",
   "jrk": 14,
   "pealkiri": "Hea haldus ja menetlusõigused",
+  "lyhend": "Hea haldus",
+  "ikoon": "dokument",
   "kysimused": [16],
   "lyhidalt": "Riik peab inimese asja ajama erapooletult, õiglaselt ja mõistliku aja jooksul: kuulama ta ära, laskma tal dokumentidega tutvuda, otsust põhjendama, ütlema, kuidas vaidlustada, ja hüvitama kahju.",
   "osad": {

@@ -3,6 +3,8 @@
   "tund": "t01",
   "jrk": 11,
   "pealkiri": "Õigus varjupaika taotleda ja saada",
+  "lyhend": "Varjupaik",
+  "ikoon": "varjupaik",
   "kysimused": [
     13
   ],

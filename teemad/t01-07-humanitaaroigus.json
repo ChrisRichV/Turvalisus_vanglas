@@ -3,6 +3,8 @@
   "tund": "t01",
   "jrk": 7,
   "pealkiri": "Rahvusvaheline humanitaarõigus",
+  "lyhend": "Humanitaarõigus",
+  "ikoon": "kilp",
   "kysimused": [9],
   "lyhidalt": "Relvakonflikti ajal kehtivad reeglid, mille eesmärk on kaitsta inimesi, kes sõjategevusest osa ei võta või enam ei saa võtta: haavatud, sõjavangid ja tsiviilisikud. Neid tuleb alati kohelda inimlikult.",
   "osad": {
