@@ -6,20 +6,45 @@
  "kysimused": [
   32
  ],
- "lyhidalt": "Põhiõiguse kandja on see, kellel õigus on – eelkõige inimene. Adressaat on see, kes peab õiguse tagama – riigivõim kõigis oma harudes. Vanglas on kandja kinnipeetav ja adressaat vanglateenistus.",
+ "lyhidalt": "Igal põhiõigusel on kaks poolt: kellel see õigus on (kandja) ja kes peab selle tagama (adressaat). Kandja on eelkõige inimene, ka kinnipeetav. Adressaat on riik kõigis oma osades – ka vanglaametnik. Ja riik peab kaitsma inimest ka teise inimese eest.",
  "osad": {
   "pohimote": {
-   "tekst": "**Kandja ehk õigustatud subjekt** saab põhiõigusele otse toetuda. **Adressaat ehk kohustatud subjekt** peab põhiõiguse tagama. Kohustatud on kogu avalik võim:",
+   "tekst": "**Kandja** ehk õigustatud subjekt on see, kellel õigus on. Ta saab põhiõigusele otse toetuda ja seda nõuda. **Adressaat** ehk kohustatud subjekt on see, kes peab õiguse tagama. Põhiseadus ütleb väga selgelt, kes on kohustatud:",
    "tsitaat": {
     "viide": "PS § 14",
     "tekst": "Õiguste ja vabaduste tagamine on seadusandliku, täidesaatva ja kohtuvõimu ning kohalike omavalitsuste kohustus."
    },
    "punktid": [
-    "**Inimesed** on kandjad täielikult. Enamik õigusi on igaüheõigused ja kuuluvad võrdselt ka Eestis viibivatele välisriikide kodanikele ja kodakondsuseta isikutele ([[PS § 9 lg 1]]).",
-    "**Juriidilised isikud** on kandjad teatud juhtudel – kui see sobib juriidilise isiku üldiste eesmärkide ja õiguse olemusega ([[PS § 9 lg 2]]).",
-    "**Riik** e-õpiobjekti järgi põhiõigusi ei oma; riigi, avalik-õiguslike isikute ja kohaliku omavalitsuse puhul eeldatakse põhiõigusvõime puudumist (eranditega).",
-    "**Kolmikmõju:** suhtes on kolm osalist – riik, põhiõiguse kandja ja kolmas isik. Teine inimene võib sinu vabadust samuti kahjustada ja riik peab sind tema eest kaitsma. Slaid viitab siin [[PS § 19 lg 2]]-le."
-   ]
+    "**Inimene** on kandja täielikult. Enamik õigusi kuulub igaühele – ka välismaalasele ja kodakondsuseta isikule ([[PS § 9 lg 1]]).",
+    "**Juriidiline isik** (nt ettevõte, MTÜ) on kandja siis, kui õigus sobib tema olemusega ([[PS § 9 lg 2]]). Omand – jah. Õigus elule – loomulikult mitte.",
+    "**Riik** ise põhiõigusi üldjuhul ei oma. Põhiõigused on ju just riigi vastu."
+   ],
+   "skeem": {
+    "tyyp": "kolmnurk",
+    "pealkiri": "Kolmikmõju: riik, sina ja teine inimene",
+    "sissejuhatus": "Põhiõigus ei kaitse sind ainult riigi eest. Teine inimene võib sinu õigusi samuti kahjustada – ja siis peab riik sind kaitsma.",
+    "yla": {
+     "pealkiri": "Riik",
+     "tekst": "adressaat: peab ise hoiduma ja teiste eest kaitsma",
+     "viide": "PS § 14"
+    },
+    "vasak": {
+     "pealkiri": "Põhiõiguse kandja",
+     "tekst": "nt kinnipeetav, keda ähvardatakse",
+     "viide": "PS § 13 lg 1"
+    },
+    "parem": {
+     "pealkiri": "Kolmas isik",
+     "tekst": "nt teine kinnipeetav – samuti põhiõiguste kandja",
+     "viide": "PS § 19 lg 2"
+    },
+    "nooled": {
+     "vasak": "riik kaitseb",
+     "parem": "riik piirab vajadusel",
+     "all": "kolmas isik võib ohustada"
+    },
+    "all": "Selleks et ühte inimest kaitsta, peab riik sageli sekkuma teise inimese õigustesse – näiteks lähenemiskeeld piirab vägivallatseja liikumist, et kaitsta kannatanut."
+   }
   },
   "alus": {
    "read": [
@@ -62,20 +87,74 @@
      ],
      "tekst": "Kinnipeetav on kandja; vanglateenistus on täidesaatva võimu osana adressaat ja vastutab julgeoleku eest, sh kinnipeetava kaitse eest teiste eest."
     }
-   ]
+   ],
+   "tekst": "Põhiõigusi ei piisa ainult kirja panna. Need peavad **siduma** riiki ja neid peab saama **kohtus nõuda** – muidu oleks neil vähe väärtust.",
+   "skeem": {
+    "tyyp": "puu",
+    "pealkiri": "Kuidas põhiõigused riiki seovad ja kuidas neid kohtus nõuda",
+    "juur": {
+     "pealkiri": "Põhiõigus",
+     "tekst": "seob riiki ja on kohtus nõutav"
+    },
+    "harud": [
+     {
+      "pealkiri": "Seob riiki",
+      "toon": "a",
+      "lapsed": [
+       {
+        "pealkiri": "Üldiselt",
+        "tekst": "riik tegutseb ainult põhiseaduse ja seaduse alusel",
+        "viide": "PS § 3 lg 1"
+       },
+       {
+        "pealkiri": "Eriti põhiõiguste puhul",
+        "tekst": "kõik võimuharud peavad õigusi tagama",
+        "viide": "PS § 14"
+       }
+      ]
+     },
+     {
+      "pealkiri": "Inimene saab nõuda",
+      "toon": "b",
+      "lapsed": [
+       {
+        "pealkiri": "Oma kohtuasjas",
+        "tekst": "pöördud kohtusse, kui sinu õigust rikutakse",
+        "viide": "PS § 15 lg 1"
+       }
+      ]
+     },
+     {
+      "pealkiri": "Objektiivne kontroll",
+      "toon": "c",
+      "lapsed": [
+       {
+        "pealkiri": "Kohus",
+        "tekst": "jätab põhiseadusvastase akti kohaldamata",
+        "viide": "PS § 152"
+       },
+       {
+        "pealkiri": "President ja õiguskantsler",
+        "tekst": "saavad pöörduda Riigikohtusse",
+        "viide": "PS § 142 lg 2"
+       }
+      ]
+     }
+    ]
+   }
   },
   "piiramine": {
-   "pealkiri": "Kas eraisik võib olla kohustatud?",
-   "tekst": "E-õpiobjekt küsib: kas põhiõigused seovad ka eraisikuid? Vastus tuleb kolmikmõjust:",
+   "pealkiri": "Kas ka eraisik peab põhiõigusi tagama?",
+   "tekst": "Lühike vastus: **ei** – kohustus jääb riigile. Aga see vajab selgitust:",
    "punktid": [
-    "Põhiõiguste tagamise kohustus on **riigil** ([[PS § 14]]). Säte ei räägi üksikisikutest.",
-    "Üksikisiku vabadust saavad piirata ka teised üksikisikud, aga riik peab tagama kaitse üksikisiku suhtes üksikisiku eest.",
-    "[[PS § 19 lg 2]] paneb küll igaühele kohustuse austada teiste õigusi ja järgida seadust, aga e-õpiobjekti järgi ei ole see põhiõiguste tagamise kohustus, vaid **põhikohustus**.",
-    "Praktikas kaitseb riik üht inimest **seadusega, mis sekkub teise inimese põhiõigustesse**. Slaidi näide: lähenemiskeeld kaitseb kannatanut, piirates kahtlustatava liikumist."
+    "Põhiõiguste tagamine on **riigivõimu** kohustus ([[PS § 14]]). Säte ei räägi eraisikutest.",
+    "Igaüks peab küll austama teiste õigusi ja järgima seadust ([[PS § 19 lg 2]]), aga see on **põhikohustus** – inimese kohustus riigi ees –, mitte põhiõiguste tagamise kohustus.",
+    "Kui üks inimene ohustab teist, ei muutu ta põhiõiguse adressaadiks. Selle asemel peab **riik** sekkuma: kehtestama seadused ja rakendama neid nii, et ohustatud inimene on kaitstud.",
+    "Riik teeb seda **seadusega, mis piirab ühe inimese õigusi teise kaitseks**. Näiteks päästetöö juht võib sundkasutada teise inimese asju, kui see on päästmiseks vältimatu; kohus võib keelata kahtlustataval kannatanule läheneda."
    ]
   },
   "vangla": {
-   "tekst": "Vanglas on kolmikmõju igapäevane: vanglateenistus peab kaitsma kinnipeetavat teiste kinnipeetavate eest. Selleks sekkutakse teiste kinnipeetavate vabadusse – näiteks hoitakse eraldi isikuid, keda endise ametialase tegevuse tõttu ähvardab kättemaksuoht ([[VangS § 12 lg 1 p 4]]).",
+   "tekst": "Vanglas on kolmikmõju igapäevane. Kinnipeetavad elavad koos, ja vanglateenistus peab kaitsma igaüht teiste eest. Selleks sekkutakse teiste kinnipeetavate vabadusse – näiteks hoitakse eraldi isikuid, keda endise ametialase tegevuse tõttu ähvardab kättemaksuoht ([[VangS § 12 lg 1 p 4]]).",
    "naide": {
     "olukord": "Endine politseiametnik saabub vanglasse karistust kandma. Ta kardab kättemaksu ja palub end teistest eraldi paigutada. Ametnik vastab: „Teised kinnipeetavad ei ole riik, nende käitumise eest vangla ei vastuta.”",
     "analyys": "**Kandja:** kinnipeetav – õigus elule ja tervise kaitsele kuulub igaühele ([[PS § 9 lg 1]], [[PS § 28 lg 1]]). **Adressaat:** vanglateenistus kui täidesaatev võim ([[PS § 14]]). **Kolmas isik:** teised kinnipeetavad. **Riigi kohustus:** igaühel on õigus riigi ja seaduse kaitsele ([[PS § 13 lg 1]]); vanglas tuleb eraldi hoida isikuid, keda endise ametialase tegevuse tõttu ähvardab kättemaksuoht ([[VangS § 12 lg 1 p 4]]), ja julgeoleku eest vastutab vanglateenistuse ametnik ([[VangS § 66 lg 2]]). **Järeldus:** ametniku vastus on vale. Oht tuleb kolmandalt isikult, aga kaitse tagamine on riigi kohustus."
@@ -92,46 +171,8 @@
  },
  "skeem": [
   {
-   "tyyp": "tasandid",
-   "pealkiri": "Kolmikmõju (slaid 9)",
-   "tasandid": [
-    {
-     "pealkiri": "Riik",
-     "toon": "a",
-     "kastid": [
-      {
-       "pealkiri": "Adressaat",
-       "tekst": "kõik võimuharud ja KOV",
-       "viide": "PS § 14"
-      },
-      {
-       "pealkiri": "Peab hoiduma ja kaitsma",
-       "tekst": "ise ei riku, teiste eest kaitseb",
-       "viide": "PS § 13 lg 1"
-      }
-     ]
-    },
-    {
-     "pealkiri": "Inimesed",
-     "toon": "b",
-     "kastid": [
-      {
-       "pealkiri": "Põhiõiguse kandja",
-       "tekst": "nt kinnipeetav",
-       "viide": "PS § 9 lg 1"
-      },
-      {
-       "pealkiri": "Kolmas isik",
-       "tekst": "nt teine kinnipeetav; ka tema on kandja",
-       "viide": "PS § 19 lg 2"
-      }
-     ]
-    }
-   ]
-  },
-  {
    "tyyp": "vordlus",
-   "pealkiri": "Kes on põhiõiguste kandja? (e-õpiobjekt, osa 4)",
+   "pealkiri": "Kes on põhiõiguste kandja?",
    "veerud": [
     "Subjekt",
     "Kas on kandja?",
@@ -155,7 +196,7 @@
     {
      "silt": "Riik, KOV, avalik-õiguslik isik",
      "lahtrid": [
-      "Üldjuhul ei (e-õpiobjekt nimetab erandeid, nt protsessiõigused)",
+      "Üldjuhul ei. Erandid: nt õigus pöörduda kohtusse, omandi kaitse väljaspool avalikke ülesandeid",
       "–"
      ]
     }
@@ -240,5 +281,7 @@
   }
  ],
  "erinevused": [],
- "valjast": []
+ "valjast": [],
+ "alus_pealkiri": null,
+ "skeem_pealkiri": "Kokkuvõte tabelina"
 }

@@ -150,7 +150,20 @@ ja proportsionaalsus, 4) näide vanglast, 5) tüüpviga eksamil.
 | `tasandid` | read sildiga vasakul | `tasandid[{pealkiri, toon, kastid[…]}]` |
 | `vordlus` | tabel; mobiilis kaardid | `veerud[]`, `read[{silt, lahtrid[]}]` |
 | `kaalud` | kaks vaagnat + tingimused | `vasak{…, silt}`, `parem{…, silt}`, `all[]` |
+| `kaardid` | kaartide ruudustik (suur silt/number + pealkiri + tekst + viide) | `kaardid[{silt?, pealkiri, tekst?, viide?, toon: a/b/c/d}]`, `kitsad?` |
+| `otsus` | **otsustusrada**: küsimused ülevalt alla, „ei” viib kõrvale (roosa = rikkumine), lõpus tulemus (tsüaan) | `algus`, `sammud[{kysimus, tekst?, viide?, ei?{tulemus, tekst?}, ei_silt?, jah_silt?}]`, `lopp{tulemus, tekst?}` |
+| `kolmnurk` | kolm osalist + seosed (nt kolmikmõju); mobiilis loend | `yla`, `vasak`, `parem` ({pealkiri, tekst, viide}), `nooled{vasak, parem, all}`, `all` |
+| `pyramiid` | astmed kitsast laiaks + sildid astmete vahel (hierarhia, normikontroll) | `astmed[{pealkiri, tekst?, viide?, vahel?, toon?}]` |
+| `sambad` | „maja”: katus, sambad, vundament + tasakaalu loend (võimude lahusus) | `katus`, `sambad[{pealkiri, viide?, read[], toon?}]`, `alus`, `tasakaal[]` |
 | `kontroll` | **samm-sammuline kaasus**: küsimus → „Mõtle ise, siis näita” → järgmine avaneb; edenemisriba, järeldus lõpus | `olukord`, `sammud[{silt, kysimus, vastus, viited[]}]`, `jareldus`, `markus` |
+
+**Skeem osa sees:** igal osal (`pohimote`, `alus`, `piiramine`, `vangla`) võib olla oma `skeem` (üks või massiiv) –
+see kuvatakse otse selgituse juures. `jarel` = tekst pärast skeemi. Kõigil skeemidel võivad olla `sissejuhatus` ja `allkiri`.
+Pikem `tekst` jaguneb lõikudeks tühja reaga (`\n\n`). Teema lõpu `skeem` võib olla `[]`; `skeem_pealkiri` muudab selle osa nime.
+`erinevused[].silt` muudab sildi „Konspekt” (nt „Õppematerjal”).
+
+**Kirjutamisstiil:** lihtne kõnekeel, sisu otse lehel. **Ära viita slaididele** („slaid 25 järgi”) – kirjuta sisu lahti ja joonista
+slaidi skeem uuesti mõne skeemitüübiga. Allikad on tunni `materjal` väljal.
 
 ### Märgistus tekstis
 | Kirjutad | Tulemus |

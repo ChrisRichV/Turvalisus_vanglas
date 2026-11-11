@@ -2,269 +2,330 @@
  "id": "o-t10-01",
  "tund": "o-t10",
  "jrk": 1,
- "pealkiri": "Põhiseaduse tähendus ja muutmine",
+ "pealkiri": "Põhiseadus: mis see on ja kuidas seda muudetakse",
  "kysimused": [],
- "lyhidalt": "Põhiseadus on riigi kõige tähtsam õigusakt: see asutab riigi, paneb paika, kuidas riiki juhitakse, ja ütleb, millised on inimese õigused riigi suhtes. Kõik teised seadused peavad sellega kooskõlas olema.",
+ "lyhidalt": "Põhiseadus on riigi kõige tähtsam seadus. See ütleb, et riik üldse on, kuidas teda juhitakse ja mis õigused on inimesel riigi vastu. Iga teine seadus, määrus ja ametniku otsus peab sellega klappima. Põhiseadust saab muuta, aga palju raskemini kui tavalist seadust.",
  "osad": {
   "pohimote": {
-   "tekst": "Slaidide järgi on põhiseadus nagu **leping** rahva ja riigi vahel. Sellel on viis rolli:",
+   "pealkiri": "Mis on põhiseadus",
+   "tekst": "Mõtle põhiseadusest kui **lepingust** rahva ja riigi vahel. Rahvas ütleb: me loome riigi, anname talle võimu, aga ainult nende reeglite piires. Kõik, mida riik teeb – Riigikogu seadused, valitsuse määrused, politsei ja vangla otsused –, peab mahtuma selle lepingu sisse.\n\nPõhiseaduse esimene lause ütleb kohe ära, kellele võim kuulub:",
    "tsitaat": {
     "viide": "PS § 1",
     "tekst": "Eesti on iseseisev ja sõltumatu demokraatlik vabariik, kus kõrgeima riigivõimu kandja on rahvas."
    },
-   "punktid": [
-    "**Riiki asutav akt** – põhiseaduse vastuvõtmisega tekib riik.",
-    "**Riigi õiguskorra alus** – seadusi võetakse vastu kooskõlas põhiseadusega ([[PS § 102]]) ja riigivõimu teostatakse ainult põhiseaduse ja sellega kooskõlas olevate seaduste alusel ([[PS § 3 lg 1]]).",
-    "**Riigiõiguse allikas** – koos konstitutsiooniliste seadustega ([[PS § 104 lg 2]]) ja rahvusvahelise õiguse üldtunnustatud põhimõtetega ([[PS § 3 lg 1]]).",
-    "**Riikliku korralduse põhialused** – kes on põhiseaduse institutsioonid ja mis on nende pädevus.",
-    "**Üksikisiku õigused ja kohustused** riigi ees – põhiseaduse II peatükk.",
-    "Riigiõigus jaguneb slaidide järgi kaheks: **riigikorraldus** (institutsioonide ülesehitus ja pädevus) ning **põhiõigused ja kohustused** (riigi ja üksikisiku suhe)."
-   ]
+   "skeem": {
+    "tyyp": "kaardid",
+    "pealkiri": "Põhiseaduse viis rolli",
+    "kaardid": [
+     {
+      "silt": "1",
+      "pealkiri": "Loob riigi",
+      "tekst": "Põhiseaduse vastuvõtmisega tekib riik kui õiguslik tervik."
+     },
+     {
+      "silt": "2",
+      "pealkiri": "On õiguskorra alus",
+      "tekst": "Kõik seadused peavad sellega kooskõlas olema.",
+      "viide": "PS § 102"
+     },
+     {
+      "silt": "3",
+      "pealkiri": "On riigiõiguse allikas",
+      "tekst": "Koos konstitutsiooniliste seaduste ja rahvusvahelise õigusega.",
+      "viide": "PS § 104 lg 2"
+     },
+     {
+      "silt": "4",
+      "pealkiri": "Paneb paika riigikorralduse",
+      "tekst": "Kes on Riigikogu, President, valitsus, kohtud ja mida nad tohivad.",
+      "viide": "PS § 4"
+     },
+     {
+      "silt": "5",
+      "pealkiri": "Annab inimesele õigused",
+      "tekst": "Teine peatükk: põhiõigused, vabadused ja kohustused.",
+      "viide": "PS § 10",
+      "toon": "b"
+     }
+    ]
+   },
+   "jarel": "Riigiõigus – õigusharu, mis põhiseadusega tegeleb – jaguneb seepärast kaheks suureks osaks. **Riigikorraldus** räägib sellest, kuidas riigiorganid on üles ehitatud ja mida nad tohivad teha. **Põhiõigused ja kohustused** räägivad sellest, mis on riigi ja inimese vahel: kui kaugele riik inimese ellu sekkuda tohib."
   },
   "alus": {
+   "pealkiri": "Kus see kirjas on",
+   "tekst": "Riik on rahvusvahelises mõttes olemas, kui tal on **territoorium**, **rahvas** ja **suveräänne võim** – ehk riik otsustab oma maa-alal ise ja keegi teine tema eest ei otsusta. Põhiseadus kirjutab need kolm asja Eesti jaoks lahti.",
    "read": [
     {
-     "tase": "Riigi alus",
+     "tase": "Rahvas ja võim",
      "viited": [
       "PS § 1",
-      "PS § 2"
+      "PS § 56"
      ],
-     "tekst": "Demokraatlik vabariik, kõrgeima riigivõimu kandja on rahvas; riiklikult korralduselt ühtne riik."
+     "tekst": "Kõrgeim võim on rahval; rahvas kasutab seda Riigikogu valimiste ja rahvahääletuse kaudu."
     },
     {
-     "tase": "Õiguskorra alus",
+     "tase": "Territoorium",
+     "viited": [
+      "PS § 2"
+     ],
+     "tekst": "Maa-ala, territoriaalveed ja õhuruum on jagamatu tervik; Eesti on ühtne riik (mitte liitriik)."
+    },
+    {
+     "tase": "Põhiseadus on ülim",
      "viited": [
       "PS § 3 lg 1",
       "PS § 102",
       "PS § 152"
      ],
-     "tekst": "Riigivõim ainult põhiseaduse ja seaduste alusel; seadused kooskõlas põhiseadusega; kohus jätab põhiseadusvastase akti kohaldamata."
+     "tekst": "Riik tegutseb ainult põhiseaduse ja seaduste alusel; seadused peavad põhiseadusega klappima; põhiseadusega vastuolus akti kohus ei kohalda."
     },
     {
      "tase": "Konstitutsioonilised seadused",
      "viited": [
       "PS § 104 lg 2"
      ],
-     "tekst": "Seadused, mida saab vastu võtta ja muuta ainult Riigikogu koosseisu häälteenamusega (nt kohtumenetluse seadused, Vabariigi Valitsuse seadus)."
+     "tekst": "Eriti tähtsad seadused (nt valimiste, kohtumenetluse, Vabariigi Valitsuse seadus), mida saab vastu võtta ja muuta ainult Riigikogu koosseisu häälteenamusega."
+    },
+    {
+     "tase": "Rahvusvaheline õigus",
+     "viited": [
+      "PS § 3 lg 1"
+     ],
+     "tekst": "Rahvusvahelise õiguse üldtunnustatud põhimõtted ja normid on Eesti õiguse osa."
     },
     {
      "tase": "Muutmine",
      "viited": [
       "PS § 161",
       "PS § 162",
-      "PS § 163",
-      "PS § 164",
-      "PS § 165",
-      "PS § 166"
+      "PS § 163"
      ],
-     "tekst": "Kes võib algatada, mida saab muuta ainult rahvahääletusega ja kolm muutmise viisi."
-    },
-    {
-     "tase": "Vangla",
-     "viited": [
-      "VangS § 4^1 lg 2",
-      "VangS § 105 lg 2"
-     ],
-     "tekst": "Kinnipeetava vabadust piiratakse seaduse alusel; sisekorraeeskirja kehtestab minister määrusega seaduse volitusel."
+     "tekst": "Viimane, XV peatükk ütleb, kes ja kuidas põhiseadust muuta saab."
     }
    ]
   },
   "piiramine": {
    "pealkiri": "Kuidas põhiseadust muudetakse",
-   "tekst": "Slaidid eristavad **vastuvõtmist** (tekib uus riik, otsustab ühiskond) ja **muutmist** (riigikord jääb kehtima, otsustab põhiseaduses määratud organ). Muutmise reeglid:",
-   "punktid": [
-    "**Algatada** saab vähemalt viiendik Riigikogu koosseisust või Vabariigi President; erakorralise ja sõjaseisukorra ajal muuta ei saa ([[PS § 161]]).",
-    "**I peatükki („Üldsätted”) ja XV peatükki („Põhiseaduse muutmine”)** saab muuta **ainult rahvahääletusega** ([[PS § 162]]).",
-    "**Kolm viisi** ([[PS § 163 lg 1]]): rahvahääletus, Riigikogu kaks järjestikust koosseisu, Riigikogu kiireloomulisena.",
-    "**Rahvahääletusele panek** nõuab Riigikogu koosseisu kolmeviiendikulist häälteenamust ([[PS § 164]]).",
-    "**Kaks koosseisu:** esimene koosseisu enamusega, järgmine kolmeviiendikulise häälteenamusega muutmatult ([[PS § 165]]).",
-    "**Kiireloomuline:** otsus käsitleda kiireloomulisena neljaviiendikulise häälteenamusega, vastuvõtmine koosseisu kahekolmandikulise häälteenamusega ([[PS § 166]])."
-   ]
+   "tekst": "Kõigepealt tasub eristada kahte asja. **Vastuvõtmine** tähendab, et sünnib uus riik – otsustab ühiskond ise, toetudes rahva õigusele otsustada oma saatuse üle. **Muutmine** tähendab, et riik ja tema õiguskord jäävad alles, muudetakse ainult teksti – ja seda teeb põhiseaduses kindlalt nimetatud organ.\n\nPõhiseadust ei saa muuta nagu tavalist seadust. Algatada saab ainult vähemalt viiendik Riigikogu liikmetest või Vabariigi President, ja mitte erakorralise ega sõjaseisukorra ajal ([[PS § 161]]). Eelnõu arutatakse kolmel lugemisel pikkade vahedega ([[PS § 163 lg 2]]). Seejärel on kolm teed:",
+   "skeem": [
+    {
+     "tyyp": "kaardid",
+     "pealkiri": "Kolm teed põhiseaduse muutmiseks",
+     "kaardid": [
+      {
+       "silt": "3/5",
+       "pealkiri": "Rahvahääletus",
+       "tekst": "Riigikogu paneb eelnõu rahvahääletusele koosseisu 3/5 häälteenamusega. Otsustab rahvas. **Ainus tee** I ja XV peatüki muutmiseks.",
+       "viide": "PS § 164",
+       "toon": "b"
+      },
+      {
+       "silt": "2×",
+       "pealkiri": "Kaks järjestikust koosseisu",
+       "tekst": "Üks Riigikogu koosseis kiidab heaks enamusega, järgmine (pärast valimisi) võtab vastu muutmata kujul 3/5 häälteenamusega. Valijad saavad vahepeal kaasa rääkida.",
+       "viide": "PS § 165"
+      },
+      {
+       "silt": "4/5",
+       "pealkiri": "Kiireloomulisena",
+       "tekst": "Riigikogu otsustab 4/5 häälteenamusega, et asi on kiire, ja võtab muudatuse vastu 2/3 häälteenamusega.",
+       "viide": "PS § 166",
+       "toon": "c"
+      }
+     ]
+    },
+    {
+     "tyyp": "vordlus",
+     "pealkiri": "Vastuvõtmine ja muutmine",
+     "veerud": [
+      "",
+      "Vastuvõtmine",
+      "Muutmine"
+     ],
+     "read": [
+      {
+       "silt": "Mis juhtub",
+       "lahtrid": [
+        "tekib uus riik",
+        "riik ja õiguskord jäävad, muutub tekst"
+       ]
+      },
+      {
+       "silt": "Millel põhineb",
+       "lahtrid": [
+        "rahva õigus ise otsustada, ühiskonna tunnustus",
+        "kehtiv õiguskord"
+       ]
+      },
+      {
+       "silt": "Kes otsustab",
+       "lahtrid": [
+        "ühiskond",
+        "põhiseaduses nimetatud organ või rahvas rahvahääletusel"
+       ]
+      }
+     ]
+    }
+   ],
+   "jarel": "Miks nii keeruline? Põhiseadus peab olema **stabiilne**. Kui iga uus valitsus saaks seda lihtsa häälteenamusega muuta, ei kaitseks see kedagi. Põhiseaduse kõige alusmõttelisemad osad – riigi alused (I peatükk) ja muutmise reeglid ise (XV peatükk) – on kaitstud kõige tugevamalt: neid saab muuta ainult rahvas ise ([[PS § 162]]). Nii on tehtud ka varem: 2003. aasta rahvahääletusel võeti vastu põhiseaduse täiendamise seadus, mis lubab Eestil kuuluda Euroopa Liitu."
   },
   "vangla": {
-   "tekst": "Vangla on riigivõimu teostaja, seega kehtib tema kohta sama reegel mis kogu riigi kohta: tegutseda võib ainult põhiseaduse ja seaduse alusel ([[PS § 3 lg 1]]). Vangistusseadus kordab seda vangla jaoks: kinnipeetava vabadus allutatakse seaduses toodud piirangutele ([[VangS § 4^1 lg 2]]). Õigusaktide ahel on **põhiseadus → vangistusseadus → ministri määrus (sisekorraeeskiri) → vangla kodukord** ([[VangS § 105 lg 2]], [[VangS § 105 lg 3]]).",
+   "tekst": "Vangla on riigivõimu teostaja, seega kehtib vangla kohta sama reegel mis kogu riigi kohta: tegutseda tohib ainult põhiseaduse ja seaduse alusel ([[PS § 3 lg 1]]). Vangistusseadus kordab seda vangla jaoks: kinnipeetava vabadus allutatakse seaduses toodud piirangutele ([[VangS § 4^1 lg 2]]).\n\nIga reegel, mida vanglas järgid, on ühe pika ahela lüli. Mida madalamal ahelas, seda täpsem reegel – aga iga madalam lüli peab mahtuma kõrgema sisse.",
+   "skeem": {
+    "tyyp": "pyramiid",
+    "pealkiri": "Õigusaktide ahel põhiseadusest kambrini",
+    "astmed": [
+     {
+      "pealkiri": "Põhiseadus",
+      "tekst": "kõrgeim; kõik peab sellega klappima",
+      "viide": "PS § 102",
+      "vahel": "seadus peab klappima põhiseadusega"
+     },
+     {
+      "pealkiri": "Vangistusseadus",
+      "tekst": "Riigikogu seadus: piirangute alused",
+      "viide": "VangS § 4^1 lg 2",
+      "vahel": "määrus antakse seaduse volitusel"
+     },
+     {
+      "pealkiri": "Vangla sisekorraeeskiri",
+      "tekst": "ministri määrus",
+      "viide": "VangS § 105 lg 2",
+      "vahel": "kodukord täpsustab määrust"
+     },
+     {
+      "pealkiri": "Vangla kodukord",
+      "tekst": "kinnitab vangla direktor",
+      "viide": "VangS § 105 lg 3",
+      "vahel": "otsus peab vastama kõigile ülemistele"
+     },
+     {
+      "pealkiri": "Ametniku otsus",
+      "tekst": "konkreetne kinnipeetav, konkreetne olukord",
+      "toon": "b"
+     }
+    ]
+   },
    "naide": {
-    "olukord": "Vanglaametnik tahab keelata kinnipeetaval asja, mida ei keela ei vangistusseadus, sisekorraeeskiri ega kodukord. Põhjendus: „Mulle tundub, et nii on parem.”",
-    "analyys": "**Küsimus:** kas piirangul on seaduslik alus? **Reegel:** riigivõimu teostatakse ainult põhiseaduse ja seaduste alusel ([[PS § 3 lg 1]]). **Vangla erinorm:** kui seadus konkreetset piirangut ei sätesta, võib vangla kohaldada ainult piiranguid, mis on vajalikud vangla julgeoleku kaalutlustel ([[VangS § 4^1 lg 2]]). **Järeldus:** „tundub parem” ei ole alus. Ametnik peab näitama kas konkreetse normi või julgeoleku kaalutluse ja seda põhjendama."
+    "olukord": "Vanglaametnik tahab keelata kinnipeetavale asja, mida ei keela ei vangistusseadus, sisekorraeeskiri ega kodukord. Põhjendus: „Mulle tundub, et nii on parem.”",
+    "analyys": "**Küsimus:** kas piirangul on seaduslik alus? **Reegel:** riigivõimu teostatakse ainult põhiseaduse ja seaduste alusel ([[PS § 3 lg 1]]). **Vangla erireegel:** kui seadus konkreetset piirangut ei sätesta, tohib vangla kohaldada ainult piiranguid, mis on vajalikud vangla julgeoleku kaalutlustel ([[VangS § 4^1 lg 2]]). **Järeldus:** „tundub parem” ei ole alus. Ametnik peab näitama kas konkreetse normi või julgeolekuga seotud põhjuse – ja oskama seda selgitada."
    }
   },
   "tyypviga": {
    "punktid": [
-    "Aetakse segi põhiseaduse **vastuvõtmine** (uus riik) ja **muutmine** (riigikord jääb).",
+    "Aetakse segi põhiseaduse **vastuvõtmine** (sünnib uus riik) ja **muutmine** (riik jääb, muutub tekst).",
     "Unustatakse, et I ja XV peatükki saab muuta **ainult rahvahääletusega** ([[PS § 162]]).",
-    "Häälteenamused aetakse segi: rahvahääletusele panek 3/5, kiireloomulisena käsitlemine 4/5 ja vastuvõtmine 2/3.",
-    "Öeldakse, et „põhiseadus on lihtsalt üks seadus”. Põhiseadus on teiste seaduste **mõõdupuu**: sellega vastuolus akti jätab kohus kohaldamata ([[PS § 152 lg 1]])."
+    "Häälteenamused lähevad sassi. Jäta meelde: rahvahääletusele panek **3/5**; kahe koosseisu teel teine koosseis **3/5**; kiireloomulisena otsustamine **4/5** ja vastuvõtmine **2/3**.",
+    "Öeldakse, et „põhiseadus on lihtsalt üks seadus”. Põhiseadus on teiste seaduste **mõõdupuu**: sellega vastuolus akti kohus ei kohalda ([[PS § 152]])."
    ]
   }
  },
- "skeem": [
-  {
-   "tyyp": "tasandid",
-   "pealkiri": "Õigusaktide ahel põhiseadusest kambrini",
-   "tasandid": [
-    {
-     "pealkiri": "Põhiseadus",
-     "toon": "b",
-     "kastid": [
-      {
-       "pealkiri": "Eesti Vabariigi põhiseadus",
-       "tekst": "Riigivõim ainult põhiseaduse ja seaduste alusel",
-       "viide": "PS § 3 lg 1"
-      }
-     ]
-    },
-    {
-     "pealkiri": "Seadus",
-     "toon": "a",
-     "kastid": [
-      {
-       "pealkiri": "Vangistusseadus",
-       "tekst": "Kinnipeetava vabaduse piirangud tulevad seadusest",
-       "viide": "VangS § 4^1 lg 2"
-      }
-     ]
-    },
-    {
-     "pealkiri": "Määrus",
-     "toon": "a",
-     "kastid": [
-      {
-       "pealkiri": "Vangla sisekorraeeskiri",
-       "tekst": "Kehtestab minister seaduse volitusel",
-       "viide": "VangS § 105 lg 2"
-      }
-     ]
-    },
-    {
-     "pealkiri": "Vangla",
-     "toon": "c",
-     "kastid": [
-      {
-       "pealkiri": "Kodukord",
-       "tekst": "Kinnitab vangla direktor",
-       "viide": "VangS § 105 lg 3"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "tyyp": "vordlus",
-   "pealkiri": "Põhiseaduse muutmise kolm viisi",
-   "veerud": [
-    "Kuidas",
-    "Nõutav häälteenamus",
-    "Säte"
-   ],
-   "read": [
-    {
-     "silt": "Rahvahääletus",
-     "lahtrid": [
-      "Riigikogu paneb eelnõu rahvahääletusele",
-      "Riigikogu koosseisu **3/5**; I ja XV peatükk ainult nii",
-      "[[PS § 164]], [[PS § 162]]"
-     ]
-    },
-    {
-     "silt": "Kaks koosseisu",
-     "lahtrid": [
-      "Kaks järjestikust Riigikogu koosseisu",
-      "Esimene: koosseisu enamus. Teine: **3/5**, muutmatult",
-      "[[PS § 165]]"
-     ]
-    },
-    {
-     "silt": "Kiireloomuline",
-     "lahtrid": [
-      "Üks Riigikogu koosseis",
-      "Otsus käsitleda kiireloomulisena **4/5**; vastuvõtmine koosseisu **2/3**",
-      "[[PS § 166]]"
-     ]
-    }
-   ]
-  }
- ],
+ "skeem": [],
  "vastus": [],
  "harjutused": [
   {
    "tyyp": "fakt",
    "kysimus": "Millist põhiseaduse osa saab muuta ainult rahvahääletusega?",
    "valikud": [
-    "II peatükki „Põhiõigused, vabadused ja kohustused”",
-    "I peatükki „Üldsätted” ja XV peatükki „Põhiseaduse muutmine”",
-    "Kogu põhiseadust",
-    "Ainult preambulit"
+    "II peatükki (põhiõigused)",
+    "I peatükki („Üldsätted”) ja XV peatükki („Põhiseaduse muutmine”)",
+    "Ainult preambulit",
+    "Kõiki peatükke võib muuta ka Riigikogu"
    ],
    "oige": 1,
-   "selgitus": "[[PS § 162]] nimetab I ja XV peatüki."
+   "selgitus": "[[PS § 162]]."
   },
   {
    "tyyp": "fakt",
    "kysimus": "Kes võib algatada põhiseaduse muutmise?",
    "valikud": [
-    "Vabariigi Valitsus ja õiguskantsler",
-    "Iga Riigikogu liige üksi",
-    "Vähemalt viiendik Riigikogu koosseisust ja Vabariigi President",
-    "Riigikohus"
+    "Iga Riigikogu liige",
+    "Vähemalt viiendik Riigikogu koosseisust või Vabariigi President",
+    "Vabariigi Valitsus",
+    "Õiguskantsler"
    ],
-   "oige": 2,
+   "oige": 1,
    "selgitus": "[[PS § 161]]."
+  },
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Millise muutmise tee juurde see käib?",
+   "ryhmad": [
+    "Rahvahääletus",
+    "Kaks koosseisu",
+    "Kiireloomuline"
+   ],
+   "read": [
+    {
+     "tekst": "Riigikogu otsustab 4/5 häälteenamusega, et asi on kiire",
+     "oige": 2,
+     "selgitus": "[[PS § 166]]."
+    },
+    {
+     "tekst": "Järgmine Riigikogu koosseis võtab eelnõu muutmata kujul vastu",
+     "oige": 1,
+     "selgitus": "[[PS § 165]]."
+    },
+    {
+     "tekst": "Ainus tee, kuidas muuta I peatükki",
+     "oige": 0,
+     "selgitus": "[[PS § 162]]."
+    },
+    {
+     "tekst": "Riigikogu paneb eelnõu otsustamiseks rahvale 3/5 häälteenamusega",
+     "oige": 0,
+     "selgitus": "[[PS § 164]]."
+    }
+   ]
   },
   {
    "tyyp": "sorteeri",
    "kysimus": "Mis tasandi õigusakt see on?",
    "ryhmad": [
-    "Põhiseadus",
     "Seadus",
-    "Määrus"
+    "Määrus",
+    "Üksikakt"
    ],
    "read": [
     {
      "tekst": "Vangistusseadus",
-     "oige": 1,
-     "selgitus": "Riigikogu vastu võetud seadus."
+     "oige": 0,
+     "selgitus": "Riigikogu võtab vastu."
     },
     {
      "tekst": "Vangla sisekorraeeskiri",
-     "oige": 2,
-     "selgitus": "Ministri määrus, antud seaduse volitusel ([[VangS § 105 lg 2]])."
-    },
-    {
-     "tekst": "Reegel, et riigivõimu teostatakse ainult põhiseaduse ja seaduste alusel",
-     "oige": 0,
-     "selgitus": "[[PS § 3 lg 1]]."
-    },
-    {
-     "tekst": "Haldusmenetluse seadus",
      "oige": 1,
-     "selgitus": "Seadus."
+     "selgitus": "Ministri määrus ([[VangS § 105 lg 2]])."
     },
     {
-     "tekst": "Reegel, et kõrgeima riigivõimu kandja on rahvas",
+     "tekst": "Ametniku otsus jätta kinnipeetava taotlus rahuldamata",
+     "oige": 2,
+     "selgitus": "Konkreetne isik, konkreetne juhtum."
+    },
+    {
+     "tekst": "Vabariigi Valitsuse seadus",
      "oige": 0,
-     "selgitus": "[[PS § 1]]."
+     "selgitus": "Konstitutsiooniline seadus ([[PS § 104 lg 2]])."
     }
    ]
   },
   {
    "tyyp": "kaasus",
-   "kysimus": "Riigikogu tahab muuta põhiseaduse § 1 nii, et Eesti ei oleks enam vabariik. Riigikogus toetab muudatust 90 liiget. Kas Riigikogu saab muudatuse ise kiireloomulisena vastu võtta?",
+   "kysimus": "Riigikogu tahab muuta põhiseaduse § 1 sõnastust ja võtab muudatuse vastu kiireloomulisena 2/3 häälteenamusega. Kas see on lubatud?",
    "vastus": [
-    "**Mida muudetakse:** § 1 asub I peatükis „Üldsätted”.",
+    "**Mis peatükk:** § 1 on I peatükis „Üldsätted”.",
     "**Reegel:** I peatükki saab muuta ainult rahvahääletusega ([[PS § 162]]).",
-    "**Kiireloomuline viis** ([[PS § 166]]) ei ole selle peatüki puhul lubatud, olenemata häälte arvust.",
-    "**Mida Riigikogu saab teha:** panna eelnõu koosseisu kolmeviiendikulise häälteenamusega rahvahääletusele ([[PS § 164]]).",
-    "**Järeldus:** ei saa. Otsustab rahvas rahvahääletusel."
+    "**Järeldus:** kiireloomuline tee ei sobi, ükskõik kui suur häälteenamus on. Selline muudatus oleks põhiseadusega vastuolus."
    ]
   }
  ],
  "erinevused": [
   {
-   "teema": "Slaidi lühikirjeldus muutmise viisidest",
-   "konspekt": "Slaid 9 loetleb murrud lühidalt ühes reas („3/5 RK-st – rahvahääletusel”, „4/5 RK-st – kiireloomulisena – 2/3 RK-st”).",
-   "ametlik": "Täpne sisu: 3/5 on vajalik eelnõu **rahvahääletusele panekuks** ([[PS § 164]]); 4/5 on **otsus käsitleda kiireloomulisena**, vastuvõtmiseks on vaja koosseisu 2/3 ([[PS § 166]]).",
-   "viide": "PS § 164",
-   "markus": "Sisuline vastuolu puudub, slaid on lihtsalt kokkuvõtlik. Eksamil kirjuta, mille jaoks iga häälteenamus on."
+   "teema": "Muutmise viiside lühikirjeldus",
+   "silt": "Õppematerjal",
+   "konspekt": "Õppematerjal võtab muutmise viisid kokku lühidalt: „3/5 – rahvahääletusel”, „koosseisu enamus – kaks koosseisu, järgmine 3/5”, „4/5 – kiireloomulisena, 2/3”.",
+   "ametlik": "Põhiseaduses on täpsemalt: 3/5 on vaja rahvahääletusele **panekuks**, otsustab rahvas; kiireloomulisena käsitlemiseks 4/5 ja vastuvõtmiseks 2/3 Riigikogu koosseisust.",
+   "viide": "PS § 166"
   }
  ],
  "valjast": []
