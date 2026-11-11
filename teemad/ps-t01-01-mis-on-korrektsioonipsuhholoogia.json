@@ -1,0 +1,144 @@
+{
+ "id": "ps-t01-01",
+ "tund": "ps-t01",
+ "jrk": 1,
+ "pealkiri": "Mis on korrektsioonipsühholoogia",
+ "lyhend": "Korrektsioonipsühholoogia",
+ "ikoon": "pea",
+ "lyhidalt": "Korrektsioonipsühholoogia selgitab, miks kriminaalne käitumine tekib, ja annab teaduslikku teadmist, kuidas antisotsiaalset käitumist muuta. Seda ei tee ainult psühholoog – psühholoogiat rakendab iga ametnik, kes kinnipeetavaga töötab.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Mitu tähendust ühes sõnas",
+   "tekst": "Sõnal **korrektsioonipsühholoogia** ei ole ühte kindlat definitsiooni. Sellel on mitu tähendust ja tähendus sõltub sellest, kuidas ühiskond ja ametnikud psühholoogia rolli näevad.",
+   "skeem": [
+    {
+     "tyyp": "kaardid",
+     "pealkiri": "Korrektsioonipsühholoogia tähendused",
+     "kaardid": [
+      {
+       "pealkiri": "Psühholoogid",
+       "silt": "1",
+       "tekst": "Psühholoogid, kes töötavad vangistusega seotud asutustes."
+      },
+      {
+       "pealkiri": "Psühholoogia rakendamine",
+       "silt": "2",
+       "tekst": "Psühholoogia kasutamine korrektsioonisüsteemis **ükskõik millise ametniku** poolt – ka inspektor-kontaktisiku.",
+       "toon": "b"
+      },
+      {
+       "pealkiri": "Teadus",
+       "silt": "3",
+       "tekst": "Psühholoogiateaduse kasutamine selleks, et korrektsioonisüsteemi paremaks teha."
+      },
+      {
+       "pealkiri": "Sõltub ühiskonna vaatest",
+       "silt": "4",
+       "tekst": "Tähendus muutub koos sellega, kuidas ametnikud ja ühiskond psühholoogia rolli näevad.",
+       "toon": "d"
+      },
+      {
+       "pealkiri": "Varieeruv",
+       "silt": "5",
+       "tekst": "Head ühtset definitsiooni ei ole, sest ülesanded on riigiti ja süsteemiti erinevad.",
+       "toon": "c"
+      }
+     ]
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Põhieesmärk",
+   "tekst": "Korrektsioonipsühholoogia roll on **selgitada kriminaalse käitumise tekkimist** ja anda **teaduslikku infot selle kohta, mis aitab inimeste antisotsiaalset käitumist muuta**.\n\nSee eesmärk klapib vangistuse eesmärgiga: suunata kinnipeetav õiguskuulekale käitumisele.",
+   "read": [
+    {
+     "tase": "Vangla",
+     "viited": [
+      "VangS § 6 lg 1"
+     ],
+     "tekst": "Vangistuse täideviimise eesmärk on kinnipeetava suunamine õiguskuulekale käitumisele ja õiguskorra kaitsmine."
+    }
+   ],
+   "skeem": {
+    "tyyp": "kolmnurk",
+    "pealkiri": "Kaks poolt ühel eesmärgil",
+    "yla": {
+     "pealkiri": "Õiguskuulekas käitumine",
+     "tekst": "Vangistuse eesmärk",
+     "viide": "VangS § 6 lg 1"
+    },
+    "vasak": {
+     "pealkiri": "Miks?",
+     "tekst": "Selgitada, kuidas kriminaalne käitumine tekib."
+    },
+    "parem": {
+     "pealkiri": "Mis aitab?",
+     "tekst": "Teaduslik teadmine, mis muudab antisotsiaalset käitumist."
+    },
+    "nooled": {
+     "vasak": "mõistmine",
+     "parem": "muutmine",
+     "all": "teooria ↔ praktika"
+    }
+   }
+  },
+  "piiramine": {
+   "pealkiri": "Miks ebaselgus on probleem",
+   "tekst": "Kuna definitsioon on ebaselge, tekivad praktikas probleemid:",
+   "punktid": [
+    "Korrektsioonipsühholoogid on sageli **ebakindlad oma professionaalses identiteedis**.",
+    "Nad töötavad keskkonnas, mis ei toeta alati nende töö viise.",
+    "Tööandjal on raske planeerida psühholoogide koolitust.",
+    "Puudub raamistik, mille järgi psühholoogilisi teadmisi süsteemis korrastada."
+   ]
+  },
+  "vangla": {
+   "tekst": "Inspektor-kontaktisik ei ole psühholoog, aga ta **rakendab psühholoogiat** iga päev: kuidas rääkida, kuidas motiveerida, kuidas märgata vaimse tervise muret. Kursuse järgi on see üks korrektsioonipsühholoogia tähendustest (tähendus 2).",
+   "naide": {
+    "olukord": "Uus kolleeg ütleb: „Psühholoogia on psühholoogi asi. Minu töö on kord majas.”",
+    "analyys": "Korrektsioonipsühholoogia ei ole ainult psühholoogi töö – see on psühholoogia **rakendamine iga ametniku poolt**. Kord ja psühholoogia ei ole vastandid: vangistuse eesmärk on suunata õiguskuulekale käitumisele ([[VangS § 6 lg 1]]) ja selleks on vaja teada, kuidas käitumine muutub."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Öeldakse, et korrektsioonipsühholoogia = vanglapsühholoog. Tegelikult on tähendusi mitu ja üks neist on psühholoogia rakendamine kõigi ametnike poolt.",
+    "Arvatakse, et kursus selgitab ainult, *miks* kuritegu tehakse. Põhieesmärgil on kaks poolt: selgitada **ja** anda teadmist, mis aitab käitumist muuta."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Milline väide kirjeldab korrektsioonipsühholoogia põhieesmärki?",
+   "valikud": [
+    "Diagnoosida kõigil kinnipeetavatel psüühikahäired",
+    "Selgitada kriminaalse käitumise teket ja anda teaduslikku infot, mis aitab antisotsiaalset käitumist muuta",
+    "Leida karistus, mis on kuriteoga proportsionaalne",
+    "Hinnata, kas kinnipeetav valetab"
+   ],
+   "oige": 1,
+   "selgitus": "Põhieesmärgil on kaks poolt: mõista ja muuta."
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Miks on korrektsioonipsühholoogidel sageli ebakindel professionaalne identiteet?",
+   "valikud": [
+    "Neil puudub kõrgharidus",
+    "Termini definitsioon on ebaselge ja ülesanded erinevad riigiti",
+    "Vanglas ei tohi psühholooge tööle võtta",
+    "Nende tööd ei reguleeri ükski seadus"
+   ],
+   "oige": 1,
+   "selgitus": "Definitsioon on varieeruv ja sõltub ühiskonna vaatest."
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

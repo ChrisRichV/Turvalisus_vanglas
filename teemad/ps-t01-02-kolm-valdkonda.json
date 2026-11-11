@@ -1,0 +1,156 @@
+{
+ "id": "ps-t01-02",
+ "tund": "ps-t01",
+ "jrk": 2,
+ "pealkiri": "Kolm valdkonda, mida iga ametnik vajab",
+ "lyhend": "Kolm valdkonda",
+ "ikoon": "sambad",
+ "lyhidalt": "Iga korrektsioonisüsteemi ametnik vajab kolme psühholoogia valdkonda: teadmisi vaimse tervise häiretest, kognitiiv-käitumuslikku mudelit ja kriminoloogilist psühholoogiat. Ilma nendeta tuginetakse kõhutundele, mis võib olla kallis ja kahjulik.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Kolm sammast",
+   "tekst": "Kursuse järgi on kolm psühholoogia valdkonda olulised **kõigile ametnikele**, et korrektsioonisüsteemi eesmärgid täituksid.",
+   "skeem": [
+    {
+     "tyyp": "sambad",
+     "pealkiri": "Kolm valdkonda",
+     "katus": {
+      "pealkiri": "Korrektsioonisüsteemi eesmärgid",
+      "tekst": "turvaline ja inimlik kinnipidamine, käitumise muutmine"
+     },
+     "sambad": [
+      {
+       "pealkiri": "Vaimse tervise häired",
+       "read": [
+        "diagnoosimine, põhjused, ravi",
+        "aitab luua **turvalise ja inimliku** keskkonna"
+       ]
+      },
+      {
+       "pealkiri": "Kognitiiv-käitumuslik mudel",
+       "toon": "b",
+       "read": [
+        "hindab ja selgitab käitumist teaduslikult",
+        "sobib igas keskkonnas ja igale inimesele – ka kriminaalsele käitumisele"
+       ]
+      },
+      {
+       "pealkiri": "Kriminoloogiline psühholoogia",
+       "read": [
+        "selgitab kuriteo põhjusi ja teket",
+        "aitab märgata **riskitegureid** ja valida õige sekkumise"
+       ]
+      }
+     ],
+     "alus": {
+      "pealkiri": "Teaduslikult tõestatud teadmine",
+      "tekst": "mitte ainult isiklik kogemus ja loogika"
+     }
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Teadus vs kõhutunne",
+   "tekst": "Suur osa korrektsioonist toetub siiani **retoorikale ja tunnetuslikule teadmisele**. Mõni ametnik usub, et tema loogika, väärtused ja kogemus on olulisemad kui teaduslik teadmine.\n\nKursus toob välja, et see viib **kallite ja potentsiaalselt kahjustavate praktikateni**. Meditsiinis ei kasutataks meetodit, mida pole uuritud – korrektsioonis kasutatakse.",
+   "skeem": {
+    "tyyp": "vordlus",
+    "pealkiri": "Kaks lähenemist",
+    "veerud": [
+     "Kõhutunne",
+     "Teaduspõhine"
+    ],
+    "read": [
+     {
+      "silt": "Alus",
+      "lahtrid": [
+       "isiklik kogemus, väärtused, „terve mõistus”",
+       "uuringud, mis näitavad, mis toimib"
+      ]
+     },
+     {
+      "silt": "Tugi",
+      "lahtrid": [
+       "poliitikud ja meedia",
+       "teadus ja hindamine"
+      ]
+     },
+     {
+      "silt": "Tulemus",
+      "lahtrid": [
+       "kallis, võib kahjustada, jätkub ka siis, kui on ebaefektiivne",
+       "sekkumine valitakse riski ja vajaduse järgi"
+      ]
+     }
+    ]
+   },
+   "read": []
+  },
+  "piiramine": {
+   "pealkiri": "Suurbritannia näide",
+   "tekst": "Kui ühiskonna arvamus vanglatest muutub ja otsitakse lihtsamaid ja odavamaid lahendusi, võidakse **loobuda hästi toimivast süsteemist**.\n\nSuurbritannia liikus 25 aastat taasühiskonnastamise suunas, kuid pöördus tagasi karistavama süsteemi poole. Ühiskond hakkas arvama, et „kurjategijad pääsevad liiga kergelt”, ja rahastust vähendati.",
+   "punktid": [
+    "Avalik arvamus ei ole sama mis tõendid.",
+    "Ka toimiv süsteem võib kaduda, kui seda ei põhjendata teadusega."
+   ]
+  },
+  "vangla": {
+   "tekst": "Inspektor-kontaktisiku töös tähendab see: kui kinnipeetav käitub halvasti, ei piisa küsimusest „kuidas teda karistada?”. Tuleb küsida, **mis on käitumise põhjus** (kriminoloogiline psühholoogia), **kas taga on vaimse tervise häire** ja **kuidas käitumist muuta** (kognitiiv-käitumuslik mudel).",
+   "naide": {
+    "olukord": "Kinnipeetav keeldub korduvalt tööle minemast. Kolleeg soovitab: „Karista teda, küll ta siis läheb.”",
+    "analyys": "Kõhutunne pakub karistust. Teaduspõhine ametnik uurib kõigepealt põhjust: kas taga on depressioon (vaimse tervise häire), kas töö seostub talle millegi ebameeldivaga, kas tal on motivatsioon (kognitiiv-käitumuslik vaade). Alles siis valitakse sekkumine."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Arvatakse, et vaimse tervise teadmised on ainult arsti asi. Kursuse järgi vajab neid iga ametnik, et keskkond oleks turvaline ja inimlik.",
+    "Peetakse kogemust teadusega võrdseks. Kogemus on väärtuslik, aga ilma teaduseta võib see viia kahjustava praktikani."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Millise valdkonnaga on tegu?",
+   "ryhmad": [
+    "Vaimse tervise häired",
+    "Kognitiiv-käitumuslik mudel",
+    "Kriminoloogiline psühholoogia"
+   ],
+   "read": [
+    {
+     "tekst": "Ametnik märkab, et kinnipeetav kuuleb hääli, ja teavitab tervishoiutöötajat.",
+     "oige": 0
+    },
+    {
+     "tekst": "Ametnik selgitab, kuidas kinnipeetava mõtted mõjutavad tema käitumist konfliktis.",
+     "oige": 1
+    },
+    {
+     "tekst": "Ametnik tunneb ära riskitegurid, mis suurendavad uue kuriteo tõenäosust.",
+     "oige": 2
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis juhtus kursuse näites Suurbritanniaga?",
+   "valikud": [
+    "Seal loobuti vanglatest täielikult",
+    "Pärast 25 aastat taasühiskonnastamist pöörduti tagasi karistavama süsteemi poole",
+    "Seal võeti kasutusele RNR-mudel",
+    "Seal keelati psühholoogid vanglates"
+   ],
+   "oige": 1,
+   "selgitus": "Avalik arvamus muutus negatiivseks ja rahastust vähendati."
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

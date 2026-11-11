@@ -1,0 +1,147 @@
+{
+ "id": "ps-t08-04",
+ "tund": "ps-t08",
+ "jrk": 4,
+ "pealkiri": "Prosotsiaalse käitumise mudeldamine",
+ "lyhend": "Prosotsiaalne mudeldamine",
+ "ikoon": "kompass",
+ "lyhidalt": "Prosotsiaalne käitumine on antisotsiaalse vastand: teistele kasulik, lugupidav, konflikte lahendav. Ametnik mudeldab seda oma tegudega – reeglite järgimine, täpsus, lugupidamine, empaatia, koostöine probleemilahendus ja vigade tunnistamine. See vähendab korduvkuritegevust.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Antisotsiaalne ja prosotsiaalne",
+   "tekst": "**Antisotsiaalne käitumine** rikub sotsiaalseid norme, seadusi või teiste õigusi ja kahjustab ühiskonda või teisi (lugupidamatus, seaduserikkumine, valetamine, vargus, agressioon).\n\n**Prosotsiaalne käitumine** on selle vastand: positiivsed, teistele kasulikud käitumisviisid – sõbralik suhtlemine, konfliktide lahendamine viha asemel, teiste austamine. Prosotsiaalsed väärtused hõlmavad teiste ja seaduse austamist."
+  },
+  "alus": {
+   "pealkiri": "Kuidas mudeldada",
+   "tekst": "Ametnikud mudeldavad prosotsiaalseid väärtusi oma tegude, positiivsele keskendumise ja empaatia kaudu.",
+   "skeem": {
+    "tyyp": "kaardid",
+    "pealkiri": "Prosotsiaalsed käitumised, mida ametnik mudeldab",
+    "kaardid": [
+     {
+      "pealkiri": "Järgi reegleid rutiinselt ja stabiilselt",
+      "silt": "01",
+      "tekst": "ole eeskujuks reeglite ja ootuste täitmisel"
+     },
+     {
+      "pealkiri": "Ole täpne ja usaldusväärne",
+      "silt": "02",
+      "tekst": "kõigis tegevustes",
+      "toon": "b"
+     },
+     {
+      "pealkiri": "Kohtle teisi lugupidavalt",
+      "silt": "03",
+      "tekst": "viisakalt ja professionaalselt – nii kolleegide kui kinnipeetavatega"
+     },
+     {
+      "pealkiri": "Väljenda empaatiat",
+      "silt": "04",
+      "tekst": "mõista tundeid, loo usaldust",
+      "toon": "b"
+     },
+     {
+      "pealkiri": "Lahenda probleeme koos",
+      "silt": "05",
+      "tekst": "tööta kliendiga lahenduse nimel ja toeta tema iseseisvust"
+     },
+     {
+      "pealkiri": "Tunnista vigu",
+      "silt": "06",
+      "tekst": "kui unustasid või eksisid – tunnista ja paranda",
+      "toon": "b"
+     }
+    ]
+   },
+   "read": []
+  },
+  "piiramine": {
+   "pealkiri": "Miks see toimib",
+   "tekst": "",
+   "punktid": [
+    "Uuringute järgi on prosotsiaalne käitumine ja mudeldamine **tõhus korduvkuritegevuse vähendamisel**.",
+    "Järelevalvemudelid, mis sisaldavad prosotsiaalset mudeldamist, näitavad madalamat korduvkuritegevust.",
+    "Kliendid eelistavad ametnikku, kes suhtleb positiivselt, kuulab, austab ja on empaatiline.",
+    "Kolleegide seas: õiglane ja lugupidav juht kujundab usaldusliku töökultuuri ja vähendab konflikte."
+   ]
+  },
+  "vangla": {
+   "tekst": "",
+   "skeem": {
+    "tyyp": "kontroll",
+    "pealkiri": "Mõtle läbi",
+    "olukord": "Ametnik lubas kinnipeetavale eelmisel nädalal uurida tema töökoha taotlust, kuid unustas. Kinnipeetav küsib täna pahaselt: „Mis sai?”",
+    "sammud": [
+     {
+      "silt": "Valik",
+      "kysimus": "Mida ametnik teeb?",
+      "vastus": "Tunnistab viga: „Sul on õigus, ma unustasin. Vabandust. Uurin täna ja annan homme vastuse.”"
+     },
+     {
+      "silt": "Mudel",
+      "kysimus": "Mida kinnipeetav sellest õpib?",
+      "vastus": "Et vea tunnistamine ei ole nõrkus ja et lubadusi peetakse – see on mudeldamine (tund 2) ja usaldusväärsus (02)."
+     },
+     {
+      "silt": "Järg",
+      "kysimus": "Mis on järgmine samm?",
+      "vastus": "Täpne ja õigeaegne vastus järgmisel päeval – muidu kaob usaldus."
+     }
+    ],
+    "jareldus": "Ametniku iga tegu on mudel. Vigade tunnistamine ja lubaduste pidamine on kõige tugevamad prosotsiaalsed signaalid."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Arvatakse, et mudeldamine tähendab õpetamist sõnadega. Mudeldatakse **oma tegudega**.",
+    "Vigade tunnistamist peetakse autoriteedi kaotuseks."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mida näitavad uuringud prosotsiaalse mudeldamise kohta?",
+   "valikud": [
+    "See ei mõjuta midagi",
+    "See on tõhus korduvkuritegevuse vähendamisel",
+    "See suurendab rikkumisi",
+    "See mõjub ainult kolleegidele"
+   ],
+   "oige": 1,
+   "selgitus": "Järelevalvemudelid, kus see on sees, näitavad madalamat korduvkuritegevust."
+  },
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline prosotsiaalne käitumine?",
+   "ryhmad": [
+    "Vigade tunnistamine",
+    "Täpsus ja usaldusväärsus",
+    "Koostöine probleemilahendus"
+   ],
+   "read": [
+    {
+     "tekst": "„Eksisin kuupäevaga, parandan selle kohe.”",
+     "oige": 0
+    },
+    {
+     "tekst": "Ametnik tuleb kohtumisele täpselt kokkulepitud ajal",
+     "oige": 1
+    },
+    {
+     "tekst": "„Mõtleme koos, kuidas sa saaksid enne vabanemist dokumendid korda.”",
+     "oige": 2
+    }
+   ]
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

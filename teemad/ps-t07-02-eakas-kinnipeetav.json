@@ -1,0 +1,133 @@
+{
+ "id": "ps-t07-02",
+ "tund": "ps-t07",
+ "jrk": 2,
+ "pealkiri": "Eakas kinnipeetav",
+ "lyhend": "Eakas kinnipeetav",
+ "ikoon": "kepp",
+ "lyhidalt": "Kinnipeetavad vananevad ja haigestuvad kiiremini kui tavapopulatsioon. Eakatel on raskusi liikumise, meelte, turvalisuse ja isolatsiooniga; dementsust märgatakse vanglas sageli hilja. Igapäevased tegevused nõuavad neilt palju energiat.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Kehva tervise põhjused",
+   "tekst": "Kinnipeetavate keskmine vanus tõuseb ja vanglad ei ole sageli eakatele ehitatud. Kinnipeetavad **vananevad ja haigestuvad kiiremini** kui tavapopulatsioon; terviseteadmiste tase on sageli üllatavalt madal.",
+   "skeem": [
+    {
+     "tyyp": "kaardid",
+     "pealkiri": "Eakate kehva tervise põhjused",
+     "kaardid": [
+      {
+       "pealkiri": "Kõrge riskiga käitumine",
+       "silt": "1",
+       "tekst": "suitsetamine, narkootikumid, alkohol, ebatervislik toit"
+      },
+      {
+       "pealkiri": "Liikumise puudus",
+       "silt": "2",
+       "toon": "b"
+      },
+      {
+       "pealkiri": "Stressorid vanglas",
+       "silt": "3",
+       "tekst": "füüsilised vigastused, tegevusetus, isoleeritus"
+      },
+      {
+       "pealkiri": "Keerulisem ligipääs meditsiinile",
+       "silt": "4",
+       "tekst": "valed diagnoosid ja alaravimine",
+       "toon": "b"
+      }
+     ],
+     "kitsad": true
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Igapäevased väljakutsed",
+   "tekst": "",
+   "skeem": {
+    "tyyp": "sambad",
+    "pealkiri": "Eaka kinnipeetava igapäev",
+    "katus": {
+     "pealkiri": "Elukvaliteet ja heaolu vanglas"
+    },
+    "sambad": [
+     {
+      "pealkiri": "Keha",
+      "read": [
+       "**liikumine:** ülemisele narile ronimine, trepid, pikk tee meditsiini juurde",
+       "**keskkond:** vannituba, loendusel seismine"
+      ]
+     },
+     {
+      "pealkiri": "Meeled ja vaim",
+      "toon": "b",
+      "read": [
+       "**kuulmis- ja nägemisraskused**",
+       "**dementsus** – vangla rutiin varjab algavat langust",
+       "raske arusaamine ja mäletamine"
+      ]
+     },
+     {
+      "pealkiri": "Turvalisus ja suhted",
+      "read": [
+       "mure isikliku turvalisuse pärast",
+       "tegevusetus ja isolatsioon",
+       "raha puudus piirab kõnesid ja kirju"
+      ]
+     }
+    ],
+    "alus": {
+     "pealkiri": "Igapäevased tegevused nõuavad väga palju energiat",
+     "tekst": "asjade uuesti meeldetuletamine, konfliktide vältimine, korraldustele allumine"
+    }
+   },
+   "read": []
+  },
+  "piiramine": {
+   "pealkiri": "Mida silmas pidada",
+   "tekst": "",
+   "punktid": [
+    "Vaimset langust märgatakse sageli alles siis, kui olukord on eskaleerunud – selleks ajaks on teised teda tihti kiusanud ja ta on muutunud agressiivseks.",
+    "Eakad **varjavad tervisemuresid**, et säilitada staatust ja väärikust.",
+    "Paljud kardavad **vanglas suremist**.",
+    "Tervishoiutöötaja on kohustatud terviseseisundit jälgima ([[VangS § 52 lg 2]])."
+   ]
+  },
+  "vangla": {
+   "tekst": "Eakas kinnipeetav ei pruugi korraldust täita, sest ta ei kuulnud või ei mäletanud – mitte trotsist.",
+   "naide": {
+    "olukord": "72-aastane kinnipeetav jääb loendusele hiljaks ja ei mäleta, et teda eile hoiatati. Kambrikaaslased on hakanud teda narrima ja ta karjus ühe peale.",
+    "analyys": "Võimalik algav kognitiivne langus, mida vangla rutiin on varjanud; kiusamine ja agressioon on tüüpiline järg. Ametnik ei karista kohe, vaid räägib rahulikult, kordab juhiseid, teavitab tervishoiutöötajat ([[VangS § 52 lg 2]]) ja jälgib kiusamist."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Eaka agressiivsust peetakse iseloomuks, mitte võimalikuks dementsuse või kiusamise tagajärjeks.",
+    "Eeldatakse, et eakas küsib ise abi. Sageli ta varjab muresid väärikuse pärast."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Miks märgatakse eakate dementsust vanglas sageli hilja?",
+   "valikud": [
+    "Eakad ei haigestu",
+    "Vangla rutiinne päevakord varjab algavat langust",
+    "Dementsus algab ainult vabaduses",
+    "Arst ei tohi eakaid uurida"
+   ],
+   "oige": 1,
+   "selgitus": "Märgatakse alles siis, kui olukord on eskaleerunud."
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

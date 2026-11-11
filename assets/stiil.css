@@ -1162,3 +1162,63 @@ body.mk-tais-avatud { overflow: hidden; }
   .mk-ala.mk-taisekraan { grid-template-columns: 1fr; grid-template-rows: minmax(0, 1fr) minmax(0, 38%); }
   .mk-ala.mk-taisekraan .mk-paneel { height: auto; overflow: auto; }
 }
+
+/* ---- Ring (tsükkel) ---- */
+.s-ring { position: relative; width: min(100%, 36rem); aspect-ratio: 1; margin: .5rem auto 1rem; }
+.s-ring .r-joon { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.s-ring .r-joon circle { fill: none; stroke: var(--joon); stroke-width: .8; }
+.s-ring .r-joon path { fill: none; stroke: var(--vask); stroke-width: .9; }
+.s-ring .r-joon marker path { fill: var(--vask); stroke: none; }
+.s-ring .r-kese { position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 34%; text-align: center; display: grid; gap: .2rem; font-family: var(--kiri-pealkiri); }
+.s-ring .r-kese b { font-size: 1.05rem; } .s-ring .r-kese span { font-size: .82rem; color: var(--mahe); }
+.s-ring .r-osad { list-style: none; margin: 0; padding: 0; }
+.s-ring .r-osad li { position: absolute; left: var(--x); top: var(--y); transform: translate(-50%, -50%); width: 12.5rem; max-width: 40%;
+  background: var(--pind); border: 1.5px solid var(--joon); border-top: 4px solid var(--tint); border-radius: var(--raadius); padding: .5rem .65rem .55rem; display: grid; gap: .2rem; font-size: .88rem; }
+.s-ring.r-palju .r-osad li { width: 10.5rem; font-size: .82rem; }
+.s-ring .r-osad li[data-toon="b"] { border-top-color: var(--vask); }
+.s-ring .r-osad li[data-toon="c"] { border-top-style: dashed; }
+.s-ring .r-osad li[data-toon="d"] { border-top-color: var(--mahe); }
+.s-ring .r-nr { font-family: var(--kiri-pealkiri); font-size: .75rem; color: var(--vask); }
+.s-ring .r-osad b { font-family: var(--kiri-pealkiri); }
+.s-ring .r-tagasi { position: absolute; bottom: -1.6rem; left: 0; right: 0; text-align: center; color: var(--mahe); font-size: .85rem; margin: 0; }
+@media (max-width: 640px) {
+  .s-ring { aspect-ratio: auto; width: 100%; }
+  .s-ring .r-joon { display: none; }
+  .s-ring .r-kese { position: static; transform: none; width: auto; margin-bottom: .6rem; }
+  .s-ring .r-osad { display: grid; gap: .9rem; }
+  .s-ring .r-osad li, .s-ring.r-palju .r-osad li { position: relative; left: auto; top: auto; transform: none; width: auto; max-width: none; font-size: .9rem; }
+  .s-ring .r-osad li + li::before { content: "↓"; position: absolute; top: -1.05rem; left: 50%; color: var(--vask); font-size: .8rem; }
+  .s-ring .r-tagasi { position: static; margin-top: .5rem; }
+}
+/* ---- Maatriks (2 × 2) ---- */
+.s-maatriks { display: grid; grid-template-columns: minmax(5.5rem, auto) repeat(var(--veerge), 1fr); gap: .45rem; margin: .5rem 0 1rem; }
+.s-maatriks .m-veerg, .s-maatriks .m-rida { font-family: var(--kiri-pealkiri); font-size: .9rem; color: var(--mahe); align-self: end; text-align: center; padding: .2rem; }
+.s-maatriks .m-rida { align-self: center; text-align: right; }
+.s-maatriks .m-lahter { border: 1.5px solid var(--joon); border-left: 4px solid var(--tint); border-radius: var(--raadius); background: var(--pind); padding: .65rem .75rem; display: grid; gap: .25rem; }
+.s-maatriks .m-lahter[data-toon="b"] { border-left-color: var(--vask); }
+.s-maatriks .m-lahter[data-toon="c"] { border-left-style: dashed; }
+.s-maatriks .m-lahter b { font-family: var(--kiri-pealkiri); }
+.s-maatriks .m-silt { display: none; font-size: .75rem; color: var(--mahe); font-family: var(--kiri-pealkiri); }
+@media (max-width: 640px) {
+  .s-maatriks { grid-template-columns: 1fr; }
+  .s-maatriks .m-veerg, .s-maatriks .m-rida, .s-maatriks .m-nurk { display: none; }
+  .s-maatriks .m-silt { display: block; }
+}
+/* ---- Trepp (astmed alt üles) ---- */
+.s-trepp { list-style: none; margin: .5rem 0 .3rem; padding: 0; display: grid; grid-template-columns: repeat(var(--k), 1fr); align-items: end; gap: .4rem; }
+.s-trepp li { padding-bottom: calc(var(--i) * 2.6rem); }
+.s-trepp .t-aste { border: 1.5px solid var(--joon); border-bottom: 4px solid var(--tint); border-radius: var(--raadius); background: var(--pind); padding: .6rem .7rem; display: grid; gap: .25rem; font-size: .9rem; }
+.s-trepp li[data-toon="b"] .t-aste { border-bottom-color: var(--vask); }
+.s-trepp li[data-toon="c"] .t-aste { border-bottom-style: dashed; }
+.s-trepp .t-silt { font-family: var(--kiri-pealkiri); font-size: 1.3rem; color: var(--vask); line-height: 1; }
+.s-trepp b { font-family: var(--kiri-pealkiri); }
+.s-trepp .t-aste span:not(.t-silt) { color: var(--tint); }
+.t-tipp { text-align: right; color: var(--mahe); font-size: .85rem; margin: 0 0 1rem; }
+@media (max-width: 640px) {
+  .s-trepp { grid-template-columns: 1fr; display: flex; flex-direction: column-reverse; }
+  .s-trepp li { padding-bottom: 0; }
+  .t-tipp { text-align: left; }
+}
+
+/* pikad liitsõnad (nt korrektsioonipsühholoogia) ei tohi mobiilis üle serva minna */
+h1, h2, h3 { overflow-wrap: break-word; hyphens: auto; }

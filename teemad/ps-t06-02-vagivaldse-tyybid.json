@@ -1,0 +1,99 @@
+{
+ "id": "ps-t06-02",
+ "tund": "ps-t06",
+ "jrk": 2,
+ "pealkiri": "Vägivaldsete kinnipeetavate kolm tüüpi",
+ "lyhend": "Vägivalla tüübid",
+ "ikoon": "kolmharu",
+ "lyhidalt": "Vägivaldselt käituvad sageli kinnipeetavad, kellel on vaimse tervise häire, antisotsiaalne isiksusehäire või subkultuursed hoiakud. Vägivalla tüübid on planeeritud rünnak, kiire põlemine ja aeglaselt kogunev pinge.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Kes käitub vägivaldselt",
+   "tekst": "Vägivaldselt käituvad sageli kinnipeetavad, kes:",
+   "punktid": [
+    "on **vaimse tervise häirega** (paranoiline, skisofreeniline käitumine, kuulmishallutsinatsioonid);",
+    "on **antisotsiaalse isiksusehäirega**;",
+    "on **subkultuursete hoiakute ja uskumustega**;",
+    "on teinud vägivaldse kuriteo, on **nooremad** ja kannavad **5 aastat või pikemat** karistust;",
+    "tunnevad **ebaõiglast kohtlemist** või ükskõiksust oma probleemide suhtes."
+   ]
+  },
+  "alus": {
+   "pealkiri": "Kolm tüüpi",
+   "tekst": "",
+   "skeem": {
+    "tyyp": "voog",
+    "pealkiri": "Vägivaldsete kinnipeetavate tüübid",
+    "sammud": [
+     {
+      "pealkiri": "01 Planeeritud rünnak",
+      "tekst": "Eesmärk on **manipuleerida või heidutada** ametnikke ja juhtkonda. Rünnak on pikaajalise planeerimise tulemus – motiive ja tegevust on raske ette näha."
+     },
+     {
+      "pealkiri": "02 Kiire põlemine",
+      "tekst": "Kui soove takistatakse, reageerib **väga kiiresti ja plahvatuslikult**. Rahuneb kiiresti ja on sageli üllatunud, et intsidenti endiselt menetletakse."
+     },
+     {
+      "pealkiri": "03 Aeglaselt kogunev pinge",
+      "tekst": "Pahameel ja viha **kogunevad vaikselt** tajutava ebaõiglase kohtlemise tõttu. Pärast intsidenti rahuneb kiiresti, edasist ohtu ei kujuta."
+     }
+    ]
+   },
+   "read": []
+  },
+  "piiramine": {
+   "pealkiri": "Agressioon ja vägivald",
+   "tekst": "**Agressiivne käitumine** on käitumine, mille eesmärk on teist **kahjustada, hirmutada või kontrollida** – sõnades (solvamine, ähvardamine) või kehakeeles. **Vägivald** on agressiooni raskem vorm, kus kahju on otsene ja füüsiline.",
+   "punktid": [
+    "Iga agressiivne käitumine ei ole vägivaldne, kuid kontrollimatu agressioon võib kergesti vägivallaks muutuda."
+   ]
+  },
+  "vangla": {
+   "tekst": "Tüüp aitab ennetada: kiire põleja puhul on oluline, **kuidas** keeldumine edastatakse; aeglaselt koguneva pinge puhul **märgata ebaõigluse tunnet** varakult; planeeritud rünnaku puhul järjepidevust ja teabevahetust kolleegidega.",
+   "naide": {
+    "olukord": "Kinnipeetav on nädalaid kurtnud, et tema taotlustele ei vastata. Ühel päeval lööb ta rusikaga lauale ja karjub. Pärast rahuneb kiiresti.",
+    "analyys": "Sobib **aeglaselt koguneva pinge** tüübiga: viha kogunes tajutud ebaõigluse tõttu. Ennetamiseks oleks aidanud vastata taotlustele või selgitada viivitust. Ametnik saab nüüd tegeleda põhjusega (vastamata taotlused), mitte ainult tagajärjega."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Kiire põlemine ja aeglaselt kogunev pinge aetakse segi: kiire põleja reageerib takistusele kohe; kogunev pinge tekib nädalate jooksul ebaõigluse tundest.",
+    "Agressioon ja vägivald pannakse võrdseks."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline tüüp?",
+   "ryhmad": [
+    "Planeeritud rünnak",
+    "Kiire põlemine",
+    "Aeglaselt kogunev pinge"
+   ],
+   "read": [
+    {
+     "tekst": "Plaanib nädalaid rünnakut, et hirmutada juhtkonda",
+     "oige": 0
+    },
+    {
+     "tekst": "Kui telefonikõne keelatakse, lööb kohe ust ja rahuneb siis",
+     "oige": 1
+    },
+    {
+     "tekst": "Kuid tunneb, et teda koheldakse ebaõiglaselt, lõpuks plahvatab",
+     "oige": 2
+    }
+   ]
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

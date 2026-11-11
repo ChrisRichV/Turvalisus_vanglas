@@ -1,0 +1,136 @@
+{
+ "id": "ps-t05-04",
+ "tund": "ps-t05",
+ "jrk": 4,
+ "pealkiri": "Alkohol ja kuritegevus",
+ "lyhend": "Alkohol",
+ "ikoon": "pudel",
+ "lyhidalt": "Alkohol on teistest ainetest rohkem seotud vägivallaga: impulsiivsed rünnakud, vara lõhkumine, vandalism, süütamine. Lähisuhtevägivald väheneb, kui tegeletakse mõlema partneri joomisega; joobes juhtimise puhul toimib karistus koos raviprogrammiga.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Miks alkohol on eriline",
+   "tekst": "Alkohol on väga suurel määral seotud kuritegevuse, õnnetuste ja surmadega. Kursuse järgi on alkohol **rohkem seotud vägivallaga kui muud ained**, seepärast tuleb seda käsitleda eraldi.\n\nProbleemid tekivad harjumusliku või pikaajalise raske joomise ja tsükli-joomise korral – eriti „sooja tegemisel” odavate jookidega enne väljaminekut.",
+   "skeem": [
+    {
+     "tyyp": "kaardid",
+     "pealkiri": "Kuidas alkohol on seotud kuritegevusega",
+     "kaardid": [
+      {
+       "pealkiri": "Impulsi kontroll väheneb",
+       "silt": "1",
+       "tekst": "ei suuda teha sihilikke, teadlikke otsuseid"
+      },
+      {
+       "pealkiri": "Ootused",
+       "silt": "2",
+       "tekst": "mida inimene alkoholist ootab, mõjutab tema joomist – ka agressiivsust",
+       "toon": "b"
+      },
+      {
+       "pealkiri": "Alkoholimüoopia",
+       "silt": "3",
+       "tekst": "tähelepanu kitseneb, nähakse vähem infot ja lühemas plaanis"
+      },
+      {
+       "pealkiri": "Anksiolüütiline efekt",
+       "silt": "4",
+       "tekst": "julgus ja enesehinnang tõusevad lühiajaliselt – haavatavus tõrjumisele ja agressioonile",
+       "toon": "b"
+      },
+      {
+       "pealkiri": "Individuaalsed tegurid",
+       "silt": "5",
+       "tekst": "isiksus, hoiakud, hüpermaskuliinsus"
+      }
+     ],
+     "kitsad": true
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Mis toimib",
+   "tekst": "",
+   "skeem": {
+    "tyyp": "vordlus",
+    "pealkiri": "Kaks näidet kursusest",
+    "veerud": [
+     "Kuritegu",
+     "Mis aitab"
+    ],
+    "read": [
+     {
+      "silt": "Lähisuhtevägivald",
+      "lahtrid": [
+       "suur osa on seotud alkoholiga",
+       "vägivald väheneb, kui tegeletakse **mõlema partneri** joomise vähendamisega"
+      ]
+     },
+     {
+      "silt": "Joobes juhtimine",
+      "lahtrid": [
+       "korduv",
+       "ainus teaduslikult toimiv: **karistusele järgneb raviprogramm** (kognitiivsed oskused, haridus, sõltuvusravi, elektrooniline jälgimine)"
+      ]
+     }
+    ]
+   },
+   "read": []
+  },
+  "piiramine": {
+   "pealkiri": "Mida silmas pidada",
+   "tekst": "",
+   "punktid": [
+    "Alkohol on kultuuriliselt seotud pingelangetuse, vabaduse ja premeerimisega – see muudab loobumise raskeks.",
+    "Joobes juhtimise puhul karistus üksi ei toimi (vrd tund 1)."
+   ]
+  },
+  "vangla": {
+   "tekst": "Inspektor-kontaktisik saab aidata siduda vangistuse ja ravi: kinnipeetav, kes on vanglas joobes juhtimise eest, vajab ka programmi.",
+   "naide": {
+    "olukord": "Kinnipeetav, kes kannab karistust korduva joobes juhtimise eest, ütleb: „Paljud sõidavad pärast paari õlut, mul läks lihtsalt halvasti.”",
+    "analyys": "See on **võrdlev õigustus** ja **tagajärgede vähendamine** (tund 2). Kursuse järgi toimib karistus ainult koos raviprogrammiga – ametnik saab motiveerida programmis osalema ja arutada alkoholimüoopiat („tee oli tühi” – tähelepanu ahenes)."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Kõiki aineid käsitletakse ühtemoodi. Alkohol on kursuse järgi rohkem seotud vägivallaga.",
+    "Arvatakse, et joobes juhtimise puhul piisab karmimast karistusest."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis on kursuse järgi ainus teaduslikult toimiv sekkumine joobes juhtimisele?",
+   "valikud": [
+    "Pikem vangistus",
+    "Karistusele järgnev raviprogramm",
+    "Juhiloa äravõtmine üksi",
+    "Hoiatus"
+   ],
+   "oige": 1,
+   "selgitus": "Nt kognitiivsete oskuste programm, haridus, sõltuvusravi, elektrooniline jälgimine."
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis on alkoholimüoopia?",
+   "valikud": [
+    "Nägemise halvenemine",
+    "Tähelepanu kitsenemine vähesele infole ja lühikesele ajale",
+    "Isu alkoholi järele",
+    "Võõrutusnäht"
+   ],
+   "oige": 1,
+   "selgitus": "Inimene näeb vähem ja mõtleb lühemalt – nt agressiooni tagajärgedele ei mõelda."
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

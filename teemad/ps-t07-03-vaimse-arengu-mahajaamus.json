@@ -1,0 +1,95 @@
+{
+ "id": "ps-t07-03",
+ "tund": "ps-t07",
+ "jrk": 3,
+ "pealkiri": "Vaimse arengu mahajäämusega kinnipeetav",
+ "lyhend": "Vaimne mahajäämus",
+ "ikoon": "kogukond",
+ "lyhidalt": "Ajalooliselt peeti vaimse arengu mahajäämust kuritegevuse põhjuseks, kuid põhjuslikku seost ei ole leitud. Riski mõjutavad ümbritsevad inimesed, vaesus, sotsiaalpoliitika ja asutuse riskitase; kõige olulisem tugi on kogukond.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Müüt ja tegelikkus",
+   "tekst": "Ajaloo alguses hoiti vaimse arengu mahajäämusega inimesi lihtsalt lukus ja peeti kavalateks ning õelateks. Psühholoog Lewis Terman ütles 1911. aastal, et kõik vaimse mahajäämusega inimesed on potentsiaalsed kurjategijad.\n\nTänapäeva uuringud **ei ole leidnud põhjuslikku seost** vaimse arengu mahajäämuse ja kuritegevuse vahel – see seos on **ületähtsustatud**."
+  },
+  "alus": {
+   "pealkiri": "Riskid ja nende maandamine",
+   "tekst": "",
+   "skeem": {
+    "tyyp": "voog",
+    "pealkiri": "Mis mõjutab riski",
+    "sammud": [
+     {
+      "pealkiri": "Kogukond kui peamine abi",
+      "tekst": "Kõige olulisem abi riski maandamiseks on kommuun ja kogukond."
+     },
+     {
+      "pealkiri": "Ümbritsevad inimesed kui suurim risk",
+      "tekst": "Pereliikmete väärkohtlemine, hüljatus, kehvad suhted."
+     },
+     {
+      "pealkiri": "Vaesus ja kehv elukeskkond",
+      "tekst": "Suur risk."
+     },
+     {
+      "pealkiri": "Sotsiaalpoliitika",
+      "tekst": "Kui abi andvaid asutusi jääb vähemaks või need suletakse, risk kasvab."
+     },
+     {
+      "pealkiri": "Asutuse riskitase",
+      "tekst": "Mida kõrgema riskiga asutuses inimene viibib, seda varem on toimunud tema esimene rikkumine (McMurran, 2012)."
+     }
+    ]
+   },
+   "read": []
+  },
+  "piiramine": {
+   "pealkiri": "Mida silmas pidada",
+   "tekst": "",
+   "punktid": [
+    "Inimest on lihtne ära kasutada – teised kinnipeetavad võivad teda manipuleerida.",
+    "Ta ei pruugi aru saada reeglitest ega korraldustest – see ei ole trots.",
+    "Kohtle inimväärselt ja kohanda suhtlust ([[VangS § 4^1 lg 1]])."
+   ]
+  },
+  "vangla": {
+   "tekst": "Lühikesed laused, üks juhis korraga, kontrolli arusaamist („Räägi mulle oma sõnadega, mida sa nüüd teed”), kirjalikud või pildilised meeldetuletused.",
+   "naide": {
+    "olukord": "Kinnipeetav, kellel on kerge vaimne alaareng, viib teiste kinnipeetavate palvel asju ühest kambrist teise ja jääb sellega vahele.",
+    "analyys": "Teda on tõenäoliselt ära kasutatud – kursuse järgi on ümbritsevad inimesed tema suurim risk. Ametnik selgitab reegli lihtsalt, kontrollib arusaamist ja jälgib, kes teda kasutab; kaalub koos kolleegidega paigutust ja tuge."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Väidetakse, et vaimne alaareng põhjustab kuritegevust. Põhjuslikku seost ei ole leitud.",
+    "Unustatakse, et sotsiaalpoliitika (abi kättesaadavus) mõjutab riski."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mida näitavad tänapäeva uuringud vaimse arengu mahajäämuse ja kuritegevuse kohta?",
+   "valikud": [
+    "Seos on väga tugev ja põhjuslik",
+    "Põhjuslikku seost ei ole leitud – seos on ületähtsustatud",
+    "Kõik vaimse mahajäämusega inimesed panevad toime kuritegusid",
+    "Uuringuid ei ole tehtud"
+   ],
+   "oige": 1,
+   "selgitus": "Termani 1911. a väide on ümber lükatud."
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Termani (1911) ja McMurrani (2012) viited pärinevad õppejõu materjalist.",
+   "allikas": "tunnimaterjal"
+  },
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

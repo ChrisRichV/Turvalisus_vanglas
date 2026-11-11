@@ -1,0 +1,110 @@
+{
+ "id": "ps-t07-01",
+ "tund": "ps-t07",
+ "jrk": 1,
+ "pealkiri": "Haavatavate kinnipeetavate tuvastamine",
+ "lyhend": "Haavatavus",
+ "ikoon": "luup",
+ "lyhidalt": "Haavatavat kinnipeetavat aitavad ära tunda kuus tunnust: psühhiaatriline diagnoos, madal haridustase, nõrk sotsiaalne tugi, varasem ohvrikogemus, noor vanus ja puudulikud toimetulekuoskused.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Kuus tunnust",
+   "tekst": "",
+   "skeem": [
+    {
+     "tyyp": "kaardid",
+     "pealkiri": "Haavatavate kinnipeetavate tuvastamine",
+     "kaardid": [
+      {
+       "pealkiri": "Psühhiaatriline diagnoos",
+       "silt": "1"
+      },
+      {
+       "pealkiri": "Madal haridustase",
+       "silt": "2",
+       "toon": "b"
+      },
+      {
+       "pealkiri": "Nõrgad sotsiaalsed toetussüsteemid",
+       "silt": "3"
+      },
+      {
+       "pealkiri": "Varasem ohvrikogemus",
+       "silt": "4",
+       "toon": "b"
+      },
+      {
+       "pealkiri": "Noor vanus",
+       "silt": "5"
+      },
+      {
+       "pealkiri": "Puudulikud toimetulekuoskused",
+       "silt": "6",
+       "toon": "b"
+      }
+     ],
+     "kitsad": true
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Miks tuvastada",
+   "tekst": "Haavatavad kinnipeetavad satuvad vanglas sagedamini kiusamise ja ohvristamise ohvriks, neil on suurem enesevigastamise risk (tund 4) ja raskem kohaneda. Mida varem haavatavus märgatakse, seda paremini saab paigutust ja tuge planeerida.",
+   "read": [
+    {
+     "tase": "Vangla",
+     "viited": [
+      "VangS § 14 lg 1^2",
+      "VangS § 14 lg 3"
+     ],
+     "tekst": "Saabumisel hinnatakse riske; vastuvõtuosakonnas tehakse kindlaks elulooandmed ja sotsiaalpsühholoogiline prognoos täitmiskava jaoks."
+    }
+   ]
+  },
+  "piiramine": {
+   "pealkiri": "Mida silmas pidada",
+   "tekst": "",
+   "punktid": [
+    "Üks tunnus ei tee inimest automaatselt haavatavaks – vaata tervikut.",
+    "Haavatavus võib olla varjatud: eakas või häbenev inimene ei pruugi abi küsida.",
+    "Haavatav kinnipeetav võib käituda agressiivselt, sest ta kardab."
+   ]
+  },
+  "vangla": {
+   "tekst": "Inspektor-kontaktisik saab tunnused üles märkida ja arvestada neid suhtlemisel (lihtsam keel, selgitused) ja paigutuse ettepanekutes.",
+   "naide": {
+    "olukord": "Uus 19-aastane kinnipeetav on lõpetanud ainult põhikooli, tal puuduvad lähedased ja ta ütleb, et teda kiusati lastekodus.",
+    "analyys": "Mitu tunnust korraga: noor vanus, madal haridus, nõrk sotsiaalne tugi, varasem ohvrikogemus. Ametnik teavitab, et seda arvestataks paigutusel, selgitab reegleid lihtsalt ja kontrollib tema heaolu sagedamini."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Haavatavust seostatakse ainult vanusega.",
+    "Unustatakse ohvrikogemus – see ei kao vanglasse tulles."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis EI kuulu kursuse järgi haavatava kinnipeetava kuue tunnuse hulka?",
+   "valikud": [
+    "Noor vanus",
+    "Varasem ohvrikogemus",
+    "Kõrge haridustase",
+    "Puudulikud toimetulekuoskused"
+   ],
+   "oige": 2,
+   "selgitus": "Tunnus on **madal** haridustase."
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

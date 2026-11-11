@@ -1,0 +1,185 @@
+{
+ "id": "ps-t05-02",
+ "tund": "ps-t05",
+ "jrk": 2,
+ "pealkiri": "Sõltuvuse teke: miks just tema?",
+ "lyhend": "Sõltuvuse teke",
+ "ikoon": "juured",
+ "lyhidalt": "Sõltuvus kujuneb mitme teguri koosmõjul: isiksus, kasvukeskkond ja sõbrad, bioloogia, vaimne tervis, ühiskond ning õppimine (tingimine ja mudeldamine).",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Kuus tegurite rühma",
+   "tekst": "",
+   "skeem": [
+    {
+     "tyyp": "puu",
+     "pealkiri": "Sõltuvuse tekkimine",
+     "juur": {
+      "pealkiri": "Sõltuvus",
+      "tekst": "mitmeteguriline protsess"
+     },
+     "harud": [
+      {
+       "pealkiri": "Isiksus",
+       "lapsed": [
+        {
+         "pealkiri": "Impulsiivsus",
+         "tekst": "tegutseb hetke ajel"
+        },
+        {
+         "pealkiri": "Madal vastupidavus pettumustele",
+         "tekst": "otsib kiiret leevendust"
+        },
+        {
+         "pealkiri": "Tundlikkus tõrjutusele",
+         "tekst": "tarvitab, et sobituda"
+        }
+       ]
+      },
+      {
+       "pealkiri": "Kasvukeskkond",
+       "toon": "b",
+       "lapsed": [
+        {
+         "pealkiri": "Pere tarvitamiskultuur"
+        },
+        {
+         "pealkiri": "Kasvatusstiil",
+         "tekst": "autoritaarne või hooletussejättev"
+        },
+        {
+         "pealkiri": "Vägivald, lahutus, tunnetest ei räägita"
+        },
+        {
+         "pealkiri": "Sõbrad noorukieas",
+         "tekst": "esimesed katsetused koos; mida varem, seda suurem risk"
+        }
+       ]
+      },
+      {
+       "pealkiri": "Bioloogia",
+       "lapsed": [
+        {
+         "pealkiri": "Ainevahetus"
+        },
+        {
+         "pealkiri": "Esimene kogemus",
+         "tekst": "meeldiv → soov korrata"
+        },
+        {
+         "pealkiri": "GABA-retseptorid, tasu puudulikkuse sündroom"
+        }
+       ]
+      },
+      {
+       "pealkiri": "Vaimne tervis",
+       "toon": "b",
+       "lapsed": [
+        {
+         "pealkiri": "Kahjulikud lapsepõlvekogemused (ACE)"
+        },
+        {
+         "pealkiri": "Krooniline stress"
+        }
+       ]
+      },
+      {
+       "pealkiri": "Ühiskond",
+       "lapsed": [
+        {
+         "pealkiri": "Vaesus ja tööpuudus"
+        },
+        {
+         "pealkiri": "Hoiakud ja kättesaadavus"
+        }
+       ]
+      },
+      {
+       "pealkiri": "Õppimine",
+       "toon": "b",
+       "lapsed": [
+        {
+         "pealkiri": "Klassikaline tingimine",
+         "tekst": "olukord tekitab isu"
+        },
+        {
+         "pealkiri": "Operantne tingimine",
+         "tekst": "hea tunne kinnitab"
+        },
+        {
+         "pealkiri": "Mudeldamine; madal enesetõhusus; toimetulekuoskuste puudumine"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Olulised mõisted",
+   "tekst": "**GABA-retseptorid** on aju „vastuvõtjad”, mis mõjutavad rahunemist ja ärevust. Kui need ei tööta tavapäraselt, võib inimene otsida aineid, mis aitavad lõõgastuda.\n\n**Tasu puudulikkuse sündroom:** aju tasusüsteem ei anna piisavalt „hea tunde” signaale, igapäevased asjad ei paku rõõmu – inimene otsib tugevamaid stiimuleid.\n\n**ACE** (kahjulikud lapsepõlvekogemused) – vägivald, hooletusse jätmine, vanema sõltuvus – mõjutavad aju arengut ja toimetulekuoskusi.",
+   "read": []
+  },
+  "piiramine": {
+   "pealkiri": "Mida silmas pidada",
+   "tekst": "",
+   "punktid": [
+    "Üks tegur üksi sõltuvust ei tee – oluline on koosmõju.",
+    "Kasvukeskkond ei ole ainult „halb pere”: ka stabiilses peres võib olla vähe järelevalvet või tunnetest ei räägita.",
+    "Varajane algus noorukieas suurendab riski, sest aju alles areneb."
+   ]
+  },
+  "vangla": {
+   "tekst": "Tegurite tundmine aitab mõista, **mida aine inimesele andis** – ja mida tuleb asendada (nt toimetulekuoskused, kuuluvus, rahu).",
+   "naide": {
+    "olukord": "Kinnipeetav alustas kanepiga 13-aastaselt sõpradega, hiljem tarvitas amfetamiini ja müüs ise. Pere oli stabiilne, kuid isa töötas välismaal ja ema vahetustega.",
+    "analyys": "Tegurid: sõbrad ja varajane algus, soov kuuluda ja põnevus (isiksus), vähene järelevalve (keskkond), ainete kättesaadavus (ühiskond), hea tunne ja staatus kinnitasid käitumist (operantne tingimine). Sekkumine peab andma samad asjad – kuuluvus, põnevus, staatus – teisiti."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Sõltuvust seletatakse ainult „nõrga iseloomuga”.",
+    "Tasu puudulikkuse sündroom aetakse segi füüsilise sõltuvusega."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Millisesse rühma tegur kuulub?",
+   "ryhmad": [
+    "Isiksus",
+    "Kasvukeskkond",
+    "Bioloogia",
+    "Õppimine"
+   ],
+   "read": [
+    {
+     "tekst": "Ei talu pettumusi, otsib kiiret leevendust",
+     "oige": 0
+    },
+    {
+     "tekst": "Kodus joodi iga nädalavahetus",
+     "oige": 1
+    },
+    {
+     "tekst": "Esimene kogemus oli väga meeldiv",
+     "oige": 2
+    },
+    {
+     "tekst": "Pidu hakkas tekitama isu juba enne joomist",
+     "oige": 3
+    }
+   ]
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

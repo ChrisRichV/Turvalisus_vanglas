@@ -1,0 +1,155 @@
+{
+ "id": "ps-t08-02",
+ "tund": "ps-t08",
+ "jrk": 2,
+ "pealkiri": "Takistused koostöösuhtes",
+ "lyhend": "Takistused",
+ "ikoon": "tokke",
+ "lyhidalt": "Koostöösuhet takistavad kokkulepete puudumine, liigne sõprus, kiirustamine, mittevabatahtlik klient, ebausk meetodisse, pealesurutud reeglid, piiride puudumine ja pessimism. Takistuse märkamine on esimene samm suhte taastamiseks.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Kaheksa takistust",
+   "tekst": "Takistused võivad tulla kliendi varasematest kogemustest, usalduse puudumisest, motivatsiooni kõikumisest, rollide ebaselgusest ja asutuse piirangutest, mida klient ise ei valinud.",
+   "skeem": [
+    {
+     "tyyp": "kaardid",
+     "pealkiri": "Takistused koostöösuhtes",
+     "kaardid": [
+      {
+       "pealkiri": "Kokkulepete puudumine",
+       "silt": "1"
+      },
+      {
+       "pealkiri": "Liigne sõprus ja semutsemine",
+       "silt": "2",
+       "toon": "b"
+      },
+      {
+       "pealkiri": "Kiirustamine, kärsitus",
+       "silt": "3"
+      },
+      {
+       "pealkiri": "Mittevabatahtlik klient",
+       "silt": "4",
+       "tekst": "osutab vastupanu, kinnine suhtlus",
+       "toon": "b"
+      },
+      {
+       "pealkiri": "Ebausk sekkumismeetodisse",
+       "silt": "5"
+      },
+      {
+       "pealkiri": "Pealesurutud reeglid ja käsud",
+       "silt": "6",
+       "toon": "b"
+      },
+      {
+       "pealkiri": "Piiride mitte seadmine",
+       "silt": "7"
+      },
+      {
+       "pealkiri": "Pessimism",
+       "silt": "8",
+       "tekst": "ei usu kliendi muutumisse ega koostöö vajalikkusse",
+       "toon": "b"
+      }
+     ],
+     "kitsad": true
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Kelle poolt",
+   "tekst": "Enamik takistusi on **ametniku käitumises** – see on hea uudis, sest neid saab ise muuta.",
+   "skeem": {
+    "tyyp": "vordlus",
+    "pealkiri": "Takistuste allikas",
+    "veerud": [
+     "Ametniku poolt",
+     "Kliendi või olukorra poolt"
+    ],
+    "read": [
+     {
+      "silt": "Suhe",
+      "lahtrid": [
+       "liigne sõprus; piirid puuduvad",
+       "usaldamatus, varasemad kogemused"
+      ]
+     },
+     {
+      "silt": "Tempo ja meetod",
+      "lahtrid": [
+       "kiirustamine; ebausk meetodisse; pessimism",
+       "motivatsiooni kõikumine"
+      ]
+     },
+     {
+      "silt": "Raamid",
+      "lahtrid": [
+       "pealesurutud reeglid ja käsud; kokkuleppeid pole",
+       "mittevabatahtlik klient; asutuse piirangud"
+      ]
+     }
+    ]
+   },
+   "read": []
+  },
+  "piiramine": {
+   "pealkiri": "Kaks äärmust",
+   "tekst": "Liigne sõprus ja liigne käsutamine on mõlemad takistused. Vaja on tasakaalu: **soe suhe + selged piirid ja kokkulepped**.",
+   "punktid": []
+  },
+  "vangla": {
+   "tekst": "",
+   "naide": {
+    "olukord": "Kinnipeetav keeldub programmidest: „Programm ei saa mulle midagi õpetada, mida ma ise ei tea.” Ametnik vastab: „Kui sa ei osale, ei saa sa ka midagi.”",
+    "analyys": "Kinnipeetav on **mittevabatahtlik klient** ja **ei usu meetodisse**; ametniku vastus on **pealesurutud reegel**. Parem: tunnustada tema teadmisi, küsida tema eesmärke ja otsida koos, kas mõni programmi osa aitaks just neid saavutada – ning leppida kokku järgmine samm."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Arvatakse, et soojem ja sõbralikum on alati parem. Liigne sõprus on takistus.",
+    "Kõik takistused omistatakse kliendile."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline takistus?",
+   "ryhmad": [
+    "Liigne sõprus",
+    "Kiirustamine",
+    "Pealesurutud reeglid",
+    "Pessimism"
+   ],
+   "read": [
+    {
+     "tekst": "Ametnik räägib kinnipeetavaga oma eraelust ja lubab „mitte nii rangelt võtta”",
+     "oige": 0
+    },
+    {
+     "tekst": "Ametnik tahab esimesel kohtumisel kogu plaani paika panna",
+     "oige": 1
+    },
+    {
+     "tekst": "„Sa teed nii, nagu ma ütlen, punkt.”",
+     "oige": 2
+    },
+    {
+     "tekst": "„Temast ei saa niikuinii asja.”",
+     "oige": 3
+    }
+   ]
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

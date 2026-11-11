@@ -1,0 +1,200 @@
+{
+ "id": "ps-t02-04",
+ "tund": "ps-t02",
+ "jrk": 4,
+ "pealkiri": "Kriminaalse käitumise teooriad: enesekontroll ja moraalne tagasitõmbumine",
+ "lyhend": "Enesekontroll ja õigustused",
+ "ikoon": "mask",
+ "lyhidalt": "Üldise kuriteoteooria järgi teevad madala enesekontrolliga inimesed sagedamini kuritegusid – ja enesekontrolli saab arendada. Bandura moraalse tagasitõmbumise teooria näitab, kuidas inimene õigustab tegu, et oma moraalist lahti öelda.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Üldine kuriteoteooria",
+   "tekst": "**Üldine kuriteoteooria** (Gottfredson ja Hirschi, 1990): madala enesekontrolliga inimesed teevad suurema tõenäosusega kuritegusid. Käitumist juhivad **lühiajalised positiivsed tagajärjed**, pikaajalistele negatiivsetele ei mõelda.",
+   "skeem": [
+    {
+     "tyyp": "kaardid",
+     "pealkiri": "Madal enesekontroll",
+     "kaardid": [
+      {
+       "pealkiri": "Impulsiivsus",
+       "silt": "⚡",
+       "tekst": "ei suuda naudingut edasi lükata"
+      },
+      {
+       "pealkiri": "Püsivuse puudumine",
+       "silt": "↯",
+       "tekst": "sihikindlust ei ole"
+      },
+      {
+       "pealkiri": "Riskialdis",
+       "silt": "!",
+       "tekst": "otsib põnevust",
+       "toon": "b"
+      },
+      {
+       "pealkiri": "Füüsiline eelistus",
+       "silt": "▲",
+       "tekst": "eelistab füüsilist tegevust vaimsele"
+      },
+      {
+       "pealkiri": "Enesekesksus",
+       "silt": "◎",
+       "tekst": "ükskõiksus teiste suhtes",
+       "toon": "b"
+      },
+      {
+       "pealkiri": "Kõikuv tuju",
+       "silt": "~",
+       "tekst": "iseloom ja meeleolu muutlik"
+      }
+     ],
+     "kitsad": true
+    }
+   ],
+   "jarel": "Madala enesekontrolliga inimesel on raske suhelda ka tavaliste institutsioonidega (töökoht, kool, KOV), sest see nõuab planeerimist ja pühendumist.\n\n**Hea uudis: enesekontrolli saab arendada.** Selle tuum on **enesetõhusus** – inimese usk, et ta suudab ennast kontrollida ja keerulistes olukordades hakkama saada. Abiks on ka oskus mõelda otsuste tulevikutagajärgedele."
+  },
+  "alus": {
+   "pealkiri": "Bandura: moraalne tagasitõmbumine",
+   "tekst": "Kriminaalse mõtlemise eesmärk on **lahti öelda oma moraalsetest väärtustest**, et kuritegu toime panna. Bandura toob välja kaheksa viisi:",
+   "skeem": {
+    "tyyp": "vordlus",
+    "pealkiri": "Moraalse tagasitõmbumise viisid",
+    "veerud": [
+     "Mis see on",
+     "Näide"
+    ],
+    "read": [
+     {
+      "silt": "Moraalne õigustamine",
+      "lahtrid": [
+       "halb tegu esitatakse hea eesmärgi nimel vajalikuna",
+       "„Tegin seda oma pere kaitsmiseks.”"
+      ]
+     },
+     {
+      "silt": "Eufemistlikud sildid",
+      "lahtrid": [
+       "pehmendatud keel",
+       "„Kahjude minimeerimine” vs „tsiviilide tapmine”"
+      ]
+     },
+     {
+      "silt": "Võrdlev õigustus",
+      "lahtrid": [
+       "võrdlemine millegi hullemaga",
+       "„Vähemalt ma ei tee nii halbu asju nagu teised.”"
+      ]
+     },
+     {
+      "silt": "Vastutuse hajutamine",
+      "lahtrid": [
+       "süü autoriteedile või käsuandjale",
+       "„Ma lihtsalt täitsin käsku.”"
+      ]
+     },
+     {
+      "silt": "Vastutuse jagamine",
+      "lahtrid": [
+       "vastutus lahustub grupis",
+       "„Kõik tegid seda.”"
+      ]
+     },
+     {
+      "silt": "Tagajärgede eiramine",
+      "lahtrid": [
+       "kahju vähendamine",
+       "„See ei tee kellelegi haiget.”"
+      ]
+     },
+     {
+      "silt": "Dehumaniseerimine",
+      "lahtrid": [
+       "ohver pole „päris inimene”",
+       "„Nad on loomad.”"
+      ]
+     },
+     {
+      "silt": "Süü nihutamine",
+      "lahtrid": [
+       "süü ohvrile",
+       "„Ta ise provotseeris.”"
+      ]
+     }
+    ]
+   },
+   "read": []
+  },
+  "piiramine": {
+   "pealkiri": "Mida silmas pidada",
+   "tekst": "",
+   "punktid": [
+    "Õigustused ei ole alati valetamine – inimene võib neisse ise uskuda. Vaidlemine tugevdab neid sageli.",
+    "Enesekontrolli ei arendata karistusega, vaid harjutamisega: planeerimine, tagajärgedele mõtlemine, eduelamused (enesetõhusus)."
+   ]
+  },
+  "vangla": {
+   "tekst": "Õigustusi kuuleb vanglas iga päev. Inspektor-kontaktisik saab need **ära tunda ja nimetada** ning küsida avatud küsimusi, mis panevad inimese teisiti vaatama.",
+   "naide": {
+    "olukord": "Kinnipeetav räägib oma teost: „Kui oled selles maailmas sees, kehtivad teised reeglid. Mulle anti ülesanne.”",
+    "analyys": "Siin on **moraalne õigustamine** („teised reeglid”) ja **vastutuse hajutamine** („mulle anti ülesanne”). Ametnik ei vaidle, vaid küsib: „Kes tegelikult otsustas, mida sa tol õhtul teed?” või „Kuidas see sinu venna silmis paistaks?”"
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Vastutuse hajutamine ja jagamine aetakse segi: hajutamine – süü **käsuandjale**; jagamine – vastutus lahustub **grupis**.",
+    "Arvatakse, et madal enesekontroll on muutumatu. Kursuse järgi saab seda arendada, eriti enesetõhususe kaudu."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline moraalse tagasitõmbumise viis?",
+   "ryhmad": [
+    "Võrdlev õigustus",
+    "Süü nihutamine",
+    "Tagajärgede eiramine",
+    "Vastutuse hajutamine"
+   ],
+   "read": [
+    {
+     "tekst": "„Teised peksavad palju hullemini, mina andsin ainult korra.”",
+     "oige": 0
+    },
+    {
+     "tekst": "„Ta ise ronis mulle näkku.”",
+     "oige": 1
+    },
+    {
+     "tekst": "„Pood on kindlustatud, keegi ei kannata.”",
+     "oige": 2
+    },
+    {
+     "tekst": "„Vanem ütles, et tee ära, mis ma siis teen.”",
+     "oige": 3
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis on üldise kuriteoteooria järgi enesekontrolli arendamisel keskne?",
+   "valikud": [
+    "Karmimad karistused",
+    "Enesetõhusus – usk, et suudan ennast kontrollida",
+    "Isolatsioon",
+    "Sõprade vahetamine"
+   ],
+   "oige": 1,
+   "selgitus": "Enesetõhususe arendamisega kasvab enesekontrolli võimekus."
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

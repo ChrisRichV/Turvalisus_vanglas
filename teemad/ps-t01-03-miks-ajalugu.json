@@ -1,0 +1,135 @@
+{
+ "id": "ps-t01-03",
+ "tund": "ps-t01",
+ "jrk": 3,
+ "pealkiri": "Miks rääkida ajaloost: psühholoogia ja sotsioloogia",
+ "lyhend": "Miks ajalugu",
+ "ikoon": "luup",
+ "lyhidalt": "Ajalugu näitab, mida on juba proovitud ja mis ei toiminud – nii ei leiutata jalgratast uuesti. Psühholoogia on ajaloos rääkinud rohkem sellest, kuidas kuritegevust vähendada, sotsioloogia aga selle põhjustest.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Milleks ajalugu",
+   "tekst": "Juhan Liiv on öelnud: „Kes minevikku ei mäleta, see elab tulevikuta.” Kursuse järgi aitab ajaloo tundmine kolmel moel:",
+   "skeem": [
+    {
+     "tyyp": "kaardid",
+     "pealkiri": "Mida ajalugu annab",
+     "kaardid": [
+      {
+       "pealkiri": "Hüpped",
+       "silt": "1",
+       "tekst": "Millised avastused minevikust on aidanud korrektsioonis edasi liikuda."
+      },
+      {
+       "pealkiri": "Mis ei toiminud",
+       "silt": "2",
+       "tekst": "Milliseid lähenemisi on proovitud, kuid need ei andnud tulemust – aega ja raha hoiab kokku.",
+       "toon": "b"
+      },
+      {
+       "pealkiri": "Hoiakud",
+       "silt": "3",
+       "tekst": "Millistest hoiakutest ja meelsusest oleme välja kasvanud – ja miks mõni praktika tundub täna arusaamatu."
+      }
+     ],
+     "kitsad": true
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Psühholoogia vs sotsioloogia",
+   "tekst": "Kaks teadust on kuritegevust vaadanud eri nurga alt.",
+   "skeem": {
+    "tyyp": "vordlus",
+    "pealkiri": "Kaks vaatenurka",
+    "veerud": [
+     "Psühholoogia",
+     "Sotsioloogia"
+    ],
+    "read": [
+     {
+      "silt": "Peamine küsimus",
+      "lahtrid": [
+       "**kuidas** kuritegelikku käitumist vähendada",
+       "**miks** kriminaalne käitumine tekib"
+      ]
+     },
+     {
+      "silt": "Rõhk",
+      "lahtrid": [
+       "inimese käitumine ja selle muutmine",
+       "ühiskond, põhjused ja teooriad"
+      ]
+     },
+     {
+      "silt": "Vanglas",
+      "lahtrid": [
+       "sekkumised, programmid, suhtlus",
+       "riskitegurid keskkonnas, ühiskonna mõju"
+      ]
+     }
+    ]
+   },
+   "read": []
+  },
+  "piiramine": {
+   "pealkiri": "Mida silmas pidada",
+   "tekst": "Kumbki vaade üksi ei ole piisav.",
+   "punktid": [
+    "Kui teame ainult põhjuseid, ei oska me midagi muuta.",
+    "Kui teame ainult sekkumisi, võime neid kasutada vale inimese või vale probleemi peal.",
+    "Ükski teooria üksinda ei selgita kriminaalset käitumist – teooriaid tuleb siduda (vt tund 2)."
+   ]
+  },
+  "vangla": {
+   "tekst": "Paljud vanglapraktikad on ajaloo jääk. Kui tead, kust praktika tuleb, oskad küsida, kas see täna veel toimib.",
+   "naide": {
+    "olukord": "Kolleeg ütleb: „Nii on alati tehtud.”",
+    "analyys": "Ajaloo tundmine aitab vastata: „Seda on proovitud ja tulemust see ei andnud” või „See tuleneb ajast, mil usuti, et ainult karistus mõjub.” Nii saab praktikat põhjendatult muuta, mitte ainult harjumusest jätkata."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Ajaloost räägitakse kui kuupäevade päheõppimisest. Kursuse eesmärk on mõista, miks praktikad on sellised ja mida mitte korrata.",
+    "Psühholoogia ja sotsioloogia pannakse vahetusse: psühholoogia – kuidas vähendada; sotsioloogia – miks tekib."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Kumma vaatenurgaga on tegu?",
+   "ryhmad": [
+    "Psühholoogia",
+    "Sotsioloogia"
+   ],
+   "read": [
+    {
+     "tekst": "Kuidas aidata kinnipeetaval viha kontrollida?",
+     "oige": 0
+    },
+    {
+     "tekst": "Miks on vaesemates piirkondades rohkem kuritegevust?",
+     "oige": 1
+    },
+    {
+     "tekst": "Milline programm vähendab korduvkuritegevust?",
+     "oige": 0
+    },
+    {
+     "tekst": "Kuidas mõjutab ühiskonna ebavõrdsus kuritegevust?",
+     "oige": 1
+    }
+   ]
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

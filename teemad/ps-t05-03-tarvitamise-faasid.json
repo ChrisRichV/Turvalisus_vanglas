@@ -1,0 +1,179 @@
+{
+ "id": "ps-t05-03",
+ "tund": "ps-t05",
+ "jrk": 3,
+ "pealkiri": "Tarvitamise faasid: eksperimenteerijast sõltlaseni",
+ "lyhend": "Tarvitamise faasid",
+ "ikoon": "astmed",
+ "lyhidalt": "Tarvitamine ei muutu sõltuvuseks üleöö. Faasid on eksperimenteerija, regulaarne tarvitaja, kuritarvitaja ja sõltlane – igas faasis muutuvad põhjused, sagedus ja tagajärjed.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Neli astet",
+   "tekst": "Ainete tarvitamine kujuneb enamasti **järk-järgult**. Faaside tundmine aitab märgata riske ja toetada inimest õigel hetkel.",
+   "skeem": [
+    {
+     "tyyp": "trepp",
+     "pealkiri": "Tarvitamise etapid",
+     "astmed": [
+      {
+       "silt": "1",
+       "pealkiri": "Eksperimenteerija",
+       "tekst": "juhuslik, planeerimata; sõbrad, uudishimu; vähene mõju elule"
+      },
+      {
+       "silt": "2",
+       "pealkiri": "Regulaarne tarvitaja",
+       "tekst": "nt nädalavahetustel; lõõgastus, hea enesetunne, probleemide unustamine; riskikäitumine (nt joobes juhtimine)"
+      },
+      {
+       "silt": "3",
+       "pealkiri": "Kuritarvitaja",
+       "tekst": "sage, oluline osa elust; negatiivsete emotsioonide leevendamine; terviseprobleemid, himu, eemaldumine",
+       "toon": "b"
+      },
+      {
+       "silt": "4",
+       "pealkiri": "Sõltlane",
+       "tekst": "kontrollimatu ja pidev; et vältida võõrutust; kohustused unarusse, probleemid suhetes ja töös, võimalik kuritegevus",
+       "toon": "b"
+      }
+     ],
+     "tipp": "põhjus muutub: uudishimust → halva enesetunde vältimiseks"
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Mis faaside vahel muutub",
+   "tekst": "",
+   "skeem": {
+    "tyyp": "vordlus",
+    "pealkiri": "Faaside võrdlus",
+    "veerud": [
+     "Tarvitamise iseloom",
+     "Põhjus ja funktsioon",
+     "Tagajärjed"
+    ],
+    "read": [
+     {
+      "silt": "Eksperimenteerija",
+      "lahtrid": [
+       "juhuslik, planeerimata",
+       "sotsiaalne, uudishimu",
+       "tavaliselt vähene mõju"
+      ]
+     },
+     {
+      "silt": "Regulaarne",
+      "lahtrid": [
+       "perioodiline",
+       "lõõgastus, hea tunne, probleemide unustamine",
+       "riskikäitumine; olukorrad seostuvad tarvitamisega"
+      ]
+     },
+     {
+      "silt": "Kuritarvitaja",
+      "lahtrid": [
+       "sage, oluline osa elust",
+       "negatiivsete emotsioonide leevendamine",
+       "tervis, himu, raske loobuda, meeleolu, eemaldumine"
+      ]
+     },
+     {
+      "silt": "Sõltlane",
+      "lahtrid": [
+       "kontrollimatu, pidev",
+       "võõrutuse vältimine",
+       "võõrutusnähud, kohustused, suhted, töö, kuritegevus"
+      ]
+     }
+    ]
+   },
+   "read": []
+  },
+  "piiramine": {
+   "pealkiri": "Mida silmas pidada",
+   "tekst": "",
+   "punktid": [
+    "Faasi määramiseks on vaja infot: kui sageli, miks, millised tagajärjed.",
+    "Vanglas võib tarvitamine katkeda, kuid see ei tähenda, et faas oleks muutunud – vabanemisel on tagasilanguse risk.",
+    "Sõltuvusest tulenevad võõrutusnähud vangistuse alguses suurendavad enesevigastamise riski (tund 4)."
+   ]
+  },
+  "vangla": {
+   "tekst": "Faas aitab valida tuge: eksperimenteerijale info ja riskid; kuritarvitajale ja sõltlasele programm ja ravi; kõigile vabanemise eel turvaplaan.",
+   "skeem": {
+    "tyyp": "kontroll",
+    "pealkiri": "Määra faas",
+    "olukord": "Kinnipeetav jõi pärast tööd peaaegu iga päev, et „pinged maha võtta”. Ta jäi mitu korda joobes roolis vahele. Ta ütleb, et võib igal hetkel lõpetada, kuid ei ole proovinud.",
+    "sammud": [
+     {
+      "silt": "Sagedus",
+      "kysimus": "Kui sageli ja kui oluline?",
+      "vastus": "Peaaegu iga päev – oluline osa elust."
+     },
+     {
+      "silt": "Põhjus",
+      "kysimus": "Mis on funktsioon?",
+      "vastus": "Pinge ja negatiivsete emotsioonide leevendamine."
+     },
+     {
+      "silt": "Tagajärg",
+      "kysimus": "Millised tagajärjed?",
+      "vastus": "Riskikäitumine (joobes juhtimine), kriminaalkaristused."
+     },
+     {
+      "silt": "Faas",
+      "kysimus": "Mis faas?",
+      "vastus": "Vähemalt **kuritarvitaja**. Sõltlase tunnuseid (võõrutus, kontrollimatus) kirjelduses pole – vaja täpsustada."
+     }
+    ],
+    "jareldus": "Faasi määramine aitab valida sekkumise; kindla hinnangu annab spetsialist."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Iga tarvitajat nimetatakse sõltlaseks.",
+    "Unustatakse, et põhjus muutub: algul uudishimu, hiljem halva enesetunde vältimine."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline faas?",
+   "ryhmad": [
+    "Eksperimenteerija",
+    "Regulaarne tarvitaja",
+    "Kuritarvitaja",
+    "Sõltlane"
+   ],
+   "read": [
+    {
+     "tekst": "Proovis peol sõprade seltsis kord kanepit",
+     "oige": 0
+    },
+    {
+     "tekst": "Tarvitab igal nädalavahetusel, et lõõgastuda",
+     "oige": 1
+    },
+    {
+     "tekst": "Tarvitab iga päev, et halba tuju leevendada; tervis halveneb",
+     "oige": 2
+    },
+    {
+     "tekst": "Tarvitab pidevalt, et vältida võõrutusnähte",
+     "oige": 3
+    }
+   ]
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

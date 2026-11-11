@@ -1,0 +1,144 @@
+{
+ "id": "ps-t08-03",
+ "tund": "ps-t08",
+ "jrk": 3,
+ "pealkiri": "Väärtused ja väärtuskonfliktid",
+ "lyhend": "Väärtuskonfliktid",
+ "ikoon": "kaalud",
+ "lyhidalt": "Väärtused näitavad, kuidas tahame olla ja käituda. Väärtuskonflikt tekib, kui kaks olulist väärtust põrkuvad. Ametnikul võib tekkida isiklik (kliendi teod on vastuolus tema väärtustega) või professionaalne (pädevusest ei piisa) väärtuskonflikt.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Mis on väärtused",
+   "tekst": "Väärtused on meie sügavad soovid selle kohta, **kuidas tahame olla ja käituda** – enda, teiste ja maailma suhtes. Need vastavad küsimustele: *mille eest ma seisan? milline inimene tahan olla?*\n\nVäärtused ei ole jäigad reeglid ega kaasasündinud – neid saab valida, teadvustada ja ümber mõtestada.\n\n**Väärtuskonflikt** tekib, kui kaks olulist väärtust põrkuvad ja mõlemat ei saa korraga järgida. Märgid: kahtlemine, ebakindlus, segadus, korduv ümberotsustamine, otsuse edasilükkamine."
+  },
+  "alus": {
+   "pealkiri": "Kaks tasandit ametniku töös",
+   "tekst": "",
+   "skeem": {
+    "tyyp": "vordlus",
+    "pealkiri": "Väärtuskonflikt juhtumikorraldaja töös",
+    "veerud": [
+     "Isiklik",
+     "Professionaalne"
+    ],
+    "read": [
+     {
+      "silt": "Mis juhtub",
+      "lahtrid": [
+       "ametniku enda hoiakud hakkavad mõjutama koostööd",
+       "ametnik tunneb, et tema oskused või kvalifikatsioon ei võimalda pakkuda vajalikku tuge"
+      ]
+     },
+     {
+      "silt": "Näide",
+      "lahtrid": [
+       "kliendi tegu (nt laste vastu) või maailmavaade on tugevas vastuolus ametniku väärtustega",
+       "klient vajab abi, mida ametnik ei oska anda"
+      ]
+     },
+     {
+      "silt": "Mis põrkub",
+      "lahtrid": [
+       "professionaalne neutraalsus ja austus ↔ isiklik hinnang",
+       "abistamise soov ↔ pädevuse piirid"
+      ]
+     }
+    ]
+   },
+   "read": []
+  },
+  "piiramine": {
+   "pealkiri": "Kaheksa toimetulekuviisi",
+   "tekst": "",
+   "skeem": {
+    "tyyp": "kaardid",
+    "pealkiri": "Võimalused väärtuskonfliktiga toime tulla",
+    "kaardid": [
+     {
+      "pealkiri": "Erista professionaalseid väärtusi isiklikest",
+      "silt": "01"
+     },
+     {
+      "pealkiri": "Väärtuse muutmine",
+      "silt": "02",
+      "toon": "b"
+     },
+     {
+      "pealkiri": "Väärtuse täitmise viisi muutmine",
+      "silt": "03"
+     },
+     {
+      "pealkiri": "Sõnasta väärtused, mis on jäikade seisukohtade, vihakõne või reeglite taga",
+      "silt": "04",
+      "toon": "b"
+     },
+     {
+      "pealkiri": "Mõista põhjuseid",
+      "silt": "05",
+      "tekst": "elukogemus ja kultuuriline taust"
+     },
+     {
+      "pealkiri": "Selgita sobivat väärtussüsteemi koostöö alguses",
+      "silt": "06",
+      "toon": "b"
+     },
+     {
+      "pealkiri": "Leia inimlik ühisosa",
+      "silt": "07",
+      "tekst": "ilma täielikult nõustumata"
+     },
+     {
+      "pealkiri": "Uuri, kas taga on väärtused või valu",
+      "silt": "08",
+      "tekst": "või segadusest tingitud toimetulekuviis",
+      "toon": "b"
+     }
+    ],
+    "kitsad": true
+   },
+   "punktid": []
+  },
+  "vangla": {
+   "tekst": "Vanglas tuleb sageli töötada inimesega, kelle tegu on ametnikule vastumeelne. Professionaalsus tähendab, et isiklik hinnang ei mõjuta kohtlemist – inimväärikuse austamine on seaduse nõue ([[VangS § 4^1 lg 1]]).",
+   "naide": {
+    "olukord": "Ametnik peab koostama vabanemise plaani kinnipeetavaga, kes on süüdi mõistetud tapmises. Ametnik märkab, et lükkab kohtumisi edasi.",
+    "analyys": "Edasilükkamine on väärtuskonflikti märk (isiklik). Abiks: eristada professionaalsed väärtused isiklikest (01) ja leida inimlik ühisosa (07) – nt kinnipeetava soov olla vennale eeskujuks – ilma tegu õigustamata. Vajadusel arutada juhi või kolleegiga."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Väärtuskonflikti peetakse veaks. Kursuse järgi viitab see keerulisele ja tähenduslikule valikule.",
+    "Ühisosa leidmist peetakse nõustumiseks. Ühisosa saab leida ilma täieliku nõustumiseta."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Isiklik või professionaalne väärtuskonflikt?",
+   "ryhmad": [
+    "Isiklik",
+    "Professionaalne"
+   ],
+   "read": [
+    {
+     "tekst": "Ametnikul on raske austusega suhelda kinnipeetavaga, kes avaldab rassistlikke vaateid",
+     "oige": 0
+    },
+    {
+     "tekst": "Ametnik tahab aidata kinnipeetavat võlgadega, kuid ei tunne seda valdkonda",
+     "oige": 1
+    }
+   ]
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

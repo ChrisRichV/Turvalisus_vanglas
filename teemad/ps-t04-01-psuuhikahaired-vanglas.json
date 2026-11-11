@@ -1,0 +1,191 @@
+{
+ "id": "ps-t04-01",
+ "tund": "ps-t04",
+ "jrk": 1,
+ "pealkiri": "Psüühikahäired vanglas ja RHK-10 põhigrupid",
+ "lyhend": "Psüühikahäired",
+ "ikoon": "pulss",
+ "lyhidalt": "Psüühikahäire on märgatav nihe inimese psüühilises tegevuses. Abi on vaja, kui inimene ei tule toime oma sotsiaalse rolliga. Psüühikahäiretega kinnipeetavatel on suurem enesevigastamise, uue kuriteo ja süsteemi jäämise risk.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Mis on psüühikahäire",
+   "tekst": "Psüühikahäirest räägitakse siis, kui inimese psüühilises tegevuses või struktuuris on **märgatavad nihked**, mis erinevad oluliselt tavapärasest. Abivajadus tekib eelkõige siis, kui inimene **ei suuda kohaneda ega tulla toime oma sotsiaalse rolliga**.\n\nPsüühikahäiretega inimestel on sageli ka kaasuvad probleemid (sõltuvus, kroonilised haigused), rohkem töötust ja kodutust. Seos vägivaldsete kuritegude ja psüühikahäirete vahel on eriti tugev **naistel**.",
+   "skeem": [
+    {
+     "tyyp": "kaardid",
+     "pealkiri": "Psüühikahäirega kinnipeetaval on suurem risk",
+     "kaardid": [
+      {
+       "pealkiri": "Enesevigastamine",
+       "silt": "1",
+       "tekst": "kõrgem risk kui häireta kinnipeetaval"
+      },
+      {
+       "pealkiri": "Uus kuritegu vanglas",
+       "silt": "2",
+       "toon": "b"
+      },
+      {
+       "pealkiri": "Kriminaalhoolduse nõuete rikkumine",
+       "silt": "3",
+       "tekst": "või uus kuritegu pärast vabanemist"
+      },
+      {
+       "pealkiri": "Jääb süsteemi",
+       "silt": "4",
+       "tekst": "püsib kauem süsteemi hammasrataste vahel",
+       "toon": "b"
+      }
+     ],
+     "kitsad": true
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "RHK-10 põhigrupid",
+   "tekst": "Rahvusvaheline haiguste klassifikatsioon (RHK-10) jagab psüühika- ja käitumishäired gruppidesse F0–F9.",
+   "read": [
+    {
+     "tase": "Vangla",
+     "viited": [
+      "VangS § 14 lg 1",
+      "VangS § 52 lg 2"
+     ],
+     "tekst": "Vanglasse saabudes läbib kinnipeetav tervisekontrolli; tervishoiutöötaja on kohustatud kinnipeetavate terviseseisundit pidevalt jälgima ja vajadusel suunama eriarstiabi juurde."
+    }
+   ],
+   "skeem": {
+    "tyyp": "tasandid",
+    "pealkiri": "RHK-10 psüühikahäirete põhigrupid",
+    "tasandid": [
+     {
+      "pealkiri": "F0–F2",
+      "kastid": [
+       {
+        "pealkiri": "F0 Orgaanilised",
+        "tekst": "nt dementsus"
+       },
+       {
+        "pealkiri": "F1 Psühhoaktiivsetest ainetest",
+        "tekst": "nt sõltuvus, kuritarvitamine"
+       },
+       {
+        "pealkiri": "F2 Psühhootilised",
+        "tekst": "nt skisofreenia"
+       }
+      ]
+     },
+     {
+      "pealkiri": "F3–F5",
+      "toon": "b",
+      "kastid": [
+       {
+        "pealkiri": "F3 Meeleoluhäired",
+        "tekst": "nt depressioon"
+       },
+       {
+        "pealkiri": "F4 Ärevus-, dissotsiatiivsed, somatoformsed",
+        "tekst": "nt foobiad, äge stressreaktsioon"
+       },
+       {
+        "pealkiri": "F5 Söömis-, une-, seksuaalfunktsiooni häired"
+       }
+      ]
+     },
+     {
+      "pealkiri": "F6–F9",
+      "kastid": [
+       {
+        "pealkiri": "F6 Isiksus- ja muud käitumishäired"
+       },
+       {
+        "pealkiri": "F7 Vaimne alaareng"
+       },
+       {
+        "pealkiri": "F8 Psüühilise arengu spetsiifilised",
+        "tekst": "nt lugemishäire, autism"
+       },
+       {
+        "pealkiri": "F9 Lapse- ja noorukiea häired",
+        "tekst": "nt käitumishäire"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  "piiramine": {
+   "pealkiri": "Ametniku roll",
+   "tekst": "Diagnoosi paneb arst või kliiniline psühholoog – ametnik ei diagnoosi.",
+   "punktid": [
+    "Ametniku ülesanne on **märgata** muutusi ja **teavitada** tervishoiutöötajat.",
+    "Sümptomid võivad häirida vangla päevakava ja pahandada nii ametnikke kui teisi kinnipeetavaid – see ei ole „tahtlik halb käitumine”.",
+    "Kohtle inimväärselt: vangistus ei tohi põhjustada rohkem kannatusi kui paratamatu ([[VangS § 4^1 lg 1]])."
+   ]
+  },
+  "vangla": {
+   "tekst": "Inspektor-kontaktisik näeb kinnipeetavat sageli rohkem kui arst. Tema tähelepanekud (uni, söömine, suhtlemine, hügieen) on tervishoiutöötajale väärtuslik info.",
+   "naide": {
+    "olukord": "Kinnipeetav, kes varem käis tööl, ei tõuse enam voodist, ei pese ennast ja vastab ühesilbiliselt.",
+    "analyys": "See võib viidata meeleoluhäirele (F3). Ametnik ei diagnoosi, vaid räägib kinnipeetavaga, dokumenteerib muutused ja teavitab tervishoiutöötajat, kes on kohustatud terviseseisundit jälgima ([[VangS § 52 lg 2]])."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "F1 (ainetest tingitud) ja F6 (isiksushäired) aetakse segi.",
+    "Arvatakse, et ametnik peab diagnoosi panema. Ametnik märkab ja teavitab."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline RHK-10 grupp?",
+   "ryhmad": [
+    "F1",
+    "F2",
+    "F3",
+    "F7"
+   ],
+   "read": [
+    {
+     "tekst": "Sõltuvus alkoholist",
+     "oige": 0
+    },
+    {
+     "tekst": "Skisofreenia",
+     "oige": 1
+    },
+    {
+     "tekst": "Depressioon",
+     "oige": 2
+    },
+    {
+     "tekst": "Vaimne alaareng",
+     "oige": 3
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Millal tekib kursuse järgi abivajadus psüühikahäire korral?",
+   "valikud": [
+    "Kui inimene on vanglas",
+    "Kui inimene ei suuda kohaneda ega tulla toime oma sotsiaalse rolliga",
+    "Kui inimene on kurb",
+    "Alati, kui on diagnoos"
+   ],
+   "oige": 1,
+   "selgitus": "Psüühikahäire on märgatav nihe; abi on vaja, kui toimetulek on häiritud."
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

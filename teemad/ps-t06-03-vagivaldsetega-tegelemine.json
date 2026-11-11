@@ -1,0 +1,131 @@
+{
+ "id": "ps-t06-03",
+ "tund": "ps-t06",
+ "jrk": 3,
+ "pealkiri": "Vägivaldsete kinnipeetavatega tegelemine",
+ "lyhend": "Vägivaldsetega tegelemine",
+ "ikoon": "lyliti",
+ "lyhidalt": "Intuitiivne reaktsioon on rohkem kontrolli, kuid see annab lihtsalt rohkem reegleid, mida rikkuda. Toimib tasakaalustatud lähenemine: vähem, kuid järjekindlalt rakendatud reegleid, positiivne süsteem, koostöösuhe, õiglus ja kannatlikkus.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Mis toimib ja mis mitte",
+   "tekst": "",
+   "skeem": [
+    {
+     "tyyp": "vordlus",
+     "pealkiri": "Lülitid: sees ja väljas",
+     "veerud": [
+      "Sees ✓",
+      "Mida see tähendab"
+     ],
+     "read": [
+      {
+       "silt": "Tasakaalustatud lähenemine",
+       "lahtrid": [
+        "✓",
+        "reegleid miinimumini – need, mis ohjavad riske kõige paremini – ja rakenda ning selgita neid **järjekindlalt**; lisaks positiivne süsteem (teraapia, eneseareng, enesejuhtimine)"
+       ]
+      },
+      {
+       "silt": "Motivatsiooniga arvestamine",
+       "lahtrid": [
+        "✓",
+        "sageli on vähe huvi muutuda – inimene tegeleb ellujäämise ja baasvajadustega"
+       ]
+      },
+      {
+       "silt": "Koostöö ja prosotsiaalsed eesmärgid",
+       "lahtrid": [
+        "✓",
+        "koostöösuhe ja prosotsiaalsete eesmärkide arutamine (Liebling jt, 2011)"
+       ]
+      },
+      {
+       "silt": "Rutiinne ja õiglane kodukord",
+       "lahtrid": [
+        "✓",
+        "kodukorra hoidmine on osa taasühiskonnastamisest – rutiinselt ja õiglaselt"
+       ]
+      },
+      {
+       "silt": "Ametniku roll ja kannatlikkus",
+       "lahtrid": [
+        "✓",
+        "teadmised häiretest ja sekkumistest; viljad ilmnevad ajapikku"
+       ]
+      },
+      {
+       "silt": "Intuitiivne reaktsioon: rohkem kontrolli",
+       "lahtrid": [
+        "✗ väljas",
+        "paigutus suurema kontrolliga üksusesse annab sellisele kinnipeetavale **lihtsalt rohkem reegleid, mida rikkuda**"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Miks rohkem kontrolli ei aita",
+   "tekst": "Intuitiivne reaktsioon ametnikuna on püüda saavutada rohkem kontrolli. See viib sageli paigutuseni suurema kontrolliga üksusesse – aga iga uus reegel on uus võimalus rikkumiseks. Kontroll ilma positiivse süsteemita ei muuda käitumist.",
+   "read": [
+    {
+     "tase": "Vangla",
+     "viited": [
+      "VangS § 4^1 lg 2"
+     ],
+     "tekst": "Seaduses sätestamata piiranguid võib kohaldada vaid julgeoleku kaalutlustel; need peavad vastama täideviimise eesmärgile ja inimväärikuse põhimõttele."
+    }
+   ]
+  },
+  "piiramine": {
+   "pealkiri": "Mida silmas pidada",
+   "tekst": "",
+   "punktid": [
+    "Julgeolek on oluline – tasakaalustatud lähenemine ei tähenda ohu eiramist.",
+    "Reeglite **vähesus** ei tähenda leebust: vähem reegleid, aga need kehtivad alati ja kõigile.",
+    "Vahetu sunni ja turvataktika küsimused ei kuulu sellesse teemasse."
+   ]
+  },
+  "vangla": {
+   "tekst": "Inspektor-kontaktisik on see, kes saab ehitada koostöösuhte ja positiivse süsteemi kontrolli kõrvale.",
+   "naide": {
+    "olukord": "Vägivaldne kinnipeetav rikub pidevalt väikeseid reegleid. Kolleegid soovivad lisada uusi piiranguid.",
+    "analyys": "Kursuse järgi annab see lihtsalt rohkem reegleid rikkuda. Parem: keskenduda reeglitele, mis päriselt ohjavad riski, rakendada neid järjekindlalt ja õiglaselt ning pakkuda positiivset suunda (töö, õpe, programm) ja koostöösuhet."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Lahenduseks pakutakse ainult rangemat režiimi.",
+    "Unustatakse, et kodukorra järjekindel ja õiglane rakendamine on osa taasühiskonnastamisest."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Miks ei ole rohkem kontrolli kursuse järgi hea lahendus vägivaldse kinnipeetava puhul?",
+   "valikud": [
+    "See on liiga kallis",
+    "See annab lihtsalt rohkem reegleid, mida rikkuda",
+    "See on keelatud",
+    "See mõjub ainult naistele"
+   ],
+   "oige": 1,
+   "selgitus": "Tasakaalustatud lähenemine: vähem, aga järjekindlalt rakendatud reegleid + positiivne süsteem."
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Liebling jt (2011) viide pärineb õppejõu materjalist.",
+   "allikas": "tunnimaterjal"
+  },
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

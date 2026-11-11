@@ -166,25 +166,6 @@
    "aine": "inimoigused"
   },
   {
-   "id": "ps-t01",
-   "aine": "psuhholoogia",
-   "nr": 1,
-   "pealkiri": "Esimene tund",
-   "kuupaev": null,
-   "olek": "tulemas",
-   "kirjeldus": "Lisatakse pärast tundi koos materjali ja kordamisküsimustega.",
-   "materjal": [],
-   "kysimused": [],
-   "plokid": [],
-   "teemad": [],
-   "allikafailid": {
-    "opetaja": [],
-    "kysimused": [],
-    "tekstiversioonid": [],
-    "markus": "Lisa failid kaustadesse Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/ ja Ruth_kordamiskusimused/Vangla_psuhholoogia/."
-   }
-  },
-  {
    "id": "o-t01",
    "aine": "oigus",
    "nr": 1,
@@ -1036,6 +1017,495 @@
     "tekstiversioonid": [],
     "markus": ""
    }
+  },
+  {
+   "id": "ps-t01",
+   "aine": "psuhholoogia",
+   "nr": 1,
+   "pealkiri": "Korrektsioonipsühholoogia ajalugu",
+   "kuupaev": null,
+   "olek": "valmis",
+   "kirjeldus": "Mis on korrektsioonipsühholoogia, milleks iga ametnik vajab psühholoogiat, kuidas kuritegevuse põhjuste vaade on ajaloos muutunud ja kas karistus hoiab kuritegudest eemale.",
+   "materjal": [
+    "Õppejõu H5P-raamat „Korrektsioonipsühholoogia ajalugu” (SKA Moodle, kursus „Isiku hälbiv käitumine (KS260)”, osa Korrektsioonipsühholoogia)",
+    "Polaschek, Day & Hollin (2019). The Wiley International Handbook of Correctional Psychology – kursuse põhiraamat"
+   ],
+   "kysimused": [],
+   "plokid": [
+    {
+     "pealkiri": "Mõiste ja kasutamine",
+     "teemad": [
+      "ps-t01-01",
+      "ps-t01-02"
+     ]
+    },
+    {
+     "pealkiri": "Ajalugu",
+     "teemad": [
+      "ps-t01-03",
+      "ps-t01-04",
+      "ps-t01-05"
+     ]
+    }
+   ],
+   "teemad": [
+    {
+     "id": "ps-t01-01",
+     "fail": "teemad/ps-t01-01-mis-on-korrektsioonipsuhholoogia.json"
+    },
+    {
+     "id": "ps-t01-02",
+     "fail": "teemad/ps-t01-02-kolm-valdkonda.json"
+    },
+    {
+     "id": "ps-t01-03",
+     "fail": "teemad/ps-t01-03-miks-ajalugu.json"
+    },
+    {
+     "id": "ps-t01-04",
+     "fail": "teemad/ps-t01-04-kuritegevuse-pohjused-ajaloos.json"
+    },
+    {
+     "id": "ps-t01-05",
+     "fail": "teemad/ps-t01-05-karistus-ja-tagajarg.json"
+    }
+   ],
+   "allikafailid": {
+    "opetaja": [
+     "Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/01_ajalugu_ja_teooriad/T01_ajalugu.h5p"
+    ],
+    "kysimused": [],
+    "tekstiversioonid": [
+     "Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/01_ajalugu_ja_teooriad/T01_ajalugu.md"
+    ],
+    "markus": "Slaidide infograafikud on joonistatud uuesti lehe skeemidega (originaalpilte ei kopeerita). Vanglanäited ja harjutused on koostatud lehe jaoks."
+   }
+  },
+  {
+   "id": "ps-t02",
+   "aine": "psuhholoogia",
+   "nr": 2,
+   "pealkiri": "Korrektsioonipsühholoogia teooriad",
+   "kuupaev": null,
+   "olek": "valmis",
+   "kirjeldus": "Õppimisteooriad (klassikaline ja operantne tingimine, mudeldamine), kriminaalse käitumise teooriad, motivatsioon ja muutusering.",
+   "materjal": [
+    "Õppejõu H5P-raamat „Korrektsioonipsühholoogia teooriad” (SKA Moodle, kursus „Isiku hälbiv käitumine (KS260)”, osa Korrektsioonipsühholoogia)"
+   ],
+   "kysimused": [],
+   "plokid": [
+    {
+     "pealkiri": "Kuidas käitumine õpitakse",
+     "teemad": [
+      "ps-t02-01",
+      "ps-t02-02",
+      "ps-t02-03"
+     ]
+    },
+    {
+     "pealkiri": "Kuritegu ja muutumine",
+     "teemad": [
+      "ps-t02-04",
+      "ps-t02-05",
+      "ps-t02-06"
+     ]
+    }
+   ],
+   "teemad": [
+    {
+     "id": "ps-t02-01",
+     "fail": "teemad/ps-t02-01-teooriate-areng.json"
+    },
+    {
+     "id": "ps-t02-02",
+     "fail": "teemad/ps-t02-02-klassikaline-tingimine.json"
+    },
+    {
+     "id": "ps-t02-03",
+     "fail": "teemad/ps-t02-03-operantne-tingimine.json"
+    },
+    {
+     "id": "ps-t02-04",
+     "fail": "teemad/ps-t02-04-kriminaalse-kaitumise-teooriad.json"
+    },
+    {
+     "id": "ps-t02-05",
+     "fail": "teemad/ps-t02-05-kaitumise-muutmise-teooriad.json"
+    },
+    {
+     "id": "ps-t02-06",
+     "fail": "teemad/ps-t02-06-muutusering.json"
+    }
+   ],
+   "allikafailid": {
+    "opetaja": [
+     "Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/01_ajalugu_ja_teooriad/T02_teooriad.h5p"
+    ],
+    "kysimused": [],
+    "tekstiversioonid": [
+     "Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/01_ajalugu_ja_teooriad/T02_teooriad.md"
+    ],
+    "markus": "Slaidide infograafikud on joonistatud uuesti lehe skeemidega (originaalpilte ei kopeerita). Vanglanäited ja harjutused on koostatud lehe jaoks."
+   }
+  },
+  {
+   "id": "ps-t03",
+   "aine": "psuhholoogia",
+   "nr": 3,
+   "pealkiri": "Kriminaalne mõtlemine",
+   "kuupaev": null,
+   "olek": "valmis",
+   "kirjeldus": "Mis on kriminaalne mõtlemine, proaktiivne ja reaktiivne mõtlemine, ajuosad ning sekkumise kolm faasi.",
+   "materjal": [
+    "Õppejõu H5P-raamat „Kriminaalne mõtlemine” (SKA Moodle, kursus „Isiku hälbiv käitumine (KS260)”, osa Korrektsioonipsühholoogia)"
+   ],
+   "kysimused": [],
+   "plokid": [
+    {
+     "pealkiri": "Kriminaalne mõtlemine",
+     "teemad": [
+      "ps-t03-01",
+      "ps-t03-02",
+      "ps-t03-03"
+     ]
+    }
+   ],
+   "teemad": [
+    {
+     "id": "ps-t03-01",
+     "fail": "teemad/ps-t03-01-kriminaalne-motlemine.json"
+    },
+    {
+     "id": "ps-t03-02",
+     "fail": "teemad/ps-t03-02-ajuosad.json"
+    },
+    {
+     "id": "ps-t03-03",
+     "fail": "teemad/ps-t03-03-sekkumine.json"
+    }
+   ],
+   "allikafailid": {
+    "opetaja": [
+     "Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/01_ajalugu_ja_teooriad/T03_kriminaalne_motlemine.h5p"
+    ],
+    "kysimused": [],
+    "tekstiversioonid": [
+     "Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/01_ajalugu_ja_teooriad/T03_kriminaalne_motlemine.md"
+    ],
+    "markus": "Slaidide infograafikud on joonistatud uuesti lehe skeemidega (originaalpilte ei kopeerita). Vanglanäited ja harjutused on koostatud lehe jaoks."
+   }
+  },
+  {
+   "id": "ps-t04",
+   "aine": "psuhholoogia",
+   "nr": 4,
+   "pealkiri": "Psüühika- ja käitumishäired",
+   "kuupaev": null,
+   "olek": "valmis",
+   "kirjeldus": "Psüühikahäired vanglas: RHK-10 põhigrupid, skisofreenia, käitumishäired ja ATH, ärevus ja depressioon, suitsiidi- ja enesevigastamise risk, stigma.",
+   "materjal": [
+    "Õppejõu H5P-raamat „Psüühika- ja käitumishäired” (SKA Moodle, kursus „Isiku hälbiv käitumine (KS260)”, osa Korrektsioonipsühholoogia)",
+    "Moodle leht „Kriminogeensed riskitegurid”"
+   ],
+   "kysimused": [],
+   "plokid": [
+    {
+     "pealkiri": "Häired",
+     "teemad": [
+      "ps-t04-01",
+      "ps-t04-02",
+      "ps-t04-03",
+      "ps-t04-04"
+     ]
+    },
+    {
+     "pealkiri": "Risk ja suhtumine",
+     "teemad": [
+      "ps-t04-05",
+      "ps-t04-06"
+     ]
+    }
+   ],
+   "teemad": [
+    {
+     "id": "ps-t04-01",
+     "fail": "teemad/ps-t04-01-psuuhikahaired-vanglas.json"
+    },
+    {
+     "id": "ps-t04-02",
+     "fail": "teemad/ps-t04-02-skisofreenia.json"
+    },
+    {
+     "id": "ps-t04-03",
+     "fail": "teemad/ps-t04-03-kaitumishaired-ath.json"
+    },
+    {
+     "id": "ps-t04-04",
+     "fail": "teemad/ps-t04-04-arevus-ja-depressioon.json"
+    },
+    {
+     "id": "ps-t04-05",
+     "fail": "teemad/ps-t04-05-suitsiid-ja-enesevigastamine.json"
+    },
+    {
+     "id": "ps-t04-06",
+     "fail": "teemad/ps-t04-06-stigma-ja-margistamine.json"
+    }
+   ],
+   "allikafailid": {
+    "opetaja": [
+     "Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/02_vaimse_tervise_haired/T04_psuuhika_ja_kaitumishaired.h5p"
+    ],
+    "kysimused": [],
+    "tekstiversioonid": [
+     "Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/02_vaimse_tervise_haired/T04_psuuhika_ja_kaitumishaired.md"
+    ],
+    "markus": "Slaidide infograafikud on joonistatud uuesti lehe skeemidega (originaalpilte ei kopeerita). Vanglanäited ja harjutused on koostatud lehe jaoks."
+   }
+  },
+  {
+   "id": "ps-t05",
+   "aine": "psuhholoogia",
+   "nr": 5,
+   "pealkiri": "Sõltuvuse olemus",
+   "kuupaev": null,
+   "olek": "valmis",
+   "kirjeldus": "Mis on sõltuvus ja kuidas see tekib, tarvitamise faasid, alkohol ja narkootikumid ning seos kuritegevusega.",
+   "materjal": [
+    "Õppejõu H5P-raamat „Sõltuvuse olemus” (SKA Moodle, kursus „Isiku hälbiv käitumine (KS260)”, osa Korrektsioonipsühholoogia)"
+   ],
+   "kysimused": [],
+   "plokid": [
+    {
+     "pealkiri": "Sõltuvus",
+     "teemad": [
+      "ps-t05-01",
+      "ps-t05-02",
+      "ps-t05-03"
+     ]
+    },
+    {
+     "pealkiri": "Ained ja kuritegevus",
+     "teemad": [
+      "ps-t05-04",
+      "ps-t05-05"
+     ]
+    }
+   ],
+   "teemad": [
+    {
+     "id": "ps-t05-01",
+     "fail": "teemad/ps-t05-01-soltuvuse-olemus.json"
+    },
+    {
+     "id": "ps-t05-02",
+     "fail": "teemad/ps-t05-02-soltuvuse-teke.json"
+    },
+    {
+     "id": "ps-t05-03",
+     "fail": "teemad/ps-t05-03-tarvitamise-faasid.json"
+    },
+    {
+     "id": "ps-t05-04",
+     "fail": "teemad/ps-t05-04-alkohol.json"
+    },
+    {
+     "id": "ps-t05-05",
+     "fail": "teemad/ps-t05-05-narkootikumid.json"
+    }
+   ],
+   "allikafailid": {
+    "opetaja": [
+     "Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/02_vaimse_tervise_haired/T05_soltuvuse_olemus.h5p"
+    ],
+    "kysimused": [],
+    "tekstiversioonid": [
+     "Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/02_vaimse_tervise_haired/T05_soltuvuse_olemus.md"
+    ],
+    "markus": "Slaidide infograafikud on joonistatud uuesti lehe skeemidega (originaalpilte ei kopeerita). Vanglanäited ja harjutused on koostatud lehe jaoks."
+   }
+  },
+  {
+   "id": "ps-t06",
+   "aine": "psuhholoogia",
+   "nr": 6,
+   "pealkiri": "Keeruline kinnipeetav",
+   "kuupaev": null,
+   "olek": "valmis",
+   "kirjeldus": "Mis mõjutab kinnipeetava käitumist, vägivaldsete kinnipeetavate tüübid, kuidas suhelda agressiivse, kinnise ja jutuka kinnipeetavaga ning keerulise kliendi mõju ametnikule.",
+   "materjal": [
+    "Õppejõu H5P-raamat „Keeruline kinnipeetav” (SKA Moodle, kursus „Isiku hälbiv käitumine (KS260)”, osa Korrektsioonipsühholoogia)"
+   ],
+   "kysimused": [],
+   "plokid": [
+    {
+     "pealkiri": "Keeruline ja vägivaldne",
+     "teemad": [
+      "ps-t06-01",
+      "ps-t06-02",
+      "ps-t06-03"
+     ]
+    },
+    {
+     "pealkiri": "Suhtlemine",
+     "teemad": [
+      "ps-t06-04",
+      "ps-t06-05"
+     ]
+    },
+    {
+     "pealkiri": "Ametnik",
+     "teemad": [
+      "ps-t06-06"
+     ]
+    }
+   ],
+   "teemad": [
+    {
+     "id": "ps-t06-01",
+     "fail": "teemad/ps-t06-01-keeruline-kinnipeetav.json"
+    },
+    {
+     "id": "ps-t06-02",
+     "fail": "teemad/ps-t06-02-vagivaldse-tyybid.json"
+    },
+    {
+     "id": "ps-t06-03",
+     "fail": "teemad/ps-t06-03-vagivaldsetega-tegelemine.json"
+    },
+    {
+     "id": "ps-t06-04",
+     "fail": "teemad/ps-t06-04-agressiivne-klient.json"
+    },
+    {
+     "id": "ps-t06-05",
+     "fail": "teemad/ps-t06-05-kinnine-ja-jutukas.json"
+    },
+    {
+     "id": "ps-t06-06",
+     "fail": "teemad/ps-t06-06-moju-ametnikele.json"
+    }
+   ],
+   "allikafailid": {
+    "opetaja": [
+     "Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/03_kinnipeetavate_grupid_ja_suhtlemine/T06_keeruline_kinnipeetav.h5p"
+    ],
+    "kysimused": [],
+    "tekstiversioonid": [
+     "Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/03_kinnipeetavate_grupid_ja_suhtlemine/T06_keeruline_kinnipeetav.md"
+    ],
+    "markus": "Slaidide infograafikud on joonistatud uuesti lehe skeemidega (originaalpilte ei kopeerita). Vanglanäited ja harjutused on koostatud lehe jaoks."
+   }
+  },
+  {
+   "id": "ps-t07",
+   "aine": "psuhholoogia",
+   "nr": 7,
+   "pealkiri": "Haavatavamad kinnipeetavate grupid",
+   "kuupaev": null,
+   "olek": "valmis",
+   "kirjeldus": "Haavatavuse tuvastamine; eakas, vaimse arengu mahajäämusega, naissoost ja noor kinnipeetav.",
+   "materjal": [
+    "Õppejõu H5P-raamat „Haavatavamad kinnipeetavate grupid” (SKA Moodle, kursus „Isiku hälbiv käitumine (KS260)”, osa Korrektsioonipsühholoogia)"
+   ],
+   "kysimused": [],
+   "plokid": [
+    {
+     "pealkiri": "Grupid",
+     "teemad": [
+      "ps-t07-01",
+      "ps-t07-02",
+      "ps-t07-03",
+      "ps-t07-04",
+      "ps-t07-05"
+     ]
+    }
+   ],
+   "teemad": [
+    {
+     "id": "ps-t07-01",
+     "fail": "teemad/ps-t07-01-haavatavuse-tuvastamine.json"
+    },
+    {
+     "id": "ps-t07-02",
+     "fail": "teemad/ps-t07-02-eakas-kinnipeetav.json"
+    },
+    {
+     "id": "ps-t07-03",
+     "fail": "teemad/ps-t07-03-vaimse-arengu-mahajaamus.json"
+    },
+    {
+     "id": "ps-t07-04",
+     "fail": "teemad/ps-t07-04-naissoost-kinnipeetav.json"
+    },
+    {
+     "id": "ps-t07-05",
+     "fail": "teemad/ps-t07-05-noor-kinnipeetav.json"
+    }
+   ],
+   "allikafailid": {
+    "opetaja": [
+     "Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/03_kinnipeetavate_grupid_ja_suhtlemine/T07_haavatavamad_grupid.h5p"
+    ],
+    "kysimused": [],
+    "tekstiversioonid": [
+     "Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/03_kinnipeetavate_grupid_ja_suhtlemine/T07_haavatavamad_grupid.md"
+    ],
+    "markus": "Slaidide infograafikud on joonistatud uuesti lehe skeemidega (originaalpilte ei kopeerita). Vanglanäited ja harjutused on koostatud lehe jaoks."
+   }
+  },
+  {
+   "id": "ps-t08",
+   "aine": "psuhholoogia",
+   "nr": 8,
+   "pealkiri": "Koostöösuhe",
+   "kuupaev": null,
+   "olek": "valmis",
+   "kirjeldus": "Koostöösuhte osad ja tekkimine, takistused, väärtuskonfliktid ja prosotsiaalse käitumise mudeldamine.",
+   "materjal": [
+    "Õppejõu H5P-raamat „Koostöösuhe” (SKA Moodle, kursus „Isiku hälbiv käitumine (KS260)”, osa Korrektsioonipsühholoogia)",
+    "Durnescu jt (2023). Juhtumikorraldaja käsiraamat. Korrektsiooni põhioskused. SKA"
+   ],
+   "kysimused": [],
+   "plokid": [
+    {
+     "pealkiri": "Koostöösuhe",
+     "teemad": [
+      "ps-t08-01",
+      "ps-t08-02",
+      "ps-t08-03",
+      "ps-t08-04"
+     ]
+    }
+   ],
+   "teemad": [
+    {
+     "id": "ps-t08-01",
+     "fail": "teemad/ps-t08-01-koostoosuhe.json"
+    },
+    {
+     "id": "ps-t08-02",
+     "fail": "teemad/ps-t08-02-takistused.json"
+    },
+    {
+     "id": "ps-t08-03",
+     "fail": "teemad/ps-t08-03-vaartuskonfliktid.json"
+    },
+    {
+     "id": "ps-t08-04",
+     "fail": "teemad/ps-t08-04-prosotsiaalne-kaitumine.json"
+    }
+   ],
+   "allikafailid": {
+    "opetaja": [
+     "Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/03_kinnipeetavate_grupid_ja_suhtlemine/T08_koostoosuhe.h5p"
+    ],
+    "kysimused": [],
+    "tekstiversioonid": [
+     "Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/03_kinnipeetavate_grupid_ja_suhtlemine/T08_koostoosuhe.md"
+    ],
+    "markus": "Slaidide infograafikud on joonistatud uuesti lehe skeemidega (originaalpilte ei kopeerita). Vanglanäited ja harjutused on koostatud lehe jaoks."
+   }
   }
  ],
  "ained": [
@@ -1049,10 +1519,10 @@
   },
   {
    "id": "psuhholoogia",
-   "nimi": "Vangla psühholoogia",
+   "nimi": "Vangla psühholoogia – korrektsioonipsühholoogia",
    "lyhend": "Psühholoogia",
-   "kood": "",
-   "kirjeldus": "Kinnipeetava ja vanglateenistuja psühholoogia. Tunnid lisatakse pärast tunde.",
+   "kood": "KS260",
+   "kirjeldus": "Korrektsioonipsühholoogia (SKA Moodle „Isiku hälbiv käitumine”): teooriad, kriminaalne mõtlemine, vaimne tervis, sõltuvus, keeruline ja haavatav kinnipeetav, koostöösuhe – inspektor-kontaktisiku vaates.",
    "kiirotsing": false
   },
   {

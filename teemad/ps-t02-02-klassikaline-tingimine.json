@@ -1,0 +1,140 @@
+{
+ "id": "ps-t02-02",
+ "tund": "ps-t02",
+ "jrk": 2,
+ "pealkiri": "Klassikaline tingimine",
+ "lyhend": "Klassikaline tingimine",
+ "ikoon": "kell",
+ "lyhidalt": "Klassikaline tingimine on teadvustamata õppimine: neutraalne stiimul (kell) seostub millegagi, mis tekitab loomuliku reaktsiooni (toit). Lõpuks tekitab juba kell sama reaktsiooni. Nii õpitakse sageli emotsionaalseid reaktsioone – ka hirmu ja isu.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Kolm etappi",
+   "tekst": "Klassikaline tingimine on **teadvustamata ja tahtmatu** õppimisviis. Selle abil õpitakse näiteks emotsionaalseid reaktsioone olukordadele.",
+   "skeem": [
+    {
+     "tyyp": "voog",
+     "pealkiri": "Koer ja kell",
+     "sammud": [
+      {
+       "pealkiri": "Enne õppimist",
+       "tekst": "Kell = **neutraalne stiimul** – koer ei reageeri. Toit = **tingimatu stiimul** – koeral tekib süljeeritus (**tingimatu vastus**)."
+      },
+      {
+       "pealkiri": "Õppimise ajal",
+       "tekst": "Kell ja toit esitatakse **koos**, mitu korda."
+      },
+      {
+       "pealkiri": "Pärast õppimist",
+       "tekst": "Kell = **tingitud stiimul** – koeral tekib süljeeritus ka ilma toiduta (**tingitud vastus**)."
+      }
+     ]
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Mõisted ja seaduspärad",
+   "tekst": "Kursuse näide: Andrus eksib tahvli ees, õpetaja karjub (tingimatu stiimul), Andrusel tekib hirm ja ta nutab (tingimatu vastus). Pärast mitut korda hakkab ta nutma juba klassi ust nähes – uks on tingitud stiimul.",
+   "skeem": {
+    "tyyp": "kaardid",
+    "pealkiri": "Klassikalise tingimise seaduspärad",
+    "kaardid": [
+     {
+      "pealkiri": "Stiimuli üldistumine",
+      "silt": "↔",
+      "tekst": "Tingitud vastus tekib igas sarnases olukorras – nutt iga klassiruumi ukse ees."
+     },
+     {
+      "pealkiri": "Stiimuli eristumine",
+      "silt": "≠",
+      "tekst": "Õpitakse eristama stiimulit sarnastest – kardetakse ainult seda õpetajat, mitte kõiki.",
+      "toon": "b"
+     },
+     {
+      "pealkiri": "Kustumine",
+      "silt": "↓",
+      "tekst": "Kui tingitud stiimul esineb korduvalt ilma tingimatuta, seos kustub – õpetaja enam ei karju, hirm kaob.",
+      "toon": "d"
+     },
+     {
+      "pealkiri": "Spontaanne taastumine",
+      "silt": "↻",
+      "tekst": "Kustunud vastus võib aja pärast uuesti tulla, kuid iga korraga nõrgemalt.",
+      "toon": "c"
+     }
+    ]
+   },
+   "read": []
+  },
+  "piiramine": {
+   "pealkiri": "Miks see vanglas oluline on",
+   "tekst": "Klassikaline tingimine selgitab, miks inimene reageerib emotsionaalselt olukorrale, mis pole iseenesest ohtlik.",
+   "punktid": [
+    "**Sõltuvus:** teatud seltskond või koht hakkab tekitama isu (vt tund 5).",
+    "**Hirm ja trauma:** vormiriietus, uksekolin või läbiotsimine võib tekitada hirmu, kui see on varem seostunud vägivallaga.",
+    "**Kustumine** on võimalik: kui olukord kordub ilma halva tagajärjeta, reaktsioon nõrgeneb."
+   ]
+  },
+  "vangla": {
+   "tekst": "Inspektor-kontaktisik saab aidata kustumisele kaasa: rahulik ja ettearvatav käitumine samas olukorras nõrgendab õpitud hirmu.",
+   "naide": {
+    "olukord": "Kinnipeetav muutub kambri läbiotsimisel väga ärevaks ja agressiivseks, kuigi ametnikud käituvad korrektselt. Ta räägib, et kodus tähendas uste paukumine peksu.",
+    "analyys": "Uste paukumine ja võõrad ruumis on tingitud stiimul, hirm ja agressioon tingitud vastus. Ametnik saab selgitada ette, mis toimub, ja käituda rahulikult – kui olukord kordub ilma halva tagajärjeta, seos nõrgeneb (kustumine)."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Klassikaline ja operantne tingimine aetakse segi. Klassikaline – **stiimulite seos**, tahtmatu reaktsioon; operantne – **tagajärg** pärast käitumist.",
+    "Kustumist peetakse unustamiseks. Kustumine tekib siis, kui tingitud stiimul esineb korduvalt ilma tingimatuta; vastus võib spontaanselt taastuda."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Mis on näites tingitud stiimul (Andruse näide)?",
+   "ryhmad": [
+    "Neutraalne/tingitud stiimul",
+    "Tingimatu stiimul",
+    "Vastus"
+   ],
+   "read": [
+    {
+     "tekst": "Klassiruumi uks",
+     "oige": 0,
+     "selgitus": "Algul neutraalne, pärast õppimist tingitud stiimul."
+    },
+    {
+     "tekst": "Õpetaja karjumine",
+     "oige": 1,
+     "selgitus": "Tekitab hirmu loomupäraselt."
+    },
+    {
+     "tekst": "Nutt",
+     "oige": 2,
+     "selgitus": "Algul tingimatu, hiljem tingitud vastus."
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Kinnipeetaval tekib alkoholiisu iga kord, kui ta kuuleb teatud muusikat, mida ta kuulas pidudel. Mis seaduspäraga on tegu?",
+   "valikud": [
+    "Operantne tingimine",
+    "Klassikaline tingimine",
+    "Asendav õppimine",
+    "Eneseregulatsioon"
+   ],
+   "oige": 1,
+   "selgitus": "Muusika (stiimul) on seostunud joomisega ja tekitab isu ilma teadliku otsuseta."
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

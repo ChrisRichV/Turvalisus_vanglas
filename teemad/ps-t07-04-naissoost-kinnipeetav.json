@@ -1,0 +1,90 @@
+{
+ "id": "ps-t07-04",
+ "tund": "ps-t07",
+ "jrk": 4,
+ "pealkiri": "Naissoost kinnipeetav ja teekondade teooria",
+ "lyhend": "Teekondade teooria",
+ "ikoon": "teekond",
+ "lyhidalt": "Naisi ajaloos ei uuritud ja nende kuritegudele anti seksistlikke seletusi. Teekondade teooria (Pathways) järgi viivad naised kuritegudeni negatiivsed elukogemused – väärkohtlemine, probleemsed suhted, majanduslik tõrjutus – ja toimetulek nendega.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Ajalugu",
+   "tekst": "Varem uuringutes naisi ei uuritud ja kuritegude seletused olid tänapäeva vaates **seksistlikud**: väideti, et naised on vähem arenenud või ajendatud vigasest bioloogiast."
+  },
+  "alus": {
+   "pealkiri": "Teekondade teooria (Pathways theory)",
+   "tekst": "Naised satuvad kuritegudeni **negatiivsete elukogemuste** tõttu: lapsepõlve väärkohtlemine või hooletusse jätmine, probleemsed suhted hooldajate või partneritega, majanduslik tõrjutus.",
+   "skeem": {
+    "tyyp": "trepp",
+    "pealkiri": "Kolm astet",
+    "astmed": [
+     {
+      "silt": "01",
+      "pealkiri": "Faktorid",
+      "tekst": "ei ole naistele unikaalsed, kuid **mõjuvad neile unikaalselt**"
+     },
+     {
+      "silt": "02",
+      "pealkiri": "Toimetulek",
+      "tekst": "kodust ärajooksmine ja/või ainete kuritarvitamine",
+      "toon": "b"
+     },
+     {
+      "silt": "03",
+      "pealkiri": "Ellujäämine",
+      "tekst": "prostitutsioon, narkootikumidega äritsemine, röövimine",
+      "toon": "b"
+     }
+    ],
+    "tipp": "teekond kuriteoni"
+   },
+   "read": []
+  },
+  "piiramine": {
+   "pealkiri": "Naiste eripärad vanglas",
+   "tekst": "",
+   "punktid": [
+    "Vajavad **teistsugust tervishoidu**.",
+    "Laste ja sünnitusega seotud eripärad.",
+    "Meestele mõeldud programme kantakse sageli lihtsalt üle ja lisatakse naiste osa – see ei arvesta nende teekonda.",
+    "Ümberpaigutused mõjuvad naistele suuremalt (suitsiidirisk, tund 4)."
+   ]
+  },
+  "vangla": {
+   "tekst": "Naissoost kinnipeetavaga töötades tasub küsida tema teekonna kohta: mis eelnes ainetele ja kuritegudele? Sageli on vaja tegeleda trauma ja suhetega, mitte ainult kuriteoga (traumateadlik lähenemine).",
+   "naide": {
+    "olukord": "Naine kannab karistust vägivallakuriteo eest, mille ta pani toime joobes partneri vastu. Ta räägib, et partner oli aastaid vägivaldne.",
+    "analyys": "Teekondade teooria järgi on taustaks negatiivsed kogemused (vägivaldne suhe) ja toimetulek ainetega. Ametnik ei õigusta tegu, kuid toetab ka abi traumaga, suhetega ja alkoholiga – need on kuriteoni viinud teekonna osad."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Väidetakse, et naiste riskitegurid on täiesti teistsugused. Kursuse järgi ei ole faktorid unikaalsed, vaid **mõjuvad unikaalselt**.",
+    "Meeste programmi peetakse naistele sobivaks, kui lisada üks naiste moodul."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mida ütleb teekondade teooria naiste riskitegurite kohta?",
+   "valikud": [
+    "Need on naistele unikaalsed",
+    "Need ei ole naistele unikaalsed, kuid mõjuvad neile unikaalselt",
+    "Naistel riskitegureid ei ole",
+    "Need on bioloogilised"
+   ],
+   "oige": 1,
+   "selgitus": "Teekond: negatiivsed kogemused → toimetulek (põgenemine, ained) → ellujäämiskuriteod."
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

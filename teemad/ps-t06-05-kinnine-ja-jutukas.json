@@ -1,0 +1,119 @@
+{
+ "id": "ps-t06-05",
+ "tund": "ps-t06",
+ "jrk": 5,
+ "pealkiri": "Kinnine ja jutukas kinnipeetav",
+ "lyhend": "Kinnine ja jutukas",
+ "ikoon": "lukk",
+ "lyhidalt": "Kinnine kinnipeetav vajab kannatlikkust, usaldust, vaikuse talumist ja avatud küsimusi. Jutukas kinnipeetav räägib palju, kuid sageli mitte olulisest – tema puhul aitavad eesmärk, tagasi suunamine ja kokkuvõtted.",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Kaks vastandlikku stiili",
+   "tekst": "**Kinnine** kinnipeetav on napisõnaline, hoidub emotsioonidest ja eelistab distantsi. Põhjus võib olla halb varasem kogemus, usaldamatus süsteemi vastu, häbi, hirm hinnangute ees või vajadus kontrolli säilitada. **Vähene avanemine ei tähenda tingimata koostöö puudumist** – pigem vajadust turvalisema kontakti järele.\n\n**Jutukas** kinnipeetav jätab mulje koostöövalmidusest, kuid räägib sageli kõrvalistest asjadest ja väldib keerulisi teemasid. See võib olla **kaitsemehhanism**, et vältida ebamugavaid tundeid või vastutust.",
+   "skeem": [
+    {
+     "tyyp": "vordlus",
+     "pealkiri": "Kuidas suhelda",
+     "veerud": [
+      "Kinnine",
+      "Jutukas"
+     ],
+     "read": [
+      {
+       "silt": "Esimene mulje",
+       "lahtrid": [
+        "napisõnaline, distantseeritud",
+        "koostöövalmis, avatud"
+       ]
+      },
+      {
+       "silt": "Tegelikkus",
+       "lahtrid": [
+        "avanemine võtab aega; lõplikku avatust ei pruugigi tulla",
+        "palju juttu, vähe sisu; väldib olulist"
+       ]
+      },
+      {
+       "silt": "Ametniku võtted",
+       "lahtrid": [
+        "kannatlikkus ja aeg; usaldussuhe; **ära karda vaikust** – sina talud seda, tema hakkab täitma; avatud küsimused („kas”-küsimused ei vii vestluseni)",
+        "ette valmistatud punktid; iga vestluse alguses eesmärk ja tema nõusolek; too tagasi teema juurde; tee vahekokkuvõtteid"
+       ]
+      },
+      {
+       "silt": "Kokkuvõte",
+       "lahtrid": [
+        "selged raamid, rahulik ja hinnanguvaba hoiak, kaudsed suhtlusviisid",
+        "tugev piiride seadmine ja kokkulepped"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Näitelaused",
+   "tekst": "**Jutukale:**\n\n„Ma näen, et see on sulle oluline, kuid me peame praegu rääkima … Ehk jääb hiljem aega ka sinu teema jaoks.”\n\n„Oleme teemast kõrvale kaldunud, proovime tagasi tulla …”\n\n„Kas saan õigesti aru, et probleem on selles, et …”\n\n**Kinnisele:**\n\n„Räägi mulle, kuidas sul see nädal on läinud.” (avatud) – mitte „Kas sul on kõik hästi?” (kinnine)",
+   "read": []
+  },
+  "piiramine": {
+   "pealkiri": "Mida silmas pidada",
+   "tekst": "",
+   "punktid": [
+    "Kinnise puhul ära tõlgenda vaikust vastupanuna.",
+    "Jutuka puhul ära lase meeldival jutul asendada tööd – ole sõbralik, kuid eesmärgipärane.",
+    "Mõlema puhul on oluline struktuur ja järjepidevus."
+   ]
+  },
+  "vangla": {
+   "tekst": "Inspektor-kontaktisiku vestlusel on eesmärk (täitmiskava, vabanemise ettevalmistus). Kinnise ja jutuka puhul jõutakse sinna eri teid pidi.",
+   "naide": {
+    "olukord": "Kinnipeetav räägib igal kohtumisel pikalt oma kambrikaaslastest ja jalgpallist. Kui ametnik küsib vabanemise plaani kohta, läheb jutt kohe mujale.",
+    "analyys": "Jutukas kinnipeetav, võimalik vältimine. Ametnik sõnastab alguses eesmärgi („Täna räägime sinu elukohast pärast vabanemist – kas sobib?”), suunab tagasi ja teeb kokkuvõtte. Kokkulepe kirja."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Jutukat peetakse automaatselt koostööaltiks.",
+    "Kinnisele esitatakse „kas”-küsimusi, mis lõpevad „jah/ei” vastusega."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Kumma puhul see võte sobib paremini?",
+   "ryhmad": [
+    "Kinnine",
+    "Jutukas"
+   ],
+   "read": [
+    {
+     "tekst": "Talu vaikust, ära täida seda ise",
+     "oige": 0
+    },
+    {
+     "tekst": "Sõnasta alguses vestluse eesmärk",
+     "oige": 1
+    },
+    {
+     "tekst": "Esita avatud küsimusi",
+     "oige": 0
+    },
+    {
+     "tekst": "Tee vahekokkuvõtteid ja too teema juurde tagasi",
+     "oige": 1
+    }
+   ]
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

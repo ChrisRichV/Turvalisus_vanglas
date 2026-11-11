@@ -12,6 +12,7 @@ ametlikest tekstifailidest. **Täielik arendusjuhend: [`README-projekt.md`](READ
 - Varasemate kursuste kordamisküsimusi (`vangla_materjalid/01_kordamiskusimused`) lehele ei lisata; taktikalised detailid välja.
 - Supabase: ainult publishable võti (`assets/seadistus.js`), RLS alati sees, `service_role` mitte kunagi.
 - Keel: eesti. Vaikimisi tume neoonteema; igal neoonvärvil üks tähendus (kollane = seaduseviide, tsüaan = termin/õige, roosa = viga, lilla = päris näide).
+- Psühholoogia (`ps-t01…08`): allikas H5P-raamatud `Vangla_psuhholoogia/0*/T0N_*.md`; slaidipilte ei kopeerita, joonista skeemidega (`ring`, `maatriks`, `trepp` jt). Portfoolio ja tunniharjutuste juhtumeid lehele ei panda.
 - Päris näited (`naited`) on väljaspool tunnimaterjali: iga fakt kontrollitud allikast, link väljal `allikas`.
 
 ## Käsud

@@ -1,0 +1,114 @@
+{
+ "id": "ps-t03-03",
+ "tund": "ps-t03",
+ "jrk": 3,
+ "pealkiri": "Kriminaalsele mõtlemisele suunatud sekkumine",
+ "lyhend": "Sekkumise faasid",
+ "ikoon": "voti",
+ "lyhidalt": "Sekkumisel on kolm faasi: ettevalmistus (kriis – kuritegelik eluviis enam ei tööta), tegutsemine (kognitiivsed ja käitumuslikud oskused) ja järelfaas (integreerimine ja võimendamine).",
+ "osad": {
+  "pohimote": {
+   "pealkiri": "Kolm faasi",
+   "tekst": "Kui kriminaalne mõtlemine järgneb käitumisele, siis sekkumisel on vastupidi: **alustatakse mõtteviisi muutmisest**.",
+   "skeem": [
+    {
+     "tyyp": "voog",
+     "pealkiri": "Tüüpilise sekkumise ülesehitus",
+     "sammud": [
+      {
+       "pealkiri": "Ettevalmistus: kriis",
+       "tekst": "Inimene saab aru, et kriminaalne eluviis ei tööta ja kahju on suurem kui kasu. Ta nimetab inimesi, kellele on haiget teinud, kaotatud võimalusi ja suhteid. Vaja on **Shamani efekti** (koostöö) ja **avalikku muutuse lubadust**."
+      },
+      {
+       "pealkiri": "Tegutsemine: kognitiivsed oskused",
+       "tekst": "Õpitakse ära tundma kriminaalseid mõtteprotsesse – ka teistes. Harjutused ja kohene tagasiside. Kaks küsimust: *Mis tõendab minu uskumust? Kuidas see mõtlemine mulle tulevikus kasu toob?*"
+      },
+      {
+       "pealkiri": "Tegutsemine: käitumuslikud oskused",
+       "tekst": "Rollimängud, kodutööd, harjutamine – algul toetavas keskkonnas, siis samm-sammult päriselus."
+      },
+      {
+       "pealkiri": "Järelfaas",
+       "tekst": "Kohtumised jätkuvad: **integreerimine** (mõte ja käitumine ühte) ja **võimendamine** (enesetõhusus: lõpetatud kodutööd, tugevused)."
+      }
+     ]
+    }
+   ]
+  },
+  "alus": {
+   "pealkiri": "Shamani efekt ja muutuse väljaütlemine",
+   "tekst": "**Shamani efekt** on koostöö kliendiga: tundlikkus tema sisemaailma suhtes (empaatia, tõlgendus), viisid ekstreemseid vaateid ümber hinnata ja arusaam, et muutus on **vajalik, võimalik ja tehtav**.\n\n**Muutuse soov välja öelduna** – publiku ees, ka nähtamatu publiku ees – on tugevam ja püsivam kui välja ütlemata plaan.",
+   "read": []
+  },
+  "piiramine": {
+   "pealkiri": "Mida silmas pidada",
+   "tekst": "Enamik sekkumisi mõjub hästi **reaktiivsele** mõtlemisele, kuid **proaktiivsele** vähe.",
+   "punktid": [
+    "Proaktiivse mõtlemise puhul tuleb toetada moraalselt sobivaid otsuseid, väärtuste selgeks tegemist ja tegeleda positiivsete ootustega kuriteole.",
+    "Kriisi ei tekitata alandamisega – see on inimese enda arusaam, mida toetatakse koostöös."
+   ]
+  },
+  "vangla": {
+   "tekst": "Inspektor-kontaktisik ei vii läbi programmi, kuid saab toetada kõiki faase: märgata kriisi, julgustada muutust välja ütlema ja hiljem tugevdada enesetõhusust.",
+   "skeem": {
+    "tyyp": "kontroll",
+    "pealkiri": "Kaks küsimust harjutuseks",
+    "olukord": "Kinnipeetav ütleb: „Ausalt töötades ei teeni kunagi nii palju kui tänaval.”",
+    "sammud": [
+     {
+      "silt": "Tõend",
+      "kysimus": "Mis tõendab seda uskumust?",
+      "vastus": "Küsi koos temaga: kui palju ta tänaval teenis, kui palju aastaid ta on sellepärast vanglas olnud, mis on alles jäänud?"
+     },
+     {
+      "silt": "Kasu",
+      "kysimus": "Kuidas see mõtlemine talle tulevikus kasu toob?",
+      "vastus": "See mõtlemine on toonud vangistused, kaotatud suhted ja aja. Mis eesmärgi ta tahaks saavutada viisil, mis ei vii tagasi vanglasse?"
+     }
+    ],
+    "jareldus": "Ametnik ei vaidle, vaid aitab kinnipeetaval ise uskumust kontrollida – see on kognitiivse oskuse harjutus."
+   }
+  },
+  "tyypviga": {
+   "punktid": [
+    "Kriisi kirjeldatakse kui karistust. Kriis on inimese arusaam, et eluviis ei tööta.",
+    "Unustatakse järelfaas: integreerimine ja võimendamine."
+   ]
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Millest alustab sekkumine kriminaalse mõtlemise puhul?",
+   "valikud": [
+    "Käitumise kontrollimisest",
+    "Mõtteviisi muutmisest",
+    "Karistusest",
+    "Ravimitest"
+   ],
+   "oige": 1,
+   "selgitus": "Kriminaalne mõtlemine järgneb käitumisele; sekkumisel on vastupidi."
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis on Shamani efekt?",
+   "valikud": [
+    "Koostöö kliendiga: tundlikkus tema sisemaailma suhtes ja usk, et muutus on võimalik",
+    "Avalik häbistamine",
+    "Hüpnoos",
+    "Rühmasurve"
+   ],
+   "oige": 0,
+   "selgitus": "Shamani efekt on ettevalmistusfaasi osa."
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}
