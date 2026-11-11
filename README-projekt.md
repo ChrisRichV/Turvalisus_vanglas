@@ -316,6 +316,10 @@ juurde lisa sama ikoon. Seletus on avalehel (`.varvid`).
 **Seaded** (päises ⚙): tume/hele vaade ja „Vähenda liikumist” (`data-liikumine="vahem"` → animatsioonid ja
 üleminekud välja; vaikimisi süsteemi `prefers-reduced-motion` järgi). JS-is kontrolli `A.vahemLiikumist()`.
 
+**Mõistekaardi sõlme suurus ja toon** näitavad seoste arvu (3 astet, `mk-t1…mk-t3`): mõistel = seosed teiste mõistetega kogu kaardil
++ 2 iga lisatunni kohta; teemal = seotud mõistete arv. Suurem ja heledam = rohkem seoseid. Nupud: + / − suum, ◎ kogu kaart,
+⤢ täisekraan (brauseri Fullscreen API; kui ei ole, nt iPhone, siis leheülene kiht `.mk-taisekraan`; Esc väljub).
+
 **Mõistekaardi värvid**: teema = neutraalne ristkülik ikooniga, mõiste = tsüaan (termin), säte = kollane,
 mitut tundi siduv mõiste = punktiirrõngas + ⇄, tundidevaheline seos = paks punktiirjoon. Paigutus on
 deterministlik jõusimulatsioon (sama sisu → sama pilt).
