@@ -2,65 +2,58 @@
  "id": "ps-t06-06",
  "tund": "ps-t06",
  "jrk": 6,
- "pealkiri": "Keerulise kliendi mõju ametnikele",
- "lyhend": "Mõju ametnikule",
+ "mall": "psuh",
+ "pealkiri": "Keerulise kinnipeetava mõju ametnikele",
+ "lyhend": "Mõju ametnikele",
  "ikoon": "aku",
- "lyhidalt": "Keerulised kliendid kurnavad ametnikku vaimselt, moraalselt ja füüsiliselt. Tagajärjeks võivad olla stress, emotsionaalne väsimus, depersonaliseerimine, vältimine ja hüperreaktsioonid – ning tõsise intsidendi lugu võib tekitada püsiva hirmu ka uutes töötajates.",
- "osad": {
-  "pohimote": {
+ "lyhidalt": "Keerulised kliendid kurnavad ametnikke vaimselt, moraalselt ja füüsiliselt. Tagajärjed võivad ulatuda posttraumaatilise stressihäireni (PTSD) ning kolleegiga juhtunud intsident võib tekitada püsiva hirmu ka uutes töötajates.",
+ "materjal": [
+  {
    "pealkiri": "Kolm mõju",
-   "tekst": "",
-   "skeem": [
+   "sisu": [
     {
-     "tyyp": "kaardid",
-     "pealkiri": "Keerulise kliendi mõju ametnikele",
-     "kaardid": [
-      {
-       "pealkiri": "Üldine kurnatus",
-       "silt": "1",
-       "tekst": "vaimne, moraalne ja füüsiline"
-      },
-      {
-       "pealkiri": "Psühholoogilised tagajärjed",
-       "silt": "2",
-       "tekst": "emotsionaalne väsimus, tugev stress, depersonaliseerimine, vältiv käitumine, hüperreaktsioonid; võivad viia traumajärgse stressihäireni (PTSD)",
-       "toon": "b"
-      },
-      {
-       "pealkiri": "Püsiv hirm",
-       "silt": "3",
-       "tekst": "kui kolleegiga on juhtunud tõsine intsident, kandub lugu edasi ka uutele töötajatele – tekivad vältivad ja kaitsvad mustrid, isegi kui nad tollal ei töötanud"
-      }
+     "loend": [
+      "**Üldine kurnatus** – ametnikud kogevad keeruliste klientidega tegeledes **vaimset, moraalset ja füüsilist** kurnatust.",
+      "**Psühholoogilised tagajärjed** – emotsionaalne väsimus, tugev stress, **depersonaliseerimine**, vältiv käitumine ja **hüperreaktsioonid**. Need võivad viia **posttraumaatilise stressihäire (PTSD)** tekkeni.",
+      "**Püsiv hirm ja selle mõju** – kui teise ametnikuga on juhtunud tõsine intsident (nt pussitamine või muu vägivald kinnipeetava poolt), **kandub selle loo mõju edasi ka uutele töötajatele**, isegi kui nad tol ajal asutuses veel ei töötanud. Tekib püsiv hirm, millega kaasnevad vältiv ja muu kaitsev käitumine."
      ]
     }
    ]
-  },
-  "alus": {
-   "pealkiri": "Miks see on oluline",
-   "tekst": "Väsinud ja hirmunud ametnik reageerib sagedamini **intuitiivselt** – rohkem kontrolli, karistav hoiak (vt teema 3). See omakorda süvendab keerulist käitumist. Ametniku heaolu on seega ka kinnipeetavate ja julgeoleku küsimus.",
-   "read": []
-  },
-  "piiramine": {
-   "pealkiri": "Mida teha",
-   "tekst": "",
-   "punktid": [
-    "Märka endas ja kolleegides märke: vältimine, küünilisus, ärrituvus, kurnatus.",
-    "Räägi juhtumitest kolleegide ja juhiga; kasuta supervisiooni ja tuge, kui see on olemas.",
-    "Teadmised häiretest ja sekkumistest vähendavad abitust (teema 3: ametniku roll)."
+  }
+ ],
+ "skeemid": [
+  {
+   "tyyp": "kaardid",
+   "pealkiri": "Keerulise kliendi mõju ametnikele",
+   "kaardid": [
+    {
+     "pealkiri": "Üldine kurnatus",
+     "silt": "1",
+     "tekst": "vaimne, moraalne ja füüsiline"
+    },
+    {
+     "pealkiri": "Psühholoogilised tagajärjed",
+     "silt": "2",
+     "tekst": "emotsionaalne väsimus, tugev stress, depersonaliseerimine, vältiv käitumine, hüperreaktsioonid; võivad viia traumajärgse stressihäireni (PTSD)",
+     "toon": "b"
+    },
+    {
+     "pealkiri": "Püsiv hirm",
+     "silt": "3",
+     "tekst": "kui kolleegiga on juhtunud tõsine intsident, kandub lugu edasi ka uutele töötajatele – tekivad vältivad ja kaitsvad mustrid, isegi kui nad tollal ei töötanud"
+    }
    ]
-  },
-  "vangla": {
-   "tekst": "",
-   "naide": {
-    "olukord": "Uus ametnik on kuulnud lugu kolleegist, keda aastaid tagasi rünnati. Ta väldib üksi kambrisse minekut ja reageerib iga kõrgendatud hääle peale järsult.",
-    "analyys": "See on kursuses kirjeldatud **püsiva hirmu** mõju: lugu kandub edasi ka neile, kes tollal ei töötanud, ja tekitab vältivaid ning kaitsvaid mustreid (hüperreaktsioonid). Abiks on arutelu juhiga, väljaõpe ja tugi – mitte hirmu eiramine."
+  }
+ ],
+ "inspektor": {
+  "sisu": [
+   {
+    "tekst": "Ka ametniku enda heaolu on osa tööst: kurnatud või hirmul ametnik reageerib järsemalt ja koostöösuhe kannatab. Märka endas väsimust, vältimist ja ülereageerimist ning räägi sellest juhi või kolleegiga."
    }
-  },
-  "tyypviga": {
-   "punktid": [
-    "Ametniku stressi peetakse isiklikuks nõrkuseks. Kursuse järgi on see keerulise kliendiga töö tüüpiline mõju.",
-    "Unustatakse, et intsidendi lugu mõjutab ka uusi töötajaid."
-   ]
+  ],
+  "naide": {
+   "olukord": "Uus ametnik on kuulnud lugu kolleegist, keda aastaid tagasi rünnati. Ta väldib üksi kambrisse minekut ja reageerib iga kõrgendatud hääle peale järsult.",
+   "analyys": "See on materjalis kirjeldatud püsiva hirmu mõju: lugu kandub edasi ka neile, kes tollal ei töötanud, ja tekitab vältivat ja kaitsvat käitumist (hüperreaktsioonid). Abiks on arutelu juhiga, väljaõpe ja tugi – mitte hirmu eiramine."
   }
  },
  "harjutused": [
@@ -79,7 +72,7 @@
  ],
  "valjast": [
   {
-   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "tekst": "„Inspektor-kontaktisiku töös” osa (näide ja soovitused) on koostatud selle lehe jaoks tunnimaterjali põhjal; see ei ole õppejõu materjal.",
    "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
   }
  ],

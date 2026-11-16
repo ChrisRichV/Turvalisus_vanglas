@@ -2,145 +2,241 @@
  "id": "ps-t05-02",
  "tund": "ps-t05",
  "jrk": 2,
- "pealkiri": "Sõltuvuse teke: miks just tema?",
+ "mall": "psuh",
+ "pealkiri": "Sõltuvuse teke",
  "lyhend": "Sõltuvuse teke",
  "ikoon": "juured",
- "lyhidalt": "Sõltuvus kujuneb mitme teguri koosmõjul: isiksus, kasvukeskkond ja sõbrad, bioloogia, vaimne tervis, ühiskond ning õppimine (tingimine ja mudeldamine).",
- "osad": {
-  "pohimote": {
-   "pealkiri": "Kuus tegurite rühma",
-   "tekst": "",
-   "skeem": [
+ "lyhidalt": "Sõltuvus kujuneb paljude tegurite koosmõjul: isiksus (impulsiivsus, madal pettumustaluvus, tundlikkus tõrjutusele), kasvukeskkond ja sõbrad, bioloogia, vaimne tervis (ACE, krooniline stress), sotsiaal-kultuurilised ja psühholoogilised tegurid.",
+ "materjal": [
+  {
+   "pealkiri": "Mitmeteguriline protsess",
+   "sisu": [
     {
-     "tyyp": "puu",
-     "pealkiri": "Sõltuvuse tekkimine",
-     "juur": {
-      "pealkiri": "Sõltuvus",
-      "tekst": "mitmeteguriline protsess"
-     },
-     "harud": [
-      {
-       "pealkiri": "Isiksus",
-       "lapsed": [
-        {
-         "pealkiri": "Impulsiivsus",
-         "tekst": "tegutseb hetke ajel"
-        },
-        {
-         "pealkiri": "Madal vastupidavus pettumustele",
-         "tekst": "otsib kiiret leevendust"
-        },
-        {
-         "pealkiri": "Tundlikkus tõrjutusele",
-         "tekst": "tarvitab, et sobituda"
-        }
-       ]
-      },
-      {
-       "pealkiri": "Kasvukeskkond",
-       "toon": "b",
-       "lapsed": [
-        {
-         "pealkiri": "Pere tarvitamiskultuur"
-        },
-        {
-         "pealkiri": "Kasvatusstiil",
-         "tekst": "autoritaarne või hooletussejättev"
-        },
-        {
-         "pealkiri": "Vägivald, lahutus, tunnetest ei räägita"
-        },
-        {
-         "pealkiri": "Sõbrad noorukieas",
-         "tekst": "esimesed katsetused koos; mida varem, seda suurem risk"
-        }
-       ]
-      },
-      {
-       "pealkiri": "Bioloogia",
-       "lapsed": [
-        {
-         "pealkiri": "Ainevahetus"
-        },
-        {
-         "pealkiri": "Esimene kogemus",
-         "tekst": "meeldiv → soov korrata"
-        },
-        {
-         "pealkiri": "GABA-retseptorid, tasu puudulikkuse sündroom"
-        }
-       ]
-      },
-      {
-       "pealkiri": "Vaimne tervis",
-       "toon": "b",
-       "lapsed": [
-        {
-         "pealkiri": "Kahjulikud lapsepõlvekogemused (ACE)"
-        },
-        {
-         "pealkiri": "Krooniline stress"
-        }
-       ]
-      },
-      {
-       "pealkiri": "Ühiskond",
-       "lapsed": [
-        {
-         "pealkiri": "Vaesus ja tööpuudus"
-        },
-        {
-         "pealkiri": "Hoiakud ja kättesaadavus"
-        }
-       ]
-      },
-      {
-       "pealkiri": "Õppimine",
-       "toon": "b",
-       "lapsed": [
-        {
-         "pealkiri": "Klassikaline tingimine",
-         "tekst": "olukord tekitab isu"
-        },
-        {
-         "pealkiri": "Operantne tingimine",
-         "tekst": "hea tunne kinnitab"
-        },
-        {
-         "pealkiri": "Mudeldamine; madal enesetõhusus; toimetulekuoskuste puudumine"
-        }
-       ]
-      }
+     "tekst": "Sõltuvuskäitumise kujunemist mõjutavad **isiksus, keskkond, bioloogia ja vaimne tervis**. Allpool on peamised tegurid."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Isiksuseomadused",
+   "sisu": [
+    {
+     "tekst": "Mõned isiksusejooned teevad inimese sõltuvusele haavatavamaks. Need on **osaliselt kaasasündinud** (geneetilised), kuid kujunevad ka elu jooksul."
+    },
+    {
+     "punktid": [
+      "**Impulsiivsus** – inimene tegutseb hetke ajel ega mõtle tagajärgedele. Näiteks proovib ta aineid pikemalt kaalumata, kas see on ohutu.",
+      "**Madal vastupidavus pettumustele** – raskustega on raske toime tulla. Kui midagi ei õnnestu, võib ta otsida kiiret leevendust (alkohol, narkootikumid).",
+      "**Tundlikkus tõrjutusele** – inimene reageerib väga tugevalt, kui tunneb, et teda ei aktsepteerita. Ta võib hakata aineid tarvitama, et seltskonda sobituda või halba enesetunnet leevendada."
      ]
     }
    ]
   },
-  "alus": {
-   "pealkiri": "Olulised mõisted",
-   "tekst": "**GABA-retseptorid** on aju „vastuvõtjad”, mis mõjutavad rahunemist ja ärevust. Kui need ei tööta tavapäraselt, võib inimene otsida aineid, mis aitavad lõõgastuda.\n\n**Tasu puudulikkuse sündroom:** aju tasusüsteem ei anna piisavalt „hea tunde” signaale, igapäevased asjad ei paku rõõmu – inimene otsib tugevamaid stiimuleid.\n\n**ACE** (kahjulikud lapsepõlvekogemused) – vägivald, hooletusse jätmine, vanema sõltuvus – mõjutavad aju arengut ja toimetulekuoskusi.",
-   "read": []
-  },
-  "piiramine": {
-   "pealkiri": "Mida silmas pidada",
-   "tekst": "",
-   "punktid": [
-    "Üks tegur üksi sõltuvust ei tee – oluline on koosmõju.",
-    "Kasvukeskkond ei ole ainult „halb pere”: ka stabiilses peres võib olla vähe järelevalvet või tunnetest ei räägita.",
-    "Varajane algus noorukieas suurendab riski, sest aju alles areneb."
+  {
+   "pealkiri": "Kasvukeskkond",
+   "sisu": [
+    {
+     "tekst": "Keskkond, kus inimene kasvab, mõjutab oluliselt tema valikuid ja käitumist:"
+    },
+    {
+     "punktid": [
+      "**Pere tarvitamiskultuur** – kui kodus tarvitatakse palju alkoholi või muid aineid, võib see tunduda normaalne.",
+      "**Varajased elukogemused** – turvaline või ebaturvaline lapsepõlv mõjutab enesehinnangut ja toimetulekut.",
+      "**Kasvatusstiil** – *autoritaarne* (väga ranged reeglid, vähe soojust) või *hooletussejättev* (lapse vajadustele ei pöörata tähelepanu).",
+      "**Vägivald peres** – tekitab hirmu ja stressi, mida püütakse hiljem ainetega leevendada.",
+      "**Suhtlusviis perekonnas** – kas tunnetest räägitakse või mitte.",
+      "**Vanemate lahutus** – võib tekitada ebakindlust ja stressi.",
+      "**Uskumused ainete kohta** – nt „alkohol aitab lõõgastuda” või „kõik proovivad nagunii”."
+     ]
+    },
+    {
+     "tekst": "**Sõprade mõju noorukieas** on väga suur:"
+    },
+    {
+     "punktid": [
+      "sageli tehakse **esimesed katsetused koos sõpradega**;",
+      "soov seltskonda kuuluda võib panna riskima;",
+      "**mida varem alustatakse, seda suurem on sõltuvuse risk**, sest aju alles areneb ja harjub aine mõjuga kiiremini."
+     ]
+    }
    ]
   },
-  "vangla": {
-   "tekst": "Tegurite tundmine aitab mõista, **mida aine inimesele andis** – ja mida tuleb asendada (nt toimetulekuoskused, kuuluvus, rahu).",
-   "naide": {
-    "olukord": "Kinnipeetav hakkas jooma 14-aastaselt koos vanemate sõpradega. Kodus joodi palju ja tunnetest ei räägitud. Ta ütleb, et alkohol oli ainus asi, mis teda rahustas.",
-    "analyys": "Tegurid: sõbrad ja varajane algus, pere tarvitamiskultuur ja suhtlusviis (keskkond), toimetulekuoskuste puudumine ja hea tunne kinnitas käitumist (operantne tingimine). Sekkumine peab andma sama asja – rahu ja toimetuleku – teisiti."
+  {
+   "pealkiri": "Bioloogilised tegurid",
+   "sisu": [
+    {
+     "tekst": "Iga inimese keha reageerib ainetele veidi erinevalt:"
+    },
+    {
+     "punktid": [
+      "**Ainevahetus (metabolism)** – kui kiiresti keha ainet lagundab; mõnel püsib aine organismis kauem, teisel kaob kiiremini.",
+      "**Esimene kogemus on oluline** – kui see on meeldiv, võib tekkida soov korrata; kui väga ebameeldiv, võib inimene ainet vältida. Näide: **Jaapani päritolu inimestel** on sageli alkoholi lagundamisel eripära – tekib punetus, iiveldus ja halb enesetunne, mis vähendab alkoholi tarvitamise tõenäosust.",
+      "**GABA-retseptorid** – aju „vastuvõtjad”, mis mõjutavad rahunemist ja ärevust. Kui need ei tööta tavapäraselt, võib inimene otsida aineid, mis aitavad lõõgastuda.",
+      "**Tasu puudulikkuse sündroom** – aju tasusüsteem ei anna piisavalt „hea tunde” signaale ja igapäevased asjad ei paku piisavalt rõõmu. Inimene võib otsida tugevamaid stiimuleid (nt narkootikume), et end hästi tunda."
+     ]
+    }
+   ]
+  },
+  {
+   "pealkiri": "Vaimse tervise mured",
+   "sisu": [
+    {
+     "tekst": "Vaimne tervis on sõltuvuskäitumisega väga tihedalt seotud:"
+    },
+    {
+     "punktid": [
+      "**ACE (kahjulikud lapsepõlvekogemused)** – nt vägivald, hooletusse jätmine, vanema sõltuvus. Need mõjutavad aju arengut ja toimetulekuoskusi.",
+      "**Krooniline stress** – pidev pinge kurnab organismi ja inimene võib hakata aineid kasutama, et pingeid leevendada."
+     ]
+    }
+   ]
+  },
+  {
+   "pealkiri": "Sotsiaal-kultuurilised tegurid",
+   "sisu": [
+    {
+     "tekst": "Need on seotud ühiskonnaga laiemalt:"
+    },
+    {
+     "punktid": [
+      "**Vaesus ja tööpuudus** – suurendavad stressi ja lootusetust.",
+      "**Düsfunktsionaalsed perekonnad** – ebaturvaline keskkond.",
+      "**Ühiskonna hoiakud** – kui tarvitamist peetakse normaalseks, risk suureneb.",
+      "**Ainete kättesaadavus** – mida lihtsam on aineid saada, seda tõenäolisem on tarvitamine."
+     ]
+    }
+   ]
+  },
+  {
+   "pealkiri": "Psühholoogilised teooriad",
+   "sisu": [
+    {
+     "tekst": "Need selgitavad, kuidas tarvitamine õpitakse (vt tund 2):"
+    },
+    {
+     "punktid": [
+      "**Klassikaline tingimine** – teatud olukorrad (nt pidu) hakkavad seostuma tarvitamisega; juba keskkond tekitab isu.",
+      "**Operantne tingimine** – kui tarvitamine teeb enesetunde paremaks, suureneb tõenäosus seda korrata.",
+      "**Mudeldamine** – inimene õpib teisi jälgides (nt vanemad, sõbrad).",
+      "**Madal enesetõhusus** – inimene ei usu, et suudab raskustega ise toime tulla.",
+      "**Toimetulekuoskuste puudumine** – ei osata stressiga tervislikult toime tulla."
+     ]
+    }
+   ]
+  }
+ ],
+ "skeemid": [
+  {
+   "tyyp": "puu",
+   "pealkiri": "Sõltuvuse tekkimine",
+   "juur": {
+    "pealkiri": "Sõltuvus",
+    "tekst": "mitmeteguriline protsess"
+   },
+   "harud": [
+    {
+     "pealkiri": "Isiksus",
+     "lapsed": [
+      {
+       "pealkiri": "Impulsiivsus",
+       "tekst": "tegutseb hetke ajel"
+      },
+      {
+       "pealkiri": "Madal vastupidavus pettumustele",
+       "tekst": "otsib kiiret leevendust"
+      },
+      {
+       "pealkiri": "Tundlikkus tõrjutusele",
+       "tekst": "tarvitab, et sobituda"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Kasvukeskkond",
+     "toon": "b",
+     "lapsed": [
+      {
+       "pealkiri": "Pere tarvitamiskultuur"
+      },
+      {
+       "pealkiri": "Kasvatusstiil",
+       "tekst": "autoritaarne või hooletussejättev"
+      },
+      {
+       "pealkiri": "Vägivald, lahutus, tunnetest ei räägita"
+      },
+      {
+       "pealkiri": "Sõbrad noorukieas",
+       "tekst": "esimesed katsetused koos; mida varem, seda suurem risk"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Bioloogia",
+     "lapsed": [
+      {
+       "pealkiri": "Ainevahetus"
+      },
+      {
+       "pealkiri": "Esimene kogemus",
+       "tekst": "meeldiv → soov korrata"
+      },
+      {
+       "pealkiri": "GABA-retseptorid, tasu puudulikkuse sündroom"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Vaimne tervis",
+     "toon": "b",
+     "lapsed": [
+      {
+       "pealkiri": "Kahjulikud lapsepõlvekogemused (ACE)"
+      },
+      {
+       "pealkiri": "Krooniline stress"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Ühiskond",
+     "lapsed": [
+      {
+       "pealkiri": "Vaesus ja tööpuudus"
+      },
+      {
+       "pealkiri": "Hoiakud ja kättesaadavus"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Õppimine",
+     "toon": "b",
+     "lapsed": [
+      {
+       "pealkiri": "Klassikaline tingimine",
+       "tekst": "olukord tekitab isu"
+      },
+      {
+       "pealkiri": "Operantne tingimine",
+       "tekst": "hea tunne kinnitab"
+      },
+      {
+       "pealkiri": "Mudeldamine; madal enesetõhusus; toimetulekuoskuste puudumine"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "inspektor": {
+  "sisu": [
+   {
+    "tekst": "Tegurite tundmine aitab mõista, **mida aine inimesele andis** – ja mida tuleb asendada (nt toimetulekuoskused, kuuluvus, rahu)."
    }
-  },
-  "tyypviga": {
-   "punktid": [
-    "Sõltuvust seletatakse ainult „nõrga iseloomuga”.",
-    "Tasu puudulikkuse sündroom aetakse segi füüsilise sõltuvusega."
-   ]
+  ],
+  "naide": {
+   "olukord": "Kinnipeetav hakkas jooma 14-aastaselt koos vanemate sõpradega. Kodus joodi palju ja tunnetest ei räägitud. Ta ütleb, et alkohol oli ainus asi, mis teda rahustas.",
+   "analyys": "Tegurid: sõbrad ja varajane algus, pere tarvitamiskultuur ja suhtlusviis (kasvukeskkond), toimetulekuoskuste puudumine ja hea tunne, mis kinnitas käitumist (operantne tingimine). Sekkumine peab andma sama asja – rahu ja toimetuleku – teisiti."
   }
  },
  "harjutused": [
@@ -175,7 +271,7 @@
  ],
  "valjast": [
   {
-   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "tekst": "„Inspektor-kontaktisiku töös” osa (näide ja soovitused) on koostatud selle lehe jaoks tunnimaterjali põhjal; see ei ole õppejõu materjal.",
    "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
   }
  ],

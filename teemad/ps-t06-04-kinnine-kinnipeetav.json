@@ -1,0 +1,157 @@
+{
+ "id": "ps-t06-04",
+ "tund": "ps-t06",
+ "jrk": 4,
+ "mall": "psuh",
+ "pealkiri": "Kinnine kinnipeetav",
+ "lyhend": "Kinnine kinnipeetav",
+ "ikoon": "lukk",
+ "lyhidalt": "Kinnine kinnipeetav on napisõnaline ja distantseeritud. Vähene eneseavamine ei tähenda tingimata koostöö puudumist, vaid vajadust turvalisema kontakti järele. Abiks on kannatlikkus, usaldus, vaikuse talumine ja avatud küsimused.",
+ "materjal": [
+  {
+   "pealkiri": "Milline on kinnine kinnipeetav",
+   "sisu": [
+    {
+     "tekst": "Kinnise suhtlemisstiiliga kinnipeetavad on vanglas **sage sihtrühm**. Info kogumine ja töö kujundamine nõuab nende puhul **teadlikku ja kannatlikku** lähenemist."
+    },
+    {
+     "tekst": "Nad võivad olla **napisõnalised**, hoiduda emotsioonide näitamisest ning eelistada **formaalset ja distantseeritud** suhtlust. Sageli ei jaga nad ise oma mõtteid ega kogemusi, mistõttu oluline info jääb alguses varjatuks."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Miks inimene on kinnine",
+   "sisu": [
+    {
+     "tekst": "Kinnine suhtlemisstiil võib tuleneda näiteks:"
+    },
+    {
+     "punktid": [
+      "varasematest negatiivsetest kogemustest,",
+      "usaldamatusest süsteemi või spetsialistide vastu,",
+      "häbitundest,",
+      "hirmust hinnangute ees,",
+      "vajadusest säilitada kontroll enda üle."
+     ]
+    },
+    {
+     "tekst": "**Seepärast ei ole vähene eneseavamine tingimata märk koostöö puudumisest – pigem näitab see vajadust turvalisema ja usalduslikuma kontakti järele.**"
+    }
+   ]
+  },
+  {
+   "pealkiri": "Kuidas kinnisega töötada",
+   "sisu": [
+    {
+     "tekst": "Oluline on **struktureeritud ja järjepidev** lähenemine. Spetsialist:"
+    },
+    {
+     "punktid": [
+      "loob **selged raamid**,",
+      "hoiab **rahulikku ja hinnanguvaba** hoiakut,",
+      "annab **aega usalduse tekkeks**,",
+      "kasutab **kaudseid hindamis- ja suhtlusviise**, et infot koguda ja toetada järkjärgulist avanemist."
+     ]
+    },
+    {
+     "tekst": "Selline tasakaalustatud lähenemine aitab mõista kinnipeetava vajadusi ning toetada tema arengut ja rehabilitatsiooni."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Viis meelespead",
+   "sisu": [
+    {
+     "loend": [
+      "Vajab **palju kannatlikkust ja aega**.",
+      "**Usaldussuhe** on tema jaoks ülioluline.",
+      "**Ära karda vaikust** – inimestel on harjumus vaikust täita, seega pead sina olema see, kes ebamugavat vaikust talub, ja tema see, kes seda täitma hakkab.",
+      "**Küsi avatud küsimusi** – „kas”-küsimused ei vii temaga pikema vestluseni.",
+      "**Lõplikku avatud suhtlust ei pruugigi tulla.**"
+     ]
+    }
+   ]
+  }
+ ],
+ "skeemid": [
+  {
+   "tyyp": "kaardid",
+   "pealkiri": "Kinnine kinnipeetav – viis meelespead",
+   "kaardid": [
+    {
+     "pealkiri": "Kannatlikkus ja aeg",
+     "silt": "1"
+    },
+    {
+     "pealkiri": "Usaldussuhe on ülioluline",
+     "silt": "2",
+     "toon": "b"
+    },
+    {
+     "pealkiri": "Ära karda vaikust",
+     "silt": "3",
+     "tekst": "sina talud vaikust, tema hakkab seda täitma"
+    },
+    {
+     "pealkiri": "Avatud küsimused",
+     "silt": "4",
+     "tekst": "„kas”-küsimused ei vii vestluseni",
+     "toon": "b"
+    },
+    {
+     "pealkiri": "Täielikku avanemist ei pruugi tulla",
+     "silt": "5"
+    }
+   ],
+   "kitsad": true
+  }
+ ],
+ "inspektor": {
+  "sisu": [
+   {
+    "tekst": "Inspektor-kontaktisiku vestlusel on eesmärk (täitmiskava, vabanemise ettevalmistus), kuid kinnise inimese puhul jõutakse sinna aeglaselt. Ära tõlgenda vaikimist kohe koostööst keeldumisena."
+   }
+  ],
+  "naide": {
+   "olukord": "Kinnipeetav vastab kõigile küsimustele „jah”, „ei” või „ei tea” ja vaatab põrandale.",
+   "analyys": "Ametnik vahetab „kas”-küsimused avatud küsimuste vastu („Kuidas sul siin esimesed nädalad on läinud?”), talub pausi ega täida seda ise ning lepib kokku järgmise kohtumise. Usaldus tekib mitme kohtumise jooksul."
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Kumma puhul see võte sobib paremini?",
+   "ryhmad": [
+    "Kinnine",
+    "Jutukas"
+   ],
+   "read": [
+    {
+     "tekst": "Talu vaikust, ära täida seda ise",
+     "oige": 0
+    },
+    {
+     "tekst": "Sõnasta alguses vestluse eesmärk",
+     "oige": 1
+    },
+    {
+     "tekst": "Esita avatud küsimusi",
+     "oige": 0
+    },
+    {
+     "tekst": "Tee vahekokkuvõtteid ja too teema juurde tagasi",
+     "oige": 1
+    }
+   ]
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "„Inspektor-kontaktisiku töös” osa (näide ja soovitused) on koostatud selle lehe jaoks tunnimaterjali põhjal; see ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

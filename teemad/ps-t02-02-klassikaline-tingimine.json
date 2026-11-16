@@ -2,90 +2,127 @@
  "id": "ps-t02-02",
  "tund": "ps-t02",
  "jrk": 2,
+ "mall": "psuh",
  "pealkiri": "Klassikaline tingimine",
  "lyhend": "Klassikaline tingimine",
  "ikoon": "kell",
- "lyhidalt": "Klassikaline tingimine on teadvustamata õppimine: neutraalne stiimul (kell) seostub millegagi, mis tekitab loomuliku reaktsiooni (toit). Lõpuks tekitab juba kell sama reaktsiooni. Nii õpitakse sageli emotsionaalseid reaktsioone – ka hirmu ja isu.",
- "osad": {
-  "pohimote": {
-   "pealkiri": "Kolm etappi",
-   "tekst": "Klassikaline tingimine on **teadvustamata ja tahtmatu** õppimisviis. Selle abil õpitakse näiteks emotsionaalseid reaktsioone olukordadele.",
-   "skeem": [
+ "lyhidalt": "Klassikaline tingimine on teadvustamata ja tahtmatu õppimine: neutraalne stiimul hakkab tekitama sama reaktsiooni kui tingimatu stiimul. Nii õpitakse näiteks emotsionaalseid reaktsioone. Seaduspärad: üldistumine, eristumine, kustumine, spontaanne taastumine.",
+ "materjal": [
+  {
+   "pealkiri": "Koer ja kell",
+   "sisu": [
     {
-     "tyyp": "voog",
-     "pealkiri": "Koer ja kell",
-     "sammud": [
-      {
-       "pealkiri": "Enne õppimist",
-       "tekst": "Kell = **neutraalne stiimul** – koer ei reageeri. Toit = **tingimatu stiimul** – koeral tekib süljeeritus (**tingimatu vastus**)."
-      },
-      {
-       "pealkiri": "Õppimise ajal",
-       "tekst": "Kell ja toit esitatakse **koos**, mitu korda."
-      },
-      {
-       "pealkiri": "Pärast õppimist",
-       "tekst": "Kell = **tingitud stiimul** – koeral tekib süljeeritus ka ilma toiduta (**tingitud vastus**)."
-      }
+     "tekst": "Klassikalist tingimist kirjeldatakse koera ja kella näitega. Sellel on kolm etappi:"
+    },
+    {
+     "loend": [
+      "**Enne õppimist:** kell on **neutraalne stiimul** – koer ei reageeri. Toit on **tingimatu stiimul** – koer reageerib (eritub sülg).",
+      "**Õppimise ajal:** kell ja toit esitatakse **koos**.",
+      "**Pärast õppimist:** kell on **tingitud stiimul** – koer reageerib kellale ka **ilma toiduta**."
      ]
     }
    ]
   },
-  "alus": {
-   "pealkiri": "Mõisted ja seaduspärad",
-   "tekst": "Kursuse näide: õpilane eksib tahvli ees, õpetaja karjub (tingimatu stiimul), õpilasel tekib hirm ja ta nutab (tingimatu vastus). Pärast mitut korda hakkab ta nutma juba klassi ust nähes – uks on tingitud stiimul.",
-   "skeem": {
-    "tyyp": "kaardid",
-    "pealkiri": "Klassikalise tingimise seaduspärad",
-    "kaardid": [
-     {
-      "pealkiri": "Stiimuli üldistumine",
-      "silt": "↔",
-      "tekst": "Tingitud vastus tekib igas sarnases olukorras – nutt iga klassiruumi ukse ees."
-     },
-     {
-      "pealkiri": "Stiimuli eristumine",
-      "silt": "≠",
-      "tekst": "Õpitakse eristama stiimulit sarnastest – kardetakse ainult seda õpetajat, mitte kõiki.",
-      "toon": "b"
-     },
-     {
-      "pealkiri": "Kustumine",
-      "silt": "↓",
-      "tekst": "Kui tingitud stiimul esineb korduvalt ilma tingimatuta, seos kustub – õpetaja enam ei karju, hirm kaob.",
-      "toon": "d"
-     },
-     {
-      "pealkiri": "Spontaanne taastumine",
-      "silt": "↻",
-      "tekst": "Kustunud vastus võib aja pärast uuesti tulla, kuid iga korraga nõrgemalt.",
-      "toon": "c"
-     }
-    ]
-   },
-   "read": []
-  },
-  "piiramine": {
-   "pealkiri": "Miks see vanglas oluline on",
-   "tekst": "Klassikaline tingimine selgitab, miks inimene reageerib emotsionaalselt olukorrale, mis pole iseenesest ohtlik.",
-   "punktid": [
-    "**Sõltuvus:** teatud seltskond või koht hakkab tekitama isu (vt tund 5).",
-    "**Hirm ja trauma:** vormiriietus, uksekolin või läbiotsimine võib tekitada hirmu, kui see on varem seostunud vägivallaga.",
-    "**Kustumine** on võimalik: kui olukord kordub ilma halva tagajärjeta, reaktsioon nõrgeneb."
+  {
+   "pealkiri": "Mis on klassikaline tingimine",
+   "sisu": [
+    {
+     "tekst": "Klassikaline tingimine on **teadvustamata ja tahtmatu** õppimisviis. Selle abil õpitakse näiteks **emotsionaalseid reaktsioone** eri olukordadele."
+    },
+    {
+     "tekst": "Klassikalisel tingimisel on viis osa:"
+    },
+    {
+     "punktid": [
+      "**Tingimatu stiimul** – eluliselt oluline asi, mis tekitab reaktsiooni loomupäraselt.",
+      "**Tingimatu vastus** – reaktsioon, mis tekib loomupäraselt tingimatu stiimuliga kokku puutudes.",
+      "**Neutraalne stiimul** – ei tekita alguses reaktsiooni.",
+      "**Tingitud stiimul** – endine neutraalne stiimul, mis tekitab nüüd sama reaktsiooni nagu tingimatu stiimul.",
+      "**Tingitud vastus** – reaktsioon, mis on õpitud, kui neutraalset ja tingimatut stiimulit on mitu korda koos esitatud."
+     ]
+    }
    ]
   },
-  "vangla": {
-   "tekst": "Inspektor-kontaktisik saab aidata kustumisele kaasa: rahulik ja ettearvatav käitumine samas olukorras nõrgendab õpitud hirmu.",
-   "naide": {
-    "olukord": "Kinnipeetav muutub kambri läbiotsimisel väga ärevaks ja agressiivseks, kuigi ametnikud käituvad korrektselt. Ta räägib, et kodus tähendas uste paukumine peksu.",
-    "analyys": "Uste paukumine ja võõrad ruumis on tingitud stiimul, hirm ja agressioon tingitud vastus. Ametnik saab selgitada ette, mis toimub, ja käituda rahulikult – kui olukord kordub ilma halva tagajärjeta, seos nõrgeneb (kustumine)."
+  {
+   "pealkiri": "Näide: Andrus",
+   "sisu": [
+    {
+     "tekst": "Andrus käib eesti keele tunnis (**neutraalne stiimul**). Ta eksib tahvli ees ja õpetaja hakkab tema peale karjuma (**tingimatu stiimul**). Andrusel tekib hirm ja ta hakkab klassi ees nutma (**tingimatu vastus**). See juhtub mitu korda, kuni Andrus hakkab nutma (**tingitud vastus**) juba eesti keele klassi ust nähes (**tingitud stiimul**)."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Neli seaduspära",
+   "sisu": [
+    {
+     "punktid": [
+      "**Stiimuli üldistumine** – tingitud vastus tekib igas sarnases olukorras. Näiteks hakkab Andrus nutma iga klassiruumi ukse nähes.",
+      "**Stiimuli eristumine** – õpitakse eristama stiimulit teistest sarnastest. Näiteks kardab Andrus just seda eesti keele õpetajat, mitte teisi eesti keele õpetajaid.",
+      "**Kustumine** – kui tingitud stiimul esineb korduvalt **ilma tingimatu stiimulita** ega tekita enam tingitud vastust, seos kustub. Näiteks kui õpetaja enam Andruse peale ei karju, kaob hirm ja ta ei hakka enam nutma.",
+      "**Spontaanne taastumine** – kustunud tingitud vastus võib mõne aja pärast uuesti tulla, kuid kui tingimatut stiimulit ei ole, jääb see iga korraga **nõrgemaks**."
+     ]
+    }
+   ]
+  }
+ ],
+ "skeemid": [
+  {
+   "tyyp": "voog",
+   "pealkiri": "Koer ja kell",
+   "sammud": [
+    {
+     "pealkiri": "Enne õppimist",
+     "tekst": "Kell = **neutraalne stiimul** – koer ei reageeri. Toit = **tingimatu stiimul** – koeral tekib süljeeritus (**tingimatu vastus**)."
+    },
+    {
+     "pealkiri": "Õppimise ajal",
+     "tekst": "Kell ja toit esitatakse **koos**, mitu korda."
+    },
+    {
+     "pealkiri": "Pärast õppimist",
+     "tekst": "Kell = **tingitud stiimul** – koeral tekib süljeeritus ka ilma toiduta (**tingitud vastus**)."
+    }
+   ]
+  },
+  {
+   "tyyp": "kaardid",
+   "pealkiri": "Klassikalise tingimise seaduspärad",
+   "kaardid": [
+    {
+     "pealkiri": "Stiimuli üldistumine",
+     "silt": "↔",
+     "tekst": "Tingitud vastus tekib igas sarnases olukorras – nutt iga klassiruumi ukse ees."
+    },
+    {
+     "pealkiri": "Stiimuli eristumine",
+     "silt": "≠",
+     "tekst": "Õpitakse eristama stiimulit sarnastest – kardetakse ainult seda õpetajat, mitte kõiki.",
+     "toon": "b"
+    },
+    {
+     "pealkiri": "Kustumine",
+     "silt": "↓",
+     "tekst": "Kui tingitud stiimul esineb korduvalt ilma tingimatuta, seos kustub – õpetaja enam ei karju, hirm kaob.",
+     "toon": "d"
+    },
+    {
+     "pealkiri": "Spontaanne taastumine",
+     "silt": "↻",
+     "tekst": "Kustunud vastus võib aja pärast uuesti tulla, kuid iga korraga nõrgemalt.",
+     "toon": "c"
+    }
+   ]
+  }
+ ],
+ "inspektor": {
+  "sisu": [
+   {
+    "tekst": "Inspektor-kontaktisik saab kustumisele kaasa aidata: rahulik ja ettearvatav käitumine samas olukorras nõrgendab õpitud hirmu."
    }
-  },
-  "tyypviga": {
-   "punktid": [
-    "Klassikaline ja operantne tingimine aetakse segi. Klassikaline – **stiimulite seos**, tahtmatu reaktsioon; operantne – **tagajärg** pärast käitumist.",
-    "Kustumist peetakse unustamiseks. Kustumine tekib siis, kui tingitud stiimul esineb korduvalt ilma tingimatuta; vastus võib spontaanselt taastuda."
-   ]
+  ],
+  "naide": {
+   "olukord": "Kinnipeetav muutub kambri läbiotsimisel väga ärevaks ja agressiivseks, kuigi ametnikud käituvad korrektselt. Ta räägib, et kodus tähendas uste paukumine peksu.",
+   "analyys": "Uste paukumine ja võõrad ruumis on tingitud stiimul, hirm ja agressioon tingitud vastus. Ametnik saab ette selgitada, mis toimub, ja käituda rahulikult – kui olukord kordub ilma halva tagajärjeta, seos nõrgeneb (kustumine)."
   }
  },
  "harjutused": [
@@ -130,7 +167,7 @@
  ],
  "valjast": [
   {
-   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "tekst": "„Inspektor-kontaktisiku töös” osa (näide ja soovitused) on koostatud selle lehe jaoks tunnimaterjali põhjal; see ei ole õppejõu materjal.",
    "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
   }
  ],

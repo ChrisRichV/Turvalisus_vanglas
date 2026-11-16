@@ -1,0 +1,219 @@
+{
+ "id": "ps-t01-05",
+ "tund": "ps-t01",
+ "jrk": 5,
+ "mall": "psuh",
+ "pealkiri": "Ajalugu",
+ "lyhend": "Ajalugu",
+ "ikoon": "liivakell",
+ "lyhidalt": "Kurjategijaga tegelemist on suunanud see, mida peeti kuriteo põhjuseks: deemonid, siis vaba ratsionaalne otsus. Valgustusaeg andis karistusele neli põhjust. Uskumus, et karistus üksi hoiab kuritegudest eemale, ei ole teaduslikult tõestatud.",
+ "materjal": [
+  {
+   "pealkiri": "Kuritegevuse põhjuste mõju",
+   "sisu": [
+    {
+     "tekst": "Seda, kuidas kurjategijaga on tegeletud, on ajaloos suunanud see, **mida ühiskond kuriteo põhjuseks peab**."
+    },
+    {
+     "tekst": "Üks **vanimaid** vaateid: kuritegevuse põhjus on **kurjad hinged ja deemonid**, mis juhivad inimese käitumist. Seepärast oli algselt peamine rõhk **karistamisel**. Usuti, et süütu jääb kohtumõistmisel Jumala abil terveks, süüdlane aga saab karistada, sest tema sees on kuri hing."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Kinnised asutused ja psühholoogia",
+   "sisu": [
+    {
+     "tekst": "Kinnised asutused (vanglad, psühhiaatriahaiglad) on olnud psühholoogia arengus väga tähtsad, sest nende sihtrühmad on **keerulisemad kui tavapopulatsioon**. Lisaks olid vanglad **esimeste seas, kes lubasid psühholoogidel** oma hindamismeetodeid, ravivõtteid ja teadust praktiseerida."
+    },
+    {
+     "tekst": "Ajalooliselt on vanglates sageli hoitud ka **raskete vaimsete häiretega** inimesi. Seepärast oli vaja teistsuguseid lähenemisi kui lihtsalt vangistus ja karistus – nii tekkis vajadus psühholoogia ja psühhiaatria järele."
+    }
+   ]
+  },
+  {
+   "pealkiri": "18. sajand: vaba ja ratsionaalne otsus",
+   "sisu": [
+    {
+     "loend": [
+      "sajandil usuti, et kriminaalne käitumine on inimese **vaba ja ratsionaalse otsuse** tagajärg: **kui isiklikud võidud kaaluvad üles kaotuse, järgneb kuritegu.**"
+     ]
+    }
+   ]
+  },
+  {
+   "pealkiri": "Valgustusaeg: karistuse neli põhjust",
+   "sisu": [
+    {
+     "tekst": "Valgustusaja filosoofid hakkasid arutlema **karistuse mõju ja eesmärkide** üle. Nende arvates pidi karistus andma rohkem kasu kui lihtsalt valu tekitamine. Karistusel peaks olema **4 põhjust**:"
+    },
+    {
+     "loend": [
+      "**Ennetada** kuritegusid.",
+      "Kui ennetada ei õnnestu, **suunata** kurjategijat tegema **kergemaid** kuritegusid.",
+      "**Vähendada kahju**, mida kuritegu tekitab.",
+      "Ennetada kuritegusid **võimalikult väikese kuluga**."
+     ]
+    },
+    {
+     "tekst": "Tekkis ka **utilitaarne vaade**: karistus peab olema **kuriteoga sobivas proportsioonis**."
+    },
+    {
+     "tekst": "Seega arutati juba valgustusajal karistamise üle mõtteid, mis on olulised ka tänapäeval."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Lähiajalugu",
+   "sisu": [
+    {
+     "tekst": "Lähiajaloos on korrektsioonis olnud palju muutusi ja eksperimente, kuid endiselt on levinud uskumus, et **karistada saamine hoiab uutest kuritegudest eemale**. Sellega käib kaasas uskumus, et **karistuse risk hoiab suuremat osa ühiskonnast** kuritegudest eemal."
+    },
+    {
+     "tekst": "Küsimus: kas tõesti väldivad kõik kuritegusid ainult selleks, et mitte karistada saada, või on ka muid põhjusi?"
+    }
+   ]
+  },
+  {
+   "pealkiri": "Kas karistus hoiab eemale?",
+   "sisu": [
+    {
+     "tekst": "Nendel uskumustel **ei ole erilist teaduslikku tõestust** ja vähesed leitud efektid on **nõrgad**."
+    },
+    {
+     "tekst": "See tähendab: **karistada saamine üksinda ei hoia kuritegudest eemale ei neid, kes on varem kuritegusid teinud, ega ühiskonda üldiselt.**"
+    }
+   ]
+  }
+ ],
+ "skeemid": [
+  {
+   "tyyp": "voog",
+   "pealkiri": "Kuidas vaade on muutunud",
+   "sammud": [
+    {
+     "pealkiri": "Kurjad hinged ja deemonid",
+     "tekst": "Käitumist juhivad kurjad jõud → rõhk karistamisel; usuti, et süütu jääb Jumala abil terveks."
+    },
+    {
+     "pealkiri": "18. sajand: vaba ja ratsionaalne otsus",
+     "tekst": "Kuritegu järgneb, kui isiklik võit kaalub üles kaotuse."
+    },
+    {
+     "pealkiri": "Kinnised asutused ja psühholoogia",
+     "tekst": "Vanglates oli palju raskete vaimsete häiretega inimesi → vaja oli muud kui vangistus ja karistus; vanglad lubasid esimeste seas psühholooge tööle."
+    },
+    {
+     "pealkiri": "Lähiajalugu",
+     "tekst": "Palju eksperimente, kuid püsib uskumus, et karistus hoiab kuritegudest eemale."
+    }
+   ]
+  },
+  {
+   "tyyp": "pyramiid",
+   "pealkiri": "Karistuse neli põhjust valgustusaja järgi",
+   "astmed": [
+    {
+     "pealkiri": "1. Ennetada kuritegusid",
+     "tekst": "kõige tähtsam"
+    },
+    {
+     "pealkiri": "2. Suunata kergemate kuritegude poole",
+     "tekst": "kui ennetada ei õnnestu"
+    },
+    {
+     "pealkiri": "3. Vähendada kuriteo kahju"
+    },
+    {
+     "pealkiri": "4. Teha seda võimalikult väikese kuluga",
+     "toon": "b"
+    }
+   ]
+  },
+  {
+   "tyyp": "kaalud",
+   "pealkiri": "Uskumus ja uuringud",
+   "vasak": {
+    "silt": "Uskumus",
+    "pealkiri": "Karistus hoiab eemale",
+    "tekst": "karistuse risk hoiab kurjategijad ja ühiskonna kuritegudest eemal"
+   },
+   "parem": {
+    "silt": "Uuringud",
+    "pealkiri": "Tõendid on nõrgad",
+    "tekst": "erilist teaduslikku tõestust pole; vähesed leitud efektid on nõrgad"
+   },
+   "all": [
+    "Karistada saamine üksinda ei hoia eemale ei varasemaid kurjategijaid ega ühiskonda."
+   ]
+  }
+ ],
+ "inspektor": {
+  "sisu": [
+   {
+    "tekst": "Inspektor-kontaktisik puutub kokku nii „karistava” kui ka „taasühiskonnastava” vaatega – ajalugu aitab mõista, miks need põrkuvad. Seaduse järgi on vangistuse eesmärk kinnipeetava suunamine õiguskuulekale käitumisele ja õiguskorra kaitsmine ([[VangS § 6 lg 1]]), mitte kannatus."
+   }
+  ],
+  "naide": {
+   "olukord": "Kinnipeetav on kolmandat korda vanglas varguste eest. Ta ütleb: „Vangla mind ei hirmuta, siin on mul sõbrad.”",
+   "analyys": "See kinnitab materjali järeldust: karistus üksi ei hoidnud teda eemale. Kontaktisiku töö on täita vangistuse aeg sisuga, mis päriselt muudab käitumist – näiteks täitmiskavas ([[VangS § 16 lg 1]]) ette nähtud hariduse, töö ja vabanemise ettevalmistusega."
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis oli valgustusaja järgi karistuse esimene põhjus?",
+   "valikud": [
+    "Kättemaks",
+    "Kuritegude ennetamine",
+    "Kurja hinge väljaajamine",
+    "Riigikassa täitmine"
+   ],
+   "oige": 1,
+   "selgitus": "Järgnesid: suunata kergemate kuritegude poole, vähendada kahju ja teha seda väikese kuluga."
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis on vangistuse täideviimise eesmärk kehtiva seaduse järgi?",
+   "valikud": [
+    "Tekitada kinnipeetavale kannatusi",
+    "Suunata kinnipeetav õiguskuulekale käitumisele ja kaitsta õiguskorda",
+    "Ainult ühiskonna kaitsmine kinnipeetava eest",
+    "Kinnipeetava ümberkasvatamine töö kaudu"
+   ],
+   "oige": 1,
+   "selgitus": "[[VangS § 6 lg 1]]"
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mida näitavad uuringud karistuse heidutava mõju kohta kursuse järgi?",
+   "valikud": [
+    "Karistus hoiab usaldusväärselt kõiki kuritegudest eemale",
+    "Karistus üksi ei hoia eemale ei varem kuritegusid teinuid ega ühiskonda; efektid on nõrgad",
+    "Karistus mõjub ainult naistele",
+    "Karistus mõjub ainult siis, kui see on avalik"
+   ],
+   "oige": 1,
+   "selgitus": "Seepärast on vaja käitumist muutvaid sekkumisi."
+  },
+  {
+   "tyyp": "kaasus",
+   "kysimus": "Kinnipeetav (40) on kolmandat korda vanglas varguste eest. Ta ütleb, et vangla ei hirmuta teda. Mida see näitab karistuse kohta ja mida saab inspektor-kontaktisik teha?",
+   "vastus": [
+    "**Mida see näitab:** varasemad karistused ei hoidnud teda eemale – karistus üksi ei mõju.",
+    "**Miks:** karistus jõuab hilja ja kuritegeliku elu tasud (raha, sõbrad) olid tugevamad.",
+    "**Mida teha:** kasutada täitmiskava ([[VangS § 16 lg 1]]) – haridus, töö, vabanemise ettevalmistus; leida tema enda eesmärgid.",
+    "**Järeldus:** vangistuse aeg tuleb täita sisuga, mis muudab käitumist ([[VangS § 6 lg 1]])."
+   ],
+   "juhis": "Mõtle läbi: mis on toimunud, mis teooria seda selgitab ja mida inspektor-kontaktisik teeb."
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "„Inspektor-kontaktisiku töös” osa (näide ja soovitused) on koostatud selle lehe jaoks tunnimaterjali põhjal; see ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

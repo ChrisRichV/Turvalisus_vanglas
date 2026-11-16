@@ -1,0 +1,109 @@
+{
+ "id": "ps-t06-05",
+ "tund": "ps-t06",
+ "jrk": 5,
+ "mall": "psuh",
+ "pealkiri": "Jutukas kinnipeetav",
+ "lyhend": "Jutukas kinnipeetav",
+ "ikoon": "mull",
+ "lyhidalt": "Jutukas kinnipeetav jätab mulje koostöövalmidusest, kuid räägib kõrvalistest asjadest ja väldib olulist – see võib olla kaitsemehhanism. Abiks on ette valmistatud punktid, eesmärk vestluse alguses, teema juurde tagasi toomine, kokkuvõtted ja kindlad piirid.",
+ "materjal": [
+  {
+   "pealkiri": "Milline on jutukas kinnipeetav",
+   "sisu": [
+    {
+     "tekst": "Jutukas kinnipeetav on üks keeruline tüüp. Esialgu võib ta jätta mulje **heast koostöövalmidusest ja usaldusest**, kuid lähemalt vaadates selgub, et **rohke rääkimine ei tähenda sisulist eneseavamist**."
+    },
+    {
+     "tekst": "Vestlustes **kaldub ta sageli teemast kõrvale**, räägib pikalt kõrvalistest asjadest ja **väldib keerulisi või emotsionaalselt olulisi teemasid**."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Miks see on probleem",
+   "sisu": [
+    {
+     "tekst": "Selline suhtlusstiil raskendab keskendunud tööd: oluliste probleemideni jõudmine võtab rohkem aega ja nõuab teadlikku suunamist. See võib viidata ka **kaitsemehhanismidele**, millega kinnipeetav väldib ebamugavaid tundeid või vastutust."
+    },
+    {
+     "tekst": "Seepärast tuleb leida **tasakaal**: hoida toetavat ja kuulavat hoiakut, kuid samal ajal hoida vestlus **eesmärgipärane** ja suunata kinnipeetavat sügavama eneseanalüüsi poole."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Viis sammu",
+   "sisu": [
+    {
+     "loend": [
+      "**Koostöösuhe ei ole nii keeruline** kui teiste keeruliste kinnipeetavate puhul – ta räägib, kuid sageli mitte sellest, millest on vaja.",
+      "**Valmista vestluseks ette konkreetsed punktid** – hoia raamides; iga vestluse alguses sõnasta eesmärk ja uuri, kas ta on sellega nõus.",
+      "**Too tagasi teema juurde** – „Ma näen, et see on sulle oluline, kuid praegu peame rääkima … Ehk jääb hiljem aega ka sinu teemaks.” või „Oleme teemast kõrvale kaldunud, proovime tagasi tulla.”",
+      "**Tee vahepeal tema jutust kokkuvõtteid** – „Kas ma saan õigesti aru, et probleem on selles, et …”",
+      "**Kokkuvõte:** jutukas kinnipeetav vajab **tugevat piiride seadmist ja kokkulepete tegemist**."
+     ]
+    }
+   ]
+  }
+ ],
+ "skeemid": [
+  {
+   "tyyp": "vordlus",
+   "pealkiri": "Kuidas suhelda",
+   "veerud": [
+    "Kinnine",
+    "Jutukas"
+   ],
+   "read": [
+    {
+     "silt": "Esimene mulje",
+     "lahtrid": [
+      "napisõnaline, distantseeritud",
+      "koostöövalmis, avatud"
+     ]
+    },
+    {
+     "silt": "Tegelikkus",
+     "lahtrid": [
+      "avanemine võtab aega; lõplikku avatust ei pruugigi tulla",
+      "palju juttu, vähe sisu; väldib olulist"
+     ]
+    },
+    {
+     "silt": "Ametniku võtted",
+     "lahtrid": [
+      "kannatlikkus ja aeg; usaldussuhe; **ära karda vaikust** – sina talud seda, tema hakkab täitma; avatud küsimused („kas”-küsimused ei vii vestluseni)",
+      "ette valmistatud punktid; iga vestluse alguses eesmärk ja tema nõusolek; too tagasi teema juurde; tee vahekokkuvõtteid"
+     ]
+    },
+    {
+     "silt": "Kokkuvõte",
+     "lahtrid": [
+      "selged raamid, rahulik ja hinnanguvaba hoiak, kaudsed suhtlusviisid",
+      "tugev piiride seadmine ja kokkulepped"
+     ]
+    }
+   ]
+  }
+ ],
+ "inspektor": {
+  "sisu": [
+   {
+    "tekst": "Jutuka kinnipeetavaga on oht, et kohtumine tundub hea, aga eesmärgini ei jõuta. Pane alguses eesmärk paika ja lõpus kokkulepe kirja."
+   }
+  ],
+  "naide": {
+   "olukord": "Kinnipeetav räägib igal kohtumisel pikalt oma kambrikaaslastest ja jalgpallist. Kui ametnik küsib vabanemise plaani kohta, läheb jutt kohe mujale.",
+   "analyys": "See on jutukas kinnipeetav, võimalik vältimine. Ametnik sõnastab alguses eesmärgi („Täna räägime sinu elukohast pärast vabanemist – kas sobib?”), toob jutu tagasi ja teeb kokkuvõtte. Kokkulepe pannakse kirja."
+  }
+ },
+ "harjutused": [],
+ "valjast": [
+  {
+   "tekst": "„Inspektor-kontaktisiku töös” osa (näide ja soovitused) on koostatud selle lehe jaoks tunnimaterjali põhjal; see ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

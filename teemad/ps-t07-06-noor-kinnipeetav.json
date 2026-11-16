@@ -1,0 +1,167 @@
+{
+ "id": "ps-t07-06",
+ "tund": "ps-t07",
+ "jrk": 6,
+ "mall": "psuh",
+ "pealkiri": "Noor kinnipeetav",
+ "lyhend": "Noor kinnipeetav",
+ "ikoon": "idu",
+ "lyhidalt": "Noor kinnipeetav on eriliselt haavatav. Vangistatud noortel on psühhoosi 10 korda, ATH-d 2–4 korda ja käitumishäireid 5–20 korda rohkem kui tavapopulatsioonil; ainete tarvitamine on erakordselt kõrge.",
+ "materjal": [
+  {
+   "pealkiri": "Noor kinnipeetav",
+   "sisu": [
+    {
+     "tekst": "Noor kinnipeetav on **eriliselt haavatav** grupp. Neil tekib juba varases eas **agressiivne ja vägivaldne käitumine**, mis omakorda aitab kaasa vaimse tervise probleemide tekkele."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Vangistuse mõju vaimsele tervisele",
+   "sisu": [
+    {
+     "tekst": "Noore vangistamine mõjub tema vaimsele tervisele mitmeti negatiivselt. Võrreldes tavapopulatsiooniga esineb vangistatud noortel:"
+    },
+    {
+     "punktid": [
+      "**psühhoosi 10 korda rohkem**,",
+      "**aktiivsus- ja tähelepanuhäiret (ATH) 2–4 korda rohkem**,",
+      "**käitumishäireid 5–20 korda rohkem**."
+     ]
+    },
+    {
+     "tekst": "See näitab, et **isiksusehäired** ja **välise käitumise häired** (ATH, käitumishäired) on tugevalt seotud kriminaalse käitumise ja käitumisprobleemidega."
+    },
+    {
+     "tekst": "Noortel kinnipeetavatel on ka **kõrge komorbiidsus** (mitu häiret korraga) ja **erakordselt kõrge ainete kuritarvitamise tase**."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Noore kriminaalse käitumise riskitegurid",
+   "sisu": [
+    {
+     "tekst": "Riskitegurid jagunevad kolme rühma:"
+    },
+    {
+     "punktid": [
+      "**Individuaalsed ja arengulised tegurid:** kokkupuude rasedusaegsete riskidega; lapsepõlves madal käitumise ja emotsioonide regulatsioon; neuroloogilised puudujäägid.",
+      "**Perekondlikud tegurid:** mitme põlvkonna käitumisprobleemid ja kuritegevus; vanemate madal haridustase; ebakorrapärane vanemlik distsipliin.",
+      "**Keskkondlikud tegurid:** elamine sotsiaalselt ebaorganiseeritud naabruskonnas; kogukonnas esinev vägivald; kogukonna madal ühine efektiivsus (inimesed ei suuda koos korda hoida)."
+     ]
+    }
+   ]
+  }
+ ],
+ "skeemid": [
+  {
+   "tyyp": "kaardid",
+   "pealkiri": "Vangistatud noortel võrreldes tavapopulatsiooniga",
+   "kaardid": [
+    {
+     "pealkiri": "Psühhoos",
+     "silt": "10×",
+     "tekst": "10 korda rohkem"
+    },
+    {
+     "pealkiri": "ATH",
+     "silt": "2–4×",
+     "tekst": "2 kuni 4 korda rohkem",
+     "toon": "b"
+    },
+    {
+     "pealkiri": "Käitumishäired",
+     "silt": "5–20×",
+     "tekst": "5 kuni 20 korda rohkem"
+    },
+    {
+     "pealkiri": "Ainete kuritarvitamine",
+     "silt": "↑",
+     "tekst": "erakordselt kõrge; sageli mitu häiret korraga (komorbiidsus)",
+     "toon": "b"
+    }
+   ],
+   "kitsad": true
+  },
+  {
+   "tyyp": "sambad",
+   "pealkiri": "Riskitegurid noore kriminaalseks käitumiseks",
+   "sambad": [
+    {
+     "pealkiri": "Individuaalsed ja arengulised",
+     "read": [
+      "rasedusaegsed riskid",
+      "madal käitumuslik ja emotsionaalne regulatsioon lapsepõlves",
+      "neuroloogilised defitsiidid"
+     ]
+    },
+    {
+     "pealkiri": "Perekondlikud",
+     "toon": "b",
+     "read": [
+      "mitme põlvkonna käitumisprobleemid ja kuritegevus",
+      "vanemate madal haridustase",
+      "ebakorrapärane vanemlik distsipliin"
+     ]
+    },
+    {
+     "pealkiri": "Keskkondlikud",
+     "read": [
+      "sotsiaalselt ebaorganiseeritud naabruskond",
+      "vägivald kogukonnas",
+      "kogukonna madal ühine efektiivsus"
+     ]
+    }
+   ]
+  }
+ ],
+ "inspektor": {
+  "sisu": [
+   {
+    "tekst": "Noorega töötades on eriti olulised selged reeglid, ametniku enda eeskuju ja võimalus õppida. Mõtle tema riskiteguritele kolmes rühmas – nii näed, millega saab vanglas tegeleda (oskused, haridus, ainete tarvitamine) ja millega mitte (minevik, perekond)."
+   }
+  ],
+  "naide": {
+   "olukord": "18-aastane kinnipeetav on impulsiivne, satub tihti tülidesse ja räägib, et tema isa ja vanem vend on samuti vanglas olnud.",
+   "analyys": "Riskitegurid on individuaalne (madal enesekontroll) ja perekondlik (mitme põlvkonna kuritegevus). Ametnik toetab hariduse ja oskuste omandamist, on ise järjekindel eeskuju ja jälgib, kas noorel on ka ainete tarvitamise või vaimse tervise probleeme, millega abi vajab."
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline riskitegurite rühm?",
+   "ryhmad": [
+    "Individuaalne",
+    "Perekondlik",
+    "Keskkondlik"
+   ],
+   "read": [
+    {
+     "tekst": "Neuroloogiline defitsiit",
+     "oige": 0
+    },
+    {
+     "tekst": "Ebakorrapärane vanemlik distsipliin",
+     "oige": 1
+    },
+    {
+     "tekst": "Vägivald naabruskonnas",
+     "oige": 2
+    },
+    {
+     "tekst": "Isa ja vanaisa on samuti kuritegusid toime pannud",
+     "oige": 1
+    }
+   ]
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "„Inspektor-kontaktisiku töös” osa (näide ja soovitused) on koostatud selle lehe jaoks tunnimaterjali põhjal; see ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

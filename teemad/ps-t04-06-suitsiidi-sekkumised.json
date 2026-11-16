@@ -1,0 +1,170 @@
+{
+ "id": "ps-t04-06",
+ "tund": "ps-t04",
+ "jrk": 6,
+ "mall": "psuh",
+ "pealkiri": "Sekkumised suitsiidikatsete ja enesevigastamise ennetamiseks",
+ "lyhend": "Sekkumised",
+ "ikoon": "kilp",
+ "lyhidalt": "Kvaliteetseid uuringuid on vähe ja teaduslikult tõestatud rutiinset vanglasekkumist veel pole; lootustandvaim on CBSP. Isolatsioon ja mööblita kamber suurendavad riski. Hea praktika: esmane hindamine, ühine kamber, toetusgrupid, arstiabi. Teadmine märkidest aitab riski märgata.",
+ "materjal": [
+  {
+   "pealkiri": "Mida teatakse",
+   "sisu": [
+    {
+     "tekst": "Enesetapukatsete sekkumiste kohta on **väga vähe kvaliteetseid uuringuid**, seega on veel raske öelda, mis ennetamisel ja järelsekkumisel toimib. **Ühtegi teaduslikult tõestatud psühholoogilist sekkumist**, mis tegeleks vanglates rutiinselt just suitsiidse või ennastvigastava käitumisega, **veel ei ole**."
+    },
+    {
+     "tekst": "Kõige optimistlikum on olnud projekt **kognitiiv-käitumuslik teraapia suitsiidi ennetamiseks** (**CBSP** – *Cognitive Behavioral Suicide Prevention*): **4–6 kuu jooksul 20 individuaalset vestlust** väljaõppega terapeudiga."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Kes sekkub",
+   "sisu": [
+    {
+     "tekst": "Esmane sekkumine suitsiidikatse või enesevigastamise korral on **psühholoogiline ja/või psühhofarmakoloogiline** (ravimitega) teraapia spetsialisti juures (**psühhiaater, kliiniline psühholoog**), et tegeleda diagnoosidega. Seejärel liigub juhtum **üldisema nõustaja** juurde väiksemate probleemidega (nt ärevus, kehv tuju, sõltuvus)."
+    },
+    {
+     "tekst": "Iga sellise juhtumi puhul on oluline **traumateadlik lähenemine** – selle põhipunkte on vaja tunda."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Keskkondlikud sekkumised",
+   "sisu": [
+    {
+     "tekst": "Suitsiidiriski korral **EI SOBI isolatsioon, mööblita kambrid ega oma riietest ilmajätmine**. Need pigem **suurendavad** suitsiidiriski ja negatiivseid emotsioone."
+    },
+    {
+     "tekst": "Kinnipeetavad kasutavad enesetapukatseks aega, kui **töötajaid on vähem ja aktiivsus madalam**: öösel, nädalavahetustel ja näiteks suvel."
+    },
+    {
+     "tekst": "**Hea praktika** enesetapuriski vähendamiseks:"
+    },
+    {
+     "punktid": [
+      "teha **esmane hindamine**;",
+      "paigutada inimene **kellegagi ühisesse kambrisse**;",
+      "pakkuda võimalust suhelda **toetusgruppidega**;",
+      "tagada ligipääs **sobivale meditsiinilisele abile**."
+     ]
+    }
+   ]
+  },
+  {
+   "pealkiri": "Takistused",
+   "sisu": [
+    {
+     "tekst": "Kvaliteetseks sekkumiseks on vaja **treenitud töötajaid, tõhusaid sekkumisi ja turvalist keskkonda** – see eeldab head juhtimist süsteemi igal tasandil."
+    },
+    {
+     "tekst": "Takistused on sageli **raha nappus** ja **ametnike puudus**. Takistuseks võivad olla ka **vaidlused vangistuse eesmärgi üle** – kas vangistuse eesmärk on inimest karistada, kinni hoida, aidata või taasühiskonnastada."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Märgid, mis võivad viidata enesetapuriskile",
+   "sisu": [
+    {
+     "punktid": [
+      "Räägib enesetapust või teeb selle üle nalja; ütleb nt „Oleks parem, kui ma oleksin surnud” või „Varsti ma ei tüüta sind enam”.",
+      "Räägib surmast positiivselt, nt „Kui ma sureksin, armastaksid inimesed mind rohkem”.",
+      "Kirjutab surmast lugusid ja luuletusi.",
+      "Käitub enda suhtes hoolimatult; tal juhtub sageli õnnetusi, mis lõpevad tõsiste vigastustega.",
+      "Annab ära või viskab ära väärtuslikke asju.",
+      "Jätab pere ja sõpradega eriliselt hüvasti.",
+      "Varub vahendeid enesetapuks.",
+      "Kirjutab enesetapukirju.",
+      "Teeb arusaamatuid või veidraid avaldusi.",
+      "Tõmbub endasse ja eemaldub teistest, nt ei suhtle enam perega.",
+      "Käitub märgatavalt teistmoodi kui tavaliselt.",
+      "Tal tekivad probleemid tööl, koolis või sektoris.",
+      "Söömis- ja magamisharjumused on muutunud.",
+      "Ei tunne enam huvi tegevuste vastu, mis varem rõõmu pakkusid.",
+      "On jätnud hügieeni ja välimuse hooletusse."
+     ]
+    }
+   ]
+  }
+ ],
+ "skeemid": [
+  {
+   "tyyp": "kaardid",
+   "pealkiri": "Märgid, mis võivad viidata enesetapuriskile",
+   "kaardid": [
+    {
+     "pealkiri": "Räägib surmast",
+     "tekst": "„Oleks parem, kui ma oleksin surnud”, „Varsti ma ei tüüta sind enam”; nalja teeb enesetapust; räägib surmast positiivselt"
+    },
+    {
+     "pealkiri": "Jätab hüvasti",
+     "tekst": "annab ära väärtuslikke asju; jätab perega eriliselt hüvasti; kirjutab kirju",
+     "toon": "b"
+    },
+    {
+     "pealkiri": "Muutunud käitumine",
+     "tekst": "tõmbub endasse; käitub teistmoodi; söömine ja uni muutunud; huvi kadunud; hügieen hooletusse"
+    },
+    {
+     "pealkiri": "Hoolimatus",
+     "tekst": "käitub enda suhtes hoolimatult; sagedased vigastused; teeb veidraid avaldusi",
+     "toon": "b"
+    }
+   ],
+   "allkiri": "Üks märk ei tõesta riski, kuid iga märk on põhjus küsida ja teavitada."
+  },
+  {
+   "tyyp": "vordlus",
+   "pealkiri": "Keskkond ja suitsiidirisk",
+   "veerud": [
+    "Hea praktika",
+    "Ei sobi – suurendab riski"
+   ],
+   "read": [
+    {
+     "silt": "Paigutus",
+     "lahtrid": [
+      "ühine kamber kellegagi",
+      "isolatsioon"
+     ]
+    },
+    {
+     "silt": "Keskkond",
+     "lahtrid": [
+      "esmane hindamine; ligipääs arstiabile",
+      "mööblita kamber; oma riietest ilmajätmine"
+     ]
+    },
+    {
+     "silt": "Tugi",
+     "lahtrid": [
+      "toetusgrupid",
+      "üksindus, eriti öösel ja nädalavahetusel"
+     ]
+    }
+   ]
+  }
+ ],
+ "inspektor": {
+  "sisu": [
+   {
+    "tekst": "Inspektor-kontaktisik ei tee teraapiat, kuid on sageli see, kes märgib esimesena hoiatusmärke. Üks märk ei tõesta riski, kuid iga märk on põhjus küsida ja teavitada."
+   }
+  ],
+  "naide": {
+   "olukord": "Kinnipeetav, kes on vanglas olnud kaks nädalat, annab oma raadio ja pildid kambrikaaslasele ning ütleb ametnikule: „Ära muretse, varsti sa ei pea minuga enam jamama.”",
+   "analyys": "Mitu märki korraga (väärtuslike asjade äraandmine, „varsti ei pea”, vangistuse algus). Ametnik ei jäta teda üksi, küsib otse ja rahulikult, kas tal on mõtteid endale haiget teha, ning teavitab kohe tervishoiutöötajat ja juhti vangla korra järgi. Isoleerimine riski ei vähenda."
+  }
+ },
+ "harjutused": [],
+ "valjast": [
+  {
+   "tekst": "„Inspektor-kontaktisiku töös” osa (näide ja soovitused) on koostatud selle lehe jaoks tunnimaterjali põhjal; see ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

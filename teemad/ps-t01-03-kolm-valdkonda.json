@@ -1,0 +1,175 @@
+{
+ "id": "ps-t01-03",
+ "tund": "ps-t01",
+ "jrk": 3,
+ "mall": "psuh",
+ "pealkiri": "Korrektsioonipsühholoogia kasutamine",
+ "lyhend": "Kasutamine",
+ "ikoon": "sambad",
+ "lyhidalt": "Iga korrektsioonisüsteemi ametnik vajab kolme valdkonda: vaimse tervise häirete teadmisi, kognitiiv-käitumuslikku mudelit ja kriminoloogilist psühholoogiat. Teaduspõhisuse asemel toetutakse sageli kõhutundele – see on kallis ja võib kahjustada.",
+ "materjal": [
+  {
+   "pealkiri": "Kolm valdkonda, mida vajab iga ametnik",
+   "sisu": [
+    {
+     "loend": [
+      "**Psühhiaatrilised ja psühholoogilised teadmised vaimse tervise häiretest** – nende diagnoosimisest, põhjustest ja ravist. Aitab luua **turvalise ja inimliku keskkonna** vangide kinnipidamiseks.",
+      "**Kognitiiv-käitumuslik mudel** – aitab hinnata ja selgitada inimeste käitumist **teaduslikult tõestatud viisil** ja sekkuda käitumisse ükskõik millises keskkonnas ja iga inimtüübi puhul. Seega sobib see ka kriminaalse käitumise puhul.",
+      "**Kriminoloogiline psühholoogia** – selgitab kriminaalse käitumise **põhjuseid ja teket**. Seda peaks teadma iga ametnik. Ilma selleta: - ei märka me **riskitegureid** ega oska neid eristada muudest vajadustest; - võime kasutada **ebaefektiivseid** sekkumisi; - võime **valesti hinnata**, kui suurt sekkumist on vaja."
+     ]
+    }
+   ]
+  },
+  {
+   "pealkiri": "Kõhutunne või teadus",
+   "sisu": [
+    {
+     "tekst": "Väga suur osa korrektsioonist toetub **retoorilistele ja tunnetuslikele teadmistele** ning seda juhivad ametnikud, kellel pole kriitilist ega erialast teadmist."
+    },
+    {
+     "tekst": "Mõned usuvad, et nende **loogiline mõtlemine, isiklikud väärtused ja kogemus** on olulisemad kui teaduslikult tõestatud teadmised. See viib **kallite ja võimalikult kahjulike** praktikateni."
+    },
+    {
+     "tekst": "Sageli toetavad selliseid vaateid ka **poliitikud ja meedia**, ning neid praktikaid jätkatakse ka siis, kui on juba leitud, et need on ebaefektiivsed. Kasutatakse ka meetodeid, mida pole üldse teaduslikult uuritud – meditsiinis selline lähenemine ei toimiks, kuid korrektsioonisüsteemis see on kasutusel."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Suurbritannia näide",
+   "sisu": [
+    {
+     "tekst": "Kui ühiskonna arvamus kinnipidamisasutustest muutub ja hakatakse otsima **lihtsamaid ja odavamaid** lahendusi, minnakse vahel tagasi hästi toimivatest teaduslikult tõestatud süsteemidest."
+    },
+    {
+     "tekst": "Näiteks **Suurbritannia** käis **25 aastat taasühiskonnastamise rada**, kuid on nüüd astunud tagasi **karistavama süsteemi** poole. Põhjus: ühiskonna nägemus taasühiskonnastavast vangistusest muutus negatiivseks („kurjategijad pääsevad liiga kergelt”) ja rahastamist vähendati."
+    }
+   ]
+  }
+ ],
+ "skeemid": [
+  {
+   "tyyp": "sambad",
+   "pealkiri": "Kolm valdkonda",
+   "katus": {
+    "pealkiri": "Korrektsioonisüsteemi eesmärgid",
+    "tekst": "turvaline ja inimlik kinnipidamine, käitumise muutmine"
+   },
+   "sambad": [
+    {
+     "pealkiri": "Vaimse tervise häired",
+     "read": [
+      "diagnoosimine, põhjused, ravi",
+      "aitab luua **turvalise ja inimliku** keskkonna"
+     ]
+    },
+    {
+     "pealkiri": "Kognitiiv-käitumuslik mudel",
+     "toon": "b",
+     "read": [
+      "hindab ja selgitab käitumist teaduslikult",
+      "sobib igas keskkonnas ja igale inimesele – ka kriminaalsele käitumisele"
+     ]
+    },
+    {
+     "pealkiri": "Kriminoloogiline psühholoogia",
+     "read": [
+      "selgitab kuriteo põhjusi ja teket",
+      "aitab märgata **riskitegureid** ja valida õige sekkumise"
+     ]
+    }
+   ],
+   "alus": {
+    "pealkiri": "Teaduslikult tõestatud teadmine",
+    "tekst": "mitte ainult isiklik kogemus ja loogika"
+   }
+  },
+  {
+   "tyyp": "vordlus",
+   "pealkiri": "Kaks lähenemist korrektsioonis",
+   "veerud": [
+    "Tunnetuslik (kõhutunne)",
+    "Teaduspõhine"
+   ],
+   "read": [
+    {
+     "silt": "Millele toetub",
+     "lahtrid": [
+      "loogiline mõtlemine, isiklikud väärtused, kogemus",
+      "teaduslikult tõestatud teadmised"
+     ]
+    },
+    {
+     "silt": "Kes toetab",
+     "lahtrid": [
+      "sageli poliitikud ja meedia",
+      "uuringud"
+     ]
+    },
+    {
+     "silt": "Tulemus",
+     "lahtrid": [
+      "kallid ja võimalikult kahjulikud praktikad; jätkuvad ka siis, kui on ebaefektiivsed",
+      "sekkumine, mille toimimist on uuritud"
+     ]
+    }
+   ]
+  }
+ ],
+ "inspektor": {
+  "sisu": [
+   {
+    "tekst": "Kui kinnipeetav käitub halvasti, ei piisa küsimusest „kuidas teda karistada?”. Kolme valdkonna järgi tuleb küsida: **mis on käitumise põhjus** (kriminoloogiline psühholoogia), **kas taga on vaimse tervise häire** ja **kuidas käitumist muuta** (kognitiiv-käitumuslik mudel)."
+   }
+  ],
+  "naide": {
+   "olukord": "Kinnipeetav keeldub korduvalt tööle minemast. Kolleeg soovitab: „Karista teda, küll ta siis läheb.”",
+   "analyys": "Kõhutunne pakub karistust. Teaduspõhine ametnik uurib kõigepealt põhjust: kas tegu on depressiooni, hirmu, konflikti või oskuste puudumisega? Alles siis valitakse sobiv sekkumine."
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Millise valdkonnaga on tegu?",
+   "ryhmad": [
+    "Vaimse tervise häired",
+    "Kognitiiv-käitumuslik mudel",
+    "Kriminoloogiline psühholoogia"
+   ],
+   "read": [
+    {
+     "tekst": "Ametnik märkab, et kinnipeetav kuuleb hääli, ja teavitab tervishoiutöötajat.",
+     "oige": 0
+    },
+    {
+     "tekst": "Ametnik selgitab, kuidas kinnipeetava mõtted mõjutavad tema käitumist konfliktis.",
+     "oige": 1
+    },
+    {
+     "tekst": "Ametnik tunneb ära riskitegurid, mis suurendavad uue kuriteo tõenäosust.",
+     "oige": 2
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis juhtus kursuse näites Suurbritanniaga?",
+   "valikud": [
+    "Seal loobuti vanglatest täielikult",
+    "Pärast 25 aastat taasühiskonnastamist pöörduti tagasi karistavama süsteemi poole",
+    "Seal võeti kasutusele RNR-mudel",
+    "Seal keelati psühholoogid vanglates"
+   ],
+   "oige": 1,
+   "selgitus": "Avalik arvamus muutus negatiivseks ja rahastust vähendati."
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "„Inspektor-kontaktisiku töös” osa (näide ja soovitused) on koostatud selle lehe jaoks tunnimaterjali põhjal; see ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

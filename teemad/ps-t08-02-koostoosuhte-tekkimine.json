@@ -1,0 +1,163 @@
+{
+ "id": "ps-t08-02",
+ "tund": "ps-t08",
+ "jrk": 2,
+ "mall": "psuh",
+ "pealkiri": "Koostöösuhte tekkimine",
+ "lyhend": "Suhte tekkimine",
+ "ikoon": "pusle",
+ "lyhidalt": "Koostöösuhe ei teki iseenesest – keskne roll ja vastutus on juhtumikorraldajal. Suhet loovad avatud ja eesmärgipärane vestlus, motiveeriv intervjueerimine, kehakeel, empaatia, professionaalne eneseavamine ja kliendi kaasamine.",
+ "materjal": [
+  {
+   "pealkiri": "Kelle vastutus",
+   "sisu": [
+    {
+     "tekst": "Tõhusa juhtumikorralduse alus on **toimiv koostöösuhe** kliendi ja juhtumikorraldaja vahel. Suhte kujunemisel on **keskne roll ja vastutus juhtumikorraldajal**, sest tema loob esmase kontakti, seab raami ja kujundab suhtluse tooni. Koostöösuhe **ei teki iseenesest** – see vajab teadlikku ja järjepidevat panust."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Avatud, aga eesmärgipärane vestlus",
+   "sisu": [
+    {
+     "tekst": "Vestlused kliendiga peaksid olema **avatud ja toetavad**, kuid samal ajal **eesmärgipärased**. Avatud suhtlus loob turvatunde ja usalduse; eesmärgipärasus hoiab fookust ja toetab töö sisulisi eesmärke. Juhtumikorraldaja hoiab **tasakaalu empaatilise kuulamise ja professionaalse suunamise vahel**."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Motiveeriv intervjueerimine",
+   "sisu": [
+    {
+     "tekst": "Koostöösuhte loomisel ja hoidmisel kasutatakse sageli **motiveeriva intervjueerimise** põhimõtteid. See lähenemine:"
+    },
+    {
+     "punktid": [
+      "toetab kliendi **autonoomiat** (iseseisvust),",
+      "aitab uurida tema motivatsiooni,",
+      "tugevdab valmisolekut muutuseks **ilma survet avaldamata**."
+     ]
+    },
+    {
+     "tekst": "Oluline on **kuulata, peegeldada ja toetada kliendi enda arutlust**, mitte anda valmis lahendusi."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Mitteverbaalne suhtlus",
+   "sisu": [
+    {
+     "tekst": "Kehakeel – **naeratus, huvi väljendav ilme, sobiv ja rahulik hääletoon** – annab kliendile märku, et teda kuulatakse ja temast hoolitakse. Need detailid võivad mõjutada suhet sama palju kui sõnad."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Verbaalne suhtlus: empaatia",
+   "sisu": [
+    {
+     "tekst": "Sõnalises suhtluses on keskne **empaatia väljendamine**: kliendi tunnete ja kogemuste mõistmine ning nende sõnastamine nii, et see näitab ärakuulamist ja austust. **Empaatia ei tähenda heakskiitmist, vaid mõistvat kohalolu.**"
+    }
+   ]
+  },
+  {
+   "pealkiri": "Professionaalne eneseavamine",
+   "sisu": [
+    {
+     "tekst": "Koostöösuhtes kasutatakse ka eneseavamist, kuid **professionaalselt**:"
+    },
+    {
+     "punktid": [
+      "soovitatav on kasutada **enesega seotud ütlusi**, mis kirjeldavad juhtumikorraldaja reaktsioone või tähelepanekuid (nt „ma kuulen, et see olukord on sinu jaoks olnud väga koormav”);",
+      "**isikliku elu kohta info jagamine ei ole juhtumikorraldaja rollis asjakohane.**"
+     ]
+    }
+   ]
+  },
+  {
+   "pealkiri": "Kliendi aktiivne kaasamine",
+   "sisu": [
+    {
+     "tekst": "Suhte tugevdamisel on keskne **kliendi aktiivne kaasamine** – see toetab vastutuse võtmist ja pikaajalist muutust. Kaasamine tähendab kliendi **valikute ja autonoomia suurendamist**: ta ei ole passiivne teenuse saaja, vaid osaline oma protsessis."
+    },
+    {
+     "tekst": "Kaasamiseks on vaja:"
+    },
+    {
+     "loend": [
+      "**Rollide selget lahtimõtestamist** – klient peab mõistma, mis on juhtumikorraldaja ülesanne ja vastutus ning millised otsused ja tegevused on tema enda teha.",
+      "**Koostöökokkulepet** koostöö alguses – lepitakse kokku suhtluse põhimõtted, eesmärgid ja mõlema poole ootused.",
+      "**Kliendi osalemist eesmärkide ja konkreetsete ülesannete valikus** – see suurendab motivatsiooni, usaldust ja vastutust ning aitab seada realistlikke ja tähenduslikke eesmärke, mis sobivad nii professionaalse raamistiku kui ka kliendi enda väärtuste ja võimalustega."
+     ]
+    }
+   ]
+  }
+ ],
+ "skeemid": [
+  {
+   "tyyp": "kaardid",
+   "pealkiri": "Koostöösuhte ehituskivid",
+   "kaardid": [
+    {
+     "pealkiri": "Avatud ja eesmärgipärane",
+     "silt": "1",
+     "tekst": "avatus loob usalduse, eesmärk hoiab fookust – tasakaal empaatilise kuulamise ja professionaalse suunamise vahel"
+    },
+    {
+     "pealkiri": "Motiveeriv intervjueerimine",
+     "silt": "2",
+     "tekst": "toetab autonoomiat; kuula, peegelda, toeta tema enda arutlust – ära anna valmis lahendusi",
+     "toon": "b"
+    },
+    {
+     "pealkiri": "Mitteverbaalne suhtlus",
+     "silt": "3",
+     "tekst": "naeratus, huvi väljendav ilme, rahulik hääletoon"
+    },
+    {
+     "pealkiri": "Empaatia",
+     "silt": "4",
+     "tekst": "tunnete mõistmine ja sõnastamine; empaatia ≠ heakskiit",
+     "toon": "b"
+    },
+    {
+     "pealkiri": "Professionaalne eneseavamine",
+     "silt": "5",
+     "tekst": "enesega seotud ütlused („ma kuulen, et see on olnud koormav”), mitte isiklik elu"
+    },
+    {
+     "pealkiri": "Kaasamine",
+     "silt": "6",
+     "tekst": "rollide selgitus, koostöökokkulepe, klient valib eesmärke ja ülesandeid",
+     "toon": "b"
+    }
+   ],
+   "kitsad": true
+  }
+ ],
+ "inspektor": {
+  "sisu": [
+   {
+    "tekst": "Kontaktisik on see, kes suhte üles ehitab – kinnipeetavalt ei saa oodata, et ta teeks esimese sammu. Igal kohtumisel võiks olla kaks poolt: kuulamine (mis sul on toimunud?) ja suund (mida täna kokku lepime?)."
+   },
+   {
+    "punktid": [
+     "Ütle „ma kuulen, et…”, mitte „mul oli ka kunagi…”.",
+     "Lase kinnipeetaval valida, millise eesmärgiga alustada, ja pane kokkulepe kirja."
+    ]
+   }
+  ],
+  "naide": {
+   "olukord": "Kinnipeetav räägib, et ema ei vasta tema kirjadele ja et tal on sellest kõrini. Ametnikul on endal sarnane kogemus.",
+   "analyys": "Ametnik ei hakka rääkima oma perest, vaid ütleb: „Ma kuulen, et see on sulle väga raske.” Seejärel küsib, kas kinnipeetav sooviks sellega midagi ette võtta, ja lepivad koos kokku järgmise sammu."
+  }
+ },
+ "harjutused": [],
+ "valjast": [
+  {
+   "tekst": "„Inspektor-kontaktisiku töös” osa (näide ja soovitused) on koostatud selle lehe jaoks tunnimaterjali põhjal; see ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

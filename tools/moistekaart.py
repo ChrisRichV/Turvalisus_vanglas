@@ -300,15 +300,15 @@ s("lynk", "seaduslikkus", "analoogia ei asenda")
 s("oigussuhe", "pohioigus", "riik ↔ isik")
 
 # ---------- Vangla psühholoogia (korrektsioonipsühholoogia, tunnid 1–8)
-m("korrektsioonipsuhholoogia", "Korrektsioonipsühholoogia", ["ps-t01-01", "ps-t01-02"], ["VangS § 6 lg 1"],
+m("korrektsioonipsuhholoogia", "Korrektsioonipsühholoogia", ["ps-t01-02", "ps-t01-03", "ps-t01-01"], ["VangS § 6 lg 1"],
   "Selgitab, kuidas kriminaalne käitumine tekib, ja annab teadmist, kuidas seda muuta. Teenib vangistuse eesmärki: suunata õiguskuulekale käitumisele ([[VangS § 6 lg 1]]).")
-m("teaduspohisus", "Teaduspõhine praktika", ["ps-t01-02", "ps-t01-03"], [],
+m("teaduspohisus", "Teaduspõhine praktika", ["ps-t01-03", "ps-t01-04"], [],
   "Sekkumine valitakse tõendite, mitte ainult kõhutunde ja kogemuse järgi. Kursuse järgi viib teaduseta praktika kallite ja kahjulike tulemusteni.")
-m("karistuse-eesmargid", "Karistuse eesmärgid", ["ps-t01-04", "ps-t01-05"], ["VangS § 6 lg 1", "VangS § 4^1 lg 1"],
+m("karistuse-eesmargid", "Karistuse eesmärgid", ["ps-t01-05"], ["VangS § 6 lg 1", "VangS § 4^1 lg 1"],
   "Valgustusajal: ennetada, suunata kergemale, vähendada kahju, väikese kuluga. Täna: õiguskuulekale käitumisele suunamine ([[VangS § 6 lg 1]]), kannatus ei tohi ületada paratamatut ([[VangS § 4^1 lg 1]]).")
 m("heidutus", "Karistuse mõju", ["ps-t01-05"], [],
   "Kursuse järgi ei hoia karistus üksi kuritegudest eemale ei kurjategijaid ega ühiskonda; leitud efektid on nõrgad.")
-m("rnr", "RNR-mudel", ["ps-t02-01", "ps-t05-05"], ["VangS § 14 lg 1^2"],
+m("rnr", "RNR-mudel", ["ps-t02-01", "ps-t05-05", "ps-t04-08"], ["VangS § 14 lg 1^2"],
   "Riski-vajaduse-vastavuse mudel – teaduslikult kõige mõjukam teooria sekkumiste valimiseks. Vanglas hinnatakse saabumisel riske ([[VangS § 14 lg 1^2]]).")
 m("ope-kaitumine", "Õpitud käitumine", ["ps-t02-01", "ps-t02-02", "ps-t02-03", "ps-t02-05"], [],
   "Kriminaalne käitumine on õpitud – selle lõpetamiseks tuleb õppida prosotsiaalseid viise samade eesmärkide saavutamiseks.")
@@ -316,7 +316,7 @@ m("klassikaline-tingimine", "Klassikaline tingimine", ["ps-t02-02", "ps-t05-02"]
   "Teadvustamata õppimine: neutraalne stiimul seostub reaktsiooniga (nt seltskond tekitab isu, uksekolin hirmu).")
 m("operantne-tingimine", "Operantne tingimine", ["ps-t02-03", "ps-t05-02"], [],
   "Käitumine õpitakse tagajärgede kaudu: positiivne/negatiivne tasu ja karistus. Karistus mõjub kõige paremini kohe pärast tegu.")
-m("mudeldamine", "Mudeldamine", ["ps-t02-05", "ps-t08-04"], [],
+m("mudeldamine", "Mudeldamine", ["ps-t02-05", "ps-t08-05"], [],
   "Teisi jälgides õppimine. Ametnik on mudel oma tegudega: reeglite järgimine, täpsus, lugupidamine, vigade tunnistamine.")
 m("enesekontroll", "Enesekontroll", ["ps-t02-04", "ps-t03-01", "ps-t03-02"], [],
   "Madal enesekontroll (impulsiivsus, riskialdisus) suurendab kuritegevuse tõenäosust; seda saab arendada enesetõhususe kaudu.")
@@ -332,9 +332,9 @@ m("sekkumine", "Sekkumise faasid", ["ps-t03-03"], [],
   "Ettevalmistus (kriis, Shamani efekt, avalik lubadus) → tegutsemine (kognitiivsed ja käitumuslikud oskused) → järelfaas.")
 m("psuuhikahaire", "Psüühikahäire", ["ps-t04-01", "ps-t04-02", "ps-t04-03", "ps-t04-04"], ["VangS § 52 lg 2"],
   "Märgatav nihe psüühikas, mis takistab toimetulekut. Vanglas suurendab enesevigastamise ja uue kuriteo riski; tervishoiutöötaja jälgib terviseseisundit ([[VangS § 52 lg 2]]).")
-m("suitsiidirisk", "Suitsiidirisk", ["ps-t04-05"], ["VangS § 14 lg 1"],
+m("suitsiidirisk", "Suitsiidirisk", ["ps-t04-05", "ps-t04-06"], ["VangS § 14 lg 1"],
   "Suurim vangistuse alguses, noortel ja sõltuvus- või psüühikahäirega kinnipeetavatel. Isolatsioon ei sobi. Saabumisel tervisekontroll ([[VangS § 14 lg 1]]).")
-m("stigma", "Stigma ja märgistamine", ["ps-t04-06", "ps-t06-01"], [],
+m("stigma", "Stigma ja märgistamine", ["ps-t04-07", "ps-t06-01"], [],
   "Häbimärgistamine ja silt võivad muutuda identiteediks (teisene hälbivus) – ennasttäitev ennustus.")
 m("soltuvus", "Sõltuvus", ["ps-t05-01", "ps-t05-02", "ps-t05-03"], [],
   "Krooniline ajuhaigus: sund tarvitada hoolimata kahjust. Kujuneb paljude tegurite koosmõjul.")
@@ -342,19 +342,19 @@ m("ained-ja-kuritegevus", "Ained ja kuritegevus", ["ps-t05-04", "ps-t05-05"], []
   "Alkohol on rohkem seotud vägivallaga; narkootikumide tarvitamine võib kuriteole eelneda või järgneda.")
 m("keeruline-kinnipeetav", "Keeruline kinnipeetav", ["ps-t06-01", "ps-t06-02", "ps-t06-03"], ["VangS § 4^1 lg 2"],
   "Käitumisel on alati funktsioon. Rohkem kontrolli annab lihtsalt rohkem reegleid rikkuda; piirangud peavad olema vajalikud ([[VangS § 4^1 lg 2]]).")
-m("suhtlusvotted", "Suhtlusvõtted", ["ps-t06-04", "ps-t06-05"], [],
+m("suhtlusvotted", "Suhtlusvõtted", ["ps-t06-03", "ps-t06-04", "ps-t06-05"], [],
   "Agressiivne: empaatia, kaasamine, ventileerimine, viimasena piirid. Kinnine: vaikus ja avatud küsimused. Jutukas: eesmärk ja kokkuvõtted.")
 m("ametniku-heaolu", "Ametniku heaolu", ["ps-t06-06"], [],
   "Keeruline klient kurnab; tagajärjeks võivad olla stress, vältimine, hüperreaktsioonid ja püsiv hirm.")
-m("haavatavus", "Haavatavus", ["ps-t07-01", "ps-t07-02", "ps-t07-03", "ps-t07-04", "ps-t07-05"], ["VangS § 14 lg 3"],
+m("haavatavus", "Haavatavus", ["ps-t07-01", "ps-t07-02", "ps-t07-03", "ps-t07-04", "ps-t07-05", "ps-t07-06"], ["VangS § 14 lg 3"],
   "Tunnused: psühhiaatriline diagnoos, madal haridus, nõrk tugi, ohvrikogemus, noor vanus, toimetulekuoskuste puudus. Vastuvõtul selgitatakse välja eluloolised andmed ([[VangS § 14 lg 3]]).")
-m("noor-kinnipeetav", "Noor kinnipeetav", ["ps-t07-05"], ["VangS § 81 lg 1"],
+m("noor-kinnipeetav", "Noor kinnipeetav", ["ps-t07-06"], ["VangS § 81 lg 1"],
   "Mitu korda rohkem psühhoosi, ATH-d ja käitumishäireid; vanusegruppe hoitakse eraldi ([[VangS § 81 lg 1]]).")
-m("koostoosuhe", "Koostöösuhe", ["ps-t08-01", "ps-t08-02"], ["VangS § 16 lg 2"],
+m("koostoosuhe", "Koostöösuhe", ["ps-t08-01", "ps-t08-02", "ps-t08-03"], ["VangS § 16 lg 2"],
   "Kokkulepitud eesmärgid + ülesannetega seotud koostöö + aktsepteeriv suhe. Täitmiskava arutatakse kinnipeetavaga ([[VangS § 16 lg 2]]).")
-m("vaartuskonflikt", "Väärtuskonflikt", ["ps-t08-03"], [],
+m("vaartuskonflikt", "Väärtuskonflikt", ["ps-t08-04"], [],
   "Kaks olulist väärtust põrkuvad. Ametnikul isiklik (hoiakud) või professionaalne (pädevuse piirid).")
-m("taitmiskava", "Individuaalne täitmiskava", ["ps-t01-05", "ps-t08-01"], ["VangS § 16 lg 1"],
+m("taitmiskava", "Individuaalne täitmiskava", ["ps-t01-05", "ps-t08-01", "ps-t08-02"], ["VangS § 16 lg 1"],
   "Kava paigutuse, hariduse, töö, soodustuste ja vabanemise ettevalmistuse kohta, kui vangistus on üle aasta ([[VangS § 16 lg 1]]).")
 
 # psühholoogia omavahel

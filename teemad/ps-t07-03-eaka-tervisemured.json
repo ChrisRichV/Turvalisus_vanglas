@@ -1,0 +1,120 @@
+{
+ "id": "ps-t07-03",
+ "tund": "ps-t07",
+ "jrk": 3,
+ "mall": "psuh",
+ "pealkiri": "Eaka kinnipeetava tervisemured",
+ "lyhend": "Eaka tervisemured",
+ "ikoon": "pulss",
+ "lyhidalt": "Eakatel esineb dementsust üha sagedamini, kuid vangla rutiin varjab algavat langust. Eakad kardavad vanglas surra ja varjavad tervisemuresid, et säilitada staatust ja väärikust.",
+ "materjal": [
+  {
+   "pealkiri": "Kognitiivne langus ja dementsus",
+   "sisu": [
+    {
+     "tekst": "Lisaks tavalistele vaimse tervise häiretele on eakatel kinnipeetavatel sageli ka **vanusega seotud kognitiivsed probleemid**, näiteks Alzheimeri tõbi ja muud dementsuse vormid. Dementsus muutub eakate kinnipeetavate seas **aina levinumaks**."
+    },
+    {
+     "tekst": "**Vangla rutiinne päevakord ja eluolu takistavad sageli kerge kognitiivse languse ja varase dementsuse avastamist.** Kui päev on iga päev ühesugune, saab inimene harjumuse jõul hakkama ka siis, kui mälu ja mõtlemine juba nõrgenevad."
+    },
+    {
+     "tekst": "Seepärast märgatakse vaimset langust sageli **alles siis, kui olukord on juba eskaleerunud**. Selleks ajaks on teised kinnipeetavad eakat tihti **kiusanud ja ohvristanud**. See muudab eaka **agressiivseks** ja konflikte tuleb juurde."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Kognitiivsed eripärad ja nende mõju",
+   "sisu": [
+    {
+     "tekst": "Ametnikud peavad arvestama eakate kognitiivsete eripäradega, näiteks **raskustega arusaamisel ja mäletamisel**. Eakale on igapäevased tegevused **väga suure energiakuluga**. Need hõlmavad:"
+    },
+    {
+     "punktid": [
+      "asjade endale uuesti tuttavaks tegemist,",
+      "meeldetuletamist,",
+      "konfliktide vältimist,",
+      "korraldustele allumist."
+     ]
+    }
+   ]
+  },
+  {
+   "pealkiri": "Hirm, haigus ja varjamine",
+   "sisu": [
+    {
+     "tekst": "Eakad kinnipeetavad, kellel on juba tervise- või hapram vaimne tervis, **mõtlevad sageli vanglas suremisest**. See on paljudele üks suurimaid hirme ja tekitab palju negatiivseid emotsioone."
+    },
+    {
+     "tekst": "Lisamuret tekitab vanglas **haigeks jäämine ja kriisihetkel arstiabi vajamine**, sest esineb olukordi, kus meditsiinitöötajad keelduvad ravi andmisest või takistavad seda."
+    },
+    {
+     "tekst": "Samas on eakatel **kalduvus oma tervisemuresid varjata**, isegi kui abi on kättesaadav. Põhjus: **soov säilitada oma staatust ja väärikust** teiste kinnipeetavate silmis."
+    }
+   ]
+  }
+ ],
+ "skeemid": [
+  {
+   "tyyp": "voog",
+   "pealkiri": "Miks dementsust märgatakse hilja",
+   "sammud": [
+    {
+     "pealkiri": "Algav kognitiivne langus",
+     "tekst": "mälu ja arusaamine nõrgenevad"
+    },
+    {
+     "pealkiri": "Rutiin varjab",
+     "tekst": "ühesugune päevakord – harjumuse jõul saab hakkama"
+    },
+    {
+     "pealkiri": "Kiusamine ja ohvristamine",
+     "tekst": "teised kinnipeetavad märkavad nõrkust enne ametnikke"
+    },
+    {
+     "pealkiri": "Agressiivsus ja konfliktid",
+     "tekst": "alles nüüd märgatakse, et midagi on valesti"
+    }
+   ]
+  }
+ ],
+ "inspektor": {
+  "sisu": [
+   {
+    "tekst": "Eaka agressiivsus või korralduste mittetäitmine võib olla algava dementsuse või kiusamise tagajärg, mitte iseloom. Tervishoiutöötaja on kohustatud kinnipeetava terviseseisundit jälgima ([[VangS § 52 lg 2]]) – kontaktisik saab talle oma tähelepanekutest teada anda."
+   },
+   {
+    "punktid": [
+     "Kuna eakas ei küsi ise abi (väärikus), pane tähele märke: lonkab, väldib ülemist narit, jääb jalutuskäigult maha, unustab.",
+     "Räägi rahulikult, korda juhiseid, kontrolli, kas ta sai aru."
+    ]
+   }
+  ],
+  "naide": {
+   "olukord": "72-aastane kinnipeetav jääb loendusele hiljaks ega mäleta, et teda eile hoiatati. Kambrikaaslased on hakanud teda narrima ja ta karjus ühe peale.",
+   "analyys": "See võib olla algav kognitiivne langus, mida vangla rutiin on seni varjanud; kiusamine ja agressioon on tüüpiline järg. Ametnik ei karista kohe, vaid räägib rahulikult, kordab juhiseid, teavitab tervishoiutöötajat ja jälgib kiusamist."
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Miks märgatakse eakate dementsust vanglas sageli hilja?",
+   "valikud": [
+    "Eakad ei haigestu",
+    "Vangla rutiinne päevakord varjab algavat langust",
+    "Dementsus algab ainult vabaduses",
+    "Arst ei tohi eakaid uurida"
+   ],
+   "oige": 1,
+   "selgitus": "Märgatakse alles siis, kui olukord on eskaleerunud."
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "„Inspektor-kontaktisiku töös” osa (näide ja soovitused) on koostatud selle lehe jaoks tunnimaterjali põhjal; see ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

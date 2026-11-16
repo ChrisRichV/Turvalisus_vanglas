@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="et">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Faktileht – Õppeleht</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Source+Serif+4:opsz,wght@8..60,300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/stiil.css?v=20261116b">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23f2c230'/%3E%3Ctext x='16' y='24' font-size='22' text-anchor='middle' font-family='Georgia' fill='%231c2733'%3E§%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<header class="ylariba" id="ylariba"></header>
+
+<main id="leht"><p class="vahe tyhi" style="margin-top:2rem">Laen faktilehte…</p></main>
+
+<footer class="jalus">
+  <p>Faktileht koondab tunnimaterjali arvud, loetelud ja mõisted. Iga rea juures on link teemale, kus see on lahti seletatud.</p>
+</footer>
+
+<script src="assets/seadistus.js?v=20261116b"></script>
+<script src="assets/app.js?v=20261116b"></script>
+<script src="assets/ikoonid.js?v=20261116b"></script>
+<script src="assets/skeemid.js?v=20261116b"></script>
+<script>
+(function () {
+  const A = window.APP;
+  const leht = document.getElementById("leht");
+  const q = new URLSearchParams(location.search);
+  const tundId = q.get("tund");
+
+  A.andmed().then(({ tunnid }) => {
+    const tund = tunnid.tunnid.find((t) => t.id === tundId);
+    A.kaivita({ leht: "faktileht", aine: tund && tund.aine, tund: tundId });
+    if (!tund || !tund.faktid) { leht.innerHTML = `<div class="vahe" style="padding-top:2rem"><h1>Faktilehte ei leitud</h1><p><a href="index.html">Tagasi avalehele</a></p></div>`; return; }
+    const aine = tunnid.ained.find((a) => a.id === tund.aine) || { id: "", nimi: "" };
+    const aineTunnid = tunnid.tunnid.filter((t) => t.aine === tund.aine && t.faktid);
+    const i = aineTunnid.indexOf(tund);
+    const nimed = {}; tund.teemad.forEach((tm, k) => (nimed[tm.id] = k + 1));
+    document.title = `Faktileht: ${tund.pealkiri} – Õppeleht`;
+    const rida = (r) => `<li><span class="fakt-tekst">${A.md(r.tekst)}</span>${r.teema ? ` <a class="fakt-link" href="teema.html?id=${r.teema}#materjal">teema ${nimed[r.teema] || ""} →</a>` : ""}</li>`;
+    const grupid = tund.faktid.map((g, k) => `<section class="fakt-grupp" id="g${k}"><h2>${A.esc(g.pealkiri)}</h2><ul class="fakt-read">${g.read.map(rida).join("")}</ul></section>`).join("");
+    const tabs = aineTunnid.map((t) => `<a href="faktileht.html?tund=${t.id}"${t.id === tund.id ? ' aria-current="page"' : ""}>Tund ${t.nr}</a>`).join("");
+    leht.innerHTML = `
+      <header class="aine-pais">
+        <div class="murupuru"><a href="index.html">Avaleht</a> / <a href="aine.html?id=${aine.id}">${A.esc(aine.nimi)}</a> / tund ${tund.nr}</div>
+        <h1>Faktileht: ${A.esc(tund.pealkiri)}</h1>
+        <p>Kõik tunni arvud, loetelud, mõisted ja nimed ühel lehel. Testi ees loe see läbi; kui mõni rida on võõras, ava teema.</p>
+        <nav class="ainetabs" aria-label="Tundide faktilehed">${tabs}</nav>
+      </header>
+      <div class="otsing"><label for="otsi">Otsi faktilehelt</label><input id="otsi" type="search" placeholder="nt psühhoos, metadoon, 10 korda" autocomplete="off"></div>
+      <div class="faktileht">${grupid}<p class="tyhi peidetud" data-tyhi>Selle otsinguga ridu ei leitud.</p></div>
+      <nav class="lehitse-nupud fakt-nupud">
+        ${aineTunnid[i + 1] ? `<a class="jargmine" href="faktileht.html?tund=${aineTunnid[i + 1].id}"><span class="l-tekst"><small>Järgmine faktileht</small><b>Tund ${aineTunnid[i + 1].nr}: ${A.esc(aineTunnid[i + 1].pealkiri)}</b></span><span class="l-nool" aria-hidden="true">→</span></a>` : ""}
+        <a class="eelmine" href="aine.html?id=${aine.id}#${tund.id}"><span class="l-tekst"><small>Tagasi</small><b>Tunni teemad</b></span></a>
+      </nav>`;
+    document.getElementById("otsi").addEventListener("input", (e) => {
+      const s = e.target.value.trim().toLowerCase();
+      let n = 0;
+      document.querySelectorAll(".fakt-read li").forEach((li) => { const ok = !s || li.textContent.toLowerCase().includes(s); li.classList.toggle("peidetud", !ok); if (ok) n++; });
+      document.querySelectorAll(".fakt-grupp").forEach((g) => g.classList.toggle("peidetud", !g.querySelector("li:not(.peidetud)")));
+      document.querySelector("[data-tyhi]").classList.toggle("peidetud", n > 0);
+    });
+  }).catch((e) => { A.kaivita({ leht: "faktileht" }); A.viga(leht, e); });
+})();
+</script>
+</body>
+</html>

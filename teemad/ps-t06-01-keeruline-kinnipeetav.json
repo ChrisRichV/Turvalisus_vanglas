@@ -2,74 +2,96 @@
  "id": "ps-t06-01",
  "tund": "ps-t06",
  "jrk": 1,
- "pealkiri": "Keeruline kinnipeetav ja käitumist mõjutavad tegurid",
+ "mall": "psuh",
+ "pealkiri": "Keeruline kinnipeetav",
  "lyhend": "Keeruline kinnipeetav",
  "ikoon": "kuubik",
- "lyhidalt": "Keerulise kinnipeetava käitumisel on alati eesmärk või funktsioon – seda ei tasu võtta isiklikult. Käitumist mõjutavad isolatsioon, rollid ja ootused, asutuse ja keskkonna mõju ning inimese enda uskumused.",
- "osad": {
-  "pohimote": {
+ "lyhidalt": "Keerulisel käitumisel on alati kindel eesmärk või funktsioon. Käitumist mõjutavad isolatsioon, ootused, asutus, keskkond ja isiklikud uskumused. Keerulistega on seotud umbes 68% vägivallast ja 73% vara lõhkumistest.",
+ "materjal": [
+  {
    "pealkiri": "Käitumisel on funktsioon",
-   "tekst": "Kuigi keeruline käitumine võib tunduda arusaamatu, on sellel alati **kindel eesmärk või funktsioon**. Sageli võetakse seda isiklikult – see viib **karistava hoiakuni**.\n\nUuringute järgi on umbes **68%** vägivallajuhtumitest ja **73%** vara lõhkumistest vanglates seotud keeruliste kinnipeetavatega. **Aga:** ametnikud jätavad kergemaid rikkumisi sageli kirja panemata, kui kinnipeetav on varem rahulik olnud – keeruliste kinnipeetavate sündmusi kirjutatakse rohkem üles (Wilson & Tamatea, 2013)."
+   "sisu": [
+    {
+     "tekst": "Kuigi kinnipeetava keeruline käitumine võib tunduda arusaamatu, on sellel **alati kindel eesmärk või funktsioon**. Sageli kipume sellist käitumist **võtma isiklikult**, mis viib **karistava hoiakuni**."
+    }
+   ]
   },
-  "alus": {
-   "pealkiri": "Viis tegurit",
-   "tekst": "",
-   "skeem": {
-    "tyyp": "kaardid",
-    "pealkiri": "Käitumist mõjutavad tegurid",
-    "kaardid": [
-     {
-      "pealkiri": "Sotsiaalne isolatsioon",
-      "silt": "1",
-      "tekst": "Vähene kontakt süvendab antisotsiaalseid jooni ja tekitab düsfunktsionaalseid reaktsioone. Inimene vajab sisukat suhtlust."
-     },
-     {
-      "pealkiri": "Rollid ja ootused",
-      "silt": "2",
-      "tekst": "Kui kinnipeetavalt oodatakse halba, see sageli materialiseerub – nõiaring, kus ootused loovad reaalsust.",
-      "toon": "b"
-     },
-     {
-      "pealkiri": "Asutuse mõju",
-      "silt": "3",
-      "tekst": "Kui vanglat peetakse julmaks ja ametnikel on sama mentaliteet, süvendab see probleemi. Julmad vanglad loovad julmemaid kinnipeetavaid."
-     },
-     {
-      "pealkiri": "Vangla keskkond",
-      "silt": "4",
-      "tekst": "Piiratud vabadus ja rutiin võivad tekitada pingeid.",
-      "toon": "b"
-     },
-     {
-      "pealkiri": "Isiklikud uskumused",
-      "silt": "5",
-      "tekst": "Nt „tõelised mehed istuvad range režiimiga vanglas” – võib ajendada kõike tegema, et sinna sattuda."
-     }
-    ]
+  {
+   "pealkiri": "Viis käitumist mõjutavat tegurit",
+   "sisu": [
+    {
+     "loend": [
+      "**Sotsiaalne isolatsioon** – vähene sotsiaalne kontakt süvendab antisotsiaalseid jooni ja põhjustab düsfunktsionaalseid (ebasobivaid) reaktsioone. Inimene vajab sisukat suhtlust.",
+      "**Rollid ja ootused** – kui kinnipeetavatelt oodatakse halba käitumist, siis see sageli ka juhtub. See on **nõiaring, kus ootused loovad reaalsuse**.",
+      "**Asutuse mõju** – kui vanglat peetakse „julmaks” ja ametnikel on sama mõtteviis, süvendab see probleemi. **Julmad vanglad loovad julmemaid kinnipeetavaid.**",
+      "**Vangla keskkond** – vangla tingimused mõjutavad käitumist tohutult. Piiratud vabadus ja rutiin võivad tekitada pingeid.",
+      "**Isiklikud uskumused** – kinnipeetava enda ettekujutused vanglast ja rollidest mõjutavad tema käitumist. Näiteks uskumus „tõelised mehed istuvad range režiimiga vanglas” võib panna teda tegema kõike, et sinna sattuda."
+     ]
+    }
+   ]
+  },
+  {
+   "pealkiri": "Kui palju keerulised kinnipeetavad mõjutavad",
+   "sisu": [
+    {
+     "tekst": "Uuringute järgi on umbes **68% vägivallajuhtumitest** ja **73% vara lõhkumistest** vanglates seotud keeruliste kinnipeetavatega."
+    },
+    {
+     "tekst": "**AGA:** ametnikud jätavad sageli kergemad rikkumised kirja panemata ja **pigistavad silma kinni**, kui kinnipeetav on varem rahulikult käitunud. Keeruliste kinnipeetavatega seotud sündmusi kirjutatakse aga rohkem üles. See on eriti levinud **suurema valvega vanglates**, kus kõigi kergemate rikkumiste kirjapanek suurendaks liigselt paberitööd ja rikkumised on muutunud tavapäraseks (Wilson & Tamatea, 2013). Seega võivad arvud keeruliste kinnipeetavate osa suuremana näidata."
+    }
+   ]
+  }
+ ],
+ "skeemid": [
+  {
+   "tyyp": "kaardid",
+   "pealkiri": "Käitumist mõjutavad tegurid",
+   "kaardid": [
+    {
+     "pealkiri": "Sotsiaalne isolatsioon",
+     "silt": "1",
+     "tekst": "Vähene kontakt süvendab antisotsiaalseid jooni ja tekitab düsfunktsionaalseid reaktsioone. Inimene vajab sisukat suhtlust."
+    },
+    {
+     "pealkiri": "Rollid ja ootused",
+     "silt": "2",
+     "tekst": "Kui kinnipeetavalt oodatakse halba, see sageli materialiseerub – nõiaring, kus ootused loovad reaalsust.",
+     "toon": "b"
+    },
+    {
+     "pealkiri": "Asutuse mõju",
+     "silt": "3",
+     "tekst": "Kui vanglat peetakse julmaks ja ametnikel on sama mentaliteet, süvendab see probleemi. Julmad vanglad loovad julmemaid kinnipeetavaid."
+    },
+    {
+     "pealkiri": "Vangla keskkond",
+     "silt": "4",
+     "tekst": "Piiratud vabadus ja rutiin võivad tekitada pingeid.",
+     "toon": "b"
+    },
+    {
+     "pealkiri": "Isiklikud uskumused",
+     "silt": "5",
+     "tekst": "Nt „tõelised mehed istuvad range režiimiga vanglas” – võib ajendada kõike tegema, et sinna sattuda."
+    }
+   ]
+  }
+ ],
+ "inspektor": {
+  "sisu": [
+   {
+    "tekst": "Inspektor-kontaktisiku esimene küsimus keerulise käitumise korral: **mis on selle funktsioon?** Kas ta tahab tähelepanu, kontrolli, kaitset, staatust – või väljendab hirmu?"
    },
-   "read": []
-  },
-  "piiramine": {
-   "pealkiri": "Mida silmas pidada",
-   "tekst": "",
-   "punktid": [
-    "Statistikat mõjutab ka see, **kelle** rikkumised kirja pannakse – silt „keeruline” võib ennast ise kinnitada.",
-    "Karistav hoiak ja „julm vangla” suurendavad probleeme, mitte ei vähenda.",
-    "Inimväärikuse austamine ja ainult vajalikud piirangud on seaduse nõue ([[VangS § 4^1 lg 1]], [[VangS § 4^1 lg 2]])."
-   ]
-  },
-  "vangla": {
-   "tekst": "Inspektor-kontaktisiku esimene küsimus keerulise käitumise korral: **mis on selle funktsioon?** Kas ta tahab tähelepanu, kontrolli, kaitset, staatust – või väljendab hirmu?",
-   "naide": {
-    "olukord": "Kinnipeetav nõuab iga päev uut kohtumist, kirjutab kaebusi ja ähvardab ametnikke kaebustega.",
-    "analyys": "Funktsioon võib olla kontrollitunne või tähelepanu. Kui ametnik võtab seda isiklikult, tekib karistav hoiak ja nõiaring. Parem: selged kokkulepped (millal ja kui sageli kohtutakse), järjepidevus ja tähelepanu ka siis, kui ta käitub hästi."
+   {
+    "punktid": [
+     "Ära võta käitumist isiklikult – see viib karistava hoiakuni ja nõiaringini.",
+     "Mõtle, millised viiest tegurist (isolatsioon, ootused, asutus, keskkond, uskumused) võivad käitumist toita."
+    ]
    }
-  },
-  "tyypviga": {
-   "punktid": [
-    "Keerulist käitumist peetakse mõttetuks või „pahatahtlikuks”. Kursuse järgi on sellel alati funktsioon.",
-    "Unustatakse, et ametnike ootused ja asutuse kultuur on samuti tegurid."
-   ]
+  ],
+  "naide": {
+   "olukord": "Kinnipeetav nõuab iga päev uut kohtumist, kirjutab kaebusi ja ähvardab ametnikke kaebustega.",
+   "analyys": "Funktsioon võib olla kontrollitunne või tähelepanu. Kui ametnik võtab seda isiklikult, tekib karistav hoiak ja nõiaring. Parem on teha selged kokkulepped (millal ja kui sageli kohtutakse), olla järjepidev ja pöörata tähelepanu ka siis, kui ta käitub hästi."
   }
  },
  "harjutused": [
@@ -104,11 +126,7 @@
  ],
  "valjast": [
   {
-   "tekst": "Statistika (68% ja 73%) ja Wilson & Tamatea (2013) viide pärinevad õppejõu materjalist.",
-   "allikas": "tunnimaterjal"
-  },
-  {
-   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "tekst": "„Inspektor-kontaktisiku töös” osa (näide ja soovitused) on koostatud selle lehe jaoks tunnimaterjali põhjal; see ei ole õppejõu materjal.",
    "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
   }
  ],

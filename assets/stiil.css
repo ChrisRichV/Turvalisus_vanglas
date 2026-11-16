@@ -1222,3 +1222,26 @@ body.mk-tais-avatud { overflow: hidden; }
 
 /* pikad liitsõnad (nt korrektsioonipsühholoogia) ei tohi mobiilis üle serva minna */
 h1, h2, h3 { overflow-wrap: break-word; hyphens: auto; }
+
+/* ---------- psühholoogia mall, faktileht, otsingulõik (16.11.2026) ---------- */
+.t-leid { grid-column: 2 / 4; display: block; margin-top: .35rem; font-size: .9rem; line-height: 1.45; color: var(--mahe); border-left: 2px solid var(--vask); padding-left: .6rem; }
+@media (max-width: 640px) { .t-leid { grid-column: 2; } }
+mark { background: var(--vask-hele); color: inherit; border-radius: 2px; padding: 0 .1em; }
+.lyhidalt-osa { font-size: 1.12rem; line-height: 1.6; }
+.mat-plokk { margin: 0 0 1.6rem; }
+.mat-plokk h3 { font-family: var(--kiri-pealkiri); font-size: 1.08rem; margin: 1.4rem 0 .5rem; padding-bottom: .25rem; border-bottom: 1px solid var(--joon); }
+.mat-plokk:first-child h3 { margin-top: .2rem; }
+.mat-plokk ul, .mat-loend { margin: .4rem 0 .8rem; padding-left: 1.3rem; }
+.mat-plokk li, .mat-loend li { margin: .3rem 0; line-height: 1.55; }
+.faktileht { display: grid; gap: 1.2rem; margin: 1rem 0 2rem; }
+.fakt-grupp { border: 1px solid var(--joon); background: var(--pind); border-radius: var(--raadius); padding: .9rem 1.1rem; }
+.fakt-grupp h2 { font-family: var(--kiri-pealkiri); font-size: 1.1rem; margin: 0 0 .5rem; }
+.fakt-read { list-style: none; margin: 0; padding: 0; }
+.fakt-read li { padding: .5rem 0; border-top: 1px solid var(--joon); line-height: 1.5; display: flex; gap: .8rem; justify-content: space-between; align-items: baseline; }
+.fakt-read li:first-child { border-top: 0; }
+.fakt-link { white-space: nowrap; font-size: .85rem; flex: none; }
+.fakt-nupud { display: flex; flex-direction: column; gap: .6rem; margin-bottom: 2rem; }
+@media (max-width: 640px) { .fakt-read li { flex-direction: column; gap: .2rem; } }
+.lehitse-nupud a { min-width: 0; max-width: 100%; }
+.l-tekst { min-width: 0; }
+.l-tekst b, .teema-pais h1, .mat-plokk h3 { overflow-wrap: anywhere; hyphens: auto; }

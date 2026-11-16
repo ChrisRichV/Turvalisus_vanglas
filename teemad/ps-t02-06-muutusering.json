@@ -2,153 +2,295 @@
  "id": "ps-t02-06",
  "tund": "ps-t02",
  "jrk": 6,
- "pealkiri": "Muutusering ehk transteoreetiline mudel",
+ "mall": "psuh",
+ "pealkiri": "Käitumise muutmise transteoreetiline mudel (muutusering)",
  "lyhend": "Muutusering",
  "ikoon": "ring",
- "lyhidalt": "Muutus ei toimu korraga, vaid etappidena: eelkaalutlemine, kaalutlemine, ettevalmistus, tegutsemine, säilitamine – ja tagasilangus, mis on normaalne osa protsessist. Igas etapis on ametnikul erinev ülesanne.",
- "osad": {
-  "pohimote": {
-   "pealkiri": "Kuus etappi",
-   "tekst": "**Käitumise muutmise transteoreetiline mudel** ehk muutusering on Eesti vanglasüsteemis üks olulisemaid teooriaid ainete tarvitajatega töötamisel. Seda kasutatakse nt sotsiaalprogrammis Eluviisitreening.",
-   "skeem": [
+ "lyhidalt": "Muutusringis on kuus etappi: eelkaalutlemine, kaalutlemine, ettevalmistus, tegutsemine, säilitamine ja tagasilangus. Igas etapis on kinnipeetaval oma seisund ja juhtumikorraldajal oma ülesanded. Mudelit kasutatakse Eesti vanglates nt programmis Eluviisitreening.",
+ "materjal": [
+  {
+   "pealkiri": "Mis on muutusering",
+   "sisu": [
     {
-     "tyyp": "ring",
-     "pealkiri": "Muutusering",
-     "keskel": {
-      "pealkiri": "Muutus",
-      "tekst": "päripäeva, võib korduda"
-     },
-     "osad": [
-      {
-       "pealkiri": "Eelkaalutlemine",
-       "tekst": "„Kõik on hästi.”"
-      },
-      {
-       "pealkiri": "Kaalutlemine",
-       "tekst": "„Mõnikord ma siiski muretsen.”"
-      },
-      {
-       "pealkiri": "Ettevalmistus (otsus)",
-       "tekst": "„Ma kavatsen midagi ette võtta.”",
-       "toon": "b"
-      },
-      {
-       "pealkiri": "Tegutsemine",
-       "tekst": "„Ma olen muutumas.”",
-       "toon": "b"
-      },
-      {
-       "pealkiri": "Säilitamine",
-       "tekst": "„Tahan tulemust hoida.”",
-       "toon": "b"
-      },
-      {
-       "pealkiri": "Tagasilangus",
-       "tekst": "„Kõik on jälle nagu vanasti.”",
-       "toon": "c"
-      }
-     ],
-     "tagasi": "tagasilangusest võib ring alata uuesti – see on normaalne"
+     "tekst": "Ainete kuritarvitamise või sõltuvusega kinnipeetavatega töötamisel on Eesti vanglasüsteemis üks olulisemaid teooriaid **käitumise muutmise transteoreetiline mudel**, lihtsamalt **muutusering**."
+    },
+    {
+     "tekst": "Seda kasutatakse näiteks sotsiaalprogrammis **Eluviisitreening**, et hinnata motivatsiooni tarvitamist muuta ja hinnata olukorda. Teooria on kasutusel ka **tervisepsühholoogias** tervisekäitumise muutmisel."
     }
    ]
   },
-  "alus": {
-   "pealkiri": "Kinnipeetav ja ametnik igas etapis",
-   "tekst": "",
-   "skeem": {
-    "tyyp": "vordlus",
-    "pealkiri": "Mida teeb ametnik",
-    "veerud": [
-     "Kinnipeetav",
-     "Sekkuja / juhtumikorraldaja"
-    ],
-    "read": [
-     {
-      "silt": "Eelkaalutlemine",
-      "lahtrid": [
-       "ei pea muutust vajalikuks; probleem on teistel; abitus, lootusetus",
-       "selgitab seisundi; loob usaldussuhte ja turvalise keskkonna; **ei vaidle**; tõstab teadlikkust"
-      ]
-     },
-     {
-      "silt": "Kaalutlemine",
-      "lahtrid": [
-       "mõtleb muutusest; ambivalentsus – „ei tea, kuidas”",
-       "aktiivne kuulamine; motiveeriv intervjueerimine; kulu-tulu analüüs"
-      ]
-     },
-     {
-      "silt": "Ettevalmistus",
-      "lahtrid": [
-       "koostab plaani; seab SMART-eesmärgid",
-       "aitab sihi paika panna koos temaga; töötab läbi takistused"
-      ]
-     },
-     {
-      "silt": "Tegutsemine",
-      "lahtrid": [
-       "muudab käitumist; katsetab, ootab tagasisidet",
-       "toetab, hoiab sihti, annab tagasisidet, tegeleb tagasilöökidega"
-      ]
-     },
-     {
-      "silt": "Säilitamine",
-      "lahtrid": [
-       "eesmärk saavutatud; tunneb end kindlalt",
-       "jõustab, jälgib; annab vastutuse ja autonoomia talle"
-      ]
-     },
-     {
-      "silt": "Tagasilangus",
-      "lahtrid": [
-       "probleem tuli tagasi või leidis uue väljundi",
-       "normaliseerib, kaardistab, õpetab oskusi, toetab; eelnevalt turvaplaan"
-      ]
-     }
-    ]
+  {
+   "pealkiri": "Kuus etappi ringis",
+   "sisu": [
+    {
+     "tekst": "Materjali joonisel on etapid ringina päripäeva, igaühe juures inimese mõte:"
+    },
+    {
+     "loend": [
+      "**Eelstaadium (eelkaalutlemine)** – „Kõik on hästi.”",
+      "**Kaalutlemine** – „Mõnikord ma siiski muretsen.”",
+      "**Otsus (ettevalmistus)** – „Ma kavatsen sellega midagi ette võtta.”",
+      "**Tegutsemine** – „Ma olen muutumas.”",
+      "**Endale kindlaks jäämine (säilitamine)** – „Ma tahan oma tulemust hoida.”",
+      "**Tagasilangus** – „Kõik on jälle nagu vanasti.” → ring võib alata uuesti."
+     ]
+    },
+    {
+     "tekst": "NB! Joonisel ja tekstis on mõne etapi nimi erinev: joonise „eelstaadium” = tekstis „eelkaalutlemine”, „otsus” = „ettevalmistus”, „endale kindlaks jäämine” = „säilitamine”."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Eelkaalutlemine",
+   "sisu": [
+    {
+     "tekst": "Kinnipeetav:"
+    },
+    {
+     "punktid": [
+      "ei pea muutust vajalikuks või ei ole nõus seda tegema;",
+      "probleem on kõigil teistel, mitte temal – teised peavad muutuma;",
+      "on ohvrirollis – peamised emotsioonid on abitus ja lootusetus."
+     ]
+    },
+    {
+     "tekst": "Sekkuja / juhtumikorraldaja:"
+    },
+    {
+     "punktid": [
+      "selgitab välja inimese seisundi;",
+      "loob usaldussuhte ja kontakti, milles **sekkuja on aktiivne pool**;",
+      "loob turvalise keskkonna;",
+      "**ei vaidle ega väitle**;",
+      "tõstab kinnipeetava teadlikkust."
+     ]
+    }
+   ]
+  },
+  {
+   "pealkiri": "Kaalutlemine",
+   "sisu": [
+    {
+     "tekst": "Kinnipeetav:"
+    },
+    {
+     "punktid": [
+      "mõtleb muutusest;",
+      "võtab probleemi enda omaks;",
+      "tema teadlikkus võib olla veel väga väike;",
+      "on **ambivalentne** (kahevahel): „Ma ei tea, kuidas probleemi lahendada.”"
+     ]
+    },
+    {
+     "tekst": "Sekkuja / juhtumikorraldaja:"
+    },
+    {
+     "punktid": [
+      "kuulab aktiivselt;",
+      "motiveerib – kasutab **motiveeriva intervjueerimise (MI)** oskusi;",
+      "pakub kaalutlevat keskkonda – **kulu-tulu analüüs**."
+     ]
+    }
+   ]
+  },
+  {
+   "pealkiri": "Ettevalmistus",
+   "sisu": [
+    {
+     "tekst": "Kinnipeetav:"
+    },
+    {
+     "punktid": [
+      "koostab tegevusplaani;",
+      "valmistub aktiivselt käitumist muutma ja otsib võimalusi;",
+      "tunnistab probleemi enda omana;",
+      "seab **SMART-eesmärgid**."
+     ]
+    },
+    {
+     "tekst": "Sekkuja / juhtumikorraldaja:"
+    },
+    {
+     "punktid": [
+      "aitab koos kinnipeetavaga sihi paika panna;",
+      "töötab läbi takistused."
+     ]
+    }
+   ]
+  },
+  {
+   "pealkiri": "Tegutsemine",
+   "sisu": [
+    {
+     "tekst": "Kinnipeetav:"
+    },
+    {
+     "punktid": [
+      "muudab päriselt oma käitumist või olukorda;",
+      "katsetab ja ootab tagasisidet."
+     ]
+    },
+    {
+     "tekst": "Sekkuja / juhtumikorraldaja:"
+    },
+    {
+     "punktid": [
+      "toetab ja hoiab sihti;",
+      "tegeleb tagasilöökidega;",
+      "annab tagasisidet."
+     ]
+    }
+   ]
+  },
+  {
+   "pealkiri": "Säilitamine",
+   "sisu": [
+    {
+     "tekst": "Kinnipeetav:"
+    },
+    {
+     "punktid": [
+      "eesmärk on saavutatud;",
+      "tunneb end probleemi seljatamises enesekindlalt."
+     ]
+    },
+    {
+     "tekst": "Sekkuja / juhtumikorraldaja:"
+    },
+    {
+     "punktid": [
+      "jõustab, jälgib ja toetab;",
+      "annab vajadusel abi;",
+      "klient on aktiivne pool – talle antakse vastutus ja autonoomia."
+     ]
+    }
+   ]
+  },
+  {
+   "pealkiri": "Tagasilangus",
+   "sisu": [
+    {
+     "tekst": "Tagasilangus on **normaalne etapp** ja seda juhtub – see võib juhtuda **igas staadiumis**. Probleem on tagasi tulnud või leidnud uue väljundi."
+    },
+    {
+     "tekst": "Selleks võiks olla eelnevalt **turvaplaan**: väga hea, kui seda kunagi vaja ei lähe, aga kui läheb, on hea, et see olemas on."
+    },
+    {
+     "tekst": "Juhtumikorraldaja:"
+    },
+    {
+     "punktid": [
+      "normaliseerib olukorra;",
+      "kaardistab olukorra;",
+      "õpetab oskusi;",
+      "toetab, aktsepteerib ja mõistab."
+     ]
+    }
+   ]
+  }
+ ],
+ "skeemid": [
+  {
+   "tyyp": "ring",
+   "pealkiri": "Muutusering",
+   "keskel": {
+    "pealkiri": "Muutus",
+    "tekst": "päripäeva, võib korduda"
    },
-   "read": []
+   "osad": [
+    {
+     "pealkiri": "Eelkaalutlemine",
+     "tekst": "„Kõik on hästi.”"
+    },
+    {
+     "pealkiri": "Kaalutlemine",
+     "tekst": "„Mõnikord ma siiski muretsen.”"
+    },
+    {
+     "pealkiri": "Ettevalmistus (otsus)",
+     "tekst": "„Ma kavatsen midagi ette võtta.”",
+     "toon": "b"
+    },
+    {
+     "pealkiri": "Tegutsemine",
+     "tekst": "„Ma olen muutumas.”",
+     "toon": "b"
+    },
+    {
+     "pealkiri": "Säilitamine",
+     "tekst": "„Tahan tulemust hoida.”",
+     "toon": "b"
+    },
+    {
+     "pealkiri": "Tagasilangus",
+     "tekst": "„Kõik on jälle nagu vanasti.”",
+     "toon": "c"
+    }
+   ],
+   "tagasi": "tagasilangusest võib ring alata uuesti – see on normaalne"
   },
-  "piiramine": {
-   "pealkiri": "Mida silmas pidada",
-   "tekst": "",
-   "punktid": [
-    "**Tagasilangus on normaalne** ja võib juhtuda igas etapis. Sellele eelnevalt mõelda (turvaplaan) on hea, isegi kui seda kunagi vaja ei lähe.",
-    "Eelkaalutlemises inimesega **vaidlemine** tugevdab vastupanu – sekkuja on aktiivne osapool suhte loomisel, mitte veenmisel.",
-    "Kui inimene ütleb „olen juba otsustanud”, kontrolli, kas tal on ka **plaan** – muidu on ta alles ettevalmistuse alguses."
+  {
+   "tyyp": "vordlus",
+   "pealkiri": "Mida teeb ametnik",
+   "veerud": [
+    "Kinnipeetav",
+    "Sekkuja / juhtumikorraldaja"
+   ],
+   "read": [
+    {
+     "silt": "Eelkaalutlemine",
+     "lahtrid": [
+      "ei pea muutust vajalikuks; probleem on teistel; abitus, lootusetus",
+      "selgitab seisundi; loob usaldussuhte ja turvalise keskkonna; **ei vaidle**; tõstab teadlikkust"
+     ]
+    },
+    {
+     "silt": "Kaalutlemine",
+     "lahtrid": [
+      "mõtleb muutusest; ambivalentsus – „ei tea, kuidas”",
+      "aktiivne kuulamine; motiveeriv intervjueerimine; kulu-tulu analüüs"
+     ]
+    },
+    {
+     "silt": "Ettevalmistus",
+     "lahtrid": [
+      "koostab plaani; seab SMART-eesmärgid",
+      "aitab sihi paika panna koos temaga; töötab läbi takistused"
+     ]
+    },
+    {
+     "silt": "Tegutsemine",
+     "lahtrid": [
+      "muudab käitumist; katsetab, ootab tagasisidet",
+      "toetab, hoiab sihti, annab tagasisidet, tegeleb tagasilöökidega"
+     ]
+    },
+    {
+     "silt": "Säilitamine",
+     "lahtrid": [
+      "eesmärk saavutatud; tunneb end kindlalt",
+      "jõustab, jälgib; annab vastutuse ja autonoomia talle"
+     ]
+    },
+    {
+     "silt": "Tagasilangus",
+     "lahtrid": [
+      "probleem tuli tagasi või leidis uue väljundi",
+      "normaliseerib, kaardistab, õpetab oskusi, toetab; eelnevalt turvaplaan"
+     ]
+    }
    ]
-  },
-  "vangla": {
-   "tekst": "Inspektor-kontaktisik kasutab muutusringi, et valida õige vestlus: eelkaalutlejale ei sobi plaan ja eesmärgid, tegutsejale ei piisa ainult kuulamisest.",
-   "skeem": {
-    "tyyp": "kontroll",
-    "pealkiri": "Määra etapp",
-    "olukord": "Kinnipeetav ütleb: „Jah, mu joomine on vahel probleem olnud. Aga ma ei tea, kas ma suudan ilma olla – kõik mu sõbrad joovad.”",
-    "sammud": [
-     {
-      "silt": "Etapp",
-      "kysimus": "Mis etapis ta on?",
-      "vastus": "**Kaalutlemine:** tunnistab probleemi, aga on ambivalentne („ei tea, kas suudan”)."
-     },
-     {
-      "silt": "Ülesanne",
-      "kysimus": "Mida ametnik teeb?",
-      "vastus": "Kuulab aktiivselt, kasutab motiveeriva intervjueerimise võtteid, aitab teha kulu-tulu analüüsi (mida joomine annab ja mida võtab)."
-     },
-     {
-      "silt": "Viga",
-      "kysimus": "Mida mitte teha?",
-      "vastus": "Mitte suruda peale valmis plaani ega veenda – see sobib ettevalmistuse etappi."
-     }
-    ],
-    "jareldus": "Sekkumine sobitatakse etapiga – siis on tõenäosus edasi liikuda suurem."
+  }
+ ],
+ "inspektor": {
+  "sisu": [
+   {
+    "tekst": "Inspektor-kontaktisik kasutab muutusringi, et valida õige vestlus: eelkaalutlejale ei sobi plaan ja eesmärgid, tegutsejale ei piisa ainult kuulamisest."
    }
-  },
-  "tyypviga": {
-   "punktid": [
-    "Tagasilangust peetakse läbikukkumiseks. Mudelis on see normaalne faas ja selleks tehakse ette turvaplaan.",
-    "Eelkaalutlemise ülesandeks pannakse eesmärkide seadmine. Eelkaalutlemises on ülesanne suhe ja teadlikkus, eesmärgid tulevad ettevalmistuses."
-   ]
+  ],
+  "naide": {
+   "olukord": "Kinnipeetav ütleb: „Jah, mu joomine on vahel probleem olnud. Aga ma ei tea, kas ma suudan ilma olla – kõik mu sõbrad joovad.”",
+   "analyys": "Ta on kaalutlemise etapis: tunnistab probleemi, kuid on ambivalentne. Ametnik kuulab aktiivselt, kasutab motiveeriva intervjueerimise võtteid ja aitab teha kulu-tulu analüüsi (mida joomine annab ja mida võtab). Valmis plaani peale suruda ei tasu – see sobib ettevalmistuse etappi."
   }
  },
  "harjutused": [
@@ -200,7 +342,7 @@
  ],
  "valjast": [
   {
-   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "tekst": "„Inspektor-kontaktisiku töös” osa (näide ja soovitused) on koostatud selle lehe jaoks tunnimaterjali põhjal; see ei ole õppejõu materjal.",
    "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
   }
  ],

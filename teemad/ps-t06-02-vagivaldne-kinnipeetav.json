@@ -1,0 +1,106 @@
+{
+ "id": "ps-t06-02",
+ "tund": "ps-t06",
+ "jrk": 2,
+ "mall": "psuh",
+ "pealkiri": "Vägivaldne kinnipeetav",
+ "lyhend": "Vägivaldne kinnipeetav",
+ "ikoon": "kolmharu",
+ "lyhidalt": "Vägivaldsed on sageli need, kellel on vaimse tervise häire, antisotsiaalne isiksusehäire, subkultuursed hoiakud, vägivallakuritegu ja pikk karistus või ebaõigluse tunne. Vägivaldsetel kinnipeetavatel on kolm tüüpi: planeeritud rünnak, kiire põlemine ja aeglaselt kogunev pinge.",
+ "materjal": [
+  {
+   "pealkiri": "Kes käituvad sageli vägivaldselt",
+   "sisu": [
+    {
+     "tekst": "Vägivaldselt käituvad sageli kinnipeetavad, kes:"
+    },
+    {
+     "punktid": [
+      "on **vaimse tervise häirega** (paranoiline või skisofreeniline käitumine, kuulmishallutsinatsioonid),",
+      "on **antisotsiaalse isiksusehäirega**,",
+      "on **subkultuursete hoiakute ja uskumustega**,",
+      "on toime pannud **vägivallakuriteo**, on **noorema vanusega** ja kannavad **5-aastast või pikemat** vangistust,",
+      "tunnevad, et neid **koheldakse ebaõiglaselt** või et nende probleemide suhtes ollakse ükskõiksed."
+     ]
+    }
+   ]
+  },
+  {
+   "pealkiri": "Kolm vägivaldse kinnipeetava tüüpi",
+   "sisu": [
+    {
+     "loend": [
+      "**Planeeritud rünnak** – eesmärk on **manipuleerida või heidutada** ametnikke ja juhtkonda. Rünnakud on tavaliselt **pikaajalise planeerimise** tulemus, seetõttu on nende motiive ja tegusid raske ette näha.",
+      "**Kiire põlemine** – kui nende soove takistatakse, reageerivad nad **väga kiiresti ja plahvatuslikult**. Pärast rünnakut rahunevad nad kiiresti ja on sageli üllatunud, et intsidenti ikka veel menetletakse.",
+      "**Aeglaselt kogunev pinge** – pahameel ja viha kogunevad vaikselt **tajutud ebaõiglase kohtlemise** tõttu. Pärast intsidenti rahunevad nad kiiresti ega kujuta edasist ohtu."
+     ]
+    }
+   ]
+  }
+ ],
+ "skeemid": [
+  {
+   "tyyp": "voog",
+   "pealkiri": "Vägivaldsete kinnipeetavate tüübid",
+   "sammud": [
+    {
+     "pealkiri": "01 Planeeritud rünnak",
+     "tekst": "Eesmärk on **manipuleerida või heidutada** ametnikke ja juhtkonda. Rünnak on pikaajalise planeerimise tulemus – motiive ja tegevust on raske ette näha."
+    },
+    {
+     "pealkiri": "02 Kiire põlemine",
+     "tekst": "Kui soove takistatakse, reageerib **väga kiiresti ja plahvatuslikult**. Rahuneb kiiresti ja on sageli üllatunud, et intsidenti endiselt menetletakse."
+    },
+    {
+     "pealkiri": "03 Aeglaselt kogunev pinge",
+     "tekst": "Pahameel ja viha **kogunevad vaikselt** tajutava ebaõiglase kohtlemise tõttu. Pärast intsidenti rahuneb kiiresti, edasist ohtu ei kujuta."
+    }
+   ]
+  }
+ ],
+ "inspektor": {
+  "sisu": [
+   {
+    "tekst": "Tüübi teadmine aitab ennetada: kiire põleja puhul on oluline, **kuidas** keeldumine edastatakse; aeglaselt koguneva pinge puhul tuleb **ebaõigluse tunnet** märgata varakult; planeeritud rünnaku puhul on olulised järjepidevus ja info vahetamine kolleegidega."
+   }
+  ],
+  "naide": {
+   "olukord": "Kinnipeetav on nädalaid kurtnud, et tema taotlustele ei vastata. Ühel päeval lööb ta rusikaga lauale ja karjub. Pärast rahuneb ta kiiresti.",
+   "analyys": "See sobib aeglaselt koguneva pinge tüübiga: viha kogunes tajutud ebaõigluse tõttu. Ennetamiseks oleks aidanud taotlustele vastata või viivitust selgitada. Ametnik saab nüüd tegeleda põhjusega (vastamata taotlused), mitte ainult tagajärjega."
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline tüüp?",
+   "ryhmad": [
+    "Planeeritud rünnak",
+    "Kiire põlemine",
+    "Aeglaselt kogunev pinge"
+   ],
+   "read": [
+    {
+     "tekst": "Plaanib nädalaid rünnakut, et hirmutada juhtkonda",
+     "oige": 0
+    },
+    {
+     "tekst": "Kui telefonikõne keelatakse, lööb kohe ust ja rahuneb siis",
+     "oige": 1
+    },
+    {
+     "tekst": "Kuid tunneb, et teda koheldakse ebaõiglaselt, lõpuks plahvatab",
+     "oige": 2
+    }
+   ]
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "„Inspektor-kontaktisiku töös” osa (näide ja soovitused) on koostatud selle lehe jaoks tunnimaterjali põhjal; see ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

@@ -1,0 +1,166 @@
+{
+ "id": "ps-t08-05",
+ "tund": "ps-t08",
+ "jrk": 5,
+ "mall": "psuh",
+ "pealkiri": "Prosotsiaalne käitumine",
+ "lyhend": "Prosotsiaalne käitumine",
+ "ikoon": "kompass",
+ "lyhidalt": "Prosotsiaalne käitumine on antisotsiaalse käitumise vastand: teistele kasulik, lugupidav ja seadust austav. Ametnik modelleerib seda kuue käitumisega; see vähendab korduvkuritegevust ja parandab ka töökultuuri.",
+ "materjal": [
+  {
+   "pealkiri": "Antisotsiaalne ja prosotsiaalne käitumine",
+   "sisu": [
+    {
+     "tekst": "Prosotsiaalne käitumine on koostöösuhte oluline osa. Selle defineerimiseks tuleb kõigepealt defineerida antisotsiaalne käitumine."
+    },
+    {
+     "tekst": "**Antisotsiaalne käitumine** on käitumisviis, mis rikub sotsiaalseid norme, seadusi või teiste inimeste õigusi ning kahjustab ühiskonda või teisi inimesi. Seda iseloomustab sageli lugupidamatus teiste vastu, seaduserikkumine, valetamine, varastamine või agressiivsus."
+    },
+    {
+     "tekst": "**Prosotsiaalne käitumine** on lihtsalt öeldes **antisotsiaalse käitumise vastand**: positiivsed käitumisviisid, mis on teistele kasulikud – näiteks sõbralik suhtlemine, konfliktide lahendamine viha asemel ja teiste austamine. **Prosotsiaalsed väärtused** hõlmavad teiste ja seaduse austamist."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Kuidas prosotsiaalset käitumist modelleerida",
+   "sisu": [
+    {
+     "tekst": "Ametnikud modelleerivad (mudeldavad) prosotsiaalseid väärtusi **oma tegude, positiivsele keskendumise, negatiivse arendamise ja empaatia** kaudu. Et olla tõhusad, peaksid ametnikud ise näitama ja julgustama järgmisi käitumisi:"
+    },
+    {
+     "loend": [
+      "**Järgi reegleid rutiinselt ja stabiilselt** – ole eeskujuks reeglite ja ootuste täitmisel.",
+      "**Ole täpne ja usaldusväärne** – näita usaldusväärsust ja korrektsust kõigis tegevustes.",
+      "**Kohtle teisi lugupidavalt** – suhtle alati viisakalt ja professionaalselt nii kolleegide kui ka kinnipeetavatega.",
+      "**Väljenda empaatiat** – mõista ja jaga klientide tundeid, et luua usaldust ja sidet.",
+      "**Kasuta koostööpõhist probleemide lahendamist** – otsi lahendusi koos kliendiga ja toeta tema iseseisvust.",
+      "**Tunnista vigu** – kui oled midagi unustanud või eksinud, tunnista viga ja võimalusel paranda olukord."
+     ]
+    }
+   ]
+  },
+  {
+   "pealkiri": "Miks prosotsiaalset käitumist kasutada",
+   "sisu": [
+    {
+     "tekst": "**Kasu kinnipeetavatele ja ühiskonnale:**"
+    },
+    {
+     "punktid": [
+      "Uuringute järgi on prosotsiaalne käitumine ja mudeldamine **tõhus korduvkuritegevuse vähendamisel**.",
+      "Järelevalvemudelitel, mis sisaldavad prosotsiaalset käitumist ja mudeldamist, on **madalam korduvkuritegevuse määr** kui mudelitel, mis seda ei sisalda.",
+      "Kliendid **eelistavad töötada ametnikuga**, kes toetab edu positiivse suhtluse, aktiivse kuulamise, lugupidamise ja empaatia kaudu."
+     ]
+    },
+    {
+     "tekst": "**Kasu kolleegidele ja töökultuurile:**"
+    },
+    {
+     "punktid": [
+      "Kui juht käitub järjekindlalt õiglaselt ja lugupidavalt (prosotsiaalselt), aitab see kujundada distsiplineeritud, koostööd toetavat ja usalduslikku töökultuuri.",
+      "Prosotsiaalne mudeldamine aitab ka kolleegide vahel kujundada positiivseid tööharjumusi, parandada suhtlemist ja vähendada konflikte."
+     ]
+    }
+   ]
+  }
+ ],
+ "skeemid": [
+  {
+   "tyyp": "kaardid",
+   "pealkiri": "Prosotsiaalsed käitumised, mida ametnik mudeldab",
+   "kaardid": [
+    {
+     "pealkiri": "Järgi reegleid rutiinselt ja stabiilselt",
+     "silt": "01",
+     "tekst": "ole eeskujuks reeglite ja ootuste täitmisel"
+    },
+    {
+     "pealkiri": "Ole täpne ja usaldusväärne",
+     "silt": "02",
+     "tekst": "kõigis tegevustes",
+     "toon": "b"
+    },
+    {
+     "pealkiri": "Kohtle teisi lugupidavalt",
+     "silt": "03",
+     "tekst": "viisakalt ja professionaalselt – nii kolleegide kui kinnipeetavatega"
+    },
+    {
+     "pealkiri": "Väljenda empaatiat",
+     "silt": "04",
+     "tekst": "mõista tundeid, loo usaldust",
+     "toon": "b"
+    },
+    {
+     "pealkiri": "Lahenda probleeme koos",
+     "silt": "05",
+     "tekst": "tööta kliendiga lahenduse nimel ja toeta tema iseseisvust"
+    },
+    {
+     "pealkiri": "Tunnista vigu",
+     "silt": "06",
+     "tekst": "kui unustasid või eksisid – tunnista ja paranda",
+     "toon": "b"
+    }
+   ]
+  }
+ ],
+ "inspektor": {
+  "sisu": [
+   {
+    "tekst": "Kinnipeetav õpib ametnikult rohkem sellest, mida ametnik teeb, kui sellest, mida ta ütleb. Lubaduste pidamine, viisakus ja vigade tunnistamine on prosotsiaalse käitumise eeskuju (vt ka mudeldamine tunnis 2)."
+   }
+  ],
+  "naide": {
+   "olukord": "Ametnik lubas kinnipeetavale eelmisel nädalal uurida tema töökoha taotlust, kuid unustas. Kinnipeetav küsib täna pahaselt: „Mis sai?”",
+   "analyys": "Ametnik tunnistab viga: „Sul on õigus, ma unustasin. Vabandust. Uurin täna ja annan homme vastuse.” Nii näeb kinnipeetav, et vea tunnistamine ei ole nõrkus ja et lubadusi peetakse. Järgmisel päeval annab ametnik täpse vastuse – muidu kaob usaldus."
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mida näitavad uuringud prosotsiaalse mudeldamise kohta?",
+   "valikud": [
+    "See ei mõjuta midagi",
+    "See on tõhus korduvkuritegevuse vähendamisel",
+    "See suurendab rikkumisi",
+    "See mõjub ainult kolleegidele"
+   ],
+   "oige": 1,
+   "selgitus": "Järelevalvemudelid, kus see on sees, näitavad madalamat korduvkuritegevust."
+  },
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline prosotsiaalne käitumine?",
+   "ryhmad": [
+    "Vigade tunnistamine",
+    "Täpsus ja usaldusväärsus",
+    "Koostöine probleemilahendus"
+   ],
+   "read": [
+    {
+     "tekst": "„Eksisin kuupäevaga, parandan selle kohe.”",
+     "oige": 0
+    },
+    {
+     "tekst": "Ametnik tuleb kohtumisele täpselt kokkulepitud ajal",
+     "oige": 1
+    },
+    {
+     "tekst": "„Mõtleme koos, kuidas sa saaksid enne vabanemist dokumendid korda.”",
+     "oige": 2
+    }
+   ]
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "„Inspektor-kontaktisiku töös” osa (näide ja soovitused) on koostatud selle lehe jaoks tunnimaterjali põhjal; see ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

@@ -1,0 +1,115 @@
+{
+ "id": "ps-t07-04",
+ "tund": "ps-t07",
+ "jrk": 4,
+ "mall": "psuh",
+ "pealkiri": "Vaimse arengu mahajäämusega kinnipeetav",
+ "lyhend": "Vaimse arengu mahajäämus",
+ "ikoon": "kogukond",
+ "lyhidalt": "Varem peeti vaimse arengu mahajäämusega inimesi kavalateks ja potentsiaalseteks kurjategijateks, kuid põhjuslikku seost kriminaalsusega ei ole leitud. Suurim abi on kogukond, suurim risk on teda ümbritsevad inimesed.",
+ "materjal": [
+  {
+   "pealkiri": "Ajalugu ja eelarvamus",
+   "sisu": [
+    {
+     "tekst": "Ajaloo alguses hoiti vaimse arengu mahajäämusega inimesi **lihtsalt lukus**. Neid peeti **kavalateks ja õelateks**, kes ainult mängivad süütut. Arvati, et vaimse arengu mahajäämus on väga tugevalt seotud kriminaalse käitumisega."
+    },
+    {
+     "tekst": "Ameerika psühholoog **Lewis Terman** ütles **1911. aastal**, et kõik kurjategijad ei ole vaimse mahajäämusega, kuid kõik vaimse mahajäämusega inimesed on potentsiaalsed kurjategijad."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Mida uuringud näitavad",
+   "sisu": [
+    {
+     "tekst": "Tänaseks on teemat palju uuritud. **Põhjuslikku seost vaimse arengu mahajäämuse ja kriminaalsuse vahel ei ole leitud** – see seos on ületähtsustatud."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Riskid ja nende maandamine",
+   "sisu": [
+    {
+     "tekst": "Materjalis on viis mõtet riski kohta:"
+    },
+    {
+     "loend": [
+      "**Peamine abiline** riski maandamisel on **kommuun ja kogukond**.",
+      "Samas on **suurim risk teda ümbritsevad inimesed**: pereliikmete väärkohtlemine, hüljatus ja kehvad suhted.",
+      "Suur risk on ka **vaesus ja kehv elukeskkond**.",
+      "Kuritegude risk ja vanglasse sattumine on tugevalt seotud **sotsiaalpoliitikaga**: kui abi andvaid asutusi jääb vähemaks või need suletakse, suureneb risk jälle.",
+      "Loeb ka **asutuse riskitase**: mida kõrgema riskiga asutuses inimene viibib, seda varem on toimunud tema kõige esimene rikkumine (McMurran, 2012)."
+     ]
+    }
+   ]
+  }
+ ],
+ "skeemid": [
+  {
+   "tyyp": "voog",
+   "pealkiri": "Mis mõjutab riski",
+   "sammud": [
+    {
+     "pealkiri": "Kogukond kui peamine abi",
+     "tekst": "Kõige olulisem abi riski maandamiseks on kommuun ja kogukond."
+    },
+    {
+     "pealkiri": "Ümbritsevad inimesed kui suurim risk",
+     "tekst": "Pereliikmete väärkohtlemine, hüljatus, kehvad suhted."
+    },
+    {
+     "pealkiri": "Vaesus ja kehv elukeskkond",
+     "tekst": "Suur risk."
+    },
+    {
+     "pealkiri": "Sotsiaalpoliitika",
+     "tekst": "Kui abi andvaid asutusi jääb vähemaks või need suletakse, risk kasvab."
+    },
+    {
+     "pealkiri": "Asutuse riskitase",
+     "tekst": "Mida kõrgema riskiga asutuses inimene viibib, seda varem on toimunud tema esimene rikkumine (McMurran, 2012)."
+    }
+   ]
+  }
+ ],
+ "inspektor": {
+  "sisu": [
+   {
+    "tekst": "Suhtle lühikeste lausetega, anna üks juhis korraga ja kontrolli arusaamist („Räägi mulle oma sõnadega, mida sa nüüd teed”). Aitavad kirjalikud või pildilised meeldetuletused."
+   },
+   {
+    "punktid": [
+     "Kuna suurim risk on teda ümbritsevad inimesed, jälgi, kas teised kinnipeetavad kasutavad teda ära."
+    ]
+   }
+  ],
+  "naide": {
+   "olukord": "Kerge vaimse alaarenguga kinnipeetav viib teiste kinnipeetavate palvel asju ühest kambrist teise ja jääb sellega vahele.",
+   "analyys": "Teda on tõenäoliselt ära kasutatud. Ametnik selgitab reeglit lihtsalt, kontrollib arusaamist ja jälgib, kes teda kasutab; koos kolleegidega kaalutakse paigutust ja tuge."
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mida näitavad tänapäeva uuringud vaimse arengu mahajäämuse ja kuritegevuse kohta?",
+   "valikud": [
+    "Seos on väga tugev ja põhjuslik",
+    "Põhjuslikku seost ei ole leitud – seos on ületähtsustatud",
+    "Kõik vaimse mahajäämusega inimesed panevad toime kuritegusid",
+    "Uuringuid ei ole tehtud"
+   ],
+   "oige": 1,
+   "selgitus": "Termani 1911. a väide on ümber lükatud."
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "„Inspektor-kontaktisiku töös” osa (näide ja soovitused) on koostatud selle lehe jaoks tunnimaterjali põhjal; see ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

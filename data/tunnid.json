@@ -1033,16 +1033,16 @@
    "kysimused": [],
    "plokid": [
     {
-     "pealkiri": "Mõiste ja kasutamine",
+     "pealkiri": "Mis on korrektsioonipsühholoogia",
      "teemad": [
       "ps-t01-01",
-      "ps-t01-02"
+      "ps-t01-02",
+      "ps-t01-03"
      ]
     },
     {
      "pealkiri": "Ajalugu",
      "teemad": [
-      "ps-t01-03",
       "ps-t01-04",
       "ps-t01-05"
      ]
@@ -1051,23 +1051,23 @@
    "teemad": [
     {
      "id": "ps-t01-01",
-     "fail": "teemad/ps-t01-01-mis-on-korrektsioonipsuhholoogia.json"
+     "fail": "teemad/ps-t01-01-sissejuhatus.json"
     },
     {
      "id": "ps-t01-02",
-     "fail": "teemad/ps-t01-02-kolm-valdkonda.json"
+     "fail": "teemad/ps-t01-02-mis-on-korrektsioonipsuhholoogia.json"
     },
     {
      "id": "ps-t01-03",
-     "fail": "teemad/ps-t01-03-miks-ajalugu.json"
+     "fail": "teemad/ps-t01-03-kolm-valdkonda.json"
     },
     {
      "id": "ps-t01-04",
-     "fail": "teemad/ps-t01-04-kuritegevuse-pohjused-ajaloos.json"
+     "fail": "teemad/ps-t01-04-miks-ajalugu.json"
     },
     {
      "id": "ps-t01-05",
-     "fail": "teemad/ps-t01-05-karistus-ja-tagajarg.json"
+     "fail": "teemad/ps-t01-05-ajalugu.json"
     }
    ],
    "allikafailid": {
@@ -1078,8 +1078,118 @@
     "tekstiversioonid": [
      "Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/01_ajalugu_ja_teooriad/T01_ajalugu.md"
     ],
-    "markus": "Slaidide infograafikud on joonistatud uuesti lehe skeemidega (originaalpilte ei kopeerita). Vanglanäited ja harjutused on koostatud lehe jaoks."
-   }
+    "markus": "Teemad vastavad H5P-raamatu peatükkidele. Lehe sisu on kirjutatud failist sisu/psuhholoogia/T0N.md (tools/ps_sisu.py). Slaidide infograafikud on lahti kirjutatud ja joonistatud uuesti lehe skeemidega (originaalpilte ei kopeerita). „Inspektor-kontaktisiku töös” näited on koostatud lehe jaoks."
+   },
+   "faktid": [
+    {
+     "pealkiri": "Arvud ja nimed",
+     "read": [
+      {
+       "tekst": "Kursuse põhiraamat: Polaschek, Day & Hollin (2019), *The Wiley International Handbook of Correctional Psychology*",
+       "teema": "ps-t01-01"
+      },
+      {
+       "tekst": "Korrektsioonipsühholoogial on 5 tähendust",
+       "teema": "ps-t01-02"
+      },
+      {
+       "tekst": "Psühholoogias on 3 valdkonda, mida vajab iga korrektsioonisüsteemi ametnik",
+       "teema": "ps-t01-03"
+      },
+      {
+       "tekst": "Suurbritannia käis 25 aastat taasühiskonnastamise rada, seejärel pöördus karistavama süsteemi poole",
+       "teema": "ps-t01-03"
+      },
+      {
+       "tekst": "Juhan Liiv: „Kes minevikku ei mäleta, see elab tulevikuta”",
+       "teema": "ps-t01-04"
+      },
+      {
+       "tekst": "Valgustusaja järgi on karistusel 4 põhjust",
+       "teema": "ps-t01-05"
+      },
+      {
+       "tekst": "18. sajand: kuritegu on vaba ja ratsionaalne otsus – kui isiklik võit kaalub üle kaotuse",
+       "teema": "ps-t01-05"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Mõisted",
+     "read": [
+      {
+       "tekst": "Korrektsioonipsühholoogia põhieesmärk: selgitada kriminaalse käitumise teket ja anda teaduslikku infot, mis aitab antisotsiaalset käitumist muuta",
+       "teema": "ps-t01-02"
+      },
+      {
+       "tekst": "Kognitiiv-käitumuslik mudel: hindab ja selgitab käitumist teaduslikult; sobib igas keskkonnas ja igale inimtüübile",
+       "teema": "ps-t01-03"
+      },
+      {
+       "tekst": "Kriminoloogiline psühholoogia: seletab kriminaalse käitumise põhjuseid ja teket",
+       "teema": "ps-t01-03"
+      },
+      {
+       "tekst": "Utilitaarne vaade: karistus peab olema kuriteoga sobivas proportsioonis",
+       "teema": "ps-t01-05"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Loetelud",
+     "read": [
+      {
+       "tekst": "5 tähendust: psühholoogid vanglas, psühholoogia rakendamine iga ametniku poolt, teadus süsteemi parandamiseks, sõltub ühiskonna vaatest, varieeruv",
+       "teema": "ps-t01-02"
+      },
+      {
+       "tekst": "3 valdkonda: vaimse tervise häirete teadmised, kognitiiv-käitumuslik mudel, kriminoloogiline psühholoogia",
+       "teema": "ps-t01-03"
+      },
+      {
+       "tekst": "Ajaloo tundmise 3 eesmärki: avastused, mis viisid edasi; lähenemised, mis ei toiminud; hoiakud, millest oleme välja kasvanud",
+       "teema": "ps-t01-04"
+      },
+      {
+       "tekst": "Karistuse 4 põhjust: ennetada; suunata kergemate kuritegude poole; vähendada kahju; teha seda väikseima kuluga",
+       "teema": "ps-t01-05"
+      },
+      {
+       "tekst": "Kursuse õppe ülesehitus: teooria → seostamine varasemate teadmistega → praktiseerimine (oma kogemus või juhtum)",
+       "teema": "ps-t01-01"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Põhiväited",
+     "read": [
+      {
+       "tekst": "Definitsiooni ebaselguse tõttu on korrektsioonipsühholoogid sageli ebakindlad oma professionaalses identiteedis",
+       "teema": "ps-t01-02"
+      },
+      {
+       "tekst": "Suur osa korrektsioonist toetub retoorilistele ja tunnetuslikele teadmistele; see viib kallite ja kahjulike praktikateni",
+       "teema": "ps-t01-03"
+      },
+      {
+       "tekst": "Psühholoogia on ajaloos rääkinud rohkem sellest, KUIDAS kuritegevust vähendada; sotsioloogia selle PÕHJUSTEST",
+       "teema": "ps-t01-04"
+      },
+      {
+       "tekst": "Vanim vaade: kuritegevuse põhjus on kurjad hinged ja deemonid → rõhk karistamisel",
+       "teema": "ps-t01-05"
+      },
+      {
+       "tekst": "Vanglad olid esimeste seas, kes lubasid psühholooge oma meetodeid praktiseerima",
+       "teema": "ps-t01-05"
+      },
+      {
+       "tekst": "Karistus üksinda ei hoia kuritegudest eemale ei varasemaid kurjategijaid ega ühiskonda; vähesed leitud efektid on nõrgad",
+       "teema": "ps-t01-05"
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "ps-t02",
@@ -1095,7 +1205,7 @@
    "kysimused": [],
    "plokid": [
     {
-     "pealkiri": "Kuidas käitumine õpitakse",
+     "pealkiri": "Teooriad ja õppimine",
      "teemad": [
       "ps-t02-01",
       "ps-t02-02",
@@ -1103,7 +1213,7 @@
      ]
     },
     {
-     "pealkiri": "Kuritegu ja muutumine",
+     "pealkiri": "Kuritegu ja muutus",
      "teemad": [
       "ps-t02-04",
       "ps-t02-05",
@@ -1145,8 +1255,195 @@
     "tekstiversioonid": [
      "Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/01_ajalugu_ja_teooriad/T02_teooriad.md"
     ],
-    "markus": "Slaidide infograafikud on joonistatud uuesti lehe skeemidega (originaalpilte ei kopeerita). Vanglanäited ja harjutused on koostatud lehe jaoks."
-   }
+    "markus": "Teemad vastavad H5P-raamatu peatükkidele. Lehe sisu on kirjutatud failist sisu/psuhholoogia/T0N.md (tools/ps_sisu.py). Slaidide infograafikud on lahti kirjutatud ja joonistatud uuesti lehe skeemidega (originaalpilte ei kopeerita). „Inspektor-kontaktisiku töös” näited on koostatud lehe jaoks."
+   },
+   "faktid": [
+    {
+     "pealkiri": "Nimed ja aastad",
+     "read": [
+      {
+       "tekst": "Psühhoanalüüs – Sigmund Freud; korrektsioonis ebaefektiivne",
+       "teema": "ps-t02-01"
+      },
+      {
+       "tekst": "Sotsiaalne õppimine – Bandura",
+       "teema": "ps-t02-01"
+      },
+      {
+       "tekst": "RNR (Risk-Need-Responsivity, riski-vajaduse-vastavuse mudel) – kõige hilisem ja teaduslikult kõige mõjukam teooria",
+       "teema": "ps-t02-01"
+      },
+      {
+       "tekst": "Üldine kuriteoteooria – Gottfredson ja Hirschi, 1990",
+       "teema": "ps-t02-04"
+      },
+      {
+       "tekst": "Moraalne tagasitõmbumine – Bandura",
+       "teema": "ps-t02-04"
+      },
+      {
+       "tekst": "Muutusering (transteoreetiline mudel) – kasutusel nt sotsiaalprogrammis Eluviisitreening",
+       "teema": "ps-t02-06"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Arvud",
+     "read": [
+      {
+       "tekst": "Teooriate arengus on 5 sammu",
+       "teema": "ps-t02-01"
+      },
+      {
+       "tekst": "Klassikalisel tingimisel on 5 osa ja 4 seaduspära",
+       "teema": "ps-t02-02"
+      },
+      {
+       "tekst": "Tasustamise ja karistamise viise on 8",
+       "teema": "ps-t02-03"
+      },
+      {
+       "tekst": "Madalal enesekontrollil on 6 tunnust",
+       "teema": "ps-t02-04"
+      },
+      {
+       "tekst": "Moraalse tagasitõmbumise viise on 8",
+       "teema": "ps-t02-04"
+      },
+      {
+       "tekst": "Käitumise muutmise põhiteooriaid on 4; mudeldamise viise 5; mudeldamise mõjusid 4",
+       "teema": "ps-t02-05"
+      },
+      {
+       "tekst": "Välisel motivatsioonil on 4 liiki; eneseregulatsioonil 3 komponenti",
+       "teema": "ps-t02-05"
+      },
+      {
+       "tekst": "Muutusringis on 6 etappi",
+       "teema": "ps-t02-06"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Mõisted",
+     "read": [
+      {
+       "tekst": "Klassikaline tingimine: teadvustamata ja tahtmatu õppimine (nt emotsionaalsed reaktsioonid)",
+       "teema": "ps-t02-02"
+      },
+      {
+       "tekst": "Tingimatu stiimul → tingimatu vastus; neutraalne stiimul → tingitud stiimul → tingitud vastus",
+       "teema": "ps-t02-02"
+      },
+      {
+       "tekst": "Operantne tingimine: käitumist õpitakse tagajärgede kaudu; teadlikum ja sihilikum",
+       "teema": "ps-t02-03"
+      },
+      {
+       "tekst": "Positiivne tasu = meeldivat juurde; negatiivne tasu = ebameeldivat ära; positiivne karistus = ebameeldivat juurde; negatiivne karistus = meeldivat ära",
+       "teema": "ps-t02-03"
+      },
+      {
+       "tekst": "Enesetõhusus: inimese hinnang oma oskusele ennast kontrollida ja keerulistes olukordades hakkama saada",
+       "teema": "ps-t02-04"
+      },
+      {
+       "tekst": "Kognitiivne õppimine: õpitakse seda, mida suudetakse mõista",
+       "teema": "ps-t02-05"
+      },
+      {
+       "tekst": "Sotsiaal-kognitiivne (vaatluslik) õppimine: õpitakse teisi jälgides; keskne on mudel",
+       "teema": "ps-t02-05"
+      },
+      {
+       "tekst": "Metakognitsioon: mõtlemine oma mõtlemise üle",
+       "teema": "ps-t02-05"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Loetelud",
+     "read": [
+      {
+       "tekst": "Teooriate areng: psühhoanalüüs → käitumuslikud teooriad → sotsiaalne õppimine → kognitiivne teooria → RNR",
+       "teema": "ps-t02-01"
+      },
+      {
+       "tekst": "Klassikalise tingimise seaduspärad: üldistumine, eristumine, kustumine, spontaanne taastumine",
+       "teema": "ps-t02-02"
+      },
+      {
+       "tekst": "8 tasustamise/karistamise viisi: sotsiaalsed, materiaalsed, tegevus-, erilised üritused, primaarsed, üldistunud, positiivne karistus, negatiivne karistus",
+       "teema": "ps-t02-03"
+      },
+      {
+       "tekst": "Madal enesekontroll: impulsiivsus, püsivuse puudus, riskialdisus, füüsilise eelistamine vaimsele, enesekesksus, kõikuv tuju",
+       "teema": "ps-t02-04"
+      },
+      {
+       "tekst": "8 moraalse tagasitõmbumise viisi: moraalne õigustamine, eufemistlikud sildid, võrdlev õigustus, vastutuse hajutamine, vastutuse jagamine, tagajärgede eiramine, dehumaniseerimine, süü nihutamine",
+       "teema": "ps-t02-04"
+      },
+      {
+       "tekst": "4 käitumise muutmise teooriat: kognitiivne õppimine, sotsiaal-kognitiivne õppimine, enesemääratlemise teooria, eneseregulatsiooniteooriad",
+       "teema": "ps-t02-05"
+      },
+      {
+       "tekst": "Mudeldamise viisid: otsene, sümboolne, sünteesitud, mõtteprotsessi mudeldamine, asendav õppimine",
+       "teema": "ps-t02-05"
+      },
+      {
+       "tekst": "Mudeldamise mõjud: mudeldav, pidurdav, pidurdust eemaldav, esilekutsuv",
+       "teema": "ps-t02-05"
+      },
+      {
+       "tekst": "Välise motivatsiooni 4 liiki: väline, pealesurutud, omaksvõetud, integreeritud regulatsioon",
+       "teema": "ps-t02-05"
+      },
+      {
+       "tekst": "Eneseregulatsiooni 3 komponenti: kognitsioon, metakognitsioon, motivatsioon",
+       "teema": "ps-t02-05"
+      },
+      {
+       "tekst": "Muutusringi etapid: eelkaalutlemine, kaalutlemine, ettevalmistus (otsus), tegutsemine, säilitamine, tagasilangus",
+       "teema": "ps-t02-06"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Põhiväited",
+     "read": [
+      {
+       "tekst": "Kriminaalne käitumine on õpitud ja selle lõpetamine vajab samuti õppimist",
+       "teema": "ps-t02-01"
+      },
+      {
+       "tekst": "Parim viis käitumist muuta: õpetada prosotsiaalseid viise samade eesmärkide saavutamiseks",
+       "teema": "ps-t02-01"
+      },
+      {
+       "tekst": "Ükski teooria üksi ei selgita kriminaalset käitumist",
+       "teema": "ps-t02-01"
+      },
+      {
+       "tekst": "Karistus mõjub kõige rohkem kohe pärast tegu; mida pikem vahe, seda väiksem mõju",
+       "teema": "ps-t02-03"
+      },
+      {
+       "tekst": "Tasu mõju on suurem, kui sellega kaasneb informatiivne positiivne tagasiside",
+       "teema": "ps-t02-03"
+      },
+      {
+       "tekst": "Enesekontrolli saab arendada; enesetõhususe arendamisega kasvab enesekontroll",
+       "teema": "ps-t02-04"
+      },
+      {
+       "tekst": "Tagasilangus on normaalne etapp ja võib juhtuda igas staadiumis; selleks võiks olla turvaplaan",
+       "teema": "ps-t02-06"
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "ps-t03",
@@ -1192,8 +1489,150 @@
     "tekstiversioonid": [
      "Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/01_ajalugu_ja_teooriad/T03_kriminaalne_motlemine.md"
     ],
-    "markus": "Slaidide infograafikud on joonistatud uuesti lehe skeemidega (originaalpilte ei kopeerita). Vanglanäited ja harjutused on koostatud lehe jaoks."
-   }
+    "markus": "Teemad vastavad H5P-raamatu peatükkidele. Lehe sisu on kirjutatud failist sisu/psuhholoogia/T0N.md (tools/ps_sisu.py). Slaidide infograafikud on lahti kirjutatud ja joonistatud uuesti lehe skeemidega (originaalpilte ei kopeerita). „Inspektor-kontaktisiku töös” näited on koostatud lehe jaoks."
+   },
+   "faktid": [
+    {
+     "pealkiri": "Arvud ja lühendid",
+     "read": [
+      {
+       "tekst": "Kriminaalne mõtlemine on üks neljast suurest retsidivismi ennustajast",
+       "teema": "ps-t03-01"
+      },
+      {
+       "tekst": "Reaktiivne ja proaktiivne kriminaalne mõtlemine korreleeruvad kuni 50%",
+       "teema": "ps-t03-01"
+      },
+      {
+       "tekst": "Kognitiivseid muutujaid, mis seovad mineviku ja tuleviku kuriteod, on 6",
+       "teema": "ps-t03-01"
+      },
+      {
+       "tekst": "Mõtteprotsessi hindamise küsimustik: PICTS",
+       "teema": "ps-t03-01"
+      },
+      {
+       "tekst": "Mõttesisu hindamise küsimustikud: CSS-M ja MCAA",
+       "teema": "ps-t03-01"
+      },
+      {
+       "tekst": "Kriminaalse mõtlemisega seotud ajuosi on 3: eesajukoor, amügdala, hipokampus",
+       "teema": "ps-t03-02"
+      },
+      {
+       "tekst": "Sekkumisel on 3 faasi: ettevalmistus, tegutsemine, järelfaas",
+       "teema": "ps-t03-03"
+      },
+      {
+       "tekst": "Kinnipeetav küsib endalt 2 küsimust: mis toetab minu uskumust? kuidas see mõtlemine toob mulle tulevikus kasu?",
+       "teema": "ps-t03-03"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Mõisted",
+     "read": [
+      {
+       "tekst": "Kriminaalne mõtlemine: hoiakute ja uskumuste grupp, mis on seotud kriminaalse käitumisega ja toetab kriminaalset elustiili",
+       "teema": "ps-t03-01"
+      },
+      {
+       "tekst": "MIDA mõeldakse = mõtte sisu; KUIDAS mõeldakse = mõtteprotsess",
+       "teema": "ps-t03-01"
+      },
+      {
+       "tekst": "Proaktiivne kriminaalne mõtlemine: eesmärgile suunatud; võib siduda psühhopaatiat ja vägivallakuritegusid",
+       "teema": "ps-t03-01"
+      },
+      {
+       "tekst": "Reaktiivne kriminaalne mõtlemine: emotsioonikeskne, keskkonna muutuste või väljakutsete poolt käivitatud; seotud ainetega",
+       "teema": "ps-t03-01"
+      },
+      {
+       "tekst": "Lumepalliefekt: üks kognitiivne muutuja viib teiseni",
+       "teema": "ps-t03-01"
+      },
+      {
+       "tekst": "Shamani efekt: koostöö kliendiga – sensitiivsus tema sisemaailma suhtes, ekstreemsete vaadete ümberhindamine, usk muutusse",
+       "teema": "ps-t03-03"
+      },
+      {
+       "tekst": "Integreerimine: mõtte ja käitumise ühtsus (järelfaas)",
+       "teema": "ps-t03-03"
+      },
+      {
+       "tekst": "Võimendamine: kliendi enesetõhususe suurendamine (järelfaas)",
+       "teema": "ps-t03-03"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Loetelud",
+     "read": [
+      {
+       "tekst": "6 kognitiivset muutujat: mõtlemise stiilid, vaenulik tõlgendamine, positiivsed ootused kuriteole, madal enesetõhusus, hedonistlikud väärtused, lühiajalised eesmärgid",
+       "teema": "ps-t03-01"
+      },
+      {
+       "tekst": "Teadus on leidnud: kriminaalne mõtlemine järgneb käitumisele; erineb suuruselt, mitte liigilt; seob teisi muutujaid",
+       "teema": "ps-t03-01"
+      },
+      {
+       "tekst": "Eesajukoor: otsused ja pidurdus; amügdala: emotsioonid (väiksem → vähem empaatiat ja hirmu); hipokampus: mälu ja õppimine",
+       "teema": "ps-t03-02"
+      },
+      {
+       "tekst": "Ettevalmistusfaas: kriis, Shamani efekt, muutuse soovi väljaütlemine",
+       "teema": "ps-t03-03"
+      },
+      {
+       "tekst": "Tegutsemise faas: kognitiivsed oskused, käitumuslikud oskused",
+       "teema": "ps-t03-03"
+      },
+      {
+       "tekst": "Järelfaas: integreerimine ja võimendamine",
+       "teema": "ps-t03-03"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Põhiväited",
+     "read": [
+      {
+       "tekst": "Kriminaalne mõtlemine JÄRGNEB kriminaalsele käitumisele, ei eelne sellele",
+       "teema": "ps-t03-01"
+      },
+      {
+       "tekst": "Varasemad kuriteod ennustavad kõige paremini järgmisi",
+       "teema": "ps-t03-01"
+      },
+      {
+       "tekst": "Proaktiivne mõjutab lähikonna mõju, reaktiivne lähikonna valikut",
+       "teema": "ps-t03-01"
+      },
+      {
+       "tekst": "Impulsiivne (reaktiivne) kuritegu on levinum kui kalkuleeritud; kaasneb mängurluse, narkootikumide ja joobes juhtimisega",
+       "teema": "ps-t03-01"
+      },
+      {
+       "tekst": "Nõrk empaatiavõime ennustab proaktiivset kriminaalset mõtlemist",
+       "teema": "ps-t03-01"
+      },
+      {
+       "tekst": "Kartmatus ja takistamatus seostuvad halli ainega amügdalas ja hipokampuses → temperament on oluline",
+       "teema": "ps-t03-01"
+      },
+      {
+       "tekst": "Enamik sekkumisi mõjub hästi reaktiivsele, minimaalselt proaktiivsele mõtlemisele",
+       "teema": "ps-t03-03"
+      },
+      {
+       "tekst": "Sekkumisel alustatakse mõtteviisi muutmisest (vastupidi kriminaalse mõtlemise tekkele)",
+       "teema": "ps-t03-03"
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "ps-t04",
@@ -1202,15 +1641,16 @@
    "pealkiri": "Psüühika- ja käitumishäired",
    "kuupaev": null,
    "olek": "valmis",
-   "kirjeldus": "Psüühikahäired vanglas: RHK-10 põhigrupid, skisofreenia, käitumishäired ja ATH, ärevus ja depressioon, suitsiidi- ja enesevigastamise risk, stigma.",
+   "kirjeldus": "Psüühikahäired vanglas: RHK-10 põhigrupid, skisofreenia, käitumishäired ja ATH, ärevus ja depressioon, suitsiidi- ja enesevigastamise risk ning sekkumised, stigma; lisaks kriminogeensed riskitegurid.",
    "materjal": [
     "Õppejõu H5P-raamat „Psüühika- ja käitumishäired” (SKA Moodle, kursus „Isiku hälbiv käitumine (KS260)”, osa Korrektsioonipsühholoogia)",
-    "Moodle leht „Kriminogeensed riskitegurid”"
+    "Moodle leht „Kriminogeensed riskitegurid”",
+    "Moodle'i leht „Kriminogeensed riskitegurid” (plokk „Vaimse tervise häired”)"
    ],
    "kysimused": [],
    "plokid": [
     {
-     "pealkiri": "Häired",
+     "pealkiri": "Psüühika- ja käitumishäired",
      "teemad": [
       "ps-t04-01",
       "ps-t04-02",
@@ -1219,17 +1659,24 @@
      ]
     },
     {
-     "pealkiri": "Risk ja suhtumine",
+     "pealkiri": "Suitsiid, sekkumised ja stigma",
      "teemad": [
       "ps-t04-05",
-      "ps-t04-06"
+      "ps-t04-06",
+      "ps-t04-07"
+     ]
+    },
+    {
+     "pealkiri": "Lisa: Moodle'i leht",
+     "teemad": [
+      "ps-t04-08"
      ]
     }
    ],
    "teemad": [
     {
      "id": "ps-t04-01",
-     "fail": "teemad/ps-t04-01-psuuhikahaired-vanglas.json"
+     "fail": "teemad/ps-t04-01-psuuhikahaired.json"
     },
     {
      "id": "ps-t04-02",
@@ -1249,19 +1696,212 @@
     },
     {
      "id": "ps-t04-06",
-     "fail": "teemad/ps-t04-06-stigma-ja-margistamine.json"
+     "fail": "teemad/ps-t04-06-suitsiidi-sekkumised.json"
+    },
+    {
+     "id": "ps-t04-07",
+     "fail": "teemad/ps-t04-07-stigma-ja-margistamine.json"
+    },
+    {
+     "id": "ps-t04-08",
+     "fail": "teemad/ps-t04-08-kriminogeensed-riskitegurid.json"
     }
    ],
    "allikafailid": {
     "opetaja": [
-     "Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/02_vaimse_tervise_haired/T04_psuuhika_ja_kaitumishaired.h5p"
+     "Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/02_vaimse_tervise_haired/T04_psuuhika_ja_kaitumishaired.h5p",
+     "Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/02_vaimse_tervise_haired/Kriminogeensed_riskitegurid_Moodle.pdf"
     ],
     "kysimused": [],
     "tekstiversioonid": [
-     "Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/02_vaimse_tervise_haired/T04_psuuhika_ja_kaitumishaired.md"
+     "Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/02_vaimse_tervise_haired/T04_psuuhika_ja_kaitumishaired.md",
+     "Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/02_vaimse_tervise_haired/Kriminogeensed_riskitegurid_Moodle.txt"
     ],
-    "markus": "Slaidide infograafikud on joonistatud uuesti lehe skeemidega (originaalpilte ei kopeerita). Vanglanäited ja harjutused on koostatud lehe jaoks."
-   }
+    "markus": "Teemad vastavad H5P-raamatu peatükkidele. Lehe sisu on kirjutatud failist sisu/psuhholoogia/T0N.md (tools/ps_sisu.py). Slaidide infograafikud on lahti kirjutatud ja joonistatud uuesti lehe skeemidega (originaalpilte ei kopeerita). „Inspektor-kontaktisiku töös” näited on koostatud lehe jaoks."
+   },
+   "faktid": [
+    {
+     "pealkiri": "Arvud",
+     "read": [
+      {
+       "tekst": "1/5 kinnipeetavatest on psüühikahäire diagnoosiga (nt skisofreenia spekter, bipolaarne häire, raske depressioon)",
+       "teema": "ps-t04-01"
+      },
+      {
+       "tekst": "RHK-10 psüühikahäirete põhigruppe on 10 (F0–F9)",
+       "teema": "ps-t04-01"
+      },
+      {
+       "tekst": "Skisofreenia ravi võib ära hoida 6–28% tapmistest",
+       "teema": "ps-t04-02"
+      },
+      {
+       "tekst": "Umbes pool enesetapu teinutest on varem ennast vigastanud",
+       "teema": "ps-t04-05"
+      },
+      {
+       "tekst": "Enesevigastajatel on 30 korda kõrgem suitsiidirisk kui tavapopulatsioonil",
+       "teema": "ps-t04-05"
+      },
+      {
+       "tekst": "Vanglas teevad suitsiidikatseid pigem 25-aastased ja nooremad (tavapopulatsioonis pigem vanemad)",
+       "teema": "ps-t04-05"
+      },
+      {
+       "tekst": "Suitsiid: pigem esimese vangistuskuu jooksul, nt esimesel päeval; enesevigastamine pigem esimese 7 päeva jooksul",
+       "teema": "ps-t04-05"
+      },
+      {
+       "tekst": "CBSP: 4–6 kuu jooksul 20 individuaalset vestlust väljaõppega terapeudiga",
+       "teema": "ps-t04-06"
+      },
+      {
+       "tekst": "Üle poole neist, kes võiksid psühhiaatri abist kasu saada, ei lähe isegi esimesele vastuvõtule (Purre, 2019)",
+       "teema": "ps-t04-07"
+      },
+      {
+       "tekst": "Märgistamise protsessis on 4 etappi",
+       "teema": "ps-t04-07"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Mõisted",
+     "read": [
+      {
+       "tekst": "Psüühikahäire: märgatavad nihked psüühilises tegevuses või struktuuris; abi on vaja, kui inimene ei kohane ega tule toime oma sotsiaalse rolliga",
+       "teema": "ps-t04-01"
+      },
+      {
+       "tekst": "Käitumishäire: püsivalt normidest kõrvalekalduv, häiriv või kahjulik käitumine; üksikud teod ei piisa diagnoosiks",
+       "teema": "ps-t04-03"
+      },
+      {
+       "tekst": "ATH: neuroarenguline seisund; 3 tunnuste kategooriat: tähelepanematus, hüperaktiivsus, impulsiivsus",
+       "teema": "ps-t04-03"
+      },
+      {
+       "tekst": "Ärevus: keha märguanne ohust; häireks muutub, kui põhjustab igapäevaseid või sagedasi probleeme",
+       "teema": "ps-t04-04"
+      },
+      {
+       "tekst": "Depressioon: püsiv kurvameelsus, huvi kadumine, vähenenud energia; vanglas seotud isolatsiooni, lootusetuse ja süütundega",
+       "teema": "ps-t04-04"
+      },
+      {
+       "tekst": "Suitsiidikatse: tegu eesmärgiga elu lõpetada, mis ei lõpe surmaga; suitsiid: surm tahtliku enesekahjustuse tagajärjel",
+       "teema": "ps-t04-05"
+      },
+      {
+       "tekst": "Enesevigastamine: tahtlik enesekahjustamine ilma suitsiidikavatsuseta, sageli emotsionaalse valu juhtimise viis",
+       "teema": "ps-t04-05"
+      },
+      {
+       "tekst": "Stigmatiseerimine (häbimärgistamine): negatiivne, ebaõiglane ja kahjulik suhtumine; kaasneb ebaõiglane kohtlemine",
+       "teema": "ps-t04-07"
+      },
+      {
+       "tekst": "Märgistamisteooria: hälbivus tekib, kui ühiskond nimetab teo või inimese halvaks; silt võib tekitada ennasttäitva ennustuse",
+       "teema": "ps-t04-07"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Loetelud",
+     "read": [
+      {
+       "tekst": "Psüühikahäirega kinnipeetava suurem risk: enesevigastamine, uus kuritegu vanglas, kriminaalhoolduse nõuete rikkumine, süsteemis kauem püsimine",
+       "teema": "ps-t04-01"
+      },
+      {
+       "tekst": "Skisofreenia ravi valem: antipsühhootikumid + psühhoharimine + kognitiivne rehabilitatsioon + tööga seotud treening + pikaajaline raviväline tugi",
+       "teema": "ps-t04-02"
+      },
+      {
+       "tekst": "Käitumishäirete näited: harjumus- ja impulsihäired (hasartmängimine, püromaania), muud impulsikontrolli häired (kleptomaania), hüperkineetilised häired (ATH, hüperkineetiline käitumishäire)",
+       "teema": "ps-t04-03"
+      },
+      {
+       "tekst": "Enesevigastamise ja suitsiidikatsete põhjused: vaimse tervise häired, sotsiaalne isolatsioon, traumad ja füüsilise tervise probleemid, sotsiaalmajanduslikud tegurid",
+       "teema": "ps-t04-05"
+      },
+      {
+       "tekst": "Kõrgem risk: šokivangistus, arestimaja, lühike karistus (ka pikk – uuringud vastukäivad); rasked vägivalla-/lähisuhtevägivalla teod ja seksuaalkuriteod",
+       "teema": "ps-t04-05"
+      },
+      {
+       "tekst": "Hea praktika: esmane hindamine, paigutus kellegagi koos, toetusgrupid, sobiv meditsiiniline abi",
+       "teema": "ps-t04-06"
+      },
+      {
+       "tekst": "Ei sobi: isolatsioon, mööblita kamber, oma riietest ilmajätmine – suurendavad riski",
+       "teema": "ps-t04-06"
+      },
+      {
+       "tekst": "Takistused: raha ja ametnike puudus, vaidlused vangistuse eesmärgi üle",
+       "teema": "ps-t04-06"
+      },
+      {
+       "tekst": "Stigma põhjused: probleemid on nähtamatud, puudulik teadlikkus, meedia",
+       "teema": "ps-t04-07"
+      },
+      {
+       "tekst": "Märgistamise 4 etappi: esmane hälbivus → ühiskondlik reaktsioon → stigmatiseerimine → teisene hälbivus",
+       "teema": "ps-t04-07"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Kriminogeensed riskitegurid (Moodle'i leht)",
+     "read": [
+      {
+       "tekst": "Staatiline riskitegur: antisotsiaalse käitumise ajalugu (noorus, kriminaalhooldus, tingimisi karistus, vangistus); samuti sugu, vanus, geneetika",
+       "teema": "ps-t04-08"
+      },
+      {
+       "tekst": "7 dünaamilist riskitegurit: antisotsiaalse isiksuse muster, antisotsiaalne tunnetus, antisotsiaalsed kaaslased, perekond/paarisuhe, kool/töö, vaba aeg, sõltuvusained",
+       "teema": "ps-t04-08"
+      },
+      {
+       "tekst": "Kuritegevusega seotud kognitiivsed-emotsionaalsed seisundid: viha, pahameel, põlgus",
+       "teema": "ps-t04-08"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Põhiväited",
+     "read": [
+      {
+       "tekst": "Seos vägivallakuritegude ja psüühikahäirete vahel on eriti tugev naistel",
+       "teema": "ps-t04-01"
+      },
+      {
+       "tekst": "Skisofreenia seos vägivallaga käib sõltuvuskäitumise kaudu; ilma aineteta on risk oluliselt väiksem",
+       "teema": "ps-t04-02"
+      },
+      {
+       "tekst": "ATH-d aetakse sageli segi ärevuse, meeleoluhäirete, sõltuvuste ja PTSH-ga",
+       "teema": "ps-t04-03"
+      },
+      {
+       "tekst": "Ärevust on sageli vabaduses maandatud sõltuvusainetega",
+       "teema": "ps-t04-04"
+      },
+      {
+       "tekst": "Sõltuvus- ja psüühikahäirega kinnipeetavad on eriti ohus vangistuse alguses (ravi pole veel, võõrutus)",
+       "teema": "ps-t04-05"
+      },
+      {
+       "tekst": "Enesetapukatseid tehakse sagedamini öösel, nädalavahetusel ja suvel, kui töötajaid on vähem",
+       "teema": "ps-t04-06"
+      },
+      {
+       "tekst": "Ühtegi teaduslikult tõestatud rutiinset vanglasekkumist suitsiidse käitumise jaoks veel pole; lootustandvaim on CBSP",
+       "teema": "ps-t04-06"
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "ps-t05",
@@ -1322,8 +1962,159 @@
     "tekstiversioonid": [
      "Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/02_vaimse_tervise_haired/T05_soltuvuse_olemus.md"
     ],
-    "markus": "Slaidide infograafikud on joonistatud uuesti lehe skeemidega (originaalpilte ei kopeerita). Vanglanäited ja harjutused on koostatud lehe jaoks."
-   }
+    "markus": "Teemad vastavad H5P-raamatu peatükkidele. Lehe sisu on kirjutatud failist sisu/psuhholoogia/T0N.md (tools/ps_sisu.py). Slaidide infograafikud on lahti kirjutatud ja joonistatud uuesti lehe skeemidega (originaalpilte ei kopeerita). „Inspektor-kontaktisiku töös” näited on koostatud lehe jaoks."
+   },
+   "faktid": [
+    {
+     "pealkiri": "Arvud",
+     "read": [
+      {
+       "tekst": "Sõltuvuse teket mõjutab 6 tegurirühma: isiksus, kasvukeskkond, bioloogia, vaimne tervis, sotsiaal-kultuurilised ja psühholoogilised tegurid",
+       "teema": "ps-t05-02"
+      },
+      {
+       "tekst": "Tarvitamise etappe on 4: eksperimenteerija, regulaarne tarvitaja, kuritarvitaja, sõltlane",
+       "teema": "ps-t05-03"
+      },
+      {
+       "tekst": "Alkoholiga seotud protsesse, mis seonduvad kuritegevusega, on 5",
+       "teema": "ps-t05-04"
+      },
+      {
+       "tekst": "Aineid tarvitavaid kurjategijaid on 2 tüüpi",
+       "teema": "ps-t05-05"
+      },
+      {
+       "tekst": "Korduvkuritegevuse vähendajaid ainete tarvitajatel on 4",
+       "teema": "ps-t05-05"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Nimed",
+     "read": [
+      {
+       "tekst": "Vanglas kasutatavad sotsiaalprogrammid sõltuvuse raviks: Eluviis 24/7, 12 sammu",
+       "teema": "ps-t05-05"
+      },
+      {
+       "tekst": "Metadoon: sünteetiline, tugev opioid; asendusravi",
+       "teema": "ps-t05-05"
+      },
+      {
+       "tekst": "Buprenorfiin (Bupaq, Subutex): nõrk opioid; tablett, süst, plaaster või implantaat",
+       "teema": "ps-t05-05"
+      },
+      {
+       "tekst": "Naltreksoon (Revia): blokeerib opioidide toime, ei ole asendusravi; vähendab kuritegevust rohkem kui psühholoogilised sekkumised",
+       "teema": "ps-t05-05"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Mõisted",
+     "read": [
+      {
+       "tekst": "Sõltuvushäire: krooniline ajuhaigus; sund teha või tarvitada midagi hoolimata kahjulikest tagajärgedest",
+       "teema": "ps-t05-01"
+      },
+      {
+       "tekst": "Kuritarvitamine: tarvitamise viis, mis kahjustab tervist, lähedasi või teisi",
+       "teema": "ps-t05-01"
+      },
+      {
+       "tekst": "GABA-retseptorid: aju „vastuvõtjad”, mis mõjutavad rahunemist ja ärevust",
+       "teema": "ps-t05-02"
+      },
+      {
+       "tekst": "Tasu puudulikkuse sündroom: aju tasusüsteem ei anna piisavalt „hea tunde” signaale",
+       "teema": "ps-t05-02"
+      },
+      {
+       "tekst": "ACE: kahjulikud lapsepõlvekogemused (vägivald, hooletusse jätmine, vanema sõltuvus)",
+       "teema": "ps-t05-02"
+      },
+      {
+       "tekst": "Alkoholimüoopia: tähelepanu kitseneb väiksemale osale infost ja lühemale ajale",
+       "teema": "ps-t05-04"
+      },
+      {
+       "tekst": "Anksiolüütiline efekt: alkoholiga tõstetakse sotsiaalset enesekindlust ja enesehinnangut",
+       "teema": "ps-t05-04"
+      },
+      {
+       "tekst": "Mediaatorid (vahendajad): ainete ja kuritegevuse seos ei ole otsene, vaid käib vahendajate kaudu",
+       "teema": "ps-t05-05"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Loetelud",
+     "read": [
+      {
+       "tekst": "Isiksuseomadused: impulsiivsus, madal vastupidavus pettumustele, tundlikkus tõrjutusele",
+       "teema": "ps-t05-02"
+      },
+      {
+       "tekst": "Kasvukeskkond: pere tarvitamiskultuur, varajased kogemused, kasvatusstiil (autoritaarne, hooletussejättev), vägivald, suhtlusviis, lahutus, uskumused ainetest, sõbrad",
+       "teema": "ps-t05-02"
+      },
+      {
+       "tekst": "Psühholoogilised teooriad: klassikaline ja operantne tingimine, mudeldamine, madal enesetõhusus, toimetulekuoskuste puudus",
+       "teema": "ps-t05-02"
+      },
+      {
+       "tekst": "Alkohol ja kuritegevus: impulsikontrolli vähenemine, ootused, alkoholimüoopia, anksiolüütiline efekt, individuaalsed tegurid (sh hüpermaskuliinsus)",
+       "teema": "ps-t05-04"
+      },
+      {
+       "tekst": "Ainete ja kuritegevuse seos tekib: vähene enesekontroll, hälbeline eluviis, lähedane side kriminaalsete isikutega",
+       "teema": "ps-t05-05"
+      },
+      {
+       "tekst": "Korduvkuritegevuse vähendajad: selgita seos välja ja vali sekkumine; programmid kõrgema riskiga inimestele, kõigi risk hinnatakse; ravimid lisaravina + tugi pärast vabanemist; arvesta ainet",
+       "teema": "ps-t05-05"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Põhiväited",
+     "read": [
+      {
+       "tekst": "Igal tarvitajal ei teki sõltuvust – aine ise ei saa olla ainus põhjus",
+       "teema": "ps-t05-01"
+      },
+      {
+       "tekst": "Mida varem alustatakse, seda suurem on sõltuvuse risk",
+       "teema": "ps-t05-02"
+      },
+      {
+       "tekst": "Alkohol on vägivallaga rohkem seotud kui muud ained",
+       "teema": "ps-t05-04"
+      },
+      {
+       "tekst": "Lähisuhtevägivald väheneb, kui tegeleda mõlema partneri joomise vähendamisega",
+       "teema": "ps-t05-04"
+      },
+      {
+       "tekst": "Joobes juhtimise ainus teaduslikult tõestatud sekkumine: karistusele järgneb raviprogramm",
+       "teema": "ps-t05-04"
+      },
+      {
+       "tekst": "Kui tarvitamine ja kuritegevus on funktsionaalselt eraldiseisvad, ei vähenda tarvitamise vähendamine kuritegevust",
+       "teema": "ps-t05-05"
+      },
+      {
+       "tekst": "Farmakoteraapiad on kasulikumad kui teised meetodid, kuid läänes kasutatakse neid vähe",
+       "teema": "ps-t05-05"
+      },
+      {
+       "tekst": "Motivatsioon ja raviks valmisolek ennustavad ravi tulemusi",
+       "teema": "ps-t05-05"
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "ps-t06",
@@ -1347,15 +2138,10 @@
      ]
     },
     {
-     "pealkiri": "Suhtlemine",
+     "pealkiri": "Suhtlemisstiilid ja mõju ametnikule",
      "teemad": [
       "ps-t06-04",
-      "ps-t06-05"
-     ]
-    },
-    {
-     "pealkiri": "Ametnik",
-     "teemad": [
+      "ps-t06-05",
       "ps-t06-06"
      ]
     }
@@ -1367,7 +2153,7 @@
     },
     {
      "id": "ps-t06-02",
-     "fail": "teemad/ps-t06-02-vagivaldse-tyybid.json"
+     "fail": "teemad/ps-t06-02-vagivaldne-kinnipeetav.json"
     },
     {
      "id": "ps-t06-03",
@@ -1375,11 +2161,11 @@
     },
     {
      "id": "ps-t06-04",
-     "fail": "teemad/ps-t06-04-agressiivne-klient.json"
+     "fail": "teemad/ps-t06-04-kinnine-kinnipeetav.json"
     },
     {
      "id": "ps-t06-05",
-     "fail": "teemad/ps-t06-05-kinnine-ja-jutukas.json"
+     "fail": "teemad/ps-t06-05-jutukas-kinnipeetav.json"
     },
     {
      "id": "ps-t06-06",
@@ -1394,8 +2180,126 @@
     "tekstiversioonid": [
      "Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/03_kinnipeetavate_grupid_ja_suhtlemine/T06_keeruline_kinnipeetav.md"
     ],
-    "markus": "Slaidide infograafikud on joonistatud uuesti lehe skeemidega (originaalpilte ei kopeerita). Vanglanäited ja harjutused on koostatud lehe jaoks."
-   }
+    "markus": "Teemad vastavad H5P-raamatu peatükkidele. Lehe sisu on kirjutatud failist sisu/psuhholoogia/T0N.md (tools/ps_sisu.py). Slaidide infograafikud on lahti kirjutatud ja joonistatud uuesti lehe skeemidega (originaalpilte ei kopeerita). „Inspektor-kontaktisiku töös” näited on koostatud lehe jaoks."
+   },
+   "faktid": [
+    {
+     "pealkiri": "Arvud",
+     "read": [
+      {
+       "tekst": "Umbes 68% vanglate vägivallajuhtumitest on seotud keeruliste kinnipeetavatega",
+       "teema": "ps-t06-01"
+      },
+      {
+       "tekst": "Umbes 73% vara lõhkumistest vanglates on seotud keeruliste kinnipeetavatega",
+       "teema": "ps-t06-01"
+      },
+      {
+       "tekst": "Vägivaldse käitumise üks riskitegur: 5-aastane või pikem vangistus",
+       "teema": "ps-t06-02"
+      },
+      {
+       "tekst": "Käitumist mõjutavaid tegureid on 5",
+       "teema": "ps-t06-01"
+      },
+      {
+       "tekst": "Vägivaldsete kinnipeetavate tüüpe on 3",
+       "teema": "ps-t06-02"
+      },
+      {
+       "tekst": "Vägivaldsetega tegelemisel 6 „lülitit”: 5 on sees, 1 (intuitiivne reaktsioon) väljas",
+       "teema": "ps-t06-03"
+      },
+      {
+       "tekst": "Agressiivse kliendiga suhtlemiseks on 7 võtet",
+       "teema": "ps-t06-03"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Nimed ja allikad",
+     "read": [
+      {
+       "tekst": "Wilson & Tamatea, 2013: ametnikud pigistavad kergemate rikkumiste ees silma kinni, keeruliste kinnipeetavate omi kirjutatakse rohkem üles",
+       "teema": "ps-t06-01"
+      },
+      {
+       "tekst": "Liebling et al., 2011: koostöösuhe ja prosotsiaalsete eesmärkide arutamine aitavad rikkumisi ära hoida",
+       "teema": "ps-t06-03"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Loetelud",
+     "read": [
+      {
+       "tekst": "5 käitumist mõjutavat tegurit: sotsiaalne isolatsioon, rollid ja ootused, asutuse mõju, vangla keskkond, isiklikud uskumused",
+       "teema": "ps-t06-01"
+      },
+      {
+       "tekst": "Vägivaldsed on sageli: vaimse tervise häirega, antisotsiaalse isiksusehäirega, subkultuursete hoiakutega, vägivallakuriteo/noore ea/pika karistusega, ebaõiglust tundvad",
+       "teema": "ps-t06-02"
+      },
+      {
+       "tekst": "3 vägivaldse tüüpi: planeeritud rünnak, kiire põlemine, aeglaselt kogunev pinge",
+       "teema": "ps-t06-02"
+      },
+      {
+       "tekst": "5 „sees” lülitit: tasakaalustatud lähenemine, motivatsiooniga arvestamine, koostöö ja prosotsiaalsed eesmärgid, rutiinne ja õiglane kodukord, ametniku roll ja kannatlikkus",
+       "teema": "ps-t06-03"
+      },
+      {
+       "tekst": "Agressiivse kliendi 7 võtet: empaatia, kaasa otsustesse, ütle mis ei ole võimalik, küsi tunnete kohta, enesega seotud ütlused, lase ventileerida, sea piirid",
+       "teema": "ps-t06-03"
+      },
+      {
+       "tekst": "Kinnise suhtlusstiili põhjused: negatiivsed kogemused, usaldamatus, häbi, hirm hinnangute ees, vajadus kontrolli säilitada",
+       "teema": "ps-t06-04"
+      },
+      {
+       "tekst": "Kinnine kinnipeetav: kannatlikkus ja aeg, usaldussuhe, ära karda vaikust, avatud küsimused, lõplikku avatust ei pruugi tulla",
+       "teema": "ps-t06-04"
+      },
+      {
+       "tekst": "Jutukas kinnipeetav: ette valmistatud punktid, eesmärk vestluse alguses, too teema juurde tagasi, tee kokkuvõtteid, sea piirid ja kokkulepped",
+       "teema": "ps-t06-05"
+      },
+      {
+       "tekst": "Keerulise kliendi mõju ametnikule: üldine kurnatus, psühholoogilised tagajärjed (kuni PTSD), püsiv hirm",
+       "teema": "ps-t06-06"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Põhiväited",
+     "read": [
+      {
+       "tekst": "Keerulisel käitumisel on alati kindel eesmärk või funktsioon; isiklikult võtmine viib karistava hoiakuni",
+       "teema": "ps-t06-01"
+      },
+      {
+       "tekst": "Julmad vanglad loovad julmemaid kinnipeetavaid",
+       "teema": "ps-t06-01"
+      },
+      {
+       "tekst": "Agressiivsus: eesmärk kahjustada, hirmutada või kontrollida; vägivald on agressiivsuse raskem, füüsiline vorm",
+       "teema": "ps-t06-03"
+      },
+      {
+       "tekst": "Intuitiivne reaktsioon (rohkem kontrolli) annab vägivaldsele kinnipeetavale lihtsalt rohkem reegleid, mida rikkuda",
+       "teema": "ps-t06-03"
+      },
+      {
+       "tekst": "Kinnise inimese vähene eneseavamine ei ole tingimata koostöö puudumine, vaid vajadus turvalisema kontakti järele",
+       "teema": "ps-t06-04"
+      },
+      {
+       "tekst": "Jutuka kinnipeetava rohke rääkimine ei tähenda sisulist eneseavamist; see võib olla kaitsemehhanism",
+       "teema": "ps-t06-05"
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "ps-t07",
@@ -1411,13 +2315,19 @@
    "kysimused": [],
    "plokid": [
     {
-     "pealkiri": "Grupid",
+     "pealkiri": "Tuvastamine ja eakad",
      "teemad": [
       "ps-t07-01",
       "ps-t07-02",
-      "ps-t07-03",
+      "ps-t07-03"
+     ]
+    },
+    {
+     "pealkiri": "Teised haavatavad grupid",
+     "teemad": [
       "ps-t07-04",
-      "ps-t07-05"
+      "ps-t07-05",
+      "ps-t07-06"
      ]
     }
    ],
@@ -1432,15 +2342,19 @@
     },
     {
      "id": "ps-t07-03",
-     "fail": "teemad/ps-t07-03-vaimse-arengu-mahajaamus.json"
+     "fail": "teemad/ps-t07-03-eaka-tervisemured.json"
     },
     {
      "id": "ps-t07-04",
-     "fail": "teemad/ps-t07-04-naissoost-kinnipeetav.json"
+     "fail": "teemad/ps-t07-04-vaimse-arengu-mahajaamus.json"
     },
     {
      "id": "ps-t07-05",
-     "fail": "teemad/ps-t07-05-noor-kinnipeetav.json"
+     "fail": "teemad/ps-t07-05-naissoost-kinnipeetav.json"
+    },
+    {
+     "id": "ps-t07-06",
+     "fail": "teemad/ps-t07-06-noor-kinnipeetav.json"
     }
    ],
    "allikafailid": {
@@ -1451,8 +2365,125 @@
     "tekstiversioonid": [
      "Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/03_kinnipeetavate_grupid_ja_suhtlemine/T07_haavatavamad_grupid.md"
     ],
-    "markus": "Slaidide infograafikud on joonistatud uuesti lehe skeemidega (originaalpilte ei kopeerita). Vanglanäited ja harjutused on koostatud lehe jaoks."
-   }
+    "markus": "Teemad vastavad H5P-raamatu peatükkidele. Lehe sisu on kirjutatud failist sisu/psuhholoogia/T0N.md (tools/ps_sisu.py). Slaidide infograafikud on lahti kirjutatud ja joonistatud uuesti lehe skeemidega (originaalpilte ei kopeerita). „Inspektor-kontaktisiku töös” näited on koostatud lehe jaoks."
+   },
+   "faktid": [
+    {
+     "pealkiri": "Arvud",
+     "read": [
+      {
+       "tekst": "Vangistatud noortel esineb psühhoosi 10 korda rohkem kui tavapopulatsioonil",
+       "teema": "ps-t07-06"
+      },
+      {
+       "tekst": "Vangistatud noortel esineb aktiivsus- ja tähelepanuhäiret (ATH) 2–4 korda rohkem",
+       "teema": "ps-t07-06"
+      },
+      {
+       "tekst": "Vangistatud noortel esineb käitumishäireid 5–20 korda rohkem",
+       "teema": "ps-t07-06"
+      },
+      {
+       "tekst": "Haavatava kinnipeetava tunnuseid on 6",
+       "teema": "ps-t07-01"
+      },
+      {
+       "tekst": "Lewis Terman, 1911: „kõik vaimse mahajäämusega inimesed on potentsiaalsed kriminaalid” (tänapäeval ümber lükatud)",
+       "teema": "ps-t07-04"
+      },
+      {
+       "tekst": "McMurran, 2012: mida kõrgema riskiga asutuses inimene on, seda varem toimus tema esimene rikkumine",
+       "teema": "ps-t07-04"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Loetelud",
+     "read": [
+      {
+       "tekst": "6 haavatavuse tunnust: psühhiaatriline diagnoos, madal haridustase, nõrk sotsiaalne tugi, varasem ohvrikogemus, noor vanus, puudulikud toimetulekuoskused",
+       "teema": "ps-t07-01"
+      },
+      {
+       "tekst": "Eakate kehva tervise 4 põhjust: kõrge riskiga käitumine, trenni mitte tegemine, vangla stressorid, keerulisem ligipääs arstiabile",
+       "teema": "ps-t07-02"
+      },
+      {
+       "tekst": "Eakate 5 igapäevast väljakutset: liikumine, keskkonna piirangud, kuulmine/nägemine, turvalisus, tegevusetus ja isolatsioon",
+       "teema": "ps-t07-02"
+      },
+      {
+       "tekst": "Eakale nõuavad palju energiat: asjade uuesti tuttavaks tegemine, meeldetuletamine, konfliktide vältimine, korraldustele allumine",
+       "teema": "ps-t07-03"
+      },
+      {
+       "tekst": "Vaimse arengu mahajäämus – suurim abi: kommuun ja kogukond; suurim risk: ümbritsevad inimesed (väärkohtlemine, hüljatus, kehvad suhted)",
+       "teema": "ps-t07-04"
+      },
+      {
+       "tekst": "Vaimse arengu mahajäämus – muud riskid: vaesus ja kehv elukeskkond, sotsiaalpoliitika (abiasutuste sulgemine), asutuse riskitase",
+       "teema": "ps-t07-04"
+      },
+      {
+       "tekst": "Teekondade teooria 3 sammu: negatiivne elukogemus → kodust ärajooksmine / ained → ellujäämise tegevused (prostitutsioon, narkoäri, röov)",
+       "teema": "ps-t07-05"
+      },
+      {
+       "tekst": "Naised erinevad vangistussüsteemis: teistsugune tervishoid, laste ja sünnitusega seotud eripärad, meeste programmid kantakse lihtsalt üle",
+       "teema": "ps-t07-05"
+      },
+      {
+       "tekst": "Noore kriminaalse käitumise riskitegurid 3 rühmas: individuaalsed ja arengulised, perekondlikud, keskkondlikud",
+       "teema": "ps-t07-06"
+      },
+      {
+       "tekst": "Perekondlikud riskitegurid: mitme põlvkonna kuritegevus, vanemate madal haridustase, ebakorrapärane vanemlik distsipliin",
+       "teema": "ps-t07-06"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Põhiväited",
+     "read": [
+      {
+       "tekst": "Kinnipeetavad vananevad ja haigestuvad tavapopulatsioonist märkimisväärselt kiiremini",
+       "teema": "ps-t07-02"
+      },
+      {
+       "tekst": "Eakatel on krooniliste haiguste kohta üllatavalt madal terviseteadmiste tase",
+       "teema": "ps-t07-02"
+      },
+      {
+       "tekst": "Vangla rutiinne päevakord varjab algavat kognitiivset langust ja varajast dementsust",
+       "teema": "ps-t07-03"
+      },
+      {
+       "tekst": "Eakad varjavad tervisemuresid, et säilitada staatust ja väärikust",
+       "teema": "ps-t07-03"
+      },
+      {
+       "tekst": "Eakad mõtlevad sageli vanglas suremisest – see on paljude suurim hirm",
+       "teema": "ps-t07-03"
+      },
+      {
+       "tekst": "Vaimse arengu mahajäämuse ja kriminaalsuse vahel ei ole leitud põhjuslikku seost",
+       "teema": "ps-t07-04"
+      },
+      {
+       "tekst": "Naisi ei uuritud varem; neile omistati seksistlikke põhjusi (vähem arenenud, vigane bioloogia, seksuaalsed ihad)",
+       "teema": "ps-t07-05"
+      },
+      {
+       "tekst": "Teekondade teooria: tegurid ei ole naistele unikaalsed, kuid mõjuvad neile unikaalselt",
+       "teema": "ps-t07-05"
+      },
+      {
+       "tekst": "Noortel kinnipeetavatel on kõrge komorbiidsus ja erakordselt kõrge ainete kuritarvitamise tase",
+       "teema": "ps-t07-06"
+      }
+     ]
+    }
+   ]
   },
   {
    "id": "ps-t08",
@@ -1473,8 +2504,14 @@
      "teemad": [
       "ps-t08-01",
       "ps-t08-02",
-      "ps-t08-03",
-      "ps-t08-04"
+      "ps-t08-03"
+     ]
+    },
+    {
+     "pealkiri": "Väärtused ja käitumine",
+     "teemad": [
+      "ps-t08-04",
+      "ps-t08-05"
      ]
     }
    ],
@@ -1485,15 +2522,19 @@
     },
     {
      "id": "ps-t08-02",
-     "fail": "teemad/ps-t08-02-takistused.json"
+     "fail": "teemad/ps-t08-02-koostoosuhte-tekkimine.json"
     },
     {
      "id": "ps-t08-03",
-     "fail": "teemad/ps-t08-03-vaartuskonfliktid.json"
+     "fail": "teemad/ps-t08-03-takistused.json"
     },
     {
      "id": "ps-t08-04",
-     "fail": "teemad/ps-t08-04-prosotsiaalne-kaitumine.json"
+     "fail": "teemad/ps-t08-04-vaartuskonfliktid.json"
+    },
+    {
+     "id": "ps-t08-05",
+     "fail": "teemad/ps-t08-05-prosotsiaalne-kaitumine.json"
     }
    ],
    "allikafailid": {
@@ -1504,8 +2545,126 @@
     "tekstiversioonid": [
      "Ruth_opetaja_tunni_failid/Vangla_psuhholoogia/03_kinnipeetavate_grupid_ja_suhtlemine/T08_koostoosuhe.md"
     ],
-    "markus": "Slaidide infograafikud on joonistatud uuesti lehe skeemidega (originaalpilte ei kopeerita). Vanglanäited ja harjutused on koostatud lehe jaoks."
-   }
+    "markus": "Teemad vastavad H5P-raamatu peatükkidele. Lehe sisu on kirjutatud failist sisu/psuhholoogia/T0N.md (tools/ps_sisu.py). Slaidide infograafikud on lahti kirjutatud ja joonistatud uuesti lehe skeemidega (originaalpilte ei kopeerita). „Inspektor-kontaktisiku töös” näited on koostatud lehe jaoks."
+   },
+   "faktid": [
+    {
+     "pealkiri": "Arvud",
+     "read": [
+      {
+       "tekst": "Koostöösuhtel on 3 osa",
+       "teema": "ps-t08-01"
+      },
+      {
+       "tekst": "Takistusi koostöösuhtes on 8",
+       "teema": "ps-t08-03"
+      },
+      {
+       "tekst": "Võimalusi väärtuskonfliktiga toime tulla on 8",
+       "teema": "ps-t08-04"
+      },
+      {
+       "tekst": "Prosotsiaalseid käitumisi, mida ametnik mudeldab, on 6",
+       "teema": "ps-t08-05"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Mõisted",
+     "read": [
+      {
+       "tekst": "Koostöösuhe sarnaneb terapeudi ja kliendi suhtele; suhte kvaliteet on kliendi muutumisel kõige olulisem",
+       "teema": "ps-t08-01"
+      },
+      {
+       "tekst": "Koostöösuhte eesmärk: suurendada õigusrikkuja iseseisvat seaduskuulekat toimetulekut; võtmesõna on „meie”",
+       "teema": "ps-t08-01"
+      },
+      {
+       "tekst": "Väärtused: sügavamad südamesoovid selle kohta, kuidas tahame olla ja käituda; neid saab valida ja teadvustada",
+       "teema": "ps-t08-04"
+      },
+      {
+       "tekst": "Väärtuskonflikt: kaks inimesele olulist väärtust põrkuvad ja mõlemat ei saa korraga täielikult järgida",
+       "teema": "ps-t08-04"
+      },
+      {
+       "tekst": "Isiklik väärtuskonflikt: spetsialisti enda hoiakud hakkavad mõjutama koostöösuhet",
+       "teema": "ps-t08-04"
+      },
+      {
+       "tekst": "Professionaalne väärtuskonflikt: oskused või kvalifikatsioon ei võimalda pakkuda vajalikku tuge, kuigi soov aidata on olemas",
+       "teema": "ps-t08-04"
+      },
+      {
+       "tekst": "Antisotsiaalne käitumine: rikub sotsiaalseid norme, seadusi või teiste õigusi ja kahjustab teisi",
+       "teema": "ps-t08-05"
+      },
+      {
+       "tekst": "Prosotsiaalne käitumine: antisotsiaalse käitumise vastand – teistele kasulikud positiivsed käitumisviisid",
+       "teema": "ps-t08-05"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Loetelud",
+     "read": [
+      {
+       "tekst": "Koostöösuhte 3 osa: kokkulepitud eesmärgid, ülesannetega seotud koostöö, omavaheline suhe",
+       "teema": "ps-t08-01"
+      },
+      {
+       "tekst": "Koostöösuhte tekkimisel on keskne roll ja vastutus juhtumikorraldajal",
+       "teema": "ps-t08-02"
+      },
+      {
+       "tekst": "Vestlus on avatud ja toetav, aga ka eesmärgipärane",
+       "teema": "ps-t08-02"
+      },
+      {
+       "tekst": "Suhte loomise vahendid: motiveeriv intervjueerimine, mitteverbaalne suhtlus, empaatia, professionaalne eneseavamine, kliendi kaasamine",
+       "teema": "ps-t08-02"
+      },
+      {
+       "tekst": "Kaasamise eeldused: rollide selge lahtimõtestamine, koostöökokkulepe, kliendi osalemine eesmärkide ja ülesannete valikus",
+       "teema": "ps-t08-02"
+      },
+      {
+       "tekst": "8 takistust: kokkulepete puudumine, liigne sõprus, kiirustamine, mittevabatahtlik klient, ebausk meetodisse, pealesurutud reeglid, piiride puudumine, pessimism",
+       "teema": "ps-t08-03"
+      },
+      {
+       "tekst": "Väärtuskonflikti märgid: kahtlemine, ebakindlus, segadustunne, korduv ümberotsustamine, otsuse edasilükkamine",
+       "teema": "ps-t08-04"
+      },
+      {
+       "tekst": "6 prosotsiaalset käitumist: järgi reegleid, ole täpne ja usaldusväärne, kohtle lugupidavalt, väljenda empaatiat, lahenda probleeme koos, tunnista vigu",
+       "teema": "ps-t08-05"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Põhiväited",
+     "read": [
+      {
+       "tekst": "Empaatia ei tähenda heakskiitmist, vaid mõistvat kohalolu",
+       "teema": "ps-t08-02"
+      },
+      {
+       "tekst": "Eneseavamine: kasuta enesega seotud ütlusi („ma kuulen, et…”), mitte isikliku elu jagamist",
+       "teema": "ps-t08-02"
+      },
+      {
+       "tekst": "Väärtused ei ole jäigad reeglid ega kaasasündinud – neid saab elu jooksul ümber mõtestada",
+       "teema": "ps-t08-04"
+      },
+      {
+       "tekst": "Prosotsiaalse käitumisega järelevalvemudelitel on madalam korduvkuritegevus",
+       "teema": "ps-t08-05"
+      }
+     ]
+    }
+   ]
   }
  ],
  "ained": [
