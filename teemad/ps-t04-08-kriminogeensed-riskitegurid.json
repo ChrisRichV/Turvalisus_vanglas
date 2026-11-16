@@ -1,0 +1,110 @@
+{
+ "id": "ps-t04-08",
+ "tund": "ps-t04",
+ "jrk": 8,
+ "mall": "psuh",
+ "pealkiri": "Kriminogeensed riskitegurid (kriminaalsed vajadused)",
+ "lyhend": "Kriminogeensed riskitegurid",
+ "ikoon": "sihik",
+ "lyhidalt": "Moodle'i leht plokis „Vaimse tervise häired”: riskitegurid jagunevad staatilisteks (ajalugu, sugu, vanus, geneetika – ei muutu) ja dünaamilisteks (isiksuse muster, tunnetus, kaaslased, perekond, kool/töö, vaba aeg, sõltuvusained – saab mõjutada). Taustaks on RNR-mudel.",
+ "materjal": [
+  {
+   "pealkiri": "Mis on kriminogeensed riskitegurid",
+   "sisu": [
+    {
+     "tekst": "Kriminogeensed riskitegurid ehk **kriminaalsed vajadused** on tegurid, mis on seotud kuritegeliku käitumisega. Moodle'i leht jagab need **staatilisteks** ja **dünaamilisteks**. Lehel viidatakse lisalugemiseks **riski-vajaduse-vastavuse (RNR) mudelile** (vt tund 2)."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Staatilised riskitegurid",
+   "sisu": [
+    {
+     "punktid": [
+      "**Antisotsiaalse käitumise ajalugu** – noorus, kriminaalhooldus, tingimisi karistus ja vangistus. (Moodle'i lehel on see märgitud kui „dünaamiline staatiline riskitegur”.)",
+      "Teised staatilised tegurid: näiteks **sugu, vanus, geneetika**."
+     ]
+    }
+   ]
+  },
+  {
+   "pealkiri": "Dünaamilised riskitegurid",
+   "sisu": [
+    {
+     "loend": [
+      "**Antisotsiaalse isiksuse muster** – impulsiivsus, seiklushimu, naudingu otsimine, rahutus, agressiivsus, empaatia puudumine.",
+      "**Antisotsiaalne tunnetus** – hoiakud, väärtused, uskumused, õigustused ja isiku identiteet, mis soodustavad kuritegevust. Kuritegevusega seotud kognitiivsed-emotsionaalsed seisundid on **viha, pahameel ja põlgus**.",
+      "**Antisotsiaalsed kaaslased** – kriminaalne suhtlusringkond.",
+      "**Perekond ja paarisuhted** – vanemlik hool, järelevalve, kasvatuspraktikad, vale vanemlik eeskuju; täiskasvanuna paarisuhte kvaliteet (hoolivus, austus ja huvi).",
+      "**Kool ja töö** – raskused koolis või tööl hakkama saamisel, vähene osalus, rahulolematus, eduelamuse puudumine.",
+      "**Vaba aeg** – vähene osavõtt mittekriminaalsetest vaba aja tegevustest.",
+      "**Sõltuvusainete kuritarvitamine** – alkohol ja narkootikumid."
+     ]
+    }
+   ]
+  },
+  {
+   "pealkiri": "Seos teiste tundidega",
+   "sisu": [
+    {
+     "punktid": [
+      "Antisotsiaalne tunnetus = **kriminaalne mõtlemine** (tund 3) ja **moraalne tagasitõmbumine** (tund 2).",
+      "Antisotsiaalse isiksuse muster sarnaneb **madala enesekontrolliga** (üldine kuriteoteooria, tund 2).",
+      "Sõltuvusained – vt **tund 5**."
+     ]
+    }
+   ]
+  }
+ ],
+ "skeemid": [
+  {
+   "tyyp": "vordlus",
+   "pealkiri": "Staatilised ja dünaamilised riskitegurid",
+   "veerud": [
+    "Staatilised",
+    "Dünaamilised"
+   ],
+   "read": [
+    {
+     "silt": "Näited",
+     "lahtrid": [
+      "antisotsiaalse käitumise ajalugu; sugu, vanus, geneetika",
+      "isiksuse muster, tunnetus, kaaslased, perekond/paarisuhe, kool/töö, vaba aeg, sõltuvusained"
+     ]
+    },
+    {
+     "silt": "Kas saab muuta",
+     "lahtrid": [
+      "ei – need on minevik või sünnipärased",
+      "jah – nende kaudu saab riski vähendada"
+     ]
+    }
+   ]
+  }
+ ],
+ "inspektor": {
+  "sisu": [
+   {
+    "tekst": "Inspektor-kontaktisiku töös on dünaamilised riskitegurid need, millega saab vangistuse ajal päriselt tegeleda: oskused, haridus ja töö, vaba aeg, suhted, ainete tarvitamine. Need on ka täitmiskava sisu taustaks."
+   }
+  ],
+  "naide": {
+   "olukord": "Kinnipeetaval on kolm varasemat vangistust, ta on 24-aastane, tal pole kunagi olnud püsivat tööd ja kõik tema sõbrad on samuti kriminaalse taustaga.",
+   "analyys": "Varasemad vangistused ja vanus on staatilised – neid muuta ei saa. Töö puudumine ja kriminaalsed kaaslased on dünaamilised tegurid, millega saab tegeleda: kutseõpe või töö vanglas ja vabanemise järel uus suhtlusringkond."
+  }
+ },
+ "harjutused": [],
+ "valjast": [
+  {
+   "tekst": "Moodle'i lehel on link Kriminaalpoliitika lehele „Riski-vajaduse-vastavuse mudel” (https://www.kriminaalpoliitika.ee/et/esf-tugiteenus-vanglast-vabanejale/riski-vajaduse-vastavuse-mudel); selle sisu kaustas ei ole.",
+   "allikas": "Moodle'i leht – link"
+  },
+  {
+   "tekst": "„Seos teiste tundidega” ja „Inspektor-kontaktisiku töös” osa on koostatud selle lehe jaoks; see ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

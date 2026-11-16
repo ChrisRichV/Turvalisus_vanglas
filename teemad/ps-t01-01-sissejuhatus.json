@@ -1,0 +1,89 @@
+{
+ "id": "ps-t01-01",
+ "tund": "ps-t01",
+ "jrk": 1,
+ "mall": "psuh",
+ "pealkiri": "Sissejuhatus kursusele",
+ "lyhend": "Sissejuhatus",
+ "ikoon": "raamat",
+ "lyhidalt": "Korrektsioonipsühholoogia kursus on osa „Isiku hälbiva käitumise” moodulist. Kursus uurib kuritegevuse, retsidiivsuse ja psühholoogia seoseid, uurimismeetodeid, häireid vanglas, psühholoogi rolle ja eetikat.",
+ "materjal": [
+  {
+   "pealkiri": "Mida kursusel uuritakse",
+   "sisu": [
+    {
+     "tekst": "Korrektsioonipsühholoogia kursus kuulub **isiku hälbiva käitumise** moodulisse. Kursuse jooksul uuritakse:"
+    },
+    {
+     "punktid": [
+      "kuritegevuse, **retsidiivsuse** (korduvkuritegevuse) ja psühholoogia vahelisi seoseid;",
+      "milliste kaasaegsete **uurimismeetoditega** korrektsioonipsühholoogiat uuritakse;",
+      "milliseid **psühholoogilise häirituse ilminguid** vanglas esineb ja millised sekkumisviisid neile sobivad;",
+      "milliseid **rolle** on psühholoogil ja psühholoogial korrektsioonisüsteemis;",
+      "milliseid **eetilisi aspekte** on psühholoogi ametil."
+     ]
+    }
+   ]
+  },
+  {
+   "pealkiri": "Kuidas õpe on üles ehitatud",
+   "sisu": [
+    {
+     "tekst": "Iga teema puhul käib õpe kolmes sammus:"
+    },
+    {
+     "loend": [
+      "**Õpime teooriat.**",
+      "**Analüüsime** ja seostame õpitut varasemate teadmistega.",
+      "**Praktiseerime** õpitut kas oma kogemuse või mõne juhtumi kaudu."
+     ]
+    }
+   ]
+  },
+  {
+   "pealkiri": "Põhiraamat",
+   "sisu": [
+    {
+     "tekst": "Õppetöö on peamiselt seotud raamatuga: Polaschek, D. L., Day, A., & Hollin, C. R. (2019). *The Wiley International Handbook of Correctional Psychology.*"
+    }
+   ]
+  }
+ ],
+ "skeemid": [
+  {
+   "tyyp": "voog",
+   "pealkiri": "Iga teema kolm sammu",
+   "sammud": [
+    {
+     "pealkiri": "1. Teooria",
+     "tekst": "õpime teooriat"
+    },
+    {
+     "pealkiri": "2. Seostamine",
+     "tekst": "analüüsime ja seome varasemate teadmistega"
+    },
+    {
+     "pealkiri": "3. Praktika",
+     "tekst": "proovime läbi oma kogemuse või juhtumi kaudu"
+    }
+   ]
+  }
+ ],
+ "inspektor": {
+  "sisu": [
+   {
+    "tekst": "Kursuse eesmärk on valmistada ette tööks kinnipeetavaga inspektor-kontaktisikuna. Iga teooria juures tasub küsida: kuidas see aitab mul kinnipeetavat paremini mõista ja tema käitumist muuta?"
+   }
+  ]
+ },
+ "harjutused": [],
+ "valjast": [
+  {
+   "tekst": "„Inspektor-kontaktisiku töös” osa (näide ja soovitused) on koostatud selle lehe jaoks tunnimaterjali põhjal; see ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

@@ -2,106 +2,137 @@
  "id": "ps-t04-03",
  "tund": "ps-t04",
  "jrk": 3,
- "pealkiri": "Käitumishäired ja ATH",
+ "mall": "psuh",
+ "pealkiri": "Käitumishäired",
  "lyhend": "Käitumishäired ja ATH",
  "ikoon": "valk",
- "lyhidalt": "Käitumishäired on püsivad probleemid käitumise kontrollimisel ja normidega kohanemisel. Nende hulka kuuluvad harjumus- ja impulsihäired ning hüperkineetilised häired, sh aktiivsus- ja tähelepanuhäire (ATH).",
- "osad": {
-  "pohimote": {
+ "lyhidalt": "Käitumishäire on püsiv normidest kõrvalekalduv, häiriv või kahjulik käitumine; üksikud teod diagnoosiks ei piisa. Näited: hasartmängimine, püromaania, kleptomaania, ATH. ATH tunnused on tähelepanematus, hüperaktiivsus ja impulsiivsus.",
+ "materjal": [
+  {
    "pealkiri": "Mis on käitumishäire",
-   "tekst": "Käitumishäired on psüühika- ja arenguhäired, mille puhul käitumine on **püsivalt normidest kõrvalekalduv, häiriv või kahjulik** nii inimesele endale kui ka teistele.",
-   "skeem": [
+   "sisu": [
     {
-     "tyyp": "puu",
-     "pealkiri": "Käitumishäirete näited",
-     "juur": {
-      "pealkiri": "Käitumishäired"
-     },
-     "harud": [
+     "tekst": "Käitumishäired on psüühika- ja arenguhäired, mille puhul inimese käitumine on **püsivalt normidest kõrvalekalduv, häiriv või kahjulik** nii talle endale kui ka teistele."
+    },
+    {
+     "tekst": "Käitumishäire tähendab **püsivaid probleeme käitumise kontrollimisel** ja sotsiaalsete normidega kohanemisel. Iseloomulik on **korduv ja püsiv** antisotsiaalne, agressiivne või kriminaalne käitumine, mis erineb oluliselt eakohastest normidest – laste puhul on see tõsisem kui tavaline lapseea vallatus."
+    },
+    {
+     "tekst": "Vaja on **püsivat käitumismustrit** – **üksikud antisotsiaalsed teod ei ole diagnoosiks piisavad**."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Näited käitumishäiretest",
+   "sisu": [
+    {
+     "loend": [
+      "**Harjumus- ja impulsihäired** – korduvad teod ilma selge ratsionaalse motiivita, mida juhivad kontrollimatud impulsid ja mis kahjustavad inimest ennast ja teisi: - patoloogiline hasartmängimine; - püromaania (korduv süütamine ilma motiivita).",
+      "**Muud impulsikontrolli häired** – näiteks **kleptomaania** (ei suuda vastu panna impulsile varastada).",
+      "**Hüperkineetilised häired** – varajane algus, halvasti kontrollitud käitumine koos tugeva tähelepanematuse ja rahutusega, mis püsib eri olukordades ja aja jooksul: - aktiivsus- ja tähelepanuhäire; - hüperkineetiline käitumishäire (üliaktiivsus ja tähelepanematus mitmes keskkonnas)."
+     ]
+    }
+   ]
+  },
+  {
+   "pealkiri": "Aktiivsus- ja tähelepanuhäire (ATH)",
+   "sisu": [
+    {
+     "tekst": "**ATH** on **neuroarenguline seisund**, mis mõjutab miljonite inimeste käitumist, õppimist ja sotsiaalset toimimist kogu elu jooksul. ATH diagnoositakse sageli lapsepõlves, kuid paljudel püsivad sümptomid ka **täiskasvanueas**."
+    },
+    {
+     "tekst": "ATH tunnused jagunevad **kolme kategooriasse**, mis võivad avalduda eri tugevusega ja eri kombinatsioonides:"
+    },
+    {
+     "punktid": [
+      "**Tähelepanematus** – raske pikalt keskenduda, eksib detailides, hajub kergesti, unustab igapäevaseid asju, raske juhiseid järgida.",
+      "**Hüperaktiivsus** – liigne liikumine (rahutus, nihelemine), pidev tegutsemisvajadus, raske paigal istuda, liigne rääkimine.",
+      "**Impulsiivsus** – raske reaktsioone kontrollida, vastab enne küsimuse lõppu, sekkub teiste tegevusse, raske oodata, käitub mõtlemata."
+     ]
+    },
+    {
+     "tekst": "Sümptomid peavad püsima **pikema aja jooksul** ja **oluliselt häirima** igapäevaelu. ATH-d saab sageli **segi ajada teiste seisunditega** (ärevushäired, meeleoluhäired, sõltuvused, traumajärgne stressihäire), seepärast on täpne diagnoos professionaalilt kriitilise tähtsusega."
+    }
+   ]
+  }
+ ],
+ "skeemid": [
+  {
+   "tyyp": "puu",
+   "pealkiri": "Käitumishäirete näited",
+   "juur": {
+    "pealkiri": "Käitumishäired"
+   },
+   "harud": [
+    {
+     "pealkiri": "Harjumus- ja impulsihäired",
+     "lapsed": [
       {
-       "pealkiri": "Harjumus- ja impulsihäired",
-       "lapsed": [
-        {
-         "pealkiri": "Patoloogiline hasartmängimine"
-        },
-        {
-         "pealkiri": "Püromaania",
-         "tekst": "korduv süütamine motiivita"
-        }
-       ]
+       "pealkiri": "Patoloogiline hasartmängimine"
       },
       {
-       "pealkiri": "Muud impulsi kontrolli häired",
-       "toon": "b",
-       "lapsed": [
-        {
-         "pealkiri": "Kleptomaania",
-         "tekst": "ei suuda vastu seista varastamise impulsile"
-        }
-       ]
+       "pealkiri": "Püromaania",
+       "tekst": "korduv süütamine motiivita"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Muud impulsi kontrolli häired",
+     "toon": "b",
+     "lapsed": [
+      {
+       "pealkiri": "Kleptomaania",
+       "tekst": "ei suuda vastu seista varastamise impulsile"
+      }
+     ]
+    },
+    {
+     "pealkiri": "Hüperkineetilised häired",
+     "lapsed": [
+      {
+       "pealkiri": "Aktiivsus- ja tähelepanuhäire (ATH)"
       },
       {
-       "pealkiri": "Hüperkineetilised häired",
-       "lapsed": [
-        {
-         "pealkiri": "Aktiivsus- ja tähelepanuhäire (ATH)"
-        },
-        {
-         "pealkiri": "Hüperkineetiline käitumishäire",
-         "tekst": "üliaktiivsus ja tähelepanematus mitmes keskkonnas"
-        }
-       ]
+       "pealkiri": "Hüperkineetiline käitumishäire",
+       "tekst": "üliaktiivsus ja tähelepanematus mitmes keskkonnas"
       }
      ]
     }
    ]
   },
-  "alus": {
-   "pealkiri": "ATH kolm tunnust",
-   "tekst": "**Aktiivsus- ja tähelepanuhäire** on neuroarenguline seisund. Sageli diagnoositakse see lapsepõlves, kuid paljudel püsivad sümptomid ka täiskasvanueas.",
-   "skeem": {
-    "tyyp": "kaardid",
-    "pealkiri": "ATH tunnused",
-    "kaardid": [
-     {
-      "pealkiri": "Tähelepanematus",
-      "silt": "1",
-      "tekst": "raske keskenduda, eksib detailides, hajub kergesti, unustab, raske juhiseid järgida"
-     },
-     {
-      "pealkiri": "Hüperaktiivsus",
-      "silt": "2",
-      "tekst": "rahutus, nihelemine, pidev tegutsemisvajadus, liigne rääkimine",
-      "toon": "b"
-     },
-     {
-      "pealkiri": "Impulsiivsus",
-      "silt": "3",
-      "tekst": "raske reaktsioone kontrollida, vastab enne küsimuse lõppu, segab vahele, ei suuda oodata"
-     }
-    ],
-    "kitsad": true
-   },
-   "jarel": "Sümptomid peavad püsima pikemat aega ja oluliselt häirima igapäevaelu.",
-   "read": []
-  },
-  "piiramine": {
-   "pealkiri": "Mida silmas pidada",
-   "tekst": "ATH sümptomeid saab kergesti **segi ajada** teiste seisunditega: ärevus, meeleoluhäired, sõltuvused, traumajärgne stressihäire. Täpne diagnoos on professionaali töö.",
-   "punktid": []
-  },
-  "vangla": {
-   "tekst": "ATH-ga kinnipeetav võib tunduda „tõrges” või „lugupidamatu”, kuigi ta lihtsalt ei suuda pikalt keskenduda või oodata. Lühikesed ja selged juhised aitavad.",
-   "naide": {
-    "olukord": "Kinnipeetav segab ametnikule pidevalt vahele, unustab kokkulepped ja tõuseb vestluse ajal mitu korda püsti.",
-    "analyys": "Need võivad olla ATH tunnused (impulsiivsus, tähelepanematus, hüperaktiivsus), mitte trots. Aitab: üks teema korraga, lühikesed laused, kokkulepe kirjalikult, kokkuvõte vestluse lõpus. Kui muster on püsiv, teavita tervishoiutöötajat."
+  {
+   "tyyp": "kaardid",
+   "pealkiri": "ATH tunnused",
+   "kaardid": [
+    {
+     "pealkiri": "Tähelepanematus",
+     "silt": "1",
+     "tekst": "raske keskenduda, eksib detailides, hajub kergesti, unustab, raske juhiseid järgida"
+    },
+    {
+     "pealkiri": "Hüperaktiivsus",
+     "silt": "2",
+     "tekst": "rahutus, nihelemine, pidev tegutsemisvajadus, liigne rääkimine",
+     "toon": "b"
+    },
+    {
+     "pealkiri": "Impulsiivsus",
+     "silt": "3",
+     "tekst": "raske reaktsioone kontrollida, vastab enne küsimuse lõppu, segab vahele, ei suuda oodata"
+    }
+   ],
+   "kitsad": true
+  }
+ ],
+ "inspektor": {
+  "sisu": [
+   {
+    "tekst": "ATH-ga kinnipeetav võib tunduda „tõrges” või „lugupidamatu”, kuigi ta lihtsalt ei suuda pikalt keskenduda või oodata. Lühikesed ja selged juhised aitavad."
    }
-  },
-  "tyypviga": {
-   "punktid": [
-    "Kleptomaaniat kirjeldatakse kui tavalist vargust kasu saamiseks. Kleptomaania on suutmatus impulsile vastu seista.",
-    "Arvatakse, et ATH on ainult laste häire."
-   ]
+  ],
+  "naide": {
+   "olukord": "Kinnipeetav segab ametnikule pidevalt vahele, unustab kokkulepped ja tõuseb vestluse ajal mitu korda püsti.",
+   "analyys": "Need võivad olla ATH tunnused (impulsiivsus, tähelepanematus, hüperaktiivsus), mitte trots. Aitab üks teema korraga, lühikesed laused, kirjalik kokkulepe ja kokkuvõte vestluse lõpus. Kui muster on püsiv, teavita tervishoiutöötajat – diagnoosi paneb professionaal."
   }
  },
  "harjutused": [
@@ -131,7 +162,7 @@
  ],
  "valjast": [
   {
-   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "tekst": "„Inspektor-kontaktisiku töös” osa (näide ja soovitused) on koostatud selle lehe jaoks tunnimaterjali põhjal; see ei ole õppejõu materjal.",
    "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
   }
  ],

@@ -2,103 +2,165 @@
  "id": "ps-t06-03",
  "tund": "ps-t06",
  "jrk": 3,
+ "mall": "psuh",
  "pealkiri": "Vägivaldsete kinnipeetavatega tegelemine",
  "lyhend": "Vägivaldsetega tegelemine",
  "ikoon": "lyliti",
- "lyhidalt": "Intuitiivne reaktsioon on rohkem kontrolli, kuid see annab lihtsalt rohkem reegleid, mida rikkuda. Toimib tasakaalustatud lähenemine: vähem, kuid järjekindlalt rakendatud reegleid, positiivne süsteem, koostöösuhe, õiglus ja kannatlikkus.",
- "osad": {
-  "pohimote": {
-   "pealkiri": "Mis toimib ja mis mitte",
-   "tekst": "",
-   "skeem": [
+ "lyhidalt": "Vägivaldsetega töötades on viis „sees” lülitit (tasakaalustatud reeglid, motivatsioon, koostöö, õiglane kodukord, kannatlikkus) ja üks „väljas”: intuitiivne soov kontrolli suurendada. Agressiivsus on kahjustamise, hirmutamise või kontrollimise katse; agressiivse kliendiga aitavad seitse suhtlusvõtet.",
+ "materjal": [
+  {
+   "pealkiri": "Kuus lülitit: viis sees, üks väljas",
+   "sisu": [
     {
-     "tyyp": "vordlus",
-     "pealkiri": "Lülitid: sees ja väljas",
-     "veerud": [
-      "Sees ✓",
-      "Mida see tähendab"
-     ],
-     "read": [
-      {
-       "silt": "Tasakaalustatud lähenemine",
-       "lahtrid": [
-        "✓",
-        "reegleid miinimumini – need, mis ohjavad riske kõige paremini – ja rakenda ning selgita neid **järjekindlalt**; lisaks positiivne süsteem (teraapia, eneseareng, enesejuhtimine)"
-       ]
-      },
-      {
-       "silt": "Motivatsiooniga arvestamine",
-       "lahtrid": [
-        "✓",
-        "sageli on vähe huvi muutuda – inimene tegeleb ellujäämise ja baasvajadustega"
-       ]
-      },
-      {
-       "silt": "Koostöö ja prosotsiaalsed eesmärgid",
-       "lahtrid": [
-        "✓",
-        "koostöösuhe ja prosotsiaalsete eesmärkide arutamine (Liebling jt, 2011)"
-       ]
-      },
-      {
-       "silt": "Rutiinne ja õiglane kodukord",
-       "lahtrid": [
-        "✓",
-        "kodukorra hoidmine on osa taasühiskonnastamisest – rutiinselt ja õiglaselt"
-       ]
-      },
-      {
-       "silt": "Ametniku roll ja kannatlikkus",
-       "lahtrid": [
-        "✓",
-        "teadmised häiretest ja sekkumistest; viljad ilmnevad ajapikku"
-       ]
-      },
-      {
-       "silt": "Intuitiivne reaktsioon: rohkem kontrolli",
-       "lahtrid": [
-        "✗ väljas",
-        "paigutus suurema kontrolliga üksusesse annab sellisele kinnipeetavale **lihtsalt rohkem reegleid, mida rikkuda**"
-       ]
-      }
+     "tekst": "Materjal kujutab vägivaldsetega tegelemist lülititena. Viis lülitit peavad olema **sees**:"
+    },
+    {
+     "loend": [
+      "**Tasakaalustatud ja süstemaatiline lähenemine** – vanglareeglid tuleks viia **miinimumini**: keskenduda neile, mis ohjavad riske kõige paremini, ning rakendada ja selgitada neid **järjekindlalt**. Sama oluline on **positiivsele suunatud süsteem**: teraapia, eneseareng, enesejuhtimise strateegiad.",
+      "**Arvesta kinnipeetava motivatsiooniga** – kinnipeetavatel on sageli vähe huvi oma käitumist muuta või vastutust võtta, sest nad tegelevad **enda elus hoidmise ja baasvajaduste rahuldamisega**.",
+      "**Koostöö ja prosotsiaalsed eesmärgid** – koostöösuhe ja prosotsiaalsete eesmärkide arutamine on väga oluline eesmärkide poole liikumisel ja rikkumiste ärahoidmisel (Liebling et al., 2011).",
+      "**Rutiinne ja õiglane kodukorra hoidmine** – kodukorra hoidmine on osa taasühiskonnastamisest, kuid seda tuleb teha **rutiinselt ja õiglaselt**.",
+      "**Ametniku roll ja kannatlikkus** – ametnikul on vaja teadmisi eri häiretest ja sekkumistest ning kannatlikkust. Iga sekkumine ei anna kohe tulemust – **vili tuleb ajapikku**."
+     ]
+    },
+    {
+     "tekst": "Üks lüliti peab olema **väljas**:"
+    },
+    {
+     "punktid": [
+      "**Intuitiivne reaktsioon** – ametniku esimene tung on saavutada **rohkem kontrolli**. See viib sageli kinnipeetava paigutamiseni suurema kontrolliga üksusesse, mis annab sellisele kinnipeetavale aga **lihtsalt rohkem reegleid, mida rikkuda**."
      ]
     }
    ]
   },
-  "alus": {
-   "pealkiri": "Miks rohkem kontrolli ei aita",
-   "tekst": "Intuitiivne reaktsioon ametnikuna on püüda saavutada rohkem kontrolli. See viib sageli paigutuseni suurema kontrolliga üksusesse – aga iga uus reegel on uus võimalus rikkumiseks. Kontroll ilma positiivse süsteemita ei muuda käitumist.",
-   "read": [
+  {
+   "pealkiri": "Agressiivne kinnipeetav",
+   "sisu": [
     {
-     "tase": "Vangla",
-     "viited": [
-      "VangS § 4^1 lg 2"
-     ],
-     "tekst": "Seaduses sätestamata piiranguid võib kohaldada vaid julgeoleku kaalutlustel; need peavad vastama täideviimise eesmärgile ja inimväärikuse põhimõttele."
+     "tekst": "**Agressiivne käitumine** on käitumine, mille **eesmärk on teist inimest kahjustada, hirmutada või kontrollida**. See võib väljenduda sõnades (solvamine, ähvardamine) või kehakeeles (ähvardav hoiak)."
+    },
+    {
+     "tekst": "**Vägivaldne käitumine on agressiivsuse raskem vorm**: kahju tekitamine on otsene ja füüsiline (löömine, tõukamine)."
+    },
+    {
+     "tekst": "Seega **iga agressiivne käitumine ei ole veel vägivaldne**, kuid kontrollimatu agressioon võib kergesti viia vägivallani."
     }
    ]
   },
-  "piiramine": {
-   "pealkiri": "Mida silmas pidada",
-   "tekst": "",
-   "punktid": [
-    "Julgeolek on oluline – tasakaalustatud lähenemine ei tähenda ohu eiramist.",
-    "Reeglite **vähesus** ei tähenda leebust: vähem reegleid, aga need kehtivad alati ja kõigile.",
-    "Vahetu sunni ja turvataktika küsimused ei kuulu sellesse teemasse."
+  {
+   "pealkiri": "Seitse võtet agressiivse kliendiga suhtlemiseks",
+   "sisu": [
+    {
+     "loend": [
+      "**Kasuta empaatiat** – kirjelda tema tundeid ja nendega seotud olukorda.",
+      "**Kaasa teda otsuste tegemisse** – „Kuidas me saaksime seda olukorda lahendada?”",
+      "**Ütle, kui pakutud lahendus ei ole võimalik** – „Seda me kahjuks teha ei saa, kuid kas on midagi muud, mis jääks asutuse reeglitesse ja mida saaksime teha?”",
+      "**Küsi tema tunnete kohta** – „Mis sind selle olukorra juures eriti ärritab?”",
+      "**Kasuta enesega seotud ütlusi** – „Mina tunneksin end sinu olukorras ka vihasena.”",
+      "**Lase tal ventileerida** – vestluse alguses võib ta olla väga emotsionaalne. Aktiivne kuulamine ja toetavad mitteverbaalsed märgid aitavad tal rahuneda, nii et vestluse lõpuks tunneb ta, et olukord on paranenud.",
+      "**Sea piirid**, kui ta jääb agressiivseks – „Ma saan aru, et sa oled frustreeritud, aga kui sa minuga nii räägid (kirjelda: karjudes, ähvardades, ropendades), ei saa me vestlust jätkata. Palun räägi minuga rahulikumalt. Kui sa jätkad samamoodi, peame vestluse täna lõpetama.”"
+     ]
+    }
+   ]
+  }
+ ],
+ "skeemid": [
+  {
+   "tyyp": "vordlus",
+   "pealkiri": "Lülitid: sees ja väljas",
+   "veerud": [
+    "Sees ✓",
+    "Mida see tähendab"
+   ],
+   "read": [
+    {
+     "silt": "Tasakaalustatud lähenemine",
+     "lahtrid": [
+      "✓",
+      "reegleid miinimumini – need, mis ohjavad riske kõige paremini – ja rakenda ning selgita neid **järjekindlalt**; lisaks positiivne süsteem (teraapia, eneseareng, enesejuhtimine)"
+     ]
+    },
+    {
+     "silt": "Motivatsiooniga arvestamine",
+     "lahtrid": [
+      "✓",
+      "sageli on vähe huvi muutuda – inimene tegeleb ellujäämise ja baasvajadustega"
+     ]
+    },
+    {
+     "silt": "Koostöö ja prosotsiaalsed eesmärgid",
+     "lahtrid": [
+      "✓",
+      "koostöösuhe ja prosotsiaalsete eesmärkide arutamine (Liebling jt, 2011)"
+     ]
+    },
+    {
+     "silt": "Rutiinne ja õiglane kodukord",
+     "lahtrid": [
+      "✓",
+      "kodukorra hoidmine on osa taasühiskonnastamisest – rutiinselt ja õiglaselt"
+     ]
+    },
+    {
+     "silt": "Ametniku roll ja kannatlikkus",
+     "lahtrid": [
+      "✓",
+      "teadmised häiretest ja sekkumistest; viljad ilmnevad ajapikku"
+     ]
+    },
+    {
+     "silt": "Intuitiivne reaktsioon: rohkem kontrolli",
+     "lahtrid": [
+      "✗ väljas",
+      "paigutus suurema kontrolliga üksusesse annab sellisele kinnipeetavale **lihtsalt rohkem reegleid, mida rikkuda**"
+     ]
+    }
    ]
   },
-  "vangla": {
-   "tekst": "Inspektor-kontaktisik on see, kes saab ehitada koostöösuhte ja positiivse süsteemi kontrolli kõrvale.",
-   "naide": {
-    "olukord": "Vägivaldne kinnipeetav rikub pidevalt väikeseid reegleid. Kolleegid soovivad lisada uusi piiranguid.",
-    "analyys": "Kursuse järgi annab see lihtsalt rohkem reegleid rikkuda. Parem: keskenduda reeglitele, mis päriselt ohjavad riski, rakendada neid järjekindlalt ja õiglaselt ning pakkuda positiivset suunda (töö, õpe, programm) ja koostöösuhet."
+  {
+   "tyyp": "voog",
+   "pealkiri": "Agressiivse kinnipeetavaga suhtlemine",
+   "sammud": [
+    {
+     "pealkiri": "01 Kasuta empaatiat",
+     "tekst": "Kirjelda tema tundeid ja olukorda."
+    },
+    {
+     "pealkiri": "02 Kaasa otsustesse",
+     "tekst": "„Kuidas me saaksime seda olukorda lahendada?”"
+    },
+    {
+     "pealkiri": "03 Ütle, kui lahendus ei ole võimalik",
+     "tekst": "„Seda me kahjuks ei saa teha, kuid kas on midagi muud, mis jääb asutuse reeglitesse?”"
+    },
+    {
+     "pealkiri": "04 Küsi tunnete kohta",
+     "tekst": "„Mis sind selle olukorra juures eriti ärritab?”"
+    },
+    {
+     "pealkiri": "05 Kasuta enesega seotud ütlusi",
+     "tekst": "„Mina tunneks end sinu olukorras ka vihasena.”"
+    },
+    {
+     "pealkiri": "06 Lase ventileerida",
+     "tekst": "Alguses võib ta olla väga emotsionaalne. Aktiivne kuulamine ja toetavad mitteverbaalsed märgid aitavad tal rahuneda."
+    },
+    {
+     "pealkiri": "07 Sea piirid",
+     "tekst": "„Ma saan aru, et sa oled frustreeritud, aga kui sa karjud, ei saa me vestlust jätkata. Palun räägi rahulikumalt. Kui jätkad karjumist, peame vestluse täna lõpetama.”"
+    }
+   ]
+  }
+ ],
+ "inspektor": {
+  "sisu": [
+   {
+    "tekst": "Inspektor-kontaktisik saab ehitada kontrolli kõrvale koostöösuhte ja positiivse suuna – just see on „sees” lülitite osa, mida teised ametnikud alati ei paku."
    }
-  },
-  "tyypviga": {
-   "punktid": [
-    "Lahenduseks pakutakse ainult rangemat režiimi.",
-    "Unustatakse, et kodukorra järjekindel ja õiglane rakendamine on osa taasühiskonnastamisest."
-   ]
+  ],
+  "naide": {
+   "olukord": "Kinnipeetav tuleb kontaktisiku juurde ja karjub: „Mu kokkusaamine jäeti ära! Te teete seda meelega!”",
+   "analyys": "Kõigepealt empaatia: „Näen, et oled väga vihane – kokkusaamine on sulle tähtis ja see jäeti ära.” Siis küsi tunnete kohta ja lase tal välja rääkida. Seejärel kaasa ta lahendusse („Uurime koos, miks see ära jäi ja kas saab uue aja taotleda”). Kui ta jätkab karjumist, sea piir ja ütle, et muidu tuleb vestlus täna lõpetada."
   }
  },
  "harjutused": [
@@ -113,15 +175,39 @@
    ],
    "oige": 1,
    "selgitus": "Tasakaalustatud lähenemine: vähem, aga järjekindlalt rakendatud reegleid + positiivne süsteem."
+  },
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline võte?",
+   "ryhmad": [
+    "Empaatia",
+    "Kaasamine",
+    "Enesega seotud ütlus",
+    "Piiride seadmine"
+   ],
+   "read": [
+    {
+     "tekst": "„Sa oled pettunud, sest ootasid seda kõnet terve nädala.”",
+     "oige": 0
+    },
+    {
+     "tekst": "„Mis sinu arvates oleks siin hea lahendus?”",
+     "oige": 1
+    },
+    {
+     "tekst": "„Ma tunneksin end samas olukorras ka vihasena.”",
+     "oige": 2
+    },
+    {
+     "tekst": "„Kui sa jätkad karjumist, lõpetame täna vestluse.”",
+     "oige": 3
+    }
+   ]
   }
  ],
  "valjast": [
   {
-   "tekst": "Liebling jt (2011) viide pärineb õppejõu materjalist.",
-   "allikas": "tunnimaterjal"
-  },
-  {
-   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "tekst": "„Inspektor-kontaktisiku töös” osa (näide ja soovitused) on koostatud selle lehe jaoks tunnimaterjali põhjal; see ei ole õppejõu materjal.",
    "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
   }
  ],

@@ -78,6 +78,15 @@ for t in tunnid["tunnid"]:
         if tm["id"] in naha_teema:
             vead.append(f"teema id kordub: {tm['id']}")
         naha_teema.add(tm["id"])
+for t in tunnid["tunnid"]:
+    oma = {tm["id"] for tm in t["teemad"]}
+    for g in t.get("faktid", []):
+        for r in g.get("read", []):
+            if r.get("teema") and r["teema"] not in oma:
+                vead.append(f"tund {t['id']} faktileht: tundmatu teema {r['teema']}")
+            walk_tekst = r.get("tekst", "")
+            if "{{" in walk_tekst or "[[" in walk_tekst:
+                vead.append(f"tund {t['id']} faktileht: viited/terminid ei ole faktilehel lubatud ({walk_tekst[:40]})")
 teema_failid = []
 for t in tunnid["tunnid"]:
     for tm in t["teemad"]:
@@ -88,6 +97,11 @@ for t in tunnid["tunnid"]:
         teema_failid.append(p)
         if d.get("id") != tm["id"]:
             vead.append(f"{tm['fail']}: id {d.get('id')} ≠ {tm['id']}")
+        if d.get("mall") == "psuh":
+            if not d.get("materjal"):
+                vead.append(f"{tm['fail']}: psühholoogia mallil puudub 'materjal'")
+            if not (d.get("inspektor") or {}).get("sisu"):
+                vead.append(f"{tm['fail']}: psühholoogia mallil puudub 'inspektor'")
         for i, h in enumerate(d.get("harjutused", [])):
             if h["tyyp"] == "fakt" and not (0 <= h["oige"] < len(h["valikud"])):
                 vead.append(f"{tm['fail']}: harjutus {i} – vale 'oige' indeks")

@@ -23,6 +23,23 @@
       });
   };
 
+  /* teema täistekst otsinguks (märgistuseta) */
+  A.teemaTekst = function (t) {
+    const osa = t.mall === "psuh" ? [t.materjal, t.inspektor, t.skeemid] : [t.osad, t.skeem];
+    const kogu = [];
+    const k = (o) => { if (typeof o === "string") kogu.push(o); else if (Array.isArray(o)) o.forEach(k); else if (o && typeof o === "object") Object.keys(o).forEach((x) => { if (x !== "tyyp" && x !== "toon" && x !== "ikoon") k(o[x]); }); };
+    k([t.pealkiri, t.lyhidalt, osa]);
+    return kogu.join(" \u2022 ").replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_, a, b) => b || a)
+      .replace(/\{\{([^}|]+)(?:\|([^}]+))?\}\}/g, (_, a, b) => b || a).replace(/\*+/g, "").replace(/\s+/g, " ");
+  };
+  A.leiaLoik = function (tekst, q, laius) {
+    laius = laius || 90;
+    const i = tekst.toLowerCase().indexOf(q);
+    if (i < 0) return "";
+    const a = Math.max(0, i - laius), b = Math.min(tekst.length, i + q.length + laius);
+    return (a ? "…" : "") + esc(tekst.slice(a, i)) + "<mark>" + esc(tekst.slice(i, i + q.length)) + "</mark>" + esc(tekst.slice(i + q.length, b)) + (b < tekst.length ? "…" : "");
+  };
+
   A.koikTeemad = function () {
     const failid = [];
     A.tunnid.tunnid.forEach((t) => t.teemad.forEach((tm) => failid.push(tm.fail)));

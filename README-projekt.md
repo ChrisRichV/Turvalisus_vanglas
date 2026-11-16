@@ -57,7 +57,8 @@ kontrollib sisu.
 | `index.html` | Töölaud: ainekaardid, „jätka” (viimati vaadatud), otsing kõigist ainetest, kaasuse skeem, sõnastik | harva |
 | `aine.html?id=inimoigused` | Aine leht: tunnid → plokid → teemad, otsing aines, kiirotsing (kui `aine.kiirotsing`) | harva |
 | `seadused.html` | Seaduste register: akt → säte → teemad (ainefiltriga); arvutatakse brauseris teemafailidest | harva |
-| `teema.html?id=t01-08` | Teema: 5 osa + skeem + tunni küsimus + harjutused + allikamärkused + tagasiside | harva |
+| `teema.html?id=t01-08` | Teema: 5 osa + skeem + tunni küsimus + harjutused + allikamärkused + tagasiside. **Psühholoogia mall** (`"mall": "psuh"`): lühidalt → materjal tervikuna → skeem → inspektor-kontaktisiku töös → allikamärkused | harva |
+| `faktileht.html?tund=ps-t07` | **Tunni faktileht**: arvud, loetelud, mõisted, nimed ühel lehel (`data/tunnid.json` → tunni `faktid`), iga rida viitab teemale; otsing | harva |
 | `kordamine.html?aine=…&tund=…&teema=…` | Segatud harjutused (5/8/10) aine/tunni/teema kaupa ja tunni küsimused vastustega | harva |
 | `moistekaart.html?vaade=…&valitud=m:riive` | **Mõistekaart** kolmel tasandil: üks tund (`vaade=o-t11`), aine kõik tunnid (`vaade=aine:oigus`, kogumid = tunnid) ja tervikpilt (`vaade=koik`, kogumid = ained). Valikus on kõik aine tunnid numbritega; tulemas tunnid on punktiiriga. Sõlmed = teemad, mõisted, sätted; paneel, loendivaade | harva |
 | `assets/app.js` | Andmed, märgistus (`md`), **ühine päis + sisukorra sahtel** (`A.kaivita({leht, aine, tund, teema})`), hüpikaknad, näiteaken, harjutused, tagasiside | harva |
@@ -74,6 +75,8 @@ kontrollib sisu.
 | `data/kiirotsing.json` | Tabel „põhiõigus → vangla õigusakt” | vajadusel |
 | `data/moistekaart.json` | **Genereeritud** `tools/moistekaart.py`-st – mõisted, nende teemad/viited, sildistatud seosed | muuda skripti |
 | `tools/moistekaart.py` | Mõistekaardi sisu (mõisted ja seosed) | **iga uus tund** |
+| `sisu/psuhholoogia/T0N.md` | **Psühholoogia sisu allikas** (üks fail tunni kohta: plokid, faktileht, teemad = H5P peatükid) | **muuda siin, mitte teemafailis** |
+| `tools/ps_sisu.py` | Teisendab `sisu/psuhholoogia/T0N.md` → `teemad/ps-t0N-*.json` + `data/tunnid.json` (teemad, plokid, faktid); harjutused `sisu/psuhholoogia/harjutuste_kaart.json` järgi | käivita pärast muutmist |
 | `data/seadused.json` | **Genereeritud** – viidatud sätete tekstid + aktide metaandmed | **ei kunagi** |
 | `tools/seadused.py` | Aktide loetelu `ACTS` ja parser | uue akti korral |
 | `tools/ehita.py` | Ehitus ja kontroll | ei |
@@ -168,6 +171,12 @@ ja proportsionaalsus, 4) näide vanglast, 5) tüüpviga eksamil.
 | `maatriks` | **2 × 2 tabel** (nt operantne tingimine): veergude ja ridade pealkirjad, lahtrid; mobiilis kaardid sildiga | `veerud[]`, `read[]`, `lahtrid[[{pealkiri, tekst?, toon?}]]`, `nurk?` |
 | `trepp` | **astmed alt üles** (tarvitamise faasid, motivatsioon, teekonnad); mobiilis loend | `astmed[{silt?, pealkiri, tekst?, viide?, toon?}]`, `tipp?` |
 | `subsumeeri` | **subsumeerimise harjutus**: normi tunnus ↔ elus juhtunu ↔ tõend; kasutaja valib „täidetud / ei ole”, lõpus järeldus | `viide`, `kysimus`, `seos: ja/või`, `read[{tunnus, asjaolu, toend?, taidetud: true/false, selgitus?}]`, `tagajarg?`, `jareldus` |
+
+**Psühholoogia mall** (`ps-t01…08`, `"mall": "psuh"`): teemafailis on `materjal[{pealkiri, sisu[{tekst}|{punktid}|{loend}]}]` (materjali alapealkirjad,
+kogu peatüki sisu lihtsas keeles, arvud ja loetelud alles), `skeemid[]`, `inspektor{sisu[], naide{olukord, analyys}}`, `valjast`, `erinevused`
+(`silt2` muudab sildi „Ametlik tekst”). Teemafaile ei muudeta käsitsi: kirjuta `sisu/psuhholoogia/T0N.md` ja käivita
+`python3 tools/ps_sisu.py N` (vorming faili päises). Iga teema = üks H5P-raamatu peatükk. Slaidipildi sisu kirjutatakse **tekstina lahti** ja
+joonistatakse skeemiga. Otsing (`A.teemaTekst`) otsib kogu teksti seest ja näitab leitud lõiku.
 
 **Skeem osa sees:** igal osal (`pohimote`, `alus`, `piiramine`, `vangla`) võib olla oma `skeem` (üks või massiiv) –
 see kuvatakse otse selgituse juures. `jarel` = tekst pärast skeemi. Kõigil skeemidel võivad olla `sissejuhatus` ja `allkiri`.

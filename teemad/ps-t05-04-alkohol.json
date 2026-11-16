@@ -2,100 +2,132 @@
  "id": "ps-t05-04",
  "tund": "ps-t05",
  "jrk": 4,
- "pealkiri": "Alkohol ja kuritegevus",
+ "mall": "psuh",
+ "pealkiri": "Alkohol",
  "lyhend": "Alkohol",
  "ikoon": "pudel",
- "lyhidalt": "Alkohol on teistest ainetest rohkem seotud vägivallaga: impulsiivsed rünnakud, vara lõhkumine, vandalism, süütamine. Lähisuhtevägivald väheneb, kui tegeletakse mõlema partneri joomisega; joobes juhtimise puhul toimib karistus koos raviprogrammiga.",
- "osad": {
-  "pohimote": {
-   "pealkiri": "Miks alkohol on eriline",
-   "tekst": "Alkohol on väga suurel määral seotud kuritegevuse, õnnetuste ja surmadega. Kursuse järgi on alkohol **rohkem seotud vägivallaga kui muud ained**, seepärast tuleb seda käsitleda eraldi.\n\nProbleemid tekivad harjumusliku või pikaajalise raske joomise ja tsükli-joomise korral – eriti „sooja tegemisel” odavate jookidega enne väljaminekut.",
-   "skeem": [
+ "lyhidalt": "Alkohol on vägivallaga rohkem seotud kui muud ained, eriti impulsiivsete rünnakute, vandalismi ja süütamistega. Seost kuritegevusega selgitavad viis protsessi: impulsikontrolli vähenemine, ootused, alkoholimüoopia, anksiolüütiline efekt ja individuaalsed tegurid.",
+ "materjal": [
+  {
+   "pealkiri": "Alkohol ja kuritegevus",
+   "sisu": [
     {
-     "tyyp": "kaardid",
-     "pealkiri": "Kuidas alkohol on seotud kuritegevusega",
-     "kaardid": [
-      {
-       "pealkiri": "Impulsi kontroll väheneb",
-       "silt": "1",
-       "tekst": "ei suuda teha sihilikke, teadlikke otsuseid"
-      },
-      {
-       "pealkiri": "Ootused",
-       "silt": "2",
-       "tekst": "mida inimene alkoholist ootab, mõjutab tema joomist – ka agressiivsust",
-       "toon": "b"
-      },
-      {
-       "pealkiri": "Alkoholimüoopia",
-       "silt": "3",
-       "tekst": "tähelepanu kitseneb, nähakse vähem infot ja lühemas plaanis"
-      },
-      {
-       "pealkiri": "Anksiolüütiline efekt",
-       "silt": "4",
-       "tekst": "julgus ja enesehinnang tõusevad lühiajaliselt – haavatavus tõrjumisele ja agressioonile",
-       "toon": "b"
-      },
-      {
-       "pealkiri": "Individuaalsed tegurid",
-       "silt": "5",
-       "tekst": "isiksus, hoiakud, hüpermaskuliinsus"
-      }
-     ],
-     "kitsad": true
+     "tekst": "Alkohol on väga suurel määral seotud **kuritegevuse, õnnetuste ja surmadega**."
+    },
+    {
+     "tekst": "Alkoholi on kasutatud ilmselt juba **aastatuhandeid**. Tarvitamine algas üleminekul põllumajanduslikule elule – taimi kasvatati selleks, et saada **õlut, mitte leiba**, nagu vahel arvatakse. Alkoholi tarvitamine on **ainult inimeste tegevus** – pole leitud tõendeid, et teised loomad alkoholi sihilikult kasutaksid."
+    },
+    {
+     "tekst": "Arvatakse, et **alkohol on vägivallaga rohkem seotud kui muud ained**, seega tuleb seda käsitleda teistest uimastitest erinevalt. Kuritegudest on alkohol seotud **impulsiivsete vägivaldsete rünnakute, vara lõhkumise, vandalismi ja süütamistega**."
+    },
+    {
+     "tekst": "Kultuuriliselt on alkohol seotud pingete leevendamise, „vabaks laskmise”, sotsiaalse vabaduse, naudingu ja premeerimisega."
     }
    ]
   },
-  "alus": {
-   "pealkiri": "Mis toimib",
-   "tekst": "",
-   "skeem": {
-    "tyyp": "vordlus",
-    "pealkiri": "Kaks näidet kursusest",
-    "veerud": [
-     "Kuritegu",
-     "Mis aitab"
-    ],
-    "read": [
-     {
-      "silt": "Lähisuhtevägivald",
-      "lahtrid": [
-       "suur osa on seotud alkoholiga",
-       "vägivald väheneb, kui tegeletakse **mõlema partneri** joomise vähendamisega"
-      ]
-     },
-     {
-      "silt": "Joobes juhtimine",
-      "lahtrid": [
-       "korduv",
-       "ainus teaduslikult toimiv: **karistusele järgneb raviprogramm** (kognitiivsed oskused, haridus, sõltuvusravi, elektrooniline jälgimine)"
-      ]
-     }
-    ]
-   },
-   "read": []
-  },
-  "piiramine": {
-   "pealkiri": "Mida silmas pidada",
-   "tekst": "",
-   "punktid": [
-    "Alkohol on kultuuriliselt seotud pingelangetuse, vabaduse ja premeerimisega – see muudab loobumise raskeks.",
-    "Joobes juhtimise puhul karistus üksi ei toimi (vrd tund 1)."
+  {
+   "pealkiri": "Millal tekivad probleemid",
+   "sisu": [
+    {
+     "tekst": "Probleemid tekivad suure tõenäosusega **harjumusliku või pikaajalise raske joomise** või **tsüklijoomise** korral. Eriti on probleemid seotud **„sooja tegemisega”** – odavamate jookidega kodus enne ööklubidesse minekut."
+    }
    ]
   },
-  "vangla": {
-   "tekst": "Inspektor-kontaktisik saab aidata siduda vangistuse ja ravi: kinnipeetav, kes on vanglas joobes juhtimise eest, vajab ka programmi.",
-   "naide": {
-    "olukord": "Kinnipeetav kannab karistust kehavigastuse eest, mille ta tekitas baaris joobes. Ta ütleb: „Kaine peaga ma kunagi ei kakle, see oli ainult viin.”",
-    "analyys": "Tal on alkoholiga seotud ootused ja vähene impulsikontroll joobes. Ametnik saab arutada, mida ta alkoholilt ootab ja kuidas joomine mõjutab tema otsuseid, ning motiveerida osalema programmis – kursuse järgi on alkoholi tarvitamise vähendamine vägivalla ennetamisel oluline."
+  {
+   "pealkiri": "Kaks näidet kuriteoliikidest",
+   "sisu": [
+    {
+     "punktid": [
+      "**Lähisuhtevägivald:** suur osa sellest **väheneb**, kui tegeleda alkoholi tarvitamise vähendamisega **mõlema partneri** puhul.",
+      "**Joobes juhtimine:** ainus teaduslikult tõestatud toimiv sekkumine on see, kui **karistusele järgneb raviprogramm** – näiteks kognitiivsete oskuste programm ning programmid, mis sisaldavad haridust, ainete kuritarvitamise ravi ja elektroonilist jälgimist."
+     ]
+    }
+   ]
+  },
+  {
+   "pealkiri": "Viis protsessi, mis seovad alkoholi kuritegevusega",
+   "sisu": [
+    {
+     "loend": [
+      "**Impulsikontrolli vähenemine** – inimene ei suuda enam teha sihilikke, teadlikke otsuseid.",
+      "**Ootused** – see, mida inimene alkoholist usub ja millist mõju ootab, mõjutab tema joomise mustrit; ootused võivad juba eelnevalt olla agressiivsed.",
+      "**Alkoholimüoopia (lühinägelikkus)** – tähelepanu kitseneb: keskendutakse väiksemale osale infost ja lühemale ajale.",
+      "**Anksiolüütiline (ärevust vähendav) efekt** – alkoholi tarvitatakse sotsiaalse enesekindluse tõstmiseks ja saadakse lühiajaline enesehinnangu tõus. Siis võib inimene olla haavatav suhtlusriskidele (nt keegi tõrjub teda) ja ohtudele, mis võivad viia agressiivsuseni.",
+      "**Individuaalsed tegurid** – isiksuseomadused, hoiakud, **hüpermaskuliinsus** võivad viia suurema joomiseni."
+     ]
+    }
+   ]
+  }
+ ],
+ "skeemid": [
+  {
+   "tyyp": "kaardid",
+   "pealkiri": "Kuidas alkohol on seotud kuritegevusega",
+   "kaardid": [
+    {
+     "pealkiri": "Impulsi kontroll väheneb",
+     "silt": "1",
+     "tekst": "ei suuda teha sihilikke, teadlikke otsuseid"
+    },
+    {
+     "pealkiri": "Ootused",
+     "silt": "2",
+     "tekst": "mida inimene alkoholist ootab, mõjutab tema joomist – ka agressiivsust",
+     "toon": "b"
+    },
+    {
+     "pealkiri": "Alkoholimüoopia",
+     "silt": "3",
+     "tekst": "tähelepanu kitseneb, nähakse vähem infot ja lühemas plaanis"
+    },
+    {
+     "pealkiri": "Anksiolüütiline efekt",
+     "silt": "4",
+     "tekst": "julgus ja enesehinnang tõusevad lühiajaliselt – haavatavus tõrjumisele ja agressioonile",
+     "toon": "b"
+    },
+    {
+     "pealkiri": "Individuaalsed tegurid",
+     "silt": "5",
+     "tekst": "isiksus, hoiakud, hüpermaskuliinsus"
+    }
+   ],
+   "kitsad": true
+  },
+  {
+   "tyyp": "vordlus",
+   "pealkiri": "Kaks näidet kursusest",
+   "veerud": [
+    "Kuritegu",
+    "Mis aitab"
+   ],
+   "read": [
+    {
+     "silt": "Lähisuhtevägivald",
+     "lahtrid": [
+      "suur osa on seotud alkoholiga",
+      "vägivald väheneb, kui tegeletakse **mõlema partneri** joomise vähendamisega"
+     ]
+    },
+    {
+     "silt": "Joobes juhtimine",
+     "lahtrid": [
+      "korduv",
+      "ainus teaduslikult toimiv: **karistusele järgneb raviprogramm** (kognitiivsed oskused, haridus, sõltuvusravi, elektrooniline jälgimine)"
+     ]
+    }
+   ]
+  }
+ ],
+ "inspektor": {
+  "sisu": [
+   {
+    "tekst": "Inspektor-kontaktisik saab aidata siduda vangistuse ja ravi: kinnipeetav, kes on vanglas joobes juhtimise eest, vajab ka programmi – materjali järgi toimib just karistuse ja ravi kombinatsioon."
    }
-  },
-  "tyypviga": {
-   "punktid": [
-    "Kõiki aineid käsitletakse ühtemoodi. Alkohol on kursuse järgi rohkem seotud vägivallaga.",
-    "Arvatakse, et joobes juhtimise puhul piisab karmimast karistusest."
-   ]
+  ],
+  "naide": {
+   "olukord": "Kinnipeetav kannab karistust kehavigastuse eest, mille ta tekitas baaris joobes. Ta ütleb: „Kaine peaga ma kunagi ei kakle, see oli ainult viin.”",
+   "analyys": "Tal on alkoholiga seotud ootused ja vähene impulsikontroll joobes. Ametnik saab arutada, mida ta alkoholilt ootab ja kuidas joomine mõjutab tema otsuseid, ning motiveerida teda osalema programmis."
   }
  },
  "harjutused": [
@@ -126,7 +158,7 @@
  ],
  "valjast": [
   {
-   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "tekst": "„Inspektor-kontaktisiku töös” osa (näide ja soovitused) on koostatud selle lehe jaoks tunnimaterjali põhjal; see ei ole õppejõu materjal.",
    "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
   }
  ],

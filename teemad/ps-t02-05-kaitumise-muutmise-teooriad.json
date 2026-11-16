@@ -2,125 +2,199 @@
  "id": "ps-t02-05",
  "tund": "ps-t02",
  "jrk": 5,
- "pealkiri": "Käitumise muutmise teooriad: mudeldamine, motivatsioon, eneseregulatsioon",
- "lyhend": "Mudeldamine ja motivatsioon",
+ "mall": "psuh",
+ "pealkiri": "Käitumise muutmise teooriad",
+ "lyhend": "Käitumise muutmine",
  "ikoon": "silm",
- "lyhidalt": "Inimesed õpivad teisi jälgides – seepärast on ametniku enda käitumine oluline mudel. Enesemääratlemise teooria eristab sisemist ja välist motivatsiooni; väline motivatsioon võib järk-järgult muutuda omaks. Eneseregulatsiooni oskused on õpetatavad.",
- "osad": {
-  "pohimote": {
+ "lyhidalt": "Neli põhiteooriat: kognitiivne õppimine (õpitakse, mida mõistetakse), sotsiaal-kognitiivne õppimine (õpitakse mudelit jälgides), enesemääratlemise teooria (motivatsioon ja autonoomia) ning eneseregulatsiooniteooriad (planeerimine, enesejälgimine).",
+ "materjal": [
+  {
    "pealkiri": "Neli teooriat",
-   "tekst": "",
-   "skeem": [
+   "sisu": [
     {
-     "tyyp": "puu",
-     "pealkiri": "Käitumise muutmise teooriad",
-     "juur": {
-      "pealkiri": "Kuidas käitumine muutub?"
-     },
-     "harud": [
+     "tekst": "Käitumise muutmist seletavad paljud teooriad. Siin on välja toodud **4 põhilisemat**. Ka eelmistes teemades nimetatud teooriad on käitumise muutmisel ja seoste õppimisel olulised."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Kognitiivne õppimine",
+   "sisu": [
+    {
+     "tekst": "**Kognitiivne õppimine** tähendab, et **õpitakse seda, mida suudetakse mõista**. Oluline on ka **mälu** – kui hästi inimene õpitut meeles hoiab. Huvi õppimise vastu tekib inimeses endas, sest tal on **loomulik uudishimu** maailma vastu."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Sotsiaal-kognitiivne õppimine",
+   "sisu": [
+    {
+     "tekst": "**Sotsiaal-kognitiivse õppimise** puhul **õpitakse teisi inimesi jälgides** – see on **vaatluslik õppimine**. Selle oluline osa on **keegi, kes käitumist mudeldab** (näitab eeskuju)."
+    },
+    {
+     "tekst": "Mudeldamise viisid:"
+    },
+    {
+     "punktid": [
+      "**Otsene mudeldamine** – tunnetuslike ja kehaliste oskuste näitamine ja jäljendamine.",
+      "**Sümboolne mudeldamine** – filmitud, kirjutatud või näideldud näited (TV, raamatud, meedia).",
+      "**Sünteesitud mudeldamine** – eri mudelite käitumise osade kombineerimine; näiteks jälgitakse eri inimesi ja pannakse nende käitumisest kokku endale sobiv viis.",
+      "**Mõtteprotsessi mudeldamine** – näitamine koos oma mõtteprotsessi kirjeldamisega (nt rollimängud grupiprogrammides).",
+      "**Asendav õppimine** – jälgitakse, millised tagajärjed teise inimese teol olid (karistus või preemia), ja kohandatakse selle järgi oma käitumist."
+     ]
+    },
+    {
+     "tekst": "Mudeldamise võimalikud mõjud:"
+    },
+    {
+     "punktid": [
+      "**Mudeldav mõju** – mudelit vaadeldes omandatakse uus käitumine.",
+      "**Pidurdav mõju** – sobimatu käitumine surutakse alla, sest nähti, et mudelit karistati.",
+      "**Pidurdust eemaldav mõju** – varem õpitud sobimatu käitumine tuleb esile, sest nähti, et mudeli käitumist kinnitati.",
+      "**Esilekutsuv mõju** – jäljendatakse sarnast, kuid mitte täpselt samasugust käitumist."
+     ]
+    }
+   ]
+  },
+  {
+   "pealkiri": "Enesemääratlemise teooria",
+   "sisu": [
+    {
+     "tekst": "**Enesemääratlemise teooria** on **motivatsiooniteooria** – see püüab mõista, miks inimesed käituvad nii, nagu käituvad. Väga oluliseks peetakse **autonoomiat**, ehk oma käitumise tahtlikku juhtimist."
+    },
+    {
+     "tekst": "Motivatsiooni liigid:"
+    },
+    {
+     "punktid": [
+      "**Sisemine motivatsioon** – tegevus on inimese jaoks nauditav või huvitav (ta tunneb end selle tõttu hästi).",
+      "**Väline motivatsioon** – hüved, mida maailm pärast käitumist pakub (nt raha, avavanglasse pääsemine)."
+     ]
+    },
+    {
+     "tekst": "Välisel motivatsioonil on **4 liiki**:"
+    },
+    {
+     "loend": [
+      "**Väline regulatsioon** – käitumise algatab keegi teine karistuse või tasu abil.",
+      "**Pealesurutud regulatsioon** – välised nõudmised võetakse omaks, kuid neid ei aktsepteerita enda omana.",
+      "**Omaksvõetud regulatsioon** – inimene hakkab käitumist omaks võtma ja seda ise hindama.",
+      "**Integreeritud regulatsioon** – inimese väärtused, vajadused ja identiteet sobivad omavahel kokku. Oluline on saavutatud lõpptulemus, mitte isiklik huvi (nagu sisemise motivatsiooni puhul)."
+     ]
+    }
+   ]
+  },
+  {
+   "pealkiri": "Eneseregulatsiooniteooriad",
+   "sisu": [
+    {
+     "tekst": "**Eneseregulatsiooniteooriad** rõhutavad, et käitumise muutmisel on olulised **eneseregulatsiooni oskused**: tegevuste planeerimine, tagajärgede hindamine ja enesejälgimine. Neid oskusi **saab õpetada**."
+    },
+    {
+     "tekst": "Eneseregulatsioonil on **3 komponenti**:"
+    },
+    {
+     "loend": [
+      "**Kognitsioon** (mõtlemisprotsessid) – õpistrateegiad, nagu tähelepanu- ja mälutehnikad, või konkreetsed oskused (nt võtted võrrandite lahendamisel).",
+      "**Metakognitsioon** – mõtlemine oma mõtlemise üle.",
+      "**Motivatsioon** (eesmärkide sõnastamine) – valmisolek kasutada oma kognitiivseid ja metakognitiivseid oskusi muutumise protsessis."
+     ]
+    }
+   ]
+  }
+ ],
+ "skeemid": [
+  {
+   "tyyp": "puu",
+   "pealkiri": "Käitumise muutmise teooriad",
+   "juur": {
+    "pealkiri": "Kuidas käitumine muutub?"
+   },
+   "harud": [
+    {
+     "pealkiri": "Kognitiivne õppimine",
+     "lapsed": [
       {
-       "pealkiri": "Kognitiivne õppimine",
-       "lapsed": [
-        {
-         "pealkiri": "Õpitakse seda, mida mõistetakse",
-         "tekst": "Oluline on mälu; huvi tuleb loomulikust uudishimust."
-        }
-       ]
-      },
+       "pealkiri": "Õpitakse seda, mida mõistetakse",
+       "tekst": "Oluline on mälu; huvi tuleb loomulikust uudishimust."
+      }
+     ]
+    },
+    {
+     "pealkiri": "Sotsiaal-kognitiivne õppimine",
+     "toon": "b",
+     "lapsed": [
       {
-       "pealkiri": "Sotsiaal-kognitiivne õppimine",
-       "toon": "b",
-       "lapsed": [
-        {
-         "pealkiri": "Õpitakse teisi jälgides",
-         "tekst": "Keskne on keegi, kes käitumist **mudeldab**."
-        }
-       ]
-      },
+       "pealkiri": "Õpitakse teisi jälgides",
+       "tekst": "Keskne on keegi, kes käitumist **mudeldab**."
+      }
+     ]
+    },
+    {
+     "pealkiri": "Enesemääratlemise teooria",
+     "lapsed": [
       {
-       "pealkiri": "Enesemääratlemise teooria",
-       "lapsed": [
-        {
-         "pealkiri": "Motivatsioon ja autonoomia",
-         "tekst": "Miks inimene käitub nii, nagu käitub."
-        }
-       ]
-      },
+       "pealkiri": "Motivatsioon ja autonoomia",
+       "tekst": "Miks inimene käitub nii, nagu käitub."
+      }
+     ]
+    },
+    {
+     "pealkiri": "Eneseregulatsioon",
+     "toon": "b",
+     "lapsed": [
       {
-       "pealkiri": "Eneseregulatsioon",
-       "toon": "b",
-       "lapsed": [
-        {
-         "pealkiri": "Planeerimine, tagajärgede hindamine, enesejälgimine",
-         "tekst": "Kognitsioon + metakognitsioon + motivatsioon."
-        }
-       ]
+       "pealkiri": "Planeerimine, tagajärgede hindamine, enesejälgimine",
+       "tekst": "Kognitsioon + metakognitsioon + motivatsioon."
       }
      ]
     }
    ]
   },
-  "alus": {
-   "pealkiri": "Mudeldamine ja motivatsioon",
-   "tekst": "**Mudeldamise viisid:** otsene (demonstreerimine ja jäljendamine), sümboolne (filmid, raamatud, meedia), sünteesitud (eri mudelite osade kombineerimine), mõtteprotsessi mudeldamine (näitamine koos mõttekäigu kirjeldamisega, nt rollimäng) ja **asendav õppimine** (teise tagajärgede nägemine).\n\n**Mudeldamise mõjud:** uue käitumise omandamine; pidurdav mõju (teist karistati → ei tee); pidurdust eemaldav mõju (teist kiideti ebasobiva eest → teeb); esilekutsuv mõju (sarnane, mitte identne käitumine).",
-   "skeem": {
-    "tyyp": "trepp",
-    "pealkiri": "Motivatsioon enesemääratlemise teoorias: välisest sisemiseni",
-    "astmed": [
-     {
-      "silt": "1",
-      "pealkiri": "Väline regulatsioon",
-      "tekst": "keegi teine käivitab käitumise tasu või karistusega"
-     },
-     {
-      "silt": "2",
-      "pealkiri": "Pealesurutud",
-      "tekst": "nõudmine on omaks võetud, aga mitte enda oma"
-     },
-     {
-      "silt": "3",
-      "pealkiri": "Omaksvõetud",
-      "tekst": "inimene hakkab käitumist ise hindama",
-      "toon": "b"
-     },
-     {
-      "silt": "4",
-      "pealkiri": "Integreeritud",
-      "tekst": "väärtused, vajadused ja identiteet sobivad kokku",
-      "toon": "b"
-     },
-     {
-      "silt": "★",
-      "pealkiri": "Sisemine motivatsioon",
-      "tekst": "tegevus on iseenesest nauditav või huvitav",
-      "toon": "b"
-     }
-    ],
-    "tipp": "autonoomia kasvab"
-   },
-   "read": []
-  },
-  "piiramine": {
-   "pealkiri": "Eneseregulatsiooni kolm komponenti",
-   "tekst": "Eneseregulatsiooni oskused (planeerimine, tagajärgede hindamine, enesejälgimine) on **õpetatavad**.",
-   "punktid": [
-    "**Kognitsioon** – mõtlemisprotsessid ja õpistrateegiad (tähelepanu, mälu).",
-    "**Metakognitsioon** – mõtlemine oma mõtlemise üle.",
-    "**Motivatsioon** – eesmärkide sõnastamine ja valmisolek oskusi muutumiseks kasutada."
-   ]
-  },
-  "vangla": {
-   "tekst": "Ametnik on mudel, tahab ta seda või mitte. Kinnipeetavad jälgivad, kuidas ametnik reegleid järgib, vigu tunnistab ja konflikte lahendab (vt tund 8). Motivatsiooni puhul on oluline märgata, kui väline motiiv hakkab muutuma omaks.",
-   "naide": {
-    "olukord": "Kinnipeetav hakkas vanglas käima kokakursusel, sest „siis saab kambrist välja”. Pool aastat hiljem räägib ta, et tahaks pärast vabanemist köögis töötada.",
-    "analyys": "Motivatsioon on liikunud **välisest** (kambrist välja) **omaksvõetud** suunas – ta hindab oskust ise. Ametnik saab seda tugevdada: tunnustada ja siduda kursus tema tööplaaniga."
+  {
+   "tyyp": "trepp",
+   "pealkiri": "Motivatsioon enesemääratlemise teoorias: välisest sisemiseni",
+   "astmed": [
+    {
+     "silt": "1",
+     "pealkiri": "Väline regulatsioon",
+     "tekst": "keegi teine käivitab käitumise tasu või karistusega"
+    },
+    {
+     "silt": "2",
+     "pealkiri": "Pealesurutud",
+     "tekst": "nõudmine on omaks võetud, aga mitte enda oma"
+    },
+    {
+     "silt": "3",
+     "pealkiri": "Omaksvõetud",
+     "tekst": "inimene hakkab käitumist ise hindama",
+     "toon": "b"
+    },
+    {
+     "silt": "4",
+     "pealkiri": "Integreeritud",
+     "tekst": "väärtused, vajadused ja identiteet sobivad kokku",
+     "toon": "b"
+    },
+    {
+     "silt": "★",
+     "pealkiri": "Sisemine motivatsioon",
+     "tekst": "tegevus on iseenesest nauditav või huvitav",
+     "toon": "b"
+    }
+   ],
+   "tipp": "autonoomia kasvab"
+  }
+ ],
+ "inspektor": {
+  "sisu": [
+   {
+    "tekst": "Ametnik on mudel, tahab ta seda või mitte: kinnipeetavad jälgivad, kuidas ametnik reegleid järgib, vigu tunnistab ja konflikte lahendab (vt tund 8). Motivatsiooni puhul tasub märgata, millal väline motiiv hakkab muutuma omaks."
    }
-  },
-  "tyypviga": {
-   "punktid": [
-    "Arvatakse, et väline motivatsioon on alati halb. Enesemääratlemise teooria järgi on sellel neli liiki ja see võib muutuda omaks.",
-    "Integreeritud regulatsioon aetakse segi sisemise motivatsiooniga: integreeritud puhul on oluline **tulemus**, sisemise puhul tegevus ise."
-   ]
+  ],
+  "naide": {
+   "olukord": "Kinnipeetav hakkas vanglas käima kokakursusel, sest „siis saab kambrist välja”. Pool aastat hiljem räägib ta, et tahaks pärast vabanemist köögis töötada.",
+   "analyys": "Motivatsioon on liikunud välisest (kambrist välja) omaksvõetud suunas – ta hindab oskust ise. Ametnik saab seda tugevdada: tunnustada ja siduda kursus tema vabanemisjärgse tööplaaniga."
   }
  },
  "harjutused": [
@@ -167,7 +241,7 @@
  ],
  "valjast": [
   {
-   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "tekst": "„Inspektor-kontaktisiku töös” osa (näide ja soovitused) on koostatud selle lehe jaoks tunnimaterjali põhjal; see ei ole õppejõu materjal.",
    "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
   }
  ],

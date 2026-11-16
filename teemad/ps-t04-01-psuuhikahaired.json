@@ -1,0 +1,228 @@
+{
+ "id": "ps-t04-01",
+ "tund": "ps-t04",
+ "jrk": 1,
+ "mall": "psuh",
+ "pealkiri": "Psüühikahäired",
+ "lyhend": "Psüühikahäired",
+ "ikoon": "pulss",
+ "lyhidalt": "Psüühikahäire on märgatav nihe psüühilises tegevuses. 1/5 kinnipeetavatest on psüühikahäire diagnoosiga; neil on suurem enesevigastamise, uue kuriteo ja süsteemi jäämise risk. RHK-10 jagab häired kümnesse põhigruppi F0–F9.",
+ "materjal": [
+  {
+   "pealkiri": "Mis on psüühikahäire",
+   "sisu": [
+    {
+     "tekst": "Psüühikahäirest räägitakse siis, kui inimese psüühilises tegevuses või struktuuris on **märgatavad nihked**, mis erinevad oluliselt tavapärasest. **Abi on vaja** eelkõige siis, kui inimene **ei suuda kohaneda ega tulla toime oma sotsiaalse rolliga**."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Miks see on korrektsioonis oluline",
+   "sisu": [
+    {
+     "tekst": "Tõsise vaimse häire diagnoosiga inimesi mõistetakse suurema tõenäosusega kuritegudes süüdi ja nad panevad toime rohkem **vägivaldseid kuritegusid**."
+    },
+    {
+     "tekst": "**1/5 kinnipeetavatest on psüühikahäire diagnoosiga** – näiteks skisofreenia spektri häire, bipolaarne häire või raske depressiivne häire."
+    },
+    {
+     "tekst": "Seos vägivaldsete kuritegude ja psüühikahäirete vahel on **eriti tugev naistel**."
+    },
+    {
+     "tekst": "Psüühikahäirega inimestel on sageli **kognitiivsed, emotsionaalsed ja sotsiaalsed raskused** ning kaasuvad probleemid, näiteks sõltuvus või kroonilised haigused (nt diabeet). Neil on ka rohkem **töötust ja kodutust**."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Mis vanglas juhtub",
+   "sisu": [
+    {
+     "tekst": "Psüühikahäire tähendab kinnipidamisel **kõrgemat enesevigastamise riski** võrreldes häireta kinnipeetavaga. Sümptomid võivad segada vangla päevakava, mis pahandab nii ametnikke kui ka teisi kinnipeetavaid."
+    },
+    {
+     "tekst": "Lisaks on psüühikahäirega inimestel suurem risk:"
+    },
+    {
+     "punktid": [
+      "panna **vanglas toime uus kuritegu**;",
+      "**rikkuda kriminaalhoolduse nõudeid** või panna toime uus kuritegu;",
+      "**püsida kauem süsteemi hammasrataste vahel**."
+     ]
+    },
+    {
+     "tekst": "**Vägivaldsete kuritegude ja skisofreenia spektri häirete** vahel on oluline seos – seepärast käsitletakse järgmises teemas skisofreeniat pikemalt."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Psüühikahäirete põhigrupid (RHK-10)",
+   "sisu": [
+    {
+     "punktid": [
+      "**F0** – orgaanilised psüühikahäired (nt dementsus)",
+      "**F1** – psühhoaktiivsetest ainetest tingitud häired (nt sõltuvus, kuritarvitamine)",
+      "**F2** – psühhootilised häired (nt skisofreenia)",
+      "**F3** – meeleoluhäired (nt depressioon)",
+      "**F4** – ärevushäired, dissotsiatiivsed ja somatoformsed häired (nt foobiad, äge stressreaktsioon)",
+      "**F5** – söömishäired, unehäired, seksuaalfunktsiooni häired",
+      "**F6** – isiksushäired, muud käitumishäired",
+      "**F7** – vaimne alaareng",
+      "**F8** – psüühilise arengu spetsiifilised häired (nt lugemishäire, autism)",
+      "**F9** – lapse- ja noorukieas algavad häired (nt käitumishäire, lahutamiskartus, suhtlemishäired)"
+     ]
+    }
+   ]
+  }
+ ],
+ "skeemid": [
+  {
+   "tyyp": "kaardid",
+   "pealkiri": "Psüühikahäirega kinnipeetaval on suurem risk",
+   "kaardid": [
+    {
+     "pealkiri": "Enesevigastamine",
+     "silt": "1",
+     "tekst": "kõrgem risk kui häireta kinnipeetaval"
+    },
+    {
+     "pealkiri": "Uus kuritegu vanglas",
+     "silt": "2",
+     "toon": "b"
+    },
+    {
+     "pealkiri": "Kriminaalhoolduse nõuete rikkumine",
+     "silt": "3",
+     "tekst": "või uus kuritegu pärast vabanemist"
+    },
+    {
+     "pealkiri": "Jääb süsteemi",
+     "silt": "4",
+     "tekst": "püsib kauem süsteemi hammasrataste vahel",
+     "toon": "b"
+    }
+   ],
+   "kitsad": true
+  },
+  {
+   "tyyp": "tasandid",
+   "pealkiri": "RHK-10 psüühikahäirete põhigrupid",
+   "tasandid": [
+    {
+     "pealkiri": "F0–F2",
+     "kastid": [
+      {
+       "pealkiri": "F0 Orgaanilised",
+       "tekst": "nt dementsus"
+      },
+      {
+       "pealkiri": "F1 Psühhoaktiivsetest ainetest",
+       "tekst": "nt sõltuvus, kuritarvitamine"
+      },
+      {
+       "pealkiri": "F2 Psühhootilised",
+       "tekst": "nt skisofreenia"
+      }
+     ]
+    },
+    {
+     "pealkiri": "F3–F5",
+     "toon": "b",
+     "kastid": [
+      {
+       "pealkiri": "F3 Meeleoluhäired",
+       "tekst": "nt depressioon"
+      },
+      {
+       "pealkiri": "F4 Ärevus-, dissotsiatiivsed, somatoformsed",
+       "tekst": "nt foobiad, äge stressreaktsioon"
+      },
+      {
+       "pealkiri": "F5 Söömis-, une-, seksuaalfunktsiooni häired"
+      }
+     ]
+    },
+    {
+     "pealkiri": "F6–F9",
+     "kastid": [
+      {
+       "pealkiri": "F6 Isiksus- ja muud käitumishäired"
+      },
+      {
+       "pealkiri": "F7 Vaimne alaareng"
+      },
+      {
+       "pealkiri": "F8 Psüühilise arengu spetsiifilised",
+       "tekst": "nt lugemishäire, autism"
+      },
+      {
+       "pealkiri": "F9 Lapse- ja noorukiea häired",
+       "tekst": "nt käitumishäire"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "inspektor": {
+  "sisu": [
+   {
+    "tekst": "Inspektor-kontaktisik näeb kinnipeetavat sageli rohkem kui arst. Tema tähelepanekud (uni, söömine, suhtlemine, hügieen) on tervishoiutöötajale väärtuslik info."
+   }
+  ],
+  "naide": {
+   "olukord": "Kinnipeetav, kes varem käis tööl, ei tõuse enam voodist, ei pese ennast ja vastab ühesilbiliselt.",
+   "analyys": "See võib viidata meeleoluhäirele (F3). Ametnik ei diagnoosi, vaid räägib kinnipeetavaga, paneb muutused kirja ja teavitab tervishoiutöötajat, kes on kohustatud kinnipeetavate terviseseisundit jälgima ([[VangS § 52 lg 2]])."
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline RHK-10 grupp?",
+   "ryhmad": [
+    "F1",
+    "F2",
+    "F3",
+    "F7"
+   ],
+   "read": [
+    {
+     "tekst": "Sõltuvus alkoholist",
+     "oige": 0
+    },
+    {
+     "tekst": "Skisofreenia",
+     "oige": 1
+    },
+    {
+     "tekst": "Depressioon",
+     "oige": 2
+    },
+    {
+     "tekst": "Vaimne alaareng",
+     "oige": 3
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Millal tekib kursuse järgi abivajadus psüühikahäire korral?",
+   "valikud": [
+    "Kui inimene on vanglas",
+    "Kui inimene ei suuda kohaneda ega tulla toime oma sotsiaalse rolliga",
+    "Kui inimene on kurb",
+    "Alati, kui on diagnoos"
+   ],
+   "oige": 1,
+   "selgitus": "Psüühikahäire on märgatav nihe; abi on vaja, kui toimetulek on häiritud."
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "„Inspektor-kontaktisiku töös” osa (näide ja soovitused) on koostatud selle lehe jaoks tunnimaterjali põhjal; see ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

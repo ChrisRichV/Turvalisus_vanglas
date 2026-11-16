@@ -2,148 +2,187 @@
  "id": "ps-t02-04",
  "tund": "ps-t02",
  "jrk": 4,
- "pealkiri": "Kriminaalse käitumise teooriad: enesekontroll ja moraalne tagasitõmbumine",
- "lyhend": "Enesekontroll ja õigustused",
+ "mall": "psuh",
+ "pealkiri": "Kriminaalse käitumise teooriad",
+ "lyhend": "Kriminaalse käitumise teooriad",
  "ikoon": "mask",
- "lyhidalt": "Üldise kuriteoteooria järgi teevad madala enesekontrolliga inimesed sagedamini kuritegusid – ja enesekontrolli saab arendada. Bandura moraalse tagasitõmbumise teooria näitab, kuidas inimene õigustab tegu, et oma moraalist lahti öelda.",
- "osad": {
-  "pohimote": {
+ "lyhidalt": "Üldise kuriteoteooria (Gottfredson ja Hirschi, 1990) järgi teevad kuritegusid tõenäolisemalt madala enesekontrolliga inimesed; enesekontrolli saab arendada. Bandura moraalse tagasitõmbumise teooria kirjeldab kaheksat viisi, kuidas inimene oma moraalist lahti ütleb, et kuritegu toime panna.",
+ "materjal": [
+  {
    "pealkiri": "Üldine kuriteoteooria",
-   "tekst": "**Üldine kuriteoteooria** (Gottfredson ja Hirschi, 1990): madala enesekontrolliga inimesed teevad suurema tõenäosusega kuritegusid. Käitumist juhivad **lühiajalised positiivsed tagajärjed**, pikaajalistele negatiivsetele ei mõelda.",
-   "skeem": [
+   "sisu": [
     {
-     "tyyp": "kaardid",
-     "pealkiri": "Madal enesekontroll",
-     "kaardid": [
-      {
-       "pealkiri": "Impulsiivsus",
-       "silt": "⚡",
-       "tekst": "ei suuda naudingut edasi lükata"
-      },
-      {
-       "pealkiri": "Püsivuse puudumine",
-       "silt": "↯",
-       "tekst": "sihikindlust ei ole"
-      },
-      {
-       "pealkiri": "Riskialdis",
-       "silt": "!",
-       "tekst": "otsib põnevust",
-       "toon": "b"
-      },
-      {
-       "pealkiri": "Füüsiline eelistus",
-       "silt": "▲",
-       "tekst": "eelistab füüsilist tegevust vaimsele"
-      },
-      {
-       "pealkiri": "Enesekesksus",
-       "silt": "◎",
-       "tekst": "ükskõiksus teiste suhtes",
-       "toon": "b"
-      },
-      {
-       "pealkiri": "Kõikuv tuju",
-       "silt": "~",
-       "tekst": "iseloom ja meeleolu muutlik"
-      }
-     ],
-     "kitsad": true
+     "tekst": "**Üldine kuriteoteooria** (*General Theory of Crime*; **Gottfredson ja Hirschi, 1990**) on üks olulisemaid ja tsiteeritumaid teooriaid. Selle järgi teevad **madala enesekontrolliga inimesed** suurema tõenäosusega kuritegusid. Nende käitumist juhivad **lühiajalised positiivsed tagajärjed** ja nad ei mõtle **pikaajalistele negatiivsetele tagajärgedele**."
+    },
+    {
+     "tekst": "Madal enesekontroll tähendab:"
+    },
+    {
+     "punktid": [
+      "**impulsiivsust** ja suutmatust naudingut edasi lükata;",
+      "**püsivuse ja sihikindluse** puudumist;",
+      "**riskialdisust**;",
+      "**füüsilise tegevuse eelistamist** vaimsele, sõnalisele või teadmistepõhisele tegevusele;",
+      "**enesekesksust** ja ükskõiksust teiste suhtes;",
+      "**kõikuvat iseloomu ja tuju**."
+     ]
+    },
+    {
+     "tekst": "Teooria järgi on kurjategijatel ka **raskusi tavapäraste sotsiaalsete institutsioonidega** (töökohad, haridusasutused, kohalik omavalitsus jne), sest need nõuavad planeerimist, pühendumist ja suutlikkust mõnutunnet edasi lükata."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Enesekontrolli saab arendada",
+   "sisu": [
+    {
+     "tekst": "Hea uudis: **enesekontrolli saab arendada** ja nii ka kuritegevuse riski vähendada."
+    },
+    {
+     "tekst": "Oluline osa enesekontrollist on **enesetõhusus** – kuidas inimene ise hindab oma oskust ennast kontrollida ja keerulistes olukordades hakkama saada. Enesetõhusust juhivad inimese baasuskumused enda kohta ja usk, et ta saab oma käitumist mõjutada. **Enesetõhususe arendamisega kasvab ka enesekontroll.**"
+    },
+    {
+     "tekst": "Ka oskus mõelda praeguste otsuste **tulevastele tagajärgedele** arendab eneseregulatsiooni, enesekontrolli ja eneseanalüüsi oskust."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Bandura moraalse tagasitõmbumise teooria",
+   "sisu": [
+    {
+     "tekst": "Bandura teooria järgi on kriminaalse mõtlemise eesmärk **lahti öelda oma moraalsetest väärtustest**, et kuritegu toime panna. Selleks kasutatakse kaheksat viisi:"
+    },
+    {
+     "loend": [
+      "**Moraalne õigustamine** – halb tegu esitatakse hea eesmärgi nimel vajalikuna. Näide: „Ma tegin seda oma pere kaitsmiseks.”",
+      "**Eufemistlikud sildid** – tegu kirjeldatakse pehmendatud või neutraalses keeles. Näide: „kahjude minimeerimine” kõlab paremini kui „tsiviilide tapmine”.",
+      "**Võrdlev õigustus** – oma halba tegu võrreldakse millegi veel hullemaga, et see tunduks väiksem. Näide: „Vähemalt ma ei tee nii halbu asju nagu teised.”",
+      "**Vastutuse hajutamine** – süü nihutatakse autoriteedile või käsuandjale. Näide: „Ma lihtsalt täitsin käsku.”",
+      "**Vastutuse jagamine** – vastutus „lahustatakse” grupi peale. Näide: „Kõik tegid seda, mina olin vaid üks osa.”",
+      "**Tagajärgede eiramine või vähendamine** – oma teo kahju vähendatakse või eiratakse. Näide: „See ei tee tegelikult kellelegi haiget.”",
+      "**Dehumaniseerimine** – ohvreid käsitletakse vähem väärtuslike või „mitte-inimestena”. Näide: „Nad polegi päris inimesed, vaid loomad.”",
+      "**Süü nihutamine** – süü pannakse ohvrile. Näide: „Nad ise provotseerisid seda.”"
+     ]
+    }
+   ]
+  }
+ ],
+ "skeemid": [
+  {
+   "tyyp": "kaardid",
+   "pealkiri": "Madal enesekontroll",
+   "kaardid": [
+    {
+     "pealkiri": "Impulsiivsus",
+     "silt": "⚡",
+     "tekst": "ei suuda naudingut edasi lükata"
+    },
+    {
+     "pealkiri": "Püsivuse puudumine",
+     "silt": "↯",
+     "tekst": "sihikindlust ei ole"
+    },
+    {
+     "pealkiri": "Riskialdis",
+     "silt": "!",
+     "tekst": "otsib põnevust",
+     "toon": "b"
+    },
+    {
+     "pealkiri": "Füüsiline eelistus",
+     "silt": "▲",
+     "tekst": "eelistab füüsilist tegevust vaimsele"
+    },
+    {
+     "pealkiri": "Enesekesksus",
+     "silt": "◎",
+     "tekst": "ükskõiksus teiste suhtes",
+     "toon": "b"
+    },
+    {
+     "pealkiri": "Kõikuv tuju",
+     "silt": "~",
+     "tekst": "iseloom ja meeleolu muutlik"
     }
    ],
-   "jarel": "Madala enesekontrolliga inimesel on raske suhelda ka tavaliste institutsioonidega (töökoht, kool, KOV), sest see nõuab planeerimist ja pühendumist.\n\n**Hea uudis: enesekontrolli saab arendada.** Selle tuum on **enesetõhusus** – inimese usk, et ta suudab ennast kontrollida ja keerulistes olukordades hakkama saada. Abiks on ka oskus mõelda otsuste tulevikutagajärgedele."
+   "kitsad": true
   },
-  "alus": {
-   "pealkiri": "Bandura: moraalne tagasitõmbumine",
-   "tekst": "Kriminaalse mõtlemise eesmärk on **lahti öelda oma moraalsetest väärtustest**, et kuritegu toime panna. Bandura toob välja kaheksa viisi:",
-   "skeem": {
-    "tyyp": "vordlus",
-    "pealkiri": "Moraalse tagasitõmbumise viisid",
-    "veerud": [
-     "Mis see on",
-     "Näide"
-    ],
-    "read": [
-     {
-      "silt": "Moraalne õigustamine",
-      "lahtrid": [
-       "halb tegu esitatakse hea eesmärgi nimel vajalikuna",
-       "„Tegin seda oma pere kaitsmiseks.”"
-      ]
-     },
-     {
-      "silt": "Eufemistlikud sildid",
-      "lahtrid": [
-       "pehmendatud keel",
-       "„Kahjude minimeerimine” vs „tsiviilide tapmine”"
-      ]
-     },
-     {
-      "silt": "Võrdlev õigustus",
-      "lahtrid": [
-       "võrdlemine millegi hullemaga",
-       "„Vähemalt ma ei tee nii halbu asju nagu teised.”"
-      ]
-     },
-     {
-      "silt": "Vastutuse hajutamine",
-      "lahtrid": [
-       "süü autoriteedile või käsuandjale",
-       "„Ma lihtsalt täitsin käsku.”"
-      ]
-     },
-     {
-      "silt": "Vastutuse jagamine",
-      "lahtrid": [
-       "vastutus lahustub grupis",
-       "„Kõik tegid seda.”"
-      ]
-     },
-     {
-      "silt": "Tagajärgede eiramine",
-      "lahtrid": [
-       "kahju vähendamine",
-       "„See ei tee kellelegi haiget.”"
-      ]
-     },
-     {
-      "silt": "Dehumaniseerimine",
-      "lahtrid": [
-       "ohver pole „päris inimene”",
-       "„Nad on loomad.”"
-      ]
-     },
-     {
-      "silt": "Süü nihutamine",
-      "lahtrid": [
-       "süü ohvrile",
-       "„Ta ise provotseeris.”"
-      ]
-     }
-    ]
-   },
-   "read": []
-  },
-  "piiramine": {
-   "pealkiri": "Mida silmas pidada",
-   "tekst": "",
-   "punktid": [
-    "Õigustused ei ole alati valetamine – inimene võib neisse ise uskuda. Vaidlemine tugevdab neid sageli.",
-    "Enesekontrolli ei arendata karistusega, vaid harjutamisega: planeerimine, tagajärgedele mõtlemine, eduelamused (enesetõhusus)."
+  {
+   "tyyp": "vordlus",
+   "pealkiri": "Moraalse tagasitõmbumise viisid",
+   "veerud": [
+    "Mis see on",
+    "Näide"
+   ],
+   "read": [
+    {
+     "silt": "Moraalne õigustamine",
+     "lahtrid": [
+      "halb tegu esitatakse hea eesmärgi nimel vajalikuna",
+      "„Tegin seda oma pere kaitsmiseks.”"
+     ]
+    },
+    {
+     "silt": "Eufemistlikud sildid",
+     "lahtrid": [
+      "pehmendatud keel",
+      "„Kahjude minimeerimine” vs „tsiviilide tapmine”"
+     ]
+    },
+    {
+     "silt": "Võrdlev õigustus",
+     "lahtrid": [
+      "võrdlemine millegi hullemaga",
+      "„Vähemalt ma ei tee nii halbu asju nagu teised.”"
+     ]
+    },
+    {
+     "silt": "Vastutuse hajutamine",
+     "lahtrid": [
+      "süü autoriteedile või käsuandjale",
+      "„Ma lihtsalt täitsin käsku.”"
+     ]
+    },
+    {
+     "silt": "Vastutuse jagamine",
+     "lahtrid": [
+      "vastutus lahustub grupis",
+      "„Kõik tegid seda.”"
+     ]
+    },
+    {
+     "silt": "Tagajärgede eiramine",
+     "lahtrid": [
+      "kahju vähendamine",
+      "„See ei tee kellelegi haiget.”"
+     ]
+    },
+    {
+     "silt": "Dehumaniseerimine",
+     "lahtrid": [
+      "ohver pole „päris inimene”",
+      "„Nad on loomad.”"
+     ]
+    },
+    {
+     "silt": "Süü nihutamine",
+     "lahtrid": [
+      "süü ohvrile",
+      "„Ta ise provotseeris.”"
+     ]
+    }
    ]
-  },
-  "vangla": {
-   "tekst": "Õigustusi kuuleb vanglas iga päev. Inspektor-kontaktisik saab need **ära tunda ja nimetada** ning küsida avatud küsimusi, mis panevad inimese teisiti vaatama.",
-   "naide": {
-    "olukord": "Kinnipeetav räägib pettusest: „Pank teenib niikuinii miljoneid, keegi ei kannatanud. Pealegi tegid seda kõik meie firmas.”",
-    "analyys": "Siin on **tagajärgede eiramine** („keegi ei kannatanud”) ja **vastutuse jagamine** („kõik tegid”). Ametnik ei vaidle, vaid küsib: „Kes need inimesed olid, kelle raha see tegelikult oli?” või „Mida sa ise tol hetkel otsustasid?”"
+  }
+ ],
+ "inspektor": {
+  "sisu": [
+   {
+    "tekst": "Õigustusi kuuleb vanglas iga päev. Inspektor-kontaktisik saab need **ära tunda** ja küsida avatud küsimusi, mis panevad inimese olukorda teisiti vaatama. Madala enesekontrolli puhul aitab, kui ametnik toetab väikeseid õnnestumisi – nii kasvab enesetõhusus."
    }
-  },
-  "tyypviga": {
-   "punktid": [
-    "Vastutuse hajutamine ja jagamine aetakse segi: hajutamine – süü **käsuandjale**; jagamine – vastutus lahustub **grupis**.",
-    "Arvatakse, et madal enesekontroll on muutumatu. Kursuse järgi saab seda arendada, eriti enesetõhususe kaudu."
-   ]
+  ],
+  "naide": {
+   "olukord": "Kinnipeetav räägib pettusest: „Pank teenib niikuinii miljoneid, keegi ei kannatanud. Pealegi tegid seda kõik meie firmas.”",
+   "analyys": "Siin on tagajärgede eiramine („keegi ei kannatanud”) ja vastutuse jagamine („kõik tegid”). Ametnik ei vaidle, vaid küsib: „Kelle raha see tegelikult oli?” või „Mida sa ise tol hetkel otsustasid?”"
   }
  },
  "harjutused": [
@@ -190,7 +229,7 @@
  ],
  "valjast": [
   {
-   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "tekst": "„Inspektor-kontaktisiku töös” osa (näide ja soovitused) on koostatud selle lehe jaoks tunnimaterjali põhjal; see ei ole õppejõu materjal.",
    "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
   }
  ],

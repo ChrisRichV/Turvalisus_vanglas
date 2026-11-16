@@ -2,128 +2,149 @@
  "id": "ps-t07-02",
  "tund": "ps-t07",
  "jrk": 2,
+ "mall": "psuh",
  "pealkiri": "Eakas kinnipeetav",
  "lyhend": "Eakas kinnipeetav",
  "ikoon": "kepp",
- "lyhidalt": "Kinnipeetavad vananevad ja haigestuvad kiiremini kui tavapopulatsioon. Eakatel on raskusi liikumise, meelte, turvalisuse ja isolatsiooniga; dementsust märgatakse vanglas sageli hilja. Igapäevased tegevused nõuavad neilt palju energiat.",
- "osad": {
-  "pohimote": {
-   "pealkiri": "Kehva tervise põhjused",
-   "tekst": "Kinnipeetavate keskmine vanus tõuseb ja vanglad ei ole sageli eakatele ehitatud. Kinnipeetavad **vananevad ja haigestuvad kiiremini** kui tavapopulatsioon; terviseteadmiste tase on sageli üllatavalt madal.",
-   "skeem": [
-    {
-     "tyyp": "kaardid",
-     "pealkiri": "Eakate kehva tervise põhjused",
-     "kaardid": [
-      {
-       "pealkiri": "Kõrge riskiga käitumine",
-       "silt": "1",
-       "tekst": "suitsetamine, narkootikumid, alkohol, ebatervislik toit"
-      },
-      {
-       "pealkiri": "Liikumise puudus",
-       "silt": "2",
-       "toon": "b"
-      },
-      {
-       "pealkiri": "Stressorid vanglas",
-       "silt": "3",
-       "tekst": "füüsilised vigastused, tegevusetus, isoleeritus"
-      },
-      {
-       "pealkiri": "Keerulisem ligipääs meditsiinile",
-       "silt": "4",
-       "tekst": "valed diagnoosid ja alaravimine",
-       "toon": "b"
-      }
-     ],
-     "kitsad": true
-    }
-   ]
-  },
-  "alus": {
-   "pealkiri": "Igapäevased väljakutsed",
-   "tekst": "",
-   "skeem": {
-    "tyyp": "sambad",
-    "pealkiri": "Eaka kinnipeetava igapäev",
-    "katus": {
-     "pealkiri": "Elukvaliteet ja heaolu vanglas"
-    },
-    "sambad": [
-     {
-      "pealkiri": "Keha",
-      "read": [
-       "**liikumine:** ülemisele narile ronimine, trepid, pikk tee meditsiini juurde",
-       "**keskkond:** vannituba, loendusel seismine"
-      ]
-     },
-     {
-      "pealkiri": "Meeled ja vaim",
-      "toon": "b",
-      "read": [
-       "**kuulmis- ja nägemisraskused**",
-       "**dementsus** – vangla rutiin varjab algavat langust",
-       "raske arusaamine ja mäletamine"
-      ]
-     },
-     {
-      "pealkiri": "Turvalisus ja suhted",
-      "read": [
-       "mure isikliku turvalisuse pärast",
-       "tegevusetus ja isolatsioon",
-       "raha puudus piirab kõnesid ja kirju"
-      ]
-     }
-    ],
-    "alus": {
-     "pealkiri": "Igapäevased tegevused nõuavad väga palju energiat",
-     "tekst": "asjade uuesti meeldetuletamine, konfliktide vältimine, korraldustele allumine"
-    }
-   },
-   "read": []
-  },
-  "piiramine": {
-   "pealkiri": "Mida silmas pidada",
-   "tekst": "",
-   "punktid": [
-    "Vaimset langust märgatakse sageli alles siis, kui olukord on eskaleerunud – selleks ajaks on teised teda tihti kiusanud ja ta on muutunud agressiivseks.",
-    "Eakad **varjavad tervisemuresid**, et säilitada staatust ja väärikust.",
-    "Paljud kardavad **vanglas suremist**.",
-    "Tervishoiutöötaja on kohustatud terviseseisundit jälgima ([[VangS § 52 lg 2]])."
-   ]
-  },
-  "vangla": {
-   "tekst": "Eakas kinnipeetav ei pruugi korraldust täita, sest ta ei kuulnud või ei mäletanud – mitte trotsist.",
-   "naide": {
-    "olukord": "72-aastane kinnipeetav jääb loendusele hiljaks ja ei mäleta, et teda eile hoiatati. Kambrikaaslased on hakanud teda narrima ja ta karjus ühe peale.",
-    "analyys": "Võimalik algav kognitiivne langus, mida vangla rutiin on varjanud; kiusamine ja agressioon on tüüpiline järg. Ametnik ei karista kohe, vaid räägib rahulikult, kordab juhiseid, teavitab tervishoiutöötajat ([[VangS § 52 lg 2]]) ja jälgib kiusamist."
-   }
-  },
-  "tyypviga": {
-   "punktid": [
-    "Eaka agressiivsust peetakse iseloomuks, mitte võimalikuks dementsuse või kiusamise tagajärjeks.",
-    "Eeldatakse, et eakas küsib ise abi. Sageli ta varjab muresid väärikuse pärast."
-   ]
-  }
- },
- "harjutused": [
+ "lyhidalt": "Kinnipeetavad vananevad ja haigestuvad tavapopulatsioonist märkimisväärselt kiiremini. Vanglad ei ole eakatele ehitatud: neil on raskusi liikumise, meelte, turvalisuse ja üksindusega.",
+ "materjal": [
   {
-   "tyyp": "fakt",
-   "kysimus": "Miks märgatakse eakate dementsust vanglas sageli hilja?",
-   "valikud": [
-    "Eakad ei haigestu",
-    "Vangla rutiinne päevakord varjab algavat langust",
-    "Dementsus algab ainult vabaduses",
-    "Arst ei tohi eakaid uurida"
-   ],
-   "oige": 1,
-   "selgitus": "Märgatakse alles siis, kui olukord on eskaleerunud."
+   "pealkiri": "Eakas kinnipeetav",
+   "sisu": [
+    {
+     "tekst": "Kinnipeetavate **keskmine vanus tõuseb** ja vanglad ei ole sageli eakamate kinnipeetavate jaoks sobivalt ehitatud."
+    },
+    {
+     "tekst": "Kinnipeetavad **vananevad ja haigestuvad võrreldes tavapopulatsiooniga märkimisväärselt kiiremini**. See tekitab vanglas omad väljakutsed."
+    },
+    {
+     "tekst": "Eakatel kinnipeetavatel on sageli palju kroonilisi haigusi, aga nende **terviseteadmiste tase on üllatavalt madal**. Seepärast tuleb neid näiteks harida – see on vanglale uus nõudmine."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Miks eakate tervis on kehv",
+   "sisu": [
+    {
+     "tekst": "Eakate kinnipeetavate kehva tervise põhjused on **varasemad elustiili ja sotsiaalmajanduslikud tegurid**:"
+    },
+    {
+     "loend": [
+      "**Kõrge riskiga käitumine:** suitsetamine, narkootikumid, alkohol, ebatervislik toit.",
+      "**Trenni mitte tegemine.**",
+      "**Stressorid ja raskused vangla keskkonnas:** näiteks füüsilised vigastused, tegevusetus ja isoleeritus.",
+      "**Keerulisem ligipääs arstiabile:** valed diagnoosid ja alaravimine vangla töötajate poolt."
+     ]
+    }
+   ]
+  },
+  {
+   "pealkiri": "Igapäevased väljakutsed",
+   "sisu": [
+    {
+     "tekst": "Eakatel kinnipeetavatel tuleb iga päev toime tulla probleemidega, mis mõjutavad nende elukvaliteeti ja heaolu vanglas:"
+    },
+    {
+     "punktid": [
+      "**Raskused liikumisega:** ülemisele narile ronimine, trepid, pikad jalutuskäigud arsti vastuvõtule.",
+      "**Keskkonnast tingitud piirangud:** vannitoa kasutamine, loendusel seismine.",
+      "**Meelte puudujäägid:** kuulmis- ja nägemisraskused takistavad suhtlemist ja keskkonnaga kohanemist.",
+      "**Turvalisus:** mure oma turvalisuse pärast tekitab pidevat stressi.",
+      "**Tegevusetus ja sotsiaalne isolatsioon:** pole võimalust tööl käia ega muudes tegevustes osaleda, mistõttu tekib isoleeritus ja üksindus. Raha puudumine piirab ka kõnede tegemist ja kirjade saatmist, nii et suhteid on raske hoida."
+     ]
+    }
+   ]
   }
  ],
+ "skeemid": [
+  {
+   "tyyp": "kaardid",
+   "pealkiri": "Eakate kehva tervise põhjused",
+   "kaardid": [
+    {
+     "pealkiri": "Kõrge riskiga käitumine",
+     "silt": "1",
+     "tekst": "suitsetamine, narkootikumid, alkohol, ebatervislik toit"
+    },
+    {
+     "pealkiri": "Trenni mitte tegemine",
+     "silt": "2",
+     "toon": "b"
+    },
+    {
+     "pealkiri": "Stressorid vanglas",
+     "silt": "3",
+     "tekst": "füüsilised vigastused, tegevusetus, isoleeritus"
+    },
+    {
+     "pealkiri": "Keerulisem ligipääs meditsiinile",
+     "silt": "4",
+     "tekst": "valed diagnoosid ja alaravimine",
+     "toon": "b"
+    }
+   ],
+   "kitsad": true
+  },
+  {
+   "tyyp": "sambad",
+   "pealkiri": "Eaka kinnipeetava igapäev",
+   "katus": {
+    "pealkiri": "Elukvaliteet ja heaolu vanglas"
+   },
+   "sambad": [
+    {
+     "pealkiri": "Keha",
+     "read": [
+      "**liikumine:** ülemisele narile ronimine, trepid, pikk tee meditsiini juurde",
+      "**keskkond:** vannituba, loendusel seismine"
+     ]
+    },
+    {
+     "pealkiri": "Meeled ja vaim",
+     "toon": "b",
+     "read": [
+      "**kuulmis- ja nägemisraskused**",
+      "**dementsus** – vangla rutiin varjab algavat langust",
+      "raske arusaamine ja mäletamine"
+     ]
+    },
+    {
+     "pealkiri": "Turvalisus ja suhted",
+     "read": [
+      "mure isikliku turvalisuse pärast",
+      "tegevusetus ja isolatsioon",
+      "raha puudus piirab kõnesid ja kirju"
+     ]
+    }
+   ],
+   "alus": {
+    "pealkiri": "Igapäevased tegevused nõuavad väga palju energiat",
+    "tekst": "asjade uuesti meeldetuletamine, konfliktide vältimine, korraldustele allumine"
+   }
+  }
+ ],
+ "inspektor": {
+  "sisu": [
+   {
+    "tekst": "Eaka kinnipeetava puhul tasub mõelda, kas ta saab füüsiliselt hakkama: kas ta peab ronima ülemisele narile, kas ta jõuab loendusel seista, kas ta kuuleb korraldust."
+   },
+   {
+    "punktid": [
+     "Kui eakas ei täida korraldust, kontrolli kõigepealt, kas ta kuulis ja sai aru – see ei pruugi olla trots.",
+     "Tegevusetus ja raha puudus lõikavad ta lähedastest ära – vaata, kas ta saab helistada ja kirjutada.",
+     "Kroonilise haigusega eakale võib olla vaja lihtsalt selgitada, kuidas oma tervise eest hoolitseda."
+    ]
+   }
+  ],
+  "naide": {
+   "olukord": "68-aastane kinnipeetav on paigutatud ülemisele narile ja käib harva jalutamas. Ta on jätnud kaks korda arsti juurde minemata.",
+   "analyys": "Pikk tee arsti juurde ja ülemine nari on eakale tüüpilised liikumisraskused. Ametnik küsib temalt rahulikult, mis on raske, ja teeb ettepaneku paigutada ta alumisele narile ning aidata vastuvõtule jõuda."
+  }
+ },
+ "harjutused": [],
  "valjast": [
   {
-   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "tekst": "„Inspektor-kontaktisiku töös” osa (näide ja soovitused) on koostatud selle lehe jaoks tunnimaterjali põhjal; see ei ole õppejõu materjal.",
    "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
   }
  ],

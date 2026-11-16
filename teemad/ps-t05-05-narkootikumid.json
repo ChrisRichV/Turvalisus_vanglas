@@ -2,103 +2,209 @@
  "id": "ps-t05-05",
  "tund": "ps-t05",
  "jrk": 5,
- "pealkiri": "Narkootikumid: seos kuritegevusega, ravi ja eetika",
- "lyhend": "Narkootikumid ja ravi",
+ "mall": "psuh",
+ "pealkiri": "Narkootilised ained",
+ "lyhend": "Narkootilised ained",
  "ikoon": "rist",
- "lyhidalt": "Narkootikumid ei ole alati kuriteo põhjus – vahel järgneb tarvitamine kuriteole. Eristatakse peamiselt tarvitajaid ja peamiselt kurjategijaid. Vanglas kasutatakse grupisekkumisi ja ravimeid; ravile suunamisel tekib eetiline küsimus vabatahtlikkusest.",
- "osad": {
-  "pohimote": {
-   "pealkiri": "Seos kuritegevusega",
-   "tekst": "Narkootikumide tarvitamine ei ole alati kuriteo põhjus – vahel **järgneb** see kuriteole (nt eduka kuriteo tähistamine). Kuna tarvitamist ei saa alati seaduslikult rahastada, tehakse kuritegusid ka raha saamiseks.\n\nSeos kuritegevusega tekib ühest või mitmest tegurist koos: **vähene enesekontroll, üldine hälbiv eluviis, lähedane side kriminaalsete isikutega**.",
-   "skeem": [
+ "lyhidalt": "Narkootikumide ja kuritegevuse vahel ei ole leitud otsest seost – vaja on vahendajaid (vähene enesekontroll, hälbeline eluviis, kriminaalsed kaaslased). Vanglas kasutatakse sotsiaalprogramme ja ravimeid (metadoon, buprenorfiin, naltreksoon). Kurjategijaid on kaht tüüpi; sundravi tõstatab eetilisi küsimusi.",
+ "materjal": [
+  {
+   "pealkiri": "Mis on narkootilised ained",
+   "sisu": [
     {
-     "tyyp": "vordlus",
-     "pealkiri": "Kaks tüüpi",
-     "veerud": [
-      "Peamiselt ainete tarvitaja",
-      "Peamiselt kurjategija"
-     ],
-     "read": [
-      {
-       "silt": "Kuritegevus",
-       "lahtrid": [
-        "suureneb tarvitamise ajal",
-        "toimub enne tarvitamist"
-       ]
-      },
-      {
-       "silt": "Tase",
-       "lahtrid": [
-        "üldiselt väga madal",
-        "oluliselt rohkem kuritegusid"
-       ]
-      },
-      {
-       "silt": "Mida teha",
-       "lahtrid": [
-        "ravi vähendab ka kuritegevust",
-        "ravist üksi ei piisa – vaja tegeleda kriminaalse mõtlemise ja kaaslastega"
-       ]
-      }
+     "tekst": "Narkootilised ained on **psüühikat mõjutavad ained, millest võib tekkida sõltuvus**."
+    },
+    {
+     "tekst": "Narkootikumide kuritarvitamine **ei ole alati kuriteo põhjus** – vahel järgneb see kuriteole, näiteks **eduka kuriteo tähistamiseks**. Kuna tarvitamist ei saa alati seaduslikult rahastada, teevad kurjategijad sageli kuritegusid, et **saada raha tarvitamiseks**."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Seos kuritegevusega",
+   "sisu": [
+    {
+     "tekst": "Ainete kuritarvitamise seos kuritegevusega tekib ühe või mitme muutuja koosesinemisel:"
+    },
+    {
+     "punktid": [
+      "**vähene enesekontroll**;",
+      "**üldine hälbeline eluviis**;",
+      "**lähedane side kriminaalsete isikutega**."
+     ]
+    },
+    {
+     "tekst": "Seni **ei ole leitud otsest seost** ainete tarvitamise ja kuritegevuse vahel – seose selgitamiseks on vaja **vahendajaid (mediaatoreid)**."
+    },
+    {
+     "tekst": "Teaduslikult on endiselt võimalik ka see, et tarvitamine ja kuritegevus on **funktsionaalselt eraldiseisvad käitumised**. Kui see on nii, **ei saa oodata, et tarvitamise vähendamine vähendaks kuritegevust**."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Ravi",
+   "sisu": [
+    {
+     "tekst": "Vanglasüsteemis kasutatakse sõltuvusraviks peamiselt **grupisekkumisi ehk sotsiaalprogramme** (nt **Eluviis 24/7, 12 sammu**)."
+    },
+    {
+     "tekst": "Lisaks kasutatakse **psühhofarmakoloogilisi** (ravimitega) meetodeid:"
+    },
+    {
+     "punktid": [
+      "**Metadoon** – sünteetiline opioid, mida kasutatakse valuvaigistina ja sõltuvuse raviks; **tugev opioid**; asendusravi.",
+      "**Buprenorfiin** (Bupaq, Subutex) – kasutatakse opioidide kasutamise häirete, ägeda ja kroonilise valu raviks; tabletina, süstina, nahaplaastrina või implantaadina; **nõrk opioid**; asendusravi.",
+      "**Naltreksoon** (Revia) – süstitakse depoona või pannakse implantaadina. **Blokeerib** ajus retseptorid, mis omakorda blokeerivad opioidide toime – inimene ei tunne enam opioidist eufooriat. See **ei ole asendusravi**, vaid toimet takistav aine. Praegu on leitud, et naltreksoon **vähendab kuritegevust rohkem kui psühholoogilised sekkumised**."
+     ]
+    },
+    {
+     "tekst": "**Lääne ühiskonnas** ei soovita farmakoteraapiaid eriti kasutada, kuigi need on **oluliselt kasulikumad** kui teised meetodid. Põhjused: loodetakse liialt teistele meetoditele ja ühiskonnas teatakse vähe meditsiiniliste viiside kasulikkusest."
+    },
+    {
+     "tekst": "NB! Materjalis on metadooni ja buprenorfiini juures kirjas, et neid kasutatakse „eelkõige kokaiini kasutamise vähendamiseks” – vt allikate märkust lehe lõpus."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Kaks tüüpi aineid tarvitavaid kurjategijaid",
+   "sisu": [
+    {
+     "loend": [
+      "**Peamiselt ainete tarvitajad** – nende kuritegevus **suureneb tarvitamise ajal**; üldiselt on kuritegevuse tase **väga madal**.",
+      "**Peamiselt kurjategijad** – kuritegevus toimub **enne** narkootikumide tarvitamist; nad teevad **oluliselt rohkem** kuritegusid."
      ]
     }
    ]
   },
-  "alus": {
-   "pealkiri": "Ravi ja korduvkuritegevuse vähendamine",
-   "tekst": "Vanglas kasutatakse sõltuvusraviks peamiselt **grupisekkumisi ehk sotsiaalprogramme** (nt Eluviis 24/7, 12 sammu). Lisaks on kasutusel ravimid (nt metadoon, buprenorfiin, naltreksoon); kursuse järgi vähendab naltreksoon kuritegevust rohkem kui psühholoogilised sekkumised.\n\nMotivatsioon ja raviks valmisolek ennustavad ravi tulemust.",
-   "skeem": {
-    "tyyp": "kaardid",
-    "pealkiri": "Mis vähendab korduvkuritegevust ainete tarvitajatel",
-    "kaardid": [
-     {
-      "pealkiri": "Seos enne sekkumist",
-      "silt": "1",
-      "tekst": "selgita välja, kuidas tarvitamine ja kuritegevus on seotud, ja vali selle järgi sekkumine"
-     },
-     {
-      "pealkiri": "Riski järgi",
-      "silt": "2",
-      "tekst": "programmid kõrgema riskiga inimestele; kõigi risk hinnatakse",
-      "toon": "b"
-     },
-     {
-      "pealkiri": "Ravimid lisaks",
-      "silt": "3",
-      "tekst": "farmakoloogia lisaravina + tugi ja järelevalve pärast vabanemist"
-     },
-     {
-      "pealkiri": "Aine järgi",
-      "silt": "4",
-      "tekst": "arvesta, et seos kuritegevusega sõltub ainest",
-      "toon": "b"
-     }
-    ],
-    "kitsad": true
-   },
-   "read": []
-  },
-  "piiramine": {
-   "pealkiri": "Eetika: kas ravi võib peale suruda?",
-   "tekst": "Sundkliendina ravile saatmine tõstatab küsimusi õigluse ja inimõiguste kohta. Kursus viitab, et õigus ravist keelduda tuleneb Euroopa inimõiguste konventsiooni artiklist 8 (eraelu austamine): vabas ühiskonnas ei pea inimene käituma viisil, mis on talle hea.",
-   "punktid": [
-    "Kas inimene saab anda **informeeritud nõusoleku** – või keelduda?",
-    "Probleem: kui osalemine on „valik”, kuid keeldumise eest karistatakse hiljem igal sammul.",
-    "Eraelu austamise õigus: [[EIÕK art 8 lg 1]]."
+  {
+   "pealkiri": "Korduvkuritegevuse vähendamine ainete tarvitajatel",
+   "sisu": [
+    {
+     "tekst": "**Motivatsioon ja raviks valmisolek** on olulised tegurid, mis ennustavad ravi tulemusi."
+    },
+    {
+     "tekst": "Kõige rohkem vähendab korduvkuritegevust, kui:"
+    },
+    {
+     "loend": [
+      "kõigepealt selgitatakse välja, **milline on tarvitamise ja kuritegevuse seos**, ja selle järgi valitakse sobiv sekkumine;",
+      "programmid on suunatud **kõrgema riskiga** kurjategijatele ja **kõigi risk hinnatakse**;",
+      "**ravimeid pakutakse lisaravina** ja pärast vabanemist järgneb **tugi ja järelevalve**;",
+      "programmi sisu arvestab, et narkootikumide ja kuritegevuse seos **sõltub aine tüübist**."
+     ]
+    }
    ]
   },
-  "vangla": {
-   "tekst": "Inspektor-kontaktisik motiveerib, mitte ei sunni: selgitab, mida programm annab, ja austab otsust. Ravile suunamisel tuleb olla aus, mis on keeldumise tagajärjed.",
-   "naide": {
-    "olukord": "Kinnipeetav keeldub sõltuvusprogrammist: „Ma ei ole sõltlane.” Kolleeg soovitab ähvardada soodustuste kaotamisega.",
-    "analyys": "Ähvardus teeb osalemise näiliselt vabatahtlikuks, kuid tegelikult sunnitakse – see on kursuses kirjeldatud eetiline probleem ja motivatsioon jääb väliseks. Parem: motiveeriv vestlus (tund 2), info programmi kohta ja tema enda eesmärkide sidumine programmiga."
+  {
+   "pealkiri": "Eetika ravile suunamisel",
+   "sisu": [
+    {
+     "tekst": "Ainete tarvitaja saatmine sekkumisse **sundkliendina** tõstatab eetilisi ja moraalseid küsimusi õigluse ja inimõiguste kohta. Materjali järgi tuleneb õigus ravist keelduda Euroopa inimõiguste konventsiooni artiklist 8 ([[EIÕK art 8]]): **vabas ühiskonnas elavad inimesed ei pea käituma viisil, mis on neile hea**."
+    },
+    {
+     "tekst": "Sekkuja küsimus on alati, kas sekkumisse suunatu saab anda **informeeritud nõusolekut** või sekkumisest keelduda. Probleemne on ka see, kui osalemist esitletakse **valikuna**, kuid tegelikult saab teda keeldumise eest hiljem igal sammul karistada."
+    }
+   ]
+  }
+ ],
+ "skeemid": [
+  {
+   "tyyp": "vordlus",
+   "pealkiri": "Kaks tüüpi aineid tarvitavaid kurjategijaid",
+   "veerud": [
+    "Peamiselt ainete tarvitaja",
+    "Peamiselt kurjategija"
+   ],
+   "read": [
+    {
+     "silt": "Millal kuritegevus",
+     "lahtrid": [
+      "suureneb tarvitamise ajal",
+      "toimub enne tarvitamist"
+     ]
+    },
+    {
+     "silt": "Kuritegevuse tase",
+     "lahtrid": [
+      "üldiselt väga madal",
+      "oluliselt rohkem kuritegusid"
+     ]
+    }
+   ]
+  },
+  {
+   "tyyp": "vordlus",
+   "pealkiri": "Ravimid sõltuvuse ravis (materjali järgi)",
+   "veerud": [
+    "Metadoon",
+    "Buprenorfiin",
+    "Naltreksoon"
+   ],
+   "read": [
+    {
+     "silt": "Mis see on",
+     "lahtrid": [
+      "sünteetiline, tugev opioid",
+      "nõrk opioid (Bupaq, Subutex)",
+      "opioidide toimet blokeeriv aine (Revia)"
+     ]
+    },
+    {
+     "silt": "Ravi liik",
+     "lahtrid": [
+      "asendusravi",
+      "asendusravi",
+      "ei ole asendusravi – võtab eufooria ära"
+     ]
+    },
+    {
+     "silt": "Manustamine",
+     "lahtrid": [
+      "–",
+      "tablett, süst, nahaplaaster, implantaat",
+      "depoosüst või implantaat"
+     ]
+    }
+   ]
+  },
+  {
+   "tyyp": "kaardid",
+   "pealkiri": "Mis vähendab korduvkuritegevust ainete tarvitajatel",
+   "kaardid": [
+    {
+     "pealkiri": "Seos enne sekkumist",
+     "silt": "1",
+     "tekst": "selgita välja, kuidas tarvitamine ja kuritegevus on seotud, ja vali selle järgi sekkumine"
+    },
+    {
+     "pealkiri": "Riski järgi",
+     "silt": "2",
+     "tekst": "programmid kõrgema riskiga inimestele; kõigi risk hinnatakse",
+     "toon": "b"
+    },
+    {
+     "pealkiri": "Ravimid lisaks",
+     "silt": "3",
+     "tekst": "farmakoloogia lisaravina + tugi ja järelevalve pärast vabanemist"
+    },
+    {
+     "pealkiri": "Aine järgi",
+     "silt": "4",
+     "tekst": "arvesta, et seos kuritegevusega sõltub ainest",
+     "toon": "b"
+    }
+   ],
+   "kitsad": true
+  }
+ ],
+ "inspektor": {
+  "sisu": [
+   {
+    "tekst": "Inspektor-kontaktisik motiveerib, mitte ei sunni: selgitab, mida programm annab, ja austab otsust. Ravile suunates tuleb olla aus, millised on keeldumise tagajärjed."
    }
-  },
-  "tyypviga": {
-   "punktid": [
-    "Arvatakse, et narkootikumid on alati kuriteo põhjus. Vahel järgneb tarvitamine kuriteole.",
-    "Tüübid aetakse segi: „peamiselt kurjategija” teeb kuritegusid juba enne tarvitamist."
-   ]
+  ],
+  "naide": {
+   "olukord": "Kinnipeetav keeldub sõltuvusprogrammist: „Ma ei ole sõltlane.” Kolleeg soovitab ähvardada soodustuste kaotamisega.",
+   "analyys": "Ähvardus teeb osalemise näiliselt vabatahtlikuks, kuid tegelikult sunnitakse – see on materjalis kirjeldatud eetiline probleem ja motivatsioon jääb väliseks. Parem on motiveeriv vestlus (tund 2), info programmi kohta ja tema enda eesmärkide sidumine programmiga."
   }
  },
  "harjutused": [
@@ -133,20 +239,34 @@
    "selgitus": "Seepärast on motiveerimine nii oluline."
   }
  ],
- "erinevused": [
-  {
-   "silt": "Õppematerjal",
-   "teema": "Ravimite kasutusala (tund 5, „Narkootilised ained”)",
-   "konspekt": "Õppematerjalis on metadooni ja buprenorfiini juures kirjas, et neid kasutatakse „eelkõige kokaiini kasutamise vähendamiseks”.",
-   "ametlik": "Mõlemad on opioidid ja neid kasutatakse opioidisõltuvuse raviks (nii on kirjas ka sama õppematerjali buprenorfiini kirjelduses: „opioidi kasutamise häirete … raviks”). Lehel ei korrata kokaiini väidet – küsi õppejõult."
-  }
- ],
  "valjast": [
   {
-   "tekst": "Vanglanäide ja harjutused on koostatud selle lehe jaoks tunnimaterjali põhjal; need ei ole õppejõu materjal.",
+   "tekst": "Metadooni ja buprenorfiini kasutatakse Eestis opioidisõltuvuse asendusravis; seda kinnitab Tervise Arengu Instituudi „Opioidisõltuvuse asendusravi kliiniline protokoll” (https://tai.ee/sites/default/files/2024-09/Opioidisoltuvuse_asendusravi_kliiniline_protokoll.pdf).",
+   "allikas": "Tervise Arengu Instituut – ei pärine tunnimaterjalist"
+  },
+  {
+   "tekst": "„Inspektor-kontaktisiku töös” osa (näide ja soovitused) on koostatud selle lehe jaoks tunnimaterjali põhjal; see ei ole õppejõu materjal.",
    "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
   }
  ],
  "kysimused": [],
- "vastus": []
+ "vastus": [],
+ "erinevused": [
+  {
+   "silt": "Õppematerjal",
+   "teema": "Metadooni ja buprenorfiini kasutusala",
+   "konspekt": "Materjalis on mõlema ravimi juures kirjas, et neid kasutatakse „eelkõige kokaiini kasutamise vähendamiseks”.",
+   "ametlik": "Mõlemad on opioidid ja neid kasutatakse opioidisõltuvuse raviks – nii on kirjas ka sama materjali buprenorfiini kirjelduses („opioidi kasutamise häirete … raviks”) ja TAI kliinilises protokollis.",
+   "markus": "Lehel ei korrata kokaiini väidet õppefaktina – küsi õppejõult, mida ta silmas pidas.",
+   "silt2": "Teine allikas"
+  },
+  {
+   "silt": "Õppematerjal",
+   "teema": "Õigus ravist keelduda ja EIÕK art 8",
+   "konspekt": "Materjal ütleb, et EIÕK artikli 8 „punkt” sätestab: vabas ühiskonnas elavad inimesed ei pea käituma viisil, mis on neile hea.",
+   "ametlik": "EIÕK art 8 kaitseb era- ja perekonnaelu, kodu ja sõnumite saladuse austamist ning lubab ametivõimudel sekkuda ainult kooskõlas seadusega ja demokraatlikus ühiskonnas vajalikel eesmärkidel (lg 2) – materjalis toodud lauset artiklis sõna-sõnalt ei ole.",
+   "markus": "Materjali lause on artikli tõlgendus, mitte tsitaat. Ava viide ja loe artikli tekst.",
+   "silt2": "Konventsiooni tekst"
+  }
+ ]
 }

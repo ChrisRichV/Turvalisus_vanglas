@@ -1,0 +1,206 @@
+{
+ "id": "ps-t08-04",
+ "tund": "ps-t08",
+ "jrk": 4,
+ "mall": "psuh",
+ "pealkiri": "Väärtused ja väärtuskonfliktid",
+ "lyhend": "Väärtuskonfliktid",
+ "ikoon": "kaalud",
+ "lyhidalt": "Väärtused kirjeldavad, kuidas me tahame olla ja käituda; neid saab valida ja ümber mõtestada. Väärtuskonflikt tekib, kui kaks olulist väärtust põrkuvad. Juhtumikorraldaja töös on isiklik ja professionaalne väärtuskonflikt ning kaheksa võimalust nendega toime tulla.",
+ "materjal": [
+  {
+   "pealkiri": "Mis on väärtused",
+   "sisu": [
+    {
+     "tekst": "Väärtused on meie **sügavamad südamesoovid selle kohta, kuidas me tahame olla ja käituda** – iseenda, teiste inimeste ja kogu maailma suhtes. Need vastavad küsimustele:"
+    },
+    {
+     "punktid": [
+      "*Mille eest ma tahan seista?*",
+      "*Milline inimene ma tahan olla?*",
+      "*Milliseid omadusi ma tahan endas teadlikult arendada?*"
+     ]
+    },
+    {
+     "tekst": "Väärtused annavad suuna otsustele ja tegudele ning aitavad keerulistes olukordades hoida „nähtamatut kompassi”. Väärtused **ei ole kaasasündinud ega muutumatud** – neid **saab valida ja teadvustada** ning elu jooksul ümber mõtestada."
+    },
+    {
+     "tekst": "Väärtused **ei ole jäigad reeglid** ega mustvalge mõtlemine. Need ei ütle, mida igas olukorras „peab” tegema, vaid kirjeldavad, **millise hoiaku ja suunaga** tahame tegutseda, ka siis, kui olukord on keeruline või ebamugav. Väärtused aitavad teha kaalutletud otsuseid, kuid **ei vabasta vastutusest** ega olukorra eripära arvestamisest."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Väärtuskonflikt",
+   "sisu": [
+    {
+     "tekst": "Väärtuskonflikt tekib, kui **kaks inimese jaoks olulist väärtust põrkuvad** ja mõlemat ei saa korraga täielikult järgida. See ei tähenda, et inimene eksib – see näitab, et valik on keeruline ja tähenduslik."
+    },
+    {
+     "tekst": "Väärtuskonflikti saab ära tunda **sisemiste märguannete** järgi:"
+    },
+    {
+     "punktid": [
+      "kahtlemine,",
+      "ebakindlus,",
+      "segadustunne,",
+      "korduv ümberotsustamine,",
+      "otsuse edasilükkamine."
+     ]
+    },
+    {
+     "tekst": "Need tunded annavad märku, et kaalul on midagi olulist ja otsus puudutab inimese sügavaid tõekspidamisi."
+    }
+   ]
+  },
+  {
+   "pealkiri": "Kaheksa võimalust väärtuskonfliktiga toime tulla",
+   "sisu": [
+    {
+     "loend": [
+      "Eristada **professionaalsed väärtused isiklikest**.",
+      "**Muuta väärtust.**",
+      "**Muuta väärtuse täitmise viisi.**",
+      "**Sõnastada väärtused**, mis on inimese jäikade seisukohtade, vihakõne või reeglite taga.",
+      "**Mõista inimese seisukohtade ja väärtussüsteemi põhjuseid** tema elukogemuse ja kultuurilise tausta kaudu.",
+      "**Selgitada kliendile koostöösuhte alguses**, milline väärtussüsteem on siin sobiv.",
+      "**Leida kliendi väärtussüsteemiga inimlik ühisosa**, ilma et peaks temaga täielikult nõustuma.",
+      "**Uurida**, kas inimese seisukohtade ja käitumise taga on päriselt tema väärtused või on see valust või segadusest tingitud toimetulekuviis."
+     ]
+    }
+   ]
+  },
+  {
+   "pealkiri": "Väärtuskonfliktid juhtumikorraldaja töös",
+   "sisu": [
+    {
+     "tekst": "Juhtumikorraldaja töös esineb väärtuskonflikte mitmel tasandil:"
+    },
+    {
+     "punktid": [
+      "**Isiklik väärtuskonflikt** – spetsialisti enda hoiakud ja veendumused hakkavad mõjutama koostöösuhet õigusrikkujaga. Näiteks kui kliendi teod või maailmavaade on tugevas vastuolus juhtumikorraldaja isiklike väärtustega, võib olla raske säilitada professionaalset neutraalsust ja austust.",
+      "**Professionaalne väärtuskonflikt** – juhtumikorraldaja tunneb, et tema oskused, kogemus või kvalifikatsioon ei võimalda pakkuda kliendile vajalikku infot, suunamist või tuge, kuigi soov aidata on olemas. Siin põrkuvad **abistamise väärtus** ja **pädevuse piirid**."
+     ]
+    }
+   ]
+  }
+ ],
+ "skeemid": [
+  {
+   "tyyp": "vordlus",
+   "pealkiri": "Väärtuskonflikt juhtumikorraldaja töös",
+   "veerud": [
+    "Isiklik",
+    "Professionaalne"
+   ],
+   "read": [
+    {
+     "silt": "Mis juhtub",
+     "lahtrid": [
+      "ametniku enda hoiakud hakkavad mõjutama koostööd",
+      "ametnik tunneb, et tema oskused või kvalifikatsioon ei võimalda pakkuda vajalikku tuge"
+     ]
+    },
+    {
+     "silt": "Näide",
+     "lahtrid": [
+      "kliendi tegu (nt laste vastu) või maailmavaade on tugevas vastuolus ametniku väärtustega",
+      "klient vajab abi, mida ametnik ei oska anda"
+     ]
+    },
+    {
+     "silt": "Mis põrkub",
+     "lahtrid": [
+      "professionaalne neutraalsus ja austus ↔ isiklik hinnang",
+      "abistamise soov ↔ pädevuse piirid"
+     ]
+    }
+   ]
+  },
+  {
+   "tyyp": "kaardid",
+   "pealkiri": "Võimalused väärtuskonfliktiga toime tulla",
+   "kaardid": [
+    {
+     "pealkiri": "Erista professionaalseid väärtusi isiklikest",
+     "silt": "01"
+    },
+    {
+     "pealkiri": "Väärtuse muutmine",
+     "silt": "02",
+     "toon": "b"
+    },
+    {
+     "pealkiri": "Väärtuse täitmise viisi muutmine",
+     "silt": "03"
+    },
+    {
+     "pealkiri": "Sõnasta väärtused, mis on jäikade seisukohtade, vihakõne või reeglite taga",
+     "silt": "04",
+     "toon": "b"
+    },
+    {
+     "pealkiri": "Mõista põhjuseid",
+     "silt": "05",
+     "tekst": "elukogemus ja kultuuriline taust"
+    },
+    {
+     "pealkiri": "Selgita sobivat väärtussüsteemi koostöö alguses",
+     "silt": "06",
+     "toon": "b"
+    },
+    {
+     "pealkiri": "Leia inimlik ühisosa",
+     "silt": "07",
+     "tekst": "ilma täielikult nõustumata"
+    },
+    {
+     "pealkiri": "Uuri, kas taga on väärtused või valu",
+     "silt": "08",
+     "tekst": "või segadusest tingitud toimetulekuviis",
+     "toon": "b"
+    }
+   ],
+   "kitsad": true
+  }
+ ],
+ "inspektor": {
+  "sisu": [
+   {
+    "tekst": "Vanglas tuleb sageli töötada inimesega, kelle tegu on ametnikule vastumeelne. Professionaalsus tähendab, et isiklik hinnang ei mõjuta kohtlemist – inimväärikuse austamine on seaduse nõue ([[VangS § 4^1 lg 1]])."
+   }
+  ],
+  "naide": {
+   "olukord": "Ametnik peab koostama vabanemise plaani kinnipeetavaga, kes on süüdi mõistetud lapse vastu toime pandud kuriteos. Ametnik märkab, et lükkab kohtumisi edasi.",
+   "analyys": "Edasilükkamine on väärtuskonflikti märk (isiklik väärtuskonflikt). Abiks on eristada professionaalsed väärtused isiklikest (1) ja leida inimlik ühisosa (7) – näiteks soov leida töö – ilma tegu õigustamata. Vajadusel arutab ametnik olukorda juhi või kolleegiga."
+  }
+ },
+ "harjutused": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Isiklik või professionaalne väärtuskonflikt?",
+   "ryhmad": [
+    "Isiklik",
+    "Professionaalne"
+   ],
+   "read": [
+    {
+     "tekst": "Ametnikul on raske austusega suhelda kinnipeetavaga, kes avaldab rassistlikke vaateid",
+     "oige": 0
+    },
+    {
+     "tekst": "Ametnik tahab aidata kinnipeetavat võlgadega, kuid ei tunne seda valdkonda",
+     "oige": 1
+    }
+   ]
+  }
+ ],
+ "valjast": [
+  {
+   "tekst": "„Inspektor-kontaktisiku töös” osa (näide ja soovitused) on koostatud selle lehe jaoks tunnimaterjali põhjal; see ei ole õppejõu materjal.",
+   "allikas": "koostatud lehe jaoks – ei pärine tunnimaterjalist"
+  }
+ ],
+ "kysimused": [],
+ "vastus": [],
+ "erinevused": []
+}

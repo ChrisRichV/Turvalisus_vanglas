@@ -1,0 +1,1157 @@
+{
+ "ps-t01-01": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Milline väide kirjeldab korrektsioonipsühholoogia põhieesmärki?",
+   "valikud": [
+    "Diagnoosida kõigil kinnipeetavatel psüühikahäired",
+    "Selgitada kriminaalse käitumise teket ja anda teaduslikku infot, mis aitab antisotsiaalset käitumist muuta",
+    "Leida karistus, mis on kuriteoga proportsionaalne",
+    "Hinnata, kas kinnipeetav valetab"
+   ],
+   "oige": 1,
+   "selgitus": "Põhieesmärgil on kaks poolt: mõista ja muuta."
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Miks on korrektsioonipsühholoogidel sageli ebakindel professionaalne identiteet?",
+   "valikud": [
+    "Neil puudub kõrgharidus",
+    "Termini definitsioon on ebaselge ja ülesanded erinevad riigiti",
+    "Vanglas ei tohi psühholooge tööle võtta",
+    "Nende tööd ei reguleeri ükski seadus"
+   ],
+   "oige": 1,
+   "selgitus": "Definitsioon on varieeruv ja sõltub ühiskonna vaatest."
+  }
+ ],
+ "ps-t01-02": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Millise valdkonnaga on tegu?",
+   "ryhmad": [
+    "Vaimse tervise häired",
+    "Kognitiiv-käitumuslik mudel",
+    "Kriminoloogiline psühholoogia"
+   ],
+   "read": [
+    {
+     "tekst": "Ametnik märkab, et kinnipeetav kuuleb hääli, ja teavitab tervishoiutöötajat.",
+     "oige": 0
+    },
+    {
+     "tekst": "Ametnik selgitab, kuidas kinnipeetava mõtted mõjutavad tema käitumist konfliktis.",
+     "oige": 1
+    },
+    {
+     "tekst": "Ametnik tunneb ära riskitegurid, mis suurendavad uue kuriteo tõenäosust.",
+     "oige": 2
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis juhtus kursuse näites Suurbritanniaga?",
+   "valikud": [
+    "Seal loobuti vanglatest täielikult",
+    "Pärast 25 aastat taasühiskonnastamist pöörduti tagasi karistavama süsteemi poole",
+    "Seal võeti kasutusele RNR-mudel",
+    "Seal keelati psühholoogid vanglates"
+   ],
+   "oige": 1,
+   "selgitus": "Avalik arvamus muutus negatiivseks ja rahastust vähendati."
+  }
+ ],
+ "ps-t01-03": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Kumma vaatenurgaga on tegu?",
+   "ryhmad": [
+    "Psühholoogia",
+    "Sotsioloogia"
+   ],
+   "read": [
+    {
+     "tekst": "Kuidas aidata kinnipeetaval viha kontrollida?",
+     "oige": 0
+    },
+    {
+     "tekst": "Miks on vaesemates piirkondades rohkem kuritegevust?",
+     "oige": 1
+    },
+    {
+     "tekst": "Milline programm vähendab korduvkuritegevust?",
+     "oige": 0
+    },
+    {
+     "tekst": "Kuidas mõjutab ühiskonna ebavõrdsus kuritegevust?",
+     "oige": 1
+    }
+   ]
+  }
+ ],
+ "ps-t01-04": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis oli valgustusaja järgi karistuse esimene põhjus?",
+   "valikud": [
+    "Kättemaks",
+    "Kuritegude ennetamine",
+    "Kurja hinge väljaajamine",
+    "Riigikassa täitmine"
+   ],
+   "oige": 1,
+   "selgitus": "Järgnesid: suunata kergemate kuritegude poole, vähendada kahju ja teha seda väikese kuluga."
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis on vangistuse täideviimise eesmärk kehtiva seaduse järgi?",
+   "valikud": [
+    "Tekitada kinnipeetavale kannatusi",
+    "Suunata kinnipeetav õiguskuulekale käitumisele ja kaitsta õiguskorda",
+    "Ainult ühiskonna kaitsmine kinnipeetava eest",
+    "Kinnipeetava ümberkasvatamine töö kaudu"
+   ],
+   "oige": 1,
+   "selgitus": "[[VangS § 6 lg 1]]"
+  }
+ ],
+ "ps-t01-05": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mida näitavad uuringud karistuse heidutava mõju kohta kursuse järgi?",
+   "valikud": [
+    "Karistus hoiab usaldusväärselt kõiki kuritegudest eemale",
+    "Karistus üksi ei hoia eemale ei varem kuritegusid teinuid ega ühiskonda; efektid on nõrgad",
+    "Karistus mõjub ainult naistele",
+    "Karistus mõjub ainult siis, kui see on avalik"
+   ],
+   "oige": 1,
+   "selgitus": "Seepärast on vaja käitumist muutvaid sekkumisi."
+  },
+  {
+   "tyyp": "kaasus",
+   "kysimus": "Kinnipeetav (40) on kolmandat korda vanglas varguste eest. Ta ütleb, et vangla ei hirmuta teda. Mida see näitab karistuse kohta ja mida saab inspektor-kontaktisik teha?",
+   "vastus": [
+    "**Mida see näitab:** varasemad karistused ei hoidnud teda eemale – karistus üksi ei mõju.",
+    "**Miks:** karistus jõuab hilja ja kuritegeliku elu tasud (raha, sõbrad) olid tugevamad.",
+    "**Mida teha:** kasutada täitmiskava ([[VangS § 16 lg 1]]) – haridus, töö, vabanemise ettevalmistus; leida tema enda eesmärgid.",
+    "**Järeldus:** vangistuse aeg tuleb täita sisuga, mis muudab käitumist ([[VangS § 6 lg 1]])."
+   ],
+   "juhis": "Mõtle läbi: mis on toimunud, mis teooria seda selgitab ja mida inspektor-kontaktisik teeb."
+  }
+ ],
+ "ps-t02-01": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Milline teooria on kursuse järgi teaduslikult kõige mõjukam sekkumiste läbiviimisel?",
+   "valikud": [
+    "Psühhoanalüüs",
+    "Riski-vajaduse-vastavuse mudel (RNR)",
+    "Klassikaline tingimine",
+    "Valgustusaja utilitaarne vaade"
+   ],
+   "oige": 1,
+   "selgitus": "RNR on teooriate arengus viimane samm."
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis on kursuse järgi parim viis kriminaalset käitumist muuta?",
+   "valikud": [
+    "Karmistada karistusi",
+    "Õpetada prosotsiaalseid viise, mis saavutavad sarnaseid eesmärke",
+    "Analüüsida alateadvust",
+    "Isoleerida inimene teistest"
+   ],
+   "oige": 1,
+   "selgitus": "Kriminaalne käitumine on õpitud – selle lõpetamine vajab samuti õppimist."
+  }
+ ],
+ "ps-t02-02": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Mis on näites tingitud stiimul (kursuse näide klassiruumist)?",
+   "ryhmad": [
+    "Neutraalne/tingitud stiimul",
+    "Tingimatu stiimul",
+    "Vastus"
+   ],
+   "read": [
+    {
+     "tekst": "Klassiruumi uks",
+     "oige": 0,
+     "selgitus": "Algul neutraalne, pärast õppimist tingitud stiimul."
+    },
+    {
+     "tekst": "Õpetaja karjumine",
+     "oige": 1,
+     "selgitus": "Tekitab hirmu loomupäraselt."
+    },
+    {
+     "tekst": "Nutt",
+     "oige": 2,
+     "selgitus": "Algul tingimatu, hiljem tingitud vastus."
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Kinnipeetaval tekib alkoholiisu iga kord, kui ta kuuleb teatud muusikat, mida ta kuulas pidudel. Mis seaduspäraga on tegu?",
+   "valikud": [
+    "Operantne tingimine",
+    "Klassikaline tingimine",
+    "Asendav õppimine",
+    "Eneseregulatsioon"
+   ],
+   "oige": 1,
+   "selgitus": "Muusika (stiimul) on seostunud joomisega ja tekitab isu ilma teadliku otsuseta."
+  }
+ ],
+ "ps-t02-03": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline operantse tingimise liik?",
+   "ryhmad": [
+    "Positiivne tasu",
+    "Negatiivne tasu",
+    "Positiivne karistus",
+    "Negatiivne karistus"
+   ],
+   "read": [
+    {
+     "tekst": "Ametnik kiidab kinnipeetavat korrektselt tehtud töö eest.",
+     "oige": 0
+    },
+    {
+     "tekst": "Pärast kuu aega rikkumisteta lõpetatakse lisapiirang.",
+     "oige": 1
+    },
+    {
+     "tekst": "Kinnipeetav saab noomituse.",
+     "oige": 2
+    },
+    {
+     "tekst": "Kinnipeetav jääb rikkumise tõttu ilma lubatud ühisüritusest.",
+     "oige": 3
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Millal mõjub karistus käitumise muutmisele kõige paremini?",
+   "valikud": [
+    "Mõne kuu pärast, kui inimene on rahunenud",
+    "Kohe pärast ebasobivat tegu",
+    "Siis, kui see on võimalikult karm",
+    "Siis, kui seda ei selgitata"
+   ],
+   "oige": 1,
+   "selgitus": "Mida pikem vahe, seda väiksem mõju."
+  }
+ ],
+ "ps-t02-04": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline moraalse tagasitõmbumise viis?",
+   "ryhmad": [
+    "Võrdlev õigustus",
+    "Süü nihutamine",
+    "Tagajärgede eiramine",
+    "Vastutuse hajutamine"
+   ],
+   "read": [
+    {
+     "tekst": "„Teised peksavad palju hullemini, mina andsin ainult korra.”",
+     "oige": 0
+    },
+    {
+     "tekst": "„Ta ise ronis mulle näkku.”",
+     "oige": 1
+    },
+    {
+     "tekst": "„Pood on kindlustatud, keegi ei kannata.”",
+     "oige": 2
+    },
+    {
+     "tekst": "„Vanem ütles, et tee ära, mis ma siis teen.”",
+     "oige": 3
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis on üldise kuriteoteooria järgi enesekontrolli arendamisel keskne?",
+   "valikud": [
+    "Karmimad karistused",
+    "Enesetõhusus – usk, et suudan ennast kontrollida",
+    "Isolatsioon",
+    "Sõprade vahetamine"
+   ],
+   "oige": 1,
+   "selgitus": "Enesetõhususe arendamisega kasvab enesekontrolli võimekus."
+  }
+ ],
+ "ps-t02-05": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline motivatsiooni liik?",
+   "ryhmad": [
+    "Väline regulatsioon",
+    "Pealesurutud",
+    "Omaksvõetud",
+    "Sisemine"
+   ],
+   "read": [
+    {
+     "tekst": "Käib programmis, sest muidu ei saa soodustust.",
+     "oige": 0
+    },
+    {
+     "tekst": "Ütleb, et on muutunud, sest „nii peab ütlema”, aga ise ei usu.",
+     "oige": 1
+    },
+    {
+     "tekst": "Õpib, sest on aru saanud, et haridus aitab tal tööd leida.",
+     "oige": 2
+    },
+    {
+     "tekst": "Loeb raamatuid, sest talle lihtsalt meeldib.",
+     "oige": 3
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Kinnipeetav näeb, et kambrikaaslane sai rikkumise eest kohe karistada, ja jätab ise sama tegemata. Mis mudeldamise mõjuga on tegu?",
+   "valikud": [
+    "Pidurdust eemaldav mõju",
+    "Pidurdav mõju",
+    "Esilekutsuv mõju",
+    "Otsene mudeldamine"
+   ],
+   "oige": 1,
+   "selgitus": "Mudeli karistamise nägemine surub ebasobiva käitumise alla (asendav õppimine)."
+  }
+ ],
+ "ps-t02-06": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Mis etapis on kinnipeetav?",
+   "ryhmad": [
+    "Eelkaalutlemine",
+    "Kaalutlemine",
+    "Ettevalmistus",
+    "Tegutsemine",
+    "Tagasilangus"
+   ],
+   "read": [
+    {
+     "tekst": "„Mul pole mingit probleemi, politsei lihtsalt kiusab.”",
+     "oige": 0
+    },
+    {
+     "tekst": "„Võib-olla peaksin midagi muutma, aga ei tea, kuidas.”",
+     "oige": 1
+    },
+    {
+     "tekst": "„Panin kirja, kellega pärast vabanemist enam ei suhtle, ja registreerusin programmi.”",
+     "oige": 2
+    },
+    {
+     "tekst": "„Olen kolm kuud käinud programmis ja ei ole tarvitanud.”",
+     "oige": 3
+    },
+    {
+     "tekst": "„Möödunud nädalal tarvitasin jälle.”",
+     "oige": 4
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mida peaks juhtumikorraldaja tagasilanguse korral tegema?",
+   "valikud": [
+    "Lõpetama koostöö",
+    "Normaliseerima, kaardistama olukorra ja toetama",
+    "Määrama kohe karistuse",
+    "Alustama kõike algusest uue ametnikuga"
+   ],
+   "oige": 1,
+   "selgitus": "Tagasilangus on normaalne faas."
+  }
+ ],
+ "ps-t03-01": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Proaktiivne või reaktiivne?",
+   "ryhmad": [
+    "Proaktiivne",
+    "Reaktiivne"
+   ],
+   "read": [
+    {
+     "tekst": "Planeeris röövi nädal aega, et saada raha uue auto jaoks.",
+     "oige": 0
+    },
+    {
+     "tekst": "Lõi kambrikaaslast, kui too tema asju puudutas.",
+     "oige": 1
+    },
+    {
+     "tekst": "Ähvardab ametnikke, et saada endale parem töökoht.",
+     "oige": 0
+    },
+    {
+     "tekst": "Narkojoobes lõhkus vihahoos aknad.",
+     "oige": 1
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis on kursuse järgi kriminaalse mõtlemise ja kriminaalse käitumise seos?",
+   "valikud": [
+    "Mõtlemine eelneb alati käitumisele",
+    "Kriminaalne mõtlemine järgneb kriminaalsele käitumisele",
+    "Seost ei ole",
+    "Mõtlemine tekib ainult vanglas"
+   ],
+   "oige": 1,
+   "selgitus": "Sekkumisel on vastupidi – alustatakse mõtteviisi muutmisest."
+  }
+ ],
+ "ps-t03-02": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline ajuosa?",
+   "ryhmad": [
+    "Eesajukoor",
+    "Amügdala",
+    "Hipokampus"
+   ],
+   "read": [
+    {
+     "tekst": "Pidurdab impulsi enne tegu",
+     "oige": 0
+    },
+    {
+     "tekst": "Emotsioonide keskus; seotud empaatia ja hirmuga",
+     "oige": 1
+    },
+    {
+     "tekst": "Õppimine ja mälestuste töötlemine",
+     "oige": 2
+    }
+   ]
+  }
+ ],
+ "ps-t03-03": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Millest alustab sekkumine kriminaalse mõtlemise puhul?",
+   "valikud": [
+    "Käitumise kontrollimisest",
+    "Mõtteviisi muutmisest",
+    "Karistusest",
+    "Ravimitest"
+   ],
+   "oige": 1,
+   "selgitus": "Kriminaalne mõtlemine järgneb käitumisele; sekkumisel on vastupidi."
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis on Shamani efekt?",
+   "valikud": [
+    "Koostöö kliendiga: tundlikkus tema sisemaailma suhtes ja usk, et muutus on võimalik",
+    "Avalik häbistamine",
+    "Hüpnoos",
+    "Rühmasurve"
+   ],
+   "oige": 0,
+   "selgitus": "Shamani efekt on ettevalmistusfaasi osa."
+  }
+ ],
+ "ps-t04-01": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline RHK-10 grupp?",
+   "ryhmad": [
+    "F1",
+    "F2",
+    "F3",
+    "F7"
+   ],
+   "read": [
+    {
+     "tekst": "Sõltuvus alkoholist",
+     "oige": 0
+    },
+    {
+     "tekst": "Skisofreenia",
+     "oige": 1
+    },
+    {
+     "tekst": "Depressioon",
+     "oige": 2
+    },
+    {
+     "tekst": "Vaimne alaareng",
+     "oige": 3
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Millal tekib kursuse järgi abivajadus psüühikahäire korral?",
+   "valikud": [
+    "Kui inimene on vanglas",
+    "Kui inimene ei suuda kohaneda ega tulla toime oma sotsiaalse rolliga",
+    "Kui inimene on kurb",
+    "Alati, kui on diagnoos"
+   ],
+   "oige": 1,
+   "selgitus": "Psüühikahäire on märgatav nihe; abi on vaja, kui toimetulek on häiritud."
+  }
+ ],
+ "ps-t04-02": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis vahendab kursuse järgi skisofreenia ja vägivaldsete kuritegude seost?",
+   "valikud": [
+    "Sugu",
+    "Sõltuvuskäitumine",
+    "Haridustase",
+    "Vangistuse pikkus"
+   ],
+   "oige": 1,
+   "selgitus": "Ilma ainete tarvitamiseta on risk oluliselt väiksem."
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Milline on negatiivne sümptom?",
+   "valikud": [
+    "Kuulmishallutsinatsioon",
+    "Apaatia ja sotsiaalne isoleerumine",
+    "Luulumõte kontrollist",
+    "Seosetu kõne"
+   ],
+   "oige": 1,
+   "selgitus": "Negatiivsed sümptomid = midagi on puudu (huvi, emotsioonid, kõne)."
+  }
+ ],
+ "ps-t04-03": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline ATH tunnus?",
+   "ryhmad": [
+    "Tähelepanematus",
+    "Hüperaktiivsus",
+    "Impulsiivsus"
+   ],
+   "read": [
+    {
+     "tekst": "Unustab kokkulepitud aja",
+     "oige": 0
+    },
+    {
+     "tekst": "Ei suuda vestluse ajal paigal istuda",
+     "oige": 1
+    },
+    {
+     "tekst": "Vastab enne, kui küsimus on lõpuni küsitud",
+     "oige": 2
+    }
+   ]
+  }
+ ],
+ "ps-t04-04": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Pigem ärevus või depressioon?",
+   "ryhmad": [
+    "Ärevus",
+    "Depressioon"
+   ],
+   "read": [
+    {
+     "tekst": "Paanikahood kinnises ruumis",
+     "oige": 0
+    },
+    {
+     "tekst": "Huvi kadumine kõige vastu, mis varem rõõmu tegi",
+     "oige": 1
+    },
+    {
+     "tekst": "Väldib ühisruume, kardab teisi kinnipeetavaid",
+     "oige": 0
+    },
+    {
+     "tekst": "Jätab hügieeni hooletusse, on passiivne",
+     "oige": 1
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Millega on depressioon kinnipeetavatel kursuse järgi eelkõige seotud?",
+   "valikud": [
+    "Liigse aktiivsusega",
+    "Isolatsiooni, lootusetuse ja süütundega",
+    "Hea toiduga",
+    "Pikkade jalutuskäikudega"
+   ],
+   "oige": 1,
+   "selgitus": "Vangistus ise toob kaasa isolatsiooni ja sageli süütunde."
+  }
+ ],
+ "ps-t04-05": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Milline meede EI sobi kursuse järgi suitsiidiriski vähendamiseks?",
+   "valikud": [
+    "Esmane hindamine",
+    "Paigutus ühisesse kambrisse",
+    "Isolatsioon ja mööblita kamber",
+    "Ligipääs meditsiinilisele abile"
+   ],
+   "oige": 2,
+   "selgitus": "Isolatsioon pigem suurendab riski."
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Millal on kinnipeetavate suitsiidirisk uuringute järgi sageli suurim?",
+   "valikud": [
+    "Vangistuse esimesel kuul",
+    "Viimasel nädalal enne vabanemist",
+    "Pärast kokkusaamist",
+    "Kevadel"
+   ],
+   "oige": 0,
+   "selgitus": "Eriti esimestel päevadel; enesevigastamine sageli esimese 7 päeva jooksul."
+  }
+ ],
+ "ps-t04-06": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline märgistamise etapp?",
+   "ryhmad": [
+    "Esmane hälbivus",
+    "Ühiskondlik reaktsioon",
+    "Stigmatiseerimine",
+    "Teisene hälbivus"
+   ],
+   "read": [
+    {
+     "tekst": "14-aastane varastab poest šokolaadi.",
+     "oige": 0
+    },
+    {
+     "tekst": "Kool ja politsei nimetavad teda „probleemseks nooreks”.",
+     "oige": 1
+    },
+    {
+     "tekst": "Teda ei võeta trenni ega suvetööle.",
+     "oige": 2
+    },
+    {
+     "tekst": "Ta ütleb: „Ma olengi kurjategija” ja liitub vanemate seltskonnaga.",
+     "oige": 3
+    }
+   ]
+  },
+  {
+   "tyyp": "kaasus",
+   "kysimus": "Kinnipeetav on kolmandat korda vanglas. Ametnikud kutsuvad teda omavahel „meie püsikundeks”. Ta ise ütleb, et vabanedes ei ole tal mõtet tööd otsida. Selgita märgistamisteooria abil, mis toimub, ja mida ametnik teeb.",
+   "vastus": [
+    "**Silt:** „püsikunde” – ametnike ootus, et ta tuleb tagasi.",
+    "**Etapp:** teisene hälbivus – ta näeb end sildi kaudu ega usu muutusse.",
+    "**Ennasttäitev ennustus:** ei otsi tööd → ei saa tööd → kordab kuritegu → „nagu arvati”.",
+    "**Ametniku roll:** ei kasuta silte; tunnustab sildiga vastuolus olevat käitumist; valmistab koos temaga ette vabanemist (töö, tugiteenused).",
+    "**Järeldus:** silt mõjutab käitumist – ametnik saab ahela katkestada."
+   ],
+   "juhis": "Mõtle läbi: mis on toimunud, mis teooria seda selgitab ja mida inspektor-kontaktisik teeb."
+  }
+ ],
+ "ps-t05-01": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Miks ei saa kursuse järgi aine ise olla sõltuvuse ainus põhjus?",
+   "valikud": [
+    "Sest aineid on liiga palju",
+    "Sest igal tarvitajal ei teki sõltuvust",
+    "Sest sõltuvus on alati geneetiline",
+    "Sest sõltuvust ei ole olemas"
+   ],
+   "oige": 1,
+   "selgitus": "Sõltuvuse kujunemisel saavad kokku mitmed riskitegurid."
+  }
+ ],
+ "ps-t05-02": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Millisesse rühma tegur kuulub?",
+   "ryhmad": [
+    "Isiksus",
+    "Kasvukeskkond",
+    "Bioloogia",
+    "Õppimine"
+   ],
+   "read": [
+    {
+     "tekst": "Ei talu pettumusi, otsib kiiret leevendust",
+     "oige": 0
+    },
+    {
+     "tekst": "Kodus joodi iga nädalavahetus",
+     "oige": 1
+    },
+    {
+     "tekst": "Esimene kogemus oli väga meeldiv",
+     "oige": 2
+    },
+    {
+     "tekst": "Pidu hakkas tekitama isu juba enne joomist",
+     "oige": 3
+    }
+   ]
+  }
+ ],
+ "ps-t05-03": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline faas?",
+   "ryhmad": [
+    "Eksperimenteerija",
+    "Regulaarne tarvitaja",
+    "Kuritarvitaja",
+    "Sõltlane"
+   ],
+   "read": [
+    {
+     "tekst": "Proovis peol sõprade seltsis kord kanepit",
+     "oige": 0
+    },
+    {
+     "tekst": "Tarvitab igal nädalavahetusel, et lõõgastuda",
+     "oige": 1
+    },
+    {
+     "tekst": "Tarvitab iga päev, et halba tuju leevendada; tervis halveneb",
+     "oige": 2
+    },
+    {
+     "tekst": "Tarvitab pidevalt, et vältida võõrutusnähte",
+     "oige": 3
+    }
+   ]
+  }
+ ],
+ "ps-t05-04": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis on kursuse järgi ainus teaduslikult toimiv sekkumine joobes juhtimisele?",
+   "valikud": [
+    "Pikem vangistus",
+    "Karistusele järgnev raviprogramm",
+    "Juhiloa äravõtmine üksi",
+    "Hoiatus"
+   ],
+   "oige": 1,
+   "selgitus": "Nt kognitiivsete oskuste programm, haridus, sõltuvusravi, elektrooniline jälgimine."
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis on alkoholimüoopia?",
+   "valikud": [
+    "Nägemise halvenemine",
+    "Tähelepanu kitsenemine vähesele infole ja lühikesele ajale",
+    "Isu alkoholi järele",
+    "Võõrutusnäht"
+   ],
+   "oige": 1,
+   "selgitus": "Inimene näeb vähem ja mõtleb lühemalt – nt agressiooni tagajärgedele ei mõelda."
+  }
+ ],
+ "ps-t05-05": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Kumb tüüp?",
+   "ryhmad": [
+    "Peamiselt ainete tarvitaja",
+    "Peamiselt kurjategija"
+   ],
+   "read": [
+    {
+     "tekst": "Varastas ainult siis, kui oli joobes ja raha otsas",
+     "oige": 0
+    },
+    {
+     "tekst": "Juhtis narkoäri juba enne, kui hakkas ise tarvitama",
+     "oige": 1
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis ennustab kursuse järgi ainete tarvitajate ravi tulemust?",
+   "valikud": [
+    "Vangistuse pikkus",
+    "Motivatsioon ja raviks valmisolek",
+    "Aine hind",
+    "Vanus"
+   ],
+   "oige": 1,
+   "selgitus": "Seepärast on motiveerimine nii oluline."
+  }
+ ],
+ "ps-t06-01": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline tegur?",
+   "ryhmad": [
+    "Sotsiaalne isolatsioon",
+    "Rollid ja ootused",
+    "Asutuse mõju",
+    "Isiklikud uskumused"
+   ],
+   "read": [
+    {
+     "tekst": "Kinnipeetav on kuid kambris üksi ja muutub üha vaenulikumaks.",
+     "oige": 0
+    },
+    {
+     "tekst": "Ametnikud ütlevad uuele kinnipeetavale: „Sinusugustega on alati probleeme.”",
+     "oige": 1
+    },
+    {
+     "tekst": "Vanglas valitseb hoiak „siin ei hellitata kedagi”.",
+     "oige": 2
+    },
+    {
+     "tekst": "Kinnipeetav arvab, et rikkumised näitavad tema mehelikkust.",
+     "oige": 3
+    }
+   ]
+  }
+ ],
+ "ps-t06-02": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline tüüp?",
+   "ryhmad": [
+    "Planeeritud rünnak",
+    "Kiire põlemine",
+    "Aeglaselt kogunev pinge"
+   ],
+   "read": [
+    {
+     "tekst": "Plaanib nädalaid rünnakut, et hirmutada juhtkonda",
+     "oige": 0
+    },
+    {
+     "tekst": "Kui telefonikõne keelatakse, lööb kohe ust ja rahuneb siis",
+     "oige": 1
+    },
+    {
+     "tekst": "Kuid tunneb, et teda koheldakse ebaõiglaselt, lõpuks plahvatab",
+     "oige": 2
+    }
+   ]
+  }
+ ],
+ "ps-t06-03": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Miks ei ole rohkem kontrolli kursuse järgi hea lahendus vägivaldse kinnipeetava puhul?",
+   "valikud": [
+    "See on liiga kallis",
+    "See annab lihtsalt rohkem reegleid, mida rikkuda",
+    "See on keelatud",
+    "See mõjub ainult naistele"
+   ],
+   "oige": 1,
+   "selgitus": "Tasakaalustatud lähenemine: vähem, aga järjekindlalt rakendatud reegleid + positiivne süsteem."
+  }
+ ],
+ "ps-t06-04": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline võte?",
+   "ryhmad": [
+    "Empaatia",
+    "Kaasamine",
+    "Enesega seotud ütlus",
+    "Piiride seadmine"
+   ],
+   "read": [
+    {
+     "tekst": "„Sa oled pettunud, sest ootasid seda kõnet terve nädala.”",
+     "oige": 0
+    },
+    {
+     "tekst": "„Mis sinu arvates oleks siin hea lahendus?”",
+     "oige": 1
+    },
+    {
+     "tekst": "„Ma tunneksin end samas olukorras ka vihasena.”",
+     "oige": 2
+    },
+    {
+     "tekst": "„Kui sa jätkad karjumist, lõpetame täna vestluse.”",
+     "oige": 3
+    }
+   ]
+  }
+ ],
+ "ps-t06-05": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Kumma puhul see võte sobib paremini?",
+   "ryhmad": [
+    "Kinnine",
+    "Jutukas"
+   ],
+   "read": [
+    {
+     "tekst": "Talu vaikust, ära täida seda ise",
+     "oige": 0
+    },
+    {
+     "tekst": "Sõnasta alguses vestluse eesmärk",
+     "oige": 1
+    },
+    {
+     "tekst": "Esita avatud küsimusi",
+     "oige": 0
+    },
+    {
+     "tekst": "Tee vahekokkuvõtteid ja too teema juurde tagasi",
+     "oige": 1
+    }
+   ]
+  }
+ ],
+ "ps-t06-06": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis võib kursuse järgi juhtuda, kui kolleegiga on juhtunud tõsine intsident?",
+   "valikud": [
+    "Mõju piirdub selle kolleegiga",
+    "Lugu kandub edasi ka uutele töötajatele ja tekitab püsiva hirmu",
+    "Ametnikud muutuvad alati julgemaks",
+    "Midagi ei juhtu"
+   ],
+   "oige": 1,
+   "selgitus": "Tekivad vältivad ja kaitsvad käitumismustrid."
+  }
+ ],
+ "ps-t07-01": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mis EI kuulu kursuse järgi haavatava kinnipeetava kuue tunnuse hulka?",
+   "valikud": [
+    "Noor vanus",
+    "Varasem ohvrikogemus",
+    "Kõrge haridustase",
+    "Puudulikud toimetulekuoskused"
+   ],
+   "oige": 2,
+   "selgitus": "Tunnus on **madal** haridustase."
+  }
+ ],
+ "ps-t07-02": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Miks märgatakse eakate dementsust vanglas sageli hilja?",
+   "valikud": [
+    "Eakad ei haigestu",
+    "Vangla rutiinne päevakord varjab algavat langust",
+    "Dementsus algab ainult vabaduses",
+    "Arst ei tohi eakaid uurida"
+   ],
+   "oige": 1,
+   "selgitus": "Märgatakse alles siis, kui olukord on eskaleerunud."
+  }
+ ],
+ "ps-t07-03": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mida näitavad tänapäeva uuringud vaimse arengu mahajäämuse ja kuritegevuse kohta?",
+   "valikud": [
+    "Seos on väga tugev ja põhjuslik",
+    "Põhjuslikku seost ei ole leitud – seos on ületähtsustatud",
+    "Kõik vaimse mahajäämusega inimesed panevad toime kuritegusid",
+    "Uuringuid ei ole tehtud"
+   ],
+   "oige": 1,
+   "selgitus": "Termani 1911. a väide on ümber lükatud."
+  }
+ ],
+ "ps-t07-04": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mida ütleb teekondade teooria naiste riskitegurite kohta?",
+   "valikud": [
+    "Need on naistele unikaalsed",
+    "Need ei ole naistele unikaalsed, kuid mõjuvad neile unikaalselt",
+    "Naistel riskitegureid ei ole",
+    "Need on bioloogilised"
+   ],
+   "oige": 1,
+   "selgitus": "Teekond: negatiivsed kogemused → toimetulek (põgenemine, ained) → ellujäämiskuriteod."
+  }
+ ],
+ "ps-t07-05": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline riskitegurite rühm?",
+   "ryhmad": [
+    "Individuaalne",
+    "Perekondlik",
+    "Keskkondlik"
+   ],
+   "read": [
+    {
+     "tekst": "Neuroloogiline defitsiit",
+     "oige": 0
+    },
+    {
+     "tekst": "Ebakorrapärane vanemlik distsipliin",
+     "oige": 1
+    },
+    {
+     "tekst": "Vägivald naabruskonnas",
+     "oige": 2
+    },
+    {
+     "tekst": "Isa ja vanaisa on samuti kuritegusid toime pannud",
+     "oige": 1
+    }
+   ]
+  }
+ ],
+ "ps-t08-01": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline koostöösuhte osa?",
+   "ryhmad": [
+    "Kokkulepitud eesmärgid",
+    "Ülesannetega seotud koostöö",
+    "Omavaheline suhe"
+   ],
+   "read": [
+    {
+     "tekst": "Lepitakse koos kokku, et kinnipeetav lõpetab põhikooli",
+     "oige": 0
+    },
+    {
+     "tekst": "Ametnik aitab täita kooli avalduse ja selgitab tingimusi",
+     "oige": 1
+    },
+    {
+     "tekst": "Ametnik kuulab lugupidavalt ja ei mõista hukka",
+     "oige": 2
+    }
+   ]
+  },
+  {
+   "tyyp": "fakt",
+   "kysimus": "Milline eneseavamine on juhtumikorraldaja rollis sobiv?",
+   "valikud": [
+    "Oma lahutusest rääkimine",
+    "Enesega seotud ütlus: „Ma kuulen, et see olukord on olnud sulle väga koormav”",
+    "Oma telefoninumbri andmine",
+    "Oma palga avaldamine"
+   ],
+   "oige": 1,
+   "selgitus": "Isikliku info jagamine ei ole asjakohane."
+  }
+ ],
+ "ps-t08-02": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline takistus?",
+   "ryhmad": [
+    "Liigne sõprus",
+    "Kiirustamine",
+    "Pealesurutud reeglid",
+    "Pessimism"
+   ],
+   "read": [
+    {
+     "tekst": "Ametnik räägib kinnipeetavaga oma eraelust ja lubab „mitte nii rangelt võtta”",
+     "oige": 0
+    },
+    {
+     "tekst": "Ametnik tahab esimesel kohtumisel kogu plaani paika panna",
+     "oige": 1
+    },
+    {
+     "tekst": "„Sa teed nii, nagu ma ütlen, punkt.”",
+     "oige": 2
+    },
+    {
+     "tekst": "„Temast ei saa niikuinii asja.”",
+     "oige": 3
+    }
+   ]
+  }
+ ],
+ "ps-t08-03": [
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Isiklik või professionaalne väärtuskonflikt?",
+   "ryhmad": [
+    "Isiklik",
+    "Professionaalne"
+   ],
+   "read": [
+    {
+     "tekst": "Ametnikul on raske austusega suhelda kinnipeetavaga, kes avaldab rassistlikke vaateid",
+     "oige": 0
+    },
+    {
+     "tekst": "Ametnik tahab aidata kinnipeetavat võlgadega, kuid ei tunne seda valdkonda",
+     "oige": 1
+    }
+   ]
+  }
+ ],
+ "ps-t08-04": [
+  {
+   "tyyp": "fakt",
+   "kysimus": "Mida näitavad uuringud prosotsiaalse mudeldamise kohta?",
+   "valikud": [
+    "See ei mõjuta midagi",
+    "See on tõhus korduvkuritegevuse vähendamisel",
+    "See suurendab rikkumisi",
+    "See mõjub ainult kolleegidele"
+   ],
+   "oige": 1,
+   "selgitus": "Järelevalvemudelid, kus see on sees, näitavad madalamat korduvkuritegevust."
+  },
+  {
+   "tyyp": "sorteeri",
+   "kysimus": "Milline prosotsiaalne käitumine?",
+   "ryhmad": [
+    "Vigade tunnistamine",
+    "Täpsus ja usaldusväärsus",
+    "Koostöine probleemilahendus"
+   ],
+   "read": [
+    {
+     "tekst": "„Eksisin kuupäevaga, parandan selle kohe.”",
+     "oige": 0
+    },
+    {
+     "tekst": "Ametnik tuleb kohtumisele täpselt kokkulepitud ajal",
+     "oige": 1
+    },
+    {
+     "tekst": "„Mõtleme koos, kuidas sa saaksid enne vabanemist dokumendid korda.”",
+     "oige": 2
+    }
+   ]
+  }
+ ]
+}
