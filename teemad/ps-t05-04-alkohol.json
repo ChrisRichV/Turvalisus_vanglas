@@ -96,24 +96,21 @@
   },
   {
    "tyyp": "vordlus",
-   "pealkiri": "Kaks näidet kursusest",
+   "pealkiri": "Kaks näidet materjalist",
    "veerud": [
-    "Kuritegu",
     "Mis aitab"
    ],
    "read": [
     {
      "silt": "Lähisuhtevägivald",
      "lahtrid": [
-      "suur osa on seotud alkoholiga",
-      "vägivald väheneb, kui tegeletakse **mõlema partneri** joomise vähendamisega"
+      "suur osa sellest väheneb, kui tegeleda alkoholi tarvitamise vähendamisega **mõlema partneri** puhul"
      ]
     },
     {
      "silt": "Joobes juhtimine",
      "lahtrid": [
-      "korduv",
-      "ainus teaduslikult toimiv: **karistusele järgneb raviprogramm** (kognitiivsed oskused, haridus, sõltuvusravi, elektrooniline jälgimine)"
+      "ainus teaduslikult tõestatud toimiv sekkumine: **karistusele järgneb raviprogramm** (nt kognitiivsete oskuste programm; haridus, sõltuvusravi, elektrooniline jälgimine)"
      ]
     }
    ]

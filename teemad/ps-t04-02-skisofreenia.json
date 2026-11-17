@@ -82,40 +82,56 @@
  "skeemid": [
   {
    "tyyp": "kaardid",
-   "pealkiri": "Sümptomid RHK-10 järgi (lihtsustatult)",
+   "pealkiri": "Sümptomid RHK-10 järgi (a–i, lihtsustatult)",
    "kaardid": [
     {
-     "pealkiri": "Mõtete häired",
      "silt": "a",
+     "pealkiri": "Mõtete häired",
      "tekst": "mõtete kajamine, sisendamine, äravõtmine, levimine"
     },
     {
-     "pealkiri": "Luulumõtted",
      "silt": "b",
-     "tekst": "kontrollist või mõjustusest; kultuurile ebakohased, ebareaalsed uskumused",
+     "pealkiri": "Luulumõtted kontrollist",
+     "tekst": "mõjustus, hõivatus; luululine tajumine",
      "toon": "b"
     },
     {
-     "pealkiri": "Hallutsinatsioonid",
      "silt": "c",
-     "tekst": "hääled, mis kommenteerivad või vaidlevad; püsivad hallutsinatsioonid"
+     "pealkiri": "Kuulmishallutsinatsioonid",
+     "tekst": "hääled kommenteerivad või vaidlevad tema üle"
     },
     {
-     "pealkiri": "Seosetu kõne",
      "silt": "d",
-     "tekst": "mõttekäigu tõkestused, uued sõnad (neologismid)",
+     "pealkiri": "Ebareaalsed luulumõtted",
+     "tekst": "kultuurile ebakohased (nt üliinimlik jõud, ilma kontrollimine)",
      "toon": "b"
     },
     {
-     "pealkiri": "Katatoonia",
      "silt": "e",
-     "tekst": "rahutus, tardumine, mutism, stuupor"
+     "pealkiri": "Püsivad hallutsinatsioonid",
+     "tekst": "mis tahes meelega; iga päev nädalate või kuude jooksul"
     },
     {
-     "pealkiri": "Negatiivsed sümptomid",
      "silt": "f",
-     "tekst": "apaatia, kõnevaegus, tuimus, isoleerumine",
+     "pealkiri": "Seosetu mõtlemine ja kõne",
+     "tekst": "mõttekäigu katkemine, neologismid",
      "toon": "b"
+    },
+    {
+     "silt": "g",
+     "pealkiri": "Katatoonne käitumine",
+     "tekst": "rahutus, tardumine, negativism, mutism, stuupor"
+    },
+    {
+     "silt": "h",
+     "pealkiri": "Negatiivsed sümptomid",
+     "tekst": "apaatia, kõnevaegus, tundetuimus → isoleerumine",
+     "toon": "b"
+    },
+    {
+     "silt": "i",
+     "pealkiri": "Käitumise püsiv muutus",
+     "tekst": "huvide kadu, sihitus, tegevusetus, enesesse sulgumine"
     }
    ],
    "kitsad": true
