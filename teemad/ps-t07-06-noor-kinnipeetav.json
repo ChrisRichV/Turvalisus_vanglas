@@ -55,64 +55,16 @@
  ],
  "skeemid": [
   {
-   "tyyp": "kaardid",
-   "pealkiri": "Vangistatud noortel võrreldes tavapopulatsiooniga",
-   "kaardid": [
-    {
-     "pealkiri": "Psühhoos",
-     "silt": "10×",
-     "tekst": "10 korda rohkem"
-    },
-    {
-     "pealkiri": "ATH",
-     "silt": "2–4×",
-     "tekst": "2 kuni 4 korda rohkem",
-     "toon": "b"
-    },
-    {
-     "pealkiri": "Käitumishäired",
-     "silt": "5–20×",
-     "tekst": "5 kuni 20 korda rohkem"
-    },
-    {
-     "pealkiri": "Ainete kuritarvitamine",
-     "silt": "↑",
-     "tekst": "erakordselt kõrge; sageli mitu häiret korraga (komorbiidsus)",
-     "toon": "b"
-    }
-   ],
-   "kitsad": true
+   "tyyp": "mermaid",
+   "pealkiri": "Vangistatud noored võrreldes tavapopulatsiooniga",
+   "alt": "Psühhoosi 10 korda, ATH-d 2–4 korda ja käitumishäireid 5–20 korda rohkem kui tavapopulatsioonil. Tulp näitab vahemiku ülemist piiri, tumedam osa alumist.",
+   "kood": "xychart-beta\n  title \"Mitu korda sagedamini (ülemine ja alumine piir)\"\n  x-axis [\"Psühhoos\", \"ATH\", \"Käitumishäired\"]\n  y-axis \"korda\" 0 --> 20\n  bar [10, 4, 20]\n  bar [10, 2, 5]"
   },
   {
-   "tyyp": "sambad",
-   "pealkiri": "Riskitegurid noore kriminaalseks käitumiseks",
-   "sambad": [
-    {
-     "pealkiri": "Individuaalsed ja arengulised",
-     "read": [
-      "rasedusaegsed riskid",
-      "madal käitumuslik ja emotsionaalne regulatsioon lapsepõlves",
-      "neuroloogilised defitsiidid"
-     ]
-    },
-    {
-     "pealkiri": "Perekondlikud",
-     "toon": "b",
-     "read": [
-      "mitme põlvkonna käitumisprobleemid ja kuritegevus",
-      "vanemate madal haridustase",
-      "ebakorrapärane vanemlik distsipliin"
-     ]
-    },
-    {
-     "pealkiri": "Keskkondlikud",
-     "read": [
-      "sotsiaalselt ebaorganiseeritud naabruskond",
-      "vägivald kogukonnas",
-      "kogukonna madal ühine efektiivsus"
-     ]
-    }
-   ]
+   "tyyp": "mermaid",
+   "pealkiri": "Noore kriminaalse käitumise riskitegurid",
+   "alt": "Individuaalsed ja arengulised, perekondlikud ning keskkondlikud riskitegurid.",
+   "kood": "mindmap\n  root((Noore riskitegurid))\n    Individuaalsed ja arengulised\n      Rasedusaegsed riskid\n      Madal käitumise ja emotsioonide regulatsioon\n      Neuroloogilised puudujäägid\n    Perekondlikud\n      Mitme põlvkonna kuritegevus\n      Vanemate madal haridustase\n      Ebakorrapärane distsipliin\n    Keskkondlikud\n      Ebaorganiseeritud naabruskond\n      Vägivald kogukonnas\n      Kogukonna madal ühine efektiivsus"
   }
  ],
  "inspektor": {

@@ -48,40 +48,10 @@
  ],
  "skeemid": [
   {
-   "tyyp": "sambad",
-   "pealkiri": "Kolm valdkonda",
-   "katus": {
-    "pealkiri": "Korrektsioonisüsteemi eesmärgid",
-    "tekst": "turvaline ja inimlik kinnipidamine, käitumise muutmine"
-   },
-   "sambad": [
-    {
-     "pealkiri": "Vaimse tervise häired",
-     "read": [
-      "diagnoosimine, põhjused, ravi",
-      "aitab luua **turvalise ja inimliku** keskkonna"
-     ]
-    },
-    {
-     "pealkiri": "Kognitiiv-käitumuslik mudel",
-     "toon": "b",
-     "read": [
-      "hindab ja selgitab käitumist teaduslikult",
-      "sobib igas keskkonnas ja igale inimesele – ka kriminaalsele käitumisele"
-     ]
-    },
-    {
-     "pealkiri": "Kriminoloogiline psühholoogia",
-     "read": [
-      "selgitab kuriteo põhjusi ja teket",
-      "aitab märgata **riskitegureid** ja valida õige sekkumise"
-     ]
-    }
-   ],
-   "alus": {
-    "pealkiri": "Teaduslikult tõestatud teadmine",
-    "tekst": "mitte ainult isiklik kogemus ja loogika"
-   }
+   "tyyp": "mermaid",
+   "pealkiri": "Kolm valdkonda, mida vajab iga ametnik",
+   "alt": "Vaimse tervise häirete teadmised, kognitiiv-käitumuslik mudel ja kriminoloogiline psühholoogia.",
+   "kood": "mindmap\n  root((Iga ametnik vajab))\n    Vaimse tervise häired\n      Diagnoosimine, põhjused, ravi\n      Turvaline ja inimlik keskkond\n    Kognitiiv-käitumuslik mudel\n      Hindab ja selgitab käitumist teaduslikult\n      Sobib igas keskkonnas\n    Kriminoloogiline psühholoogia\n      Kuriteo põhjused ja teke\n      Riskitegurite märkamine\n      Õige sekkumise valik"
   },
   {
    "tyyp": "vordlus",
@@ -113,6 +83,12 @@
      ]
     }
    ]
+  },
+  {
+   "tyyp": "mermaid",
+   "pealkiri": "Suurbritannia näide",
+   "alt": "25 aastat taasühiskonnastamist; ühiskonna vaade muutus negatiivseks ja rahastust vähendati; riik pöördus karistavama süsteemi poole.",
+   "kood": "flowchart TD\n  A[\"25 aastat taasühiskonnastamise rada\"] --> B[\"Ühiskonna vaade muutub negatiivseks:<br/>„kurjategijad pääsevad liiga kergelt”\"]\n  B --> C[\"Rahastust vähendatakse\"]\n  C --> D[\"Tagasi karistavama süsteemi poole\"]"
   }
  ],
  "inspektor": {

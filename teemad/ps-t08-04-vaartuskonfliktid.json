@@ -86,6 +86,12 @@
  ],
  "skeemid": [
   {
+   "tyyp": "mermaid",
+   "pealkiri": "Väärtuskonflikti ära tundmine",
+   "alt": "Kaks olulist väärtust põrkuvad; märgid on kahtlemine, ebakindlus, segadus, ümberotsustamine ja edasilükkamine.",
+   "kood": "flowchart TD\n  V1[\"Väärtus A\"] --> K{\"Väärtuskonflikt\"}\n  V2[\"Väärtus B\"] --> K\n  K --> M1[\"Kahtlemine\"]\n  K --> M2[\"Ebakindlus, segadus\"]\n  K --> M3[\"Korduv ümberotsustamine\"]\n  K --> M4[\"Otsuse edasilükkamine\"]"
+  },
+  {
    "tyyp": "vordlus",
    "pealkiri": "Väärtuskonflikt juhtumikorraldaja töös",
    "veerud": [

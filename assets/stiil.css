@@ -1245,3 +1245,14 @@ mark { background: var(--vask-hele); color: inherit; border-radius: 2px; padding
 .lehitse-nupud a { min-width: 0; max-width: 100%; }
 .l-tekst { min-width: 0; }
 .l-tekst b, .teema-pais h1, .mat-plokk h3 { overflow-wrap: anywhere; hyphens: auto; }
+
+/* ---------- Excalidraw- ja Mermaid-joonised (17.11.2026) ---------- */
+.s-joonis { margin: .4rem 0 .2rem; }
+.s-joonis .joonis { width: 100%; margin: 0 auto; }
+.s-joonis .joonis svg { display: block; width: 100%; height: auto; max-width: 100%; }
+.s-mermaid .joonis svg { max-width: 680px !important; margin: 0 auto; }
+.s-joonis .joonis-alt { font-size: .88rem; color: var(--mahe); margin: .3rem 0 0; }
+.s-joonis.valmis .joonis-alt { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+.s-joonis:not(.valmis) .joonis { min-height: 2rem; }
+.s-joonis.viga .joonis { display: none; }
+.s-excalidraw text { font-family: "Archivo", Arial, sans-serif; }

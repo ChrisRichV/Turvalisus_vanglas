@@ -37,26 +37,146 @@
  ],
  "skeemid": [
   {
-   "tyyp": "ring",
-   "pealkiri": "Koostöösuhte osad",
-   "keskel": {
-    "pealkiri": "Koostöösuhe"
-   },
-   "osad": [
+   "tyyp": "excalidraw",
+   "pealkiri": "Koostöösuhte kolm osa",
+   "alt": "Kokkulepitud eesmärgid → Ülesannetega seotud koostöö → Omavaheline suhe → (uuesti)",
+   "elemendid": [
     {
-     "pealkiri": "Kokkulepitud eesmärgid",
-     "tekst": "lepitud kokku ühiselt; muutunud oluliseks ka kinnipeetavale"
+     "type": "ellipse",
+     "id": "b229",
+     "x": 160,
+     "y": 210,
+     "width": 160,
+     "height": 80,
+     "backgroundColor": "#fff3bf",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "Koostöösuhe",
+      "fontSize": 18
+     }
     },
     {
-     "pealkiri": "Ülesannetega seotud koostöö",
-     "tekst": "eesmärgi poole liikudes toetab ametnik info, motiveerimise ja oskuste õpetamisega",
-     "toon": "b"
+     "type": "rectangle",
+     "id": "b230",
+     "x": 165,
+     "y": 42,
+     "width": 150,
+     "height": 66,
+     "backgroundColor": "#a5d8ff",
+     "fillStyle": "solid",
+     "strokeColor": "#4a9eed",
+     "label": {
+      "text": "Kokkulepitud eesmärgid",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "pealkiri": "Omavaheline suhe",
-     "tekst": "aktsepteeriv, empaatiline ja lugupidav"
+     "type": "rectangle",
+     "id": "b231",
+     "x": 330,
+     "y": 304,
+     "width": 150,
+     "height": 66,
+     "backgroundColor": "#b2f2bb",
+     "fillStyle": "solid",
+     "strokeColor": "#22c55e",
+     "label": {
+      "text": "Ülesannetega seotud koostöö",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "rectangle",
+     "id": "b232",
+     "x": 0,
+     "y": 304,
+     "width": 150,
+     "height": 66,
+     "backgroundColor": "#d0bfff",
+     "fillStyle": "solid",
+     "strokeColor": "#8b5cf6",
+     "label": {
+      "text": "Omavaheline suhe",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a233",
+     "x": 264,
+     "y": 113,
+     "width": 117,
+     "height": 186,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       117,
+       186
+      ]
+     ],
+     "strokeColor": "#757575",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "arrow",
+     "id": "a234",
+     "x": 325,
+     "y": 337,
+     "width": -169,
+     "height": 0,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       -169,
+       0
+      ]
+     ],
+     "strokeColor": "#757575",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "arrow",
+     "id": "a235",
+     "x": 99,
+     "y": 299,
+     "width": 117,
+     "height": -186,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       117,
+       -186
+      ]
+     ],
+     "strokeColor": "#757575",
+     "endArrowhead": "arrow"
     }
    ]
+  },
+  {
+   "tyyp": "mermaid",
+   "pealkiri": "Koostöösuhte eesmärk",
+   "alt": "Vastastikune aktsepteerimine ja lugupidamine („meie”) viivad õigusrikkuja iseseisva seaduskuuleka toimetulekuni.",
+   "kood": "flowchart LR\n  A[\"Vastastikune aktsepteerimine<br/>ja lugupidamine – „meie”\"] --> K([\"Koostöösuhe\"]) --> E[\"Iseseisev seaduskuulekas<br/>toimetulek\"]"
   }
  ],
  "inspektor": {

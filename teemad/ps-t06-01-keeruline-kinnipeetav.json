@@ -44,37 +44,390 @@
  ],
  "skeemid": [
   {
-   "tyyp": "kaardid",
-   "pealkiri": "Käitumist mõjutavad tegurid",
-   "kaardid": [
+   "tyyp": "excalidraw",
+   "pealkiri": "Viis käitumist mõjutavat tegurit",
+   "alt": "Keeruline käitumine: Sotsiaalne isolatsioon; Rollid ja ootused; Asutuse mõju; Vangla keskkond; Isiklikud uskumused",
+   "elemendid": [
     {
-     "pealkiri": "Sotsiaalne isolatsioon",
-     "silt": "1",
-     "tekst": "Vähene kontakt süvendab antisotsiaalseid jooni ja tekitab düsfunktsionaalseid reaktsioone. Inimene vajab sisukat suhtlust."
+     "type": "ellipse",
+     "id": "b39",
+     "x": 145,
+     "y": 202,
+     "width": 190,
+     "height": 96,
+     "backgroundColor": "#ffc9c9",
+     "fillStyle": "solid",
+     "strokeColor": "#ef4444",
+     "label": {
+      "text": "Keeruline käitumine",
+      "fontSize": 19
+     }
     },
     {
-     "pealkiri": "Rollid ja ootused",
-     "silt": "2",
-     "tekst": "Kui kinnipeetavalt oodatakse halba, see sageli materialiseerub – nõiaring, kus ootused loovad reaalsust.",
-     "toon": "b"
+     "type": "rectangle",
+     "id": "b40",
+     "x": 165,
+     "y": 23,
+     "width": 150,
+     "height": 64,
+     "backgroundColor": "#ffd8a8",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "Sotsiaalne isolatsioon",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "pealkiri": "Asutuse mõju",
-     "silt": "3",
-     "tekst": "Kui vanglat peetakse julmaks ja ametnikel on sama mentaliteet, süvendab see probleemi. Julmad vanglad loovad julmemaid kinnipeetavaid."
+     "type": "arrow",
+     "id": "a41",
+     "x": 240,
+     "y": 91,
+     "width": 0,
+     "height": 107,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       107
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
     },
     {
-     "pealkiri": "Vangla keskkond",
-     "silt": "4",
-     "tekst": "Piiratud vabadus ja rutiin võivad tekitada pingeid.",
-     "toon": "b"
+     "type": "rectangle",
+     "id": "b42",
+     "x": 370,
+     "y": 158,
+     "width": 150,
+     "height": 64,
+     "backgroundColor": "#ffd8a8",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "Rollid ja ootused",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "pealkiri": "Isiklikud uskumused",
-     "silt": "5",
-     "tekst": "Nt „tõelised mehed istuvad range režiimiga vanglas” – võib ajendada kõike tegema, et sinna sattuda."
+     "type": "arrow",
+     "id": "a43",
+     "x": 366,
+     "y": 213,
+     "width": -26,
+     "height": 8,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       -26,
+       8
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b44",
+     "x": 292,
+     "y": 376,
+     "width": 150,
+     "height": 64,
+     "backgroundColor": "#ffd8a8",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "Asutuse mõju",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a45",
+     "x": 338,
+     "y": 372,
+     "width": -56,
+     "height": -70,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       -56,
+       -70
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b46",
+     "x": 38,
+     "y": 376,
+     "width": 150,
+     "height": 64,
+     "backgroundColor": "#ffd8a8",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "Vangla keskkond",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a47",
+     "x": 142,
+     "y": 372,
+     "width": 56,
+     "height": -70,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       56,
+       -70
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b48",
+     "x": -40,
+     "y": 158,
+     "width": 150,
+     "height": 64,
+     "backgroundColor": "#ffd8a8",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "Isiklikud uskumused",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a49",
+     "x": 114,
+     "y": 213,
+     "width": 26,
+     "height": 8,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       26,
+       8
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "text",
+     "id": "t50",
+     "x": 40,
+     "y": 515,
+     "text": "Käitumisel on alati kindel eesmärk või funktsioon.",
+     "fontSize": 16,
+     "strokeColor": "#757575"
     }
    ]
+  },
+  {
+   "tyyp": "excalidraw",
+   "pealkiri": "Nõiaring: ootused loovad reaalsuse",
+   "alt": "Oodatakse halba käitumist → Halb käitumine tekib → Ootus „kinnitub” → Karistav hoiak → (uuesti)",
+   "elemendid": [
+    {
+     "type": "rectangle",
+     "id": "b51",
+     "x": 165,
+     "y": 42,
+     "width": 150,
+     "height": 66,
+     "backgroundColor": "#fff3bf",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "Oodatakse halba käitumist",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "rectangle",
+     "id": "b52",
+     "x": 355,
+     "y": 217,
+     "width": 150,
+     "height": 66,
+     "backgroundColor": "#ffc9c9",
+     "fillStyle": "solid",
+     "strokeColor": "#ef4444",
+     "label": {
+      "text": "Halb käitumine tekib",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "rectangle",
+     "id": "b53",
+     "x": 165,
+     "y": 392,
+     "width": 150,
+     "height": 66,
+     "backgroundColor": "#ffd8a8",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "Ootus „kinnitub”",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "rectangle",
+     "id": "b54",
+     "x": -25,
+     "y": 217,
+     "width": 150,
+     "height": 66,
+     "backgroundColor": "#d0bfff",
+     "fillStyle": "solid",
+     "strokeColor": "#8b5cf6",
+     "label": {
+      "text": "Karistav hoiak",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a55",
+     "x": 281,
+     "y": 113,
+     "width": 107,
+     "height": 99,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       107,
+       99
+      ]
+     ],
+     "strokeColor": "#757575",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "arrow",
+     "id": "a56",
+     "x": 389,
+     "y": 288,
+     "width": -107,
+     "height": 99,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       -107,
+       99
+      ]
+     ],
+     "strokeColor": "#757575",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "arrow",
+     "id": "a57",
+     "x": 199,
+     "y": 387,
+     "width": -107,
+     "height": -99,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       -107,
+       -99
+      ]
+     ],
+     "strokeColor": "#757575",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "arrow",
+     "id": "a58",
+     "x": 91,
+     "y": 212,
+     "width": 107,
+     "height": -99,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       107,
+       -99
+      ]
+     ],
+     "strokeColor": "#757575",
+     "endArrowhead": "arrow"
+    }
+   ]
+  },
+  {
+   "tyyp": "mermaid",
+   "pealkiri": "Keeruliste kinnipeetavate osa",
+   "alt": "Umbes 68% vägivallajuhtumitest ja 73% vara lõhkumistest on seotud keeruliste kinnipeetavatega; arvud võivad olla suuremad, sest nende rikkumisi pannakse rohkem kirja.",
+   "kood": "xychart-beta\n  title \"Seotud keeruliste kinnipeetavatega (%)\"\n  x-axis [\"Vägivallajuhtumid\", \"Vara lõhkumised\"]\n  y-axis \"%\" 0 --> 100\n  bar [68, 73]"
   }
  ],
  "inspektor": {

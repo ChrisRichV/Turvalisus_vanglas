@@ -81,6 +81,12 @@
      ]
     }
    ]
+  },
+  {
+   "tyyp": "mermaid",
+   "pealkiri": "Ärevus ja ained",
+   "alt": "Ärevushäire on sageli olnud juba vabaduses ja seda on maandatud sõltuvusainetega.",
+   "kood": "flowchart LR\n  A[\"Ärevushäire juba vabaduses\"] --> M[\"Maandatakse<br/>sõltuvusainetega\"] --> V([\"Vanglas: ärevus +<br/>sageli ka depressioon\"])"
   }
  ],
  "inspektor": {

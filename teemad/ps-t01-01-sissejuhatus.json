@@ -51,22 +51,111 @@
  ],
  "skeemid": [
   {
-   "tyyp": "voog",
+   "tyyp": "excalidraw",
    "pealkiri": "Iga teema kolm sammu",
-   "sammud": [
+   "alt": "1. Teooria → 2. Seostamine → 3. Praktika",
+   "elemendid": [
     {
-     "pealkiri": "1. Teooria",
-     "tekst": "õpime teooriat"
+     "type": "rectangle",
+     "id": "b1",
+     "x": 30,
+     "y": 0,
+     "width": 420,
+     "height": 76,
+     "backgroundColor": "#a5d8ff",
+     "fillStyle": "solid",
+     "strokeColor": "#4a9eed",
+     "label": {
+      "text": "1. Teooria\nõpime teooriat",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "pealkiri": "2. Seostamine",
-     "tekst": "analüüsime ja seome varasemate teadmistega"
+     "type": "arrow",
+     "id": "a2",
+     "x": 240,
+     "y": 80,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
     },
     {
-     "pealkiri": "3. Praktika",
-     "tekst": "proovime läbi oma kogemuse või juhtumi kaudu"
+     "type": "rectangle",
+     "id": "b3",
+     "x": 30,
+     "y": 120,
+     "width": 420,
+     "height": 97,
+     "backgroundColor": "#d0bfff",
+     "fillStyle": "solid",
+     "strokeColor": "#8b5cf6",
+     "label": {
+      "text": "2. Seostamine\nanalüüsime ja seome varasemate teadmistega",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a4",
+     "x": 240,
+     "y": 221,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b5",
+     "x": 30,
+     "y": 261,
+     "width": 420,
+     "height": 97,
+     "backgroundColor": "#b2f2bb",
+     "fillStyle": "solid",
+     "strokeColor": "#22c55e",
+     "label": {
+      "text": "3. Praktika\noma kogemuse või juhtumi kaudu",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
     }
    ]
+  },
+  {
+   "tyyp": "mermaid",
+   "pealkiri": "Mida kursusel uuritakse",
+   "alt": "Kuritegevuse, retsidiivsuse ja psühholoogia seosed; uurimismeetodid; häired vanglas ja sekkumised; psühholoogi rollid; eetika.",
+   "kood": "mindmap\n  root((Korrektsioonipsühholoogia))\n    Kuritegevus, retsidiivsus ja psühholoogia\n    Uurimismeetodid\n    Häired vanglas ja sekkumised\n    Psühholoogi ja psühholoogia rollid\n    Eetika"
   }
  ],
  "inspektor": {

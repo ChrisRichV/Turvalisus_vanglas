@@ -67,22 +67,111 @@
  ],
  "skeemid": [
   {
-   "tyyp": "voog",
+   "tyyp": "excalidraw",
    "pealkiri": "Koer ja kell",
-   "sammud": [
+   "alt": "Enne õppimist → Õppimise ajal → Pärast õppimist",
+   "elemendid": [
     {
-     "pealkiri": "Enne õppimist",
-     "tekst": "Kell = **neutraalne stiimul** – koer ei reageeri. Toit = **tingimatu stiimul** – koeral tekib süljeeritus (**tingimatu vastus**)."
+     "type": "rectangle",
+     "id": "b35",
+     "x": 30,
+     "y": 0,
+     "width": 420,
+     "height": 118,
+     "backgroundColor": "#a5d8ff",
+     "fillStyle": "solid",
+     "strokeColor": "#4a9eed",
+     "label": {
+      "text": "Enne õppimist\nkell = neutraalne stiimul (reaktsiooni pole); toit = tingimatu stiimul → sülg",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "pealkiri": "Õppimise ajal",
-     "tekst": "Kell ja toit esitatakse **koos**, mitu korda."
+     "type": "arrow",
+     "id": "a36",
+     "x": 240,
+     "y": 122,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
     },
     {
-     "pealkiri": "Pärast õppimist",
-     "tekst": "Kell = **tingitud stiimul** – koeral tekib süljeeritus ka ilma toiduta (**tingitud vastus**)."
+     "type": "rectangle",
+     "id": "b37",
+     "x": 30,
+     "y": 162,
+     "width": 420,
+     "height": 97,
+     "backgroundColor": "#fff3bf",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "Õppimise ajal\nkell + toit koos, mitu korda",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a38",
+     "x": 240,
+     "y": 263,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b39",
+     "x": 30,
+     "y": 303,
+     "width": 420,
+     "height": 97,
+     "backgroundColor": "#b2f2bb",
+     "fillStyle": "solid",
+     "strokeColor": "#22c55e",
+     "label": {
+      "text": "Pärast õppimist\nkell = tingitud stiimul → sülg ka ilma toiduta",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
     }
    ]
+  },
+  {
+   "tyyp": "mermaid",
+   "pealkiri": "Näide: Andrus",
+   "alt": "Eesti keele tund (neutraalne) ja õpetaja karjumine (tingimatu stiimul) tekitavad hirmu ja nutu; pärast kordamist tekitab nutu juba klassi uks (tingitud stiimul).",
+   "kood": "flowchart TD\n  N[\"Eesti keele tund<br/>(neutraalne stiimul)\"] --> K[\"Õpetaja karjub<br/>(tingimatu stiimul)\"]\n  K --> V[\"Hirm ja nutt<br/>(tingimatu vastus)\"]\n  V -. \"kordub mitu korda\" .-> U[\"Klassi uks<br/>(tingitud stiimul)\"]\n  U --> T[\"Nutt juba ukse juures<br/>(tingitud vastus)\"]"
   },
   {
    "tyyp": "kaardid",

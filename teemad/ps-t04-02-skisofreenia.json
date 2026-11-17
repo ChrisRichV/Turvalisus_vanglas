@@ -137,25 +137,185 @@
    "kitsad": true
   },
   {
-   "tyyp": "voog",
+   "tyyp": "mermaid",
+   "pealkiri": "Skisofreenia ja vägivald",
+   "alt": "Skisofreenia seos vägivallaga käib sõltuvuskäitumise kaudu; ilma sõltuvusaineteta on vägivaldse kuriteo risk oluliselt väiksem.",
+   "kood": "flowchart TD\n  S([\"Skisofreenia\"]) --> A[\"+ sõltuvusained\"] --> K[\"Vägivaldse kuriteo<br/>risk suur\"]\n  S --> B[\"ilma sõltuvusaineteta\"] --> V[\"Risk oluliselt väiksem\"]"
+  },
+  {
+   "tyyp": "excalidraw",
    "pealkiri": "Ravi valem",
-   "sammud": [
+   "alt": "Antipsühhootilised ravimid → + Psühhoharimine → + Kognitiivne rehabilitatsioon → + Tööga seotud treening → + Pikaajaline raviväline tugi",
+   "elemendid": [
     {
-     "pealkiri": "Antipsühhootilised ravimid"
+     "type": "rectangle",
+     "id": "b104",
+     "x": 30,
+     "y": 0,
+     "width": 420,
+     "height": 55,
+     "backgroundColor": "#a5d8ff",
+     "fillStyle": "solid",
+     "strokeColor": "#4a9eed",
+     "label": {
+      "text": "Antipsühhootilised ravimid",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "pealkiri": "+ Psühhoharimine",
-     "tekst": "inimene saab aru oma haigusest"
+     "type": "arrow",
+     "id": "a105",
+     "x": 240,
+     "y": 59,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
     },
     {
-     "pealkiri": "+ Kognitiivne rehabilitatsioon"
+     "type": "rectangle",
+     "id": "b106",
+     "x": 30,
+     "y": 99,
+     "width": 420,
+     "height": 55,
+     "backgroundColor": "#d0bfff",
+     "fillStyle": "solid",
+     "strokeColor": "#8b5cf6",
+     "label": {
+      "text": "+ Psühhoharimine",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "pealkiri": "+ Tööga seotud treening"
+     "type": "arrow",
+     "id": "a107",
+     "x": 240,
+     "y": 158,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
     },
     {
-     "pealkiri": "+ Pikaajaline raviväline tugi",
-     "tekst": "jälgimine kogu elu, et inimene püsiks raviskeemis"
+     "type": "rectangle",
+     "id": "b108",
+     "x": 30,
+     "y": 198,
+     "width": 420,
+     "height": 55,
+     "backgroundColor": "#b2f2bb",
+     "fillStyle": "solid",
+     "strokeColor": "#22c55e",
+     "label": {
+      "text": "+ Kognitiivne rehabilitatsioon",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a109",
+     "x": 240,
+     "y": 257,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b110",
+     "x": 30,
+     "y": 297,
+     "width": 420,
+     "height": 55,
+     "backgroundColor": "#fff3bf",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "+ Tööga seotud treening",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a111",
+     "x": 240,
+     "y": 356,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b112",
+     "x": 30,
+     "y": 396,
+     "width": 420,
+     "height": 55,
+     "backgroundColor": "#c3fae8",
+     "fillStyle": "solid",
+     "strokeColor": "#06b6d4",
+     "label": {
+      "text": "+ Pikaajaline raviväline tugi",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
     }
    ]
   }

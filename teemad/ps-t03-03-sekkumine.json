@@ -94,26 +94,149 @@
  ],
  "skeemid": [
   {
-   "tyyp": "voog",
-   "pealkiri": "Tüüpilise sekkumise ülesehitus",
-   "sammud": [
+   "tyyp": "excalidraw",
+   "pealkiri": "Tüüpilise sekkumise faasid",
+   "alt": "Ettevalmistus: kriis → Tegutsemine: kognitiivsed oskused → Tegutsemine: käitumuslikud oskused → Järelfaas",
+   "elemendid": [
     {
-     "pealkiri": "Ettevalmistus: kriis",
-     "tekst": "Inimene saab aru, et kriminaalne eluviis ei tööta ja kahju on suurem kui kasu. Ta nimetab inimesi, kellele on haiget teinud, kaotatud võimalusi ja suhteid. Vaja on **Shamani efekti** (koostöö) ja **avalikku muutuse lubadust**."
+     "type": "rectangle",
+     "id": "b97",
+     "x": 30,
+     "y": 0,
+     "width": 420,
+     "height": 118,
+     "backgroundColor": "#ffc9c9",
+     "fillStyle": "solid",
+     "strokeColor": "#ef4444",
+     "label": {
+      "text": "Ettevalmistus: kriis\nkriminaalne eluviis ei tööta; Shamani efekt; muutuse soov välja öeldud",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "pealkiri": "Tegutsemine: kognitiivsed oskused",
-     "tekst": "Õpitakse ära tundma kriminaalseid mõtteprotsesse – ka teistes. Harjutused ja kohene tagasiside. Kaks küsimust: *Mis tõendab minu uskumust? Kuidas see mõtlemine mulle tulevikus kasu toob?*"
+     "type": "arrow",
+     "id": "a98",
+     "x": 240,
+     "y": 122,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
     },
     {
-     "pealkiri": "Tegutsemine: käitumuslikud oskused",
-     "tekst": "Rollimängud, kodutööd, harjutamine – algul toetavas keskkonnas, siis samm-sammult päriselus."
+     "type": "rectangle",
+     "id": "b99",
+     "x": 30,
+     "y": 162,
+     "width": 420,
+     "height": 97,
+     "backgroundColor": "#fff3bf",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "Tegutsemine: kognitiivsed oskused\nmõtteprotsessid ära tunda ja asendada",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "pealkiri": "Järelfaas",
-     "tekst": "Kohtumised jätkuvad: **integreerimine** (mõte ja käitumine ühte) ja **võimendamine** (enesetõhusus: lõpetatud kodutööd, tugevused)."
+     "type": "arrow",
+     "id": "a100",
+     "x": 240,
+     "y": 263,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b101",
+     "x": 30,
+     "y": 303,
+     "width": 420,
+     "height": 118,
+     "backgroundColor": "#a5d8ff",
+     "fillStyle": "solid",
+     "strokeColor": "#4a9eed",
+     "label": {
+      "text": "Tegutsemine: käitumuslikud oskused\nrollimängud, kodutööd – algul toetavas keskkonnas",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a102",
+     "x": 240,
+     "y": 425,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b103",
+     "x": 30,
+     "y": 465,
+     "width": 420,
+     "height": 97,
+     "backgroundColor": "#b2f2bb",
+     "fillStyle": "solid",
+     "strokeColor": "#22c55e",
+     "label": {
+      "text": "Järelfaas\nintegreerimine ja võimendamine",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
     }
    ]
+  },
+  {
+   "tyyp": "mermaid",
+   "pealkiri": "Kaks küsimust endale",
+   "alt": "Kriminaalset uskumust kontrollitakse kahe küsimusega: mis seda toetab ja kuidas see toob tulevikus kasu; seejärel asendatakse see mittekriminaalse alternatiiviga.",
+   "kood": "flowchart TD\n  U[\"Kriminaalne uskumus\"] --> Q1{\"Mis info või tõend<br/>toetab seda?\"}\n  U --> Q2{\"Kuidas toob see mõtlemine<br/>mulle tulevikus kasu?\"}\n  Q1 --> A([\"Asenda mittekriminaalse<br/>alternatiiviga\"])\n  Q2 --> A"
   }
  ],
  "inspektor": {

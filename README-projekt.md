@@ -63,6 +63,8 @@ kontrollib sisu.
 | `moistekaart.html?vaade=…&valitud=m:riive` | **Mõistekaart** kolmel tasandil: üks tund (`vaade=o-t11`), aine kõik tunnid (`vaade=aine:oigus`, kogumid = tunnid) ja tervikpilt (`vaade=koik`, kogumid = ained). Valikus on kõik aine tunnid numbritega; tulemas tunnid on punktiiriga. Sõlmed = teemad, mõisted, sätted; paneel, loendivaade | harva |
 | `assets/app.js` | Andmed, märgistus (`md`), **ühine päis + sisukorra sahtel** (`A.kaivita({leht, aine, tund, teema})`), hüpikaknad, näiteaken, harjutused, tagasiside | harva |
 | `assets/skeemid.js` | Skeemitüübid (vt tabel „Skeemid”), sh `ring`, `maatriks`, `trepp` | uue tüübi korral |
+| `assets/joonised.js` | Skeemitüübid **`excalidraw`** (Excalidraw' elemendid → käsitsijoonistuse stiilis SVG, joonistatakse siin ilma välise teegita; värvid tumeda/heleda vaate järgi) ja **`mermaid`** (Mermaid 11 laetakse jsdelivr-ist ainult siis, kui lehel on Mermaidi joonis). Mõlemal on `alt` – tekst ekraanilugejale ja varuks, kui joonis ei lae | harva |
+| `tools/joonis.py` | Excalidraw'-jooniste paigutused psühholoogia jaoks: `radiaal`, `ring`, `voog`, `trepp`, `kaks_poolt` (kitsad, telefonis loetavad) | uue paigutuse korral |
 | `assets/ikoonid.js` | Teemade SVG-ikoonid (`A.ikoon(nimi)`, `A.IKOONID`) – ühtne joonstiil, värvitähenduseta | uue ikooni korral |
 | `assets/stiil.css` | Kujundus, hele/tume teema | harva |
 | `assets/seadistus.js` | Supabase URL + **publishable** võti | ei |
@@ -177,6 +179,11 @@ kogu peatüki sisu lihtsas keeles, arvud ja loetelud alles), `skeemid[]`, `inspe
 (`silt2` muudab sildi „Ametlik tekst”). Teemafaile ei muudeta käsitsi: kirjuta `sisu/psuhholoogia/T0N.md` ja käivita
 `python3 tools/ps_sisu.py N` (vorming faili päises). Iga teema = üks H5P-raamatu peatükk. Slaidipildi sisu kirjutatakse **tekstina lahti** ja
 joonistatakse skeemiga. Otsing (`A.teemaTekst`) otsib kogu teksti seest ja näitab leitud lõiku.
+
+**Joonised (psühholoogia):** `sisu/psuhholoogia/T0N.md` SKEEM-osas võib olla kolme liiki plokke: ```` ```json ```` (lehe enda skeem – tabelid ja
+kaardid), ```` ```joonis ```` (Excalidraw: `tools/joonis.py` funktsiooni väljakutse, nt `ring("Muutusering", [...])`) ja ```` ```mermaid ```` (read
+`%% pealkiri:` ja `%% alt:`, seejärel Mermaidi kood – flowchart, mindmap, pie, xychart-beta). Mermaidi koodi kontrolli Mermaid Charti connectoriga;
+Excalidraw' joonist saab eelvaadata Excalidraw' connectoriga (sama elemendivorming). Joonised peavad olema kitsad (≈ 480 px), et telefonis loetav.
 
 **Skeem osa sees:** igal osal (`pohimote`, `alus`, `piiramine`, `vangla`) võib olla oma `skeem` (üks või massiiv) –
 see kuvatakse otse selgituse juures. `jarel` = tekst pärast skeemi. Kõigil skeemidel võivad olla `sissejuhatus` ja `allkiri`.

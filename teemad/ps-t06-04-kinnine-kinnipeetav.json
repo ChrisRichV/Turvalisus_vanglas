@@ -104,6 +104,12 @@
     }
    ],
    "kitsad": true
+  },
+  {
+   "tyyp": "mermaid",
+   "pealkiri": "Miks inimene on kinnine",
+   "alt": "Negatiivsed kogemused, usaldamatus, häbi, hirm hinnangute ees, vajadus kontrolli järele – vajab turvalisemat kontakti.",
+   "kood": "flowchart TD\n  N[\"Negatiivsed kogemused\"] --> K([\"Kinnine suhtlusstiil\"])\n  U[\"Usaldamatus süsteemi vastu\"] --> K\n  H[\"Häbi\"] --> K\n  P[\"Hirm hinnangute ees\"] --> K\n  C[\"Vajadus säilitada kontroll\"] --> K\n  K --> T[\"Vajab turvalisemat ja<br/>usalduslikumat kontakti\"]"
   }
  ],
  "inspektor": {

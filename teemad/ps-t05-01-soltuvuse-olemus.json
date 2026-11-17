@@ -62,6 +62,12 @@
      ]
     }
    ]
+  },
+  {
+   "tyyp": "mermaid",
+   "pealkiri": "Miks kõigil sõltuvust ei teki",
+   "alt": "Tarvitamine ei vii alati sõltuvuseni; sõltuvus tekib, kui saavad kokku mitu riskitegurit.",
+   "kood": "flowchart TD\n  T[\"Aine tarvitamine või proovimine\"] --> E[\"Paljudel sõltuvust ei teki\"]\n  T --> R{\"Mitu riskitegurit<br/>koos?\"}\n  R -- jah --> S([\"Sõltuvus\"])"
   }
  ],
  "inspektor": {

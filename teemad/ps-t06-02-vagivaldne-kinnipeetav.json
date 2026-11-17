@@ -40,22 +40,16 @@
  ],
  "skeemid": [
   {
-   "tyyp": "voog",
-   "pealkiri": "Vägivaldsete kinnipeetavate tüübid",
-   "sammud": [
-    {
-     "pealkiri": "01 Planeeritud rünnak",
-     "tekst": "Eesmärk on **manipuleerida või heidutada** ametnikke ja juhtkonda. Rünnak on pikaajalise planeerimise tulemus – motiive ja tegevust on raske ette näha."
-    },
-    {
-     "pealkiri": "02 Kiire põlemine",
-     "tekst": "Kui soove takistatakse, reageerib **väga kiiresti ja plahvatuslikult**. Rahuneb kiiresti ja on sageli üllatunud, et intsidenti endiselt menetletakse."
-    },
-    {
-     "pealkiri": "03 Aeglaselt kogunev pinge",
-     "tekst": "Pahameel ja viha **kogunevad vaikselt** tajutava ebaõiglase kohtlemise tõttu. Pärast intsidenti rahuneb kiiresti, edasist ohtu ei kujuta."
-    }
-   ]
+   "tyyp": "mermaid",
+   "pealkiri": "Kes käituvad sageli vägivaldselt",
+   "alt": "Vaimse tervise häire, antisotsiaalne isiksusehäire, subkultuursed hoiakud, vägivallakuritegu, noor vanus ja pikk karistus, ebaõigluse tunne.",
+   "kood": "mindmap\n  root((Vägivaldne kinnipeetav))\n    Vaimse tervise häire\n      paranoia, hallutsinatsioonid\n    Antisotsiaalne isiksusehäire\n    Subkultuursed hoiakud\n    Vägivallakuritegu, noor vanus, karistus 5+ aastat\n    Ebaõiglane kohtlemine või ükskõiksus"
+  },
+  {
+   "tyyp": "mermaid",
+   "pealkiri": "Kolm vägivaldse kinnipeetava tüüpi",
+   "alt": "Planeeritud rünnak (manipuleerida, heidutada; raske ette näha), kiire põlemine (plahvatuslik, rahuneb kiiresti), aeglaselt kogunev pinge (tajutud ebaõiglus; pärast ohtu ei kujuta).",
+   "kood": "flowchart TD\n  V([\"Vägivaldne kinnipeetav\"]) --> P[\"Planeeritud rünnak<br/>manipuleerida, heidutada;<br/>raske ette näha\"]\n  V --> K[\"Kiire põlemine<br/>soov takistatakse → plahvatus;<br/>rahuneb kiiresti\"]\n  V --> A[\"Aeglaselt kogunev pinge<br/>tajutud ebaõiglus;<br/>pärast ohtu ei kujuta\"]"
   }
  ],
  "inspektor": {

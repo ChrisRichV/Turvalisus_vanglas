@@ -42,30 +42,187 @@
  ],
  "skeemid": [
   {
-   "tyyp": "voog",
-   "pealkiri": "Korrektsioonipsühholoogia teooriate areng",
-   "sammud": [
+   "tyyp": "excalidraw",
+   "pealkiri": "Teooriate areng",
+   "alt": "1. Psühhoanalüüs → 2. Käitumuslikud teooriad → 3. Sotsiaalne õppimine → 4. Kognitiivne teooria → 5. RNR-mudel",
+   "elemendid": [
     {
-     "pealkiri": "Psühhoanalüüs",
-     "tekst": "Freud; rõhk alateadvusel ja inimese sisemusel. Kuritegevuse vähendamisel ebaefektiivne."
+     "type": "rectangle",
+     "id": "b26",
+     "x": 30,
+     "y": 0,
+     "width": 420,
+     "height": 97,
+     "backgroundColor": "#ffc9c9",
+     "fillStyle": "solid",
+     "strokeColor": "#ef4444",
+     "label": {
+      "text": "1. Psühhoanalüüs\nFreud; kuritegevuse vähendamisel ebaefektiivne",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "pealkiri": "Käitumuslikud teooriad",
-     "tekst": "Algul vanglasisese käitumise kontrollimiseks – kriitika: eesmärk peaks olema kuritegeliku käitumise muutmine."
+     "type": "arrow",
+     "id": "a27",
+     "x": 240,
+     "y": 101,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
     },
     {
-     "pealkiri": "Sotsiaalne õppimine",
-     "tekst": "Vaatlemisest ja imiteerimisest õppimine (Bandura)."
+     "type": "rectangle",
+     "id": "b28",
+     "x": 30,
+     "y": 141,
+     "width": 420,
+     "height": 97,
+     "backgroundColor": "#ffd8a8",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "2. Käitumuslikud teooriad\nalgul vanglasisese käitumise kontrolliks",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "pealkiri": "Kognitiivne teooria",
-     "tekst": "Tekkis vaimse tervise probleemide raviks."
+     "type": "arrow",
+     "id": "a29",
+     "x": 240,
+     "y": 242,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
     },
     {
-     "pealkiri": "Riski-vajaduse-vastavuse mudel (RNR)",
-     "tekst": "Kõige hilisem ja teaduslikult kõige mõjukam teooria sekkumiste läbiviimiseks."
+     "type": "rectangle",
+     "id": "b30",
+     "x": 30,
+     "y": 282,
+     "width": 420,
+     "height": 97,
+     "backgroundColor": "#fff3bf",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "3. Sotsiaalne õppimine\nBandura: vaatlemine ja jäljendamine",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a31",
+     "x": 240,
+     "y": 383,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b32",
+     "x": 30,
+     "y": 423,
+     "width": 420,
+     "height": 97,
+     "backgroundColor": "#a5d8ff",
+     "fillStyle": "solid",
+     "strokeColor": "#4a9eed",
+     "label": {
+      "text": "4. Kognitiivne teooria\ntekkis vaimse tervise probleemide raviks",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a33",
+     "x": 240,
+     "y": 524,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b34",
+     "x": 30,
+     "y": 564,
+     "width": 420,
+     "height": 97,
+     "backgroundColor": "#b2f2bb",
+     "fillStyle": "solid",
+     "strokeColor": "#22c55e",
+     "label": {
+      "text": "5. RNR-mudel\nkõige hilisem ja teaduslikult kõige mõjukam",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
     }
    ]
+  },
+  {
+   "tyyp": "mermaid",
+   "pealkiri": "Sama eesmärk, teine tee",
+   "alt": "Kriminaalne käitumine on õpitud; parim viis seda muuta on õpetada prosotsiaalseid viise sama eesmärgi saavutamiseks.",
+   "kood": "flowchart LR\n  E([\"Eesmärk\"]) --> A[\"Antisotsiaalne viis<br/>(õpitud)\"]\n  E --> P[\"Prosotsiaalne viis<br/>(õpetatakse)\"]"
   }
  ],
  "inspektor": {

@@ -24,7 +24,15 @@ Faili kuju (vt sisu/psuhholoogia/README.md):
     1. nummerdatud punkt
     ### SKEEM
     ```json
-    { "tyyp": "kaardid", … }      (üks või mitu ```json plokki)
+    { "tyyp": "kaardid", … }      (lehe enda skeem; üks või mitu plokki)
+    ```
+    ```joonis
+    ring("Pealkiri", ["A", "B", "C"])   (Excalidraw' joonis, funktsioonid failis tools/joonis.py)
+    ```
+    ```mermaid
+    %% pealkiri: Pealkiri
+    %% alt: lühike tekstiline kirjeldus
+    flowchart TD …                      (Mermaid; kontrolli süntaksit Mermaid Charti connectoriga)
     ```
     ### INSPEKTOR
     tekst / - punktid
@@ -38,6 +46,8 @@ Faili kuju (vt sisu/psuhholoogia/README.md):
 Harjutused võetakse vanadest teemafailidest (vt KAART_HARJUTUSED) – uusi ei lisata.
 """
 import json, os, re, sys, glob
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import joonis as J  # noqa: E402
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SISU = os.path.join(REPO, "sisu", "psuhholoogia")
@@ -110,8 +120,15 @@ def loe_tund(nr):
         for a in alam[1:]:
             read = a.splitlines(); pk = read[0][4:].strip(); keha = read[1:]
             if pk == "SKEEM":
-                for j in re.findall(r"```json\s*\n(.*?)\n```", "\n".join(keha), flags=re.S):
-                    t["skeemid"].append(json.loads(j))
+                for liik, j in re.findall(r"```(json|joonis|mermaid)\s*\n(.*?)\n```", "\n".join(keha), flags=re.S):
+                    if liik == "json":
+                        t["skeemid"].append(json.loads(j))
+                    elif liik == "joonis":   # Excalidraw: tools/joonis.py funktsiooni väljakutse
+                        t["skeemid"].append(eval(j, vars(J)))
+                    else:                    # Mermaid: %% pealkiri: … / %% alt: … read + kood
+                        meta = dict(re.findall(r"^%% (pealkiri|alt): (.*)$", j, flags=re.M))
+                        kood = "\n".join(r for r in j.splitlines() if not re.match(r"^%% (pealkiri|alt): ", r)).strip()
+                        t["skeemid"].append({"tyyp": "mermaid", "pealkiri": meta.get("pealkiri", ""), "alt": meta.get("alt", ""), "kood": kood})
             elif pk == "INSPEKTOR":
                 tav, naide = [], {}
                 for r in keha:

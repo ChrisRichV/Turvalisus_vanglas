@@ -107,6 +107,12 @@
    ]
   },
   {
+   "tyyp": "mermaid",
+   "pealkiri": "Karistuse ajastus",
+   "alt": "Karistus mõjub kõige rohkem kohe pärast tegu; mida pikem vahe, seda väiksem mõju.",
+   "kood": "flowchart LR\n  T[\"Sobimatu tegu\"] --> K1[\"Karistus kohe\"] --> M1([\"Suur mõju\"])\n  T --> K2[\"Karistus hiljem\"] --> M2([\"Väike mõju\"])"
+  },
+  {
    "tyyp": "kaardid",
    "pealkiri": "Tasustamise ja karistamise viisid",
    "kaardid": [

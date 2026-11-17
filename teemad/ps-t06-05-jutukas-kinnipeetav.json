@@ -47,6 +47,183 @@
  ],
  "skeemid": [
   {
+   "tyyp": "excalidraw",
+   "pealkiri": "Jutuka kinnipeetavaga vestlus",
+   "alt": "1. Valmista ette punktid → 2. Sõnasta alguses eesmärk → 3. Too tagasi teema juurde → 4. Tee vahekokkuvõtteid → 5. Sea piirid ja tee kokkulepped",
+   "elemendid": [
+    {
+     "type": "rectangle",
+     "id": "b72",
+     "x": 30,
+     "y": 0,
+     "width": 420,
+     "height": 55,
+     "backgroundColor": "#a5d8ff",
+     "fillStyle": "solid",
+     "strokeColor": "#4a9eed",
+     "label": {
+      "text": "1. Valmista ette punktid",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a73",
+     "x": 240,
+     "y": 59,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b74",
+     "x": 30,
+     "y": 99,
+     "width": 420,
+     "height": 97,
+     "backgroundColor": "#d0bfff",
+     "fillStyle": "solid",
+     "strokeColor": "#8b5cf6",
+     "label": {
+      "text": "2. Sõnasta alguses eesmärk\nja küsi, kas ta on nõus",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a75",
+     "x": 240,
+     "y": 200,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b76",
+     "x": 30,
+     "y": 240,
+     "width": 420,
+     "height": 55,
+     "backgroundColor": "#fff3bf",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "3. Too tagasi teema juurde",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a77",
+     "x": 240,
+     "y": 299,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b78",
+     "x": 30,
+     "y": 339,
+     "width": 420,
+     "height": 97,
+     "backgroundColor": "#b2f2bb",
+     "fillStyle": "solid",
+     "strokeColor": "#22c55e",
+     "label": {
+      "text": "4. Tee vahekokkuvõtteid\n„Kas ma saan õigesti aru…?”",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a79",
+     "x": 240,
+     "y": 440,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b80",
+     "x": 30,
+     "y": 480,
+     "width": 420,
+     "height": 55,
+     "backgroundColor": "#ffd8a8",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "5. Sea piirid ja tee kokkulepped",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
+    }
+   ]
+  },
+  {
    "tyyp": "vordlus",
    "pealkiri": "Kuidas suhelda",
    "veerud": [

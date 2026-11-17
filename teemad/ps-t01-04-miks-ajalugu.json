@@ -55,29 +55,6 @@
  ],
  "skeemid": [
   {
-   "tyyp": "kaardid",
-   "pealkiri": "Mida ajalugu annab",
-   "kaardid": [
-    {
-     "pealkiri": "Hüpped",
-     "silt": "1",
-     "tekst": "Millised avastused minevikust on aidanud korrektsioonis edasi liikuda."
-    },
-    {
-     "pealkiri": "Mis ei toiminud",
-     "silt": "2",
-     "tekst": "Milliseid lähenemisi on proovitud, kuid need ei andnud tulemust – aega ja raha hoiab kokku.",
-     "toon": "b"
-    },
-    {
-     "pealkiri": "Hoiakud",
-     "silt": "3",
-     "tekst": "Millistest hoiakutest ja meelsusest oleme välja kasvanud – ja miks mõni praktika tundub täna arusaamatu."
-    }
-   ],
-   "kitsad": true
-  },
-  {
    "tyyp": "vordlus",
    "pealkiri": "Kaks vaatenurka ajaloos",
    "veerud": [
@@ -100,6 +77,12 @@
      ]
     }
    ]
+  },
+  {
+   "tyyp": "mermaid",
+   "pealkiri": "Milleks ajalugu",
+   "alt": "Ajalugu näitab avastusi, mis viisid edasi, lähenemisi, mis ei toiminud, ja hoiakuid, millest oleme välja kasvanud.",
+   "kood": "mindmap\n  root((Miks ajalugu))\n    Avastused, mis viisid edasi\n    Lähenemised, mis ei toiminud\n      Hoiab kokku aega ja raha\n    Hoiakud, millest oleme välja kasvanud\n      Selgitab arusaamatuid praktikaid"
   }
  ],
  "inspektor": {
