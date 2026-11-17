@@ -116,7 +116,7 @@
         <h1>${A.esc(t.pealkiri)}</h1>
         ${psuh ? "" : `<p class="lyhidalt">${A.md(t.lyhidalt)}</p>`}
         <div class="nupurida">${naiteNupp(t, "Päris näide")}
-          <p class="kys">${kys}<a href="kordamine.html?tund=${tund.id}&teema=${t.id}">Harjuta ainult seda teemat</a></p>
+          <p class="kys">${kys}${(t.harjutused || []).length ? `<a href="kordamine.html?tund=${tund.id}&teema=${t.id}">Harjuta ainult seda teemat</a>` : ""}</p>
           <a class="kaardilink" href="moistekaart.html?vaade=${tund.id}&valitud=t:${t.id}">${A.ikoon("kaart")}Näita mõistekaardil</a>
           ${tund.faktid ? `<a class="kaardilink" href="faktileht.html?tund=${tund.id}">${A.ikoon("raamat")}Tunni faktileht</a>` : ""}</div>
       </header>

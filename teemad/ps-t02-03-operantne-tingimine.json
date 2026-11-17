@@ -84,7 +84,7 @@
     [
      {
       "pealkiri": "Positiivne tasu",
-      "tekst": "meeldivat juurde – kiitus, soodustus"
+      "tekst": "meeldivat juurde – nt kiitus"
      },
      {
       "pealkiri": "Positiivne karistus",
@@ -95,12 +95,12 @@
     [
      {
       "pealkiri": "Negatiivne tasu",
-      "tekst": "ebameeldivat ära – piirangu lõpetamine",
+      "tekst": "ebameeldivat ära",
       "toon": "b"
      },
      {
       "pealkiri": "Negatiivne karistus",
-      "tekst": "meeldivat ära – privileegi kaotus",
+      "tekst": "meeldivat ära – nt privileegi eemaldamine",
       "toon": "c"
      }
     ]
