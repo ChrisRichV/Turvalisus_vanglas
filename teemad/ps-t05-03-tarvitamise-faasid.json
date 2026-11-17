@@ -35,33 +35,152 @@
  ],
  "skeemid": [
   {
-   "tyyp": "trepp",
+   "tyyp": "excalidraw",
    "pealkiri": "Tarvitamise etapid",
-   "astmed": [
+   "alt": "Eksperimenteerija → Regulaarne tarvitaja → Kuritarvitaja → Sõltlane",
+   "elemendid": [
     {
-     "silt": "1",
-     "pealkiri": "Eksperimenteerija",
-     "tekst": "juhuslik, planeerimata; sõbrad, uudishimu; vähene mõju elule"
+     "type": "rectangle",
+     "id": "b137",
+     "x": 0,
+     "y": 330,
+     "width": 230,
+     "height": 92,
+     "backgroundColor": "#b2f2bb",
+     "fillStyle": "solid",
+     "strokeColor": "#22c55e",
+     "label": {
+      "text": "Eksperimenteerija\njuhuslik; uudishimu, sõbrad",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "silt": "2",
-     "pealkiri": "Regulaarne tarvitaja",
-     "tekst": "nt nädalavahetustel; lõõgastus, hea enesetunne, probleemide unustamine; riskikäitumine (nt joobes juhtimine)"
+     "type": "arrow",
+     "id": "a138",
+     "x": 172,
+     "y": 326,
+     "width": -20,
+     "height": -10,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       -20,
+       -10
+      ]
+     ],
+     "strokeColor": "#757575",
+     "endArrowhead": "arrow"
     },
     {
-     "silt": "3",
-     "pealkiri": "Kuritarvitaja",
-     "tekst": "sage, oluline osa elust; negatiivsete emotsioonide leevendamine; terviseprobleemid, himu, eemaldumine",
-     "toon": "b"
+     "type": "rectangle",
+     "id": "b139",
+     "x": 83,
+     "y": 220,
+     "width": 230,
+     "height": 92,
+     "backgroundColor": "#fff3bf",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "Regulaarne tarvitaja\nnädalavahetustel; lõõgastus",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "silt": "4",
-     "pealkiri": "Sõltlane",
-     "tekst": "kontrollimatu ja pidev; et vältida võõrutust; kohustused unarusse, probleemid suhetes ja töös, võimalik kuritegevus",
-     "toon": "b"
+     "type": "arrow",
+     "id": "a140",
+     "x": 256,
+     "y": 216,
+     "width": -20,
+     "height": -10,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       -20,
+       -10
+      ]
+     ],
+     "strokeColor": "#757575",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b141",
+     "x": 167,
+     "y": 110,
+     "width": 230,
+     "height": 92,
+     "backgroundColor": "#ffd8a8",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "Kuritarvitaja\nsage; negatiivsete emotsioonide leevendamine",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a142",
+     "x": 339,
+     "y": 106,
+     "width": -20,
+     "height": -10,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       -20,
+       -10
+      ]
+     ],
+     "strokeColor": "#757575",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b143",
+     "x": 250,
+     "y": 0,
+     "width": 230,
+     "height": 92,
+     "backgroundColor": "#ffc9c9",
+     "fillStyle": "solid",
+     "strokeColor": "#ef4444",
+     "label": {
+      "text": "Sõltlane\nkontrollimatu; võõrutuse vältimine",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "text",
+     "id": "t144",
+     "x": 0,
+     "y": 444,
+     "text": "Põhjus muutub: uudishimust → halva enesetunde vältimiseks.",
+     "fontSize": 16,
+     "strokeColor": "#757575"
     }
-   ],
-   "tipp": "põhjus muutub: uudishimust → halva enesetunde vältimiseks"
+   ]
   },
   {
    "tyyp": "vordlus",

@@ -58,69 +58,16 @@
  ],
  "skeemid": [
   {
-   "tyyp": "kaardid",
-   "pealkiri": "Eakate kehva tervise põhjused",
-   "kaardid": [
-    {
-     "pealkiri": "Kõrge riskiga käitumine",
-     "silt": "1",
-     "tekst": "suitsetamine, narkootikumid, alkohol, ebatervislik toit"
-    },
-    {
-     "pealkiri": "Trenni mitte tegemine",
-     "silt": "2",
-     "toon": "b"
-    },
-    {
-     "pealkiri": "Stressorid vanglas",
-     "silt": "3",
-     "tekst": "füüsilised vigastused, tegevusetus, isoleeritus"
-    },
-    {
-     "pealkiri": "Keerulisem ligipääs meditsiinile",
-     "silt": "4",
-     "tekst": "valed diagnoosid ja alaravimine",
-     "toon": "b"
-    }
-   ],
-   "kitsad": true
+   "tyyp": "mermaid",
+   "pealkiri": "Miks eakate tervis on kehv",
+   "alt": "Neli põhjust (kõrge riskiga käitumine, trenni puudumine, vangla stressorid, keerulisem ligipääs arstiabile) viivad kehva terviseni; kinnipeetavad vananevad ja haigestuvad kiiremini.",
+   "kood": "flowchart TD\n  A[\"Kõrge riskiga käitumine:<br/>suitsetamine, narkootikumid,<br/>alkohol, ebatervislik toit\"] --> T\n  B[\"Trenni mitte tegemine\"] --> T\n  C[\"Vangla stressorid:<br/>vigastused, tegevusetus,<br/>isoleeritus\"] --> T\n  D[\"Keerulisem ligipääs arstiabile:<br/>valed diagnoosid, alaravimine\"] --> T\n  T([\"Kehv tervis\"]) --> K([\"Vananevad ja haigestuvad<br/>kiiremini kui tavapopulatsioon\"])"
   },
   {
-   "tyyp": "sambad",
-   "pealkiri": "Eaka kinnipeetava igapäev",
-   "katus": {
-    "pealkiri": "Elukvaliteet ja heaolu vanglas"
-   },
-   "sambad": [
-    {
-     "pealkiri": "Keha",
-     "read": [
-      "**liikumine:** ülemisele narile ronimine, trepid, pikk tee meditsiini juurde",
-      "**keskkond:** vannituba, loendusel seismine"
-     ]
-    },
-    {
-     "pealkiri": "Meeled ja vaim",
-     "toon": "b",
-     "read": [
-      "**kuulmis- ja nägemisraskused**",
-      "**dementsus** – vangla rutiin varjab algavat langust",
-      "raske arusaamine ja mäletamine"
-     ]
-    },
-    {
-     "pealkiri": "Turvalisus ja suhted",
-     "read": [
-      "mure isikliku turvalisuse pärast",
-      "tegevusetus ja isolatsioon",
-      "raha puudus piirab kõnesid ja kirju"
-     ]
-    }
-   ],
-   "alus": {
-    "pealkiri": "Igapäevased tegevused nõuavad väga palju energiat",
-    "tekst": "asjade uuesti meeldetuletamine, konfliktide vältimine, korraldustele allumine"
-   }
+   "tyyp": "mermaid",
+   "pealkiri": "Eaka kinnipeetava igapäevased väljakutsed",
+   "alt": "Liikumine, keskkonna piirangud, meeled, turvalisus, tegevusetus ja isolatsioon.",
+   "kood": "mindmap\n  root((Eaka igapäev))\n    Liikumine\n      Ülemine nari\n      Trepid\n      Pikk tee arsti juurde\n    Keskkond\n      Vannituba\n      Loendusel seismine\n    Meeled\n      Kuulmine\n      Nägemine\n    Turvalisus\n      Pidev mure ja stress\n    Tegevusetus ja isolatsioon\n      Pole tööd ega tegevusi\n      Raha puudus piirab kõnesid ja kirju"
   }
  ],
  "inspektor": {

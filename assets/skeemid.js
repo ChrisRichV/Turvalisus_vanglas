@@ -166,6 +166,8 @@
     }
   };
 
+  A.lisaSkeemid = function (uued) { Object.assign(R, uued); };
+
   A.skeem = function (s) {
     if (!s) return "";
     if (Array.isArray(s)) return s.map(A.skeem).join("");

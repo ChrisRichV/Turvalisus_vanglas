@@ -58,6 +58,12 @@
  ],
  "skeemid": [
   {
+   "tyyp": "mermaid",
+   "pealkiri": "Kriminogeensed riskitegurid",
+   "alt": "Staatilised: antisotsiaalse käitumise ajalugu, sugu, vanus, geneetika. Dünaamilised: isiksuse muster, tunnetus, kaaslased, perekond ja paarisuhe, kool ja töö, vaba aeg, sõltuvusained.",
+   "kood": "mindmap\n  root((Riskitegurid))\n    Staatilised\n      Antisotsiaalse käitumise ajalugu\n      Sugu, vanus, geneetika\n    Dünaamilised\n      Antisotsiaalse isiksuse muster\n      Antisotsiaalne tunnetus\n      Antisotsiaalsed kaaslased\n      Perekond ja paarisuhe\n      Kool ja töö\n      Vaba aeg\n      Sõltuvusained"
+  },
+  {
    "tyyp": "vordlus",
    "pealkiri": "Staatilised ja dünaamilised riskitegurid",
    "veerud": [

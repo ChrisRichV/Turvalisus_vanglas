@@ -27,7 +27,14 @@
   A.teemaTekst = function (t) {
     const osa = t.mall === "psuh" ? [t.materjal, t.inspektor, t.skeemid] : [t.osad, t.skeem];
     const kogu = [];
-    const k = (o) => { if (typeof o === "string") kogu.push(o); else if (Array.isArray(o)) o.forEach(k); else if (o && typeof o === "object") Object.keys(o).forEach((x) => { if (x !== "tyyp" && x !== "toon" && x !== "ikoon") k(o[x]); }); };
+    const k = (o) => {
+      if (typeof o === "string") kogu.push(o);
+      else if (Array.isArray(o)) o.forEach(k);
+      else if (o && typeof o === "object") {
+        if (o.tyyp === "excalidraw" || o.tyyp === "mermaid") { k([o.pealkiri, o.alt]); return; }
+        Object.keys(o).forEach((x) => { if (x !== "tyyp" && x !== "toon" && x !== "ikoon") k(o[x]); });
+      }
+    };
     k([t.pealkiri, t.lyhidalt, osa]);
     return kogu.join(" \u2022 ").replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_, a, b) => b || a)
       .replace(/\{\{([^}|]+)(?:\|([^}]+))?\}\}/g, (_, a, b) => b || a).replace(/\*+/g, "").replace(/\s+/g, " ");

@@ -76,6 +76,12 @@
  ],
  "skeemid": [
   {
+   "tyyp": "mermaid",
+   "pealkiri": "Kinnipeetavad ja psüühikahäire",
+   "alt": "Umbes viiendikul kinnipeetavatest on psüühikahäire diagnoos.",
+   "kood": "pie showData\n  title Kinnipeetavad (1/5 on diagnoosiga)\n  \"Psüühikahäire diagnoosiga\" : 20\n  \"Diagnoosita\" : 80"
+  },
+  {
    "tyyp": "kaardid",
    "pealkiri": "Psüühikahäirega kinnipeetaval on suurem risk",
    "kaardid": [
@@ -104,63 +110,10 @@
    "kitsad": true
   },
   {
-   "tyyp": "tasandid",
+   "tyyp": "mermaid",
    "pealkiri": "RHK-10 psüühikahäirete põhigrupid",
-   "tasandid": [
-    {
-     "pealkiri": "F0–F2",
-     "kastid": [
-      {
-       "pealkiri": "F0 Orgaanilised",
-       "tekst": "nt dementsus"
-      },
-      {
-       "pealkiri": "F1 Psühhoaktiivsetest ainetest",
-       "tekst": "nt sõltuvus, kuritarvitamine"
-      },
-      {
-       "pealkiri": "F2 Psühhootilised",
-       "tekst": "nt skisofreenia"
-      }
-     ]
-    },
-    {
-     "pealkiri": "F3–F5",
-     "toon": "b",
-     "kastid": [
-      {
-       "pealkiri": "F3 Meeleoluhäired",
-       "tekst": "nt depressioon"
-      },
-      {
-       "pealkiri": "F4 Ärevus-, dissotsiatiivsed, somatoformsed",
-       "tekst": "nt foobiad, äge stressreaktsioon"
-      },
-      {
-       "pealkiri": "F5 Söömis-, une-, seksuaalfunktsiooni häired"
-      }
-     ]
-    },
-    {
-     "pealkiri": "F6–F9",
-     "kastid": [
-      {
-       "pealkiri": "F6 Isiksus- ja muud käitumishäired"
-      },
-      {
-       "pealkiri": "F7 Vaimne alaareng"
-      },
-      {
-       "pealkiri": "F8 Psüühilise arengu spetsiifilised",
-       "tekst": "nt lugemishäire, autism"
-      },
-      {
-       "pealkiri": "F9 Lapse- ja noorukiea häired",
-       "tekst": "nt käitumishäire"
-      }
-     ]
-    }
-   ]
+   "alt": "F0 orgaanilised, F1 ainetest tingitud, F2 psühhootilised, F3 meeleolu, F4 ärevus, F5 söömis- ja unehäired, F6 isiksus, F7 vaimne alaareng, F8 arengu spetsiifilised, F9 lapse- ja noorukiea häired.",
+   "kood": "mindmap\n  root((RHK-10 F0–F9))\n    F0 Orgaanilised\n      dementsus\n    F1 Ainetest tingitud\n      sõltuvus\n    F2 Psühhootilised\n      skisofreenia\n    F3 Meeleoluhäired\n      depressioon\n    F4 Ärevus-, dissotsiatiivsed, somatoformsed\n      foobiad\n    F5 Söömis-, une-, seksuaalfunktsiooni\n    F6 Isiksus- ja käitumishäired\n    F7 Vaimne alaareng\n    F8 Arengu spetsiifilised\n      autism\n    F9 Lapse- ja noorukieas\n      käitumishäire"
   }
  ],
  "inspektor": {

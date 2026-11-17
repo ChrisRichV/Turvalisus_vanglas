@@ -90,6 +90,163 @@
  ],
  "skeemid": [
   {
+   "tyyp": "excalidraw",
+   "pealkiri": "Keskkond ja suitsiidirisk",
+   "alt": "Hea praktika: Esmane hindamine; Ühine kamber kellegagi; Toetusgrupid; Sobiv arstiabi. Ei sobi – suurendab riski: Isolatsioon; Mööblita kamber; Oma riietest ilmajätmine",
+   "elemendid": [
+    {
+     "type": "text",
+     "id": "t121",
+     "x": 10,
+     "y": 0,
+     "text": "Hea praktika",
+     "fontSize": 18,
+     "strokeColor": "#15803d"
+    },
+    {
+     "type": "text",
+     "id": "t122",
+     "x": 250,
+     "y": 0,
+     "text": "Ei sobi – suurendab riski",
+     "fontSize": 18,
+     "strokeColor": "#ef4444"
+    },
+    {
+     "type": "rectangle",
+     "id": "b123",
+     "x": 0,
+     "y": 34,
+     "width": 230,
+     "height": 50,
+     "backgroundColor": "#b2f2bb",
+     "fillStyle": "solid",
+     "strokeColor": "#22c55e",
+     "label": {
+      "text": "Esmane hindamine",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "rectangle",
+     "id": "b124",
+     "x": 0,
+     "y": 98,
+     "width": 230,
+     "height": 70,
+     "backgroundColor": "#b2f2bb",
+     "fillStyle": "solid",
+     "strokeColor": "#22c55e",
+     "label": {
+      "text": "Ühine kamber kellegagi",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "rectangle",
+     "id": "b125",
+     "x": 0,
+     "y": 182,
+     "width": 230,
+     "height": 50,
+     "backgroundColor": "#b2f2bb",
+     "fillStyle": "solid",
+     "strokeColor": "#22c55e",
+     "label": {
+      "text": "Toetusgrupid",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "rectangle",
+     "id": "b126",
+     "x": 0,
+     "y": 246,
+     "width": 230,
+     "height": 50,
+     "backgroundColor": "#b2f2bb",
+     "fillStyle": "solid",
+     "strokeColor": "#22c55e",
+     "label": {
+      "text": "Sobiv arstiabi",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "rectangle",
+     "id": "b127",
+     "x": 250,
+     "y": 34,
+     "width": 230,
+     "height": 50,
+     "backgroundColor": "#ffc9c9",
+     "fillStyle": "solid",
+     "strokeColor": "#ef4444",
+     "label": {
+      "text": "Isolatsioon",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "rectangle",
+     "id": "b128",
+     "x": 250,
+     "y": 98,
+     "width": 230,
+     "height": 50,
+     "backgroundColor": "#ffc9c9",
+     "fillStyle": "solid",
+     "strokeColor": "#ef4444",
+     "label": {
+      "text": "Mööblita kamber",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "rectangle",
+     "id": "b129",
+     "x": 250,
+     "y": 162,
+     "width": 230,
+     "height": 70,
+     "backgroundColor": "#ffc9c9",
+     "fillStyle": "solid",
+     "strokeColor": "#ef4444",
+     "label": {
+      "text": "Oma riietest ilmajätmine",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    }
+   ]
+  },
+  {
+   "tyyp": "mermaid",
+   "pealkiri": "Kes sekkub",
+   "alt": "Esmalt psühhiaater või kliiniline psühholoog diagnoosidega, seejärel üldisem nõustaja väiksemate probleemidega; kõikjal traumateadlik lähenemine.",
+   "kood": "flowchart TD\n  J([\"Suitsiidikatse või enesevigastamine\"]) --> S[\"Psühhiaater / kliiniline psühholoog<br/>teraapia, ravimid, diagnoosid\"]\n  S --> N[\"Üldisem nõustaja<br/>ärevus, kehv tuju, sõltuvus\"]\n  T[\"Traumateadlik lähenemine\"] -.-> S\n  T -.-> N"
+  },
+  {
    "tyyp": "kaardid",
    "pealkiri": "Märgid, mis võivad viidata enesetapuriskile",
    "kaardid": [
@@ -113,37 +270,6 @@
     }
    ],
    "allkiri": "Üks märk ei tõesta riski, kuid iga märk on põhjus küsida ja teavitada."
-  },
-  {
-   "tyyp": "vordlus",
-   "pealkiri": "Keskkond ja suitsiidirisk",
-   "veerud": [
-    "Hea praktika",
-    "Ei sobi – suurendab riski"
-   ],
-   "read": [
-    {
-     "silt": "Paigutus",
-     "lahtrid": [
-      "ühine kamber kellegagi",
-      "isolatsioon"
-     ]
-    },
-    {
-     "silt": "Keskkond",
-     "lahtrid": [
-      "esmane hindamine; ligipääs arstiabile",
-      "mööblita kamber; oma riietest ilmajätmine"
-     ]
-    },
-    {
-     "silt": "Tugi",
-     "lahtrid": [
-      "toetusgrupid",
-      "üksindus, eriti öösel ja nädalavahetusel"
-     ]
-    }
-   ]
   }
  ],
  "inspektor": {

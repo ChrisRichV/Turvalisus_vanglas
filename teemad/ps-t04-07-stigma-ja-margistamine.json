@@ -63,26 +63,149 @@
  ],
  "skeemid": [
   {
-   "tyyp": "voog",
+   "tyyp": "excalidraw",
    "pealkiri": "Märgistamise neli etappi",
-   "sammud": [
+   "alt": "1. Esmane hälbivus → 2. Ühiskondlik reaktsioon → 3. Stigmatiseerimine → 4. Teisene hälbivus",
+   "elemendid": [
     {
-     "pealkiri": "1. Esmane hälbivus",
-     "tekst": "Algne rikkumine (nt koolist puudumine, vargus). Õigustatakse kui ajutist eksimust – enesepilt ei muutu."
+     "type": "rectangle",
+     "id": "b130",
+     "x": 30,
+     "y": 0,
+     "width": 420,
+     "height": 97,
+     "backgroundColor": "#fff3bf",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "1. Esmane hälbivus\nväike rikkumine; enesepilt ei muutu",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "pealkiri": "2. Ühiskondlik reaktsioon",
-     "tekst": "Politsei, kool, õigussüsteem reageerivad ja annavad sildi: „õigusrikkuja”, „probleemne noor”."
+     "type": "arrow",
+     "id": "a131",
+     "x": 240,
+     "y": 101,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
     },
     {
-     "pealkiri": "3. Stigmatiseerimine",
-     "tekst": "Silt tekitab stigma; inimene jääb ilma tavalistest võimalustest (töö, haridus); suhtumine muutub püsivalt negatiivseks."
+     "type": "rectangle",
+     "id": "b132",
+     "x": 30,
+     "y": 141,
+     "width": 420,
+     "height": 97,
+     "backgroundColor": "#ffd8a8",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "2. Ühiskondlik reaktsioon\npolitsei, õigussüsteem annavad sildi",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "pealkiri": "4. Teisene hälbivus",
-     "tekst": "Inimene võtab sildi omaks, seob end teiste tõrjututega; hälbiv käitumine süveneb ja muutub identiteediks."
+     "type": "arrow",
+     "id": "a133",
+     "x": 240,
+     "y": 242,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b134",
+     "x": 30,
+     "y": 282,
+     "width": 420,
+     "height": 97,
+     "backgroundColor": "#ffc9c9",
+     "fillStyle": "solid",
+     "strokeColor": "#ef4444",
+     "label": {
+      "text": "3. Stigmatiseerimine\nvälistatakse tööst ja haridusest",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a135",
+     "x": 240,
+     "y": 383,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b136",
+     "x": 30,
+     "y": 423,
+     "width": 420,
+     "height": 97,
+     "backgroundColor": "#d0bfff",
+     "fillStyle": "solid",
+     "strokeColor": "#8b5cf6",
+     "label": {
+      "text": "4. Teisene hälbivus\nsilt võetakse omaks – identiteet",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
     }
    ]
+  },
+  {
+   "tyyp": "mermaid",
+   "pealkiri": "Miks stigma tekib",
+   "alt": "Probleemid on nähtamatud, puudub teadlikkus ja haridus, meedia tugevdab stereotüüpe; tagajärg: abi ei otsita.",
+   "kood": "flowchart TD\n  N[\"Probleemid on nähtamatud\"] --> S([\"Stigma\"])\n  T[\"Puudulik teadlikkus ja haridus\"] --> S\n  M[\"Meedia: klikid, ebatäpsus\"] --> S\n  S --> A[\"Ei pöörduta abi saama<br/>(üle poole ei lähe esimesele vastuvõtule)\"]"
   }
  ],
  "inspektor": {

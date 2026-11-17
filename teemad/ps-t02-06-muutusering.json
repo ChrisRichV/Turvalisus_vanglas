@@ -191,43 +191,254 @@
  ],
  "skeemid": [
   {
-   "tyyp": "ring",
+   "tyyp": "excalidraw",
    "pealkiri": "Muutusering",
-   "keskel": {
-    "pealkiri": "Muutus",
-    "tekst": "päripäeva, võib korduda"
-   },
-   "osad": [
+   "alt": "Eelkaalutlemine: „Kõik on hästi” → Kaalutlemine: „Mõnikord muretsen” → Ettevalmistus: „Kavatsen midagi teha” → Tegutsemine: „Olen muutumas” → Säilitamine: „Tahan tulemust hoida” → Tagasilangus: „Kõik nagu vanasti” → (uuesti)",
+   "elemendid": [
     {
-     "pealkiri": "Eelkaalutlemine",
-     "tekst": "„Kõik on hästi.”"
+     "type": "ellipse",
+     "id": "b63",
+     "x": 160,
+     "y": 210,
+     "width": 160,
+     "height": 80,
+     "backgroundColor": "#fff3bf",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "Muutus",
+      "fontSize": 18
+     }
     },
     {
-     "pealkiri": "Kaalutlemine",
-     "tekst": "„Mõnikord ma siiski muretsen.”"
+     "type": "rectangle",
+     "id": "b64",
+     "x": 165,
+     "y": 42,
+     "width": 150,
+     "height": 66,
+     "backgroundColor": "#ffc9c9",
+     "fillStyle": "solid",
+     "strokeColor": "#ef4444",
+     "label": {
+      "text": "Eelkaalutlemine: „Kõik on hästi”",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "pealkiri": "Ettevalmistus (otsus)",
-     "tekst": "„Ma kavatsen midagi ette võtta.”",
-     "toon": "b"
+     "type": "rectangle",
+     "id": "b65",
+     "x": 330,
+     "y": 130,
+     "width": 150,
+     "height": 66,
+     "backgroundColor": "#ffd8a8",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "Kaalutlemine: „Mõnikord muretsen”",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "pealkiri": "Tegutsemine",
-     "tekst": "„Ma olen muutumas.”",
-     "toon": "b"
+     "type": "rectangle",
+     "id": "b66",
+     "x": 330,
+     "y": 304,
+     "width": 150,
+     "height": 66,
+     "backgroundColor": "#fff3bf",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "Ettevalmistus: „Kavatsen midagi teha”",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "pealkiri": "Säilitamine",
-     "tekst": "„Tahan tulemust hoida.”",
-     "toon": "b"
+     "type": "rectangle",
+     "id": "b67",
+     "x": 165,
+     "y": 392,
+     "width": 150,
+     "height": 66,
+     "backgroundColor": "#a5d8ff",
+     "fillStyle": "solid",
+     "strokeColor": "#4a9eed",
+     "label": {
+      "text": "Tegutsemine: „Olen muutumas”",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "pealkiri": "Tagasilangus",
-     "tekst": "„Kõik on jälle nagu vanasti.”",
-     "toon": "c"
+     "type": "rectangle",
+     "id": "b68",
+     "x": 0,
+     "y": 304,
+     "width": 150,
+     "height": 66,
+     "backgroundColor": "#b2f2bb",
+     "fillStyle": "solid",
+     "strokeColor": "#22c55e",
+     "label": {
+      "text": "Säilitamine: „Tahan tulemust hoida”",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "rectangle",
+     "id": "b69",
+     "x": 0,
+     "y": 130,
+     "width": 150,
+     "height": 66,
+     "backgroundColor": "#d0bfff",
+     "fillStyle": "solid",
+     "strokeColor": "#8b5cf6",
+     "label": {
+      "text": "Tagasilangus: „Kõik nagu vanasti”",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a70",
+     "x": 312,
+     "y": 113,
+     "width": 21,
+     "height": 11,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       21,
+       11
+      ]
+     ],
+     "strokeColor": "#757575",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "arrow",
+     "id": "a71",
+     "x": 405,
+     "y": 201,
+     "width": 0,
+     "height": 99,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       99
+      ]
+     ],
+     "strokeColor": "#757575",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "arrow",
+     "id": "a72",
+     "x": 333,
+     "y": 375,
+     "width": -21,
+     "height": 11,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       -21,
+       11
+      ]
+     ],
+     "strokeColor": "#757575",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "arrow",
+     "id": "a73",
+     "x": 168,
+     "y": 387,
+     "width": -21,
+     "height": -11,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       -21,
+       -11
+      ]
+     ],
+     "strokeColor": "#757575",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "arrow",
+     "id": "a74",
+     "x": 75,
+     "y": 299,
+     "width": 0,
+     "height": -99,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       -99
+      ]
+     ],
+     "strokeColor": "#757575",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "arrow",
+     "id": "a75",
+     "x": 147,
+     "y": 125,
+     "width": 21,
+     "height": -11,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       21,
+       -11
+      ]
+     ],
+     "strokeColor": "#757575",
+     "endArrowhead": "arrow"
     }
-   ],
-   "tagasi": "tagasilangusest võib ring alata uuesti – see on normaalne"
+   ]
   },
   {
    "tyyp": "vordlus",

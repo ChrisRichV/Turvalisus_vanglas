@@ -51,56 +51,228 @@
  ],
  "skeemid": [
   {
-   "tyyp": "kaardid",
-   "pealkiri": "Korrektsioonipsühholoogia tähendused",
-   "kaardid": [
+   "tyyp": "excalidraw",
+   "pealkiri": "Korrektsioonipsühholoogia viis tähendust",
+   "alt": "Korrektsiooni-psühholoogia: 1. Psühholoogid vanglas; 2. Psühholoogia rakendamine iga ametniku poolt; 3. Teadus süsteemi parandamiseks; 4. Sõltub ühiskonna vaatest; 5. Varieeruv – head definitsiooni pole",
+   "elemendid": [
     {
-     "pealkiri": "Psühholoogid",
-     "silt": "1",
-     "tekst": "Psühholoogid, kes töötavad vangistusega seotud asutustes."
+     "type": "ellipse",
+     "id": "b6",
+     "x": 145,
+     "y": 202,
+     "width": 190,
+     "height": 96,
+     "backgroundColor": "#a5d8ff",
+     "fillStyle": "solid",
+     "strokeColor": "#4a9eed",
+     "label": {
+      "text": "Korrektsiooni-psühholoogia",
+      "fontSize": 19
+     }
     },
     {
-     "pealkiri": "Psühholoogia rakendamine",
-     "silt": "2",
-     "tekst": "Psühholoogia kasutamine korrektsioonisüsteemis **ükskõik millise ametniku** poolt.",
-     "toon": "b"
+     "type": "rectangle",
+     "id": "b7",
+     "x": 165,
+     "y": 23,
+     "width": 150,
+     "height": 64,
+     "backgroundColor": "#d0bfff",
+     "fillStyle": "solid",
+     "strokeColor": "#8b5cf6",
+     "label": {
+      "text": "1. Psühholoogid vanglas",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "pealkiri": "Teadus",
-     "silt": "3",
-     "tekst": "Psühholoogiateaduse kasutamine selleks, et korrektsioonisüsteemi paremaks teha."
+     "type": "arrow",
+     "id": "a8",
+     "x": 240,
+     "y": 198,
+     "width": 0,
+     "height": -107,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       -107
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
     },
     {
-     "pealkiri": "Sõltub ühiskonna vaatest",
-     "silt": "4",
-     "tekst": "Tähendus muutub koos sellega, kuidas ametnikud ja ühiskond psühholoogia rolli näevad.",
-     "toon": "d"
+     "type": "rectangle",
+     "id": "b9",
+     "x": 370,
+     "y": 158,
+     "width": 150,
+     "height": 64,
+     "backgroundColor": "#d0bfff",
+     "fillStyle": "solid",
+     "strokeColor": "#8b5cf6",
+     "label": {
+      "text": "2. Psühholoogia rakendamine iga ametniku poolt",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "pealkiri": "Varieeruv",
-     "silt": "5",
-     "tekst": "Head ühtset definitsiooni ei ole, sest ülesanded on riigiti ja süsteemiti erinevad.",
-     "toon": "c"
+     "type": "arrow",
+     "id": "a10",
+     "x": 340,
+     "y": 221,
+     "width": 26,
+     "height": -8,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       26,
+       -8
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b11",
+     "x": 292,
+     "y": 376,
+     "width": 150,
+     "height": 64,
+     "backgroundColor": "#d0bfff",
+     "fillStyle": "solid",
+     "strokeColor": "#8b5cf6",
+     "label": {
+      "text": "3. Teadus süsteemi parandamiseks",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a12",
+     "x": 282,
+     "y": 302,
+     "width": 56,
+     "height": 70,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       56,
+       70
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b13",
+     "x": 38,
+     "y": 376,
+     "width": 150,
+     "height": 64,
+     "backgroundColor": "#d0bfff",
+     "fillStyle": "solid",
+     "strokeColor": "#8b5cf6",
+     "label": {
+      "text": "4. Sõltub ühiskonna vaatest",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a14",
+     "x": 198,
+     "y": 302,
+     "width": -56,
+     "height": 70,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       -56,
+       70
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b15",
+     "x": -40,
+     "y": 158,
+     "width": 150,
+     "height": 64,
+     "backgroundColor": "#d0bfff",
+     "fillStyle": "solid",
+     "strokeColor": "#8b5cf6",
+     "label": {
+      "text": "5. Varieeruv – head definitsiooni pole",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a16",
+     "x": 140,
+     "y": 221,
+     "width": -26,
+     "height": -8,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       -26,
+       -8
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
     }
    ]
   },
   {
-   "tyyp": "kaardid",
-   "pealkiri": "Korrektsioonipsühholoogia põhieesmärk",
-   "kaardid": [
-    {
-     "pealkiri": "Selgitada",
-     "silt": "?",
-     "tekst": "kuidas kriminaalne käitumine tekib"
-    },
-    {
-     "pealkiri": "Muuta",
-     "silt": "→",
-     "tekst": "teaduslik info selle kohta, mis aitab antisotsiaalset käitumist muuta",
-     "toon": "b"
-    }
-   ],
-   "kitsad": true
+   "tyyp": "mermaid",
+   "pealkiri": "Põhieesmärk",
+   "alt": "Korrektsioonipsühholoogia selgitab kriminaalse käitumise teket ja annab teaduslikku infot antisotsiaalse käitumise muutmiseks.",
+   "kood": "flowchart TD\n  K([\"Korrektsioonipsühholoogia\"]) --> S[\"Selgitada, kuidas<br/>kriminaalne käitumine tekib\"]\n  K --> M[\"Anda teaduslikku infot, mis aitab<br/>antisotsiaalset käitumist muuta\"]"
+  },
+  {
+   "tyyp": "mermaid",
+   "pealkiri": "Miks ebaselge definitsioon on probleem",
+   "alt": "Definitsiooni ebaselgus tekitab psühholoogidel identiteedi ebakindluse, tööandjal raskusi väljaõppe planeerimisel ja puudub kontseptuaalne raamistik.",
+   "kood": "flowchart TD\n  E[\"Selget definitsiooni pole\"] --> I[\"Psühholoog on ebakindel<br/>oma professionaalses identiteedis\"]\n  E --> T[\"Tööandjal raske<br/>väljaõpet planeerida\"]\n  E --> R[\"Puudub kontseptuaalne raamistik<br/>teadmiste korraldamiseks\"]"
   }
  ],
  "inspektor": {

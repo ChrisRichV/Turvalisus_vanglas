@@ -126,106 +126,10 @@
  ],
  "skeemid": [
   {
-   "tyyp": "puu",
+   "tyyp": "mermaid",
    "pealkiri": "Sõltuvuse tekkimine",
-   "juur": {
-    "pealkiri": "Sõltuvus",
-    "tekst": "mitmeteguriline protsess"
-   },
-   "harud": [
-    {
-     "pealkiri": "Isiksus",
-     "lapsed": [
-      {
-       "pealkiri": "Impulsiivsus",
-       "tekst": "tegutseb hetke ajel"
-      },
-      {
-       "pealkiri": "Madal vastupidavus pettumustele",
-       "tekst": "otsib kiiret leevendust"
-      },
-      {
-       "pealkiri": "Tundlikkus tõrjutusele",
-       "tekst": "tarvitab, et sobituda"
-      }
-     ]
-    },
-    {
-     "pealkiri": "Kasvukeskkond",
-     "toon": "b",
-     "lapsed": [
-      {
-       "pealkiri": "Pere tarvitamiskultuur"
-      },
-      {
-       "pealkiri": "Kasvatusstiil",
-       "tekst": "autoritaarne või hooletussejättev"
-      },
-      {
-       "pealkiri": "Vägivald, lahutus, tunnetest ei räägita"
-      },
-      {
-       "pealkiri": "Sõbrad noorukieas",
-       "tekst": "esimesed katsetused koos; mida varem, seda suurem risk"
-      }
-     ]
-    },
-    {
-     "pealkiri": "Bioloogia",
-     "lapsed": [
-      {
-       "pealkiri": "Ainevahetus"
-      },
-      {
-       "pealkiri": "Esimene kogemus",
-       "tekst": "meeldiv → soov korrata"
-      },
-      {
-       "pealkiri": "GABA-retseptorid, tasu puudulikkuse sündroom"
-      }
-     ]
-    },
-    {
-     "pealkiri": "Vaimne tervis",
-     "toon": "b",
-     "lapsed": [
-      {
-       "pealkiri": "Kahjulikud lapsepõlvekogemused (ACE)"
-      },
-      {
-       "pealkiri": "Krooniline stress"
-      }
-     ]
-    },
-    {
-     "pealkiri": "Ühiskond",
-     "lapsed": [
-      {
-       "pealkiri": "Vaesus ja tööpuudus"
-      },
-      {
-       "pealkiri": "Hoiakud ja kättesaadavus"
-      }
-     ]
-    },
-    {
-     "pealkiri": "Õppimine",
-     "toon": "b",
-     "lapsed": [
-      {
-       "pealkiri": "Klassikaline tingimine",
-       "tekst": "olukord tekitab isu"
-      },
-      {
-       "pealkiri": "Operantne tingimine",
-       "tekst": "hea tunne kinnitab"
-      },
-      {
-       "pealkiri": "Mudeldamine; madal enesetõhusus; toimetulekuoskuste puudumine"
-      }
-     ]
-    }
-   ]
+   "alt": "Isiksus, kasvukeskkond, bioloogia, vaimne tervis, sotsiaal-kultuurilised ja psühholoogilised tegurid.",
+   "kood": "mindmap\n  root((Sõltuvuse teke))\n    Isiksus\n      Impulsiivsus\n      Madal pettumustaluvus\n      Tundlikkus tõrjutusele\n    Kasvukeskkond\n      Pere tarvitamiskultuur\n      Kasvatusstiil\n      Vägivald, lahutus\n      Sõbrad, varajane algus\n    Bioloogia\n      Ainevahetus\n      Esimene kogemus\n      GABA-retseptorid\n      Tasu puudulikkuse sündroom\n    Vaimne tervis\n      ACE\n      Krooniline stress\n    Ühiskond\n      Vaesus ja tööpuudus\n      Hoiakud\n      Kättesaadavus\n    Õppimine\n      Klassikaline tingimine\n      Operantne tingimine\n      Mudeldamine\n      Madal enesetõhusus"
   }
  ],
  "inspektor": {

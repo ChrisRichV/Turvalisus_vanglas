@@ -118,36 +118,261 @@
    ]
   },
   {
-   "tyyp": "voog",
-   "pealkiri": "Agressiivse kinnipeetavaga suhtlemine",
-   "sammud": [
+   "tyyp": "mermaid",
+   "pealkiri": "Agressiivsus ja vägivald",
+   "alt": "Agressiivsus on katse kahjustada, hirmutada või kontrollida sõnade või kehakeelega; vägivald on selle raskem, füüsiline vorm; kontrollimatu agressioon võib viia vägivallani.",
+   "kood": "flowchart LR\n  A[\"Agressiivsus<br/>sõnad, ähvardav hoiak\"] -- \"kontrollimatu\" --> V[\"Vägivald<br/>löömine, tõukamine\"]"
+  },
+  {
+   "tyyp": "excalidraw",
+   "pealkiri": "Seitse võtet agressiivse kliendiga",
+   "alt": "1. Empaatia → 2. Kaasa otsustesse → 3. Ütle, mis ei ole võimalik → 4. Küsi tunnete kohta → 5. Enesega seotud ütlused → 6. Lase ventileerida → 7. Sea piirid",
+   "elemendid": [
     {
-     "pealkiri": "01 Kasuta empaatiat",
-     "tekst": "Kirjelda tema tundeid ja olukorda."
+     "type": "rectangle",
+     "id": "b59",
+     "x": 30,
+     "y": 0,
+     "width": 420,
+     "height": 97,
+     "backgroundColor": "#a5d8ff",
+     "fillStyle": "solid",
+     "strokeColor": "#4a9eed",
+     "label": {
+      "text": "1. Empaatia\nkirjelda tema tundeid ja olukorda",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "pealkiri": "02 Kaasa otsustesse",
-     "tekst": "„Kuidas me saaksime seda olukorda lahendada?”"
+     "type": "arrow",
+     "id": "a60",
+     "x": 240,
+     "y": 101,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
     },
     {
-     "pealkiri": "03 Ütle, kui lahendus ei ole võimalik",
-     "tekst": "„Seda me kahjuks ei saa teha, kuid kas on midagi muud, mis jääb asutuse reeglitesse?”"
+     "type": "rectangle",
+     "id": "b61",
+     "x": 30,
+     "y": 141,
+     "width": 420,
+     "height": 97,
+     "backgroundColor": "#d0bfff",
+     "fillStyle": "solid",
+     "strokeColor": "#8b5cf6",
+     "label": {
+      "text": "2. Kaasa otsustesse\n„Kuidas saaksime seda lahendada?”",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "pealkiri": "04 Küsi tunnete kohta",
-     "tekst": "„Mis sind selle olukorra juures eriti ärritab?”"
+     "type": "arrow",
+     "id": "a62",
+     "x": 240,
+     "y": 242,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
     },
     {
-     "pealkiri": "05 Kasuta enesega seotud ütlusi",
-     "tekst": "„Mina tunneks end sinu olukorras ka vihasena.”"
+     "type": "rectangle",
+     "id": "b63",
+     "x": 30,
+     "y": 282,
+     "width": 420,
+     "height": 97,
+     "backgroundColor": "#fff3bf",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "3. Ütle, mis ei ole võimalik\nja paku, mis reeglitesse mahub",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "pealkiri": "06 Lase ventileerida",
-     "tekst": "Alguses võib ta olla väga emotsionaalne. Aktiivne kuulamine ja toetavad mitteverbaalsed märgid aitavad tal rahuneda."
+     "type": "arrow",
+     "id": "a64",
+     "x": 240,
+     "y": 383,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
     },
     {
-     "pealkiri": "07 Sea piirid",
-     "tekst": "„Ma saan aru, et sa oled frustreeritud, aga kui sa karjud, ei saa me vestlust jätkata. Palun räägi rahulikumalt. Kui jätkad karjumist, peame vestluse täna lõpetama.”"
+     "type": "rectangle",
+     "id": "b65",
+     "x": 30,
+     "y": 423,
+     "width": 420,
+     "height": 97,
+     "backgroundColor": "#c3fae8",
+     "fillStyle": "solid",
+     "strokeColor": "#06b6d4",
+     "label": {
+      "text": "4. Küsi tunnete kohta\n„Mis sind kõige rohkem ärritab?”",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a66",
+     "x": 240,
+     "y": 524,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b67",
+     "x": 30,
+     "y": 564,
+     "width": 420,
+     "height": 97,
+     "backgroundColor": "#b2f2bb",
+     "fillStyle": "solid",
+     "strokeColor": "#22c55e",
+     "label": {
+      "text": "5. Enesega seotud ütlused\n„Mina tunneksin end ka vihasena.”",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a68",
+     "x": 240,
+     "y": 665,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b69",
+     "x": 30,
+     "y": 705,
+     "width": 420,
+     "height": 76,
+     "backgroundColor": "#ffd8a8",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "6. Lase ventileerida\naktiivne kuulamine",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a70",
+     "x": 240,
+     "y": 785,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b71",
+     "x": 30,
+     "y": 825,
+     "width": 420,
+     "height": 97,
+     "backgroundColor": "#ffc9c9",
+     "fillStyle": "solid",
+     "strokeColor": "#ef4444",
+     "label": {
+      "text": "7. Sea piirid\nkui agressiivsus jätkub – vestlus lõpeb",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
     }
    ]
   }

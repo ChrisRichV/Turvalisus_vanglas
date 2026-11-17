@@ -61,38 +61,216 @@
  ],
  "skeemid": [
   {
-   "tyyp": "kaardid",
-   "pealkiri": "Kuidas alkohol on seotud kuritegevusega",
-   "kaardid": [
+   "tyyp": "excalidraw",
+   "pealkiri": "Viis protsessi, mis seovad alkoholi kuritegevusega",
+   "alt": "Alkohol ja kuritegu: Impulsikontrolli vähenemine; Ootused; Alkoholimüoopia; Anksiolüütiline efekt; Individuaalsed tegurid",
+   "elemendid": [
     {
-     "pealkiri": "Impulsi kontroll väheneb",
-     "silt": "1",
-     "tekst": "ei suuda teha sihilikke, teadlikke otsuseid"
+     "type": "ellipse",
+     "id": "b145",
+     "x": 145,
+     "y": 202,
+     "width": 190,
+     "height": 96,
+     "backgroundColor": "#ffc9c9",
+     "fillStyle": "solid",
+     "strokeColor": "#ef4444",
+     "label": {
+      "text": "Alkohol ja kuritegu",
+      "fontSize": 19
+     }
     },
     {
-     "pealkiri": "Ootused",
-     "silt": "2",
-     "tekst": "mida inimene alkoholist ootab, mõjutab tema joomist – ka agressiivsust",
-     "toon": "b"
+     "type": "rectangle",
+     "id": "b146",
+     "x": 165,
+     "y": 23,
+     "width": 150,
+     "height": 64,
+     "backgroundColor": "#fff3bf",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "Impulsikontrolli vähenemine",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "pealkiri": "Alkoholimüoopia",
-     "silt": "3",
-     "tekst": "tähelepanu kitseneb, nähakse vähem infot ja lühemas plaanis"
+     "type": "arrow",
+     "id": "a147",
+     "x": 240,
+     "y": 91,
+     "width": 0,
+     "height": 107,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       107
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
     },
     {
-     "pealkiri": "Anksiolüütiline efekt",
-     "silt": "4",
-     "tekst": "julgus ja enesehinnang tõusevad lühiajaliselt – haavatavus tõrjumisele ja agressioonile",
-     "toon": "b"
+     "type": "rectangle",
+     "id": "b148",
+     "x": 370,
+     "y": 158,
+     "width": 150,
+     "height": 64,
+     "backgroundColor": "#fff3bf",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "Ootused",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "pealkiri": "Individuaalsed tegurid",
-     "silt": "5",
-     "tekst": "isiksus, hoiakud, hüpermaskuliinsus"
+     "type": "arrow",
+     "id": "a149",
+     "x": 366,
+     "y": 213,
+     "width": -26,
+     "height": 8,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       -26,
+       8
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b150",
+     "x": 292,
+     "y": 376,
+     "width": 150,
+     "height": 64,
+     "backgroundColor": "#fff3bf",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "Alkoholimüoopia",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a151",
+     "x": 338,
+     "y": 372,
+     "width": -56,
+     "height": -70,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       -56,
+       -70
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b152",
+     "x": 38,
+     "y": 376,
+     "width": 150,
+     "height": 64,
+     "backgroundColor": "#fff3bf",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "Anksiolüütiline efekt",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a153",
+     "x": 142,
+     "y": 372,
+     "width": 56,
+     "height": -70,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       56,
+       -70
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b154",
+     "x": -40,
+     "y": 158,
+     "width": 150,
+     "height": 64,
+     "backgroundColor": "#fff3bf",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "Individuaalsed tegurid",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a155",
+     "x": 114,
+     "y": 213,
+     "width": 26,
+     "height": 8,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       26,
+       8
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
     }
-   ],
-   "kitsad": true
+   ]
   },
   {
    "tyyp": "vordlus",

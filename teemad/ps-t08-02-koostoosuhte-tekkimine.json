@@ -131,6 +131,12 @@
     }
    ],
    "kitsad": true
+  },
+  {
+   "tyyp": "mermaid",
+   "pealkiri": "Kliendi kaasamine",
+   "alt": "Rollide selgitamine, koostöökokkulepe ja osalemine eesmärkide valikus suurendavad motivatsiooni, usaldust ja vastutust.",
+   "kood": "flowchart TD\n  R[\"Rollide selge lahtimõtestamine\"] --> K([\"Kliendi aktiivne kaasamine\"])\n  L[\"Koostöökokkulepe alguses\"] --> K\n  O[\"Osalemine eesmärkide ja<br/>ülesannete valikus\"] --> K\n  K --> M[\"Motivatsioon, usaldus, vastutus<br/>ja pikaajaline muutus\"]"
   }
  ],
  "inspektor": {

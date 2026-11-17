@@ -47,28 +47,180 @@
  ],
  "skeemid": [
   {
-   "tyyp": "voog",
+   "tyyp": "mermaid",
+   "pealkiri": "Arusaam ajas",
+   "alt": "Ajaloo alguses hoiti lukus ja peeti kavalaks; 1911 Terman: kõik on potentsiaalsed kriminaalid; tänapäeval põhjuslikku seost ei ole leitud.",
+   "kood": "flowchart LR\n  A[\"Ajaloo algus:<br/>hoiti lukus, peeti kavalaks\"] --> T[\"1911 Terman: kõik on<br/>potentsiaalsed kurjategijad\"] --> N[\"Tänapäev: põhjuslikku<br/>seost ei ole leitud\"]"
+  },
+  {
+   "tyyp": "excalidraw",
    "pealkiri": "Mis mõjutab riski",
-   "sammud": [
+   "alt": "Peamine abi: Kommuun ja kogukond. Riskid: Ümbritsevad inimesed: väärkohtlemine, hüljatus, kehvad suhted; Vaesus ja kehv elukeskkond; Sotsiaalpoliitika: abiasutusi jääb vähemaks; Asutuse kõrge riskitase – esimene rikkumine varem",
+   "elemendid": [
     {
-     "pealkiri": "Kogukond kui peamine abi",
-     "tekst": "Kõige olulisem abi riski maandamiseks on kommuun ja kogukond."
+     "type": "ellipse",
+     "id": "b213",
+     "x": 130,
+     "y": 0,
+     "width": 230,
+     "height": 80,
+     "backgroundColor": "#fff3bf",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "Vaimse arengu mahajäämusega inimene",
+      "fontSize": 17
+     }
     },
     {
-     "pealkiri": "Ümbritsevad inimesed kui suurim risk",
-     "tekst": "Pereliikmete väärkohtlemine, hüljatus, kehvad suhted."
+     "type": "arrow",
+     "id": "a214",
+     "x": 225,
+     "y": 72,
+     "width": -165,
+     "height": 32,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       -165,
+       32
+      ]
+     ],
+     "strokeColor": "#22c55e",
+     "endArrowhead": "arrow",
+     "strokeStyle": "dashed"
     },
     {
-     "pealkiri": "Vaesus ja kehv elukeskkond",
-     "tekst": "Suur risk."
+     "type": "arrow",
+     "id": "a215",
+     "x": 265,
+     "y": 72,
+     "width": 165,
+     "height": 32,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       165,
+       32
+      ]
+     ],
+     "strokeColor": "#ef4444",
+     "endArrowhead": "arrow",
+     "strokeStyle": "dashed"
     },
     {
-     "pealkiri": "Sotsiaalpoliitika",
-     "tekst": "Kui abi andvaid asutusi jääb vähemaks või need suletakse, risk kasvab."
+     "type": "text",
+     "id": "t216",
+     "x": 10,
+     "y": 110,
+     "text": "Peamine abi",
+     "fontSize": 18,
+     "strokeColor": "#15803d"
     },
     {
-     "pealkiri": "Asutuse riskitase",
-     "tekst": "Mida kõrgema riskiga asutuses inimene viibib, seda varem on toimunud tema esimene rikkumine (McMurran, 2012)."
+     "type": "text",
+     "id": "t217",
+     "x": 250,
+     "y": 110,
+     "text": "Riskid",
+     "fontSize": 18,
+     "strokeColor": "#ef4444"
+    },
+    {
+     "type": "rectangle",
+     "id": "b218",
+     "x": 0,
+     "y": 144,
+     "width": 230,
+     "height": 50,
+     "backgroundColor": "#b2f2bb",
+     "fillStyle": "solid",
+     "strokeColor": "#22c55e",
+     "label": {
+      "text": "Kommuun ja kogukond",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "rectangle",
+     "id": "b219",
+     "x": 250,
+     "y": 144,
+     "width": 230,
+     "height": 90,
+     "backgroundColor": "#ffc9c9",
+     "fillStyle": "solid",
+     "strokeColor": "#ef4444",
+     "label": {
+      "text": "Ümbritsevad inimesed: väärkohtlemine, hüljatus, kehvad suhted",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "rectangle",
+     "id": "b220",
+     "x": 250,
+     "y": 248,
+     "width": 230,
+     "height": 70,
+     "backgroundColor": "#ffc9c9",
+     "fillStyle": "solid",
+     "strokeColor": "#ef4444",
+     "label": {
+      "text": "Vaesus ja kehv elukeskkond",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "rectangle",
+     "id": "b221",
+     "x": 250,
+     "y": 332,
+     "width": 230,
+     "height": 70,
+     "backgroundColor": "#ffc9c9",
+     "fillStyle": "solid",
+     "strokeColor": "#ef4444",
+     "label": {
+      "text": "Sotsiaalpoliitika: abiasutusi jääb vähemaks",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "rectangle",
+     "id": "b222",
+     "x": 250,
+     "y": 416,
+     "width": 230,
+     "height": 90,
+     "backgroundColor": "#ffc9c9",
+     "fillStyle": "solid",
+     "strokeColor": "#ef4444",
+     "label": {
+      "text": "Asutuse kõrge riskitase – esimene rikkumine varem",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
     }
    ]
   }

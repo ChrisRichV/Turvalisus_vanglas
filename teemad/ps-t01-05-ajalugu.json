@@ -87,63 +87,407 @@
  ],
  "skeemid": [
   {
-   "tyyp": "voog",
-   "pealkiri": "Kuidas vaade on muutunud",
-   "sammud": [
+   "tyyp": "excalidraw",
+   "pealkiri": "Kuidas vaade kuriteo põhjusele on muutunud",
+   "alt": "Vanim vaade: kurjad hinged ja deemonid → Kinnised asutused → 18. sajand: vaba ja ratsionaalne otsus → Valgustusaeg → Lähiajalugu",
+   "elemendid": [
     {
-     "pealkiri": "Kurjad hinged ja deemonid",
-     "tekst": "Käitumist juhivad kurjad jõud → rõhk karistamisel; usuti, et süütu jääb Jumala abil terveks."
+     "type": "rectangle",
+     "id": "b17",
+     "x": 30,
+     "y": 0,
+     "width": 420,
+     "height": 97,
+     "backgroundColor": "#ffc9c9",
+     "fillStyle": "solid",
+     "strokeColor": "#ef4444",
+     "label": {
+      "text": "Vanim vaade: kurjad hinged ja deemonid\nrõhk karistamisel",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "pealkiri": "18. sajand: vaba ja ratsionaalne otsus",
-     "tekst": "Kuritegu järgneb, kui isiklik võit kaalub üles kaotuse."
+     "type": "arrow",
+     "id": "a18",
+     "x": 240,
+     "y": 101,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
     },
     {
-     "pealkiri": "Kinnised asutused ja psühholoogia",
-     "tekst": "Vanglates oli palju raskete vaimsete häiretega inimesi → vaja oli muud kui vangistus ja karistus; vanglad lubasid esimeste seas psühholooge tööle."
+     "type": "rectangle",
+     "id": "b19",
+     "x": 30,
+     "y": 141,
+     "width": 420,
+     "height": 97,
+     "backgroundColor": "#ffd8a8",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "Kinnised asutused\nkeeruline sihtrühm; vanglad lubasid esimeste seas psühholooge",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "pealkiri": "Lähiajalugu",
-     "tekst": "Palju eksperimente, kuid püsib uskumus, et karistus hoiab kuritegudest eemale."
+     "type": "arrow",
+     "id": "a20",
+     "x": 240,
+     "y": 242,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b21",
+     "x": 30,
+     "y": 282,
+     "width": 420,
+     "height": 118,
+     "backgroundColor": "#fff3bf",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "18. sajand: vaba ja ratsionaalne otsus\nkui võit kaalub üles kaotuse, järgneb kuritegu",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a22",
+     "x": 240,
+     "y": 404,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b23",
+     "x": 30,
+     "y": 444,
+     "width": 420,
+     "height": 97,
+     "backgroundColor": "#a5d8ff",
+     "fillStyle": "solid",
+     "strokeColor": "#4a9eed",
+     "label": {
+      "text": "Valgustusaeg\nkaristusel 4 põhjust; utilitaarne vaade",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a24",
+     "x": 240,
+     "y": 545,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b25",
+     "x": 30,
+     "y": 585,
+     "width": 420,
+     "height": 97,
+     "backgroundColor": "#d0bfff",
+     "fillStyle": "solid",
+     "strokeColor": "#8b5cf6",
+     "label": {
+      "text": "Lähiajalugu\npüsib uskumus, et karistus hoiab eemale",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
     }
    ]
   },
   {
-   "tyyp": "pyramiid",
-   "pealkiri": "Karistuse neli põhjust valgustusaja järgi",
-   "astmed": [
+   "tyyp": "excalidraw",
+   "pealkiri": "Karistuse neli põhjust (valgustusaeg)",
+   "alt": "1. Ennetada kuritegusid → 2. Suunata kergemate kuritegude poole → 3. Vähendada kuriteo kahju → 4. Teha seda väikseima kuluga",
+   "elemendid": [
     {
-     "pealkiri": "1. Ennetada kuritegusid",
-     "tekst": "esimene põhjus"
+     "type": "rectangle",
+     "id": "b26",
+     "x": 0,
+     "y": 330,
+     "width": 230,
+     "height": 92,
+     "backgroundColor": "#a5d8ff",
+     "fillStyle": "solid",
+     "strokeColor": "#4a9eed",
+     "label": {
+      "text": "1. Ennetada kuritegusid",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "pealkiri": "2. Suunata kergemate kuritegude poole",
-     "tekst": "kui ennetada ei õnnestu"
+     "type": "arrow",
+     "id": "a27",
+     "x": 172,
+     "y": 326,
+     "width": -20,
+     "height": -10,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       -20,
+       -10
+      ]
+     ],
+     "strokeColor": "#757575",
+     "endArrowhead": "arrow"
     },
     {
-     "pealkiri": "3. Vähendada kuriteo kahju"
+     "type": "rectangle",
+     "id": "b28",
+     "x": 83,
+     "y": 220,
+     "width": 230,
+     "height": 92,
+     "backgroundColor": "#c3fae8",
+     "fillStyle": "solid",
+     "strokeColor": "#06b6d4",
+     "label": {
+      "text": "2. Suunata kergemate kuritegude poole\nkui ennetada ei õnnestu",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "pealkiri": "4. Teha seda võimalikult väikese kuluga",
-     "toon": "b"
+     "type": "arrow",
+     "id": "a29",
+     "x": 256,
+     "y": 216,
+     "width": -20,
+     "height": -10,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       -20,
+       -10
+      ]
+     ],
+     "strokeColor": "#757575",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b30",
+     "x": 167,
+     "y": 110,
+     "width": 230,
+     "height": 92,
+     "backgroundColor": "#fff3bf",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "3. Vähendada kuriteo kahju",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a31",
+     "x": 339,
+     "y": 106,
+     "width": -20,
+     "height": -10,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       -20,
+       -10
+      ]
+     ],
+     "strokeColor": "#757575",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b32",
+     "x": 250,
+     "y": 0,
+     "width": 230,
+     "height": 92,
+     "backgroundColor": "#b2f2bb",
+     "fillStyle": "solid",
+     "strokeColor": "#22c55e",
+     "label": {
+      "text": "4. Teha seda väikseima kuluga",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "text",
+     "id": "t33",
+     "x": 0,
+     "y": 444,
+     "text": "Lisaks utilitaarne vaade: karistus kuriteoga proportsioonis.",
+     "fontSize": 16,
+     "strokeColor": "#757575"
     }
    ]
   },
   {
-   "tyyp": "kaalud",
+   "tyyp": "excalidraw",
    "pealkiri": "Uskumus ja uuringud",
-   "vasak": {
-    "silt": "Uskumus",
-    "pealkiri": "Karistus hoiab eemale",
-    "tekst": "karistuse risk hoiab kurjategijad ja ühiskonna kuritegudest eemal"
-   },
-   "parem": {
-    "silt": "Uuringud",
-    "pealkiri": "Tõendid on nõrgad",
-    "tekst": "erilist teaduslikku tõestust pole; vähesed leitud efektid on nõrgad"
-   },
-   "all": [
-    "Karistada saamine üksinda ei hoia eemale ei varasemaid kurjategijaid ega ühiskonda."
+   "alt": "Uskumus: Karistuse risk hoiab kurjategijad ja ühiskonna kuritegudest eemal. Uuringud: Erilist teaduslikku tõestust pole; Vähesed leitud efektid on nõrgad",
+   "elemendid": [
+    {
+     "type": "text",
+     "id": "t34",
+     "x": 10,
+     "y": 0,
+     "text": "Uskumus",
+     "fontSize": 18,
+     "strokeColor": "#1e1e1e"
+    },
+    {
+     "type": "text",
+     "id": "t35",
+     "x": 250,
+     "y": 0,
+     "text": "Uuringud",
+     "fontSize": 18,
+     "strokeColor": "#1e1e1e"
+    },
+    {
+     "type": "rectangle",
+     "id": "b36",
+     "x": 0,
+     "y": 34,
+     "width": 230,
+     "height": 90,
+     "backgroundColor": "#ffd8a8",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "Karistuse risk hoiab kurjategijad ja ühiskonna kuritegudest eemal",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "rectangle",
+     "id": "b37",
+     "x": 250,
+     "y": 34,
+     "width": 230,
+     "height": 70,
+     "backgroundColor": "#a5d8ff",
+     "fillStyle": "solid",
+     "strokeColor": "#4a9eed",
+     "label": {
+      "text": "Erilist teaduslikku tõestust pole",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "rectangle",
+     "id": "b38",
+     "x": 250,
+     "y": 118,
+     "width": 230,
+     "height": 70,
+     "backgroundColor": "#a5d8ff",
+     "fillStyle": "solid",
+     "strokeColor": "#4a9eed",
+     "label": {
+      "text": "Vähesed leitud efektid on nõrgad",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    }
    ]
   }
  ],

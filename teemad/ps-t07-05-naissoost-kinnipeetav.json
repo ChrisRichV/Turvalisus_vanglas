@@ -59,28 +59,120 @@
  ],
  "skeemid": [
   {
-   "tyyp": "trepp",
-   "pealkiri": "Kolm astet",
-   "astmed": [
+   "tyyp": "excalidraw",
+   "pealkiri": "Teekondade teooria",
+   "alt": "Negatiivsed elukogemused → Toimetulek → Ellujäämise tegevused",
+   "elemendid": [
     {
-     "silt": "01",
-     "pealkiri": "Faktorid",
-     "tekst": "ei ole naistele unikaalsed, kuid **mõjuvad neile unikaalselt**"
+     "type": "rectangle",
+     "id": "b223",
+     "x": 0,
+     "y": 220,
+     "width": 230,
+     "height": 92,
+     "backgroundColor": "#ffc9c9",
+     "fillStyle": "solid",
+     "strokeColor": "#ef4444",
+     "label": {
+      "text": "Negatiivsed elukogemused\nväärkohtlemine, suhted, vaesus",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "silt": "02",
-     "pealkiri": "Toimetulek",
-     "tekst": "kodust ärajooksmine ja/või ainete kuritarvitamine",
-     "toon": "b"
+     "type": "arrow",
+     "id": "a224",
+     "x": 172,
+     "y": 216,
+     "width": 22,
+     "height": -10,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       22,
+       -10
+      ]
+     ],
+     "strokeColor": "#757575",
+     "endArrowhead": "arrow"
     },
     {
-     "silt": "03",
-     "pealkiri": "Ellujäämine",
-     "tekst": "prostitutsioon, narkootikumidega äritsemine, röövimine",
-     "toon": "b"
+     "type": "rectangle",
+     "id": "b225",
+     "x": 125,
+     "y": 110,
+     "width": 230,
+     "height": 92,
+     "backgroundColor": "#ffd8a8",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "Toimetulek\nkodust ärajooksmine, ained",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a226",
+     "x": 298,
+     "y": 106,
+     "width": 22,
+     "height": -10,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       22,
+       -10
+      ]
+     ],
+     "strokeColor": "#757575",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b227",
+     "x": 250,
+     "y": 0,
+     "width": 230,
+     "height": 92,
+     "backgroundColor": "#d0bfff",
+     "fillStyle": "solid",
+     "strokeColor": "#8b5cf6",
+     "label": {
+      "text": "Ellujäämise tegevused\nprostitutsioon, narkoäri, röov",
+      "fontSize": 16
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "text",
+     "id": "t228",
+     "x": 0,
+     "y": 334,
+     "text": "Tegurid ei ole naistele unikaalsed, kuid mõjuvad neile unikaalselt.",
+     "fontSize": 16,
+     "strokeColor": "#757575"
     }
-   ],
-   "tipp": "teekond kuriteoni"
+   ]
+  },
+  {
+   "tyyp": "mermaid",
+   "pealkiri": "Naised erinevad vangistussüsteemis",
+   "alt": "Teistsugune tervishoid; laste ja sünnitusega seotud eripärad; meeste programmid kantakse lihtsalt üle.",
+   "kood": "mindmap\n  root((Naissoost kinnipeetav))\n    Teistsugune tervishoid\n    Laste ja sünnitusega seotud eripärad\n    Meeste programmid kantakse lihtsalt üle"
   }
  ],
  "inspektor": {

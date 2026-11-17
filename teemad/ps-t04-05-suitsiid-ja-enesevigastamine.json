@@ -90,6 +90,18 @@
  ],
  "skeemid": [
   {
+   "tyyp": "mermaid",
+   "pealkiri": "Enesevigastajate suitsiidirisk",
+   "alt": "Enesevigastajatel on 30 korda kõrgem suitsiidirisk kui tavapopulatsioonil.",
+   "kood": "xychart-beta\n  title \"Suitsiidirisk võrreldes tavapopulatsiooniga\"\n  x-axis [\"Tavapopulatsioon\", \"Enesevigastajad\"]\n  y-axis \"korda\" 0 --> 30\n  bar [1, 30]"
+  },
+  {
+   "tyyp": "mermaid",
+   "pealkiri": "Põhjused vanglas",
+   "alt": "Vaimse tervise häired, sotsiaalne isolatsioon, traumad ja füüsilise tervise probleemid, sotsiaalmajanduslikud tegurid.",
+   "kood": "mindmap\n  root((Enesevigastamine ja suitsiidikatse))\n    Vaimse tervise häired\n      sõltuvused, psüühika- ja isiksushäired\n    Sotsiaalne isolatsioon\n      perest eraldatus, üksindus\n    Traumad ja füüsiline tervis\n    Sotsiaalmajanduslikud tegurid\n      madal haridus, töötus"
+  },
+  {
    "tyyp": "kaardid",
    "pealkiri": "Kes on vanglas suurema riskiga",
    "kaardid": [

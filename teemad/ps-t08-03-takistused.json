@@ -91,6 +91,12 @@
     }
    ],
    "kitsad": true
+  },
+  {
+   "tyyp": "mermaid",
+   "pealkiri": "Miks takistused tekivad",
+   "alt": "Varasemad kogemused, usalduse puudus, motivatsiooni kõikumine, rollide ebaselgus, asutuse piirangud.",
+   "kood": "mindmap\n  root((Takistused))\n    Kliendi varasemad kogemused\n    Usalduse puudumine\n    Motivatsiooni kõikumine\n    Rollide ebaselgus\n    Asutuse piirangud ja pinged"
   }
  ],
  "inspektor": {

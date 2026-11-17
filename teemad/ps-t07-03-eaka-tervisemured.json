@@ -55,26 +55,149 @@
  ],
  "skeemid": [
   {
-   "tyyp": "voog",
+   "tyyp": "excalidraw",
    "pealkiri": "Miks dementsust märgatakse hilja",
-   "sammud": [
+   "alt": "Algav kognitiivne langus → Vangla rutiin varjab → Teised kiusavad ja ohvristavad → Eakas muutub agressiivseks",
+   "elemendid": [
     {
-     "pealkiri": "Algav kognitiivne langus",
-     "tekst": "mälu ja arusaamine nõrgenevad"
+     "type": "rectangle",
+     "id": "b206",
+     "x": 30,
+     "y": 0,
+     "width": 420,
+     "height": 97,
+     "backgroundColor": "#a5d8ff",
+     "fillStyle": "solid",
+     "strokeColor": "#4a9eed",
+     "label": {
+      "text": "Algav kognitiivne langus\nmälu ja arusaamine nõrgenevad",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "pealkiri": "Rutiin varjab",
-     "tekst": "ühesugune päevakord – harjumuse jõul saab hakkama"
+     "type": "arrow",
+     "id": "a207",
+     "x": 240,
+     "y": 101,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
     },
     {
-     "pealkiri": "Kiusamine ja ohvristamine",
-     "tekst": "teised kinnipeetavad märkavad nõrkust enne ametnikke"
+     "type": "rectangle",
+     "id": "b208",
+     "x": 30,
+     "y": 141,
+     "width": 420,
+     "height": 97,
+     "backgroundColor": "#fff3bf",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "Vangla rutiin varjab\nühesugune päevakord – harjumuse jõul saab hakkama",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
     },
     {
-     "pealkiri": "Agressiivsus ja konfliktid",
-     "tekst": "alles nüüd märgatakse, et midagi on valesti"
+     "type": "arrow",
+     "id": "a209",
+     "x": 240,
+     "y": 242,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b210",
+     "x": 30,
+     "y": 282,
+     "width": 420,
+     "height": 55,
+     "backgroundColor": "#ffd8a8",
+     "fillStyle": "solid",
+     "strokeColor": "#f59e0b",
+     "label": {
+      "text": "Teised kiusavad ja ohvristavad",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
+    },
+    {
+     "type": "arrow",
+     "id": "a211",
+     "x": 240,
+     "y": 341,
+     "width": 0,
+     "height": 36,
+     "points": [
+      [
+       0,
+       0
+      ],
+      [
+       0,
+       36
+      ]
+     ],
+     "strokeColor": "#1e1e1e",
+     "endArrowhead": "arrow"
+    },
+    {
+     "type": "rectangle",
+     "id": "b212",
+     "x": 30,
+     "y": 381,
+     "width": 420,
+     "height": 97,
+     "backgroundColor": "#ffc9c9",
+     "fillStyle": "solid",
+     "strokeColor": "#ef4444",
+     "label": {
+      "text": "Eakas muutub agressiivseks\nkonflikte tuleb juurde – alles nüüd märgatakse",
+      "fontSize": 17
+     },
+     "roundness": {
+      "type": 3
+     }
     }
    ]
+  },
+  {
+   "tyyp": "mermaid",
+   "pealkiri": "Hirm, haigus ja varjamine",
+   "alt": "Eakas kardab vanglas surra ja muretseb arstiabi pärast, kuid varjab tervisemuresid, et säilitada staatust ja väärikust.",
+   "kood": "flowchart LR\n  E([\"Eakas kinnipeetav<br/>hapra tervisega\"]) --> H[\"Mõtleb vanglas<br/>suremisest\"]\n  E --> M[\"Mure: kas kriisis<br/>saab arstiabi?\"]\n  E --> V[\"Varjab tervisemuresid\"]\n  V --> S[\"Põhjus: soov säilitada<br/>staatust ja väärikust\"]"
   }
  ],
  "inspektor": {

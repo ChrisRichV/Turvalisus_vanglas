@@ -108,6 +108,12 @@
  ],
  "skeemid": [
   {
+   "tyyp": "mermaid",
+   "pealkiri": "Ained ja kuritegevus: vahendajad",
+   "alt": "Otsest seost ei ole; seos tekib vahendajate kaudu: vähene enesekontroll, hälbeline eluviis, side kriminaalsete isikutega.",
+   "kood": "flowchart LR\n  A[\"Ainete tarvitamine\"] --- M1[\"Vähene enesekontroll\"] --> K([\"Kuritegevus\"])\n  A --- M2[\"Hälbeline eluviis\"] --> K\n  A --- M3[\"Side kriminaalsete isikutega\"] --> K"
+  },
+  {
    "tyyp": "vordlus",
    "pealkiri": "Kaks tüüpi aineid tarvitavaid kurjategijaid",
    "veerud": [
